@@ -69,6 +69,11 @@ const config: Config = {
           light: '#61dafb',
           DEFAULT: '#3498db',
           dark: '#2980b9',
+        },
+        purple: {
+          light: '#a661fb',
+          DEFAULT: '#8a34db',
+          dark: '#6f29b9',
         }
       },
       keyframes: {
