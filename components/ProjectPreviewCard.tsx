@@ -16,13 +16,13 @@ const ProjectPreviewCard: React.FC<Props> = ({
 	description
 }) => {
 	return (
-		<div className="bg-white rounded-2xl shadow-lg overflow-hidden transition-transform duration-150 hover:-translate-y-2">
-			<Link href={href} className="h-48 bg-gradient-to-r from-blue-light to-blue-dark flex items-center justify-center relative">
+		<div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150 hover:-translate-y-2">
+			<Link href={href} className="h-48 block relative">
 				<Image src={imgSrc} alt="Example App" fill className="object-cover" />
 			</Link>
 			<div className="p-6">
 				<h3 className="text-xl font-semibold mb-2">{title}</h3>
-				<p className="text-gray-600 mb-4">
+				<p className="text-card-foreground mb-4">
 					{description}
 				</p>
 				<Link href={href} className="text-blue font-medium hover:text-blue-dark">

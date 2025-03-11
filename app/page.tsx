@@ -10,16 +10,22 @@ import frozairImage from '@/public/frozair.png';
 import { useAnimateOnScroll } from "@/hooks/useAnimateOnScroll";
 import ProjectPreviewCard from "@/components/ProjectPreviewCard";
 import TwitchEmbed from "@/components/TwitchEmbed";
+import AnimatedBackground from "@/components/AnimatedBackground";
+import { useTheme } from "next-themes";
+import Button from "@/components/Button";
 
 export default function Home() {
   useAnimateOnScroll('.animate-on-scroll');
+  const { theme } = useTheme();
 
   return (
     <main className="flex-1">
+      <AnimatedBackground numParticles={100} />
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative">
         <div className="container mx-auto text-center">
-          <div className="inline-block mb-4 py-1 px-3 rounded-full bg-blue-50 text-blue-600 text-sm font-medium animate-fade-in opacity-0">
+          <div className="inline-block mb-4 py-1 px-3 rounded-full bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 text-sm font-medium animate-fade-in opacity-0">
             Mobile App Developer, Content Creator, Twitch Streamer, &amp; Music Engineer
           </div>
 
@@ -31,7 +37,7 @@ export default function Home() {
           </h1>
 
           <p
-              className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 animate-fade-in opacity-0"
+              className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 animate-fade-in opacity-0"
               style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
           >
             I'm a mobile app developer with an expertise in Kotlin Multiplatform. I have a passion for building apps, sharing knowledge, and bringing ideas to life together with the community.
@@ -41,25 +47,15 @@ export default function Home() {
               className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in opacity-0"
               style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
           >
-            <Link
-                href="/projects"
-                className="px-8 py-3 bg-blue text-white font-medium rounded-lg shadow-md hover:bg-blue-dark transition-colors transition-transform duration-150 transform hover:-translate-y-1"
-            >
-              View My Projects
-            </Link>
-            <Link
-                href="/about"
-                className="px-8 py-3 bg-white text-blue border border-blue rounded-lg hover:bg-blue-50 transition-colors transition-transform duration-150 transform hover:-translate-y-1"
-            >
-              About Me
-            </Link>
+            <Button href="/projects">View My Projects</Button>
+            <Button href="/about" variant="outline">About Me</Button>
           </div>
 
           <div
               className="mt-12"
           >
             <p
-              className="text-gray-500 mb-4 animate-fade-in opacity-0"
+              className="text-gray-600 dark:text-gray-300 mb-4 animate-fade-in opacity-0"
               style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
             >Connect with me on</p>
             <SocialLinks className="justify-center" />
@@ -68,11 +64,11 @@ export default function Home() {
       </section>
 
       {/* Featured Projects Preview */}
-      <section className="py-20 px-4 bg-white relative">
+      <section className="py-20 px-4 bg-background-secondary relative">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-on-scroll opacity-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               A showcase of my latest Android and Kotlin Multiplatform applications
             </p>
           </div>
@@ -101,12 +97,7 @@ export default function Home() {
 
           </div>
           <div className="text-center mt-12">
-            <Link
-                href="/projects"
-                className="inline-block px-8 py-3 bg-blue text-white font-medium rounded-lg shadow hover:bg-blue-dark transition-colors hover:shadow-lg"
-            >
-              View All Projects
-            </Link>
+            <Button href="/projects">View All Projects</Button>
           </div>
         </div>
       </section>
@@ -117,26 +108,30 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-on-scroll opacity-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Watch Me Build</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">Catch me on Twitch where I build Kotlin Multiplatform Apps, along with many shenanigans caused by my viewers</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Catch me on Twitch where I build Kotlin Multiplatform Apps, along with many shenanigans caused by my viewers</p>
           </div>
           <div className="animate-on-scroll opacity-0">
             <TwitchEmbed channel="fr0zair" />
           </div>
           <div className="flex items-center justify-center gap-4 mt-12">
-            <Link
-                href="/projects"
-                className="flex gap-2 items-center justify-center px-8 py-3 bg-blue text-white font-medium rounded-lg shadow hover:bg-blue-dark transition-colors hover:shadow-lg"
+            <Button
+              as="a"
+              href="https://www.twitch.tv"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Twitch size={20} />
-              Twitch
-            </Link>
-            <Link
-                href="/projects"
-                className="flex gap-2 items-center justify-center px-8 py-3 bg-blue text-white font-medium rounded-lg shadow hover:bg-blue-dark transition-colors hover:shadow-lg"
+              Watch on Twitch
+            </Button>
+            <Button
+              as="a"
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Youtube size={20} />
-              YouTube
-            </Link>
+              Watch on Youtube
+            </Button>
           </div>
         </div>
       </section>
@@ -144,7 +139,7 @@ export default function Home() {
       {/* About Preview */}
       <section className="py-20 px-4 relative animate-on-scroll">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto glass-panel rounded-2xl p-8 md:p-12">
+          <div className="max-w-4xl mx-auto glass-panel dark:shadow-blue-light/10 dark:border dark:border-card-border rounded-2xl p-8 md:p-12">
             <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
               <div className="w-16 h-1 bg-blue mx-auto"></div>
@@ -152,18 +147,13 @@ export default function Home() {
 
             <div className="flex gap-12">
               <Image src={frozairImage} alt="Frozair after taking a pickle shot" height={200} className="rounded-2xl" />
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
                 I'm an experienced Android developer specializing in Kotlin Multiplatform development, creating high-quality mobile applications that deliver exceptional user experiences. When I'm not coding, I stream on Twitch, sharing my development process and connecting with the developer community.
               </p>
             </div>
 
             <div className="text-center mt-8">
-              <Link
-                  href="/about"
-                  className="inline-block px-8 py-3 bg-blue text-white font-medium rounded-lg shadow hover:bg-blue-dark transition-colors hover:shadow-lg"
-              >
-                Learn More About Me
-              </Link>
+              <Button href="/about">Learn More About Me</Button>
             </div>
           </div>
         </div>
