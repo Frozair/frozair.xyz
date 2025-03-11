@@ -6,12 +6,13 @@ interface Props {
   numParticles?: number;
   particleRGB?: string;
   particleOpacity?: string | number;
+  bgColor?: string;
 }
 
 const AnimatedBackground: React.FC<Props> = ({
   numParticles = 50,
   particleRGB = '51, 153, 255',
-  particleOpacity = Math.random() * 0.2
+  particleOpacity = Math.min(Math.max(Math.random() * 0.5, 0.5), 0.3),
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -79,14 +80,6 @@ const AnimatedBackground: React.FC<Props> = ({
 
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
-      // Create gradient background
-      const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-      gradient.addColorStop(0, 'rgba(246, 249, 252, 0.8)');
-      gradient.addColorStop(1, 'rgba(233, 242, 250, 0.8)');
-      
-      ctx.fillStyle = gradient;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
       
       for (const particle of particlesArray) {
         particle.update();
