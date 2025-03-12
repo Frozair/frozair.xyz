@@ -96,7 +96,7 @@ export default function Home() {
             />
 
           </div>
-          <div className="text-center mt-12">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
             <Button href="/projects">View All Projects</Button>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="animate-on-scroll opacity-0">
             <TwitchEmbed channel="fr0zair" />
           </div>
-          <div className="flex items-center justify-center gap-4 mt-12">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
             <Button
               as="a"
               href="https://www.twitch.tv"
@@ -145,14 +145,14 @@ export default function Home() {
               <div className="w-16 h-1 bg-blue mx-auto"></div>
             </div>
 
-            <div className="flex gap-12">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-12">
               <Image src={frozairImage} alt="Frozair after taking a pickle shot" height={200} className="rounded-2xl" />
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-lg text-center sm:text-left text-gray-600 dark:text-gray-300 mb-6">
                 I'm an experienced Android developer specializing in Kotlin Multiplatform development, creating high-quality mobile applications that deliver exceptional user experiences. When I'm not coding, I stream on Twitch, sharing my development process and connecting with the developer community.
               </p>
             </div>
 
-            <div className="text-center mt-8">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-8">
               <Button href="/about">Learn More About Me</Button>
             </div>
           </div>
