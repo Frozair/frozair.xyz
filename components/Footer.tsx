@@ -9,17 +9,17 @@ const Footer: React.FC = () => {
       <footer className="py-12 px-4 border-t border-gray-100 dark:border-gray-700">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div>
+            <div className="flex flex-col items-center md:items-start">
               <h3 className="text-xl font-bold mb-4 blue-gradient-text">Frozair</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-gray-600 dark:text-gray-300 text-center md:text-left mb-6">
                 Android developer and Twitch streamer specializing in Kotlin Multiplatform development.
               </p>
               <SocialLinks />
             </div>
 
-            <div>
+            <div className="flex flex-col items-center md:items-start">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-center md:text-left">
                 <li>
                   <Link
                       href="/"
@@ -47,9 +47,9 @@ const Footer: React.FC = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="flex flex-col items-center md:items-start">
               <h3 className="text-lg font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-center md:text-left">
                 <li>
                   <Link
                       href="/privacy"
