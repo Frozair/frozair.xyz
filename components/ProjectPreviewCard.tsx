@@ -16,7 +16,7 @@ const ProjectPreviewCard: React.FC<Props> = ({
 	description
 }) => {
 	return (
-		<div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150 hover:-translate-y-2">
+		<div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150 hover:scale-105">
 			<Link href={href} className="h-48 block relative">
 				<Image src={imgSrc} alt="Example App" fill className="object-cover" />
 			</Link>
