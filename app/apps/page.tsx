@@ -73,7 +73,7 @@ export default function AppsPage() {
           </section>
 
           {/* App Idea Callout */}
-          <section className="mb-24 px-4 relative animate-on-scroll">
+          <section className="mb-24 px-4 relative animate-on-scroll opacity-0">
             <div className="container mx-auto">
               <div className="max-w-4xl mx-auto glass-panel dark:shadow-blue-light/10 dark:border dark:border-card-border rounded-2xl p-8 md:p-12">
                 <div className="text-center mb-8">
