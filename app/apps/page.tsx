@@ -8,7 +8,7 @@ export default function AppsPage() {
   return (
       <AnimateOnScrollProvider targetClass='.animate-on-scroll'>
         <main className="flex-1">
-          <section className="pt-32 pb-16 px-4 relative">
+          <section className="pt-32 pb-24 px-4 relative">
             <div className="container mx-auto">
               <h1
                   className="text-4xl md:text-5xl font-bold mb-6 text-center animate-fade-in opacity-0"
@@ -73,7 +73,7 @@ export default function AppsPage() {
           </section>
 
           {/* App Idea Callout */}
-          <section className="pb-16 px-4 relative animate-on-scroll">
+          <section className="mb-24 px-4 relative animate-on-scroll">
             <div className="container mx-auto">
               <div className="max-w-4xl mx-auto glass-panel dark:shadow-blue-light/10 dark:border dark:border-card-border rounded-2xl p-8 md:p-12">
                 <div className="text-center mb-8">
@@ -81,11 +81,9 @@ export default function AppsPage() {
                   <div className="w-16 h-1 bg-blue mx-auto"></div>
                 </div>
 
-                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-12">
-                  <p className="text-lg text-center text-gray-600 dark:text-gray-300 mb-6">I'm always open to new projects and collaborations. If you have an app idea or need help with development, let's talk!</p>
-                </div>
+                <p className="text-lg text-center text-gray-600 dark:text-gray-300 mb-8">I'm always open to new projects and collaborations. If you have an app idea or need help with development, let's talk!</p>
 
-                <div className="flex flex-col items-center justify-center mt-8">
+                <div className="flex flex-col items-center justify-center mt-8 text-center">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">Connect with me on</p>
                   <SocialLinks />
                 </div>
