@@ -1,7 +1,14 @@
-import { useEffect } from "react";
+'use client';
 
-export const useAnimateOnScroll = (targetClass: string) => {
-	useEffect(() => {
+import React from "react";
+
+interface Props {
+	targetClass: string;
+	children: React.ReactNode;
+}
+
+export const AnimateOnScrollProvider: React.FC<Props> = ({ targetClass, children }) => {
+	React.useEffect(() => {
 		// Apply initial animations
 		const elementsToAnimate = document.querySelectorAll(targetClass);
 
@@ -42,4 +49,8 @@ export const useAnimateOnScroll = (targetClass: string) => {
 			});
 		};
 	}, []);
+
+	return (<>
+		{children}
+	</>);
 }
