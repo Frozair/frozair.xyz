@@ -140,7 +140,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-12">
-                <Image src={frozairImage} alt="Frozair after taking a pickle shot" height={200} className="rounded-2xl" />
+                <Image src={frozairImage} alt="Frozair after taking a pickle shot" height={200} className="rounded-full border-8 border-white dark:border-gray-300 shadow-2xl" />
                 <p className="text-lg text-center sm:text-left text-gray-600 dark:text-gray-300 mb-6">
                   I'm an experienced Android developer specializing in Kotlin Multiplatform development, creating high-quality mobile applications that deliver exceptional user experiences. When I'm not coding, I stream on Twitch, sharing my development process and connecting with the developer community.
                 </p>
