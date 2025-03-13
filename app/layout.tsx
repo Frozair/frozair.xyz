@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navigation } from '@/components/Navigation';
-import AnimatedBackground from "@/components/AnimatedBackground";
 import Footer from "@/components/Footer";
+import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
 
 const inter = Inter({ subsets: ['latin'] });
 
