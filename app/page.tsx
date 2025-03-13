@@ -114,7 +114,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitch size={20} />
+                <Twitch size={20} className="shrink-0" />
                 Watch on Twitch
               </Button>
               <Button
@@ -123,7 +123,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Youtube size={20} />
+                <Youtube size={20} className="shrink-0" />
                 Watch on Youtube
               </Button>
             </div>
