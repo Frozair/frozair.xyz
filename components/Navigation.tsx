@@ -53,15 +53,15 @@ export function Navigation() {
 							Home
 						</Link>
 						<Link
-							href="/projects"
+							href="/apps"
 							className={cn(
 								'nav-link',
 								{
-									'nav-link-active': isActive('/projects')
+									'nav-link-active': isActive('/apps')
 								}
 							)}
 						>
-							Projects
+							Apps
 						</Link>
 						<Link
 							href="/about"
@@ -133,17 +133,17 @@ export function Navigation() {
 							Home
 						</Link>
 						<Link
-							href="/projects"
+							href="/apps"
 							className={cn(
 								'px-3 py-4 text-lg',
 								{
-									'text-blue dark:text-blue-light font-medium': isActive('/projects'),
-									'text-gray-700 dark:text-gray-300': !isActive('/projects')
+									'text-blue dark:text-blue-light font-medium': isActive('/apps'),
+									'text-gray-700 dark:text-gray-300': !isActive('/apps')
 								}
 							)}
 							onClick={() => setIsMenuOpen(false)}
 						>
-							Projects
+							Apps
 						</Link>
 						<Link
 							href="/about"
