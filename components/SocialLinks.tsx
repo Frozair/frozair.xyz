@@ -8,7 +8,7 @@ interface SocialLinksProps {
 
 const SocialLinks: React.FC<SocialLinksProps> = ({ className = '' }) => {
 	return (
-		<div className={`flex items-center space-x-4 ${className}`}>
+		<div className={`flex flex-wrap justify-center items-center gap-4 ${className}`}>
 			<span
 				className="animate-fade-in opacity-0"
 				style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
