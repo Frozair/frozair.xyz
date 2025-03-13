@@ -41,7 +41,7 @@ export default function Home() {
                 className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in opacity-0"
                 style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
             >
-              <Button href="/projects">View My Projects</Button>
+              <Button href="/apps">View My Apps</Button>
               <Button href="/about" variant="outline">About Me</Button>
             </div>
 
@@ -57,11 +57,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Projects Preview */}
+        {/* Featured Apps Preview */}
         <section className="py-20 px-4 bg-background-secondary relative">
           <div className="container mx-auto">
             <div className="text-center mb-16 animate-on-scroll opacity-0">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Apps</h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 A showcase of my latest Android and Kotlin Multiplatform applications
               </p>
@@ -91,7 +91,7 @@ export default function Home() {
 
             </div>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
-              <Button href="/projects">View All Projects</Button>
+              <Button href="/apps">View All Apps</Button>
             </div>
           </div>
         </section>
