@@ -1,194 +1,119 @@
-import Link from 'next/link';
-import { ArrowDownToLine, CheckCircle2 } from 'lucide-react';
+import googlePlayBadgeImage from "@/public/google-play-badge.png";
+import appleAppStoreSvg from "@/public/apple-app-store.svg";
+import PhoneBebySvg from "@/public/phone-beby-optimized.svg";
+import React from "react";
+import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
+import Image from "next/image";
+import Button from "@/components/Button";
 
 export default function BebyPage() {
   return (
-    <main className="pb-16">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/10 to-background pt-24 pb-12">
-        <div className="container">
-          <div className="flex flex-col items-center text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Beby – The Smart Baby Tracker
-            </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mb-8">
-              Helping parents track and manage their baby's growth, feeding schedules, sleep patterns, and more—all in one place!
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <a
-                href="#"
-                className="inline-flex items-center px-6 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition-opacity">
-                <ArrowDownToLine className="mr-2 h-4 w-4" />
-                Download on Google Play
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center px-6 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition-opacity">
-                <ArrowDownToLine className="mr-2 h-4 w-4" />
-                Download on App Store
-              </a>
+    <AnimateOnScrollProvider targetClass='.animate-on-scroll'>
+      <main className="flex-1">
+        <section className="pt-32 pb-24 px-1 md:px-4 relative">
+          <div className="container px-2 md:px-8 mx-auto">
+            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-12">
+              <div className="flex flex-col">
+                <h1
+                    className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left animate-fade-in opacity-0"
+                    style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
+                >
+                  Beby - Baby Gender Prediction App
+                </h1>
+                <p
+                    className="mb-16 text-xl text-gray-600 dark:text-gray-300 text-center md:text-left max-w-3xl mx-auto animate-fade-in opacity-0"
+                    style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
+                >
+                  The #1 baby gender prediction app for Android and iOS. Get a prediction for your baby that is right 50% of the time.
+                </p>
+                <div className="flex flex-col md:flex-row items-center gap-4">
+                  <a href="#">
+                    <Image src={googlePlayBadgeImage} alt="Download Beby on the Google Play Store" height={75} />
+                  </a>
+                  <a href="#">
+                    <Image src={appleAppStoreSvg} alt="Download Beby on the Apple App Store" height={75} />
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-center flex-grow">
+                <Image alt="Beby with phone" src={PhoneBebySvg} width={300} className="min-w-[8rem]" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* What is Beby? */}
-      <section className="py-16">
-        <div className="container">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">What is Beby?</h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              Beby is a modern baby-tracking app designed to help parents stay on top of their baby's daily routines. 
-              From feeding schedules to sleep tracking and growth milestones, Beby makes parenting easier by keeping 
-              everything organized in one place.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-4">👩‍🍼 Who is it for?</h3>
-            <ul className="space-y-3 mb-8">
-              <li className="flex items-start">
-                <CheckCircle2 className="h-6 w-6 mr-2 text-primary flex-shrink-0" />
-                <span>New parents who want to monitor their baby's habits.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle2 className="h-6 w-6 mr-2 text-primary flex-shrink-0" />
-                <span>Parents managing multiple babies.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle2 className="h-6 w-6 mr-2 text-primary flex-shrink-0" />
-                <span>Caregivers and babysitters needing an easy way to log activities.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
 
       {/* Key Features */}
-      <section className="py-16 bg-secondary">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[
-              {
-                title: 'Feeding Tracker',
-                description: 'Log bottle feeds, breastfeeding sessions, and solid foods.',
-              },
-              {
-                title: 'Sleep Monitoring',
-                description: 'Track naps and nighttime sleep duration.',
-              },
-              {
-                title: 'Growth Chart',
-                description: 'Monitor height, weight, and head circumference over time.',
-              },
-              {
-                title: 'Diaper Log',
-                description: 'Keep track of wet and dirty diapers to ensure baby\'s health.',
-              },
-              {
-                title: 'Medication Reminders',
-                description: 'Set alerts for vitamins, vaccines, and medications.',
-              },
-              {
-                title: 'Sync Across Devices',
-                description: 'Share data with your partner or caregivers.',
-              },
-            ].map((feature, index) => (
-              <div key={index} className="bg-card p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+        <section className="py-20 px-4 bg-background-secondary relative">
+          <div className="container px-2 md:px-8 mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 animate-fade-in opacity-0">Key Features</h2>
 
-      {/* Tech Stack */}
-      <section className="py-16">
-        <div className="container">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8">Tech Stack</h2>
-            <div className="bg-card p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">🛠 Built with:</h3>
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                  Language: Kotlin, Kotlin Multiplatform
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                  UI Framework: Jetpack Compose
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                  Backend: Firebase for authentication & data storage
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                  Storage: Secure local and cloud-based storage
-                </li>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in opacity-0">
+
+              {[
+                {
+                  title: 'Backed by Science',
+                  content: 'Beby uses the Chinese lunar calendar and the concepts of yin and yang, the five elements, and the eight trigrams to predict your baby\'s gender.'
+                },
+                {
+                  title: 'Multilingual',
+                  content: 'Currently Beby supports Spanish and English, with several more language translations planned for the near future.'
+                },
+                {
+                  title: 'Works on iOS and Android',
+                  content: 'Built using Kotlin Multiplatform, Beby supports both iOS and Android platforms.'
+                },
+              ].map(info => (
+                <div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150 hover:scale-105">
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">{info.title}</h3>
+                    <p className="text-card-foreground">
+                      {info.content}
+                    </p>
+                  </div>
+                </div>
+              ))}
+
+            </div>
+          </div>
+        </section>
+
+        {/* Changelog */}
+        <section className="py-20 px-4 relative">
+          <div className="container px-2 md:px-8 mx-auto">
+            <div className="max-w-3xl mx-auto animate-on-scroll opacity-0">
+              <h2 className="text-center text-3xl md:text-4xl font-bold mb-16">Changelog &amp; Updates</h2>
+              <h3 className="text-xl md:text-2xl font-bold mb-4 mt-8">Latest Version: v0.0.1</h3>
+              <ul className="list-disc">
+                <li>Spanish and English translations.</li>
+                <li>Dark mode support</li>
+              </ul>
+
+              <h3 className="text-xl md:text-2xl font-bold mb-4 mt-8">Planned Features</h3>
+              <ul className="list-disc">
+                <li>Spanish and English translations.</li>
+                <li>Dark mode support</li>
               </ul>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Changelog */}
-      <section className="py-16 bg-secondary">
-        <div className="container">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8">Changelog & Updates</h2>
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-xl font-semibold mb-4">📢 Latest Version: v1.0.0</h3>
-                <p className="text-muted-foreground">Initial Release! 🎉</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-4">🆕 Upcoming Features:</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-center">
-                    <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                    Dark mode support
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                    Customizable reminder notifications
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle2 className="h-5 w-5 mr-2 text-primary" />
-                    More detailed growth tracking
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
       {/* Legal */}
-      <section className="py-16">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">Legal & Privacy</h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              🔒 Your data is private and secure. Beby does not sell or share your data.
-            </p>
-            <div className="flex justify-center gap-4">
-              <Link
-                href="/legal/privacy-policy"
-                className="inline-flex items-center px-6 py-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/legal/terms-and-conditions"
-                className="inline-flex items-center px-6 py-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-              >
-                Terms & Conditions
-              </Link>
+      <section className="py-20 px-4 relative bg-background-secondary">
+        <div className="container px-2 md:px-8 mx-auto">
+          <div className="text-center max-w-3xl mx-auto animate-on-scroll opacity-0">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Legal &amp; Privacy</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Your data is private and secure. Beby does not sell or share your data.</p>
+
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-8">
+              <Button href="/privacy-policy" className="w-full md:w-auto">Privacy Policy</Button>
+              <Button href="/terms-and-conditions" className="w-full md:w-auto">Terms &amp; Conditions</Button>
             </div>
           </div>
         </div>
       </section>
-    </main>
+
+      </main>
+    </AnimateOnScrollProvider>
   );
 }
