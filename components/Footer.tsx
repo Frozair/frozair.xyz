@@ -52,18 +52,18 @@ const Footer: React.FC = () => {
               <ul className="space-y-2 text-center md:text-left">
                 <li>
                   <Link
-                      href="/privacy"
+                      href="/apps/beby/privacy"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
                   >
-                    Privacy Policy
+                    Beby Privacy Policy
                   </Link>
                 </li>
                 <li>
                   <Link
-                      href="/terms"
+                      href="/apps/terms-and-conditions"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
                   >
-                    Terms & Conditions
+                    Terms &amp; Conditions
                   </Link>
                 </li>
               </ul>
