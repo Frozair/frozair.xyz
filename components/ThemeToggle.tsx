@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Switch } from './ui/switch';
@@ -27,4 +30,4 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ className }) => {
 	);
 };
 
-export default ThemeToggle;
+export default dynamic(() => Promise.resolve(ThemeToggle), {ssr: false});
