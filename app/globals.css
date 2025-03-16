@@ -177,8 +177,23 @@
 	}
 }
 
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translateX(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 .animate-fade-in {
 	animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-fade-in-right {
+	animation: fadeInRight 0.8s ease forwards;
 }
 
 .animate-on-scroll {

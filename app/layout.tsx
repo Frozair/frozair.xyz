@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navigation } from '@/components/Navigation';
 import Footer from "@/components/Footer";
-import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
 import AnimatedBackground from "@/components/AnimatedBackground";
 import React from "react";
 
