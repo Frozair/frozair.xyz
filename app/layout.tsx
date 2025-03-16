@@ -5,6 +5,8 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navigation } from '@/components/Navigation';
 import Footer from "@/components/Footer";
 import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
+import AnimatedBackground from "@/components/AnimatedBackground";
+import React from "react";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <AnimatedBackground numParticles={100} />
           <div className="flex min-h-screen flex-col">
 
             <Navigation />

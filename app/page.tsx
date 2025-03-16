@@ -14,8 +14,6 @@ export default function Home() {
   return (
     <AnimateOnScrollProvider targetClass='.animate-on-scroll'>
       <main className="flex-1">
-        <AnimatedBackground numParticles={100} />
-
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-4 relative">
           <div className="container mx-auto text-center">

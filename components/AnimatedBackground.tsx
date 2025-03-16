@@ -109,7 +109,7 @@ const AnimatedBackground: React.FC<Props> = ({
   return (
     <canvas 
       ref={canvasRef}
-      className="absolute inset-0 -z-10 opacity-0"
+      className="fixed inset-0 -z-10 opacity-0"
       style={{ transitionDuration: '2500ms' }}
     />
   );
