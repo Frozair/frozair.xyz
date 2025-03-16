@@ -22,7 +22,7 @@ export default function AboutPage() {
               <p
                 className="mb-16 text-xl text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto animate-fade-in opacity-0"
                 style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
-              >Android developer, Kotlin Multiplatform export, and Twitch streamer</p>
+              >Android developer, Kotlin Multiplatform expert, and Twitch streamer</p>
 
               <div
                 className="max-w-4xl mx-auto glass-panel dark:shadow-blue-light/10 dark:border dark:border-card-border rounded-2xl p-8 md:p-12 animate-fade-in opacity-0"
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 animate-on-scroll opacity-0">My Journey</h2>
               </div>
 
-              <div className="relative flex flex-col gap-y-8 before:absolute before:inset-0 before:h-full before:w-px before:bg-gray-300 before:left-1/2 before:-translate-x-1/2 before:animate-on-scroll before:opacity-0 py-6">
+              <div className="relative flex flex-col gap-y-8 before:absolute before:inset-0 before:h-full before:w-px before:bg-gray-300 before:left-1/2 before:-translate-x-1/2 py-6">
 
                 <div className="flex flex-col sm:flex-row items-center justify-between bg-background sm:bg-transparent z-10 py-4 animate-on-scroll opacity-0">
                   <div className="w-full text-center sm:w-5/12 sm:text-right sm:pr-8">
