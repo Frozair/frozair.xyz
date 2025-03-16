@@ -2,7 +2,7 @@ export default function PrivacyPolicy() {
   return (
     <article className="prose prose-gray dark:prose-invert max-w-none">
       <h1>Privacy Policy</h1>
-      <p className="lead">Last updated: {new Date().toLocaleDateString()}</p>
+      <p className="lead">Last updated: 03/16/2025</p>
 
       <section>
         <h2>Introduction</h2>
