@@ -1,5 +1,11 @@
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy - Beby - The #1 Baby Gender Predictor App - Made by Frozair',
+  description: 'The privacy policy for Beby, the #1 Baby Gender Predictor App',
+};
 
 export default function PrivacyPage() {
   return (

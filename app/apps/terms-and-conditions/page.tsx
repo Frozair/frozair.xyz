@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: 'Terms and Conditions - Frozair - Android and Kotlin Multiplatform Developer',
+	description: 'Terms and conditions for acceptable use of all content and applications by Frozair.',
+};
 
 export default function TermsPage() {
 	return (

@@ -6,6 +6,12 @@ import Image from "next/image";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Beby - The #1 Baby Gender Predictor App - Made by Frozair',
+  description: 'Beby is the #1 Baby Gender Predictor App, available for both iOS and Android. Create with Kotlin Multiplatform.',
+};
 
 export default function BebyPage() {
   return (
