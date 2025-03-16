@@ -1,10 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import frozairImage from '@/public/frozair.png';
-import ProjectPreviewCard from '@/components/ProjectPreviewCard';
-import exampleAppImage from '@/public/example-app.png';
 import SocialLinks from "@/components/SocialLinks";
-import Button from "@/components/Button";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
 

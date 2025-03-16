@@ -6,10 +6,9 @@ import bebyAppImage from '@/public/beby_app.png';
 import frozairImage from '@/public/frozair.png';
 import ProjectPreviewCard from "@/components/ProjectPreviewCard";
 import TwitchEmbed from "@/components/TwitchEmbed";
-import AnimatedBackground from "@/components/AnimatedBackground";
-import Button from "@/components/Button";
 import { AnimateOnScroll } from '@/components/AnimateOnScroll';
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,8 +36,8 @@ export default function Home() {
 
           <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.6s" animationFillMode="forwards">
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button href="/apps">View My Apps</Button>
-              <Button href="/about" variant="outline">About Me</Button>
+              <Link className="btn btn-primary" href="/apps">View My Apps</Link>
+              <Link className="btn btn-outline" href="/about">About Me</Link>
             </div>
           </AnimateWithDelay>
 
@@ -78,7 +77,7 @@ export default function Home() {
 
           <AnimateOnScroll animationClass="animate-fade-in">
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
-              <Button href="/apps">View All Apps</Button>
+              <Link className="btn btn-primary" href="/apps">View All Apps</Link>
             </div>
           </AnimateOnScroll>
         </div>
@@ -101,24 +100,24 @@ export default function Home() {
 
           <AnimateOnScroll animationClass='animate-fade-in'>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
-              <Button
-                as="a"
-                href="https://www.twitch.tv"
+              <a
+                href="https://www.twitch.tv/fr0zair"
+                className="btn btn-primary"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Twitch size={20} className="shrink-0" />
                 Watch on Twitch
-              </Button>
-              <Button
-                as="a"
-                href="https://www.youtube.com"
+              </a>
+              <a
+                href="https://www.youtube.com/@frozair"
+                className="btn btn-primary"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Youtube size={20} className="shrink-0" />
                 Watch on Youtube
-              </Button>
+              </a>
             </div>
           </AnimateOnScroll>
         </div>
@@ -142,7 +141,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-8">
-                <Button href="/about">Learn More About Me</Button>
+                <Link href="/about" className="btn btn-primary">Learn More About Me</Link>
               </div>
             </div>
           </div>

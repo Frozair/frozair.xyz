@@ -163,6 +163,19 @@
 	.nav-link-active {
 		@apply text-blue dark:text-blue-light after:scale-x-100;
 	}
+
+
+	.btn {
+		@apply inline-flex gap-2 text-center items-center justify-center px-8 py-3 font-medium rounded-lg shadow-md transition-colors transition-transform duration-150 transform hover:-translate-y-1;
+	}
+
+	.btn.btn-primary {
+		@apply bg-blue hover:bg-blue-dark text-white
+	}
+
+	.btn.btn-outline {
+		@apply bg-button-secondary hover:bg-button-secondary-hover text-blue border border-blue
+	}
 }
 
 /* Animation utilities */
