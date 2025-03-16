@@ -3,9 +3,9 @@ import appleAppStoreSvg from "@/public/apple-app-store.svg";
 import PhoneBebySvg from "@/public/phone-beby-optimized.svg";
 import React from "react";
 import Image from "next/image";
-import Button from "@/components/Button";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
+import Link from "next/link";
 
 export default function BebyPage() {
   return (
@@ -94,7 +94,7 @@ export default function BebyPage() {
                   content: 'Built using Kotlin Multiplatform, Beby supports both iOS and Android platforms.'
                 },
               ].map(info => (
-                <div key={info.title} className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150 hover:scale-105">
+                <div key={info.title} className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150">
                   <div className="p-6">
                     <h3 className="text-xl font-semibold mb-2">{info.title}</h3>
                     <p className="text-card-foreground">
@@ -140,8 +140,8 @@ export default function BebyPage() {
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Your data is private and secure. Beby does not sell or share your data.</p>
 
               <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-8">
-                <Button href="/apps/beby/privacy" className="w-full md:w-auto">Privacy Policy</Button>
-                <Button href="/apps/terms-and-conditions" className="w-full md:w-auto">Terms &amp; Conditions</Button>
+                <Link href="/apps/beby/privacy" className="btn btn-primary w-full md:w-auto">Privacy Policy</Link>
+                <Link href="/apps/terms-and-conditions" className="btn btn-primary w-full md:w-auto">Terms &amp; Conditions</Link>
               </div>
             </div>
           </AnimateOnScroll>
