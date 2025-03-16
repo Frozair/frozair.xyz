@@ -74,28 +74,6 @@ export function Navigation() {
 						>
 							About
 						</Link>
-						<Link
-							href="/privacy"
-							className={cn(
-								'nav-link',
-								{
-									'nav-link-active': isActive('/privacy')
-								}
-							)}
-						>
-							Privacy
-						</Link>
-						<Link
-							href="/terms"
-							className={cn(
-								'nav-link',
-								{
-									'nav-link-active': isActive('/terms')
-								}
-							)}
-						>
-							Terms
-						</Link>
 						<div className="ml-4">
 							<ThemeToggle />
 						</div>
@@ -157,32 +135,6 @@ export function Navigation() {
 							onClick={() => setIsMenuOpen(false)}
 						>
 							About
-						</Link>
-						<Link
-							href="/privacy"
-							className={cn(
-								'px-3 py-4 text-lg',
-								{
-									'text-blue dark:text-blue-light font-medium': isActive('/privacy'),
-									'text-gray-700 dark:text-gray-300': !isActive('/privacy')
-								}
-							)}
-							onClick={() => setIsMenuOpen(false)}
-						>
-							Privacy
-						</Link>
-						<Link
-							href="/terms"
-							className={cn(
-								'px-3 py-4 text-lg',
-								{
-									'text-blue dark:text-blue-light font-medium': isActive('/terms'),
-									'text-gray-700 dark:text-gray-300': !isActive('/terms')
-								}
-							)}
-							onClick={() => setIsMenuOpen(false)}
-						>
-							Terms
 						</Link>
 					</nav>
 				</div>
