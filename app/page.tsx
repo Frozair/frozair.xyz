@@ -8,89 +8,98 @@ import ProjectPreviewCard from "@/components/ProjectPreviewCard";
 import TwitchEmbed from "@/components/TwitchEmbed";
 import AnimatedBackground from "@/components/AnimatedBackground";
 import Button from "@/components/Button";
-import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
+import { AnimateOnScroll } from '@/components/AnimateOnScroll';
+import { AnimateWithDelay } from "@/components/AnimateWithDelay";
 
 export default function Home() {
   return (
-    <AnimateOnScrollProvider targetClass='.animate-on-scroll'>
-      <main className="flex-1">
-        {/* Hero Section */}
-        <section className="pt-32 pb-20 px-4 relative">
-          <div className="container mx-auto text-center">
-            <div className="inline-block mb-4 py-1 px-3 rounded-full bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 text-sm font-medium animate-fade-in opacity-0">
+    <main className="flex-1">
+      {/* Hero Section */}
+      <section className="pt-32 pb-20 px-4 relative">
+        <div className="container mx-auto text-center">
+          <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.0s" animationFillMode="forwards">
+            <div className="inline-block mb-4 py-1 px-3 rounded-full bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 text-sm font-medium">
               Mobile App Developer, Content Creator, Twitch Streamer, &amp; Music Engineer
             </div>
+          </AnimateWithDelay>
 
-            <h1
-                className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in opacity-0"
-                style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
-            >
+          <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.2s" animationFillMode="forwards">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Building. <span className="purple-gradient-text">Streaming.</span> <span className="blue-gradient-text">Creating</span>
             </h1>
+          </AnimateWithDelay>
 
-            <p
-                className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10 animate-fade-in opacity-0"
-                style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
-            >
+          <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.4s" animationFillMode="forwards">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10">
               I'm a mobile app developer with an expertise in Kotlin Multiplatform. I have a passion for building apps, sharing knowledge, and bringing ideas to life together with the community.
             </p>
+          </AnimateWithDelay>
 
-            <div
-                className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in opacity-0"
-                style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
-            >
+          <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.6s" animationFillMode="forwards">
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button href="/apps">View My Apps</Button>
               <Button href="/about" variant="outline">About Me</Button>
             </div>
+          </AnimateWithDelay>
 
-            <div
-                className="mt-12"
-            >
-              <p
-                className="text-gray-600 dark:text-gray-300 mb-4 animate-fade-in opacity-0"
-                style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
-              >Connect with me on</p>
-              <SocialLinks className="justify-center" />
-            </div>
+          <div className="mt-12">
+            <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.8s" animationFillMode="forwards">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Connect with me on
+              </p>
+            </AnimateWithDelay>
+            <SocialLinks className="justify-center" />
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Featured Apps Preview */}
-        <section className="py-20 px-4 bg-background-secondary relative">
-          <div className="container mx-auto">
-            <div className="text-center mb-16 animate-on-scroll opacity-0">
+      {/* Featured Apps Preview */}
+      <section className="py-20 px-4 bg-background-secondary relative">
+        <div className="container mx-auto">
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Apps</h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 A showcase of my latest Android and Kotlin Multiplatform applications
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-on-scroll opacity-0">
+          </AnimateOnScroll>
 
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProjectPreviewCard
                 href="/apps/beby"
                 imgSrc={bebyAppImage}
                 title="Beby: Baby Gender Predictor"
                 description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
               />
-
             </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass="animate-fade-in">
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
               <Button href="/apps">View All Apps</Button>
             </div>
-          </div>
-        </section>
+          </AnimateOnScroll>
+        </div>
+      </section>
 
 
-        {/* Stream Video */}
-        <section className="py-20 px-4 relative">
-          <div className="container mx-auto">
-            <div className="text-center mb-16 animate-on-scroll opacity-0">
+      {/* Stream Video */}
+      <section className="py-20 px-4 relative">
+        <div className="container mx-auto">
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Watch Me Build</h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Catch me on Twitch where I build Kotlin Multiplatform Apps, along with many shenanigans caused by my viewers</p>
             </div>
-            <div className="animate-on-scroll opacity-0">
-              <TwitchEmbed channel="fr0zair" />
-            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass='animate-fade-in'>
+            <TwitchEmbed channel="fr0zair" />
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass='animate-fade-in'>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
               <Button
                 as="a"
@@ -111,11 +120,13 @@ export default function Home() {
                 Watch on Youtube
               </Button>
             </div>
-          </div>
-        </section>
+          </AnimateOnScroll>
+        </div>
+      </section>
 
-        {/* About Preview */}
-        <section className="py-20 px-4 relative animate-on-scroll opacity-0">
+      {/* About Preview */}
+      <AnimateOnScroll animationClass='animate-fade-in'>
+        <section className="py-20 px-4 relative">
           <div className="container mx-auto">
             <div className="max-w-4xl mx-auto glass-panel dark:shadow-blue-light/10 dark:border dark:border-card-border rounded-2xl p-8 md:p-12">
               <div className="text-center mb-8">
@@ -136,8 +147,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-      </main>
-    </AnimateOnScrollProvider>
+      </AnimateOnScroll>
+    </main>
   );
 }
