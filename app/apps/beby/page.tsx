@@ -106,8 +106,8 @@ export default function BebyPage() {
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Your data is private and secure. Beby does not sell or share your data.</p>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-8">
-              <Button href="/privacy-policy" className="w-full md:w-auto">Privacy Policy</Button>
-              <Button href="/terms-and-conditions" className="w-full md:w-auto">Terms &amp; Conditions</Button>
+              <Button href="/apps/beby/privacy" className="w-full md:w-auto">Privacy Policy</Button>
+              <Button href="/apps/terms-and-conditions" className="w-full md:w-auto">Terms &amp; Conditions</Button>
             </div>
           </div>
         </div>
