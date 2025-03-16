@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
-import exampleAppImage from '@/public/example-app.png';
+import bebyAppImage from '@/public/beby_app.png';
 import { AnimateOnScrollProvider } from "@/components/AnimateOnScrollProvider";
 import SocialLinks from "@/components/SocialLinks";
 
@@ -28,45 +28,10 @@ export default function AppsPage() {
                 style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
               >
                 <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="FitTrack Pro"
-                    description="Fitness tracking app with advanced metrics and personalized coaching"
-                />
-
-                <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="StreamBuddy"
-                    description="Twitch companion app for streamers to manage chat and stream analytics"
-                />
-
-                <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="CodeNotes"
-                    description="Developer note-taking app with syntax highlighting and cloud sync"
-                />
-
-                <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="FitTrack Pro"
-                    description="Fitness tracking app with advanced metrics and personalized coaching"
-                />
-
-                <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="StreamBuddy"
-                    description="Twitch companion app for streamers to manage chat and stream analytics"
-                />
-
-                <ProjectPreviewCard
-                    href="/projects"
-                    imgSrc={exampleAppImage}
-                    title="CodeNotes"
-                    description="Developer note-taking app with syntax highlighting and cloud sync"
+                  href="/apps/beby"
+                  imgSrc={bebyAppImage}
+                  title="Beby: Baby Gender Predictor"
+                  description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
                 />
               </div>
             </div>

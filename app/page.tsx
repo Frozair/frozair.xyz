@@ -2,7 +2,7 @@ import React from 'react';
 import { Twitch, Youtube } from 'lucide-react';
 import Image from 'next/image';
 import SocialLinks from '@/components/SocialLinks';
-import exampleAppImage from '@/public/example-app.png';
+import bebyAppImage from '@/public/beby_app.png';
 import frozairImage from '@/public/frozair.png';
 import ProjectPreviewCard from "@/components/ProjectPreviewCard";
 import TwitchEmbed from "@/components/TwitchEmbed";
@@ -67,24 +67,10 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-on-scroll opacity-0">
 
               <ProjectPreviewCard
-                href="/projects"
-                imgSrc={exampleAppImage}
-                title="FitTrack Pro"
-                description="Fitness tracking app with advanced metrics and personalized coaching"
-              />
-
-              <ProjectPreviewCard
-                  href="/projects"
-                  imgSrc={exampleAppImage}
-                  title="StreamBuddy"
-                  description="Twitch companion app for streamers to manage chat and stream analytics"
-              />
-
-              <ProjectPreviewCard
-                  href="/projects"
-                  imgSrc={exampleAppImage}
-                  title="CodeNotes"
-                  description="Developer note-taking app with syntax highlighting and cloud sync"
+                href="/apps/beby"
+                imgSrc={bebyAppImage}
+                title="Beby: Baby Gender Predictor"
+                description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
               />
 
             </div>
