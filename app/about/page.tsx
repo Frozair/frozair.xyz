@@ -4,6 +4,12 @@ import frozairImage from '@/public/frozair.png';
 import SocialLinks from "@/components/SocialLinks";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'About  - Frozair - Android and Kotlin Multiplatform Developer',
+  description: 'Learn more about Frozair, a passionate Android developer with over 5 years of experience in mobile app development.',
+};
 
 export default function AboutPage() {
   return (
