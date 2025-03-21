@@ -5,6 +5,7 @@ import SocialLinks from "@/components/SocialLinks";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
 import type { Metadata } from "next";
+import {TimelineCard} from "@/components/TimelineCard";
 
 export const metadata: Metadata = {
   title: 'About  - Frozair - Android and Kotlin Multiplatform Developer',
@@ -38,10 +39,10 @@ export default function AboutPage() {
                 <div className="flex flex-col gap-4">
                   <h2 className="text-2xl font-bold blue-gradient-text text-center sm:text-left">Hello, I'm Frozair</h2>
                   <p className="text-lg text-center sm:text-left text-gray-600 dark:text-gray-300">
-                    I'm a passionate Android developer with over 5 years of experience in creating exceptional mobile applications. I specialize in Kotlin Multiplatform development and building cross-platform solutions while maintaining native performance and user experience.
+                    I'm a passionate Android developer with over 8 years of experience in creating exceptional mobile applications. I specialize in Kotlin Multiplatform development and building cross-platform solutions while maintaining native performance and user experience.
                   </p>
                   <p className="text-lg text-center sm:text-left text-gray-600 dark:text-gray-300">
-                    When I'm not coding, I'm streaming on Twitch, sharing my development process, coding techniques, and connecting with the developer community.
+                    When I'm not coding, I'm streaming on Twitch, sharing my development process, coding techniques, taking pickle shots, and connecting with the developer community.
                   </p>
                 </div>
               </div>
@@ -60,14 +61,13 @@ export default function AboutPage() {
           </AnimateOnScroll>
 
           <div className="relative flex flex-col gap-y-8 before:absolute before:inset-0 before:h-full before:w-px before:bg-gray-300 before:left-1/2 before:-translate-x-1/2 py-6">
-
             <AnimateOnScroll animationClass='animate-fade-in'>
               <div className="flex flex-col sm:flex-row items-center justify-between bg-background sm:bg-transparent z-10 py-4">
                 <div className="w-full text-center sm:w-5/12 sm:text-right sm:pr-8">
-                  <span className="text-gray-500 dark:text-gray-400 block sm:hidden mb-2">2016</span>
-                  <h3 className="text-xl font-semibold mb-2">Started Android Development</h3>
+                  <span className="text-gray-500 dark:text-gray-400 block sm:hidden mb-2">2012</span>
+                  <h3 className="text-xl font-semibold mb-2">RoR and PHP developer</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-300">
-                    Began learning Android development with Java, creating my first applications and exploring the fundamentals of mobile development.
+                    Found my first job on Craigslist during my last year in college.
                   </p>
                 </div>
                 <span className="w-10 h-10 items-center justify-center bg-background text-gray-500 dark:text-gray-400 hidden sm:flex">
@@ -78,35 +78,21 @@ export default function AboutPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll animationClass='animate-fade-in'>
-              <div className="flex flex-col sm:flex-row items-center justify-between bg-background sm:bg-transparent z-10 py-4">
-                <div className="w-5/12 hidden sm:block"></div>
-                <span className="w-10 h-10 items-center justify-center bg-background text-gray-500 dark:text-gray-400 hidden sm:flex">
-                  2018
-                </span>
-                <div className="w-full text-center sm:w-5/12 sm:text-left sm:pr-8">
-                  <span className="text-gray-500 dark:text-gray-400 block sm:hidden mb-2">2018</span>
-                  <h3 className="text-xl font-semibold mb-2">Transitioned to Kotlin</h3>
-                  <p className="mt-2 text-gray-600 dark:text-gray-300">
-                    Embraced Kotlin as my primary development language, appreciating its concise syntax, null safety, and modern features.
-                  </p>
-                </div>
-              </div>
+              <TimelineCard
+                  year="2017"
+                  title="First Job as Mobile Developer"
+                  direction="right">
+                Embraced Kotlin and Swift to build mobiles for Android and iOS.
+              </TimelineCard>
             </AnimateOnScroll>
 
             <AnimateOnScroll animationClass='animate-fade-in'>
-              <div className="flex flex-col sm:flex-row items-center justify-between bg-background sm:bg-transparent z-10 py-4">
-                <div className="w-full text-center sm:w-5/12 sm:text-right sm:pr-8">
-                  <span className="text-gray-500 dark:text-gray-400 block sm:hidden mb-2">2020</span>
-                  <h3 className="text-xl font-semibold mb-2">Started Twitch Streaming</h3>
-                  <p className="mt-2 text-gray-600 dark:text-gray-300">
-                    Began sharing my development process on Twitch, creating a community of developers interested in Android and Kotlin development.
-                  </p>
-                </div>
-                <span className="w-10 h-10 items-center justify-center bg-background text-gray-500 dark:text-gray-400 hidden sm:flex">
-                  2020
-                </span>
-                <div className="w-5/12 hidden sm:block"></div>
-              </div>
+              <TimelineCard
+                  year="2022"
+                  title="Started Twitch Streaming"
+                  direction="left">
+                After getting laid off from <b className="text-yellow-500">Snapchat</b>, I started streaming to keep myself consistent while preparing and looking for a new job. Now we're building a community of coders with good vibes, pickle shots and more.
+              </TimelineCard>
             </AnimateOnScroll>
 
           </div>
