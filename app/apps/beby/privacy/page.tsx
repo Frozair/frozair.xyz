@@ -53,7 +53,7 @@ export default function PrivacyPage() {
                 <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page along with an updated effective date.</p>
 
                 <h2>Contact Us</h2>
-                <p>If you have any questions or concerns about this Privacy Policy, please contact us at: <a href="mailto:support@frozair.xyz">support@frozair.xyz</a>.</p>
+                <p>If you have any questions or concerns about this Privacy Policy, please contact us at: <a href="mailto:beby@frozair.xyz">beby@frozair.xyz</a>.</p>
               </div>
             </div>
           </AnimateOnScroll>

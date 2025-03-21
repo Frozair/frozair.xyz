@@ -52,40 +52,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Apps Preview */}
-      <section className="py-20 px-4 bg-background-secondary relative">
-        <div className="container mx-auto">
-          <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Apps</h2>
-              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                A showcase of my latest Android and Kotlin Multiplatform applications
-              </p>
-            </div>
-          </AnimateOnScroll>
-
-          <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <ProjectPreviewCard
-                href="/apps/beby"
-                imgSrc={bebyAppImage}
-                title="Beby: Baby Gender Predictor"
-                description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
-              />
-            </div>
-          </AnimateOnScroll>
-
-          <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
-              <Link className="btn btn-primary" href="/apps">View All Apps</Link>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-
       {/* Stream Video */}
-      <section className="py-20 px-4 relative">
+      <section className="py-20 px-4 bg-background-secondary relative">
         <div className="container mx-auto">
           <AnimateOnScroll animationClass="animate-fade-in">
             <div className="text-center mb-16">
@@ -101,23 +69,55 @@ export default function Home() {
           <AnimateOnScroll animationClass='animate-fade-in'>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
               <a
-                href="https://www.twitch.tv/fr0zair"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://www.twitch.tv/fr0zair"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <Twitch size={20} className="shrink-0" />
                 Watch on Twitch
               </a>
               <a
-                href="https://www.youtube.com/@frozair"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://www.youtube.com/@frozair"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <Youtube size={20} className="shrink-0" />
                 Watch on Youtube
               </a>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+
+      {/* Featured Apps Preview */}
+      <section className="py-20 px-4 relative">
+        <div className="container mx-auto">
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Apps</h2>
+              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                A showcase of my latest Android and Kotlin Multiplatform applications
+              </p>
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <ProjectPreviewCard
+                  href="/apps/beby"
+                  imgSrc={bebyAppImage}
+                  title="Beby: Baby Gender Predictor"
+                  description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
+              />
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12">
+              <Link className="btn btn-primary" href="/apps">View All Apps</Link>
             </div>
           </AnimateOnScroll>
         </div>

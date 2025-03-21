@@ -36,7 +36,7 @@ export default function BebyPage() {
                   animationFillMode="forwards"
               >
                 <p className="mb-16 text-xl text-gray-600 dark:text-gray-300 text-center md:text-left max-w-3xl mx-auto">
-                  The #1 baby gender prediction app for Android and iOS. Get a prediction for your baby that is right 50% of the time.
+                  The #1 baby gender prediction app for Android and iOS. Get a prediction for your baby that is right <b>50%</b> of the time.
                 </p>
               </AnimateWithDelay>
 
@@ -46,7 +46,7 @@ export default function BebyPage() {
                     animationDelay="0.6s"
                     animationFillMode="forwards"
                 >
-                  <a href="#">
+                  <a href="https://play.google.com/store/apps/details?id=xyz.frozair.beby">
                     <Image src={googlePlayBadgeImage} alt="Download Beby on the Google Play Store" height={75} />
                   </a>
                 </AnimateWithDelay>
@@ -56,7 +56,7 @@ export default function BebyPage() {
                     animationDelay="0.8s"
                     animationFillMode="forwards"
                 >
-                  <a href="#">
+                  <a href="https://apps.apple.com/app/beby-predict-and-plan/id6743187318">
                     <Image src={appleAppStoreSvg} alt="Download Beby on the Apple App Store" height={75} />
                   </a>
                 </AnimateWithDelay>
@@ -85,20 +85,19 @@ export default function BebyPage() {
 
           <AnimateOnScroll animationClass="animate-fade-in">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
               {[
                 {
-                  title: 'Backed by Science',
-                  content: 'Beby uses the Chinese lunar calendar and the concepts of yin and yang, the five elements, and the eight trigrams to predict your baby\'s gender.'
-                },
-                {
-                  title: 'Multilingual',
-                  content: 'Currently Beby supports Spanish and English, with several more language translations planned for the near future.'
+                  title: 'Backed by Ancient Secrets',
+                  content: 'Beby uses the Chinese and Mayan calendars to help you predict or plan your baby’s gender—based on age, month, and ancient wisdom.'
                 },
                 {
                   title: 'Works on iOS and Android',
                   content: 'Built using Kotlin Multiplatform, Beby supports both iOS and Android platforms.'
                 },
+                {
+                  title: 'Multilingual',
+                  content: 'Currently Beby supports Spanish and English, with several more language translations planned for the near future.'
+                }
               ].map(info => (
                 <div key={info.title} className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150">
                   <div className="p-6">
@@ -121,8 +120,10 @@ export default function BebyPage() {
           <AnimateOnScroll animationClass='animate-fade-in'>
             <div className="max-w-3xl mx-auto">
               <h2 className="text-center text-3xl md:text-4xl font-bold mb-16">Changelog &amp; Updates</h2>
-              <h3 className="text-xl md:text-2xl font-bold mb-4 mt-8">Latest Version: v0.0.1</h3>
+              <h3 className="text-xl md:text-2xl font-bold mb-4 mt-8">Latest Version: v1.0.0</h3>
               <ul className="list-disc">
+                <li>Lunar Calendar</li>
+                <li>Mayan Calendar</li>
                 <li>Spanish and English translations.</li>
                 <li>Dark mode support</li>
               </ul>
