@@ -16,11 +16,7 @@ export function Navigation() {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 20) {
-				setIsScrolled(true);
-			} else {
-				setIsScrolled(false);
-			}
+			setIsScrolled(window.scrollY > 20);
 		};
 
 		window.addEventListener('scroll', handleScroll);
@@ -30,47 +26,52 @@ export function Navigation() {
 	return (
 		<header
 			className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-				isScrolled ? 'py-3 bg-white/80 dark:bg-gray-900/80 dark:border-b dark:border-card-border backdrop-blur-lg shadow-sm' : 'py-5 bg-transparent'
+				isScrolled 
+					? 'py-3 backdrop-blur-lg shadow-lg' 
+					: 'py-5'
 			}`}
+			style={{
+				background: isScrolled ? 'rgba(15, 15, 35, 0.9)' : 'transparent',
+				borderBottom: isScrolled ? '2px solid var(--border-subtle)' : 'none'
+			}}
 		>
 			<div className="container mx-auto px-4 md:px-6">
 				<div className="flex justify-between items-center">
-					<Link href="/" className="text-2xl font-bold blue-gradient-text">
-						Frozair
+					<Link href="/" className="flex items-center gap-2 hover:scale-105 transition-transform group">
+						<div className="relative">
+							<div 
+								className="text-2xl font-black tracking-tighter relative z-10"
+								style={{ fontFamily: 'Archivo Black, sans-serif' }}
+							>
+								<span style={{ color: 'var(--accent-primary)' }}>FRO</span>
+								<span style={{ color: 'var(--accent-secondary)' }}>Z</span>
+								<span style={{ color: 'var(--accent-primary)' }}>AIR</span>
+							</div>
+							{/* Geometric accent */}
+							<div 
+								className="absolute -bottom-1 left-0 h-1 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] transition-all duration-300 group-hover:h-2"
+								style={{ width: '100%' }}
+							></div>
+						</div>
 					</Link>
 
 					{/* Desktop Navigation */}
-					<nav className="hidden md:flex space-x-1 items-center">
+					<nav className="hidden md:flex space-x-2 items-center">
 						<Link
 							href="/"
-							className={cn(
-								'nav-link',
-								{
-									'nav-link-active': isActive('/')
-								}
-							)}
+							className={cn('nav-link', { 'nav-link-active': isActive('/') })}
 						>
 							Home
 						</Link>
 						<Link
 							href="/apps"
-							className={cn(
-								'nav-link',
-								{
-									'nav-link-active': isActive('/apps')
-								}
-							)}
+							className={cn('nav-link', { 'nav-link-active': isActive('/apps') })}
 						>
-							Apps
+							Projects
 						</Link>
 						<Link
 							href="/about"
-							className={cn(
-								'nav-link',
-								{
-									'nav-link-active': isActive('/about')
-								}
-							)}
+							className={cn('nav-link', { 'nav-link-active': isActive('/about') })}
 						>
 							About
 						</Link>
@@ -83,7 +84,8 @@ export function Navigation() {
 					<div className="md:hidden flex items-center gap-4">
 						<ThemeToggle />
 						<button
-							className="text-gray-700 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light"
+							className="p-2 rounded-lg transition-all hover:scale-110"
+							style={{ background: 'var(--surface)' }}
 							onClick={() => setIsMenuOpen(!isMenuOpen)}
 							aria-label={isMenuOpen ? "Close menu" : "Open menu"}
 						>
@@ -95,17 +97,25 @@ export function Navigation() {
 
 			{/* Mobile Menu */}
 			{isMenuOpen && (
-				<div className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-lg animate-fade-in">
+				<div 
+					className="md:hidden absolute top-full left-0 w-full shadow-2xl animate-fade-in-up border-t-2"
+					style={{
+						background: 'var(--background-secondary)',
+						borderColor: 'var(--border-emphasis)'
+					}}
+				>
 					<nav className="flex flex-col p-4">
 						<Link
 							href="/"
 							className={cn(
-								'px-3 py-4 text-lg',
+								'px-4 py-4 text-lg font-semibold rounded-lg transition-all',
 								{
-									'text-blue dark:text-blue-light font-medium': isActive('/'),
-									'text-gray-700 dark:text-gray-300': !isActive('/')
+									'text-[var(--accent-primary)]': isActive('/'),
 								}
 							)}
+							style={{
+								background: isActive('/') ? 'var(--surface-elevated)' : 'transparent'
+							}}
 							onClick={() => setIsMenuOpen(false)}
 						>
 							Home
@@ -113,25 +123,29 @@ export function Navigation() {
 						<Link
 							href="/apps"
 							className={cn(
-								'px-3 py-4 text-lg',
+								'px-4 py-4 text-lg font-semibold rounded-lg transition-all',
 								{
-									'text-blue dark:text-blue-light font-medium': isActive('/apps'),
-									'text-gray-700 dark:text-gray-300': !isActive('/apps')
+									'text-[var(--accent-primary)]': isActive('/apps'),
 								}
 							)}
+							style={{
+								background: isActive('/apps') ? 'var(--surface-elevated)' : 'transparent'
+							}}
 							onClick={() => setIsMenuOpen(false)}
 						>
-							Apps
+							Projects
 						</Link>
 						<Link
 							href="/about"
 							className={cn(
-								'px-3 py-4 text-lg',
+								'px-4 py-4 text-lg font-semibold rounded-lg transition-all',
 								{
-									'text-blue dark:text-blue-light font-medium': isActive('/about'),
-									'text-gray-700 dark:text-gray-300': !isActive('/about')
+									'text-[var(--accent-primary)]': isActive('/about'),
 								}
 							)}
+							style={{
+								background: isActive('/about') ? 'var(--surface-elevated)' : 'transparent'
+							}}
 							onClick={() => setIsMenuOpen(false)}
 						>
 							About
