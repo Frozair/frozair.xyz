@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
 import bebyAppImage from '@/public/beby_app.png';
+import blockRushIcon from '@/public/blockrush-icon.png';
 import SocialLinks from "@/components/SocialLinks";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
@@ -8,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Apps  - Frozair - Android and Kotlin Multiplatform Developer',
-  description: 'Apps created by Frozair includ Beby, the #1 Baby Gender Predictor App for iOS and Android.',
+  description: 'Apps created by Frozair include BlockRush and Beby for iOS and Android.',
 };
 export default function AppsPage() {
   return (
@@ -29,6 +30,12 @@ export default function AppsPage() {
 
           <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.6s" animationFillMode="forwards">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <ProjectPreviewCard
+                href="/apps/blockrush"
+                imgSrc={blockRushIcon}
+                title="BlockRush"
+                description="A fast-paced roguelite block breaker for iOS and Android with precision-based gameplay, upgrades, and endless waves."
+              />
               <ProjectPreviewCard
                 href="/apps/beby"
                 imgSrc={bebyAppImage}
