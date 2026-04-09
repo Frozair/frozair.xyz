@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {`kofiWidgetOverlay.draw('frozair', {
             'type': 'floating-chat',
             'floating-chat.donateButton.text': 'Tip Me',
-            'floating-chat.donateButton.background-color': '#ff6b35',
+            'floating-chat.donateButton.background-color': '#D4A853',
             'floating-chat.donateButton.text-color': '#fff'
           });`}
         </Script>
