@@ -11,7 +11,7 @@ export default function Home() {
       description: "Rogue-like block breaker with upgrades, skills, and endless progression",
       status: "In Development",
       tech: ["Godot", "GDScript", "Mobile"],
-      color: "orange",
+      color: "gold",
       icon: <Gamepad2 className="w-6 h-6" />
     },
     {
@@ -19,7 +19,7 @@ export default function Home() {
       description: "Baby gender predictor using Chinese lunar calendar",
       status: "Live on App Store",
       tech: ["Kotlin Multiplatform", "Compose", "iOS/Android"],
-      color: "cyan",
+      color: "terracotta",
       icon: <Code2 className="w-6 h-6" />
     },
     {
@@ -27,7 +27,7 @@ export default function Home() {
       description: "Twitch clips manager and discovery tool",
       status: "In Development",
       tech: ["Next.js", "Twitch API"],
-      color: "lime",
+      color: "gold-bright",
       icon: <Video className="w-6 h-6" />
     }
   ];
@@ -217,8 +217,8 @@ export default function Home() {
                 <div 
                   className="absolute top-0 left-0 right-0 h-1"
                   style={{
-                    background: project.color === 'orange' ? 'var(--accent-primary)' :
-                               project.color === 'cyan' ? 'var(--accent-secondary)' :
+                    background: project.color === 'gold' ? 'var(--accent-primary)' :
+                               project.color === 'terracotta' ? 'var(--accent-secondary)' :
                                'var(--accent-tertiary)'
                   }}
                 ></div>

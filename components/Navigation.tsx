@@ -41,7 +41,7 @@ export function Navigation() {
 						<div className="relative">
 							<div 
 								className="text-2xl font-black tracking-tighter relative z-10"
-								style={{ fontFamily: 'Archivo Black, sans-serif' }}
+								style={{ fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif" }}
 							>
 								<span style={{ color: 'var(--accent-primary)' }}>FRO</span>
 								<span style={{ color: 'var(--accent-secondary)' }}>Z</span>
