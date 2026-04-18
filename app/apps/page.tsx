@@ -42,6 +42,25 @@ export default function AppsPage() {
                 title="Beby: Baby Gender Predictor"
                 description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
               />
+              <div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150">
+                <div className="h-48 flex items-center justify-center px-8 text-center bg-background-secondary">
+                  <div>
+                    <div className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-200">
+                      Coming soon
+                    </div>
+                    <h3 className="mt-4 text-2xl font-semibold">SubNudge</h3>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <p className="text-card-foreground mb-4">
+                    A free mobile app for Twitch creators who want manual nudges, human-in-the-loop follow-ups,
+                    and monthly subscriber review without spreadsheet chaos.
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    Built for Prime-heavy audiences and the creators who know their subscribers personally.
+                  </p>
+                </div>
+              </div>
             </div>
           </AnimateWithDelay>
         </div>

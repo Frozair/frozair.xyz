@@ -29,6 +29,14 @@ export default function Home() {
       tech: ["Next.js", "Twitch API"],
       color: "gold-bright",
       icon: <Video className="w-6 h-6" />
+    },
+    {
+      title: "SubNudge",
+      description: "Manual nudges for Twitch creators doing monthly subscriber review and replacing spreadsheet chaos",
+      status: "Coming soon",
+      tech: ["Mobile", "Twitch", "Human-in-the-loop"],
+      color: "cyan",
+      icon: <Twitch className="w-6 h-6" />
     }
   ];
 
