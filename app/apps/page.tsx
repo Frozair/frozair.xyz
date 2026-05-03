@@ -33,14 +33,14 @@ export default function AppsPage() {
               <ProjectPreviewCard
                 href="/apps/blockrush"
                 imgSrc={blockRushIcon}
-                title="BlockRush"
-                description="A fast-paced roguelite block breaker for iOS and Android with precision-based gameplay, upgrades, and endless waves."
+                title="Block Rush: Break the Loop"
+                description="A one-handed brick-breaker roguelite for iOS and Android with boss cycles, power-up builds, and a bold new alpha look."
               />
               <ProjectPreviewCard
                 href="/apps/beby"
                 imgSrc={bebyAppImage}
-                title="Beby: Baby Gender Predictor"
-                description="Cross-platform baby gender predictor app using the Chinese lunar calendar. Built with Kotlin Multiplatform."
+                title="Beby"
+                description="A playful baby gender predictor and planner using Chinese Lunar and Mayan traditions, with private on-device history."
               />
               <div className="bg-card rounded-2xl shadow-lg dark:shadow-blue-light/10 dark:border dark:border-card-border overflow-hidden transition-transform duration-150">
                 <div className="h-48 flex items-center justify-center px-8 text-center bg-background-secondary">
