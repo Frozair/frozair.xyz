@@ -84,7 +84,7 @@ export default function BlockRushPrivacyPage() {
                 <h2 className="text-2xl font-semibold mt-8 mb-4">10. Contact</h2>
                 <p>
                   If you have questions about this policy, contact:{" "}
-                  <a href="mailto:support@frozair.xyz">support@frozair.xyz</a>.
+                  <a href="mailto:blockrush@frozair.xyz">blockrush@frozair.xyz</a>.
                 </p>
               </div>
             </div>
