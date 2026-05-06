@@ -74,6 +74,12 @@ export default function BlockRushPrivacyPage() {
                   Depending on your location, you may have rights to access, correct, delete, or
                   limit processing of your personal information.
                 </p>
+                <p>
+                  You can delete your account and associated leaderboard data at any time from
+                  inside the app: main menu → account icon (top right) →{" "}
+                  <strong>Delete Account</strong>, then confirm with your password. If you cannot
+                  sign in, email the address below and we will remove your data within 30 days.
+                </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">9. Changes to This Policy</h2>
                 <p>

@@ -36,8 +36,11 @@ export default function BlockRushSupportPage() {
                     local to your install. To carry your account across reinstalls, sign in.
                   </li>
                   <li>
-                    <strong>I want to delete my account.</strong> Reply to any support email with
-                    &quot;delete my account&quot; and we&apos;ll remove your data within 30 days.
+                    <strong>I want to delete my account.</strong> From the main menu tap the
+                    account icon (top right), then <strong>Delete Account</strong> and confirm with
+                    your password — your account and associated leaderboard data are removed
+                    immediately. If you can&apos;t sign in to do this, email support and we&apos;ll
+                    remove your data within 30 days.
                   </li>
                 </ul>
 
