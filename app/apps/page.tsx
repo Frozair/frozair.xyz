@@ -34,7 +34,7 @@ export default function AppsPage() {
                 href="/apps/blockrush"
                 imgSrc={blockRushIcon}
                 title="Block Rush: Break the Loop"
-                description="A one-handed brick-breaker roguelite for iOS and Android with boss cycles, power-up builds, and a bold new alpha look."
+                description="A breakout-style arcade roguelite on Google Play where every run becomes a different build of power-ups, boss fights, and skill shots."
               />
               <ProjectPreviewCard
                 href="/apps/beby"

@@ -8,8 +8,8 @@ export default function Home() {
   const projects = [
     {
       title: "BlockRush",
-      description: "Rogue-like block breaker with upgrades, skills, and endless progression",
-      status: "In Development",
+      description: "Breakout-style arcade roguelite with six power-up families, boss fights, and a new build every run",
+      status: "Live on Google Play",
       tech: ["Godot", "GDScript", "Mobile"],
       color: "gold",
       icon: <Gamepad2 className="w-6 h-6" />
@@ -66,7 +66,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl opacity-80 animate-fade-in-up delay-200" style={{ color: 'var(--text-muted)' }}>
                 I make mobile games, stream the dev process on Twitch, and turn it all into YouTube videos. 
-                Currently building <strong>BlockRush</strong> (a rogue-like mobile game) and <strong>Clipzy</strong> (a Twitch clips tool). 
+                <strong>Block Rush</strong> is live on Google Play, and I&apos;m also building <strong>Clipzy</strong> for Twitch creators. 
                 Goal: retire my parents, replace my day job, and prove indie devs can make it.
               </p>
 
@@ -210,7 +210,7 @@ export default function Home() {
               What I'm <span className="text-gradient-orange">Building</span>
             </h2>
             <p className="text-lg opacity-80" style={{ color: 'var(--text-muted)' }}>
-              Current projects in various stages of development
+              Current games and tools, from live releases to what&apos;s shipping next
             </p>
           </div>
 
