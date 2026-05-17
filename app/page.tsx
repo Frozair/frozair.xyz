@@ -9,7 +9,7 @@ export default function Home() {
     {
       title: "BlockRush",
       description: "Breakout-style arcade roguelite with six power-up families, boss fights, and a new build every run",
-      status: "Live on Google Play",
+      status: "Live on iPhone + Android",
       tech: ["Godot", "GDScript", "Mobile"],
       color: "gold",
       icon: <Gamepad2 className="w-6 h-6" />
@@ -66,7 +66,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl opacity-80 animate-fade-in-up delay-200" style={{ color: 'var(--text-muted)' }}>
                 I make mobile games, stream the dev process on Twitch, and turn it all into YouTube videos. 
-                <strong>Block Rush</strong> is live on Google Play, and I&apos;m also building <strong>Clipzy</strong> for Twitch creators. 
+                <strong>Block Rush</strong> is live on the App Store and Google Play, and I&apos;m also building <strong>Clipzy</strong> for Twitch creators. 
                 Goal: retire my parents, replace my day job, and prove indie devs can make it.
               </p>
 

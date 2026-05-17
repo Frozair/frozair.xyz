@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - BlockRush - Made by Frozair",
-  description: "The privacy policy for BlockRush on iOS and Android.",
+  description: "The privacy policy for the mobile game Block Rush on iPhone and Android.",
 };
 
 export default function BlockRushPrivacyPage() {
@@ -17,12 +17,12 @@ export default function BlockRushPrivacyPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">Privacy Policy</h1>
 
               <div className="prose">
-                <p>Last updated: 02/20/2026</p>
+                <p>Last updated: 05/13/2026</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
                 <p>
-                  This Privacy Policy explains how BlockRush (&quot;the App&quot;) handles information
-                  when you use the app on iOS and Android.
+                  This Privacy Policy explains how Block Rush (&quot;the App&quot;) handles
+                  information when you use the mobile game on iPhone or Android.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
@@ -46,8 +46,9 @@ export default function BlockRushPrivacyPage() {
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">4. Ads and Third-Party Services</h2>
                 <p>
-                  BlockRush may use third-party services for ads, analytics, and backend features.
-                  Those services may collect device or usage data according to their own privacy
+                  Block Rush may use third-party services for analytics, backend features, and
+                  optional rewarded ads. Availability can vary by build, platform, or region, and
+                  those services may collect device or usage data according to their own privacy
                   policies.
                 </p>
 
@@ -91,6 +92,10 @@ export default function BlockRushPrivacyPage() {
                 <p>
                   If you have questions about this policy, contact:{" "}
                   <a href="mailto:blockrush@frozair.xyz">blockrush@frozair.xyz</a>.
+                </p>
+                <p>
+                  Player support is also available at{" "}
+                  <a href="/apps/blockrush/support">/apps/blockrush/support</a>.
                 </p>
               </div>
             </div>

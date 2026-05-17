@@ -24,7 +24,7 @@ export default function AppsPage() {
 
           <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.4s" animationFillMode="forwards">
             <p className="mb-16 text-xl text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto">
-              A collection of Android and Kotlin Multiplatform applications I've developed.
+              A collection of games and apps I&apos;ve released for iPhone and Android.
             </p>
           </AnimateWithDelay>
 
@@ -34,7 +34,7 @@ export default function AppsPage() {
                 href="/apps/blockrush"
                 imgSrc={blockRushIcon}
                 title="Block Rush: Break the Loop"
-                description="A breakout-style arcade roguelite on Google Play where every run becomes a different build of power-ups, boss fights, and skill shots."
+                description="A one-handed brick-breaker roguelite, now live on the App Store and Google Play, where every run becomes a different build of power-ups, boss fights, and skill shots."
               />
               <ProjectPreviewCard
                 href="/apps/beby"

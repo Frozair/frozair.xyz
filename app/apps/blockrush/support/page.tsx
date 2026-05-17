@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Support - BlockRush - Made by Frozair",
-  description: "Help and support for BlockRush on iOS and Android.",
+  description: "Help and support for the Block Rush mobile game on iPhone and Android.",
 };
 
 export default function BlockRushSupportPage() {
