@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
+import googlePlayBadgeImage from "@/public/google-play-badge.png";
+import appleAppStoreSvg from "@/public/apple-app-store.svg";
 import blockRushIcon from "@/public/blockrush-icon.png";
 import menuScreenshot from "@/public/blockrush/screenshots/01_menu.png";
 import levelThreeScreenshot from "@/public/blockrush/screenshots/03_lv3.png";
@@ -207,22 +209,28 @@ export default function BlockRushPage() {
                 animationFillMode="forwards"
               >
                 <div className="mt-8 flex flex-col gap-4 lg:max-w-3xl">
-                  <div className="flex flex-col gap-4 sm:flex-row">
+                  <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
                     <a
                       href={APP_STORE_URL}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary w-full sm:w-auto"
                     >
-                      Download on the App Store
+                      <Image
+                        src={appleAppStoreSvg}
+                        alt="Download Block Rush on the Apple App Store"
+                        height={75}
+                      />
                     </a>
                     <a
                       href={GOOGLE_PLAY_URL}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-secondary w-full sm:w-auto"
                     >
-                      Get it on Google Play
+                      <Image
+                        src={googlePlayBadgeImage}
+                        alt="Download Block Rush on the Google Play Store"
+                        height={75}
+                      />
                     </a>
                   </div>
                   <div className="flex flex-col gap-4 sm:flex-row">
