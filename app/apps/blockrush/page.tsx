@@ -138,9 +138,9 @@ const faqItems = [
 
 export default function BlockRushPage() {
   return (
-    <main className="flex-1 overflow-hidden">
+    <main className="blockrush-page flex-1 overflow-hidden">
       <section className="relative px-4 pb-24 pt-28 md:pt-32">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
+        <div className="blockrush-hero-ambient absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[-10rem] top-16 h-72 w-72 rounded-full bg-[#FF4F8B]/18 blur-3xl" />
           <div className="absolute right-[-6rem] top-20 h-80 w-80 rounded-full bg-[#44D5D2]/14 blur-3xl" />
           <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-[#FFC933]/10 blur-3xl" />
@@ -185,7 +185,7 @@ export default function BlockRushPage() {
                 animationDelay="0.35s"
                 animationFillMode="forwards"
               >
-                <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-300 md:text-xl">
+                <p className="blockrush-hero-copy mt-6 max-w-3xl text-lg leading-8 text-gray-300 md:text-xl">
                   A fast, one-handed brick-breaker roguelite where every run turns into a different
                   build of boss pressure, risky timing windows, and screen-filling power spikes.
                 </p>
@@ -196,7 +196,7 @@ export default function BlockRushPage() {
                 animationDelay="0.45s"
                 animationFillMode="forwards"
               >
-                <p className="mt-4 max-w-2xl text-base leading-7 text-gray-400">
+                <p className="blockrush-hero-subcopy mt-4 max-w-2xl text-base leading-7 text-gray-400">
                   Draft cards mid-run, stack nine power-up families, chase global leaderboards,
                   and keep pushing deeper before the loop catches up to you. The live release is
                   already playable on both stores and still getting sharper with every update.
@@ -233,7 +233,7 @@ export default function BlockRushPage() {
                       />
                     </a>
                   </div>
-                  <div className="flex flex-col gap-4 sm:flex-row">
+                  <div className="blockrush-secondary-actions flex flex-col gap-4 sm:flex-row">
                     <Link
                       href="/apps/blockrush/support"
                       className="btn btn-ghost w-full border-white/15 sm:w-auto"
@@ -262,12 +262,12 @@ export default function BlockRushPage() {
                   {heroStats.map((stat) => (
                     <div
                       key={stat.label}
-                      className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm"
+                      className="blockrush-stat-card rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm"
                     >
-                      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gray-400">
+                      <p className="blockrush-stat-label text-sm font-semibold uppercase tracking-[0.24em] text-gray-400">
                         {stat.label}
                       </p>
-                      <p className="mt-2 text-lg font-semibold text-white">{stat.value}</p>
+                      <p className="blockrush-stat-value mt-2 text-lg font-semibold text-white">{stat.value}</p>
                     </div>
                   ))}
                 </div>

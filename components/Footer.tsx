@@ -6,12 +6,15 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-      <footer className="py-12 px-4 border-t border-gray-100 dark:border-gray-700">
+      <footer
+        className="py-12 px-4"
+        style={{ borderTop: '1px solid var(--border-emphasis)', background: 'var(--background-secondary)' }}
+      >
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="flex flex-col items-center md:items-start">
               <h3 className="text-xl font-bold mb-4 blue-gradient-text">Frozair</h3>
-              <p className="text-gray-600 dark:text-gray-300 text-center md:text-left mb-6">
+              <p className="text-center md:text-left mb-6" style={{ color: 'var(--text-muted)' }}>
                 Android developer and Twitch streamer specializing in Kotlin Multiplatform development.
               </p>
               <SocialLinks />
@@ -23,7 +26,8 @@ const Footer: React.FC = () => {
                 <li>
                   <Link
                       href="/"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
                   >
                     Home
                   </Link>
@@ -31,7 +35,8 @@ const Footer: React.FC = () => {
                 <li>
                   <Link
                       href="/apps"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
                   >
                     Apps
                   </Link>
@@ -39,7 +44,8 @@ const Footer: React.FC = () => {
                 <li>
                   <Link
                       href="/about"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
                   >
                     About Me
                   </Link>
@@ -52,8 +58,27 @@ const Footer: React.FC = () => {
               <ul className="space-y-2 text-center md:text-left">
                 <li>
                   <Link
+                      href="/apps/blockrush/privacy"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
+                  >
+                    Block Rush Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                      href="/apps/blockrush/support"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
+                  >
+                    Block Rush Support
+                  </Link>
+                </li>
+                <li>
+                  <Link
                       href="/apps/beby/privacy"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
                   >
                     Beby Privacy Policy
                   </Link>
@@ -61,7 +86,8 @@ const Footer: React.FC = () => {
                 <li>
                   <Link
                       href="/apps/terms-and-conditions"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue dark:hover:text-blue-light transition-colors"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
                   >
                     Terms &amp; Conditions
                   </Link>
@@ -70,7 +96,10 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div className="border-t border-gray-100 dark:border-gray-700 mt-10 pt-6 text-center text-sm text-gray-600 dark:text-gray-300">
+          <div
+            className="mt-10 pt-6 text-center text-sm"
+            style={{ borderTop: '1px solid var(--border-emphasis)', color: 'var(--text-muted)' }}
+          >
             <p>Copyright © {currentYear}. All rights reserved.</p>
           </div>
         </div>

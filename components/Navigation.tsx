@@ -31,7 +31,7 @@ export function Navigation() {
 					: 'py-5'
 			}`}
 			style={{
-				background: isScrolled ? 'rgba(15, 15, 35, 0.9)' : 'transparent',
+				background: isScrolled ? 'color-mix(in srgb, var(--background) 82%, transparent)' : 'transparent',
 				borderBottom: isScrolled ? '2px solid var(--border-subtle)' : 'none'
 			}}
 		>
