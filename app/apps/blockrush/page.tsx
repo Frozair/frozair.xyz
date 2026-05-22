@@ -91,6 +91,50 @@ const coreLoopSteps = [
   "If the run ends, take an optional revive or bank tokens, then queue up the next build idea while the last one is still fresh.",
 ];
 
+const roadmapLanes = [
+  {
+    phase: "Now · Building",
+    accent: "#FF4F8B",
+    tint: "#FF8FB5",
+    blurb: "Making the foundation feel incredible before piling on more.",
+    items: [
+      "Sound & music across the whole game",
+      "Reworking the wave 10–11 difficulty spike",
+      "Bulletproof saves — never lose progress",
+      "Sharper end-of-run summary + 2× token option",
+      "Bigger boss-kill payoff",
+      "Crash reporting so issues get fixed fast",
+    ],
+  },
+  {
+    phase: "Next Up",
+    accent: "#44D5D2",
+    tint: "#78E6E1",
+    blurb: "The big vibe and build-variety upgrades.",
+    items: [
+      "Reactive soundtrack that ramps with the action",
+      "Music-reactive background",
+      "Paddle skins & alternate ball trails",
+      "New power-up families & synergies",
+      "CHIPS & SHIPS — starter loadouts + passive slots",
+    ],
+  },
+  {
+    phase: "On the Horizon",
+    accent: "#9B5CF4",
+    tint: "#C4A4FF",
+    blurb: "Reasons to keep coming back, dropping over time.",
+    items: [
+      "Weekly Challenge mode — seeded, shared leaderboard",
+      "Achievements with cosmetic unlocks",
+      "Daily login streak",
+      "Run history",
+      "Cosmetics shop (never pay-to-win)",
+      "Secret viewer unlocks — codes drop on stream 👀",
+    ],
+  },
+];
+
 const screenshots = [
   {
     image: menuScreenshot,
@@ -482,6 +526,78 @@ export default function BlockRushPage() {
                 </div>
               ))}
             </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      <section className="px-4 py-20">
+        <div className="container mx-auto px-2 md:px-8">
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="badge mb-4 border-[#9B5CF4]/30 bg-[#9B5CF4]/10 text-[#C4A4FF]">
+                Roadmap
+              </p>
+              <h2 className="text-3xl font-bold md:text-5xl">Built live, shipped in updates.</h2>
+              <p className="mt-5 text-lg leading-8 text-gray-400">
+                The game is already playable on both stores and keeps getting sharper. Here is what
+                is on my desk now, what is next, and what is coming after. Order shifts with
+                playtesting — that is the fun of building in public.
+              </p>
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <div className="mt-14 grid gap-6 lg:grid-cols-3">
+              {roadmapLanes.map((lane) => (
+                <div
+                  key={lane.phase}
+                  className="flex flex-col rounded-[1.75rem] border border-white/10 bg-[#141416] p-7 shadow-lg"
+                  style={{ boxShadow: `inset 0 0 0 1px ${lane.accent}33` }}
+                >
+                  <div className="flex items-center gap-3">
+                    <span
+                      className="h-3 w-3 rounded-full"
+                      style={{ backgroundColor: lane.accent, boxShadow: `0 0 14px ${lane.accent}` }}
+                    />
+                    <h3
+                      className="text-sm font-bold uppercase tracking-[0.22em]"
+                      style={{ color: lane.tint }}
+                    >
+                      {lane.phase}
+                    </h3>
+                  </div>
+                  <ul className="mt-6 flex flex-col gap-4">
+                    {lane.items.map((item) => (
+                      <li key={item} className="flex gap-3 text-base leading-7 text-gray-200">
+                        <span
+                          className="mt-2 h-1.5 w-1.5 flex-none rounded-full"
+                          style={{ backgroundColor: lane.accent }}
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-6 border-t border-white/10 pt-5 text-sm leading-6 text-gray-400">
+                    {lane.blurb}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll animationClass="animate-fade-in">
+            <p className="mx-auto mt-10 max-w-2xl text-center text-sm leading-6 text-gray-500">
+              Catch the builds happening live at{" "}
+              <a
+                href="https://twitch.tv/fr0zair"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#78E6E1] underline-offset-4 hover:underline"
+              >
+                twitch.tv/fr0zair
+              </a>
+              .
+            </p>
           </AnimateOnScroll>
         </div>
       </section>

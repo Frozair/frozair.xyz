@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0B0D"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#44D5D2"/>
+      <stop offset="0.5" stop-color="#FFC933"/>
+      <stop offset="1" stop-color="#FF4F8B"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="180" cy="160" r="220" fill="#FF4F8B" opacity="0.10" filter="url(#soft)"/>
+  <circle cx="1450" cy="180" r="240" fill="#44D5D2" opacity="0.10" filter="url(#soft)"/>
+  <circle cx="800" cy="880" r="260" fill="#9B5CF4" opacity="0.08" filter="url(#soft)"/>
+
+  <!-- Header -->
+  <text x="80" y="92" font-size="26" letter-spacing="8" fill="#9AA0A6" font-weight="700">FROZAIR · BUILT LIVE ON STREAM</text>
+  <text x="80" y="170" font-size="78" font-weight="800" fill="url(#title)">BLOCK RUSH — ROADMAP</text>
+  <text x="80" y="214" font-size="26" fill="#C7CBD1">Where the game is, and where it's headed. Order shifts with playtesting — that's the fun of building in public.</text>
+
+  <!-- Progress bar -->
+  <text x="1190" y="92" font-size="22" letter-spacing="4" fill="#9AA0A6" font-weight="700">CORE GAME</text>
+  <rect x="1190" y="106" width="330" height="14" rx="7" fill="#FFFFFF" opacity="0.08"/>
+  <rect x="1190" y="106" width="330" height="14" rx="7" fill="#44D5D2"/>
+  <text x="1520" y="148" font-size="22" fill="#78E6E1" text-anchor="end" font-weight="700">LIVE ON iOS + ANDROID</text>
+
+  <!-- Lane card helper geometry -->
+  <!-- NOW -->
+  <g>
+    <rect x="80" y="270" width="460" height="540" rx="28" fill="#141416" stroke="#FF4F8B" stroke-opacity="0.35"/>
+    <rect x="80" y="270" width="460" height="64" rx="28" fill="#FF4F8B" opacity="0.12"/>
+    <circle cx="116" cy="302" r="9" fill="#FF4F8B" filter="url(#glow)"/>
+    <text x="140" y="311" font-size="30" font-weight="800" fill="#FF8FB5" letter-spacing="3">NOW · BUILDING</text>
+    <text x="110" y="392" font-size="27" fill="#F4F5F7" font-weight="700">🎵  Sound &amp; music</text>
+    <text x="110" y="446" font-size="27" fill="#F4F5F7" font-weight="700">⚖️  Wave 10–11 difficulty fix</text>
+    <text x="110" y="500" font-size="27" fill="#F4F5F7" font-weight="700">💾  Bulletproof saves</text>
+    <text x="110" y="554" font-size="27" fill="#F4F5F7" font-weight="700">🎁  Better end-of-run screen</text>
+    <text x="110" y="608" font-size="27" fill="#F4F5F7" font-weight="700">💥  Boss-kill payoff</text>
+    <text x="110" y="662" font-size="27" fill="#F4F5F7" font-weight="700">🛡️  Crash reporting</text>
+    <text x="110" y="730" font-size="20" fill="#9AA0A6">Making the foundation feel</text>
+    <text x="110" y="758" font-size="20" fill="#9AA0A6">incredible before adding more.</text>
+  </g>
+
+  <!-- NEXT -->
+  <g>
+    <rect x="570" y="270" width="460" height="540" rx="28" fill="#141416" stroke="#44D5D2" stroke-opacity="0.35"/>
+    <rect x="570" y="270" width="460" height="64" rx="28" fill="#44D5D2" opacity="0.12"/>
+    <circle cx="606" cy="302" r="9" fill="#44D5D2" filter="url(#glow)"/>
+    <text x="630" y="311" font-size="30" font-weight="800" fill="#78E6E1" letter-spacing="3">NEXT UP</text>
+    <text x="600" y="404" font-size="27" fill="#F4F5F7" font-weight="700">🎼  Reactive soundtrack</text>
+    <text x="600" y="436" font-size="20" fill="#9AA0A6">Music ramps with the action +</text>
+    <text x="600" y="462" font-size="20" fill="#9AA0A6">a background that reacts to it.</text>
+    <text x="600" y="528" font-size="27" fill="#F4F5F7" font-weight="700">🎨  Paddle skins &amp; trails</text>
+    <text x="600" y="560" font-size="20" fill="#9AA0A6">Make your run yours.</text>
+    <text x="600" y="626" font-size="27" fill="#F4F5F7" font-weight="700">⚡  New power-up families</text>
+    <text x="600" y="658" font-size="20" fill="#9AA0A6">Fresh abilities &amp; synergies.</text>
+    <text x="600" y="724" font-size="27" fill="#F4F5F7" font-weight="700">🔧  CHIPS &amp; SHIPS</text>
+    <text x="600" y="756" font-size="20" fill="#9AA0A6">Starter loadouts + passive slots.</text>
+  </g>
+
+  <!-- HORIZON -->
+  <g>
+    <rect x="1060" y="270" width="460" height="540" rx="28" fill="#141416" stroke="#9B5CF4" stroke-opacity="0.35"/>
+    <rect x="1060" y="270" width="460" height="64" rx="28" fill="#9B5CF4" opacity="0.12"/>
+    <circle cx="1096" cy="302" r="9" fill="#9B5CF4" filter="url(#glow)"/>
+    <text x="1120" y="311" font-size="30" font-weight="800" fill="#C4A4FF" letter-spacing="3">ON THE HORIZON</text>
+    <text x="1090" y="392" font-size="27" fill="#F4F5F7" font-weight="700">🏆  Weekly Challenge mode</text>
+    <text x="1090" y="446" font-size="27" fill="#F4F5F7" font-weight="700">🎖️  Achievements</text>
+    <text x="1090" y="500" font-size="27" fill="#F4F5F7" font-weight="700">🔥  Daily login streak</text>
+    <text x="1090" y="554" font-size="27" fill="#F4F5F7" font-weight="700">📜  Run history</text>
+    <text x="1090" y="608" font-size="27" fill="#F4F5F7" font-weight="700">🛒  Cosmetics shop</text>
+    <text x="1090" y="662" font-size="27" fill="#F4F5F7" font-weight="700">🤫  Secret viewer unlocks</text>
+    <text x="1090" y="730" font-size="20" fill="#9AA0A6">Codes drop on stream —</text>
+    <text x="1090" y="758" font-size="20" fill="#FFD967">cosmetics for the community. 👀</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="80" y="862" font-size="24" fill="#9AA0A6">Never pay-to-win — cosmetics &amp; optional rewarded ads only.</text>
+  <text x="1520" y="862" font-size="26" font-weight="800" fill="#78E6E1" text-anchor="end">twitch.tv/fr0zair</text>
+</svg>
