@@ -76,6 +76,24 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
+                      href="/apps/hexablast/privacy"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
+                  >
+                    Hexa Blast Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                      href="/apps/hexablast/support"
+                      className="transition-colors hover:text-blue"
+                      style={{ color: 'var(--text-muted)' }}
+                  >
+                    Hexa Blast Support
+                  </Link>
+                </li>
+                <li>
+                  <Link
                       href="/apps/beby/privacy"
                       className="transition-colors hover:text-blue"
                       style={{ color: 'var(--text-muted)' }}
