@@ -7,15 +7,27 @@ import Footer from "@/components/Footer";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: 'Frozair - Indie Dev & Content Creator',
+  metadataBase: new URL('https://frozair.xyz'),
+  title: {
+    default: 'Frozair - Indie Dev & Content Creator',
+    template: '%s',
+  },
   description: 'Mobile app developer, game creator, and Twitch streamer building cool stuff and sharing the journey.',
+  openGraph: {
+    siteName: 'Frozair',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    creator: '@frozairlol',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Frozair</title>
         <link rel="icon" type="image/x-icon" href="/happy.png" />
       </head>
       <body>

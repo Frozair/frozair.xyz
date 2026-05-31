@@ -2,6 +2,7 @@ import React from "react";
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
 import bebyAppImage from '@/public/beby_app.png';
 import blockRushIcon from '@/public/blockrush-icon.png';
+import hexaBlastIcon from '@/public/hexablast/app-icon.png';
 import SocialLinks from "@/components/SocialLinks";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
@@ -9,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Apps  - Frozair - Android and Kotlin Multiplatform Developer',
-  description: 'Apps created by Frozair include BlockRush and Beby for iOS and Android.',
+  description: 'Apps created by Frozair include Hexa Blast, Block Rush, and Beby for iOS and Android.',
 };
 export default function AppsPage() {
   return (
@@ -35,6 +36,12 @@ export default function AppsPage() {
                 imgSrc={blockRushIcon}
                 title="Block Rush: Break the Loop"
                 description="A one-handed brick-breaker roguelite, now live on the App Store and Google Play, where every run becomes a different build of power-ups, boss fights, and skill shots."
+              />
+              <ProjectPreviewCard
+                href="/apps/hexablast"
+                imgSrc={hexaBlastIcon}
+                title="Hexa Blast: Honey Puzzle"
+                description="A cozy honeycomb block puzzle with three-axis line clears, offline play, and a daily Hive Quest mode built for iPhone and Android."
               />
               <ProjectPreviewCard
                 href="/apps/beby"
