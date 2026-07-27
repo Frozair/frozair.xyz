@@ -6,8 +6,6 @@ import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { AnimateWithDelay } from "@/components/AnimateWithDelay";
 import appIcon from "@/public/hexablast/app-icon.png";
 import heroScreenshot from "@/public/hexablast/screenshots/01_hero.png";
-import comboScreenshot from "@/public/hexablast/screenshots/02_combo.png";
-import menuProgressScreenshot from "@/public/hexablast/screenshots/03_menu_progress.png";
 import hiveQuestScreenshot from "@/public/hexablast/screenshots/04_hive_quest.png";
 
 const PAGE_URL = "https://frozair.xyz/apps/hexablast";
@@ -56,43 +54,10 @@ export const metadata: Metadata = {
   },
 };
 
-const quickPoints = [
-  "Cozy hex block puzzle",
-  "Offline-friendly mobile play",
-  "Daily Hive Quest challenges",
-  "Made for iPhone and Android",
-];
-
-const searchHighlights = [
-  {
-    title: "Clear positioning",
-    content:
-      "Hexa Blast is presented fast: a cozy honeycomb block puzzle with a hex grid, daily challenge mode, and mobile-first play.",
-  },
-  {
-    title: "Real game visuals",
-    content:
-      "The page uses actual game screenshots and the current icon so search visitors see the real product instead of vague mockups.",
-  },
-  {
-    title: "Store trust built in",
-    content:
-      "Privacy policy, support, and terms are all linked directly from the route for app-review and player trust.",
-  },
-];
-
 const screenshots = [
   {
     image: heroScreenshot,
     title: "Core gameplay",
-  },
-  {
-    image: comboScreenshot,
-    title: "Combo moments",
-  },
-  {
-    image: menuProgressScreenshot,
-    title: "Menu and progress",
   },
   {
     image: hiveQuestScreenshot,
@@ -206,8 +171,8 @@ export default function HexaBlastPage() {
                 animationFillMode="forwards"
               >
                 <p className="mt-4 max-w-2xl text-base leading-7 text-gray-400">
-                  This page is here to rank cleanly, show the real game fast, and keep store-ready
-                  support and legal links close by.
+                  Built to rank cleanly, show the real game fast, and keep support and legal links
+                  easy to find.
                 </p>
               </AnimateWithDelay>
 
@@ -223,29 +188,9 @@ export default function HexaBlastPage() {
                   <Link href="/apps/hexablast/support" className="btn btn-secondary w-full sm:w-auto">
                     Support
                   </Link>
-                  <Link
-                    href="/apps/terms-and-conditions"
-                    className="btn btn-ghost w-full border-white/15 sm:w-auto"
-                  >
-                    Terms &amp; Conditions
+                  <Link href="/apps" className="btn btn-ghost w-full border-white/15 sm:w-auto">
+                    View All Apps
                   </Link>
-                </div>
-              </AnimateWithDelay>
-
-              <AnimateWithDelay
-                animationClass="animate-fade-in"
-                animationDelay="0.65s"
-                animationFillMode="forwards"
-              >
-                <div className="mt-10 flex flex-wrap gap-3">
-                  {quickPoints.map((point) => (
-                    <span
-                      key={point}
-                      className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-200"
-                    >
-                      {point}
-                    </span>
-                  ))}
                 </div>
               </AnimateWithDelay>
             </div>
@@ -297,33 +242,6 @@ export default function HexaBlastPage() {
         </div>
       </section>
 
-      <section className="relative bg-background-secondary px-4 py-20">
-        <div className="container mx-auto px-2 md:px-8">
-          <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="mx-auto max-w-3xl text-center">
-              <p className="badge mb-4 border-[#F2B84B]/30 bg-[#F2B84B]/10 text-[#FFD57F]">
-                Why This Page Exists
-              </p>
-              <h2 className="text-3xl font-bold md:text-5xl">A cleaner marketing page, not a design doc.</h2>
-            </div>
-          </AnimateOnScroll>
-
-          <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="mt-14 grid gap-6 lg:grid-cols-3">
-              {searchHighlights.map((item) => (
-                <div
-                  key={item.title}
-                  className="rounded-[1.75rem] border border-white/10 bg-[#171717] p-6 shadow-lg"
-                >
-                  <h3 className="text-2xl font-semibold">{item.title}</h3>
-                  <p className="mt-4 text-base leading-7 text-gray-300">{item.content}</p>
-                </div>
-              ))}
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
       <section className="px-4 py-20">
         <div className="container mx-auto px-2 md:px-8">
           <AnimateOnScroll animationClass="animate-fade-in">
@@ -331,12 +249,12 @@ export default function HexaBlastPage() {
               <p className="badge mb-4 border-[#C87916]/30 bg-[#C87916]/10 text-[#F6C36D]">
                 Screenshots
               </p>
-              <h2 className="text-3xl font-bold md:text-5xl">What Hexa Blast looks like right now.</h2>
+              <h2 className="text-3xl font-bold md:text-5xl">A quick look at the game.</h2>
             </div>
           </AnimateOnScroll>
 
           <AnimateOnScroll animationClass="animate-fade-in">
-            <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <div className="mt-14 grid gap-6 md:grid-cols-2">
               {screenshots.map((shot) => (
                 <div
                   key={shot.title}
@@ -360,10 +278,9 @@ export default function HexaBlastPage() {
               <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
                 <div>
                   <p className="badge border-[#F2B84B]/30 bg-[#F2B84B]/10 text-[#FFD57F]">Store-ready links</p>
-                  <h2 className="mt-5 text-3xl font-bold md:text-4xl">Support, privacy, and legal pages are one tap away.</h2>
+                  <h2 className="mt-5 text-3xl font-bold md:text-4xl">Official links stay close.</h2>
                   <p className="mt-4 max-w-2xl text-lg leading-8 text-gray-300">
-                    The route stays focused: rank the game, show the visuals, and make the official
-                    trust paths easy to find.
+                    Privacy, support, and terms are here for players and store review.
                   </p>
                 </div>
 
