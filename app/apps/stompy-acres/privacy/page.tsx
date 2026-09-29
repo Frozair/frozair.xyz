@@ -18,14 +18,15 @@ export default function StompyAcresPrivacyPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">Privacy Policy</h1>
 
               <div className="prose">
-                <p>Last updated: 09/27/2026</p>
+                <p>Last updated: 09/28/2026</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
                 <p>
                   This Privacy Policy explains how Stompy Acres: Idle Dino Farm (&quot;the App&quot;)
                   handles information when you play on iPhone or Android. The short version: the
-                  App has no sign-up, asks for no name or email, shows no ads, and does not track
-                  you across other apps or websites.
+                  App needs no sign-up to play, shows no ads, and does not track you across other
+                  apps or websites. If you choose to sign in with Apple or Google to keep your
+                  island, we store only what is needed to recognise that account again.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
@@ -33,8 +34,16 @@ export default function StompyAcresPrivacyPage() {
                   <li>
                     <strong>An anonymous player ID.</strong> When the App first opens it creates a
                     random account identifier so your island, dinosaurs and Treasure can be saved
-                    on our servers and continue while you are away. It is not linked to your name,
-                    email, phone number or any other account.
+                    on our servers and continue while you are away. Until you choose to sign in,
+                    it is not linked to your name, email, phone number or any other account.
+                  </li>
+                  <li>
+                    <strong>An optional sign-in.</strong> If you tap &quot;Save your island&quot; and
+                    sign in with Apple or Google, we store the identifier that provider gives us
+                    for your account and the email address it shares (Apple lets you hide your real
+                    address behind a relay). This is used only to recognise your account and restore
+                    your island on another device; it is never shown in the game, used for
+                    marketing, or shared. Signing in is optional and the App plays the same without it.
                   </li>
                   <li>
                     <strong>Game progress.</strong> The state of your island (dinosaurs, eggs,
@@ -46,7 +55,7 @@ export default function StompyAcresPrivacyPage() {
                     system version is sent so we can fix it. Reports contain no personal details.
                   </li>
                 </ul>
-                <p>We do not collect names, email addresses, contacts, photos, location or payment details.</p>
+                <p>We do not collect names, contacts, photos, location or payment details, and we receive an email address only if you choose to sign in.</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">3. How We Use Information</h2>
                 <ul>
@@ -70,24 +79,26 @@ export default function StompyAcresPrivacyPage() {
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">6. Data Retention</h2>
                 <p>
-                  Game saves are kept for as long as the anonymous account exists. Crash reports are
-                  kept for 90 days.
+                  Game saves, and any sign-in details, are kept for as long as the account exists.
+                  Crash reports are kept for 90 days.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">7. Children&apos;s Privacy</h2>
                 <p>
-                  The App is suitable for all ages and is built so that it does not need personal
-                  information from anyone, including children under 13. There is no chat, no
-                  sign-up and no advertising. If you believe a child has provided personal
-                  information to us by other means, contact us and we will delete it.
+                  The App is suitable for all ages and can be played without giving us any personal
+                  information. There is no chat and no advertising, and sign-in is optional. The
+                  optional Apple and Google sign-in is intended for players aged 13 and over; if you
+                  believe a child under 13 has signed in or otherwise provided personal information
+                  to us, contact us and we will delete it.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">8. Your Rights</h2>
                 <p>
                   Depending on your location, you may have rights to access, correct, delete or
-                  limit processing of information about you. Because the App only holds an
-                  anonymous ID and a game save, deleting the App from your device ends our ability
-                  to connect that save to you. To have the save itself removed from our servers,
+                  limit processing of information about you. If you have not signed in, the App
+                  only holds an anonymous ID and a game save, so deleting the App from your device
+                  ends our ability to connect that save to you. If you have signed in, contact us
+                  and we will remove the sign-in details and the save. To have the save itself removed from our servers,
                   email the address below and we will delete it within 30 days.
                 </p>
 
