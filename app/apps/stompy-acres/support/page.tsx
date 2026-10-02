@@ -34,14 +34,10 @@ export default function StompyAcresSupportPage() {
                     the storehouse is full, dinos wait until you collect and sell.
                   </li>
                   <li>
-                    <strong>Lost progress after reinstalling.</strong> Your save is tied to the
-                    install on that device. Reinstalling the app or switching phones starts a new
-                    island. Account linking is planned; until then, keep the app installed to keep
-                    your island.
+                    <strong>Lost progress after reinstalling.</strong> Use “Save your island” in the phone app to link your save with Apple or Google. Sign in with the same account to recover a linked island. If you have not linked your save, keep the app installed and contact support before reinstalling.
                   </li>
                   <li>
-                    <strong>I want my save deleted.</strong> Email support from the device you play
-                    on and we will remove your island from our servers within 30 days.
+                    <strong>I want my save deleted.</strong> Follow the <a href="/apps/stompy-acres/privacy#data-requests">account and data deletion request instructions</a>. Keep the app installed until we can identify your player account.
                   </li>
                 </ul>
 

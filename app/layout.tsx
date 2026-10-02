@@ -1,6 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import DonationWidget from '@/components/DonationWidget';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navigation } from '@/components/Navigation';
 import Footer from "@/components/Footer";
@@ -48,15 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
           </div>
         </ThemeProvider>
-        <Script strategy="beforeInteractive" src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></Script>
-        <Script id="kofi-widget">
-          {`kofiWidgetOverlay.draw('frozair', {
-            'type': 'floating-chat',
-            'floating-chat.donateButton.text': 'Tip Me',
-            'floating-chat.donateButton.background-color': '#D4A853',
-            'floating-chat.donateButton.text-color': '#fff'
-          });`}
-        </Script>
+        <DonationWidget />
       </body>
     </html>
   );

@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Apps  - Frozair - Android and Kotlin Multiplatform Developer',
-  description: 'Apps created by Frozair include Hexa Blast, Block Rush, and Beby for iOS and Android.',
+  description: 'Apps created by Frozair include Stompy Acres, Hexa Blast, Block Rush, and Beby for iOS and Android.',
 };
 export default function AppsPage() {
   return (
@@ -25,12 +25,18 @@ export default function AppsPage() {
 
           <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.4s" animationFillMode="forwards">
             <p className="mb-16 text-xl text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto">
-              A collection of games and apps I&apos;ve released for iPhone and Android.
+              Games and apps I’m building for iPhone and Android.
             </p>
           </AnimateWithDelay>
 
           <AnimateWithDelay animationClass="animate-fade-in" animationDelay="0.6s" animationFillMode="forwards">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <ProjectPreviewCard
+                href="/apps/stompy-acres"
+                imgSrc="/stompy-acres/icon.webp"
+                title="Stompy Acres"
+                description="A cozy island full of adorable dinosaurs. Hatch new friends, dig up treasures, and grow your little prehistoric home. In early testing."
+              />
               <ProjectPreviewCard
                 href="/apps/blockrush"
                 imgSrc={blockRushIcon}
