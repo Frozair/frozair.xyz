@@ -121,7 +121,7 @@ export default function StompyAcresPrivacyPage() {
                   to us, contact us and we will delete it.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-8 mb-4">8. Your Rights</h2>
+                <h2 id="data-requests" className="text-2xl font-semibold mt-8 mb-4">8. Account and Data Deletion Requests</h2>
                 <p>
                   Depending on your location, you may have rights to access, correct, delete or
                   limit processing of information about you. Turn off &quot;Share gameplay metrics&quot;
@@ -131,7 +131,7 @@ export default function StompyAcresPrivacyPage() {
                   to run your island. Deleting the App does not delete server records.
                 </p>
                 <p>
-                  To request access or deletion, contact us using the address below. Keep the
+                  To request account deletion, access to your data, or deletion of optional metrics, email <a href="mailto:stompyacres@frozair.xyz?subject=Stompy%20Acres%20data%20request">stompyacres@frozair.xyz</a> and say which request you want. Account deletion removes your sign-in association, saved island, dinos, currency and related gameplay records, along with optional metrics associated with your player ID. You can request deletion of optional metrics while keeping your island. Keep the
                   App installed until we can help identify your player account, especially if
                   you have not linked Apple or Google. We will handle deletion requests within
                   30 days, subject to any records we must retain for legal or security reasons.
