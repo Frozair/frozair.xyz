@@ -18,7 +18,7 @@ export default function StompyAcresPrivacyPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">Privacy Policy</h1>
 
               <div className="prose">
-                <p>Last updated: 09/28/2026</p>
+                <p>Last updated: October 1, 2026</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
                 <p>
@@ -26,13 +26,14 @@ export default function StompyAcresPrivacyPage() {
                   handles information when you play on iPhone or Android. The short version: the
                   App needs no sign-up to play, shows no ads, and does not track you across other
                   apps or websites. If you choose to sign in with Apple or Google to keep your
-                  island, we store only what is needed to recognise that account again.
+                  island, we store only what is needed to recognise that account again. Builds with optional gameplay
+                  metrics let you choose whether to share those metrics in Settings.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
                 <ul>
                   <li>
-                    <strong>An anonymous player ID.</strong> When the App first opens it creates a
+                    <strong>A pseudonymous player ID.</strong> When the App first opens it creates a
                     random account identifier so your island, dinosaurs and Treasure can be saved
                     on our servers and continue while you are away. Until you choose to sign in,
                     it is not linked to your name, email, phone number or any other account.
@@ -43,16 +44,26 @@ export default function StompyAcresPrivacyPage() {
                     for your account and the email address it shares (Apple lets you hide your real
                     address behind a relay). This is used only to recognise your account and restore
                     your island on another device; it is never shown in the game, used for
-                    marketing, or shared. Signing in is optional and the App plays the same without it.
+                    marketing, or sent to our analytics service. Signing in is optional and the App plays the same without it.
                   </li>
                   <li>
                     <strong>Game progress.</strong> The state of your island (dinosaurs, eggs,
-                    Treasure, cash, land) is stored against that anonymous ID.
+                    Treasure, cash, land) is stored against that player ID.
                   </li>
                   <li>
                     <strong>Crash and diagnostic information.</strong> If the App crashes or hits
                     an error, a report with the error, the App version, device model and operating
-                    system version is sent so we can fix it. Reports contain no personal details.
+                    system version is sent so we can fix it. We do not intentionally include names, email addresses or sign-in tokens in these reports.
+                  </li>
+                  <li>
+                    <strong>Optional gameplay metrics.</strong> In builds that support metrics,
+                    sharing is off by default. If you turn on &quot;Share gameplay metrics&quot;
+                    in Settings, we send your player ID, app version and platform, foreground
+                    session duration, viewed game screens, and confirmed actions such as egg
+                    purchases, hatches, Treasure collections, sales and island upgrades. Metrics
+                    also include progress and balance information needed to compare game versions.
+                    The player ID can connect activity across sessions and to a saved account;
+                    these records are pseudonymous, not fully anonymous.
                   </li>
                 </ul>
                 <p>We do not collect names, contacts, photos, location or payment details, and we receive an email address only if you choose to sign in.</p>
@@ -61,14 +72,25 @@ export default function StompyAcresPrivacyPage() {
                 <ul>
                   <li>To save and restore your game and keep it running while the App is closed.</li>
                   <li>To find and fix crashes and errors.</li>
+                  <li>If you enable metrics, to understand gameplay and improve progression and game balance.</li>
                 </ul>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">4. Third-Party Services</h2>
                 <p>
                   Game saves are stored with Supabase (database hosting) and crash reports are
                   processed by Sentry (error monitoring). Both act as service providers for the
-                  App and handle data according to their own privacy policies. The App contains no
-                  advertising and no analytics or tracking SDKs.
+                  App. Optional gameplay analytics are processed by PostHog in its US Cloud
+                  region. We do not send PostHog your email, Apple/Google sign-in details,
+                  authentication tokens, advertising identifiers, precise location, screen
+                  recordings or messages. We do not use analytics for advertising or tracking
+                  across other companies&apos; apps or websites. Service providers may process
+                  connection information such as IP addresses to deliver and secure their
+                  services; IP enrichment and storage in our PostHog events are disabled.
+                </p>
+                <p>
+                  Service privacy policies: <a href="https://supabase.com/privacy">Supabase</a>,{" "}
+                  <a href="https://sentry.io/privacy/">Sentry</a>, and{" "}
+                  <a href="https://posthog.com/privacy">PostHog</a>.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">5. Data Sharing</h2>
@@ -80,13 +102,19 @@ export default function StompyAcresPrivacyPage() {
                 <h2 className="text-2xl font-semibold mt-8 mb-4">6. Data Retention</h2>
                 <p>
                   Game saves, and any sign-in details, are kept for as long as the account exists.
-                  Crash reports are kept for 90 days.
+                  Crash reports are kept for 90 days. Delivered analytics queue records on our
+                  server are removed after seven days. PostHog&apos;s current free plan provides a
+                  one-year event query window; this is not a promise that records are automatically
+                  deleted after one year. Analytics records may remain stored until removed using
+                  PostHog&apos;s deletion tools. Contact us to request deletion of records associated
+                  with your player ID.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">7. Children&apos;s Privacy</h2>
                 <p>
-                  The App is suitable for all ages and can be played without giving us any personal
-                  information. There is no chat and no advertising, and sign-in is optional. The
+                  There is no chat or advertising. Playing without sign-in still creates a
+                  pseudonymous player ID and a server game save. Optional gameplay metrics are
+                  off by default, and a parent or guardian should manage this setting for a child. The
                   optional Apple and Google sign-in is intended for players aged 13 and over; if you
                   believe a child under 13 has signed in or otherwise provided personal information
                   to us, contact us and we will delete it.
@@ -95,11 +123,17 @@ export default function StompyAcresPrivacyPage() {
                 <h2 className="text-2xl font-semibold mt-8 mb-4">8. Your Rights</h2>
                 <p>
                   Depending on your location, you may have rights to access, correct, delete or
-                  limit processing of information about you. If you have not signed in, the App
-                  only holds an anonymous ID and a game save, so deleting the App from your device
-                  ends our ability to connect that save to you. If you have signed in, contact us
-                  and we will remove the sign-in details and the save. To have the save itself removed from our servers,
-                  email the address below and we will delete it within 30 days.
+                  limit processing of information about you. Turn off &quot;Share gameplay metrics&quot;
+                  in Settings to stop new optional metrics. The App discards its queued metrics
+                  immediately; an offline change reaches our server after reconnecting. Turning
+                  the setting off does not delete metrics already sent or the game save needed
+                  to run your island. Deleting the App does not delete server records.
+                </p>
+                <p>
+                  To request access or deletion, contact us using the address below. Keep the
+                  App installed until we can help identify your player account, especially if
+                  you have not linked Apple or Google. We will handle deletion requests within
+                  30 days, subject to any records we must retain for legal or security reasons.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">9. Changes to This Policy</h2>
