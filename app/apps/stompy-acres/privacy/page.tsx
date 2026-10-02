@@ -41,7 +41,8 @@ export default function StompyAcresPrivacyPage() {
                   <li>
                     <strong>An optional sign-in.</strong> If you tap &quot;Save your island&quot; and
                     sign in with Apple or Google, we store the identifier that provider gives us
-                    for your account and the email address it shares (Apple lets you hide your real
+                    for your account and the email address it shares, and may receive a profile name
+                    from that provider (Apple lets you hide your real
                     address behind a relay). This is used only to recognise your account and restore
                     your island on another device; it is never shown in the game, used for
                     marketing, or sent to our analytics service. Signing in is optional and the App plays the same without it.
@@ -66,7 +67,7 @@ export default function StompyAcresPrivacyPage() {
                     these records are pseudonymous, not fully anonymous.
                   </li>
                 </ul>
-                <p>We do not collect names, contacts, photos, location or payment details, and we receive an email address only if you choose to sign in.</p>
+                <p>We do not request contacts, photos, location or payment details. We receive an email address or provider profile name only if you choose to sign in.</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">3. How We Use Information</h2>
                 <ul>
