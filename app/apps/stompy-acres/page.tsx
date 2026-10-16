@@ -52,7 +52,7 @@ export default function StompyAcresPage() {
           <details><summary>How do I protect my island?</summary><p>Use “Save your island” in the phone app to link your save with Apple or Google. If you play without linking, keep the app installed. Contact support before reinstalling if you’re unsure.</p></details>
           <details><summary>What about privacy?</summary><p>Optional gameplay metrics default off. You can read what we collect and how to request account or data deletion in our <Link href="/apps/stompy-acres/privacy">privacy policy</Link>.</p></details>
         </section>
-        <footer className={styles.footer}><span>A little world, made by <Link href="/">Frozair</Link>.</span><nav aria-label="Stompy Acres help"><Link href="/apps/stompy-acres/support">Support</Link><Link href="/apps/stompy-acres/privacy">Privacy</Link><Link href="/apps/stompy-acres/privacy#data-requests">Data requests</Link></nav></footer>
+        <footer className={styles.footer}><span>A little world, made by <Link href="/">Frozair</Link>.</span><nav aria-label="Stompy Acres help"><Link href="/apps/stompy-acres/support">Support</Link><Link href="/apps/stompy-acres/privacy">Privacy</Link><Link href="/apps/stompy-acres/privacy#data-requests">Data requests</Link><Link href="/apps/stompy-acres/credits">Sound &amp; music credits</Link></nav></footer>
       </div>
     </article>
   );

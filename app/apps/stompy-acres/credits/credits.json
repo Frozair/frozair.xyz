@@ -1,0 +1,317 @@
+{
+  "entries": [
+    {
+      "use": "Music: island",
+      "title": "Cozy Puzzle In-Game 1",
+      "creator": "MintoDog",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://opengameart.org/content/cozy-puzzle-in-game-1",
+      "modified": false
+    },
+    {
+      "use": "Music: events",
+      "title": "Magic Puzzle In-Game 1",
+      "creator": "MintoDog",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://opengameart.org/content/magic-puzzle-in-game-1",
+      "modified": false
+    },
+    {
+      "use": "amb_giants",
+      "file": "ambience/highland.mp3",
+      "title": "Ambiance_Wind_Forest_Trees_Loop_01.wav",
+      "creator": "Nox_Sound",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/Nox_Sound/sounds/530908",
+      "modified": false
+    },
+    {
+      "use": "dino voice family 'bellow'",
+      "file": "dinos/bellow_01.wav",
+      "title": "Monster Bellow 3.wav",
+      "creator": "ecfike",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/ecfike/sounds/135740",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'bellow'",
+      "file": "dinos/bellow_02.wav",
+      "title": "generic animal.mp3",
+      "creator": "StarrySkydancer",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/StarrySkydancer/sounds/697728",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'bellow'",
+      "file": "dinos/bellow_03.wav",
+      "title": "Dinosaur call",
+      "creator": "Alessandrobraz",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/Alessandrobraz/sounds/708641",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'bellow'",
+      "file": "dinos/bellow_04.wav",
+      "title": "dinosaur2.wav",
+      "creator": "reinsamba",
+      "creator_url": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://freesound.org/people/reinsamba/sounds/15026",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_01.wav",
+      "title": "creature noise yuuuu .mp3",
+      "creator": "FairCashew",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/FairCashew/sounds/684868",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_02.wav",
+      "title": "creature noise eyaue.mp3",
+      "creator": "FairCashew",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/FairCashew/sounds/684867",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_03.wav",
+      "title": "creature noise yyaauu.mp3",
+      "creator": "FairCashew",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/FairCashew/sounds/684864",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_04.wav",
+      "title": "Long Đỏ - Kêu 0",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/698072",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_05.wav",
+      "title": "Long Đỏ - Kêu 2",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/698074",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'chirp'",
+      "file": "dinos/chirp_06.wav",
+      "title": "Long Đỏ - Kêu 4",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/698076",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'groan'",
+      "file": "dinos/groan_01.wav",
+      "title": "Small Horned Beast Groan1.wav",
+      "creator": "ShangASDFGuy123",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/ShangASDFGuy123/sounds/702045",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'groan'",
+      "file": "dinos/groan_02.wav",
+      "title": "Small Horned Beast Groan11.wav",
+      "creator": "ShangASDFGuy123",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/ShangASDFGuy123/sounds/702047",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'groan'",
+      "file": "dinos/groan_03.wav",
+      "title": "Small Horned Beast Groan21.wav",
+      "creator": "ShangASDFGuy123",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/ShangASDFGuy123/sounds/702058",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'groan'",
+      "file": "dinos/groan_04.wav",
+      "title": "Cute creature 01.wav",
+      "creator": "Hawkeye_Sprout",
+      "creator_url": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://freesound.org/people/Hawkeye_Sprout/sounds/469066",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'groan'",
+      "file": "dinos/groan_05.wav",
+      "title": "Cute creature 02.wav",
+      "creator": "Hawkeye_Sprout",
+      "creator_url": null,
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://freesound.org/people/Hawkeye_Sprout/sounds/469067",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'honk'",
+      "file": "dinos/honk_01.wav",
+      "title": "Titanis - Terror Bird",
+      "creator": "Scpsea",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/Scpsea/sounds/719368",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'honk'",
+      "file": "dinos/honk_02.wav",
+      "title": "Khủng Long 21",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/546291",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'honk'",
+      "file": "dinos/honk_03.wav",
+      "title": "Long Đỏ - Kêu 1",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/698073",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'honk'",
+      "file": "dinos/honk_04.wav",
+      "title": "Long Đỏ - Kêu 3",
+      "creator": "SieuAmThanh",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/SieuAmThanh/sounds/698075",
+      "modified": true
+    },
+    {
+      "use": "dino voice family 'roar'",
+      "file": "dinos/roar_01.wav",
+      "title": "Dinosaur 5.wav",
+      "creator": "JarredGibb",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/JarredGibb/sounds/233284",
+      "modified": true
+    },
+    {
+      "use": "glint",
+      "file": "glint.wav",
+      "title": "Sparkling Star 01.wav",
+      "creator": "MATRIXXX_",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/MATRIXXX_/sounds/462095",
+      "modified": false
+    },
+    {
+      "use": "whoosh_soft",
+      "file": "release.wav",
+      "title": "Swipe Whoosh",
+      "creator": "qubodup",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/qubodup/sounds/60007",
+      "modified": true
+    },
+    {
+      "use": "oars",
+      "file": "row.wav",
+      "title": "R23-38-Oar Splash.wav",
+      "creator": "craigsmith",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/craigsmith/sounds/480840",
+      "modified": false
+    },
+    {
+      "use": "shop_bell",
+      "file": "shop_bell.wav",
+      "title": "Ryuuzan_shop_door_bell00.wav",
+      "creator": "ryuuzan",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/ryuuzan/sounds/192761",
+      "modified": false
+    },
+    {
+      "use": "stomp",
+      "file": "stomp.wav",
+      "title": "FloorBang_03.wav",
+      "creator": "Faulkin",
+      "creator_url": null,
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://freesound.org/people/Faulkin/sounds/336489",
+      "modified": true
+    },
+    {
+      "use": "UI, rewards, ambience beds, Rex's voice and several layers",
+      "title": "Sonniss GDC Game Audio Bundle",
+      "creator": "various vendors (344 Audio, Epic Stock Media, Cinematic Sound Design, CB Sounddesign, Jake Fielding and others)",
+      "license": "Sonniss royalty-free game audio license",
+      "license_url": "https://sonniss.com/gameaudiogdc",
+      "source_url": "https://sonniss.com/gameaudiogdc",
+      "modified": true
+    }
+  ]
+}
