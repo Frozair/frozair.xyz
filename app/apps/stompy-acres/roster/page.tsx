@@ -31,6 +31,7 @@ interface Species {
   sourceHeight?: number;
   clipPolygon?: string;
   moveNote?: string;
+  conceptLabel?: string;
   habitat?: Habitat;
 }
 
@@ -55,6 +56,14 @@ interface Roster {
   islands: Island[];
   revisionNote?: string;
   changeNotes?: { label: string; detail: string }[];
+  proposal?: {
+    title: string;
+    note: string;
+    added: string[];
+    moved: string[];
+    benched: string[];
+    worldRequirement: string;
+  };
   habitatReview?: {
     asOf: string;
     title: string;
@@ -117,7 +126,7 @@ function CreatureCard({ species, selected, onToggle, onZoom, island }: { species
       <CreatureArt species={species} />
       <span className="sr-creature-ground" aria-hidden="true" />
     </div>
-    <div className="sr-creature-info"><h3 className={species.name.length > 15 ? "sr-long-name" : undefined}>{species.name}</h3><p className="sr-creature-role">{species.role}</p><span className="sr-status-badge">Art status: {species.status}</span>{species.moveNote && <span className={`sr-move-note ${species.moveNote.toLowerCase().includes("proposed") ? "is-proposed" : "is-requested"}`}>{species.moveNote}</span>}
+    <div className="sr-creature-info"><h3 className={species.name.length > 15 ? "sr-long-name" : undefined}>{species.name}</h3><p className="sr-creature-role">{species.role}</p>{species.conceptLabel && <span className="sr-concept-label">{species.conceptLabel}</span>}<span className="sr-status-badge">Art status: {species.status}</span>{species.moveNote && <span className={`sr-move-note ${species.moveNote.toLowerCase().includes("proposed") ? "is-proposed" : "is-requested"}`}>{species.moveNote}</span>}
       {species.habitat && <HabitatAssessment habitat={species.habitat} speciesName={species.name} />}
       <button type="button" className="sr-keep-toggle" aria-pressed={selected} aria-label={`${selected ? "Bench" : "Keep"} ${species.name}`} onClick={onToggle}><span className="sr-toggle-check"><Check selected={selected} /></span><span>{selected ? "Kept in this draft" : "On the bench"}</span><span className="sr-toggle-action">{selected ? "Bench" : "Keep"}</span></button>
       <details className="sr-creature-notes"><summary>Art &amp; casting notes <span aria-hidden="true">+</span></summary><div><p className="sr-art-status"><span />{species.status}</p>{species.rationale && <p>{species.rationale}</p>}{species.note && <p>{species.note}</p>}</div></details>
@@ -198,6 +207,15 @@ export default function LaunchRosterPage() {
         const names = island.species.filter(species => selectedSet.has(species.id)).map(species => species.name);
         return [`${island.name} (${names.length}; target ${island.quota})`, names.length ? names.join(", ") : "No species selected", ""];
       }),
+      ...(roster.proposal ? [
+        roster.proposal.title,
+        roster.proposal.note,
+        `Added for Snow: ${roster.proposal.added.join(", ")}`,
+        `Island moves: ${roster.proposal.moved.join("; ")}`,
+        `Saved for later: ${roster.proposal.benched.join(", ")}`,
+        `Snow habitat: ${roster.proposal.worldRequirement}`,
+        "",
+      ] : []),
       ...(roster.revisionNote ? [roster.revisionNote, ""] : []),
       ...(roster.changeNotes?.flatMap(change => [`${change.label}: ${change.detail}`]) ?? []),
       "Draft for discussion. Selections do not change the game or the shared release plan.",
@@ -246,11 +264,21 @@ export default function LaunchRosterPage() {
     <div className="sr-wrap">
       <header className="sr-header"><Link href="/apps/stompy-acres" className="sr-brand"><img src="/stompy-acres/icon.webp" alt="" width="46" height="46" /><span>Stompy Acres<small>RELEASE FIELD GUIDE / 02</small></span></Link><Link href="/apps/stompy-acres/roadmap" className="sr-roadmap-link">Release roadmap <Arrow /></Link></header>
 
-      <section className="sr-hero" aria-labelledby="sr-title"><div className="sr-hero-copy"><p className="sr-eyebrow"><span className="sr-live-dot" /> THE DECEMBER 1 CASTING BOARD</p><h1 id="sr-title">Meet the cast.<br /><em>Find your favorites.</em></h1><p>{roster.islands.length} islands. <strong>{roster.totalTarget} launch species.</strong> Review every resident.</p><div className="sr-hero-key"><span><i className="sr-key-dot is-keep" />Keep for launch</span><span><i className="sr-key-dot is-bench" />Save for later</span></div><div className="sr-hero-actions"><a href="#sr-cast" className="sr-review-cast">Review launch cast <Arrow /></a>{roster.habitatReview && <a href="#sr-habitat" className="sr-review-cast sr-review-habitat">Habitat check <Arrow /></a>}</div></div>
+      <section className="sr-hero" aria-labelledby="sr-title"><div className="sr-hero-copy"><p className="sr-eyebrow"><span className="sr-live-dot" /> THE DECEMBER 1 CASTING BOARD</p><h1 id="sr-title">The revised<br /><em>launch cast.</em></h1><p>{roster.islands.length} islands. <strong>{roster.totalTarget} proposed launch species.</strong> Review their new homes.</p><div className="sr-hero-key"><span><i className="sr-key-dot is-keep" />Keep for launch</span><span><i className="sr-key-dot is-bench" />Save for later</span></div><div className="sr-hero-actions"><a href="#sr-cast" className="sr-review-cast">Review launch cast <Arrow /></a>{roster.habitatReview && <a href="#sr-habitat" className="sr-review-cast sr-review-habitat">Habitat check <Arrow /></a>}</div></div>
         <aside className={`sr-cast-counter ${aboveTarget ? "is-over" : ""}`} aria-label="Current draft size"><p className="sr-eyebrow">YOUR LAUNCH DRAFT</p><div className="sr-counter-creature" aria-hidden="true"><CreatureArt species={coverCreature} /></div><div className="sr-counter-number"><strong>{selectedCount}</strong><span>/ {roster.totalTarget}<small>species</small></span></div><div className="sr-counter-slots" aria-hidden="true">{Array.from({ length: roster.totalTarget }, (_, index) => <span key={index} className={index < selectedCount ? "is-filled" : ""} />)}</div><p className="sr-counter-status">{onTarget ? <><Check selected />Draft matches the {roster.totalTarget}-species target</> : aboveTarget ? <><span aria-hidden="true">!</span>{selectedCount - roster.totalTarget} over the launch target</> : <><span aria-hidden="true">+</span>{roster.totalTarget - selectedCount} spots to fill</>}</p><span className="sr-counter-detail">{allSpecies.length} residents to review · {roster.islands.length} islands</span></aside>
       </section>
 
       <section className="sr-scope-band" aria-label="Confirmed launch size"><span className="sr-scope-icon" aria-hidden="true"><Check selected /></span><p><strong>{perIslandTarget}</strong> species per island <span className="sr-scope-symbol">×</span> <strong>{roster.islands.length}</strong> <span className="sr-scope-symbol">=</span> <strong>{roster.totalTarget}</strong> for launch</p><span className="sr-scope-confirmed">Launch size confirmed</span></section>
+      {roster.proposal && <section className="sr-proposal" aria-labelledby="sr-proposal-title">
+        <div className="sr-proposal-heading"><div><p className="sr-eyebrow">DIRECTOR’S RECOMMENDATION / REVIEW DRAFT</p><h2 id="sr-proposal-title">{roster.proposal.title}</h2></div><span className="sr-proposal-count">{perIslandTarget} per island · {roster.totalTarget} total</span></div>
+        <p className="sr-proposal-note">{roster.proposal.note}</p>
+        <div className="sr-proposal-changes">
+          <article className="sr-proposal-added"><h3><span aria-hidden="true">+</span> Added for Snow <small>{roster.proposal.added.length}</small></h3><ul>{roster.proposal.added.map(name => <li key={name}>{name}</li>)}</ul></article>
+          <article className="sr-proposal-moved"><h3><span aria-hidden="true">↗</span> Greener homes <small>{roster.proposal.moved.length}</small></h3><ul>{roster.proposal.moved.map(name => <li key={name}>{name}</li>)}</ul></article>
+          <article className="sr-proposal-benched"><h3><span aria-hidden="true">−</span> Saved for later <small>{roster.proposal.benched.length}</small></h3><ul>{roster.proposal.benched.map(name => <li key={name}>{name}</li>)}</ul></article>
+        </div>
+        <div className="sr-proposal-world"><span className="sr-proposal-world-mark" aria-hidden="true">❄</span><p><strong>Snow’s habitat direction.</strong> {roster.proposal.worldRequirement}</p></div>
+      </section>}
       {roster.habitatReview && <section id="sr-habitat" className="sr-habitat-review" aria-labelledby="sr-habitat-title">
         <div className="sr-habitat-review-heading"><div><p className="sr-eyebrow">EVERY RESIDENT / HABITAT CHECK</p><h2 id="sr-habitat-title">{roster.habitatReview.title}</h2></div><p className="sr-habitat-date">Reviewed {new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${roster.habitatReview.asOf}T12:00:00Z`))}</p></div>
         <p className="sr-habitat-review-note">{roster.habitatReview.note}</p>
@@ -258,7 +286,7 @@ export default function LaunchRosterPage() {
         <p className="sr-habitat-method">Ratings are game design judgments from incomplete fossil evidence, not proof of exact habitat or survival. The cast spans different places and eras; these animals did not all coexist.</p>
         {roster.habitatReview.definitions?.length > 0 && <details className="sr-habitat-definitions"><summary>What each island means for this check <span aria-hidden="true">+</span></summary><dl>{roster.habitatReview.definitions.map(definition => <div key={definition.island}><dt>{definition.island}</dt><dd>{definition.detail}</dd></div>)}</dl></details>}
       </section>}
-      {(roster.revisionNote || Boolean(roster.changeNotes?.length)) && <details className="sr-revision-history"><summary>Previous casting proposals <span aria-hidden="true">+</span></summary><section className="sr-revision-panel" aria-labelledby="sr-revision-title"><div className="sr-revision-heading"><p className="sr-eyebrow">ISLAND HOMES / REVIEW DRAFT</p><h2 id="sr-revision-title">The island reshuffle.</h2>{roster.revisionNote && <p>{roster.revisionNote}</p>}</div>{Boolean(roster.changeNotes?.length) && <div className="sr-change-notes">{roster.changeNotes?.map(change => <article key={change.label}><h3>{change.label}</h3><p>{change.detail}</p></article>)}</div>}</section></details>}
+      {(roster.revisionNote || Boolean(roster.changeNotes?.length)) && <details className="sr-revision-history"><summary>Casting changes and notes <span aria-hidden="true">+</span></summary><section className="sr-revision-panel" aria-labelledby="sr-revision-title"><div className="sr-revision-heading"><p className="sr-eyebrow">ISLAND HOMES / REVIEW DRAFT</p><h2 id="sr-revision-title">The island reshuffle.</h2>{roster.revisionNote && <p>{roster.revisionNote}</p>}</div>{Boolean(roster.changeNotes?.length) && <div className="sr-change-notes">{roster.changeNotes?.map(change => <article key={change.label}><h3>{change.label}</h3><p>{change.detail}</p></article>)}</div>}</section></details>}
 
       <div className="sr-draft-note"><span><span className="sr-save-dot" />{saveState}</span><p>The species placements below are a review draft. Tap <b>Bench</b> or <b>Keep</b>, then copy your cast into our chat.</p></div>
 
@@ -286,14 +314,14 @@ export default function LaunchRosterPage() {
         })}
       </div>
 
-      <section className="sr-final-note"><span aria-hidden="true">✦</span><div><h2>A first cast worth falling in love with.</h2><p>Accepted concepts; illustration sizes are not runtime scale. Casting a creature here does not confirm its game readiness. Open a card’s notes for the art and implementation status.</p></div><Link href="/apps/stompy-acres/roadmap">Back to the release plan <Arrow /></Link></section>
+      <section className="sr-final-note"><span aria-hidden="true">✦</span><div><h2>A first cast worth falling in love with.</h2><p>New concepts are marked for review. Illustration sizes are not runtime scale. Casting a creature here does not confirm its game readiness. Open a card’s notes for art and implementation status.</p></div><Link href="/apps/stompy-acres/roadmap">Back to the release plan <Arrow /></Link></section>
       <footer className="sr-footer"><span>STOMPY ACRES / RELEASE CASTING</span><span>Art &amp; evidence snapshot · {new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${roster.asOf}T12:00:00Z`))}</span></footer>
     </div>
 
     <div className="sr-draft-dock"><div className="sr-draft-dock-inner"><div className={`sr-dock-tally ${aboveTarget ? "is-over" : ""}`}><span className="sr-dock-icon"><Check selected={onTarget} /></span><strong>{selectedCount}<small> / {roster.totalTarget}</small></strong><span>{onTarget ? `${roster.totalTarget}-species draft · review needed` : aboveTarget ? "Over target · review the cast" : `${roster.totalTarget - selectedCount} launch spots open`}<small>Local draft · share to decide</small></span></div><div className="sr-dock-actions"><button type="button" className="sr-reset" onClick={resetSelections} disabled={!loaded || changedCount === 0}>Reset picks</button><button type="button" className="sr-download" onClick={downloadSelections} disabled={!loaded} aria-label="Download roster draft as a text file"><svg width="19" height="19" viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M11 3v10m-4-4 4 4 4-4M4 14v4h14v-4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg><span>Export</span></button><button type="button" className="sr-copy" onClick={copySelections} disabled={!loaded}>Copy my cast <Arrow /></button></div></div></div>
     <div className="sr-toast" role="status" aria-live="polite">{notice && <span>{notice}</span>}</div>
 
-    <dialog ref={zoomDialog} className="sr-art-dialog" onClose={() => setZoomed(null)} onClick={event => { if (event.target === event.currentTarget) zoomDialog.current?.close(); }} aria-labelledby="sr-zoom-title">{zoomed && <div className="sr-art-dialog-inner"><button type="button" className="sr-dialog-close" onClick={() => zoomDialog.current?.close()} aria-label="Close artwork preview">×</button><CreatureArt species={zoomed} enlarged /><div><h2 id="sr-zoom-title">{zoomed.name}</h2><p>{zoomed.status}</p></div></div>}</dialog>
+    <dialog ref={zoomDialog} className="sr-art-dialog" onClose={() => setZoomed(null)} onClick={event => { if (event.target === event.currentTarget) zoomDialog.current?.close(); }} aria-labelledby="sr-zoom-title">{zoomed && <div className="sr-art-dialog-inner"><button type="button" className="sr-dialog-close" onClick={() => zoomDialog.current?.close()} aria-label="Close artwork preview">×</button><CreatureArt species={zoomed} enlarged /><div><h2 id="sr-zoom-title">{zoomed.name}</h2><p>{zoomed.conceptLabel && <span className="sr-concept-label">{zoomed.conceptLabel}</span>}Art status: {zoomed.status}</p></div></div>}</dialog>
     <dialog ref={copyDialog} className="sr-copy-dialog" onClose={() => setCopyFallback("")} aria-labelledby="sr-copy-title"><button type="button" className="sr-dialog-close" onClick={() => copyDialog.current?.close()} aria-label="Close copy draft">×</button><h2 id="sr-copy-title">Your roster draft</h2><p>Copy the selected text and paste it into our chat.</p><textarea ref={fallbackText} value={copyFallback} readOnly aria-label="Roster draft to copy" rows={14} /><button type="button" className="sr-copy" onClick={() => copyDialog.current?.close()}>Done <Check selected /></button></dialog>
   </article>;
 }

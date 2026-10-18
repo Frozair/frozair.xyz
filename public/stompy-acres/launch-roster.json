@@ -3,7 +3,7 @@
   "asOf": "2026-10-18",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
-  "selectionVersion": "2026-10-18-r2-40",
+  "selectionVersion": "2026-10-18-r3-cold-roster",
   "islands": [
     {
       "id": "forest",
@@ -740,7 +740,7 @@
     {
       "id": "snow",
       "name": "Snow",
-      "subtitle": "Feathers, armor and a woolly headline prize.",
+      "subtitle": "Arctic residents, cool woodland and woolly open-ground grazers.",
       "color": "#5d8d9d",
       "tint": "#e9f1f0",
       "quota": 8,
@@ -760,20 +760,21 @@
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",
-            "evidence": "Yutyrannus huali from Liaoning preserves extensive feathers; regional Early Cretaceous isotope evidence supports a cool-temperate climate rather than uniformly tropical conditions.",
-            "caveat": "Feathers and a cool regional climate do not establish year-round glacier living or a particular tolerance of deep snow.",
-            "recommendation": "Retain provisionally in snowy woodland with vegetation and seasonal conditions; avoid a barren permanent-ice interpretation.",
+            "evidence": "The original description documents extensive filamentous feathers. Regional isotope research estimates a cool-temperate Yixian climate, giving a stronger rationale for cold seasonal woodland than for tropical or bare-ice conditions.",
+            "caveat": "Direct feather evidence and regional cool-climate evidence do not establish deep-snow tolerance, polar residency or permanent ice adaptation.",
+            "recommendation": "Keep in Snow's wooded, seasonal winter habitat with clear ground and shelter.",
             "sources": [
               {
-                "title": "Xu et al. 2012 — Original Yutyrannus description",
+                "title": "Xu et al. 2012 — Original feathered Yutyrannus description",
                 "url": "https://www.nature.com/articles/nature10906"
               },
               {
-                "title": "Amiot et al. 2011 — Jehol regional climate from oxygen isotopes",
-                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069172/"
+                "title": "Amiot et al. 2011 — Early Cretaceous East Asian climate",
+                "url": "https://doi.org/10.1073/pnas.1011369108"
               }
             ]
-          }
+          },
+          "scientificTaxon": "Yutyrannus huali"
         },
         {
           "id": "pachyrhinosaurus",
@@ -783,53 +784,28 @@
           "sourceHeight": 512,
           "viewBox": "50.500 0.500 664.500 506.500",
           "recommended": true,
-          "role": "Broad nasal boss",
+          "role": "Arctic Pachyrhinosaurus",
           "status": "Concept only",
-          "rationale": "A broad boss and frill create an armored-head counterpoint.",
-          "note": "Preserve its boss instead of adding Trike’s long horns.",
+          "rationale": "Use Pachyrhinosaurus perotorum, the northern Alaskan species, for Snow’s broad-bossed herbivore.",
+          "note": "Existing concept is unchanged and needs a P. perotorum reference check before production acceptance. Preserve its nasal boss; a shaggy coat is not directly established.",
           "habitat": {
-            "rating": "conditional",
+            "rating": "strong",
             "confidence": "high",
-            "evidence": "Pachyrhinosaurus perotorum lived in northern Alaska's Prince Creek ecosystem; regional evidence supports year-round dinosaur residency with freezing winters and seasonal snow.",
-            "caveat": "The roster currently names only the genus; select the Arctic species explicitly. Its forested polar world was warmer than modern Arctic icefields.",
-            "recommendation": "Use P. perotorum as the reference taxon; include vegetation, shelter and seasonally snowy ground.",
+            "evidence": "P. perotorum is explicitly known from northern Alaska. Regional nesting evidence supports year-round dinosaur residency through freezing winters and seasonal snow.",
+            "caveat": "Other Pachyrhinosaurus species occurred farther south. The Arctic fossil environment was vegetated and warmer than today's polar icefields. A shaggy coat is not directly demonstrated for this animal.",
+            "recommendation": "Keep; use P. perotorum as the art and fact reference and provide woody browse and seasonally snowy ground.",
             "sources": [
               {
                 "title": "University of Alaska Fairbanks — Pachyrhinosaurus perotorum",
                 "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/discovering-a-new-dinosaur-in-northern-alaska.php"
               },
               {
-                "title": "University of Alaska Fairbanks — Arctic nesting and year-round residency research",
+                "title": "University of Alaska Fairbanks — Arctic dinosaur nesting and winters",
                 "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/research-team-discovers-arctic-dinosaur-nursery.php"
               }
             ]
-          }
-        },
-        {
-          "id": "borealopelta",
-          "name": "Borealopelta",
-          "image": "/stompy-acres/roster/borealopelta.webp",
-          "sourceWidth": 768,
-          "sourceHeight": 512,
-          "viewBox": "19.000 93.000 732.000 358.500",
-          "recommended": true,
-          "role": "Shoulder-spiked armor",
-          "status": "Concept only",
-          "rationale": "Low armor and shoulder spikes give a third clear silhouette.",
-          "note": "Keep the low body and shoulders readable against the snowy ground.",
-          "habitat": {
-            "rating": "conditional",
-            "confidence": "low",
-            "evidence": "Borealopelta markmitchelli's stomach contents directly document fern feeding, with charcoal supporting use of recently disturbed forest vegetation before marine burial.",
-            "caveat": "Diet alone cannot establish climate tolerance; one meal does not establish its habitat range or demonstrate snow specialization.",
-            "recommendation": "A greener Forest or Fernlands home is better supported; investigate climate evidence before confirming Snow.",
-            "sources": [
-              {
-                "title": "Brown et al. 2020 — Original research on Borealopelta's stomach contents",
-                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7353971/"
-              }
-            ]
-          }
+          },
+          "scientificTaxon": "Pachyrhinosaurus perotorum"
         },
         {
           "id": "woolly-mammoth",
@@ -846,42 +822,21 @@
           "habitat": {
             "rating": "strong",
             "confidence": "high",
-            "evidence": "Mammuthus primigenius was cold-adapted and occupied the richly vegetated mammoth steppe of northern Eurasia and North America.",
-            "caveat": "Cold adaptation does not mean living on barren ice; thick continuous snow would obstruct the vegetation it needed.",
-            "recommendation": "Keep in Snow with exposed forage, open ground and shallow or patchy snow.",
+            "evidence": "Cold adaptation and mammoth-steppe association make this one of Snow's clearest anchors.",
+            "caveat": "Cold adaptation does not remove the need for abundant accessible plants; continuous deep snow or barren ice is an unsuitable visual shorthand.",
+            "recommendation": "Keep in open, windswept forage patches with shallow or broken snow.",
             "sources": [
               {
-                "title": "Natural History Museum — Mammoth cold adaptation and steppe habitat",
+                "title": "Natural History Museum — Woolly mammoths and mammoth-steppe habitat",
                 "url": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "cryolophosaurus",
-          "name": "Cryolophosaurus",
-          "image": "/stompy-acres/roster/cryolophosaurus.webp",
-          "sourceWidth": 768,
-          "sourceHeight": 806,
-          "viewBox": "18.196 25.089 741.647 760.212",
-          "recommended": true,
-          "role": "Transverse crest",
-          "status": "Concept only",
-          "rationale": "Distinctive crest and familiar biped movement, but Antarctic discovery alone does not support Snow; habitat review is open.",
-          "note": "Its head/crest needs to stay distinct from the other pastel bipeds.",
-          "habitat": {
-            "rating": "mismatch",
-            "confidence": "medium",
-            "evidence": "Cryolophosaurus ellioti's Antarctic locality records an ancient river in warm-temperate forest at high latitude during the Early Jurassic.",
-            "caveat": "Ancient Antarctic provenance supports strong light seasonality, not the modern continent's ice climate or demonstrated snow specialization.",
-            "recommendation": "Review for Forest or wooded Fernlands; do not use Antarctic discovery alone to justify Snow.",
-            "sources": [
+              },
               {
-                "title": "Ohio State University Orton Museum — Cryolophosaurus and its ancient environment",
-                "url": "https://ortonmuseum.osu.edu/sites/default/files/Cryolophosaurus%20ellioti%20trigger%20images-20181206.pdf"
+                "title": "Natural History Museum — Mammoth evolution and cold treeless environments",
+                "url": "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html"
               }
             ]
-          }
+          },
+          "scientificTaxon": "Mammuthus primigenius"
         },
         {
           "id": "sinosauropteryx",
@@ -898,74 +853,158 @@
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",
-            "evidence": "Sinosauropteryx belongs to the Jehol Biota's cool-temperate regional setting; colour-pattern research supports relatively open, low-vegetation habitat use.",
-            "caveat": "Regional climate and feather evidence do not directly prove regular deep-snow use or permanent ice adaptation.",
-            "recommendation": "Retain provisionally in cool, open clearings with seasonal snow and accessible vegetation.",
+            "evidence": "Regional isotope evidence supports cool conditions. Countershading analysis independently supports open surroundings, which suits Snow's clearings better than a dense-forest-only island.",
+            "caveat": "Neither result proves regular deep-snow use or specialized polar physiology. Its winter placement remains a design inference.",
+            "recommendation": "Keep provisionally in sheltered, cool clearings with seasonal, patchy snow.",
             "sources": [
               {
-                "title": "Amiot et al. 2011 — Jehol regional climate from oxygen isotopes",
-                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069172/"
+                "title": "Amiot et al. 2011 — Early Cretaceous East Asian climate",
+                "url": "https://doi.org/10.1073/pnas.1011369108"
               },
               {
-                "title": "Smithwick et al. 2017 — Sinosauropteryx coloration and inferred open habitat",
+                "title": "Smithwick et al. 2017 — Sinosauropteryx colour and habitat inference",
                 "url": "https://pubmed.ncbi.nlm.nih.gov/29107548/"
               }
             ]
-          }
+          },
+          "scientificTaxon": "Sinosauropteryx prima"
         },
         {
-          "id": "iguanodon",
-          "name": "Iguanodon",
-          "image": "/stompy-acres/roster/iguanodon.webp",
-          "sourceWidth": 768,
-          "sourceHeight": 319,
-          "viewBox": "475.200 43.238 292.800 206.581",
+          "id": "nanuqsaurus",
+          "name": "Nanuqsaurus",
+          "image": "/stompy-acres/roster/nanuqsaurus.webp",
+          "sourceWidth": 1024,
+          "sourceHeight": 1024,
+          "viewBox": "4.900 164.134 1019.100 782.290",
           "recommended": true,
-          "role": "Sturdy thumb-spike herbivore",
-          "status": "Concept only",
-          "rationale": "Earlier Snow transfer was proposed to balance island counts. The habitat audit challenges that placement; keep Iguanodon and review a greener home.",
-          "note": "Selected biped portrait; two-to-four-foot support transitions still need proof.",
-          "moveNote": "Proposed · habitat review",
+          "role": "Arctic tyrannosaur",
+          "status": "New concept draft",
+          "conceptLabel": "New concept · review",
+          "rationale": "A sturdy tyrannosaur head, short forelimbs and long balancing tail create an Arctic predator alongside Yutyrannus.",
+          "note": "New concept is unapproved. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed.",
+          "moveNote": "New Snow proposal",
+          "scientificTaxon": "Nanuqsaurus hoglundi",
           "habitat": {
-            "rating": "conditional",
-            "confidence": "medium",
-            "evidence": "Iguanodon bernissartensis habitat research documents varied western European plant communities, including fern- and conifer-rich lake margins and seasonal wetland settings.",
-            "caveat": "The study supports broad habitat flexibility. It neither establishes snow specialization nor rules out tolerance of occasional seasonal snow.",
-            "recommendation": "Keep Iguanodon; a greener Forest, Fernlands or wetland-edge home is better supported than Snow.",
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "The original description documents an Arctic tyrannosaur. Later regional nesting research supports dinosaurs remaining through freezing, snowy winters.",
+            "caveat": "Original material is fragmentary; feathers are an inference, not directly preserved evidence. Its adult size is under reassessment, so do not sell it as an established tiny or dwarf tyrannosaur. The ancient Arctic was vegetated, not a modern ice sheet.",
+            "recommendation": "Add as Snow's Arctic tyrannosaur, with winter woodland and open ground. Label any insulating plumage as an artistic reconstruction.",
             "sources": [
               {
-                "title": "Rodriguez-Barreiro et al. 2024 — Iguanodon habitat and diet reconstruction",
-                "url": "https://www.sciencedirect.com/science/article/pii/S0195667123003324"
+                "title": "Fiorillo and Tykoski 2014 — Original Nanuqsaurus description",
+                "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091287"
+              },
+              {
+                "title": "University of Alaska Fairbanks — Arctic dinosaur nesting and winters",
+                "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/research-team-discovers-arctic-dinosaur-nursery.php"
+              },
+              {
+                "title": "Perry 2023 — University of Alaska thesis reassessing Nanuqsaurus size and anatomy",
+                "url": "https://scholarworks.alaska.edu/uaf_grad_geosci/306"
               }
             ]
           }
         },
         {
-          "id": "citipati",
-          "name": "Citipati",
-          "image": "/stompy-acres/roster/citipati.webp",
-          "sourceWidth": 768,
-          "sourceHeight": 702,
-          "viewBox": "36.878 19.321 693.659 665.700",
+          "id": "edmontosaurus",
+          "name": "Edmontosaurus",
+          "image": "/stompy-acres/roster/edmontosaurus.webp",
+          "sourceWidth": 1024,
+          "sourceHeight": 1024,
+          "viewBox": "0.000 373.997 1024.000 464.638",
           "recommended": true,
-          "role": "Beaked feathered biped",
-          "status": "Concept only",
-          "rationale": "A deep beak, crest and paired hands add a playful silhouette.",
-          "note": "Shares an upright pastel role with Cryo and a feathered role with Fernlands Anzu.",
+          "role": "Arctic duck-billed herbivore",
+          "status": "New concept draft",
+          "conceptLabel": "New concept · review",
+          "rationale": "A broad duck bill and deep herbivore body make a readable polar grazer without adding another horned or plated silhouette.",
+          "note": "New concept is unapproved and refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed.",
+          "moveNote": "New Snow proposal",
+          "scientificTaxon": "Edmontosaurus sp. (Prince Creek population)",
           "habitat": {
-            "rating": "mismatch",
-            "confidence": "medium",
-            "evidence": "Citipati osmolskae is known from Ukhaa Tolgod; geological research reconstructs an arid dune environment with ephemeral ponds and lakes.",
-            "caveat": "Feathers do not establish cold specialization, and present-day Mongolia's winter climate cannot be transferred directly to its Cretaceous environment.",
-            "recommendation": "Review for a drier, vegetated habitat; Snow is a weak evidence-based placement.",
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "A 2020 cranial reassessment assigns the Arctic hadrosaur material to Edmontosaurus. The locality provides direct high-latitude provenance rather than a visual guess about cold tolerance.",
+            "caveat": "The cited study explicitly leaves species unresolved as Edmontosaurus sp.; do not label this population E. regalis or present Ugrunaaluk as an uncontroversial separate species. Arctic did not mean barren ice.",
+            "recommendation": "Add a Prince Creek Edmontosaurus, with accessible low vegetation and river-edge habitat. Keep its fact label at genus level.",
             "sources": [
               {
-                "title": "American Museum of Natural History — Citipati and Ukhaa Tolgod locality",
-                "url": "https://www.amnh.org/explore/news-blogs/citipati-osmolskae-dinosaur"
+                "title": "Takasaki et al. 2020 — Arctic Alaskan hadrosaur reassigned to Edmontosaurus sp.",
+                "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232410"
               },
               {
-                "title": "Dingus et al. 2008 — Original geological study of Ukhaa Tolgod",
-                "url": "https://digitalcommons.unl.edu/geosciencefacpub/217/"
+                "title": "University of Alaska Fairbanks — Arctic dinosaur nesting and winters",
+                "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/research-team-discovers-arctic-dinosaur-nursery.php"
+              }
+            ]
+          }
+        },
+        {
+          "id": "leaellynasaura",
+          "name": "Leaellynasaura",
+          "image": "/stompy-acres/roster/leaellynasaura.webp",
+          "sourceWidth": 1024,
+          "sourceHeight": 1024,
+          "viewBox": "9.799 236.810 1003.585 744.727",
+          "recommended": true,
+          "role": "Small polar-forest herbivore",
+          "status": "New concept draft",
+          "conceptLabel": "New concept · review",
+          "rationale": "A small biped with a long balancing tail and gentle herbivore head adds scale contrast to Snow’s large residents.",
+          "note": "New concept is unapproved. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed.",
+          "moveNote": "New Snow proposal",
+          "scientificTaxon": "Leaellynasaura amicagraphica",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Australian Museum and Museums Victoria describe a cool polar forest with pronounced light seasonality. Regional evidence allows winter ice and seasonally frozen ground, while other fauna suggests generally milder conditions.",
+            "caveat": "Polar provenance does not demonstrate a permanent snowfield. Material is limited and some referred bones are uncertain; its exact appearance and behaviour should not be overstated.",
+            "recommendation": "Add as Snow's small polar-forest herbivore, using a wooded stream-edge area with seasonal snow and accessible ferns.",
+            "sources": [
+              {
+                "title": "Australian Museum — Leaellynasaura habitat and evidence limits",
+                "url": "https://australian.museum/learn/dinosaurs/fact-sheets/leaellynasaura-amicagraphica/"
+              },
+              {
+                "title": "Museums Victoria — Leaellynasaura in its cool polar forest",
+                "url": "https://collections.museumsvictoria.com.au/articles/17152"
+              }
+            ]
+          }
+        },
+        {
+          "id": "woolly-rhinoceros",
+          "name": "Woolly Rhinoceros",
+          "image": "/stompy-acres/roster/woolly-rhinoceros.webp",
+          "sourceWidth": 1024,
+          "sourceHeight": 1024,
+          "viewBox": "8.166 252.325 1015.834 632.038",
+          "recommended": true,
+          "role": "Woolly twin-horned grazer",
+          "status": "New concept draft",
+          "conceptLabel": "New concept · review",
+          "rationale": "A low, sturdy body with a two-horn profile and shaggy coat gives Snow an open-ground counterpart to the mammoth.",
+          "note": "New concept is unapproved. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed.",
+          "moveNote": "New Snow proposal",
+          "scientificTaxon": "Coelodonta antiquitatis",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Genomic research identifies a cold-adapted megaherbivore and candidate adaptations to low temperatures. Museum evidence links its teeth and coat to tough steppe forage and cold conditions.",
+            "caveat": "This is a mammal, not a dinosaur, as is the existing mammoth. It needs open forage rather than only woodland, deep snow or ice.",
+            "recommendation": "Add alongside the mammoth in an open, windswept grass-and-sedge clearing with patchy snow.",
+            "sources": [
+              {
+                "title": "Lord et al. 2020 — Woolly rhinoceros cold adaptation and genomic history",
+                "url": "https://doi.org/10.1016/j.cub.2020.07.046"
+              },
+              {
+                "title": "Cardiff University — Author repository and abstract for Lord et al. 2020",
+                "url": "https://orca.cardiff.ac.uk/id/eprint/134246/"
+              },
+              {
+                "title": "Reading Museum — Woolly rhinoceros steppe diet and cold adaptation",
+                "url": "https://www.readingmuseum.org.uk/sites/default/files/downloads/Object%20Explorer%20woolly%20rhino_compressed.pdf"
               }
             ]
           }
@@ -976,7 +1015,7 @@
     {
       "id": "fernlands",
       "name": "Fernlands",
-      "subtitle": "Rex, Trike, Anky and a new plated classic.",
+      "subtitle": "Fern meadows, tall browse and Iguanodon’s greener home.",
       "color": "#9b813e",
       "tint": "#f3efdd",
       "quota": 8,
@@ -1090,31 +1129,28 @@
           }
         },
         {
-          "id": "concavenator",
-          "name": "Concavenator",
-          "image": "/stompy-acres/roster/concavenator.webp",
+          "id": "iguanodon",
+          "name": "Iguanodon",
+          "image": "/stompy-acres/roster/iguanodon.webp",
           "sourceWidth": 768,
           "sourceHeight": 319,
-          "viewBox": "0.000 43.238 296.640 206.581",
+          "viewBox": "475.200 43.238 292.800 206.581",
           "recommended": true,
-          "role": "Striped hip-hump predator",
+          "role": "Sturdy thumb-spike herbivore",
           "status": "Concept only",
-          "rationale": "A low hip hump and strong stripes give Fernlands another distinctive predator.",
-          "note": "Selected final comparison; another carnivore beside Rex, not the rejected spotted baby-Rex.",
+          "rationale": "Keeps your Iguanodon in fern-rich, wooded meadows with freshwater, replacing Concavenator’s draft slot.",
+          "note": "Existing accepted concept is unchanged. Fernlands suits the documented plant-rich settings better than a Snow-first placement; habitat flexibility and production readiness remain separate questions.",
+          "moveNote": "Recommended greener home",
           "habitat": {
-            "rating": "conditional",
-            "confidence": "medium",
-            "evidence": "Concavenator comes from Las Hoyas, reconstructed by its research team as a Cretaceous wetland ecosystem with aquatic and terrestrial organisms.",
-            "caveat": "The carcass underwent some transport; wetland deposition does not establish an aquatic lifestyle or exclusive habitat preference.",
-            "recommendation": "Keep near watered, vegetated margins; avoid an entirely dry, exposed meadow interpretation.",
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Iguanodon bernissartensis habitat research documents varied western European plant communities, including fern- and conifer-rich lake margins and seasonal wetland settings. Fernlands’ stated mosaic supplies a supported greener setting.",
+            "caveat": "This supports fit to a varied vegetated landscape, not an exclusive fern-meadow preference. The animal’s documented habitat flexibility does not establish its full climatic tolerance.",
+            "recommendation": "Keep in Fernlands with ferns, tall tree groves, freshwater margins and firm ground.",
             "sources": [
               {
-                "title": "Universidad Autónoma de Madrid: Las Hoyas, a Cretaceous wetland",
-                "url": "https://www.uam.es/uam/en/investigacion/cultura-cientifica/articulos/lepidhoyas-2016"
-              },
-              {
-                "title": "Cuesta Fidalgo (2016): Concavenator taphonomic, phylogenetic and morphofunctional analyses",
-                "url": "https://portalcientifico.uned.es/documentos/5f88ea4a29995259ef290649?lang=fr"
+                "title": "Rodriguez-Barreiro et al. 2024 — Iguanodon habitat and diet reconstruction",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0195667123003324"
               }
             ]
           }
@@ -1206,25 +1242,11 @@
       "habitatBrief": "Fern clearings with wooded edges and freshwater. Brachio needs tall browse; Microraptor needs connected trees and perches."
     }
   ],
-  "revisionNote": "Eight per island and 40 total remain confirmed. Brachio → Fernlands and Paraceratherium out remain your decisions. Supporting moves are still proposals; the habitat audit now challenges Iguanodon’s Snow placement.",
-  "changeNotes": [
-    {
-      "label": "Brachio → Fernlands",
-      "detail": "Your requested move. Proposed swap: Brachio takes Iguanodon’s place."
-    },
-    {
-      "label": "Giants replacements",
-      "detail": "Proposed: Deinocheirus and Amargasaurus fill the Brachio and Paraceratherium spaces."
-    },
-    {
-      "label": "Two supporting swaps",
-      "detail": "Earlier count-balancing proposal: Iguanodon → Snow; Dilophosaurus → Swamp. Habitat review now flags Iguanodon’s Snow home; no supporting transfer is final."
-    }
-  ],
+  "revisionNote": "Recommended revision for review: Iguanodon gets a greener Fernlands home, Snow receives four better-supported cold or polar residents, and the scope stays eight per island, 40 total. This is a director proposal; individual casting choices and new concepts still need your approval.",
   "habitatReview": {
     "asOf": "2026-10-18",
-    "title": "Every resident checked.",
-    "note": "All 40 assessed individually using museum, university and original research sources. Ratings are habitat-fit judgements; fossil evidence is incomplete. The cast spans different eras and regions. No roster moves made. Iguanodon stays selected.",
+    "title": "A habitat-led revision.",
+    "note": "All 40 recommended residents have an individual sourced assessment. The new Snow candidates replace weaker placements, and Iguanodon moves to greener Fernlands. Ratings describe fit to the stated habitat; they are not proven survival limits or production readiness. These animals span different eras and regions, rather than one historical ecosystem.",
     "definitions": [
       {
         "island": "Forest",
@@ -1240,12 +1262,186 @@
       },
       {
         "island": "Snow",
-        "detail": "A cold landscape with accessible forage and shelter. Seasonal snow is distinct from continuous deep snow or permanent ice."
+        "detail": "Seasonally snowy woodland and stream edges beside open forage ground. Include shelter, accessible plants and patchy or shallow snow; this cast does not support barren permanent ice."
       },
       {
         "island": "Fernlands",
         "detail": "Fern-rich meadows and clearings with tall tree groves, wooded margins and freshwater. A completely treeless field changes several ratings."
       }
     ]
-  }
+  },
+  "proposal": {
+    "title": "A greener home. A colder cast.",
+    "note": "Recommended roster for your review. Eight on every island, 40 total. The four new portraits are unapproved concepts, and no game data or production banks change with this board.",
+    "added": [
+      "Nanuqsaurus",
+      "Edmontosaurus",
+      "Leaellynasaura",
+      "Woolly Rhinoceros"
+    ],
+    "moved": [
+      "Iguanodon → Fernlands"
+    ],
+    "benched": [
+      "Borealopelta",
+      "Cryolophosaurus",
+      "Citipati",
+      "Concavenator"
+    ],
+    "worldRequirement": "Snow needs seasonally snowy woodland, stream edges and open ground with exposed forage. Permanent barren ice is not supported for this cast."
+  },
+  "historyNotes": [
+    {
+      "label": "Superseded earlier placement proposal",
+      "detail": "Brachio → Fernlands: Your requested move. Proposed swap: Brachio takes Iguanodon’s place."
+    },
+    {
+      "label": "Superseded earlier placement proposal",
+      "detail": "Giants replacements: Proposed: Deinocheirus and Amargasaurus fill the Brachio and Paraceratherium spaces."
+    },
+    {
+      "label": "Superseded earlier placement proposal",
+      "detail": "Two supporting swaps: Earlier count-balancing proposal: Iguanodon → Snow; Dilophosaurus → Swamp. Habitat review now flags Iguanodon’s Snow home; no supporting transfer is final."
+    }
+  ],
+  "changeNotes": [
+    {
+      "label": "Iguanodon → Fernlands",
+      "detail": "A greener, fern- and tree-rich home with freshwater. He takes Concavenator’s draft slot."
+    },
+    {
+      "label": "Four new Snow candidates",
+      "detail": "Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros replace the three benched Snow candidates plus Iguanodon’s former slot."
+    },
+    {
+      "label": "Four preserved for later review",
+      "detail": "Borealopelta, Cryolophosaurus, Citipati and Concavenator leave this recommended launch cast. Their art and prior assessments remain available; no source assets are deleted."
+    },
+    {
+      "label": "Count stays fixed",
+      "detail": "Eight per island and 40 total remain confirmed. Forest, Giants and Swamp have no casting changes in this revision; their earlier proposals and habitat requirements remain visible."
+    }
+  ],
+  "benchedSpecies": [
+    {
+      "id": "borealopelta",
+      "name": "Borealopelta",
+      "image": "/stompy-acres/roster/borealopelta.webp",
+      "sourceWidth": 768,
+      "sourceHeight": 512,
+      "viewBox": "19.000 93.000 732.000 358.500",
+      "recommended": false,
+      "role": "Shoulder-spiked armor",
+      "status": "Concept only",
+      "rationale": "Low armor and shoulder spikes give a third clear silhouette.",
+      "note": "Keep the low body and shoulders readable against the snowy ground.",
+      "habitat": {
+        "rating": "conditional",
+        "confidence": "low",
+        "evidence": "Borealopelta markmitchelli's stomach contents directly document fern feeding, with charcoal supporting use of recently disturbed forest vegetation before marine burial.",
+        "caveat": "Diet alone cannot establish climate tolerance; one meal does not establish its habitat range or demonstrate snow specialization.",
+        "recommendation": "A greener Forest or Fernlands home is better supported; investigate climate evidence before confirming Snow.",
+        "sources": [
+          {
+            "title": "Brown et al. 2020 — Original research on Borealopelta's stomach contents",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7353971/"
+          }
+        ]
+      },
+      "previousIsland": "Snow",
+      "benchReason": "A fern-feeding animal with no established Snow specialization; retain its concept for a greener future slot."
+    },
+    {
+      "id": "cryolophosaurus",
+      "name": "Cryolophosaurus",
+      "image": "/stompy-acres/roster/cryolophosaurus.webp",
+      "sourceWidth": 768,
+      "sourceHeight": 806,
+      "viewBox": "18.196 25.089 741.647 760.212",
+      "recommended": false,
+      "role": "Transverse crest",
+      "status": "Concept only",
+      "rationale": "Distinctive crest and familiar biped movement, but Antarctic discovery alone does not support Snow; habitat review is open.",
+      "note": "Its head/crest needs to stay distinct from the other pastel bipeds.",
+      "habitat": {
+        "rating": "mismatch",
+        "confidence": "medium",
+        "evidence": "Cryolophosaurus ellioti's Antarctic locality records an ancient river in warm-temperate forest at high latitude during the Early Jurassic.",
+        "caveat": "Ancient Antarctic provenance supports strong light seasonality, not the modern continent's ice climate or demonstrated snow specialization.",
+        "recommendation": "Review for Forest or wooded Fernlands; do not use Antarctic discovery alone to justify Snow.",
+        "sources": [
+          {
+            "title": "Ohio State University Orton Museum — Cryolophosaurus and its ancient environment",
+            "url": "https://ortonmuseum.osu.edu/sites/default/files/Cryolophosaurus%20ellioti%20trigger%20images-20181206.pdf"
+          }
+        ]
+      },
+      "previousIsland": "Snow",
+      "benchReason": "Its ancient Antarctic locality was warm-temperate forest; Antarctic provenance alone does not justify Snow."
+    },
+    {
+      "id": "citipati",
+      "name": "Citipati",
+      "image": "/stompy-acres/roster/citipati.webp",
+      "sourceWidth": 768,
+      "sourceHeight": 702,
+      "viewBox": "36.878 19.321 693.659 665.700",
+      "recommended": false,
+      "role": "Beaked feathered biped",
+      "status": "Concept only",
+      "rationale": "A deep beak, crest and paired hands add a playful silhouette.",
+      "note": "Shares an upright pastel role with Cryo and a feathered role with Fernlands Anzu.",
+      "habitat": {
+        "rating": "mismatch",
+        "confidence": "medium",
+        "evidence": "Citipati osmolskae is known from Ukhaa Tolgod; geological research reconstructs an arid dune environment with ephemeral ponds and lakes.",
+        "caveat": "Feathers do not establish cold specialization, and present-day Mongolia's winter climate cannot be transferred directly to its Cretaceous environment.",
+        "recommendation": "Review for a drier, vegetated habitat; Snow is a weak evidence-based placement.",
+        "sources": [
+          {
+            "title": "American Museum of Natural History — Citipati and Ukhaa Tolgod locality",
+            "url": "https://www.amnh.org/explore/news-blogs/citipati-osmolskae-dinosaur"
+          },
+          {
+            "title": "Dingus et al. 2008 — Original geological study of Ukhaa Tolgod",
+            "url": "https://digitalcommons.unl.edu/geosciencefacpub/217/"
+          }
+        ]
+      },
+      "previousIsland": "Snow",
+      "benchReason": "Its documented locality was an arid dune environment, making Snow a weak evidence-based choice."
+    },
+    {
+      "id": "concavenator",
+      "name": "Concavenator",
+      "image": "/stompy-acres/roster/concavenator.webp",
+      "sourceWidth": 768,
+      "sourceHeight": 319,
+      "viewBox": "0.000 43.238 296.640 206.581",
+      "recommended": false,
+      "role": "Striped hip-hump predator",
+      "status": "Concept only",
+      "rationale": "A low hip hump and strong stripes give Fernlands another distinctive predator.",
+      "note": "Selected final comparison; another carnivore beside Rex, not the rejected spotted baby-Rex.",
+      "habitat": {
+        "rating": "conditional",
+        "confidence": "medium",
+        "evidence": "Concavenator comes from Las Hoyas, reconstructed by its research team as a Cretaceous wetland ecosystem with aquatic and terrestrial organisms.",
+        "caveat": "The carcass underwent some transport; wetland deposition does not establish an aquatic lifestyle or exclusive habitat preference.",
+        "recommendation": "Keep near watered, vegetated margins; avoid an entirely dry, exposed meadow interpretation.",
+        "sources": [
+          {
+            "title": "Universidad Autónoma de Madrid: Las Hoyas, a Cretaceous wetland",
+            "url": "https://www.uam.es/uam/en/investigacion/cultura-cientifica/articulos/lepidhoyas-2016"
+          },
+          {
+            "title": "Cuesta Fidalgo (2016): Concavenator taphonomic, phylogenetic and morphofunctional analyses",
+            "url": "https://portalcientifico.uned.es/documentos/5f88ea4a29995259ef290649?lang=fr"
+          }
+        ]
+      },
+      "previousIsland": "Fernlands",
+      "benchReason": "Benched to give the user’s retained Iguanodon a greener home while preserving eight Fernlands residents. This is a casting-space choice, not a newly discovered habitat mismatch."
+    }
+  ]
 }

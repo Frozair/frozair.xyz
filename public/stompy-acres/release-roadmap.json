@@ -7,9 +7,9 @@
   "nextReview": "2026-10-19",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "40 species agreed. Finalize proposed moves and prove the pace to Nov 8.",
-  "scopeLabel": "40 species confirmed · 8 per island · moves under review",
-  "resourcesNote": "~21 new animation packages · ~7/week to Nov 8, plus worlds, data and qualification.",
+  "healthNote": "40 residents remain the scope. Review the revised Snow cast and prove the production pace to Nov 8.",
+  "scopeLabel": "40 residents confirmed · 8 per island · revised cast proposed",
+  "resourcesNote": "~21 new animation packages remains provisional · four new Snow concepts need full production and qualification.",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -32,7 +32,7 @@
       "icon": "🌿",
       "color": "#407a4b",
       "liveSpecies": 6,
-      "targetLabel": "8 launch species confirmed · placement review open",
+      "targetLabel": "8 launch residents confirmed · casting review open",
       "status": "Playable · roster refresh",
       "summary": "The opening works. Finish and seed the new cast.",
       "ref": 49,
@@ -68,7 +68,7 @@
       "icon": "⛰️",
       "color": "#aa7444",
       "liveSpecies": 6,
-      "targetLabel": "8 launch species confirmed · placement review open",
+      "targetLabel": "8 launch residents confirmed · casting review open",
       "status": "Playable · world production",
       "summary": "The giant-scale valley is still a concept target.",
       "ref": 23,
@@ -104,7 +104,7 @@
       "icon": "🪷",
       "color": "#65784a",
       "liveSpecies": 1,
-      "targetLabel": "8 launch species confirmed · placement review open",
+      "targetLabel": "8 launch residents confirmed · casting review open",
       "status": "Starter only · content gap",
       "summary": "Suchomimus is live. The wetland needs a launch cast.",
       "ref": 24,
@@ -140,9 +140,9 @@
       "icon": "❄️",
       "color": "#5e92a3",
       "liveSpecies": 1,
-      "targetLabel": "8 launch species confirmed · placement review open",
+      "targetLabel": "8 launch residents confirmed · casting review open",
       "status": "Starter only · content gap",
-      "summary": "Yutyrannus is live. Build a readable snowy collection.",
+      "summary": "Recast around Arctic residents, cold woodland and woolly grazers.",
       "ref": 25,
       "gateDate": "2026-11-08",
       "checks": [
@@ -154,12 +154,12 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "One obtainable resident; eight launch species required. Iguanodon replacing Amargasaurus is proposed; selected Yutyrannus look is not its runtime bank."
+          "detail": "One obtainable resident. Revised eight include four new concept proposals: Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros. No new bank is claimed; selected Yutyrannus look also needs production."
         },
         {
           "label": "World",
           "state": "open",
-          "detail": "Glacier concept needs modular expansion, services and variant contrast in runtime."
+          "detail": "The earlier glacier concept needs review against a seasonal snowy woodland and open-forage direction. Accessible plants, shelter, stream edges, expansion, services and variant contrast still require runtime qualification."
         },
         {
           "label": "Phone",
@@ -167,7 +167,7 @@
           "detail": "Final snow scene, variants and full cast require release-device qualification."
         }
       ],
-      "next": "Lock silhouettes and test pale residents against the snow before final art.",
+      "next": "Review the revised eight, then prove Snow’s wooded and open habitats plus four full production pipelines on phones.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -176,9 +176,9 @@
       "icon": "🌾",
       "color": "#bd963f",
       "liveSpecies": 0,
-      "targetLabel": "8 launch species confirmed · placement review open",
+      "targetLabel": "8 launch residents confirmed · casting review open",
       "status": "Concept · new integration",
-      "summary": "Brachio joins Rex, Trike and Anky; a new island still needs integration.",
+      "summary": "Brachio and Iguanodon join the greener collection; the new island still needs integration.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
@@ -190,7 +190,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Four existing species banks provide a head start. Brachio is confirmed here; Iguanodon moving to Snow is proposed. No runtime destination yet."
+          "detail": "Existing species banks provide a head start. Brachio is confirmed here; Iguanodon now takes Concavenator’s proposed slot in the revised recommendation. Exact cast and final bank qualification remain open; no runtime destination yet."
         },
         {
           "label": "World",
@@ -314,7 +314,7 @@
     {
       "id": "scope",
       "lane": "now",
-      "title": "Confirm the 40-species placements",
+      "title": "Review the revised 40-resident cast",
       "owner": "Frozair",
       "due": "2026-10-20",
       "refs": [
@@ -323,8 +323,8 @@
         49
       ],
       "status": "Casting review",
-      "why": "Eight per island is approved. Brachio moves to Fernlands and Paraceratherium leaves; supporting moves remain proposals.",
-      "doneWhen": "Review Deino + Amarga for Giants, Iguano for Snow and Dilo for Swamp. Confirm all 40 placements, then tiers separately."
+      "why": "Eight per island is approved. Iguanodon stays and gets a greener Fernlands home. Snow’s four replacement candidates and Concavenator’s benching are recommendations for review.",
+      "doneWhen": "Review the revised board: Iguanodon → Fernlands; four new Snow candidates; Borealopelta, Cryolophosaurus, Citipati and Concavenator benched. Confirm the complete placements, including the unchanged Giants/Swamp proposals, then tiers separately."
     },
     {
       "id": "measure",
@@ -415,9 +415,9 @@
         25,
         29
       ],
-      "status": "40 species confirmed",
-      "why": "~21 new animation packages means ~7/week through Nov 8, plus revised looks, existing-bank qualification, worlds and data.",
-      "doneWhen": "All 40 banks, reveals, variants, eggs, Book, voices and expansion stages accepted. Escalate capacity/date conflicts; never auto-cut residents."
+      "status": "40 residents · recast proposed",
+      "why": "The prior ~21-new-package estimate is provisional, not a fresh capacity proof. Four proposed Snow additions need concept approval, full animation banks and integration; existing-bank qualification, revised looks, habitat/world revisions and data remain.",
+      "doneWhen": "All 40 banks, reveals, variants, eggs, Book, voices and expansion stages accepted. Re-estimate throughput after casting approval; escalate capacity/date conflicts without automatically cutting residents or moving milestones."
     },
     {
       "id": "release",
@@ -467,7 +467,7 @@
     {
       "title": "Where do the 40 belong?",
       "due": "2026-10-20",
-      "recommendation": "Eight per island confirmed. Brachio → Fernlands and Paraceratherium out are approved. Deino + Amarga → Giants, Iguano → Snow and Dilo → Swamp are proposals.",
+      "recommendation": "Eight per island remains confirmed. Review Iguanodon → Fernlands, four proposed Snow additions and four benches. Earlier Iguanodon → Snow is superseded. Brachio → Fernlands remains approved; unchanged Giants/Swamp placements remain proposals.",
       "state": "Placement review"
     },
     {
@@ -493,7 +493,7 @@
     {
       "title": "Too much new art",
       "level": "High",
-      "action": "Plan ~21 new packages (~7/week to Nov 8), plus revised looks, worlds, data and existing qualification. Cut optional features first. Escalate capacity/date tradeoffs to Frozair; keep 40 unless changed explicitly.",
+      "action": "Recheck the provisional ~21-new-package estimate against the revised cast and measured throughput to Nov 8. Four new Snow concepts need full production, not just portraits; existing-bank qualification, revised looks, habitat/world revisions and data remain. Escalate capacity/date tradeoffs; keep 40 unless Frozair changes scope.",
       "owner": "Frozair + Codex",
       "due": "Every Monday"
     },
@@ -579,6 +579,10 @@
   "changes": [
     {
       "date": "2026-10-18",
+      "text": "Recommended habitat revision: Iguanodon → greener Fernlands; Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros proposed for Snow. Borealopelta, Cryolophosaurus, Citipati and Concavenator benched in this proposal. Eight per island/40 total and all milestone dates stay; no game data changes."
+    },
+    {
+      "date": "2026-10-18",
       "text": "Frozair superseded 28 with 40 launch species: eight per island. Brachio → Fernlands; Paraceratherium out. Supporting moves remain proposals. Dates stay; capacity must be proved."
     },
     {
@@ -613,7 +617,7 @@
     },
     {
       "label": "Planning math",
-      "detail": "Approved 40: ~21 new animation packages, ~7/week across the three weeks to Nov 8. This estimate excludes further revised-look work, existing-bank qualification, worlds and data. Historical 28/~9 option is superseded; throughput is unproven."
+      "detail": "Prior approved-40 planning estimate: ~21 new animation packages, or ~7/week across three weeks to Nov 8. The revised Snow proposal requires a fresh capacity review, including four concept-to-full-bank pipelines. Existing-bank qualification, changed looks, habitat/world work and data are additional; throughput remains unproven."
     },
     {
       "label": "Release limits",
@@ -622,6 +626,10 @@
     {
       "label": "Analytics rollout",
       "detail": "Latest #45 is Done: native Android build 706 → server → PostHog ingestion, retry dedup and four saved alpha insights verified. QA is excluded; empty non-QA charts are not retention results. #60 owns missing coverage."
+    },
+    {
+      "label": "Habitat-led roster proposal",
+      "detail": "Oct 18 individual source review: Snow uses seasonally snowy woodland and exposed open forage. Prince Creek Edmontosaurus is genus-level; Nanuqsaurus plumage is inferred; Yutyrannus, Sinosauropteryx and Leaellynasaura retain conditional fit. New concepts and exact casts await review."
     }
   ],
   "rosterOptions": [
