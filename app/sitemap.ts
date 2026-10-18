@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/apps/terms-and-conditions",
     "/apps/stompy-acres",
     "/apps/stompy-acres/roadmap",
+    "/apps/stompy-acres/roster",
   ].map((path) => ({
     url: `${baseUrl}${path}`,
     lastModified: new Date(path.startsWith("/apps/stompy-acres") ? "2026-10-18" : "2026-05-30"),

@@ -55,3 +55,10 @@ refresh `asOf` and `nextReview`.
 Validate with `node scripts/check-stompy-roadmap.mjs`, then `npm run build`. Publish
 only the intended website changes through the existing Git/Vercel flow. The scheduled
 release-director chat checks evidence daily at 9am America/Chicago.
+
+The casting board is `/apps/stompy-acres/roster`, driven by
+`public/stompy-acres/launch-roster.json` and original-art web previews in
+`public/stompy-acres/roster/`. The 28-species cap is approved; recommendations are
+proposals until Frozair confirms individual picks. Keep/Bench choices stay in the
+visitor’s browser; Copy/Export shares a draft, not a remote plan change. Validate
+with `node scripts/check-stompy-roster.mjs` after roster changes.

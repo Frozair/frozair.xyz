@@ -7,8 +7,8 @@
   "nextReview": "2026-10-19",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Five islands confirmed. Roster scope is open; Fernlands needs its first playable build.",
-  "scopeLabel": "Launch islands confirmed · roster size proposed",
+  "healthNote": "28-species cap agreed. Choose the exact cast; Fernlands still needs its first playable build.",
+  "scopeLabel": "28 species confirmed · final cast under review",
   "resourcesNote": "Frozair + Codex · daily focus. Measure accepted output each week.",
   "releaseIslandCount": 5,
   "baseline": {
@@ -32,7 +32,7 @@
       "icon": "🌿",
       "color": "#407a4b",
       "liveSpecies": 6,
-      "targetLabel": "8 species proposed",
+      "targetLabel": "8 launch spots recommended",
       "status": "Playable · roster refresh",
       "summary": "The opening works. Finish and seed the new cast.",
       "ref": 49,
@@ -46,7 +46,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Six currently obtainable species. New roster art is not the same as seeded shop content; Para and Kentro remain on the critical path."
+          "detail": "Six currently obtainable species. Finished art still needs seeded shop data; Para and Kentro have local work awaiting final integration."
         },
         {
           "label": "World",
@@ -68,7 +68,7 @@
       "icon": "⛰️",
       "color": "#aa7444",
       "liveSpecies": 6,
-      "targetLabel": "8 species proposed",
+      "targetLabel": "8 launch spots recommended",
       "status": "Playable · world production",
       "summary": "The giant-scale valley is still a concept target.",
       "ref": 23,
@@ -104,7 +104,7 @@
       "icon": "🪷",
       "color": "#65784a",
       "liveSpecies": 1,
-      "targetLabel": "4 species proposed",
+      "targetLabel": "4 launch spots recommended",
       "status": "Starter only · content gap",
       "summary": "Suchomimus is live. The wetland needs a launch cast.",
       "ref": 24,
@@ -140,7 +140,7 @@
       "icon": "❄️",
       "color": "#5e92a3",
       "liveSpecies": 1,
-      "targetLabel": "4 species proposed",
+      "targetLabel": "4 launch spots recommended",
       "status": "Starter only · content gap",
       "summary": "Yutyrannus is live. Build a readable snowy collection.",
       "ref": 25,
@@ -176,7 +176,7 @@
       "icon": "🌾",
       "color": "#bd963f",
       "liveSpecies": 0,
-      "targetLabel": "4 species proposed",
+      "targetLabel": "4 launch spots recommended",
       "status": "Concept · new integration",
       "summary": "Rex, Trike and Anky provide a production head start.",
       "ref": 29,
@@ -314,7 +314,7 @@
     {
       "id": "scope",
       "lane": "now",
-      "title": "Choose the launch cast",
+      "title": "Choose the 28 launch residents",
       "owner": "Frozair",
       "due": "2026-10-20",
       "refs": [
@@ -322,9 +322,9 @@
         42,
         49
       ],
-      "status": "Decision needed",
-      "why": "40 species still needs about 21 new art packages. The 28-species proposal needs about 9.",
-      "doneWhen": "Approve per-island cast, tiers and exact cut list. Estimates exclude qualification of existing art."
+      "status": "Casting review",
+      "why": "The 28-species cap is approved. Compare the 40 accepted concepts and pick the final cast.",
+      "doneWhen": "Confirm the species and suggested 8/8/4/4/4 allocation, or trade places within 28. Then confirm tiers separately."
     },
     {
       "id": "measure",
@@ -464,10 +464,10 @@
   ],
   "decisions": [
     {
-      "title": "28 launch species or all 40?",
+      "title": "Who makes the 28?",
       "due": "2026-10-20",
-      "recommendation": "Recommend 8 Forest + 8 Giants + 4 Swamp + 4 Snow + 4 Fernlands. Grow the remaining rosters after launch. This count is not approved yet.",
-      "state": "Open"
+      "recommendation": "28 total is approved. Review the visual casting board; 8 Forest + 8 Giants + 4 Swamp + 4 Snow + 4 Fernlands is the suggested split. Exact species remain open.",
+      "state": "Casting review"
     },
     {
       "title": "What does each island require?",
@@ -568,7 +568,7 @@
     },
     {
       "title": "All eight residents everywhere",
-      "reason": "Concept ambition retained; smaller launch rosters are a proposal awaiting selection."
+      "reason": "28 total is approved. Which12 concept residents stay for later depends on the final casting review."
     },
     {
       "title": "Full season pass + broad premium catalog",
@@ -580,6 +580,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-10-18",
+      "text": "Frozair approved 28 species for launch. Added a visual casting board with 28 recommended picks and 12 alternates; individual species selection remains open."
+    },
     {
       "date": "2026-10-18",
       "text": "Frozair confirmed Forest, Giants, Swamp, Snow and Fernlands; Water excluded, Sky preferred for the future. Daily sole focus confirmed."
@@ -614,11 +618,11 @@
   "rosterOptions": [
     {
       "id": "focused",
-      "label": "Focused launch",
+      "label": "Approved launch cap",
       "species": 28,
       "newPackages": 9,
       "recommended": true,
-      "status": "Proposed"
+      "status": "Confirmed cap"
     },
     {
       "id": "full",
