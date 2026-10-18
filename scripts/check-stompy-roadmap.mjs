@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const path = fileURLToPath(new URL('../public/stompy-acres/release-roadmap.json', import.meta.url));
 const data = JSON.parse(readFileSync(path, 'utf8'));
+const roster = JSON.parse(readFileSync(new URL('../public/stompy-acres/launch-roster.json', import.meta.url), 'utf8'));
 const date = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && new Date(value).toISOString().startsWith(value);
 const uniqueIds = (items, label) => assert.equal(new Set(items.map(item => item.id)).size, items.length, `${label}: duplicate ids`);
 const textFields = (item, fields) => fields.forEach(key => assert.equal(typeof item[key], 'string', `Missing text field ${key}`));
@@ -44,4 +45,37 @@ for (const decision of data.decisions) { textFields(decision, ['title', 'recomme
 for (const gate of data.launchGates) { textFields(gate, ['label', 'proof']); assert(['open', 'partial', 'passed'].includes(gate.state)); }
 assert(data.launchGates.length > 0 && data.evidence.length > 0 && data.changes.length > 0);
 assert(data.updatePolicy.staleAfterDays > 0);
+assert.equal(roster.rosterStatus, 'locked');
+assert(Number.isInteger(data.baseline.launchSpecies) && data.baseline.launchSpecies >= 0 && data.baseline.launchSpecies <= roster.totalTarget);
+assert(Number.isInteger(data.baseline.launchHomeSpecies) && data.baseline.launchHomeSpecies >= 0 && data.baseline.launchHomeSpecies <= data.baseline.launchSpecies);
+assert.equal(data.islands.reduce((sum, island) => sum + island.liveSpecies, 0), data.baseline.launchHomeSpecies);
+textFields(data.firstWork, ['title', 'note']);
+assert.equal(data.firstWork.items.length, 3);
+uniqueIds(data.firstWork.items, 'First work');
+data.firstWork.items.forEach((item, index) => {
+  assert.equal(item.step, index + 1);
+  textFields(item, ['title', 'when', 'owner', 'outcome']);
+  assert(['engine', 'art', 'operations'].includes(item.kind));
+  assert(item.refs.every(ref => Number.isInteger(ref) && ref > 0));
+  assert(item.species.every(label => typeof label === 'string'));
+});
+const production = data.production;
+textFields(production, ['title', 'note']);
+assert.equal(production.total, roster.totalTarget);
+assert.equal(production.existingBanks + production.missingBanks, production.total);
+assert(production.accepted === null || (Number.isInteger(production.accepted) && production.accepted >= 0 && production.accepted <= production.total));
+assert(date(production.freezeDate));
+assert.equal(production.daysToFreeze, Math.round((Date.parse(production.freezeDate) - Date.parse(data.asOf)) / 86400000));
+assert.equal(production.minimumNewPerWeek, Math.round(production.missingBanks / production.daysToFreeze * 70) / 10);
+assert.deepEqual(production.islands.map(i => i.id), roster.islands.map(i => i.id));
+let available = 0;
+production.islands.forEach((island, index) => {
+  assert.deepEqual(island.residents.map(s => s.id), roster.islands[index].species.map(s => s.id), 'Production matrix must match locked roster and homes');
+  island.residents.forEach(s => {
+    textFields(s, ['id', 'name', 'detail']);
+    assert(['available', 'missing'].includes(s.bank));
+    if (s.bank === 'available') available++;
+  });
+});
+assert.equal(available, production.existingBanks);
 console.log(`Roadmap valid: ${data.islands.length} islands, ${data.milestones.length} milestones, ${data.work.length} work items; reviewed ${data.asOf}.`);

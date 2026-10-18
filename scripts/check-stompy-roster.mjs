@@ -20,6 +20,17 @@ assert.equal(byId.size, 40);
 assert.equal(species.filter(s => s.recommended).length, 40);
 assert.equal(roster.islands.reduce((n, i) => n + i.quota, 0), 40);
 assert.equal(roster.selectionVersion, '2026-10-18-r3-cold-roster');
+assert.equal(roster.rosterStatus, 'locked');
+assert.equal(roster.lockedAt, '2026-10-18');
+assert.equal(typeof roster.lockNote, 'string');
+const lockedHomes = {
+  forest: ['leafy','aquilops','pachycephalosaurus','gallimimus','stegouros','kentrosaurus','parasaurolophus','shunosaurus'],
+  giants: ['shantungosaurus','dreadnoughtus','giganotosaurus','therizinosaurus','spinosaurus','diplodocus','deinocheirus','amargasaurus'],
+  swamp: ['suchomimus','carbonemys','edaphosaurus','nigersaurus','diplocaulus','dilophosaurus','sarcosuchus','titanoboa'],
+  snow: snowIds,
+  fernlands: ['rex','trike','ankylosaurus','stegosaurus','iguanodon','brachio','microraptor','anzu'],
+};
+for (const island of roster.islands) assert.deepEqual(island.species.map(s => s.id), lockedHomes[island.id], `Locked home changed: ${island.id}`);
 
 function checkHabitat(s) {
   assert(s.habitat, `Missing habitat assessment: ${s.id}`);
@@ -89,4 +100,4 @@ assert(/^\d{4}-\d{2}-\d{2}$/.test(roster.habitatReview.asOf));
 assert(Number.isFinite(Date.parse(roster.habitatReview.asOf)));
 assert.equal(roster.habitatReview.definitions.length, 5);
 assert.equal(new Set(roster.habitatReview.definitions.map(d => d.island)).size, 5);
-console.log('Roster valid: 40 unique active residents, eight per island, four new Snow concept proposals, four separate bench candidates, sourced habitat notes, and Iguanodon in Fernlands.');
+console.log('Locked roster valid: 40 unique residents, eight per approved island, four new Snow concepts with separate production status, four preserved bench candidates, sourced habitat notes, and Iguanodon in Fernlands.');

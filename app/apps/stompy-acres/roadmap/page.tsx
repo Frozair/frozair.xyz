@@ -39,9 +39,17 @@ export interface ReleaseRoadmap {
   scopeLabel: string;
   resourcesNote: string;
   releaseIslandCount: number;
-  baseline: { version: string; wiredIslands: number; launchWiredIslands: number; signedOffIslands: number; liveSpecies: number; note: string };
+  baseline: { version: string; wiredIslands: number; launchWiredIslands: number; signedOffIslands: number; liveSpecies: number; launchSpecies: number; launchHomeSpecies: number; note: string };
   northStar: string;
-  rosterOptions: { id: string; label: string; species: number; newPackages: number; recommended: boolean; status: string }[];
+  firstWork: {
+    title: string; note: string;
+    items: { id: string; step: number; title: string; when: string; owner: string; refs: number[]; outcome: string; species: string[]; kind: "engine" | "art" | "operations" }[];
+  };
+  production: {
+    title: string; note: string; total: number; existingBanks: number; missingBanks: number;
+    accepted: number | null; freezeDate: string; daysToFreeze: number; minimumNewPerWeek: number;
+    islands: { id: string; name: string; color: string; residents: { id: string; name: string; image?: string; bank: "available" | "missing"; detail: string }[] }[];
+  };
   updatePolicy: { cadence: string; staleAfterDays: number; sourceLabel: string };
   islands: Island[];
   milestones: {
@@ -143,22 +151,34 @@ export default function ReleaseRoadmapPage() {
       </header>
 
       <section className="sa-roadmap-hero" aria-labelledby="sa-roadmap-title">
-        <div className="sa-hero-copy"><p className="sa-eyebrow"><span className="sa-live-dot" /> THE ROAD TO RELEASE</p><h1 id="sa-roadmap-title">{roadmap.title}</h1><p className="sa-hero-subtitle">{roadmap.subtitle}</p><div className="sa-proposal"><span className="sa-diamond" /> {roadmap.scopeLabel}</div><Link href="/apps/stompy-acres/roster" className="sa-casting-link">Choose the launch cast <Arrow /></Link></div>
+        <div className="sa-hero-copy"><p className="sa-eyebrow"><span className="sa-live-dot" /> THE ROAD TO RELEASE</p><h1 id="sa-roadmap-title">{roadmap.title}</h1><p className="sa-hero-subtitle">{roadmap.subtitle}</p><div className="sa-proposal"><span className="sa-diamond" /> {roadmap.scopeLabel}</div><Link href="/apps/stompy-acres/roster" className="sa-casting-link">View locked roster <Arrow /></Link></div>
         <div className="sa-date-card"><div className="sa-date-top"><span>TARGET RELEASE</span><span>{target.getUTCFullYear()}</span></div><div className="sa-date-display"><span>{targetMonth}</span><strong>{String(target.getUTCDate()).padStart(2, "0")}</strong><span className="sa-days-left"><b>{daysLeft}</b> days<br />to go</span></div><div className="sa-date-bottom"><span className="sa-health"><span />{roadmap.health}</span><span>Target, subject to release gates</span></div></div>
       </section>
 
       <div className="sa-freshness"><span className={stale ? "sa-freshness-state is-stale" : "sa-freshness-state"}><span />{stale ? "Review overdue" : "Evidence snapshot"}</span><span>Verified <time dateTime={roadmap.asOf}>{dateLabel(roadmap.asOf)}</time></span><span>Next review <time dateTime={roadmap.nextReview}>{dateLabel(roadmap.nextReview)}</time></span><a href="#sa-updates">How this stays current <Arrow /></a></div>
 
+      <section id="sa-first-work" className="sa-first-work" aria-labelledby="sa-first-work-title">
+        <div className="sa-section-heading"><div><p className="sa-eyebrow">THE CAST IS LOCKED / START HERE</p><h2 id="sa-first-work-title">{roadmap.firstWork.title}</h2></div><a href="#sa-production" className="sa-section-link">See all 40 production needs <Arrow /></a></div>
+        <div className="sa-first-work-grid">{roadmap.firstWork.items.map(item => <article key={item.id} className={`sa-first-card is-${item.kind}`}>
+          <div className="sa-first-card-top"><span className="sa-first-number" aria-label={`Priority ${item.step}`}>{item.step}</span><span className="sa-first-when">{item.when}</span></div>
+          <p className="sa-first-track">{({ engine: "PLAYABLE FOUNDATION", art: "CREATURE PRODUCTION", operations: "RELEASE FOUNDATIONS" })[item.kind]}</p><h3>{item.title}</h3>
+          <p className="sa-first-outcome"><span>PROOF WE NEED</span>{item.outcome}</p>
+          {item.species.length > 0 && <ul className="sa-first-species" aria-label="Focus species">{item.species.map(name => <li key={name}>{name}</li>)}</ul>}
+          <div className="sa-first-owner"><span>{item.owner}</span><BoardRefs refs={item.refs} /></div>
+        </article>)}</div>
+        <p className="sa-first-note"><span aria-hidden="true">↗</span>{roadmap.firstWork.note}</p>
+      </section>
+
       <section className="sa-overview" aria-label="Where we are now">
         <figure className="sa-game-preview"><img src="/stompy-acres/forest.webp" alt="Actual Stompy Acres gameplay, with dinosaurs roaming a leafy green island" width="1600" height="717" /><figcaption><span>THE WORLD IS ALREADY GROWING</span><span>Actual gameplay · early build</span></figcaption></figure>
-        <div className="sa-baseline"><p className="sa-eyebrow">WHERE WE ARE</p><div className="sa-ready-number"><strong>{roadmap.baseline.signedOffIslands}<span> / {roadmap.releaseIslandCount}</span></strong><span>islands signed off</span></div><div className="sa-baseline-grid"><div><strong>{roadmap.baseline.launchWiredIslands}<small>/{roadmap.releaseIslandCount}</small></strong><span>launch islands wired</span></div><div><strong>{roadmap.baseline.liveSpecies}</strong><span>runtime species</span></div></div><p className="sa-baseline-note">{roadmap.baseline.note}</p><span className="sa-version">BUILD {roadmap.baseline.version}</span></div>
+        <div className="sa-baseline"><p className="sa-eyebrow">WHERE WE ARE</p><div className="sa-ready-number"><strong>{roadmap.baseline.signedOffIslands}<span> / {roadmap.releaseIslandCount}</span></strong><span>islands signed off</span></div><div className="sa-baseline-grid"><div><strong>{roadmap.baseline.launchWiredIslands}<small>/{roadmap.releaseIslandCount}</small></strong><span>launch islands wired</span></div><div><strong>{roadmap.baseline.launchSpecies}<small>/40</small></strong><span>launch species obtainable</span></div></div><p className="sa-baseline-note">{roadmap.baseline.note}</p><span className="sa-version">BUILD {roadmap.baseline.version}</span></div>
       </section>
 
       <section id="sa-islands" className="sa-section" aria-labelledby="sa-islands-title">
         <div className="sa-section-heading"><div><p className="sa-eyebrow">01 / THE RELEASE ROSTER</p><h2 id="sa-islands-title">Five places worth discovering.</h2></div><a href="#sa-launch-gates" className="sa-section-link">What counts as ready <Arrow /></a></div>
         <div className="sa-readiness-legend" aria-label="Readiness key"><span><i className="sa-status-dot is-implemented" />Built</span><span><i className="sa-status-dot is-partial" />In progress</span><span><i className="sa-status-dot is-open" />Needs proof</span></div>
         <div className="sa-islands-grid">{roadmap.islands.map((island, index) => <article className="sa-island-card" key={island.id} style={{ "--island-accent": island.color } as CSSProperties}>
-          <div className="sa-island-art"><span className="sa-island-number">0{index + 1}</span><IslandMap island={island} /><span className="sa-island-species">{island.liveSpecies} species live</span></div><div className="sa-island-content"><h3>{island.name}</h3><p className="sa-island-status">{island.status}</p><div className="sa-island-checks">{island.checks.map(check => <span key={check.label} title={`${stateLabels[check.state]}: ${check.detail}`}><i className={`sa-status-dot is-${check.state}`} /><span>{check.label}<span className="sa-sr-only">: {stateLabels[check.state]}</span></span></span>)}</div><details className="sa-island-detail"><summary>{island.gateLabel} <span>{dateLabel(island.gateDate)}</span></summary><div><p>{island.summary}</p><p><b>Next:</b> {island.next}</p><ul>{island.checks.map(check => <li key={check.label}><b>{check.label}:</b> {check.detail}</li>)}</ul><p>{island.targetLabel}</p><BoardRefs refs={[island.ref]} /></div></details></div>
+          <div className="sa-island-art"><span className="sa-island-number">0{index + 1}</span><IslandMap island={island} /><span className="sa-island-species">{island.liveSpecies} / 8 launch cast seeded</span></div><div className="sa-island-content"><h3>{island.name}</h3><p className="sa-island-status">{island.status}</p><div className="sa-island-checks">{island.checks.map(check => <span key={check.label} title={`${stateLabels[check.state]}: ${check.detail}`}><i className={`sa-status-dot is-${check.state}`} /><span>{check.label}<span className="sa-sr-only">: {stateLabels[check.state]}</span></span></span>)}</div><details className="sa-island-detail"><summary>{island.gateLabel} <span>{dateLabel(island.gateDate)}</span></summary><div><p>{island.summary}</p><p><b>Next:</b> {island.next}</p><ul>{island.checks.map(check => <li key={check.label}><b>{check.label}:</b> {check.detail}</li>)}</ul><p>{island.targetLabel}</p><BoardRefs refs={[island.ref]} /></div></details></div>
         </article>)}</div>
       </section>
 
@@ -166,7 +186,20 @@ export default function ReleaseRoadmapPage() {
 
       <section className="sa-section" aria-labelledby="sa-work-title"><div className="sa-section-heading"><div><p className="sa-eyebrow">03 / THE DIRECTOR’S DESK</p><h2 id="sa-work-title">Keep the next move clear.</h2></div><span className="sa-small-note">{roadmap.healthNote}</span></div><div className="sa-work-filters" role="group" aria-label="Filter work by release horizon">{filters.map(item => <button key={item.value} type="button" aria-pressed={filter === item.value} onClick={() => setFilter(item.value)}>{item.label}<span>{item.value === "cut" ? roadmap.deferred.length : roadmap.work.filter(task => task.lane === item.value).length}</span></button>)}</div><div className="sa-task-grid" aria-live="polite" aria-atomic="false">{filter === "cut" ? roadmap.deferred.map((item, index) => <article className="sa-task-card is-cut" key={item.title}><div className="sa-task-top"><span className="sa-task-track">SCOPE NOTE</span><span>0{index + 1}</span></div><h3>{item.title}</h3><p>{item.reason}</p><span className="sa-cut-label">Confirmed / proposed — see note</span></article>) : tasks.length ? tasks.map(task => <article className="sa-task-card" key={task.id}><div className="sa-task-top"><span className="sa-task-track">{task.status}</span><DueDate value={task.due} /></div><h3>{task.title}</h3><div className="sa-task-owner"><span>{task.owner}</span><BoardRefs refs={task.refs} /></div><details><summary>What gets us there <span>+</span></summary><div><p>{task.why}</p><p><b>Done when</b><br />{task.doneWhen}</p></div></details></article>) : <p className="sa-empty-state">No work assigned to this horizon.</p>}</div></section>
 
-      <section className="sa-roster-choice" aria-labelledby="sa-roster-choice-title"><div><p className="sa-eyebrow">THE CONFIRMED LAUNCH SCOPE</p><h2 id="sa-roster-choice-title">How much new art?</h2><p>Estimated packages still to produce. Existing art also needs integration and phone checks.</p></div><div className="sa-roster-options">{roadmap.rosterOptions.map(option => <article key={option.id} className={option.recommended ? "sa-roster-option is-recommended" : "sa-roster-option"}><header><strong>{option.species} species</strong><span>{option.status}</span></header><p>{option.label}</p><div className="sa-art-bar" role="img" aria-label={`About ${option.newPackages} new animation packages`}><span style={{ width: `${option.newPackages / Math.max(1, ...roadmap.rosterOptions.map(item => item.newPackages)) * 100}%` }} /></div><strong>~{option.newPackages} <small>new animation packages</small></strong></article>)}</div></section>
+      <section id="sa-production" className="sa-production" aria-labelledby="sa-production-title">
+        <div className="sa-section-heading"><div><p className="sa-eyebrow">40 SPECIES / THE PRODUCTION BOARD</p><h2 id="sa-production-title">{roadmap.production.title}</h2></div><Link href="/apps/stompy-acres/roster" className="sa-section-link">View locked roster <Arrow /></Link></div>
+        <div className="sa-production-totals"><div className="sa-production-existing"><strong>{roadmap.production.existingBanks}</strong><span>existing animation banks<small>Reuse, integrate &amp; qualify</small></span></div><div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>new packages needed<small>Concept → motion → phone</small></span></div><div className="sa-production-pace"><strong>{roadmap.production.minimumNewPerWeek.toFixed(1)}<small>/week</small></strong><span>minimum new-package pace<small>By {dateLabel(roadmap.production.freezeDate)} · {roadmap.production.daysToFreeze} days from snapshot</small></span></div></div>
+        <div className="sa-production-legend"><span><i className="sa-bank-mark is-available" />Existing bank</span><span><i className="sa-bank-mark is-missing" />New package</span><span>Bank availability ≠ release acceptance</span></div>
+        <div className="sa-production-grid">{roadmap.production.islands.map(island => {
+          const available = island.residents.filter(resident => resident.bank === "available").length;
+          return <article className="sa-production-island" key={island.id} style={{ "--production-accent": island.color } as CSSProperties}>
+            <header><h3>{island.name}</h3><span><b>{available}</b> existing · <b>{island.residents.length - available}</b> new</span></header>
+            <ul>{island.residents.map(resident => <li key={resident.id} className={`is-${resident.bank}`}><i className={`sa-bank-mark is-${resident.bank}`} aria-hidden="true" /><span>{resident.name}<small className="sa-sr-only"> — {resident.bank === "available" ? "existing animation bank" : "new animation package needed"}</small></span><details><summary aria-label={`${resident.name} production details`}>i</summary><p>{resident.detail}</p></details></li>)}</ul>
+          </article>;
+        })}</div>
+        <p className="sa-production-note">{roadmap.production.note}</p>
+        <div className="sa-production-acceptance"><span aria-hidden="true">◌</span><p><strong>{roadmap.production.accepted === null ? "Release acceptance still needs proof." : `${roadmap.production.accepted} / ${roadmap.production.total} species accepted for release.`}</strong> Each species needs its final look, working behavior, collection flow, and phone checks.</p></div>
+      </section>
 
       <section className="sa-decisions-section" aria-labelledby="sa-decisions-title"><div><p className="sa-eyebrow">MAKE THE CALL</p><h2 id="sa-decisions-title">Decisions protect the date.</h2><p className="sa-small-note">A small number of clear calls keep the release moving.</p></div><div className="sa-decisions">{roadmap.decisions.map(decision => <details key={decision.title}><summary><span className="sa-decision-icon" aria-hidden="true">↗</span><strong>{decision.title}</strong><span className="sa-decision-date">By {dateLabel(decision.due)}</span><span className="sa-decision-open">{decision.state}</span></summary><p>{decision.recommendation}</p></details>)}</div></section>
 

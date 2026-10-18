@@ -163,9 +163,9 @@
           "viewBox": "12.249 162.297 743.502 464.230",
           "recommended": true,
           "role": "Spiky collector",
-          "status": "Local motion work",
+          "status": "Bank on main",
           "rationale": "Shoulder and tail spikes supply a clear late-collection silhouette.",
-          "note": "Local draft art/bank work now exists; not routed as a main gameplay species. Final integration and acceptance remain open.",
+          "note": "Committed and routed ranch/reveal banks. Shop seeding and final launch qualification remain.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -193,9 +193,9 @@
           "viewBox": "34.297 208.842 700.632 512.612",
           "recommended": true,
           "role": "Crested headline",
-          "status": "Local bank",
+          "status": "Bank on main",
           "rationale": "The long backward crest is a recognisable collection prize.",
-          "note": "Local ranch/reveal accepted and device-tested; back-run retake and commit remain pending.",
+          "note": "Committed ranch and reveal banks; Frozair approved the recorded motion, including the retained directional run aliases. Final launch qualification remains.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -448,7 +448,7 @@
           "status": "Concept only",
           "rationale": "Proposed Giants replacement: a huge shaggy body and broad beak give a different silhouette from the long-necks and predators.",
           "note": "Long arms and broad body need clearance; overlaps Sucho’s large upright role.",
-          "moveNote": "Proposed new home",
+          "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
             "confidence": "high",
@@ -475,7 +475,7 @@
           "status": "Concept only",
           "rationale": "Proposed Giants replacement: paired neck spines distinguish this smaller long-neck from Dreadnoughtus and Diplodocus.",
           "note": "Adds another sauropod alongside Giants and Nigersaurus; spine continuity needs work.",
-          "moveNote": "Proposed new home",
+          "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
             "confidence": "high",
@@ -656,10 +656,10 @@
           "viewBox": "24 21.5 717 457.5",
           "recommended": true,
           "role": "Twin-crest wetland hunter",
-          "status": "Concept only",
+          "status": "Existing bank · look check",
           "rationale": "Proposed Swamp replacement: twin lengthwise crests bring a clear head shape, distinct from Suchomimus and Snow’s Cryolophosaurus.",
-          "note": "Previously liked Riverbend concept, shown unchanged. Animation production, Swamp fit and runtime qualification remain open.",
-          "moveNote": "Proposed new home",
+          "note": "Committed ranch and reveal banks exist. Match them against the selected portrait and qualify motion, variants and phones before acceptance.",
+          "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",
@@ -882,7 +882,7 @@
           "conceptLabel": "New concept · review",
           "rationale": "A sturdy tyrannosaur head, short forelimbs and long balancing tail create an Arctic predator alongside Yutyrannus.",
           "note": "New concept is unapproved. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed.",
-          "moveNote": "New Snow proposal",
+          "moveNote": "Launch home confirmed",
           "scientificTaxon": "Nanuqsaurus hoglundi",
           "habitat": {
             "rating": "strong",
@@ -919,7 +919,7 @@
           "conceptLabel": "New concept · review",
           "rationale": "A broad duck bill and deep herbivore body make a readable polar grazer without adding another horned or plated silhouette.",
           "note": "New concept is unapproved and refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed.",
-          "moveNote": "New Snow proposal",
+          "moveNote": "Launch home confirmed",
           "scientificTaxon": "Edmontosaurus sp. (Prince Creek population)",
           "habitat": {
             "rating": "strong",
@@ -952,7 +952,7 @@
           "conceptLabel": "New concept · review",
           "rationale": "A small biped with a long balancing tail and gentle herbivore head adds scale contrast to Snow’s large residents.",
           "note": "New concept is unapproved. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed.",
-          "moveNote": "New Snow proposal",
+          "moveNote": "Launch home confirmed",
           "scientificTaxon": "Leaellynasaura amicagraphica",
           "habitat": {
             "rating": "conditional",
@@ -985,7 +985,7 @@
           "conceptLabel": "New concept · review",
           "rationale": "A low, sturdy body with a two-horn profile and shaggy coat gives Snow an open-ground counterpart to the mammoth.",
           "note": "New concept is unapproved. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed.",
-          "moveNote": "New Snow proposal",
+          "moveNote": "Launch home confirmed",
           "scientificTaxon": "Coelodonta antiquitatis",
           "habitat": {
             "rating": "strong",
@@ -1140,7 +1140,7 @@
           "status": "Concept only",
           "rationale": "Keeps your Iguanodon in fern-rich, wooded meadows with freshwater, replacing Concavenator’s draft slot.",
           "note": "Existing accepted concept is unchanged. Fernlands suits the documented plant-rich settings better than a Snow-first placement; habitat flexibility and production readiness remain separate questions.",
-          "moveNote": "Recommended greener home",
+          "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -1167,7 +1167,7 @@
           "status": "Existing bank",
           "rationale": "Your requested Fernlands long-neck. Proposed to take Iguanodon’s place, keeping the classic Stegosaurus.",
           "note": "Selected softer-smile concept. Existing Brachio bank remains a separate production asset.",
-          "moveNote": "Move requested",
+          "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
             "confidence": "high",
@@ -1242,7 +1242,7 @@
       "habitatBrief": "Fern clearings with wooded edges and freshwater. Brachio needs tall browse; Microraptor needs connected trees and perches."
     }
   ],
-  "revisionNote": "Recommended revision for review: Iguanodon gets a greener Fernlands home, Snow receives four better-supported cold or polar residents, and the scope stays eight per island, 40 total. This is a director proposal; individual casting choices and new concepts still need your approval.",
+  "revisionNote": "Approved launch roster: eight residents on each of Forest, Giants, Swamp, Snow and Fernlands. Iguanodon belongs in greener Fernlands. The four benched candidates stay outside the 40; their artwork and history are retained.",
   "habitatReview": {
     "asOf": "2026-10-18",
     "title": "A habitat-led revision.",
@@ -1271,8 +1271,8 @@
     ]
   },
   "proposal": {
-    "title": "A greener home. A colder cast.",
-    "note": "Recommended roster for your review. Eight on every island, 40 total. The four new portraits are unapproved concepts, and no game data or production banks change with this board.",
+    "title": "The cast is locked. Let’s build their homes.",
+    "note": "Frozair approved these 40 residents and their island homes on October 18. Production, motion and final phone acceptance are tracked separately.",
     "added": [
       "Nanuqsaurus",
       "Edmontosaurus",
@@ -1306,20 +1306,20 @@
   ],
   "changeNotes": [
     {
+      "label": "All 40 approved",
+      "detail": "Frozair locked the complete roster and all five island assignments on October 18. Earlier casting drafts are superseded."
+    },
+    {
       "label": "Iguanodon → Fernlands",
-      "detail": "A greener, fern- and tree-rich home with freshwater. He takes Concavenator’s draft slot."
+      "detail": "A greener home with ferns, trees and freshwater; Brachio is here too."
     },
     {
-      "label": "Four new Snow candidates",
-      "detail": "Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros replace the three benched Snow candidates plus Iguanodon’s former slot."
+      "label": "Snow’s final eight",
+      "detail": "Yutyrannus, Pachyrhinosaurus perotorum, Woolly Mammoth, Sinosauropteryx, Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros."
     },
     {
-      "label": "Four preserved for later review",
-      "detail": "Borealopelta, Cryolophosaurus, Citipati and Concavenator leave this recommended launch cast. Their art and prior assessments remain available; no source assets are deleted."
-    },
-    {
-      "label": "Count stays fixed",
-      "detail": "Eight per island and 40 total remain confirmed. Forest, Giants and Swamp have no casting changes in this revision; their earlier proposals and habitat requirements remain visible."
+      "label": "Saved for later",
+      "detail": "Borealopelta, Cryolophosaurus, Citipati and Concavenator remain on the bench. Paraceratherium remains outside launch."
     }
   ],
   "benchedSpecies": [
@@ -1443,5 +1443,8 @@
       "previousIsland": "Fernlands",
       "benchReason": "Benched to give the user’s retained Iguanodon a greener home while preserving eight Fernlands residents. This is a casting-space choice, not a newly discovered habitat mismatch."
     }
-  ]
+  ],
+  "rosterStatus": "locked",
+  "lockedAt": "2026-10-18",
+  "lockNote": "Frozair approved these 40 residents and their island homes on October 18. Production, motion and final phone acceptance are tracked separately."
 }

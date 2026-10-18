@@ -46,47 +46,48 @@ Feel free to open an issue or submit a PR!
 
 ## Stompy Acres release roadmap
 
-The visual board is at `/apps/stompy-acres/roadmap`; its single data source is
-`public/stompy-acres/release-roadmap.json`. Update it from current production-board,
-game-source and native release evidence. Keep proposals separate from accepted scope
-and distinguish runtime integration from Director sign-off. After an actual review,
-refresh `asOf` and `nextReview`.
+The visual roadmap is `/apps/stompy-acres/roadmap`, driven by
+`public/stompy-acres/release-roadmap.json`. The roster is at
+`/apps/stompy-acres/roster`, driven by `public/stompy-acres/launch-roster.json`.
+Frozair locked all 40 residents and their homes on October 18, 2026: eight each
+in Forest, Giants, Swamp, Snow and Fernlands. Iguanodon and Brachio are in
+Fernlands. The revised Snow eight are approved. `rosterStatus`, `lockedAt` and
+the validation script preserve that decision; do not restore older casting drafts.
+Borealopelta, Cryolophosaurus, Citipati and Concavenator stay in `benchedSpecies`
+outside the 40. Retain their art/history. Paraceratherium remains outside launch.
 
-Validate with `node scripts/check-stompy-roadmap.mjs`, then `npm run build`. Publish
-only the intended website changes through the existing Git/Vercel flow. The scheduled
-release-director chat checks evidence daily at 9am America/Chicago.
+Update from current Pigeon, source, native-build/device and public-store evidence.
+The daily director check runs at 9am America/Chicago and publishes meaningful
+changes. Refresh `asOf`/`nextReview` only after a real review. Keep source banks,
+selected-look/motion approval, runtime integration and final acceptance distinct.
+Local Keep/Bench/export choices are personal change proposals; they never unlock
+or mutate the shared approved cast. Preserve `selectionVersion` and older drafts.
 
-The casting board is `/apps/stompy-acres/roster`, driven by
-`public/stompy-acres/launch-roster.json` and original-art web previews in
-`public/stompy-acres/roster/`. The launch scope is 40 residents, eight per island.
-Brachio remains in Fernlands and Paraceratherium remains removed. The latest director
-proposal moves Iguanodon from Snow to greener Fernlands, taking Concavenator’s slot.
-Snow proposes Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly
-Rhinoceros in place of the three benched Snow candidates and Iguanodon’s former slot.
-Borealopelta, Cryolophosaurus, Citipati and Concavenator remain preserved separately in
-`benchedSpecies`; their image assets and prior assessment history are retained.
-Exact casting choices, including unchanged Giants/Swamp proposals, still need Frozair’s
-review. New Snow portraits are original, unapproved concepts and do not establish
-production banks or qualification. No game data changes with this website proposal.
+`firstWork` powers the prominent first-work cards. `production.islands` maps all
+40 approved IDs and homes to current committed bank availability. On October 18,
+21 ranch banks exist and 19 are missing; 20 dedicated reveals exist and Stegouros
+uses a one-frame fallback. These counts are starting points, not release readiness.
+Current server source has 14 locked residents obtainable anywhere, 10 at approved
+homes; the older17 includes three excluded Lagoon species. No live DB or new native
+build was verified by the roadmap review.
 
-Keep/Bench choices stay in the visitor’s browser; Copy/Export shares a draft, not a
-remote plan change. `selectionVersion` changes for this revision so older browser drafts
-remain stored separately. Active counts cover only the 40 recommended residents;
-`benchedSpecies` does not add launch slots. The page’s 40-resident game target is not a
-claim of 40 resolved biological species: Leafy is fictional and the Prince Creek
-Edmontosaurus is left at genus level in the cited research.
+First: Fernlands persistent native slice with an existing bank by October25;
+time one full Iguanodon package and bounded Titanoboa/Mammoth motion proofs in
+parallel. Start progression, recovery, device and public-store setup this week.
+Recalculate remaining complete packages / days left at every review; today's
+19/21×7 ≈6.3 new packages/week is a minimum arithmetic floor, not measured capacity.
+Existing-bank/reveal repairs, worlds, data, QA and rework add effort. All five
+loops/data by November1, content freeze November8, signed beta November9–15,
+public submissions November16, release December1 only with gates green. Escalate
+capacity/date tradeoffs; no silent roster cuts or date changes.
 
-Treat the prior ~21-new-animation-package estimate as provisional. The four new Snow
-concepts require full approval, animation production and qualification, alongside
-existing-bank checks, revised looks, worlds and data. Recheck capacity against Nov 8;
-escalate capacity/date tradeoffs without automatically reducing the 40 or changing dates.
-Validate with `node scripts/check-stompy-roster.mjs` after roster changes.
+Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
+snowy woodland, stream edges, shelter and exposed open forage. Prince Creek
+Edmontosaurus remains genus-level; Nanuqsaurus feathers are inferred. Roster approval
+is not scientific survival proof, historical coexistence or production acceptance.
 
-Every active resident has a sourced habitat assessment. Fit ratings are director
-judgements, distinct from evidence confidence and production readiness. Snow’s revised
-direction is seasonally snowy woodland, stream edges and exposed open forage rather
-than barren permanent ice. Yutyrannus, Sinosauropteryx and Leaellynasaura are conditional
-fits to that direction. Do not convert inferred Nanuqsaurus plumage into a fossil fact,
-or label Prince Creek Edmontosaurus as an established species. Update citations and
-uncertainty with every casting revision. Do not infer cast approval from an audit or
-browser-local choices.
+Run `node scripts/check-stompy-roadmap.mjs` and
+`node scripts/check-stompy-roster.mjs`, then `npm run build`. Check desktop/mobile,
+personal-draft preservation and production counts. Publish only intended website
+files through Git/Vercel; verify the exact deployed commit and public JSON. This
+maintenance workflow does not deploy/reset the game or execute roster migrations.
