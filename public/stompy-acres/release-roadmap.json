@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "title": "The road to five islands.",
+  "subtitle": "Stompy Acres · Release director’s board",
+  "targetDate": "2026-12-01",
+  "asOf": "2026-10-18",
+  "nextReview": "2026-10-19",
+  "timezone": "America/Chicago",
+  "health": "At risk",
+  "healthNote": "Five islands confirmed. Roster scope is open; Fernlands needs its first playable build.",
+  "scopeLabel": "Launch islands confirmed · roster size proposed",
+  "resourcesNote": "Frozair + Codex · daily focus. Measure accepted output each week.",
+  "releaseIslandCount": 5,
+  "baseline": {
+    "version": "0.1.6 (706)",
+    "wiredIslands": 5,
+    "launchWiredIslands": 4,
+    "signedOffIslands": 0,
+    "liveSpecies": 17,
+    "note": "17 obtainable species across the existing five destinations, including Lagoon. Four of those destinations belong to the selected launch set. Final 1.0 sign-offs are open."
+  },
+  "northStar": "Build a sanctuary full of dinosaurs you can’t believe you got.",
+  "updatePolicy": {
+    "cadence": "Daily evidence check at 9am Chicago · update after meaningful changes",
+    "staleAfterDays": 4,
+    "sourceLabel": "Production board + game source + release evidence"
+  },
+  "islands": [
+    {
+      "id": "forest",
+      "name": "Forest",
+      "icon": "🌿",
+      "color": "#407a4b",
+      "liveSpecies": 6,
+      "targetLabel": "8 species proposed",
+      "status": "Playable · roster refresh",
+      "summary": "The opening works. Finish and seed the new cast.",
+      "ref": 49,
+      "gateDate": "2026-11-01",
+      "checks": [
+        {
+          "label": "Loop",
+          "state": "implemented",
+          "detail": "Current shop, hatch, work, Treasure, land and Book loop exists."
+        },
+        {
+          "label": "Roster",
+          "state": "partial",
+          "detail": "Six currently obtainable species. New roster art is not the same as seeded shop content; Para and Kentro remain on the critical path."
+        },
+        {
+          "label": "World",
+          "state": "partial",
+          "detail": "Established Forest style; qualify new cast at every expansion stage."
+        },
+        {
+          "label": "Phone",
+          "state": "partial",
+          "detail": "Prior device evidence exists; final launch cast and release builds still need acceptance."
+        }
+      ],
+      "next": "Resolve tiers, seed finished residents, close Para/Kentro gaps.",
+      "gateLabel": "Full integration"
+    },
+    {
+      "id": "giants",
+      "name": "Giants",
+      "icon": "⛰️",
+      "color": "#aa7444",
+      "liveSpecies": 6,
+      "targetLabel": "8 species proposed",
+      "status": "Playable · world production",
+      "summary": "The giant-scale valley is still a concept target.",
+      "ref": 23,
+      "gateDate": "2026-11-08",
+      "checks": [
+        {
+          "label": "Loop",
+          "state": "implemented",
+          "detail": "Current island, shops, land and production exist."
+        },
+        {
+          "label": "Roster",
+          "state": "partial",
+          "detail": "Six currently obtainable. Selected new roster includes Brachio and Paraceratherium; art qualification and data still required."
+        },
+        {
+          "label": "World",
+          "state": "open",
+          "detail": "Selected valley mock is not a modular runtime environment. Build and qualify all expansion stages."
+        },
+        {
+          "label": "Phone",
+          "state": "partial",
+          "detail": "Giant clearance, 16 residents, duplicate mixes and loading need final release-device evidence."
+        }
+      ],
+      "next": "Finish Paraceratherium; prove valley layout with the largest residents.",
+      "gateLabel": "Content acceptance"
+    },
+    {
+      "id": "swamp",
+      "name": "Swamp",
+      "icon": "🪷",
+      "color": "#65784a",
+      "liveSpecies": 1,
+      "targetLabel": "4 species proposed",
+      "status": "Starter only · content gap",
+      "summary": "Suchomimus is live. The wetland needs a launch cast.",
+      "ref": 24,
+      "gateDate": "2026-11-08",
+      "checks": [
+        {
+          "label": "Loop",
+          "state": "implemented",
+          "detail": "Existing starter island has shop, production, land and storage."
+        },
+        {
+          "label": "Roster",
+          "state": "partial",
+          "detail": "One obtainable resident. Select a smaller launch subset from the accepted concept roster."
+        },
+        {
+          "label": "World",
+          "state": "open",
+          "detail": "Selected wetland needs grounded routes, service access and readable expansion ownership."
+        },
+        {
+          "label": "Phone",
+          "state": "open",
+          "detail": "Full proposed cast and wetland navigation are not device-qualified."
+        }
+      ],
+      "next": "Choose firm-bank residents first; avoid adding new swimming/coil systems.",
+      "gateLabel": "Content acceptance"
+    },
+    {
+      "id": "snow",
+      "name": "Snow",
+      "icon": "❄️",
+      "color": "#5e92a3",
+      "liveSpecies": 1,
+      "targetLabel": "4 species proposed",
+      "status": "Starter only · content gap",
+      "summary": "Yutyrannus is live. Build a readable snowy collection.",
+      "ref": 25,
+      "gateDate": "2026-11-08",
+      "checks": [
+        {
+          "label": "Loop",
+          "state": "implemented",
+          "detail": "Existing starter island has shop, production, land and storage."
+        },
+        {
+          "label": "Roster",
+          "state": "partial",
+          "detail": "One obtainable resident. Select three further launch residents; eight remains the concept ambition."
+        },
+        {
+          "label": "World",
+          "state": "open",
+          "detail": "Glacier concept needs modular expansion, services and variant contrast in runtime."
+        },
+        {
+          "label": "Phone",
+          "state": "open",
+          "detail": "Final snow scene, variants and full cast require release-device qualification."
+        }
+      ],
+      "next": "Lock silhouettes and test pale residents against the snow before final art.",
+      "gateLabel": "Content acceptance"
+    },
+    {
+      "id": "fernlands",
+      "name": "Fernlands",
+      "icon": "🌾",
+      "color": "#bd963f",
+      "liveSpecies": 0,
+      "targetLabel": "4 species proposed",
+      "status": "Concept · new integration",
+      "summary": "Rex, Trike and Anky provide a production head start.",
+      "ref": 29,
+      "gateDate": "2026-10-25",
+      "checks": [
+        {
+          "label": "Loop",
+          "state": "open",
+          "detail": "Not found as a runtime/server destination. Needs data, navigation, shop, eggs, Book and fixtures."
+        },
+        {
+          "label": "Roster",
+          "state": "partial",
+          "detail": "Three existing classic art banks can be reused where selected. Current live island count is zero."
+        },
+        {
+          "label": "World",
+          "state": "open",
+          "detail": "Accepted fern-meadow concept needs a playable modular island and service layout."
+        },
+        {
+          "label": "Phone",
+          "state": "open",
+          "detail": "First native vertical slice is the October 25 risk gate."
+        }
+      ],
+      "next": "One phone slice: arrive → buy → hatch → work → sell → expand → relaunch.",
+      "gateLabel": "Phone slice"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "scope",
+      "title": "Lock the scope",
+      "start": "2026-10-18",
+      "end": "2026-10-25",
+      "dateLabel": "OCT 18–25",
+      "state": "active",
+      "outcome": "Exact cast, progression rules and launch offer chosen. Fernlands works on a phone.",
+      "owner": "Frozair + Codex",
+      "refs": [
+        55,
+        42,
+        9,
+        45,
+        52
+      ],
+      "gate": "Oct 25: no Fernlands slice → stop optional work and reduce content immediately."
+    },
+    {
+      "id": "alpha",
+      "title": "Connect all five",
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "dateLabel": "OCT 26–NOV 1",
+      "state": "planned",
+      "outcome": "Every launch island has a complete, persistent loop and a normal-access unlock route.",
+      "owner": "Codex integration · Frozair art",
+      "refs": [
+        56,
+        49,
+        50,
+        6,
+        20,
+        47
+      ],
+      "gate": "All five are playable; first integration is not final art acceptance."
+    },
+    {
+      "id": "freeze",
+      "title": "Finish the world",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "dateLabel": "NOV 2–8",
+      "state": "planned",
+      "outcome": "Selected cast and environments complete. Freeze new features and content.",
+      "owner": "Frozair approval · Codex qualification",
+      "refs": [
+        23,
+        24,
+        25,
+        29,
+        2,
+        27,
+        31
+      ],
+      "gate": "Nov 8: both platforms complete the five-island walkthrough. Cut optional scope if red."
+    },
+    {
+      "id": "beta",
+      "title": "Play it for a week",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "dateLabel": "NOV 9–15",
+      "state": "planned",
+      "outcome": "Seven days of signed beta observations, device checks and recovery evidence.",
+      "owner": "Frozair + testers · Codex QA",
+      "refs": [
+        57,
+        7,
+        10
+      ],
+      "gate": "Fresh/returning players, both OSes, offline/retry/recovery and supported-device endurance pass."
+    },
+    {
+      "id": "submit",
+      "title": "Submit, then stabilise",
+      "start": "2026-11-16",
+      "end": "2026-11-30",
+      "dateLabel": "NOV 16–30",
+      "state": "planned",
+      "outcome": "Public submissions Nov 16. Resolve store feedback and release defects.",
+      "owner": "Codex delivery · Frozair store owner",
+      "refs": [
+        58
+      ],
+      "gate": "Public Apple + Google review, not just TestFlight/Play Internal. Approval timing is external."
+    },
+    {
+      "id": "launch",
+      "title": "Open the sanctuary",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "dateLabel": "DEC 1",
+      "state": "planned",
+      "outcome": "Five accepted islands. Approved public builds. Recovery and monitoring ready.",
+      "owner": "Frozair go/no-go · Codex evidence",
+      "refs": [
+        59
+      ],
+      "gate": "Launch only when gates are green. Never trade save safety or a complete island for the date."
+    }
+  ],
+  "work": [
+    {
+      "id": "scope",
+      "lane": "now",
+      "title": "Choose the launch cast",
+      "owner": "Frozair",
+      "due": "2026-10-20",
+      "refs": [
+        55,
+        42,
+        49
+      ],
+      "status": "Decision needed",
+      "why": "40 species still needs about 21 new art packages. The 28-species proposal needs about 9.",
+      "doneWhen": "Approve per-island cast, tiers and exact cut list. Estimates exclude qualification of existing art."
+    },
+    {
+      "id": "measure",
+      "lane": "now",
+      "title": "See what alpha players do",
+      "owner": "Codex + Frozair",
+      "due": "2026-10-22",
+      "refs": [
+        45,
+        36,
+        53,
+        54
+      ],
+      "status": "Access / review",
+      "why": "Alpha 0.1.6 is in internal testing. Analytics access and Director UX review remain open.",
+      "doneWhen": "Verified opt-in ingestion + useful progression view; observe hatching, next-goal clarity and return play."
+    },
+    {
+      "id": "fern-slice",
+      "lane": "now",
+      "title": "Put Fernlands on a phone",
+      "owner": "Codex integration · Frozair art",
+      "due": "2026-10-25",
+      "refs": [
+        56,
+        29
+      ],
+      "status": "Critical path",
+      "why": "The fifth selected launch island has no runtime destination yet.",
+      "doneWhen": "Complete loop persists through kill/relaunch on a native build."
+    },
+    {
+      "id": "polish",
+      "lane": "now",
+      "title": "Close obvious animation faults",
+      "owner": "Frozair + Codex",
+      "due": "2026-10-25",
+      "refs": [
+        50,
+        52,
+        22
+      ],
+      "status": "In production",
+      "why": "Sliding and abrupt clip transitions weaken the core collection reward.",
+      "doneWhen": "Para integration and affected motion accepted at game scale on phones."
+    },
+    {
+      "id": "ops-first",
+      "lane": "now",
+      "title": "Prove recovery before adding more content",
+      "owner": "Codex operations · Frozair account owner",
+      "due": "2026-10-25",
+      "refs": [
+        7,
+        57
+      ],
+      "status": "Independent launch blocker",
+      "why": "Historical hosted backup/restore, crash receipt and staging capacity evidence is incomplete. Discover limits this week.",
+      "doneWhen": "Confirm backup configuration, crash alert receipt and minimum-device baseline Oct 25; isolated hosted restore and load rehearsal by Nov 1."
+    },
+    {
+      "id": "economy",
+      "lane": "next",
+      "title": "Connect Treasure to the next island",
+      "owner": "Frozair decisions · Codex models",
+      "due": "2026-11-01",
+      "refs": [
+        9,
+        20,
+        6,
+        47
+      ],
+      "status": "Rules / values open",
+      "why": "Current two-island models do not validate the launch-five chain.",
+      "doneWhen": "Select bills/offline policy by Oct 25; then implement, simulate ordinary attendance/RNG tails and playtest normal-access routes by Nov 1. Recipes unlock after Giants."
+    },
+    {
+      "id": "cast-worlds",
+      "lane": "next",
+      "title": "Finish the five island casts + worlds",
+      "owner": "Frozair art · Codex integration",
+      "due": "2026-11-08",
+      "refs": [
+        49,
+        23,
+        24,
+        25,
+        29
+      ],
+      "status": "Scope dependent",
+      "why": "Snow and Swamp each have one live species; new environments remain concepts.",
+      "doneWhen": "Selected resident banks, reveals, variants, eggs, Book, voices and all expansion stages accepted."
+    },
+    {
+      "id": "release",
+      "lane": "next",
+      "title": "Prove phone performance + recovery",
+      "owner": "Codex · Frozair device acceptance",
+      "due": "2026-11-15",
+      "refs": [
+        57,
+        7,
+        10,
+        27,
+        31
+      ],
+      "status": "Evidence needed",
+      "why": "Older debug captures cannot certify the final release build.",
+      "doneWhen": "First backup/monitoring and device baseline by Oct 25; isolated hosted restore and staging load by Nov 1; final candidate recovery/endurance regression by Nov 15."
+    },
+    {
+      "id": "stores",
+      "lane": "now",
+      "title": "Start the public-store checklist",
+      "owner": "Frozair store owner · Codex delivery",
+      "due": "2026-11-16",
+      "refs": [
+        58
+      ],
+      "status": "Start this week",
+      "why": "Age/privacy decisions, listing assets and public review can block an otherwise finished game.",
+      "doneWhen": "Resolve project’s audience/sign-in requirement, align disclosures, finish assets and submit both public builds Nov 16."
+    },
+    {
+      "id": "sky",
+      "lane": "later",
+      "title": "Sky after the first five",
+      "owner": "Frozair direction",
+      "due": "After launch",
+      "refs": [
+        30
+      ],
+      "status": "Future candidate",
+      "why": "Frozair prefers Sky to Water. Flying routes add a separate production/motion problem.",
+      "doneWhen": "Choose next-island scope after the five-island release is stable."
+    }
+  ],
+  "decisions": [
+    {
+      "title": "28 launch species or all 40?",
+      "due": "2026-10-20",
+      "recommendation": "Recommend 8 Forest + 8 Giants + 4 Swamp + 4 Snow + 4 Fernlands. Grow the remaining rosters after launch. This count is not approved yet.",
+      "state": "Open"
+    },
+    {
+      "title": "What does each island require?",
+      "due": "2026-10-22",
+      "recommendation": "Keep coins + found Treasure direction. Choose exact normal-access gates, resource bills and offline policy together; rare mutations stay optional.",
+      "state": "Open"
+    },
+    {
+      "title": "Paid launch or free launch?",
+      "due": "2026-10-25",
+      "recommendation": "Choose one small, proven purchase loop only if it fits. Otherwise launch free and schedule monetisation next. Full pass/catalog is a proposed deferral.",
+      "state": "Open"
+    },
+    {
+      "title": "Which phones do we promise?",
+      "due": "2026-10-25",
+      "recommendation": "Choose the minimum iPhone and Android models and measurable memory/loading/heat limits before committing more art.",
+      "state": "Open"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Too much new art",
+      "level": "High",
+      "action": "Track accepted packages/week. If remaining work exceeds Nov 8 capacity, cut optional residents and flourishes that week.",
+      "owner": "Frozair + Codex",
+      "due": "Every Monday"
+    },
+    {
+      "title": "Fernlands is not integrated",
+      "level": "High",
+      "action": "Native slice by Oct 25; complete loop by Nov 1. Keep Water out of the release promise.",
+      "owner": "Codex",
+      "due": "2026-10-25"
+    },
+    {
+      "title": "Progression still unproved",
+      "level": "High",
+      "action": "Model the selected five with ordinary attendance and unlucky tails; confirm with players.",
+      "owner": "Frozair + Codex",
+      "due": "2026-11-01"
+    },
+    {
+      "title": "Public review is external",
+      "level": "High",
+      "action": "Start setup now; submit Nov 16 and protect the final fortnight for fixes.",
+      "owner": "Frozair + Codex",
+      "due": "2026-11-16"
+    },
+    {
+      "title": "Recovery is not yet proven",
+      "level": "High",
+      "action": "Recheck dated backup/monitoring gaps now. Initial proof Oct 25, hosted isolated restore and staging load Nov 1; final regression Nov 15.",
+      "owner": "Codex + Frozair",
+      "due": "2026-11-01"
+    }
+  ],
+  "launchGates": [
+    {
+      "label": "Five meaningful islands",
+      "state": "partial",
+      "proof": "Every island: unlock, arrival, shop, hatch/reveal, work, collect/sell, every expansion, Book and offline return; selected cast accepted."
+    },
+    {
+      "label": "Understandable progression",
+      "state": "open",
+      "proof": "Fresh-player and ordinary-return observations; credible normal-dino gate route, no ultra-rare requirement. Exact values approved."
+    },
+    {
+      "label": "Stable release phones",
+      "state": "partial",
+      "proof": "Both OSes, minimum supported devices, repeated travel/hatch/shop, 16 residents/duplicate variants, endurance and retry cases pass agreed limits."
+    },
+    {
+      "label": "Saves + operations",
+      "state": "partial",
+      "proof": "Update/reinstall/account-link recovery, hosted backup and isolated restore, crash receipt, load/rollback evidence. No known critical data or duplication faults."
+    },
+    {
+      "label": "Both stores approved",
+      "state": "open",
+      "proof": "Public approvals for the exact candidates; listings, disclosures, audience/deletion path and any paid receipt/odds flows complete."
+    },
+    {
+      "label": "Director acceptance",
+      "state": "open",
+      "proof": "Frozair approves island readability, motion, reveal delight and collection identity from final native play."
+    }
+  ],
+  "deferred": [
+    {
+      "title": "Water / Lagoon",
+      "reason": "Excluded by Frozair from the release five; existing destination needs an explicit visibility policy before 1.0. No deletion or reset is authorised."
+    },
+    {
+      "title": "Sky, Riverbend and extra islands",
+      "reason": "Sky is Frozair’s preferred future candidate. Finish and stabilise five first."
+    },
+    {
+      "title": "All eight residents everywhere",
+      "reason": "Concept ambition retained; smaller launch rosters are a proposal awaiting selection."
+    },
+    {
+      "title": "Full season pass + broad premium catalog",
+      "reason": "Proposed cut pending Oct 25 revenue decision. One validated paid loop is the maximum recommendation."
+    },
+    {
+      "title": "New hybrids, decor and art rewrites",
+      "reason": "Proposed postlaunch work unless needed to fix a demonstrated launch-blocking defect."
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-10-18",
+      "text": "Frozair confirmed Forest, Giants, Swamp, Snow and Fernlands; Water excluded, Sky preferred for the future. Daily sole focus confirmed."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Audited game source, production board and release handoff. Added six dated milestones and release gates #55–59. All launch sign-offs remain open."
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Baseline",
+      "detail": "Production handoff, Oct 18: alpha 0.1.6 build 706 distributed to TestFlight internal and Play Internal. Reused reported evidence; this roadmap did not reinstall or certify a build."
+    },
+    {
+      "label": "Island source",
+      "detail": "Current checkout e46aa4aa + pending art: config/island_prefetch.cfg; 20260928010000_three_biome_starters.sql; 20260929130400_water_residents.sql; tests/island_previews.gd."
+    },
+    {
+      "label": "Concepts vs runtime",
+      "detail": "Latest board #23–30, #42, #49–51; accepted concepts do not establish completed runtime art, roster data or launch readiness."
+    },
+    {
+      "label": "Planning math",
+      "detail": "40 concept species: ~21 new art packages. 28-species proposal: ~9. Existing packages also need actions/reveals/integration and device qualification; these are estimates, not a commitment."
+    },
+    {
+      "label": "Release limits",
+      "detail": "docs/release-security.md; docs/posthog-rollout.md; fastlane/Fastfile. Historical check counts and internal distribution do not establish public-store approval or current operational readiness."
+    }
+  ],
+  "rosterOptions": [
+    {
+      "id": "focused",
+      "label": "Focused launch",
+      "species": 28,
+      "newPackages": 9,
+      "recommended": true,
+      "status": "Proposed"
+    },
+    {
+      "id": "full",
+      "label": "Full concept",
+      "species": 40,
+      "newPackages": 21,
+      "recommended": false,
+      "status": "Ambition"
+    }
+  ]
+}

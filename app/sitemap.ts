@@ -18,10 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/apps/hexablast/privacy",
     "/apps/hexablast/support",
     "/apps/terms-and-conditions",
+    "/apps/stompy-acres",
+    "/apps/stompy-acres/roadmap",
   ].map((path) => ({
     url: `${baseUrl}${path}`,
-    lastModified: new Date("2026-05-30"),
-    changeFrequency: path === "/apps/hexablast" || path === "/apps/blockrush" ? "weekly" : "monthly",
+    lastModified: new Date(path.startsWith("/apps/stompy-acres") ? "2026-10-18" : "2026-05-30"),
+    changeFrequency: path === "/apps/stompy-acres/roadmap" ? "daily" : path === "/apps/hexablast" || path === "/apps/blockrush" ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/apps" || path === "/apps/hexablast" ? 0.9 : 0.7,
   }));
 }
