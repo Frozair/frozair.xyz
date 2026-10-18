@@ -29,4 +29,16 @@ assert(roster.islands.find(i=>i.id==='fernlands').species.some(s=>s.id==='ankylo
 assert(!species.some(s=>s.id==='paraceratherium'),'Paraceratherium removed from launch by Frozair');
 assert(roster.islands.find(i=>i.id==='fernlands').species.some(s=>s.id==='brachio'));
 assert(!roster.islands.find(i=>i.id==='giants').species.some(s=>s.id==='brachio'));
-console.log('Roster valid:40 unique original-art residents,8 per island; requested Brachio move preserved.');
+assert.equal(roster.habitatReview.asOf,'2026-10-18');
+assert.equal(roster.habitatReview.definitions.length,5);
+for (const s of species) {
+ assert(s.habitat,`Missing habitat assessment: ${s.id}`);
+ assert(['strong','conditional','mismatch','fictional'].includes(s.habitat.rating));
+ assert(['high','medium','low','na'].includes(s.habitat.confidence));
+ for (const k of ['evidence','caveat','recommendation']) assert.equal(typeof s.habitat[k],'string');
+ assert.equal(s.habitat.rating==='fictional',s.id==='leafy');
+ assert(s.id==='leafy'||s.habitat.sources.length>0,`Missing evidence source: ${s.id}`);
+ for (const source of s.habitat.sources) { assert.equal(typeof source.title,'string');assert.equal(new URL(source.url).protocol,'https:'); }
+}
+assert(species.find(s=>s.id==='iguanodon').recommended,'Iguanodon remains in launch draft');
+console.log('Roster valid:40 unique residents,8 per island,40 habitat assessments with39 sourced real taxa; Iguanodon retained.');

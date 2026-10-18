@@ -66,3 +66,8 @@ Plan ~21 new animation packages (~7/week to Nov 8), plus existing-bank
 qualification, revised looks, worlds and data. Cut optional features first; escalate
 capacity/date tradeoffs to Frozair instead of automatically reducing the 40. Validate
 with `node scripts/check-stompy-roster.mjs` after roster changes.
+
+The roster now includes a sourced habitat assessment for every resident. Fit ratings
+are director judgements, distinct from evidence confidence and production readiness.
+Update citations and uncertainty alongside the rationale. Do not infer cast changes
+from an audit or browser-local choices; Iguanodon remains selected.

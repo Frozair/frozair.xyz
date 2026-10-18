@@ -24,7 +24,15 @@
           "role": "Round starter",
           "status": "Bank on main",
           "rationale": "The familiar small starter anchors the collection.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification."
+          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "habitat": {
+            "rating": "fictional",
+            "confidence": "na",
+            "evidence": "Leafy is an original fictional resident, so fossil locality and habitat evidence do not apply.",
+            "caveat": "Its Forest placement is a worldbuilding decision, not a paleontological conclusion.",
+            "recommendation": "Keep as the fictional Forest mascot and label its identity honestly.",
+            "sources": []
+          }
         },
         {
           "id": "aquilops",
@@ -37,7 +45,24 @@
           "role": "Tiny beaked herbivore",
           "status": "Bank on main",
           "rationale": "Small beak and shield give a second friendly starter silhouette.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification."
+          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "low",
+            "evidence": "Aquilops americanus comes from Montana's Himes Member, Cloverly Formation; regional fluvial floodplains support a plausible woodland-edge setting, without demonstrating forest preference.",
+            "caveat": "The known skull's sandy claystone and broader formation reconstruction do not establish its preferred vegetation or microhabitat.",
+            "recommendation": "Retain provisionally near open woodland and streams; avoid claiming a confirmed forest specialist.",
+            "sources": [
+              {
+                "title": "Farke et al. 2014 — Original description and exact Aquilops geological setting",
+                "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0112055"
+              },
+              {
+                "title": "2025 original research — Cloverly ecohydrology and paleoenvironment",
+                "url": "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1497416/full"
+              }
+            ]
+          }
         },
         {
           "id": "pachycephalosaurus",
@@ -50,7 +75,24 @@
           "role": "Dome-headed biped",
           "status": "Bank on main",
           "rationale": "A rounded dome makes the head instantly different.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification."
+          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Pachycephalosaurus fossils occur in the Hell Creek Formation, whose warm, moist landscape included forested floodplains, lakes and rivers.",
+            "caveat": "Regional habitat evidence does not demonstrate dense-forest specialization or establish its complete habitat range.",
+            "recommendation": "Keep in Forest with clearings, dry paths and river margins.",
+            "sources": [
+              {
+                "title": "Smithsonian — Pachycephalosaurus skull from the Hell Creek Formation",
+                "url": "https://www.si.edu/exhibitions/meet-pachycephalosaurus%3Aevent-exhib-6808"
+              },
+              {
+                "title": "Smithsonian Q?rius — Hell Creek and Lance environments",
+                "url": "https://qrius.si.edu/browse/object/11479673"
+              }
+            ]
+          }
         },
         {
           "id": "gallimimus",
@@ -63,7 +105,24 @@
           "role": "Tall light runner",
           "status": "Bank on main",
           "rationale": "Long legs and small head add height and lightness.",
-          "note": "Main movement/dig bank exists; happy/sleep and wider tester acceptance remain open."
+          "note": "Main movement/dig bank exists; happy/sleep and wider tester acceptance remain open.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Gallimimus bullatus comes from Mongolia's Nemegt Formation, where isotope evidence supports a seasonal, monsoon-influenced conifer woodland ecosystem.",
+            "caveat": "The woodland reconstruction is ecosystem-level; it does not show Gallimimus preferred closed canopy over open areas.",
+            "recommendation": "Keep in Forest, emphasizing broad clearings and river corridors.",
+            "sources": [
+              {
+                "title": "Osmolska et al. 1972 — Original Gallimimus description and Nemegt provenance",
+                "url": "https://www.palaeontologia.pan.pl/Archive/1972-27_103-143_29-53.pdf"
+              },
+              {
+                "title": "Owocki et al. 2020 — Nemegt ecosystem and climate from tooth isotopes",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031018218310538"
+              }
+            ]
+          }
         },
         {
           "id": "stegouros",
@@ -76,7 +135,24 @@
           "role": "Low tail-blade toy",
           "status": "Bank on main",
           "rationale": "A squat armored body contrasts with the upright runners.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification."
+          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Stegouros elengassen comes from Chile's Dorotea Formation; its locality lies in a river-and-floodplain succession, making a wet woodland margin plausible.",
+            "caveat": "Depositional setting does not establish forest preference; modern subantarctic geography does not establish an ancient snow habitat.",
+            "recommendation": "Keep provisionally beside Forest streams and wet clearings; do not describe it as a proven woodland specialist.",
+            "sources": [
+              {
+                "title": "Soto-Acuna et al. 2021 — Original Stegouros description",
+                "url": "https://www.nature.com/articles/s41586-021-04147-1"
+              },
+              {
+                "title": "2023 original research — Rio de Las Chinas localities and Dorotea depositional environments",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S0895981122004497"
+              }
+            ]
+          }
         },
         {
           "id": "kentrosaurus",
@@ -89,7 +165,24 @@
           "role": "Spiky collector",
           "status": "Local motion work",
           "rationale": "Shoulder and tail spikes supply a clear late-collection silhouette.",
-          "note": "Local draft art/bank work now exists; not routed as a main gameplay species. Final integration and acceptance remain open."
+          "note": "Local draft art/bank work now exists; not routed as a main gameplay species. Final integration and acceptance remain open.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Kentrosaurus aethiopicus comes from Tanzania's Tendaguru Formation, whose vegetated hinterland supported conifers and understory under warm, strongly seasonal conditions.",
+            "caveat": "Coastal fossil burial does not make it aquatic; seasonal woodland is a better reconstruction than permanently lush tropical jungle.",
+            "recommendation": "Keep in Forest with drier clearings, conifers and seasonal vegetation.",
+            "sources": [
+              {
+                "title": "Museum fur Naturkunde Berlin — Tendaguru collection and Kentrosaurus aethiopicus",
+                "url": "https://digitaltendaguru.museumfuernaturkunde.berlin/"
+              },
+              {
+                "title": "Schrank 2010 — Tendaguru pollen, vegetation and paleoclimate",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/01916121003620106"
+              }
+            ]
+          }
         },
         {
           "id": "parasaurolophus",
@@ -102,7 +195,24 @@
           "role": "Crested headline",
           "status": "Local bank",
           "rationale": "The long backward crest is a recognisable collection prize.",
-          "note": "Local ranch/reveal accepted and device-tested; back-run retake and commit remain pending."
+          "note": "Local ranch/reveal accepted and device-tested; back-run retake and commit remain pending.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Parasaurolophus walkeri occurs in Alberta's Dinosaur Park Formation, where plant evidence supports warm-temperate conifer forests and terrestrial browsing.",
+            "caveat": "This assessment anchors the genus-level roster name to P. walkeri; other species occur in different formations.",
+            "recommendation": "Keep in Forest; identify the intended species as Parasaurolophus walkeri in reference notes.",
+            "sources": [
+              {
+                "title": "Philip J. Currie Dinosaur Museum — Parasaurolophus walkeri and land-based feeding",
+                "url": "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+              },
+              {
+                "title": "Mallon et al. 2013 — Dinosaur Park herbivores, vegetation and feeding-height evidence",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3637170/"
+              }
+            ]
+          }
         },
         {
           "id": "shunosaurus",
@@ -115,9 +225,27 @@
           "role": "Compact long-neck",
           "status": "Bank on main",
           "rationale": "A low long neck and tail club finish Forest with a different body plan.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification."
+          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "low",
+            "evidence": "Shunosaurus lii occurs in China's Lower Shaximiao Formation; regional river-and-lake basin deposits make woodland margins plausible, but local forest cover remains insufficiently established here.",
+            "caveat": "Formation-wide environments varied; broad basin evidence cannot establish the precise vegetation or preferred habitat at every Shunosaurus locality.",
+            "recommendation": "Keep provisionally in open woodland near water; avoid claiming a verified dense-forest habitat.",
+            "sources": [
+              {
+                "title": "2022 original research — Shunosaurus material from the Lower Shaximiao Formation",
+                "url": "https://www.tandfonline.com/doi/abs/10.1080/08912963.2021.1962852"
+              },
+              {
+                "title": "Ma et al. 2023 — Shaximiao sedimentary environments and changing lake/alluvial plains",
+                "url": "https://doi.org/10.1021/acsomega.3c01496"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "habitatBrief": "Woodland, broad clearings and streams. Aquilops, Stegouros and Shunosaurus have limited habitat-specific evidence."
     },
     {
       "id": "giants",
@@ -138,7 +266,24 @@
           "role": "Broad giant herbivore",
           "status": "Existing bank",
           "rationale": "Wide muzzle and chunky body make the big herbivore readable.",
-          "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
+          "note": "Existing runtime species; this selected concept look is not proof of matching production animation.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "A roughly 15-metre terrestrial herbivore; research reconstructs vegetated hills and valleys with plentiful rainfall. Both scale and broad valley habitat suit Giants.",
+            "caveat": "The habitat reconstruction is interpretive; its fossils do not establish an exact modern biome or temperature tolerance.",
+            "recommendation": "Keep; give it lush vegetation, freshwater and generous open ground.",
+            "sources": [
+              {
+                "title": "Natural History Museum: Shantungosaurus",
+                "url": "https://www.nhm.ac.uk/discover/dino-directory/shantungosaurus.html"
+              },
+              {
+                "title": "Ji et al. (2011): Systematics, Behavior and Living Environment of Shantungosaurus giganteus",
+                "url": "https://doi.org/10.1111/j.1755-6724.2011.00378.x"
+              }
+            ]
+          }
         },
         {
           "id": "dreadnoughtus",
@@ -151,7 +296,24 @@
           "role": "Towering long-neck",
           "status": "Existing bank",
           "rationale": "The towering vertical giant provides the island’s scale fantasy.",
-          "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
+          "note": "Existing runtime species; this selected concept look is not proof of matching production animation.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "A giant titanosaur from the Cerro Fortaleza Formation; its river-floodplain deposits and regional fossil wood support a forested floodplain setting.",
+            "caveat": "Body-mass estimates differ. Burial in a flood deposit does not make it an aquatic dinosaur.",
+            "recommendation": "Keep; provide broad land corridors, abundant browsing vegetation and a river valley.",
+            "sources": [
+              {
+                "title": "Lacovara et al. (2014): A Gigantic, Exceptionally Complete Titanosaurian Sauropod Dinosaur",
+                "url": "https://doi.org/10.1038/srep06196"
+              },
+              {
+                "title": "Schroeter et al. (2022): Dreadnoughtus geological and taphonomic setting",
+                "url": "https://www.mdpi.com/2079-7737/11/8/1158"
+              }
+            ]
+          }
         },
         {
           "id": "giganotosaurus",
@@ -165,7 +327,24 @@
           "status": "Existing bank",
           "rationale": "The large land predator is a clear headline prize.",
           "note": "Tentatively liked working concept remake. Existing Giga bank is a separate approval; no new appearance approval implied.",
-          "clipPolygon": "7.500,130.000 565.000,130.000 565.000,265.000 470.000,265.000 470.000,406.000 7.500,406.000"
+          "clipPolygon": "7.500,130.000 565.000,130.000 565.000,265.000 470.000,265.000 470.000,406.000 7.500,406.000",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "A very large Candeleros Formation predator; that formation records rivers, alluvial plains and drier open environments, compatible with an open valley mosaic.",
+            "caveat": "Regional formation evidence does not prove its precise preferred habitat; uniformly dense, wet forest would be an overstatement.",
+            "recommendation": "Keep; retain open terrain, drier patches and river access rather than continuous dense woodland.",
+            "sources": [
+              {
+                "title": "University of Jaén museum: Giganotosaurus carolinii skull and Candeleros provenance",
+                "url": "https://alquivir.ujaen.es/museo/craneo-de-giganotosaurus-carolinii/"
+              },
+              {
+                "title": "Candeleros Formation dromaeosaurid-track study: geological and palaeoenvironmental setting",
+                "url": "https://doi.org/10.18261/let.58.3.4"
+              }
+            ]
+          }
         },
         {
           "id": "therizinosaurus",
@@ -178,7 +357,24 @@
           "role": "Long-armed giant",
           "status": "Existing bank",
           "rationale": "Long arms and sculpted claws add an unusual upright shape.",
-          "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
+          "note": "Existing runtime species; this selected concept look is not proof of matching production animation.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "A large Nemegt herbivore associated with a wetter, fertile floodplain ecosystem. Its size and vegetation-rich surroundings support the Giants placement.",
+            "caveat": "Its incomplete skeleton limits detailed reconstruction; today's Gobi Desert is not evidence that its ancient habitat was desert.",
+            "recommendation": "Keep; include wooded floodplain edges and abundant browsing vegetation.",
+            "sources": [
+              {
+                "title": "Western Australian Museum: Therizinosaurus",
+                "url": "https://museum.wa.gov.au/explore/dinosaur-discovery/therizinosaurus"
+              },
+              {
+                "title": "Currie (2016): Dinosaurs of the Nemegt Formation",
+                "url": "https://www.palaeontologia.pan.pl/PP67/Currie.pdf"
+              }
+            ]
+          }
         },
         {
           "id": "spinosaurus",
@@ -191,7 +387,24 @@
           "role": "Sail-backed predator",
           "status": "Existing bank",
           "rationale": "The sail and long snout separate it from Giga.",
-          "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
+          "note": "Existing runtime species; this selected concept look is not proof of matching production animation.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "An enormous fish-associated predator with strong ties to waterways and wet margins. Size fits Giants; a token drinking pond would underserve its ecological identity.",
+            "caveat": "Active underwater pursuit versus shoreline wading remains debated. Do not present it as a proven deep-diving swimmer.",
+            "recommendation": "Keep only with a substantial fish-bearing river, shallow margins and accessible banks.",
+            "sources": [
+              {
+                "title": "Natural History Museum: Spinosaurus and Baryonyx may have hunted fish underwater",
+                "url": "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html"
+              },
+              {
+                "title": "University of Chicago (2024): Spinosaurus shoreline versus underwater hunting debate",
+                "url": "https://news.uchicago.edu/story/did-spinosaurus-hunt-its-prey-deep-underwater-or-shore-analysis-continues"
+              }
+            ]
+          }
         },
         {
           "id": "diplodocus",
@@ -204,7 +417,24 @@
           "role": "Low sweeping long-neck",
           "status": "Existing bank",
           "rationale": "Long horizontal neck and tail contrast with Dread’s height.",
-          "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
+          "note": "Existing runtime species; this selected concept look is not proof of matching production animation.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "A giant Morrison Formation sauropod. National Park Service reconstructions place Diplodocus in river-country with open fern vegetation and conifers.",
+            "caveat": "The Morrison varied across a large area and through time; it was not one uniform lush forest.",
+            "recommendation": "Keep; provide open fern-rich ground, scattered conifers and river access.",
+            "sources": [
+              {
+                "title": "National Park Service: Morrison Formation Geography",
+                "url": "https://www.nps.gov/dino/learn/nature/morrisonformationutah.htm"
+              },
+              {
+                "title": "National Park Service: Morrison Formation",
+                "url": "https://www.nps.gov/dino/learn/nature/morrison-formation.htm"
+              }
+            ]
+          }
         },
         {
           "id": "deinocheirus",
@@ -218,7 +448,20 @@
           "status": "Concept only",
           "rationale": "Proposed Giants replacement: a huge shaggy body and broad beak give a different silhouette from the long-necks and predators.",
           "note": "Long arms and broad body need clearance; overlaps Sucho’s large upright role.",
-          "moveNote": "Proposed new home"
+          "moveNote": "Proposed new home",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "high",
+            "evidence": "The Nemegt Formation's giant ornithomimosaur; fish remains and anatomy support an omnivore associated with moist environments. Size fits, but wet habitat matters.",
+            "caveat": "Fish in its stomach does not establish that it swam or lived exclusively in water.",
+            "recommendation": "Keep with wet floodplain ground, fish-bearing shallows and terrestrial vegetation; Swamp remains another sound option.",
+            "sources": [
+              {
+                "title": "Lee et al. (2014): Resolving the long-standing enigmas of Deinocheirus mirificus",
+                "url": "https://doi.org/10.1038/nature13874"
+              }
+            ]
+          }
         },
         {
           "id": "amargasaurus",
@@ -232,14 +475,32 @@
           "status": "Concept only",
           "rationale": "Proposed Giants replacement: paired neck spines distinguish this smaller long-neck from Dreadnoughtus and Diplodocus.",
           "note": "Adds another sauropod alongside Giants and Nigersaurus; spine continuity needs work.",
-          "moveNote": "Proposed new home"
+          "moveNote": "Proposed new home",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "high",
+            "evidence": "A roughly 9–10-metre sauropod from La Amarga river-country. Floodplain ecology suits the island, although it was relatively small among sauropods.",
+            "caveat": "The concern is the strength of the Giants size theme, not an established ecological mismatch or evidence of snow adaptation.",
+            "recommendation": "Ecologically keepable; decide whether Giants includes medium-large animals or only spectacular giants.",
+            "sources": [
+              {
+                "title": "Western Australian Museum: Amargasaurus cazaui",
+                "url": "https://visit.museum.wa.gov.au/boolabardip/amargasaurus-cazaui"
+              },
+              {
+                "title": "Salgado et al. (2007): The sauropod diversity of the La Amarga Formation",
+                "url": "https://doi.org/10.1016/j.gr.2007.04.007"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "habitatBrief": "A size theme in a varied river valley. Spinosaurus and Deinocheirus need substantial water; Amargasaurus is comparatively small."
     },
     {
       "id": "swamp",
       "name": "Swamp",
-      "subtitle": "Four different body plans, grounded on connected banks.",
+      "subtitle": "Wetlands, shallow water and connected vegetated banks.",
       "color": "#667c45",
       "tint": "#edf0df",
       "quota": 8,
@@ -255,7 +516,24 @@
           "role": "Long-snouted biped",
           "status": "Existing bank · new look",
           "rationale": "Keeps the current resident and a tall predator silhouette.",
-          "note": "Runtime species exists; selected brighter moss-green concept still needs matching production work."
+          "note": "Runtime species exists; selected brighter moss-green concept still needs matching production work.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Elrhaz river-floodplain resident; fish feeding and a riverbank/wading interpretation support a freshwater wetland with firm banks.",
+            "caveat": "Wading is an interpretation; a deep-diving specialist is unsupported.",
+            "recommendation": "Keep beside shallow water and dry banks.",
+            "sources": [
+              {
+                "title": "University of Chicago: Nigersaurus and its river-floodplain ecosystem",
+                "url": "https://paulsereno.uchicago.edu/discoveries/nigersaurus/more_info_on_nigersaurus/"
+              },
+              {
+                "title": "University of Chicago: New analysis continues debate about how Spinosaurus hunted",
+                "url": "https://news.uchicago.edu/story/did-spinosaurus-hunt-its-prey-deep-underwater-or-shore-analysis-continues"
+              }
+            ]
+          }
         },
         {
           "id": "carbonemys",
@@ -268,7 +546,24 @@
           "role": "Round shell",
           "status": "Concept only",
           "rationale": "A calm low turtle is a distinct collectible beside the dinosaurs.",
-          "note": "Rigid shell and foot planting need a proof; scope it to the connected banks."
+          "note": "Rigid shell and foot planting need a proof; scope it to the connected banks.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "A giant freshwater side-necked turtle from tropical Cerrejon; its water association is substantially stronger than a generic swamp aesthetic.",
+            "caveat": "A terrestrial-only tortoise portrayal would conflict with its freshwater identity.",
+            "recommendation": "Keep with accessible freshwater; flag aquatic behavior work.",
+            "sources": [
+              {
+                "title": "Florida Museum: Cofrin’s Side-necked Turtle",
+                "url": "https://www.floridamuseum.ufl.edu/100-years/object/cofrins-side-necked-turtle/"
+              },
+              {
+                "title": "University of Florida: New extinct giant turtle",
+                "url": "https://archive.news.ufl.edu/articles/2012/05/uf-researchers-name-new-extinct-giant-turtle-found-near-worlds-largest-snake.html"
+              }
+            ]
+          }
         },
         {
           "id": "edaphosaurus",
@@ -281,7 +576,20 @@
           "role": "Sail-backed quadruped",
           "status": "Concept only",
           "rationale": "Tall sail plus low body gives Swamp a different shape from Sucho.",
-          "note": "Use ordinary grounded routes; sail and limb continuity still need animation work."
+          "note": "Use ordinary grounded routes; sail and limb continuity still need animation work.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Edaphosaurids occur in Early Permian lowland deposits; Edaphosaurus was a plant-processing herbivore. This supports vegetated lowlands, not permanent immersion.",
+            "caveat": "Depositional setting does not establish swamp specialization or swimming. It is a synapsid, not a dinosaur.",
+            "recommendation": "Keep only on substantial dry, vegetated banks; avoid calling it aquatic.",
+            "sources": [
+              {
+                "title": "Reisz and Fröbisch 2014: Evolution of herbivory in terrestrial vertebrates",
+                "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094518"
+              }
+            ]
+          }
         },
         {
           "id": "nigersaurus",
@@ -294,7 +602,20 @@
           "role": "Broad-muzzled long-neck",
           "status": "Concept only",
           "rationale": "The broad muzzle and low long neck add a gentle herbivore.",
-          "note": "Grounded bank routes; neck and muzzle identity need to survive the motion pass."
+          "note": "Grounded bank routes; neck and muzzle identity need to survive the motion pass.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Known from a lush river floodplain with conifer forests and vegetation, alongside Suchomimus and Sarcosuchus.",
+            "caveat": "A terrestrial browser in this landscape; river deposits do not make it a swimmer.",
+            "recommendation": "Keep on broad fern-covered banks and floodplain clearings.",
+            "sources": [
+              {
+                "title": "University of Chicago: More info on Nigersaurus",
+                "url": "https://paulsereno.uchicago.edu/discoveries/nigersaurus/more_info_on_nigersaurus/"
+              }
+            ]
+          }
         },
         {
           "id": "diplocaulus",
@@ -307,7 +628,24 @@
           "role": "Boomerang head",
           "status": "Concept only",
           "rationale": "A wide boomerang head adds a strange, immediately recognisable shape.",
-          "note": "Low splayed contact and wetland access need a separate proof."
+          "note": "Low splayed contact and wetland access need a separate proof.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Aquatic amphibian remains dominate drought-concentrated watercourse deposits; weak limbs support a strongly water-associated lifestyle.",
+            "caveat": "Habitat fits, but dry-land-only roaming would be a substantial behavioral fiction.",
+            "recommendation": "Keep only with freshwater access and an aquatic presentation plan.",
+            "sources": [
+              {
+                "title": "Dalquest and Mamay 1963: Permian amphibian concentration in Texas",
+                "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/626938"
+              },
+              {
+                "title": "New Mexico Geological Society: The Permian system at Abo Pass",
+                "url": "https://nmgs.nmt.edu/publications/guidebooks/downloads/67/67_p0313_p0350.pdf"
+              }
+            ]
+          }
         },
         {
           "id": "dilophosaurus",
@@ -321,7 +659,24 @@
           "status": "Concept only",
           "rationale": "Proposed Swamp replacement: twin lengthwise crests bring a clear head shape, distinct from Suchomimus and Snow’s Cryolophosaurus.",
           "note": "Previously liked Riverbend concept, shown unchanged. Animation production, Swamp fit and runtime qualification remain open.",
-          "moveNote": "Proposed new home"
+          "moveNote": "Proposed new home",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "A terrestrial Kayenta predator; the modern redescription allows feeding in local river systems, while emphasizing large terrestrial prey.",
+            "caveat": "River association does not establish swamp specialization or an amphibious lifestyle.",
+            "recommendation": "Use dry river margins; Forest or Fernlands is equally defensible.",
+            "sources": [
+              {
+                "title": "Marsh and Rowe 2020: Comprehensive evaluation of Dilophosaurus",
+                "url": "https://doi.org/10.1017/jpa.2020.14"
+              },
+              {
+                "title": "University of Texas: Dilophosaurus wetherilli",
+                "url": "https://www.jsg.utexas.edu/txvp/dilophosaurus/"
+              }
+            ]
+          }
         },
         {
           "id": "sarcosuchus",
@@ -334,7 +689,24 @@
           "role": "Long low crocodilian",
           "status": "Concept only",
           "rationale": "Adds a recognisable crocodilian body.",
-          "note": "Long torso/tail turns and bank/water staging expand production scope."
+          "note": "Long torso/tail turns and bank/water staging expand production scope.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Sarcosuchus imperator inhabited African rivers across lush floodplains; a freshwater wetland is a direct ecological match.",
+            "caveat": "Needs substantial water; a dry decorative swamp would not represent its river-predator identity.",
+            "recommendation": "Keep with river pools and haul-out banks.",
+            "sources": [
+              {
+                "title": "University of Chicago: Sarcosuchus imperator",
+                "url": "https://paulsereno.uchicago.edu/exhibits_casts/african_crocs/sarcosuchus/"
+              },
+              {
+                "title": "University of Chicago: Discovery of Sarcosuchus",
+                "url": "https://chronicle.uchicago.edu/011101/supercroc.shtml"
+              }
+            ]
+          }
         },
         {
           "id": "titanoboa",
@@ -347,9 +719,23 @@
           "role": "Coiled serpent",
           "status": "Concept only",
           "rationale": "The most unusual body plan in the Swamp set.",
-          "note": "Continuous coils, crossings and believable whole-body motion carry the highest new risk."
+          "note": "Continuous coils, crossings and believable whole-body motion carry the highest new risk.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Cerrejon fossils come from wet tropical rainforest river systems; the original study inferred an anaconda-like ecology.",
+            "caveat": "Aquatic habits are inferred, not directly observed; warm wetland fit is clearer than exact behavior.",
+            "recommendation": "Keep in warm freshwater wetlands with water and banks.",
+            "sources": [
+              {
+                "title": "Head and colleagues 2009: Giant boid snake from the Palaeocene neotropics",
+                "url": "https://doi.org/10.1038/nature07671"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "habitatBrief": "Warm freshwater wetlands with broad dry banks. Aquatic residents need meaningful water access; this is not ground-only habitat."
     },
     {
       "id": "snow",
@@ -370,7 +756,24 @@
           "role": "Feathered theropod",
           "status": "Existing bank · new look",
           "rationale": "Keeps the current resident and Snow’s big friendly theropod.",
-          "note": "Runtime species exists; this selected periwinkle Snow redesign is still a concept look."
+          "note": "Runtime species exists; this selected periwinkle Snow redesign is still a concept look.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Yutyrannus huali from Liaoning preserves extensive feathers; regional Early Cretaceous isotope evidence supports a cool-temperate climate rather than uniformly tropical conditions.",
+            "caveat": "Feathers and a cool regional climate do not establish year-round glacier living or a particular tolerance of deep snow.",
+            "recommendation": "Retain provisionally in snowy woodland with vegetation and seasonal conditions; avoid a barren permanent-ice interpretation.",
+            "sources": [
+              {
+                "title": "Xu et al. 2012 — Original Yutyrannus description",
+                "url": "https://www.nature.com/articles/nature10906"
+              },
+              {
+                "title": "Amiot et al. 2011 — Jehol regional climate from oxygen isotopes",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069172/"
+              }
+            ]
+          }
         },
         {
           "id": "pachyrhinosaurus",
@@ -383,7 +786,24 @@
           "role": "Broad nasal boss",
           "status": "Concept only",
           "rationale": "A broad boss and frill create an armored-head counterpoint.",
-          "note": "Preserve its boss instead of adding Trike’s long horns."
+          "note": "Preserve its boss instead of adding Trike’s long horns.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "high",
+            "evidence": "Pachyrhinosaurus perotorum lived in northern Alaska's Prince Creek ecosystem; regional evidence supports year-round dinosaur residency with freezing winters and seasonal snow.",
+            "caveat": "The roster currently names only the genus; select the Arctic species explicitly. Its forested polar world was warmer than modern Arctic icefields.",
+            "recommendation": "Use P. perotorum as the reference taxon; include vegetation, shelter and seasonally snowy ground.",
+            "sources": [
+              {
+                "title": "University of Alaska Fairbanks — Pachyrhinosaurus perotorum",
+                "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/discovering-a-new-dinosaur-in-northern-alaska.php"
+              },
+              {
+                "title": "University of Alaska Fairbanks — Arctic nesting and year-round residency research",
+                "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/research-team-discovers-arctic-dinosaur-nursery.php"
+              }
+            ]
+          }
         },
         {
           "id": "borealopelta",
@@ -396,7 +816,20 @@
           "role": "Shoulder-spiked armor",
           "status": "Concept only",
           "rationale": "Low armor and shoulder spikes give a third clear silhouette.",
-          "note": "Keep the low body and shoulders readable against the snowy ground."
+          "note": "Keep the low body and shoulders readable against the snowy ground.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "low",
+            "evidence": "Borealopelta markmitchelli's stomach contents directly document fern feeding, with charcoal supporting use of recently disturbed forest vegetation before marine burial.",
+            "caveat": "Diet alone cannot establish climate tolerance; one meal does not establish its habitat range or demonstrate snow specialization.",
+            "recommendation": "A greener Forest or Fernlands home is better supported; investigate climate evidence before confirming Snow.",
+            "sources": [
+              {
+                "title": "Brown et al. 2020 — Original research on Borealopelta's stomach contents",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7353971/"
+              }
+            ]
+          }
         },
         {
           "id": "woolly-mammoth",
@@ -409,7 +842,20 @@
           "role": "Woolly headline prize",
           "status": "Concept only",
           "rationale": "Wool, short tusks and a curled trunk make Snow feel special.",
-          "note": "Deliberate stretch pick. Prove trunk/tusk continuity early; Cryolophosaurus is the safer swap."
+          "note": "Strong cold-climate fit; a production stretch. Prove trunk and tusk continuity early; accessible forage remains necessary.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Mammuthus primigenius was cold-adapted and occupied the richly vegetated mammoth steppe of northern Eurasia and North America.",
+            "caveat": "Cold adaptation does not mean living on barren ice; thick continuous snow would obstruct the vegetation it needed.",
+            "recommendation": "Keep in Snow with exposed forage, open ground and shallow or patchy snow.",
+            "sources": [
+              {
+                "title": "Natural History Museum — Mammoth cold adaptation and steppe habitat",
+                "url": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
+              }
+            ]
+          }
         },
         {
           "id": "cryolophosaurus",
@@ -421,8 +867,21 @@
           "recommended": true,
           "role": "Transverse crest",
           "status": "Concept only",
-          "rationale": "Safest Mammoth replacement: familiar biped movement and a distinctive crest.",
-          "note": "Its head/crest needs to stay distinct from the other pastel bipeds."
+          "rationale": "Distinctive crest and familiar biped movement, but Antarctic discovery alone does not support Snow; habitat review is open.",
+          "note": "Its head/crest needs to stay distinct from the other pastel bipeds.",
+          "habitat": {
+            "rating": "mismatch",
+            "confidence": "medium",
+            "evidence": "Cryolophosaurus ellioti's Antarctic locality records an ancient river in warm-temperate forest at high latitude during the Early Jurassic.",
+            "caveat": "Ancient Antarctic provenance supports strong light seasonality, not the modern continent's ice climate or demonstrated snow specialization.",
+            "recommendation": "Review for Forest or wooded Fernlands; do not use Antarctic discovery alone to justify Snow.",
+            "sources": [
+              {
+                "title": "Ohio State University Orton Museum — Cryolophosaurus and its ancient environment",
+                "url": "https://ortonmuseum.osu.edu/sites/default/files/Cryolophosaurus%20ellioti%20trigger%20images-20181206.pdf"
+              }
+            ]
+          }
         },
         {
           "id": "sinosauropteryx",
@@ -435,7 +894,24 @@
           "role": "Tiny striped-tail scout",
           "status": "Concept only",
           "rationale": "Adds a small, bright collector and more scale variety.",
-          "note": "Long tail and feather cues need phone-size readability checks."
+          "note": "Long tail and feather cues need phone-size readability checks.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Sinosauropteryx belongs to the Jehol Biota's cool-temperate regional setting; colour-pattern research supports relatively open, low-vegetation habitat use.",
+            "caveat": "Regional climate and feather evidence do not directly prove regular deep-snow use or permanent ice adaptation.",
+            "recommendation": "Retain provisionally in cool, open clearings with seasonal snow and accessible vegetation.",
+            "sources": [
+              {
+                "title": "Amiot et al. 2011 — Jehol regional climate from oxygen isotopes",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069172/"
+              },
+              {
+                "title": "Smithwick et al. 2017 — Sinosauropteryx coloration and inferred open habitat",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29107548/"
+              }
+            ]
+          }
         },
         {
           "id": "iguanodon",
@@ -447,9 +923,22 @@
           "recommended": true,
           "role": "Sturdy thumb-spike herbivore",
           "status": "Concept only",
-          "rationale": "Proposed Snow transfer: a sturdy beaked herbivore replaces Amargasaurus. Snow palette and ground contrast need a visual test.",
+          "rationale": "Earlier Snow transfer was proposed to balance island counts. The habitat audit challenges that placement; keep Iguanodon and review a greener home.",
           "note": "Selected biped portrait; two-to-four-foot support transitions still need proof.",
-          "moveNote": "Proposed new home"
+          "moveNote": "Proposed · habitat review",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Iguanodon bernissartensis habitat research documents varied western European plant communities, including fern- and conifer-rich lake margins and seasonal wetland settings.",
+            "caveat": "The study supports broad habitat flexibility. It neither establishes snow specialization nor rules out tolerance of occasional seasonal snow.",
+            "recommendation": "Keep Iguanodon; a greener Forest, Fernlands or wetland-edge home is better supported than Snow.",
+            "sources": [
+              {
+                "title": "Rodriguez-Barreiro et al. 2024 — Iguanodon habitat and diet reconstruction",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0195667123003324"
+              }
+            ]
+          }
         },
         {
           "id": "citipati",
@@ -462,9 +951,27 @@
           "role": "Beaked feathered biped",
           "status": "Concept only",
           "rationale": "A deep beak, crest and paired hands add a playful silhouette.",
-          "note": "Shares an upright pastel role with Cryo and a feathered role with Fernlands Anzu."
+          "note": "Shares an upright pastel role with Cryo and a feathered role with Fernlands Anzu.",
+          "habitat": {
+            "rating": "mismatch",
+            "confidence": "medium",
+            "evidence": "Citipati osmolskae is known from Ukhaa Tolgod; geological research reconstructs an arid dune environment with ephemeral ponds and lakes.",
+            "caveat": "Feathers do not establish cold specialization, and present-day Mongolia's winter climate cannot be transferred directly to its Cretaceous environment.",
+            "recommendation": "Review for a drier, vegetated habitat; Snow is a weak evidence-based placement.",
+            "sources": [
+              {
+                "title": "American Museum of Natural History — Citipati and Ukhaa Tolgod locality",
+                "url": "https://www.amnh.org/explore/news-blogs/citipati-osmolskae-dinosaur"
+              },
+              {
+                "title": "Dingus et al. 2008 — Original geological study of Ukhaa Tolgod",
+                "url": "https://digitalcommons.unl.edu/geosciencefacpub/217/"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "habitatBrief": "Two placements need reconsideration; five remain conditional or uncertain. All residents need accessible vegetation, not a barren glacier."
     },
     {
       "id": "fernlands",
@@ -485,7 +992,20 @@
           "role": "Round-headed classic",
           "status": "Existing bank",
           "rationale": "A beloved classic and Fernlands’ obvious predator.",
-          "note": "Preserve the original approved Rex identity and existing motion work."
+          "note": "Preserve the original approved Rex identity and existing motion work.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Fossil-distribution research supports use of both river-associated and floodplain environments, compatible with a watered clearing-and-woodland mosaic.",
+            "caveat": "Compatibility is an inference; it does not establish a fern-meadow specialization or historical coexistence with every island resident.",
+            "recommendation": "Keep; include open ground, wooded edges and freshwater.",
+            "sources": [
+              {
+                "title": "Lyson & Longrich (2011): Spatial niche partitioning in latest Cretaceous dinosaurs",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20943689/"
+              }
+            ]
+          }
         },
         {
           "id": "trike",
@@ -498,7 +1018,20 @@
           "role": "Three-horned classic",
           "status": "Existing bank",
           "rationale": "Frill and three horns make a familiar friendly anchor.",
-          "note": "Preserve the original blue Trike. Current runtime is a separate production asset."
+          "note": "Preserve the original blue Trike. Current runtime is a separate production asset.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Ceratopsian remains preferentially occur in floodplain deposits; the study interprets Triceratops and relatives as using areas farther from river channels.",
+            "caveat": "This is a fossil-distribution habitat inference, not proof of an exclusive preference for ferns or treeless meadow.",
+            "recommendation": "Keep on firm, vegetated clearings with woodland nearby.",
+            "sources": [
+              {
+                "title": "Lyson & Longrich (2011): Spatial niche partitioning in latest Cretaceous dinosaurs",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20943689/"
+              }
+            ]
+          }
         },
         {
           "id": "ankylosaurus",
@@ -511,7 +1044,20 @@
           "role": "Armored club-tail",
           "status": "Existing bank",
           "rationale": "Keeps Anky in the game and fills a low armored role.",
-          "note": "Latest working Fernlands assignment replaces Heterodontosaurus; use original green identity."
+          "note": "Latest working Fernlands assignment replaces Heterodontosaurus; use original green identity.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Known from latest Cretaceous terrestrial assemblages; detailed review notes sparse fossils and unresolved preference between preserved coastal plains and less-preserved habitats.",
+            "caveat": "Its occurrence in a formation does not establish floodplain or fern-meadow specialization; an upland preference remains a hypothesis.",
+            "recommendation": "Keep provisionally with firm ground and varied low vegetation; label habitat preference uncertain.",
+            "sources": [
+              {
+                "title": "Arbour & Mallon (2017): Anatomy and palaeoecology of Ankylosaurus magniventris",
+                "url": "https://www.facetsjournal.com/doi/10.1139/facets-2017-0063"
+              }
+            ]
+          }
         },
         {
           "id": "stegosaurus",
@@ -524,7 +1070,24 @@
           "role": "Broad plated classic",
           "status": "Concept only",
           "rationale": "The big coral plates complete a recognisable classics island.",
-          "note": "One new package for this proposed four; compare plates with Forest Kentro/Stegouros."
+          "note": "New animation package required; compare broad plates with Forest Kentrosaurus and Stegouros.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "high",
+            "evidence": "Museum research supports feeding on ferns and cycads; its Morrison environments included fern groundcover, conifers and strongly seasonal river landscapes.",
+            "caveat": "The widespread Morrison Formation contained varied environments; avoid depicting every resident as a permanent humid-jungle animal.",
+            "recommendation": "Keep; fern-rich clearings with occasional conifers are a particularly good match.",
+            "sources": [
+              {
+                "title": "Natural History Museum: Dinosaur eating-habit insights from Stegosaurus stenops",
+                "url": "https://www.nhm.ac.uk/discover/news/2016/may/dinosaur-eating-habit-insights-stegosaurus-stenops.html"
+              },
+              {
+                "title": "Natural History Museum: Stegosaurus lifestyle and environment",
+                "url": "https://www.nhm.ac.uk/discover/stegosaurus-interview-dinosaur-expert.html"
+              }
+            ]
+          }
         },
         {
           "id": "concavenator",
@@ -537,7 +1100,24 @@
           "role": "Striped hip-hump predator",
           "status": "Concept only",
           "rationale": "A low hip hump and strong stripes give Fernlands another distinctive predator.",
-          "note": "Selected final comparison; another carnivore beside Rex, not the rejected spotted baby-Rex."
+          "note": "Selected final comparison; another carnivore beside Rex, not the rejected spotted baby-Rex.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "medium",
+            "evidence": "Concavenator comes from Las Hoyas, reconstructed by its research team as a Cretaceous wetland ecosystem with aquatic and terrestrial organisms.",
+            "caveat": "The carcass underwent some transport; wetland deposition does not establish an aquatic lifestyle or exclusive habitat preference.",
+            "recommendation": "Keep near watered, vegetated margins; avoid an entirely dry, exposed meadow interpretation.",
+            "sources": [
+              {
+                "title": "Universidad Autónoma de Madrid: Las Hoyas, a Cretaceous wetland",
+                "url": "https://www.uam.es/uam/en/investigacion/cultura-cientifica/articulos/lepidhoyas-2016"
+              },
+              {
+                "title": "Cuesta Fidalgo (2016): Concavenator taphonomic, phylogenetic and morphofunctional analyses",
+                "url": "https://portalcientifico.uned.es/documentos/5f88ea4a29995259ef290649?lang=fr"
+              }
+            ]
+          }
         },
         {
           "id": "brachio",
@@ -551,7 +1131,20 @@
           "status": "Existing bank",
           "rationale": "Your requested Fernlands long-neck. Proposed to take Iguanodon’s place, keeping the classic Stegosaurus.",
           "note": "Selected softer-smile concept. Existing Brachio bank remains a separate production asset.",
-          "moveNote": "Move requested"
+          "moveNote": "Move requested",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "high",
+            "evidence": "Natural History Museum identifies Brachiosaurus as a high browser thought to feed on tall conifers and tree ferns.",
+            "caveat": "Fern groundcover alone is insufficient; tall-tree browsing is an inference from anatomy, not a preserved complete menu.",
+            "recommendation": "Keep the requested move; provide substantial tall trees around the fern clearings.",
+            "sources": [
+              {
+                "title": "Natural History Museum: Brachiosaurus",
+                "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+              }
+            ]
+          }
         },
         {
           "id": "microraptor",
@@ -564,7 +1157,24 @@
           "role": "Four-winged ground scout",
           "status": "Concept only",
           "rationale": "Four feather panels make a striking small collectible.",
-          "note": "Grounded scope only. Hindwing and fan-tail clearance need work; no flight mechanic selected."
+          "note": "Grounded scope only. Hindwing and fan-tail clearance need work; no flight mechanic selected.",
+          "habitat": {
+            "rating": "conditional",
+            "confidence": "high",
+            "evidence": "Microraptor comes from Jehol forest environments; aerodynamic models support gliding capability, making woodland structure a sound design choice.",
+            "caveat": "A treeless fern field would omit the woodland structure supported by its fossils and functional studies.",
+            "recommendation": "Keep only with connected woodland patches and perches; Forest is an alternative if Fernlands stays mostly treeless.",
+            "sources": [
+              {
+                "title": "Dyke et al. (2013): Aerodynamic performance of Microraptor",
+                "url": "https://www.nature.com/articles/ncomms3489"
+              },
+              {
+                "title": "Gong et al. (2012): A new species of Microraptor from the Jehol Biota",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1871174X1200025X"
+              }
+            ]
+          }
         },
         {
           "id": "anzu",
@@ -577,12 +1187,26 @@
           "role": "Crested feathered sentinel",
           "status": "Concept only",
           "rationale": "Adds a tall crest and feather-fan silhouette.",
-          "note": "Use selected ivory/chestnut r2, not pink/teal r1. Long arms and fan clearance remain open."
+          "note": "Use selected ivory/chestnut r2, not pink/teal r1. Long arms and fan clearance remain open.",
+          "habitat": {
+            "rating": "strong",
+            "confidence": "medium",
+            "evidence": "Its original description proposes well-watered floodplain preference from body-fossil and possible trace-fossil depositional settings, supporting watered Fernlands clearings.",
+            "caveat": "The authors explicitly frame this as a hypothesis; exact diet and habitat specialization remain uncertain.",
+            "recommendation": "Keep; include shallow freshwater margins and vegetated floodplain clearings.",
+            "sources": [
+              {
+                "title": "Lamanna et al. (2014): Original description and palaeoecology of Anzu wyliei",
+                "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "habitatBrief": "Fern clearings with wooded edges and freshwater. Brachio needs tall browse; Microraptor needs connected trees and perches."
     }
   ],
-  "revisionNote": "Confirmed: 8 species per island, 40 at launch. Brachio moves to Fernlands and Paraceratherium leaves the launch cast. Other new homes below are proposals for review.",
+  "revisionNote": "Eight per island and 40 total remain confirmed. Brachio → Fernlands and Paraceratherium out remain your decisions. Supporting moves are still proposals; the habitat audit now challenges Iguanodon’s Snow placement.",
   "changeNotes": [
     {
       "label": "Brachio → Fernlands",
@@ -594,7 +1218,34 @@
     },
     {
       "label": "Two supporting swaps",
-      "detail": "Proposed: Iguanodon moves to Snow; Dilophosaurus fills Deinocheirus’s Swamp space. Eight unique species remain on every island."
+      "detail": "Earlier count-balancing proposal: Iguanodon → Snow; Dilophosaurus → Swamp. Habitat review now flags Iguanodon’s Snow home; no supporting transfer is final."
     }
-  ]
+  ],
+  "habitatReview": {
+    "asOf": "2026-10-18",
+    "title": "Every resident checked.",
+    "note": "All 40 assessed individually using museum, university and original research sources. Ratings are habitat-fit judgements; fossil evidence is incomplete. The cast spans different eras and regions. No roster moves made. Iguanodon stays selected.",
+    "definitions": [
+      {
+        "island": "Forest",
+        "detail": "Seasonal woodland with open clearings, firm ground and freshwater margins."
+      },
+      {
+        "island": "Giants",
+        "detail": "A size collection in a varied valley with wooded and open ground plus substantial rivers. Size and ecology are assessed separately."
+      },
+      {
+        "island": "Swamp",
+        "detail": "Warm freshwater wetlands with connected vegetated banks and actual water access. A wetland resident is not automatically a swimmer."
+      },
+      {
+        "island": "Snow",
+        "detail": "A cold landscape with accessible forage and shelter. Seasonal snow is distinct from continuous deep snow or permanent ice."
+      },
+      {
+        "island": "Fernlands",
+        "detail": "Fern-rich meadows and clearings with tall tree groves, wooded margins and freshwater. A completely treeless field changes several ratings."
+      }
+    ]
+  }
 }
