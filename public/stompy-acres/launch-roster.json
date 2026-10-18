@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "asOf": "2026-10-18",
   "targetDate": "2026-12-01",
-  "totalTarget": 28,
-  "selectionVersion": "2026-10-18-r1",
+  "totalTarget": 40,
+  "selectionVersion": "2026-10-18-r2-40",
   "islands": [
     {
       "id": "forest",
@@ -207,30 +207,32 @@
           "note": "Existing runtime species; this selected concept look is not proof of matching production animation."
         },
         {
-          "id": "brachio",
-          "name": "Brachio",
-          "image": "/stompy-acres/roster/brachio.webp",
+          "id": "deinocheirus",
+          "name": "Deinocheirus",
+          "image": "/stompy-acres/roster/deinocheirus.webp",
           "sourceWidth": 768,
           "sourceHeight": 768,
-          "viewBox": "78.392 172.708 605.703 576.919",
+          "viewBox": "14.086 108.402 753.914 607.541",
           "recommended": true,
-          "role": "Friendly tall-neck",
-          "status": "Existing bank",
-          "rationale": "The familiar toy face and tall forequarters keep a beloved resident.",
-          "note": "Selected softer-smile concept. Existing Brachio bank remains a separate production asset."
+          "role": "Giant shaggy duck-bill",
+          "status": "Concept only",
+          "rationale": "Proposed Giants replacement: a huge shaggy body and broad beak give a different silhouette from the long-necks and predators.",
+          "note": "Long arms and broad body need clearance; overlaps Sucho’s large upright role.",
+          "moveNote": "Proposed new home"
         },
         {
-          "id": "paraceratherium",
-          "name": "Paraceratherium",
-          "image": "/stompy-acres/roster/paraceratherium.webp",
+          "id": "amargasaurus",
+          "name": "Amargasaurus",
+          "image": "/stompy-acres/roster/amargasaurus.webp",
           "sourceWidth": 768,
-          "sourceHeight": 768,
-          "viewBox": "12.249 48.995 747.177 673.684",
+          "sourceHeight": 512,
+          "viewBox": "15.500 31.000 736.500 444.500",
           "recommended": true,
-          "role": "Prehistoric mammal",
+          "role": "Spined long-neck",
           "status": "Concept only",
-          "rationale": "Tall ears, long legs and a cream muzzle broaden the giant collection.",
-          "note": "Side conversion from the selected original r1. Full recap accepted; new animation package still required."
+          "rationale": "Proposed Giants replacement: paired neck spines distinguish this smaller long-neck from Dreadnoughtus and Diplodocus.",
+          "note": "Adds another sauropod alongside Giants and Nigersaurus; spine continuity needs work.",
+          "moveNote": "Proposed new home"
         }
       ]
     },
@@ -240,7 +242,7 @@
       "subtitle": "Four different body plans, grounded on connected banks.",
       "color": "#667c45",
       "tint": "#edf0df",
-      "quota": 4,
+      "quota": 8,
       "species": [
         {
           "id": "suchomimus",
@@ -301,24 +303,25 @@
           "sourceWidth": 768,
           "sourceHeight": 768,
           "viewBox": "11.636 309.282 752.077 340.517",
-          "recommended": false,
+          "recommended": true,
           "role": "Boomerang head",
           "status": "Concept only",
-          "rationale": "First alternate for a stranger, immediately recognisable head shape.",
+          "rationale": "A wide boomerang head adds a strange, immediately recognisable shape.",
           "note": "Low splayed contact and wetland access need a separate proof."
         },
         {
-          "id": "deinocheirus",
-          "name": "Deinocheirus",
-          "image": "/stompy-acres/roster/deinocheirus.webp",
+          "id": "dilophosaurus",
+          "name": "Dilophosaurus",
+          "image": "/stompy-acres/roster/dilophosaurus.webp",
           "sourceWidth": 768,
-          "sourceHeight": 768,
-          "viewBox": "14.086 108.402 753.914 607.541",
-          "recommended": false,
-          "role": "Big bill and hump",
+          "sourceHeight": 512,
+          "viewBox": "24 21.5 717 457.5",
+          "recommended": true,
+          "role": "Twin-crest wetland hunter",
           "status": "Concept only",
-          "rationale": "A strong alternate if we prefer another familiar biped motion path.",
-          "note": "Long arms and broad body need clearance; overlaps Sucho’s large upright role."
+          "rationale": "Proposed Swamp replacement: twin lengthwise crests bring a clear head shape, distinct from Suchomimus and Snow’s Cryolophosaurus.",
+          "note": "Previously liked Riverbend concept, shown unchanged. Animation production, Swamp fit and runtime qualification remain open.",
+          "moveNote": "Proposed new home"
         },
         {
           "id": "sarcosuchus",
@@ -327,7 +330,7 @@
           "sourceWidth": 768,
           "sourceHeight": 768,
           "viewBox": "6.124 331.943 761.876 270.699",
-          "recommended": false,
+          "recommended": true,
           "role": "Long low crocodilian",
           "status": "Concept only",
           "rationale": "Adds a recognisable crocodilian body.",
@@ -340,7 +343,7 @@
           "sourceWidth": 768,
           "sourceHeight": 768,
           "viewBox": "25.722 189.856 742.278 444.632",
-          "recommended": false,
+          "recommended": true,
           "role": "Coiled serpent",
           "status": "Concept only",
           "rationale": "The most unusual body plan in the Swamp set.",
@@ -354,7 +357,7 @@
       "subtitle": "Feathers, armor and a woolly headline prize.",
       "color": "#5d8d9d",
       "tint": "#e9f1f0",
-      "quota": 4,
+      "quota": 8,
       "species": [
         {
           "id": "yutyrannus",
@@ -415,7 +418,7 @@
           "sourceWidth": 768,
           "sourceHeight": 806,
           "viewBox": "18.196 25.089 741.647 760.212",
-          "recommended": false,
+          "recommended": true,
           "role": "Transverse crest",
           "status": "Concept only",
           "rationale": "Safest Mammoth replacement: familiar biped movement and a distinctive crest.",
@@ -428,24 +431,25 @@
           "sourceWidth": 768,
           "sourceHeight": 512,
           "viewBox": "26.500 43.000 715.000 426.500",
-          "recommended": false,
+          "recommended": true,
           "role": "Tiny striped-tail scout",
           "status": "Concept only",
           "rationale": "Adds a small, bright collector and more scale variety.",
           "note": "Long tail and feather cues need phone-size readability checks."
         },
         {
-          "id": "amargasaurus",
-          "name": "Amargasaurus",
-          "image": "/stompy-acres/roster/amargasaurus.webp",
+          "id": "iguanodon",
+          "name": "Iguanodon",
+          "image": "/stompy-acres/roster/iguanodon.webp",
           "sourceWidth": 768,
-          "sourceHeight": 512,
-          "viewBox": "15.500 31.000 736.500 444.500",
-          "recommended": false,
-          "role": "Neck-spined long-neck",
+          "sourceHeight": 319,
+          "viewBox": "475.200 43.238 292.800 206.581",
+          "recommended": true,
+          "role": "Sturdy thumb-spike herbivore",
           "status": "Concept only",
-          "rationale": "Offers a spectacular neck outline.",
-          "note": "Adds another sauropod alongside Giants and Nigersaurus; spine continuity needs work."
+          "rationale": "Proposed Snow transfer: a sturdy beaked herbivore replaces Amargasaurus. Snow palette and ground contrast need a visual test.",
+          "note": "Selected biped portrait; two-to-four-foot support transitions still need proof.",
+          "moveNote": "Proposed new home"
         },
         {
           "id": "citipati",
@@ -454,10 +458,10 @@
           "sourceWidth": 768,
           "sourceHeight": 702,
           "viewBox": "36.878 19.321 693.659 665.700",
-          "recommended": false,
+          "recommended": true,
           "role": "Beaked feathered biped",
           "status": "Concept only",
-          "rationale": "A deep beak, crest and paired hands offer a playful alternate.",
+          "rationale": "A deep beak, crest and paired hands add a playful silhouette.",
           "note": "Shares an upright pastel role with Cryo and a feathered role with Fernlands Anzu."
         }
       ]
@@ -468,7 +472,7 @@
       "subtitle": "Rex, Trike, Anky and a new plated classic.",
       "color": "#9b813e",
       "tint": "#f3efdd",
-      "quota": 4,
+      "quota": 8,
       "species": [
         {
           "id": "rex",
@@ -529,24 +533,25 @@
           "sourceWidth": 768,
           "sourceHeight": 319,
           "viewBox": "0.000 43.238 296.640 206.581",
-          "recommended": false,
+          "recommended": true,
           "role": "Striped hip-hump predator",
           "status": "Concept only",
-          "rationale": "The lowest-motion-risk Fernlands alternate, with a low striped identity.",
+          "rationale": "A low hip hump and strong stripes give Fernlands another distinctive predator.",
           "note": "Selected final comparison; another carnivore beside Rex, not the rejected spotted baby-Rex."
         },
         {
-          "id": "iguanodon",
-          "name": "Iguanodon",
-          "image": "/stompy-acres/roster/iguanodon.webp",
+          "id": "brachio",
+          "name": "Brachio",
+          "image": "/stompy-acres/roster/brachio.webp",
           "sourceWidth": 768,
-          "sourceHeight": 319,
-          "viewBox": "475.200 43.238 292.800 206.581",
-          "recommended": false,
-          "role": "Heavy muzzle and thumb spikes",
-          "status": "Concept only",
-          "rationale": "A robust herbivore gives another body posture.",
-          "note": "Selected biped portrait; two-to-four-foot support transitions still need proof."
+          "sourceHeight": 768,
+          "viewBox": "78.392 172.708 605.703 576.919",
+          "recommended": true,
+          "role": "Friendly tall-neck",
+          "status": "Existing bank",
+          "rationale": "Your requested Fernlands long-neck. Proposed to take Iguanodon’s place, keeping the classic Stegosaurus.",
+          "note": "Selected softer-smile concept. Existing Brachio bank remains a separate production asset.",
+          "moveNote": "Move requested"
         },
         {
           "id": "microraptor",
@@ -555,7 +560,7 @@
           "sourceWidth": 768,
           "sourceHeight": 768,
           "viewBox": "0.000 0.000 768.000 768.000",
-          "recommended": false,
+          "recommended": true,
           "role": "Four-winged ground scout",
           "status": "Concept only",
           "rationale": "Four feather panels make a striking small collectible.",
@@ -568,13 +573,28 @@
           "sourceWidth": 768,
           "sourceHeight": 768,
           "viewBox": "0.000 0.000 768.000 768.000",
-          "recommended": false,
+          "recommended": true,
           "role": "Crested feathered sentinel",
           "status": "Concept only",
           "rationale": "Adds a tall crest and feather-fan silhouette.",
           "note": "Use selected ivory/chestnut r2, not pink/teal r1. Long arms and fan clearance remain open."
         }
       ]
+    }
+  ],
+  "revisionNote": "Confirmed: 8 species per island, 40 at launch. Brachio moves to Fernlands and Paraceratherium leaves the launch cast. Other new homes below are proposals for review.",
+  "changeNotes": [
+    {
+      "label": "Brachio → Fernlands",
+      "detail": "Your requested move. Proposed swap: Brachio takes Iguanodon’s place."
+    },
+    {
+      "label": "Giants replacements",
+      "detail": "Proposed: Deinocheirus and Amargasaurus fill the Brachio and Paraceratherium spaces."
+    },
+    {
+      "label": "Two supporting swaps",
+      "detail": "Proposed: Iguanodon moves to Snow; Dilophosaurus fills Deinocheirus’s Swamp space. Eight unique species remain on every island."
     }
   ]
 }

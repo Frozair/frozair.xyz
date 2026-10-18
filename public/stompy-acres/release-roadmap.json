@@ -7,9 +7,9 @@
   "nextReview": "2026-10-19",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "28-species cap agreed. Choose the exact cast; Fernlands still needs its first playable build.",
-  "scopeLabel": "28 species confirmed · final cast under review",
-  "resourcesNote": "Frozair + Codex · daily focus. Measure accepted output each week.",
+  "healthNote": "40 species agreed. Finalize proposed moves and prove the pace to Nov 8.",
+  "scopeLabel": "40 species confirmed · 8 per island · moves under review",
+  "resourcesNote": "~21 new animation packages · ~7/week to Nov 8, plus worlds, data and qualification.",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -32,7 +32,7 @@
       "icon": "🌿",
       "color": "#407a4b",
       "liveSpecies": 6,
-      "targetLabel": "8 launch spots recommended",
+      "targetLabel": "8 launch species confirmed · placement review open",
       "status": "Playable · roster refresh",
       "summary": "The opening works. Finish and seed the new cast.",
       "ref": 49,
@@ -68,7 +68,7 @@
       "icon": "⛰️",
       "color": "#aa7444",
       "liveSpecies": 6,
-      "targetLabel": "8 launch spots recommended",
+      "targetLabel": "8 launch species confirmed · placement review open",
       "status": "Playable · world production",
       "summary": "The giant-scale valley is still a concept target.",
       "ref": 23,
@@ -82,7 +82,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Six currently obtainable. Selected new roster includes Brachio and Paraceratherium; art qualification and data still required."
+          "detail": "Six currently obtainable. Brachio moves to Fernlands; Paraceratherium is removed. Deinocheirus + Amargasaurus are proposed replacements."
         },
         {
           "label": "World",
@@ -95,7 +95,7 @@
           "detail": "Giant clearance, 16 residents, duplicate mixes and loading need final release-device evidence."
         }
       ],
-      "next": "Finish Paraceratherium; prove valley layout with the largest residents.",
+      "next": "Review replacement pair; prove valley clearance with the largest residents.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -104,7 +104,7 @@
       "icon": "🪷",
       "color": "#65784a",
       "liveSpecies": 1,
-      "targetLabel": "4 launch spots recommended",
+      "targetLabel": "8 launch species confirmed · placement review open",
       "status": "Starter only · content gap",
       "summary": "Suchomimus is live. The wetland needs a launch cast.",
       "ref": 24,
@@ -118,7 +118,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "One obtainable resident. Select a smaller launch subset from the accepted concept roster."
+          "detail": "One obtainable resident; eight launch species required. Dilophosaurus replacing Deinocheirus is proposed; revised looks still need production."
         },
         {
           "label": "World",
@@ -131,7 +131,7 @@
           "detail": "Full proposed cast and wetland navigation are not device-qualified."
         }
       ],
-      "next": "Choose firm-bank residents first; avoid adding new swimming/coil systems.",
+      "next": "Review proposed cast and prove connected banks, coil motion and wetland access.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -140,7 +140,7 @@
       "icon": "❄️",
       "color": "#5e92a3",
       "liveSpecies": 1,
-      "targetLabel": "4 launch spots recommended",
+      "targetLabel": "8 launch species confirmed · placement review open",
       "status": "Starter only · content gap",
       "summary": "Yutyrannus is live. Build a readable snowy collection.",
       "ref": 25,
@@ -154,7 +154,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "One obtainable resident. Select three further launch residents; eight remains the concept ambition."
+          "detail": "One obtainable resident; eight launch species required. Iguanodon replacing Amargasaurus is proposed; selected Yutyrannus look is not its runtime bank."
         },
         {
           "label": "World",
@@ -176,9 +176,9 @@
       "icon": "🌾",
       "color": "#bd963f",
       "liveSpecies": 0,
-      "targetLabel": "4 launch spots recommended",
+      "targetLabel": "8 launch species confirmed · placement review open",
       "status": "Concept · new integration",
-      "summary": "Rex, Trike and Anky provide a production head start.",
+      "summary": "Brachio joins Rex, Trike and Anky; a new island still needs integration.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
@@ -190,7 +190,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Three existing classic art banks can be reused where selected. Current live island count is zero."
+          "detail": "Four existing species banks provide a head start. Brachio is confirmed here; Iguanodon moving to Snow is proposed. No runtime destination yet."
         },
         {
           "label": "World",
@@ -215,7 +215,7 @@
       "end": "2026-10-25",
       "dateLabel": "OCT 18–25",
       "state": "active",
-      "outcome": "Exact cast, progression rules and launch offer chosen. Fernlands works on a phone.",
+      "outcome": "Eight species per island confirmed; proposed placements, progression and launch offer resolved. Fernlands works on a phone.",
       "owner": "Frozair + Codex",
       "refs": [
         55,
@@ -224,7 +224,7 @@
         45,
         52
       ],
-      "gate": "Oct 25: no Fernlands slice → stop optional work and reduce content immediately."
+      "gate": "Oct 25: no Fernlands slice → stop optional features; escalate capacity/date tradeoffs to Frozair. Do not cut the confirmed 40."
     },
     {
       "id": "alpha",
@@ -252,7 +252,7 @@
       "end": "2026-11-08",
       "dateLabel": "NOV 2–8",
       "state": "planned",
-      "outcome": "Selected cast and environments complete. Freeze new features and content.",
+      "outcome": "40 species and five environments accepted. Freeze new features and content.",
       "owner": "Frozair approval · Codex qualification",
       "refs": [
         23,
@@ -263,7 +263,7 @@
         27,
         31
       ],
-      "gate": "Nov 8: both platforms complete the five-island walkthrough. Cut optional scope if red."
+      "gate": "Nov 8: both platforms pass the five-island walkthrough. Cut optional features first; any roster/date change needs Frozair."
     },
     {
       "id": "beta",
@@ -314,7 +314,7 @@
     {
       "id": "scope",
       "lane": "now",
-      "title": "Choose the 28 launch residents",
+      "title": "Confirm the 40-species placements",
       "owner": "Frozair",
       "due": "2026-10-20",
       "refs": [
@@ -323,8 +323,8 @@
         49
       ],
       "status": "Casting review",
-      "why": "The 28-species cap is approved. Compare the 40 accepted concepts and pick the final cast.",
-      "doneWhen": "Confirm the species and suggested 8/8/4/4/4 allocation, or trade places within 28. Then confirm tiers separately."
+      "why": "Eight per island is approved. Brachio moves to Fernlands and Paraceratherium leaves; supporting moves remain proposals.",
+      "doneWhen": "Review Deino + Amarga for Giants, Iguano for Snow and Dilo for Swamp. Confirm all 40 placements, then tiers separately."
     },
     {
       "id": "measure",
@@ -334,13 +334,14 @@
       "due": "2026-10-22",
       "refs": [
         45,
+        60,
         36,
         53,
         54
       ],
-      "status": "Access / review",
-      "why": "Alpha 0.1.6 is in internal testing. Analytics access and Director UX review remain open.",
-      "doneWhen": "Verified opt-in ingestion + useful progression view; observe hatching, next-goal clarity and return play."
+      "status": "Ingestion verified · coverage open",
+      "why": "Build 706 Android ingestion and four alpha dashboard insights are verified (#45 Done). Broader coverage is tracked in #60.",
+      "doneWhen": "Review QA-excluded cohorts as time elapses; add observed progression, pacing and pity coverage. Empty charts do not establish retention."
     },
     {
       "id": "fern-slice",
@@ -414,9 +415,9 @@
         25,
         29
       ],
-      "status": "Scope dependent",
-      "why": "Snow and Swamp each have one live species; new environments remain concepts.",
-      "doneWhen": "Selected resident banks, reveals, variants, eggs, Book, voices and all expansion stages accepted."
+      "status": "40 species confirmed",
+      "why": "~21 new animation packages means ~7/week through Nov 8, plus revised looks, existing-bank qualification, worlds and data.",
+      "doneWhen": "All 40 banks, reveals, variants, eggs, Book, voices and expansion stages accepted. Escalate capacity/date conflicts; never auto-cut residents."
     },
     {
       "id": "release",
@@ -464,10 +465,10 @@
   ],
   "decisions": [
     {
-      "title": "Who makes the 28?",
+      "title": "Where do the 40 belong?",
       "due": "2026-10-20",
-      "recommendation": "28 total is approved. Review the visual casting board; 8 Forest + 8 Giants + 4 Swamp + 4 Snow + 4 Fernlands is the suggested split. Exact species remain open.",
-      "state": "Casting review"
+      "recommendation": "Eight per island confirmed. Brachio → Fernlands and Paraceratherium out are approved. Deino + Amarga → Giants, Iguano → Snow and Dilo → Swamp are proposals.",
+      "state": "Placement review"
     },
     {
       "title": "What does each island require?",
@@ -492,7 +493,7 @@
     {
       "title": "Too much new art",
       "level": "High",
-      "action": "Track accepted packages/week. If remaining work exceeds Nov 8 capacity, cut optional residents and flourishes that week.",
+      "action": "Plan ~21 new packages (~7/week to Nov 8), plus revised looks, worlds, data and existing qualification. Cut optional features first. Escalate capacity/date tradeoffs to Frozair; keep 40 unless changed explicitly.",
       "owner": "Frozair + Codex",
       "due": "Every Monday"
     },
@@ -529,7 +530,7 @@
     {
       "label": "Five meaningful islands",
       "state": "partial",
-      "proof": "Every island: unlock, arrival, shop, hatch/reveal, work, collect/sell, every expansion, Book and offline return; selected cast accepted."
+      "proof": "Eight accepted species per island, 40 total. Each island: unlock, arrival, shop, hatch/reveal, work, collect/sell, every expansion, Book and offline return."
     },
     {
       "label": "Understandable progression",
@@ -567,10 +568,6 @@
       "reason": "Sky is Frozair’s preferred future candidate. Finish and stabilise five first."
     },
     {
-      "title": "All eight residents everywhere",
-      "reason": "28 total is approved. Which12 concept residents stay for later depends on the final casting review."
-    },
-    {
       "title": "Full season pass + broad premium catalog",
       "reason": "Proposed cut pending Oct 25 revenue decision. One validated paid loop is the maximum recommendation."
     },
@@ -582,7 +579,15 @@
   "changes": [
     {
       "date": "2026-10-18",
-      "text": "Frozair approved 28 species for launch. Added a visual casting board with 28 recommended picks and 12 alternates; individual species selection remains open."
+      "text": "Frozair superseded 28 with 40 launch species: eight per island. Brachio → Fernlands; Paraceratherium out. Supporting moves remain proposals. Dates stay; capacity must be proved."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Analytics #45 Done: build 706 Android ingestion and four alpha dashboard insights verified. Coverage follow-up is #60; retention needs elapsed, non-QA cohorts."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Superseded: Frozair initially approved 28 species and reviewed 28 picks + 12 alternates. The later eight-per-island decision sets launch scope to 40."
     },
     {
       "date": "2026-10-18",
@@ -608,29 +613,33 @@
     },
     {
       "label": "Planning math",
-      "detail": "40 concept species: ~21 new art packages. 28-species proposal: ~9. Existing packages also need actions/reveals/integration and device qualification; these are estimates, not a commitment."
+      "detail": "Approved 40: ~21 new animation packages, ~7/week across the three weeks to Nov 8. This estimate excludes further revised-look work, existing-bank qualification, worlds and data. Historical 28/~9 option is superseded; throughput is unproven."
     },
     {
       "label": "Release limits",
       "detail": "docs/release-security.md; docs/posthog-rollout.md; fastlane/Fastfile. Historical check counts and internal distribution do not establish public-store approval or current operational readiness."
+    },
+    {
+      "label": "Analytics rollout",
+      "detail": "Latest #45 is Done: native Android build 706 → server → PostHog ingestion, retry dedup and four saved alpha insights verified. QA is excluded; empty non-QA charts are not retention results. #60 owns missing coverage."
     }
   ],
   "rosterOptions": [
     {
-      "id": "focused",
-      "label": "Approved launch cap",
-      "species": 28,
-      "newPackages": 9,
-      "recommended": true,
-      "status": "Confirmed cap"
-    },
-    {
       "id": "full",
-      "label": "Full concept",
+      "label": "Eight on each island",
       "species": 40,
       "newPackages": 21,
+      "recommended": true,
+      "status": "Confirmed scope"
+    },
+    {
+      "id": "focused",
+      "label": "Earlier scope · superseded",
+      "species": 28,
+      "newPackages": 9,
       "recommended": false,
-      "status": "Ambition"
+      "status": "Superseded"
     }
   ]
 }

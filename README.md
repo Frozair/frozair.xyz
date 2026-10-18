@@ -58,7 +58,11 @@ release-director chat checks evidence daily at 9am America/Chicago.
 
 The casting board is `/apps/stompy-acres/roster`, driven by
 `public/stompy-acres/launch-roster.json` and original-art web previews in
-`public/stompy-acres/roster/`. The 28-species cap is approved; recommendations are
-proposals until Frozair confirms individual picks. Keep/Bench choices stay in the
-visitor’s browser; Copy/Export shares a draft, not a remote plan change. Validate
+`public/stompy-acres/roster/`. The launch scope is 40 species, eight per island. Brachio moves to Fernlands;
+Paraceratherium is removed. Deino + Amarga to Giants, Iguano to Snow and Dilo to
+Swamp remain proposed placements until Frozair confirms them. Keep/Bench choices stay in the
+visitor’s browser; Copy/Export shares a draft, not a remote plan change.
+Plan ~21 new animation packages (~7/week to Nov 8), plus existing-bank
+qualification, revised looks, worlds and data. Cut optional features first; escalate
+capacity/date tradeoffs to Frozair instead of automatically reducing the 40. Validate
 with `node scripts/check-stompy-roster.mjs` after roster changes.

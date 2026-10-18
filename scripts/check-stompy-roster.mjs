@@ -4,14 +4,15 @@ import { fileURLToPath } from 'node:url';
 const base = new URL('../public/', import.meta.url);
 const roster = JSON.parse(readFileSync(new URL('stompy-acres/launch-roster.json', base), 'utf8'));
 assert.equal(roster.schemaVersion,1);
-assert.equal(roster.totalTarget,28);
+assert.equal(roster.totalTarget,40);
 assert.equal(roster.islands.length,5);
 const species=roster.islands.flatMap(i=>i.species);
 assert.equal(species.length,40);
 assert.equal(new Set(species.map(s=>s.id)).size,40);
-assert.equal(species.filter(s=>s.recommended).length,28);
-assert.equal(roster.islands.reduce((n,i)=>n+i.quota,0),28);
+assert.equal(species.filter(s=>s.recommended).length,40);
+assert.equal(roster.islands.reduce((n,i)=>n+i.quota,0),40);
 for(const island of roster.islands){
+ assert.equal(island.quota,8);
  assert.equal(island.species.length,8);
  assert.equal(island.species.filter(s=>s.recommended).length,island.quota);
  for(const s of island.species){
@@ -25,4 +26,7 @@ for(const island of roster.islands){
 }
 assert(!species.some(s=>s.id==='heterodontosaurus'),'Superseded Fernlands candidate must not return');
 assert(roster.islands.find(i=>i.id==='fernlands').species.some(s=>s.id==='ankylosaurus'));
-console.log('Roster valid:40 unique original-art candidates,28 recommendations across5 islands.');
+assert(!species.some(s=>s.id==='paraceratherium'),'Paraceratherium removed from launch by Frozair');
+assert(roster.islands.find(i=>i.id==='fernlands').species.some(s=>s.id==='brachio'));
+assert(!roster.islands.find(i=>i.id==='giants').species.some(s=>s.id==='brachio'));
+console.log('Roster valid:40 unique original-art residents,8 per island; requested Brachio move preserved.');
