@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-18",
-  "scope": "All 40 current launch-roster concept comparisons",
-  "note": "Left: the current website concept. Right: the revised concept. These are not comparisons against every in-game animation frame. Rex, Trike and Brachio retain their original looks. White backgrounds are for concept review; runtime scale, transparent exports and moving views still need validation.",
+  "scope": "All 40 current launch-roster concepts; targeted silhouette, wool and feather refinement",
+  "note": "Left: the current website concept. Right: the latest revised concept, including stronger species silhouettes, wool and feather shapes. Rex, Trike and Brachio retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
   "species": [
     {
       "id": "leafy",
@@ -83,13 +83,13 @@
     {
       "id": "shunosaurus",
       "name": "Shunosaurus",
-      "image": "/stompy-acres/art-review/shunosaurus.webp",
+      "image": "/stompy-acres/art-review/shunosaurus-refined-76b77a55.webp",
       "sourceWidth": 1024,
-      "sourceHeight": 1024,
-      "viewBox": "27.150 244.150 979.700 614.700",
+      "sourceHeight": 683,
+      "viewBox": "2.032 121.032 1011.936 535.936",
       "kind": "revised",
       "currentViewBox": "4.287 211.292 761.263 472.191",
-      "sourceViewBox": "0.000 209.675 1024.000 683.650"
+      "sourceViewBox": "0 0 1024 683"
     },
     {
       "id": "shantungosaurus",
@@ -105,13 +105,13 @@
     {
       "id": "dreadnoughtus",
       "name": "Dreadnoughtus",
-      "image": "/stompy-acres/art-review/dreadnoughtus.webp",
+      "image": "/stompy-acres/art-review/dreadnoughtus-refined-a77f8714.webp",
       "sourceWidth": 1024,
       "sourceHeight": 683,
-      "viewBox": "14.045 10.045 1000.910 650.910",
+      "viewBox": "12.112 4.112 1001.776 662.776",
       "kind": "revised",
       "currentViewBox": "6.245 5.245 758.510 502.510",
-      "sourceViewBox": "0.000 0.000 1024.000 683.000"
+      "sourceViewBox": "0 0 1024 683"
     },
     {
       "id": "giganotosaurus",
@@ -127,13 +127,13 @@
     {
       "id": "therizinosaurus",
       "name": "Therizinosaurus",
-      "image": "/stompy-acres/art-review/therizinosaurus.webp",
+      "image": "/stompy-acres/art-review/therizinosaurus-refined-4364fdaa.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "21.140 59.140 981.720 905.720",
+      "viewBox": "19.240 54.240 985.520 901.520",
       "kind": "revised",
       "currentViewBox": "16.340 38.340 739.320 687.320",
-      "sourceViewBox": "0.000 5.760 1024.000 1012.480"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "spinosaurus",
@@ -160,13 +160,13 @@
     {
       "id": "deinocheirus",
       "name": "Deinocheirus",
-      "image": "/stompy-acres/art-review/deinocheirus.webp",
+      "image": "/stompy-acres/art-review/deinocheirus-refined-93e0ac04.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "16.015 102.015 1006.970 857.970",
+      "viewBox": "4.976 97.976 1019.024 863.048",
       "kind": "revised",
       "currentViewBox": "18.275 112.275 749.725 600.450",
-      "sourceViewBox": "0.000 52.945 1024.000 957.110"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "amargasaurus",
@@ -270,13 +270,13 @@
     {
       "id": "yutyrannus",
       "name": "Yutyrannus",
-      "image": "/stompy-acres/art-review/yutyrannus.webp",
+      "image": "/stompy-acres/art-review/yutyrannus-refined-cbf2ae62.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "21.115 140.115 986.770 815.770",
+      "viewBox": "13.136 115.136 998.728 853.728",
       "kind": "revised",
       "currentViewBox": "15.365 104.365 734.270 612.270",
-      "sourceViewBox": "0.000 92.610 1024.000 910.780"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "pachyrhinosaurus",
@@ -292,13 +292,13 @@
     {
       "id": "woolly-mammoth",
       "name": "Woolly Mammoth",
-      "image": "/stompy-acres/art-review/woolly-mammoth.webp",
+      "image": "/stompy-acres/art-review/woolly-mammoth-refined-42895a26.webp",
       "sourceWidth": 1024,
       "sourceHeight": 853,
-      "viewBox": "36.140 76.140 981.720 702.720",
+      "viewBox": "18.112 64.112 1001.776 716.776",
       "kind": "revised",
       "currentViewBox": "45.500 61.500 707.000 524.000",
-      "sourceViewBox": "0.000 37.085 1024.000 780.830"
+      "sourceViewBox": "0 0 1024 853"
     },
     {
       "id": "sinosauropteryx",
@@ -314,46 +314,46 @@
     {
       "id": "nanuqsaurus",
       "name": "Nanuqsaurus",
-      "image": "/stompy-acres/art-review/nanuqsaurus.webp",
+      "image": "/stompy-acres/art-review/nanuqsaurus-refined-85b36a2f.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "15.050 156.050 999.900 780.900",
+      "viewBox": "9.048 193.048 1009.904 668.904",
       "kind": "new-concept",
       "currentViewBox": "13.030 172.030 1003.940 765.940",
-      "sourceViewBox": "0.000 110.885 1024.000 871.230"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "edmontosaurus",
       "name": "Edmontosaurus",
-      "image": "/stompy-acres/art-review/edmontosaurus.webp",
+      "image": "/stompy-acres/art-review/edmontosaurus-refined-207a60c5.webp",
       "sourceWidth": 1024,
-      "sourceHeight": 1024,
-      "viewBox": "2.935 369.935 1021.065 460.130",
+      "sourceHeight": 683,
+      "viewBox": "2.960 156.960 1021.040 446.080",
       "kind": "new-concept",
       "currentViewBox": "5.960 382.960 1018.040 446.080",
-      "sourceViewBox": "0.000 345.750 1024.000 508.500"
+      "sourceViewBox": "0 0 1024 683"
     },
     {
       "id": "leaellynasaura",
       "name": "Leaellynasaura",
-      "image": "/stompy-acres/art-review/leaellynasaura.webp",
+      "image": "/stompy-acres/art-review/leaellynasaura-refined-98485d85.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "19.110 239.110 987.780 735.780",
+      "viewBox": "11.080 325.080 1005.840 467.840",
       "kind": "new-concept",
       "currentViewBox": "18.110 245.110 987.780 728.780",
-      "sourceViewBox": "0.000 196.810 1024.000 820.380"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "woolly-rhinoceros",
       "name": "Woolly Rhinoceros",
-      "image": "/stompy-acres/art-review/woolly-rhinoceros.webp",
+      "image": "/stompy-acres/art-review/woolly-rhinoceros-refined-f88c953c.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "12.035 257.035 1002.930 620.930",
+      "viewBox": "8.048 202.048 1009.904 679.904",
       "kind": "new-concept",
       "currentViewBox": "17.055 260.055 998.890 615.890",
-      "sourceViewBox": "0.000 222.285 1024.000 690.430"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "rex",
@@ -435,13 +435,14 @@
     {
       "id": "anzu",
       "name": "Anzu",
-      "image": "/stompy-acres/art-review/anzu.webp",
+      "image": "/stompy-acres/art-review/anzu-refined-a45cfbd0.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "49.395 87.395 930.210 883.210",
+      "viewBox": "35.576 80.576 942.848 889.848",
       "kind": "revised",
       "currentViewBox": "15.340 14.340 739.320 714.320",
-      "sourceViewBox": "0.000 35.190 1024.000 987.620"
+      "sourceViewBox": "0 0 1024 1024"
     }
-  ]
+  ],
+  "revision": "2026-10-18-r2"
 }

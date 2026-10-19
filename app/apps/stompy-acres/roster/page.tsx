@@ -351,7 +351,7 @@ export default function LaunchRosterPage() {
 
       <section id="sr-art-review" className="sr-art-review" aria-labelledby="sr-art-review-title">
         <div className="sr-art-review-heading"><div><p className="sr-eyebrow">ALL {allSpecies.length} RESIDENTS / ART REVIEW</p><h2 id="sr-art-review-title">Current &amp; revised concepts.</h2></div><ArtModeControl mode={artMode} onChange={setArtMode} label="Artwork shown on roster cards" /></div>
-        <p>Compare each resident below, or enlarge a pair for a closer look. Original style anchors are labeled; new Snow concepts may show the same proposal on both sides.</p>
+        <p>Compare each resident below, or enlarge a pair for a closer look. The revised set includes the latest silhouette, wool and feather refinements. Rex, Trike and Brachio remain the original style anchors.</p>
         <p className="sr-art-review-scope"><strong>Concept proposals; animation changes not approved.</strong> {artReview.note}</p>
       </section>
 
