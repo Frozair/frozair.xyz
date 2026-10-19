@@ -116,3 +116,57 @@
 @media(max-width:560px){.sr-roster .sr-lock-note{font-size:12px;margin-top:16px;max-width:340px}.sr-lock-note>svg{width:17px;height:17px}.sr-hero-copy h1{font-size:clamp(43px,11.5vw,57px)}.sr-dock-tally>span:last-child>small{font-size:9px;max-width:200px}.sr-keep-toggle>span:nth-child(2){font-size:10px}.sr-counter-detail{font-size:11px}.sr-draft-note>p{font-size:12px;line-height:1.8}}
 
 .sr-counter-status{white-space:normal;min-width:0}.sr-counter-status>svg{flex-shrink:0}
+/* Art review keeps the paintings on white with a shared frame and baseline. */
+.sr-review-art{background:#315b3c;color:#fff!important;border-color:#315b3c}
+.sr-review-art:hover{background:#24462d}
+.sr-art-review{scroll-margin-top:110px;padding:26px;border:1px solid #c8d2bd;border-radius:12px;background:#f7f9f0;margin:22px 0 18px}
+.sr-art-review-heading{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.sr-art-review h2{font-size:28px;line-height:1.35;letter-spacing:-.8px;font-weight:650;margin-top:6px}
+.sr-art-review>p{font-size:14px;line-height:1.75;color:#596c4d;max-width:980px;margin-top:13px}
+.sr-art-review .sr-art-review-scope{font-size:13px;color:#69755e}
+.sr-art-review-scope strong{color:#4a613e;font-weight:650}
+.sr-art-modes{display:flex;flex-shrink:0;gap:3px;border:1px solid #ccd5c1;padding:4px;border-radius:8px;background:#fff}
+.sr-art-modes button{border:0;border-radius:5px;color:#536749;background:transparent;font-size:13px;font-weight:600;padding:9px 13px;min-height:40px}
+.sr-art-modes button[aria-pressed="true"]{background:#315b3c;color:#fff}
+.sr-art-modes button:hover:not([aria-pressed="true"]){background:#edf2e6}
+.sr-creature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.sr-creature-art.sr-comparison-art{height:auto;background:#fff;overflow:visible;isolation:auto}
+.sr-art-card-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid #e4e8df;min-height:58px;background:#fff;border-radius:12px 12px 0 0}
+.sr-art-card-toolbar .sr-pick-badge{position:static;flex-shrink:0}
+.sr-enlarge-comparison{display:flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:7px 9px;border:1px solid #d3dcc9;border-radius:6px;background:#fff;color:#4d6540;font-size:12px!important;line-height:1.35;font-weight:600!important;text-align:left}
+.sr-enlarge-comparison:hover{background:#f4f7ef}
+.sr-enlarge-comparison svg{flex-shrink:0}
+.sr-art-comparison{display:grid;grid-template-columns:minmax(0,1fr);gap:0;background:#fff}
+.sr-art-comparison.is-compare{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-art-panel{min-width:0;margin:0;background:#fff}
+.sr-art-comparison.is-compare .sr-art-panel+.sr-art-panel{border-left:1px solid #e7eae2}
+.sr-art-panel figcaption{padding:14px 14px 0;min-height:90px;text-align:left}
+.sr-art-panel figcaption strong{display:block;font-size:14px;font-weight:650;line-height:1.4;color:#315b3c}
+.sr-art-panel figcaption span{display:block;font-size:11px;line-height:1.45;color:#6c7565;margin-top:3px}
+.sr-art-frame{display:flex;align-items:flex-end;margin-inline:auto;padding:8px 10px 14px;background:#fff;aspect-ratio:1/1;max-height:390px}
+.sr-art-frame>.sr-creature-portrait{display:block;width:100%;height:100%;mix-blend-mode:normal;object-fit:contain;background:#fff}
+.sr-creature-info{padding:22px}
+.sr-comparison-dialog.sr-art-dialog{width:min(1180px,calc(100vw - 40px));max-width:calc(100vw - 40px);max-height:92dvh;overflow:auto;overscroll-behavior:contain;background:#fff;border-radius:14px;margin:auto}
+.sr-comparison-dialog-inner{background:#fff}
+.sr-comparison-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:18px;position:sticky;top:0;z-index:2;background:#fff;border-bottom:1px solid #dfe5d7;padding:20px 24px}
+.sr-comparison-dialog-header .sr-eyebrow{font-size:10px;color:#647957;letter-spacing:1.2px}
+.sr-comparison-dialog-header h2{font-size:27px;line-height:1.3;margin-top:4px}
+.sr-comparison-close{display:flex;align-items:center;justify-content:center;gap:12px;min-height:44px;flex-shrink:0;border:1px solid #cbd6bf;border-radius:7px;background:#f4f7ef;color:#3f5c32;padding:8px 12px;font-size:13px!important;font-weight:600!important}
+.sr-comparison-close>span:last-child{font-size:26px;line-height:1}
+.sr-comparison-dialog-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 24px;background:#fafbf7;border-bottom:1px solid #e2e7dc}
+.sr-comparison-dialog-controls>p{font-size:12px;color:#5b6e4e;margin:0;line-height:1.65;max-width:290px}
+.sr-art-comparison.is-enlarged .sr-art-panel figcaption{padding:20px 24px 0;min-height:76px}
+.sr-art-comparison.is-enlarged .sr-art-panel figcaption strong{font-size:18px}
+.sr-art-comparison.is-enlarged .sr-art-panel figcaption span{font-size:13px}
+.sr-art-comparison.is-enlarged .sr-art-frame{max-height:calc(92dvh - 340px);min-height:220px;padding:12px 24px 24px;aspect-ratio:1/1}
+.sr-art-comparison.is-enlarged:not(.is-compare) .sr-art-panel{max-width:720px;width:100%;margin:0 auto}
+.sr-comparison-dialog-footer{padding:16px 24px 22px;border-top:1px solid #e2e7dc;background:#fafbf7}
+.sr-comparison-dialog-footer p{color:#647358;font-size:13px;line-height:1.7;margin:0}
+.sr-comparison-dialog-footer p+p{margin-top:4px}
+@media(max-width:900px){.sr-art-review-heading{display:block}.sr-art-review-heading>.sr-art-modes{width:fit-content;margin-top:16px}.sr-creature-grid{gap:16px}.sr-art-card-toolbar{padding:9px 11px;gap:8px}.sr-art-card-toolbar .sr-pick-badge{font-size:9px}.sr-enlarge-comparison{font-size:11px!important;gap:6px;padding:7px}.sr-art-panel figcaption{padding:12px 10px 0;min-height:90px}.sr-art-panel figcaption strong{font-size:13px}.sr-art-panel figcaption span{font-size:11px}.sr-creature-info{padding:18px}.sr-comparison-dialog-controls{gap:14px}}
+@media(max-width:650px){.sr-art-review{padding:20px 16px;scroll-margin-top:95px}.sr-art-review h2{font-size:25px}.sr-art-review>p{font-size:13px}.sr-art-review .sr-art-review-scope{font-size:12px}.sr-art-modes button{font-size:13px;padding:9px 15px;min-height:44px}.sr-creature-grid{grid-template-columns:minmax(0,1fr);gap:18px}.sr-art-card-toolbar{padding:10px 13px}.sr-art-card-toolbar .sr-pick-badge{font-size:10px}.sr-enlarge-comparison{font-size:12px!important;min-height:40px;padding:8px 10px}.sr-art-panel figcaption{min-height:90px;padding:13px 12px 0}.sr-art-panel figcaption strong{font-size:14px}.sr-art-panel figcaption span{font-size:11px}.sr-art-frame{padding:6px 8px 14px}.sr-creature-info{padding:20px}.sr-comparison-dialog.sr-art-dialog{width:calc(100vw - 20px);max-width:calc(100vw - 20px);max-height:94dvh;border-radius:10px}.sr-comparison-dialog-header{padding:15px 14px;gap:12px}.sr-comparison-dialog-header .sr-eyebrow{font-size:9px}.sr-comparison-dialog-header h2{font-size:23px;letter-spacing:-.6px}.sr-comparison-close{gap:7px;padding:8px 10px}.sr-comparison-dialog-controls{display:block;padding:12px 14px}.sr-comparison-dialog-controls .sr-art-modes{width:fit-content}.sr-comparison-dialog-controls>p{max-width:none;margin-top:10px;font-size:12px}.sr-art-comparison.is-enlarged.is-compare{grid-template-columns:repeat(2,minmax(0,1fr))}.sr-art-comparison.is-enlarged.is-compare .sr-art-panel+.sr-art-panel{border-left:1px solid #dfe5d7;border-top:0}.sr-art-comparison.is-enlarged .sr-art-panel figcaption{padding:16px 17px 0;min-height:72px}.sr-art-comparison.is-enlarged .sr-art-frame{padding:8px 16px 20px;max-height:65dvh;min-height:220px}.sr-comparison-dialog-footer{padding:14px 17px 18px}}
+@media print{.sr-art-review .sr-art-modes,.sr-enlarge-comparison{display:none}.sr-art-review{break-inside:avoid}.sr-creature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.sr-art-card-toolbar{min-height:36px;padding:6px 10px}.sr-art-panel figcaption{min-height:60px}.sr-art-panel figcaption strong{font-size:11px}.sr-art-panel figcaption span{font-size:9px}.sr-art-frame{max-height:180px}.sr-art-panel,.sr-art-frame{background:#fff!important}.sr-creature-info{padding:13px}}
+
+@media(max-width:650px){.sr-creature-info .sr-keep-toggle>span:nth-child(2){display:inline}.sr-creature-info .sr-keep-toggle{font-size:12px;flex-wrap:nowrap;min-height:48px}.sr-creature-info .sr-toggle-action{font-size:11px}}
+
+@media(max-width:650px){.sr-art-comparison.is-enlarged.is-compare .sr-art-panel figcaption{padding:16px 10px 0;min-height:104px}.sr-art-comparison.is-enlarged.is-compare .sr-art-panel figcaption strong{font-size:14px}.sr-art-comparison.is-enlarged.is-compare .sr-art-panel figcaption span{font-size:11px}.sr-art-comparison.is-enlarged.is-compare .sr-art-frame{padding:6px 8px 14px;min-height:0;max-height:32dvh}.sr-comparison-dialog-footer p{font-size:12px}}

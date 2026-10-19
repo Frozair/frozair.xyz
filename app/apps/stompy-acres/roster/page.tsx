@@ -4,6 +4,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import type { CSSProperties, KeyboardEvent } from "react";
 import Link from "next/link";
 import rosterSource from "../../../../public/stompy-acres/launch-roster.json";
+import artReviewSource from "../../../../public/stompy-acres/art-review.json";
 import "./roster.css";
 
 type HabitatRating = "strong" | "conditional" | "mismatch" | "fictional";
@@ -75,6 +76,27 @@ interface Roster {
   };
 }
 
+type ArtMode = "compare" | "current" | "revised";
+type Artwork = Pick<Species, "name" | "image" | "sourceWidth" | "sourceHeight" | "viewBox" | "clipPolygon">;
+interface ArtProposal extends Artwork {
+  id: string;
+  currentViewBox?: string;
+  sourceViewBox?: string;
+  kind: "revised" | "original-anchor" | "new-concept";
+}
+interface ArtReview {
+  asOf: string;
+  scope: string;
+  note: string;
+  species: ArtProposal[];
+}
+const artReview = artReviewSource as ArtReview;
+const artProposals = new Map(artReview.species.map(species => [species.id, species]));
+const artModes: { id: ArtMode; label: string }[] = [
+  { id: "compare", label: "Compare" },
+  { id: "current", label: "Current" },
+  { id: "revised", label: "Revised" },
+];
 const roster = rosterSource as Roster;
 const isLocked = roster.rosterStatus === "locked";
 const allSpecies = roster.islands.flatMap(island => island.species);
@@ -111,24 +133,39 @@ function Check({ selected }: { selected: boolean }) {
   return <svg viewBox="0 0 20 20" width="20" height="20" fill="none" aria-hidden="true"><path d={selected ? "m4.5 10 3.6 3.6 7.4-7.4" : "M5 10h10"} stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 }
 
-function CreatureArt({ species, enlarged = false }: { species: Species; enlarged?: boolean }) {
+function CreatureArt({ species, enlarged = false, label }: { species: Artwork; enlarged?: boolean; label?: string }) {
   const clipId = `sr-art-${useId().replace(/:/g, "")}`;
   const width = species.sourceWidth ?? 600;
   const height = species.sourceHeight ?? 600;
   const [cropX, cropY, cropWidth, cropHeight] = (species.viewBox ?? `0 0 ${width} ${height}`).split(" ").map(Number);
-  return <svg className="sr-creature-portrait" viewBox={species.viewBox ?? `0 0 ${width} ${height}`} preserveAspectRatio="xMidYMid meet" role="img" aria-label={`${species.name} character artwork${enlarged ? ", enlarged" : ""}`}>
+  return <svg className="sr-creature-portrait" viewBox={species.viewBox ?? `0 0 ${width} ${height}`} preserveAspectRatio="xMidYMax meet" role="img" aria-label={label ?? `${species.name} character artwork${enlarged ? ", enlarged" : ""}`}>
     <defs><clipPath id={clipId} clipPathUnits="userSpaceOnUse">{species.clipPolygon ? <polygon points={species.clipPolygon} /> : <rect x={cropX} y={cropY} width={cropWidth} height={cropHeight} />}</clipPath></defs>
     <image href={species.image} width={width} height={height} clipPath={`url(#${clipId})`} />
   </svg>;
 }
 
-function CreatureCard({ species, selected, onToggle, onZoom, island }: { species: Species; selected: boolean; onToggle: () => void; onZoom: () => void; island: Island }) {
-  return <article className={`sr-creature ${selected ? "is-kept" : "is-benched"}`} style={{ "--sr-island-color": island.color, "--sr-island-tint": island.tint } as CSSProperties}>
-    <div className="sr-creature-art">
-      <span className={`sr-pick-badge ${species.recommended ? "is-recommended" : ""}`}>{species.recommended ? <><span aria-hidden="true">✦</span> {isLocked ? "Launch pick" : "Launch draft"}</> : "Alternate"}</span>
-      <button type="button" className="sr-zoom" onClick={onZoom} aria-label={`Enlarge ${species.name} artwork`}><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M12.5 3.5h4v4m0-4L11 9m-3.5 7.5h-4v-4m0 4L9 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></button>
-      <CreatureArt species={species} />
-      <span className="sr-creature-ground" aria-hidden="true" />
+function ArtModeControl({ mode, onChange, label }: { mode: ArtMode; onChange: (mode: ArtMode) => void; label: string }) {
+  return <div className="sr-art-modes" role="group" aria-label={label}>{artModes.map(item => <button key={item.id} type="button" aria-pressed={mode === item.id} onClick={() => onChange(item.id)}>{item.label}</button>)}</div>;
+}
+
+function ArtComparison({ species, mode, enlarged = false }: { species: Species; mode: ArtMode; enlarged?: boolean }) {
+  const proposal = artProposals.get(species.id);
+  const current = proposal?.currentViewBox ? { ...species, viewBox: proposal.currentViewBox } : species;
+  const revised = proposal ?? species;
+  const revisedLabel = proposal?.kind === "original-anchor" ? "Original style anchor" : proposal?.kind === "new-concept" ? "New concept proposal" : "Revised concept";
+  const unchanged = !proposal || (revised.image === species.image && revised.viewBox === current.viewBox);
+  const revisedNote = proposal?.kind === "original-anchor" ? "Original look retained for reference" : proposal?.kind === "new-concept" ? "New Snow concept · review draft" : "Concept proposal · review draft";
+  return <div className={`sr-art-comparison is-${mode}${enlarged ? " is-enlarged" : ""}`}>
+    {mode !== "revised" && <figure className="sr-art-panel"><figcaption><strong>Current concept</strong><span>Current website concept</span></figcaption><div className="sr-art-frame"><CreatureArt species={current} enlarged={enlarged} label={`${species.name}, current website concept artwork`} /></div></figure>}
+    {mode !== "current" && <figure className="sr-art-panel"><figcaption><strong>{revisedLabel}</strong><span>{unchanged ? "Same artwork · no new revision" : revisedNote}</span></figcaption><div className="sr-art-frame"><CreatureArt species={revised} enlarged={enlarged} label={`${species.name}, ${revisedLabel.toLowerCase()} artwork${unchanged ? ", unchanged" : ""}`} /></div></figure>}
+  </div>;
+}
+
+function CreatureCard({ species, selected, onToggle, onZoom, island, artMode }: { species: Species; selected: boolean; onToggle: () => void; onZoom: (trigger: HTMLButtonElement) => void; island: Island; artMode: ArtMode }) {
+  return <article className={`sr-creature ${selected ? "is-kept" : "is-benched"}`} data-species-id={species.id} style={{ "--sr-island-color": island.color, "--sr-island-tint": island.tint } as CSSProperties}>
+    <div className="sr-creature-art sr-comparison-art">
+      <div className="sr-art-card-toolbar"><span className={`sr-pick-badge ${species.recommended ? "is-recommended" : ""}`}>{species.recommended ? <><span aria-hidden="true">✦</span> {isLocked ? "Launch pick" : "Launch draft"}</> : "Alternate"}</span><button type="button" className="sr-enlarge-comparison" onClick={event => onZoom(event.currentTarget)} aria-label={`Enlarge ${species.name} art comparison`}><span>Enlarge comparison</span><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M12.5 3.5h4v4m0-4L11 9m-3.5 7.5h-4v-4m0 4L9 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></button></div>
+      <ArtComparison species={species} mode={artMode} />
     </div>
     <div className="sr-creature-info"><h3 className={species.name.length > 15 ? "sr-long-name" : undefined}>{species.name}</h3><p className="sr-creature-role">{species.role}</p>{species.conceptLabel && <span className="sr-concept-label">{species.conceptLabel}</span>}<span className="sr-status-badge">Art status: {species.status}</span>{species.moveNote && <span className={`sr-move-note ${species.moveNote.toLowerCase().includes("proposed") ? "is-proposed" : "is-requested"}`}>{species.moveNote}</span>}
       {species.habitat && <HabitatAssessment habitat={species.habitat} speciesName={species.name} />}
@@ -145,8 +182,12 @@ export default function LaunchRosterPage() {
   const [saveState, setSaveState] = useState("Loading your personal proposal…");
   const [notice, setNotice] = useState("");
   const [zoomed, setZoomed] = useState<Species | null>(null);
+  const [artMode, setArtMode] = useState<ArtMode>("compare");
+  const [dialogArtMode, setDialogArtMode] = useState<ArtMode>("compare");
   const [copyFallback, setCopyFallback] = useState("");
   const zoomDialog = useRef<HTMLDialogElement>(null);
+  const zoomTrigger = useRef<HTMLButtonElement | null>(null);
+  const zoomClose = useRef<HTMLButtonElement>(null);
   const copyDialog = useRef<HTMLDialogElement>(null);
   const fallbackText = useRef<HTMLTextAreaElement>(null);
   const selectedSet = new Set(selected);
@@ -188,8 +229,24 @@ export default function LaunchRosterPage() {
   }, [notice]);
 
   useEffect(() => {
-    if (zoomed) zoomDialog.current?.showModal();
+    if (!zoomed) return;
+    zoomDialog.current?.showModal();
+    zoomClose.current?.focus();
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = previousOverflow; };
   }, [zoomed]);
+
+  function openArtComparison(species: Species, trigger: HTMLButtonElement) {
+    zoomTrigger.current = trigger;
+    setDialogArtMode("compare");
+    setZoomed(species);
+  }
+
+  function closeArtComparison() {
+    setZoomed(null);
+    zoomTrigger.current?.focus({ preventScroll: true });
+  }
 
   useEffect(() => {
     if (!copyFallback) return;
@@ -268,7 +325,7 @@ export default function LaunchRosterPage() {
     <div className="sr-wrap">
       <header className="sr-header"><Link href="/apps/stompy-acres" className="sr-brand"><img src="/stompy-acres/icon.webp" alt="" width="46" height="46" /><span>Stompy Acres<small>RELEASE FIELD GUIDE / 02</small></span></Link><Link href="/apps/stompy-acres/roadmap" className="sr-roadmap-link">Release roadmap <Arrow /></Link></header>
 
-      <section className="sr-hero" aria-labelledby="sr-title"><div className="sr-hero-copy"><p className="sr-eyebrow"><span className="sr-live-dot" /> THE DECEMBER 1 LAUNCH ROSTER</p><h1 id="sr-title">The launch cast<br /><em>is locked.</em></h1><p>{roster.islands.length} islands. <strong>{roster.totalTarget} approved species.</strong> Eight residents in every home.</p><p className="sr-lock-note"><Check selected />{roster.lockNote ?? "Species and island homes approved. Art, animation and game readiness are tracked separately."}</p><div className="sr-hero-key"><span><i className="sr-key-dot is-keep" />Approved launch pick</span><span><i className="sr-key-dot is-bench" />Personal change proposal</span></div><div className="sr-hero-actions"><a href="#sr-cast" className="sr-review-cast">View locked cast <Arrow /></a>{roster.habitatReview && <a href="#sr-habitat" className="sr-review-cast sr-review-habitat">Habitat check <Arrow /></a>}</div></div>
+      <section className="sr-hero" aria-labelledby="sr-title"><div className="sr-hero-copy"><p className="sr-eyebrow"><span className="sr-live-dot" /> THE DECEMBER 1 LAUNCH ROSTER</p><h1 id="sr-title">The launch cast<br /><em>is locked.</em></h1><p>{roster.islands.length} islands. <strong>{roster.totalTarget} approved species.</strong> Eight residents in every home.</p><p className="sr-lock-note"><Check selected />{roster.lockNote ?? "Species and island homes approved. Art, animation and game readiness are tracked separately."}</p><div className="sr-hero-key"><span><i className="sr-key-dot is-keep" />Approved launch pick</span><span><i className="sr-key-dot is-bench" />Personal change proposal</span></div><div className="sr-hero-actions"><a href="#sr-art-review" className="sr-review-cast sr-review-art">Compare all {allSpecies.length} artworks <Arrow /></a><a href="#sr-cast" className="sr-review-cast">View locked cast <Arrow /></a>{roster.habitatReview && <a href="#sr-habitat" className="sr-review-cast sr-review-habitat">Habitat check <Arrow /></a>}</div></div>
         <aside className={`sr-cast-counter ${aboveTarget ? "is-over" : ""}`} aria-label="Your personal proposal size"><p className="sr-eyebrow">YOUR PERSONAL PROPOSAL</p><div className="sr-counter-creature" aria-hidden="true"><CreatureArt species={coverCreature} /></div><div className="sr-counter-number"><strong>{selectedCount}</strong><span>/ {roster.totalTarget}<small>species</small></span></div><div className="sr-counter-slots" aria-hidden="true">{Array.from({ length: roster.totalTarget }, (_, index) => <span key={index} className={index < selectedCount ? "is-filled" : ""} />)}</div><p className="sr-counter-status">{changedCount === 0 ? <><Check selected />Matches the locked {roster.totalTarget}-species roster</> : onTarget ? <><span aria-hidden="true">↗</span>{changedCount} personal changes · target count met</> : aboveTarget ? <><span aria-hidden="true">!</span>{selectedCount - roster.totalTarget} over the launch target</> : <><span aria-hidden="true">+</span>{roster.totalTarget - selectedCount} spots to fill</>}</p><span className="sr-counter-detail">Shared roster: {allSpecies.length} approved · {roster.islands.length} islands</span></aside>
       </section>
 
@@ -292,6 +349,12 @@ export default function LaunchRosterPage() {
       </section>}
       {(roster.revisionNote || Boolean(roster.changeNotes?.length)) && <details className="sr-revision-history"><summary>Casting changes and notes <span aria-hidden="true">+</span></summary><section className="sr-revision-panel" aria-labelledby="sr-revision-title"><div className="sr-revision-heading"><p className="sr-eyebrow">ISLAND HOMES / APPROVED CAST</p><h2 id="sr-revision-title">The island reshuffle.</h2>{roster.revisionNote && <p>{roster.revisionNote}</p>}</div>{Boolean(roster.changeNotes?.length) && <div className="sr-change-notes">{roster.changeNotes?.map(change => <article key={change.label}><h3>{change.label}</h3><p>{change.detail}</p></article>)}</div>}</section></details>}
 
+      <section id="sr-art-review" className="sr-art-review" aria-labelledby="sr-art-review-title">
+        <div className="sr-art-review-heading"><div><p className="sr-eyebrow">ALL {allSpecies.length} RESIDENTS / ART REVIEW</p><h2 id="sr-art-review-title">Current &amp; revised concepts.</h2></div><ArtModeControl mode={artMode} onChange={setArtMode} label="Artwork shown on roster cards" /></div>
+        <p>Compare each resident below, or enlarge a pair for a closer look. Original style anchors are labeled; new Snow concepts may show the same proposal on both sides.</p>
+        <p className="sr-art-review-scope"><strong>Concept proposals; animation changes not approved.</strong> {artReview.note}</p>
+      </section>
+
       <div className="sr-draft-note"><span><span className="sr-save-dot" />{saveState}</span><p>The shared roster is locked. <b>Bench</b> and <b>Keep</b> save a personal change proposal here; copy it into our chat to discuss a future change.</p></div>
 
       <nav className="sr-island-navigation" aria-label="Roster views"><div className="sr-island-tabs" role="tablist" aria-label="Choose a roster view">{tabs.map((tab, index) => {
@@ -311,7 +374,7 @@ export default function LaunchRosterPage() {
           return <section className="sr-island-section" key={island.id} style={{ "--sr-island-color": island.color, "--sr-island-tint": island.tint } as CSSProperties} aria-labelledby={`sr-island-${island.id}`}>
             <div className="sr-island-heading"><div className="sr-island-heading-copy"><p className="sr-eyebrow">ISLAND {String(roster.islands.findIndex(item => item.id === island.id) + 1).padStart(2, "0")} / THE LOCKED CAST</p><h2 id={`sr-island-${island.id}`}>{island.name}<span className={`sr-island-total ${needsReview ? "is-over" : ""}`}>{count}<small> / {island.quota}</small><span>your picks / target</span></span></h2><p>{island.subtitle}</p></div>{island.image && <img src={island.image} className="sr-island-scenery" alt={`${island.name} island concept`} width="650" height="320" loading={islandIndex ? "lazy" : "eager"} />}</div>
             {island.habitatBrief && <p className="sr-island-habitat-brief"><strong>Habitat:</strong> {island.habitatBrief}</p>}
-            <div className="sr-creature-grid">{speciesToShow.map(species => <CreatureCard key={species.id} species={species} island={island} selected={selectedSet.has(species.id)} onToggle={() => toggleSpecies(species.id)} onZoom={() => setZoomed(species)} />)}</div>
+            <div className="sr-creature-grid">{speciesToShow.map(species => <CreatureCard key={species.id} species={species} island={island} selected={selectedSet.has(species.id)} onToggle={() => toggleSpecies(species.id)} artMode={artMode} onZoom={trigger => openArtComparison(species, trigger)} />)}</div>
             {view === "launch" && <button className="sr-browse-island" type="button" onClick={() => { setView(island.id); document.getElementById("sr-cast")?.scrollIntoView({ block: "start", behavior: "auto" }); document.getElementById(`sr-tab-${island.id}`)?.focus({ preventScroll: true }); }}>Review the {island.name} cast <Arrow /></button>}
             {view !== "launch" && <p className="sr-island-help">{island.quota} species is the launch target for {island.name}. Species and island assignments are locked. Your personal picks do not change them.</p>}
           </section>;
@@ -325,7 +388,7 @@ export default function LaunchRosterPage() {
     <div className="sr-draft-dock"><div className="sr-draft-dock-inner"><div className={`sr-dock-tally ${aboveTarget ? "is-over" : ""}`}><span className="sr-dock-icon"><Check selected={onTarget} /></span><strong>{selectedCount}<small> / {roster.totalTarget}</small></strong><span>{changedCount === 0 ? "Matches locked launch roster" : onTarget ? `${roster.totalTarget}-species change proposal` : aboveTarget ? "Over target · review the cast" : `${roster.totalTarget - selectedCount} launch spots open`}<small>Personal proposal · shared roster unchanged</small></span></div><div className="sr-dock-actions"><button type="button" className="sr-reset" onClick={resetSelections} disabled={!loaded || changedCount === 0}>Reset to locked</button><button type="button" className="sr-download" onClick={downloadSelections} disabled={!loaded} aria-label="Download personal roster change proposal as a text file"><svg width="19" height="19" viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M11 3v10m-4-4 4 4 4-4M4 14v4h14v-4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg><span>Export</span></button><button type="button" className="sr-copy" onClick={copySelections} disabled={!loaded}>Copy proposal <Arrow /></button></div></div></div>
     <div className="sr-toast" role="status" aria-live="polite">{notice && <span>{notice}</span>}</div>
 
-    <dialog ref={zoomDialog} className="sr-art-dialog" onClose={() => setZoomed(null)} onClick={event => { if (event.target === event.currentTarget) zoomDialog.current?.close(); }} aria-labelledby="sr-zoom-title">{zoomed && <div className="sr-art-dialog-inner"><button type="button" className="sr-dialog-close" onClick={() => zoomDialog.current?.close()} aria-label="Close artwork preview">×</button><CreatureArt species={zoomed} enlarged /><div><h2 id="sr-zoom-title">{zoomed.name}</h2><p>{zoomed.conceptLabel && <span className="sr-concept-label">{zoomed.conceptLabel}</span>}Art status: {zoomed.status}</p></div></div>}</dialog>
+    <dialog ref={zoomDialog} className="sr-art-dialog sr-comparison-dialog" onClose={closeArtComparison} onClick={event => { if (event.target === event.currentTarget) zoomDialog.current?.close(); }} aria-labelledby="sr-zoom-title" aria-describedby="sr-zoom-note">{zoomed && <div className="sr-comparison-dialog-inner"><header className="sr-comparison-dialog-header"><div><p className="sr-eyebrow">ART COMPARISON / REVIEW DRAFT</p><h2 id="sr-zoom-title">{zoomed.name}</h2></div><button ref={zoomClose} type="button" className="sr-comparison-close" onClick={() => zoomDialog.current?.close()} aria-label="Close art comparison"><span>Close</span><span aria-hidden="true">×</span></button></header><div className="sr-comparison-dialog-controls"><ArtModeControl mode={dialogArtMode} onChange={setDialogArtMode} label="Artwork shown in enlarged comparison" /><p id="sr-zoom-note">Concept proposals; animation changes not approved.</p></div><ArtComparison species={zoomed} mode={dialogArtMode} enlarged /><footer className="sr-comparison-dialog-footer"><p>Roster art status: {zoomed.status}</p><p>Select Current or Revised for a larger single view. Illustration sizes do not represent runtime scale.</p></footer></div>}</dialog>
     <dialog ref={copyDialog} className="sr-copy-dialog" onClose={() => setCopyFallback("")} aria-labelledby="sr-copy-title"><button type="button" className="sr-dialog-close" onClick={() => copyDialog.current?.close()} aria-label="Close copy proposal">×</button><h2 id="sr-copy-title">Your change proposal</h2><p>Copy the selected text and paste it into our chat.</p><textarea ref={fallbackText} value={copyFallback} readOnly aria-label="Personal roster proposal to copy" rows={14} /><button type="button" className="sr-copy" onClick={() => copyDialog.current?.close()}>Done <Check selected /></button></dialog>
   </article>;
 }

@@ -91,3 +91,16 @@ Run `node scripts/check-stompy-roadmap.mjs` and
 personal-draft preservation and production counts. Publish only intended website
 files through Git/Vercel; verify the exact deployed commit and public JSON. This
 maintenance workflow does not deploy/reset the game or execute roster migrations.
+
+The same roster page includes the art comparison review at
+`/apps/stompy-acres/roster#sr-art-review`. Every active resident has a Current/Revised
+pair driven by `public/stompy-acres/art-review.json`, with review images in
+`public/stompy-acres/art-review/`. Compare is the default; Current/Revised modes and
+an enlarged dialog support closer review on smaller screens. Original style anchors
+and the four new Snow concepts are labeled explicitly, including unchanged pairs.
+Art panels use white backgrounds without blend tinting. `currentViewBox` and the
+revised `viewBox` normalize display padding within the existing crop boundaries;
+`sourceViewBox` retains the original review crop. No painting pixels are changed. These are concept proposals;
+animation changes are not approved, and artwork selection does not affect stored
+Keep/Bench casting choices. Validate the 40 matching IDs and all image metadata with
+`node scripts/check-stompy-art-review.mjs`, then run the roster check and build.
