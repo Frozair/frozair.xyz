@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-18",
-  "scope": "All 40 current launch-roster concepts; targeted silhouette, wool and feather refinement",
-  "note": "Left: the current website concept. Right: the latest revised concept, including stronger species silhouettes, wool and feather shapes. Rex, Trike and Brachio retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
+  "scope": "All 40 launch-roster concepts; Brachio face and shading refinement",
+  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s refined face and softer shading. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
   "species": [
     {
       "id": "leafy",
@@ -413,13 +413,13 @@
     {
       "id": "brachio",
       "name": "Brachio",
-      "image": "/stompy-acres/roster/brachio.webp",
-      "sourceWidth": 768,
-      "sourceHeight": 768,
-      "viewBox": "80.015 174.015 602.970 573.970",
-      "kind": "original-anchor",
+      "image": "/stompy-acres/art-review/brachio-refined-8da1a1c5.webp",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "viewBox": "80.992 145.992 890.016 809.016",
+      "kind": "revised",
       "currentViewBox": "80.015 174.015 602.970 573.970",
-      "sourceViewBox": "78.392 172.708 605.703 576.919"
+      "sourceViewBox": "0 0 1024 1024"
     },
     {
       "id": "microraptor",
@@ -444,5 +444,5 @@
       "sourceViewBox": "0 0 1024 1024"
     }
   ],
-  "revision": "2026-10-18-r2"
+  "revision": "2026-10-18-r3-brachio"
 }
