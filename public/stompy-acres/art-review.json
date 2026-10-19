@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-18",
-  "scope": "All 40 launch-roster concepts; Brachio face and shading refinement",
-  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s refined face and softer shading. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
+  "scope": "All 40 launch-roster concepts; Brachio expression and cuteness revision",
+  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s fuller expressive face and softer shading. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
   "species": [
     {
       "id": "leafy",
@@ -413,10 +413,10 @@
     {
       "id": "brachio",
       "name": "Brachio",
-      "image": "/stompy-acres/art-review/brachio-refined-8da1a1c5.webp",
+      "image": "/stompy-acres/art-review/brachio-refined-7c389a01.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "80.992 145.992 890.016 809.016",
+      "viewBox": "31.400 99.400 965.200 883.200",
       "kind": "revised",
       "currentViewBox": "80.015 174.015 602.970 573.970",
       "sourceViewBox": "0 0 1024 1024"
@@ -444,5 +444,5 @@
       "sourceViewBox": "0 0 1024 1024"
     }
   ],
-  "revision": "2026-10-18-r3-brachio"
+  "revision": "2026-10-18-r4-brachio-cuteness"
 }
