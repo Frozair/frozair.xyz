@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-18",
-  "scope": "All 40 launch-roster concepts; Brachio sculpted mouth and chin revision",
-  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s sculpted mouth and rounded chin, with its expressive eye and soft painted shading preserved. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
+  "scope": "All 40 launch-roster concepts; Brachio happy sculpted smile revision",
+  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s happy sculpted smile and rounded chin, with its expressive eye and soft painted shading preserved. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
   "species": [
     {
       "id": "leafy",
@@ -413,10 +413,10 @@
     {
       "id": "brachio",
       "name": "Brachio",
-      "image": "/stompy-acres/art-review/brachio-refined-9d82ccd2.webp",
+      "image": "/stompy-acres/art-review/brachio-refined-6149fcfa.webp",
       "sourceWidth": 1024,
       "sourceHeight": 1024,
-      "viewBox": "24.200 95.200 990.600 889.600",
+      "viewBox": "13.072 103.072 1006.856 900.856",
       "kind": "revised",
       "currentViewBox": "80.015 174.015 602.970 573.970",
       "sourceViewBox": "0 0 1024 1024"
@@ -444,5 +444,5 @@
       "sourceViewBox": "0 0 1024 1024"
     }
   ],
-  "revision": "2026-10-18-r7-brachio-chin"
+  "revision": "2026-10-18-r8-brachio-smile"
 }
