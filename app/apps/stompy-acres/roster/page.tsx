@@ -7,7 +7,7 @@ import rosterSource from "../../../../public/stompy-acres/launch-roster.json";
 import artReviewSource from "../../../../public/stompy-acres/art-review.json";
 import "./roster.css";
 
-type HabitatRating = "strong" | "conditional" | "mismatch" | "fictional";
+type HabitatRating = "strong" | "conditional" | "mismatch";
 
 interface Habitat {
   rating: HabitatRating;
@@ -108,7 +108,6 @@ const habitatRatings: { id: HabitatRating; label: string; mark: string }[] = [
   { id: "strong", label: "Good broad fit", mark: "✓" },
   { id: "conditional", label: "Conditional or uncertain", mark: "?" },
   { id: "mismatch", label: "Reconsider island", mark: "!" },
-  { id: "fictional", label: "Fictional", mark: "✦" },
 ];
 
 function HabitatAssessment({ habitat, speciesName }: { habitat: Habitat; speciesName: string }) {

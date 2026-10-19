@@ -34,12 +34,11 @@ for (const island of roster.islands) assert.deepEqual(island.species.map(s => s.
 
 function checkHabitat(s) {
   assert(s.habitat, `Missing habitat assessment: ${s.id}`);
-  assert(['strong', 'conditional', 'mismatch', 'fictional'].includes(s.habitat.rating));
+  assert(['strong', 'conditional', 'mismatch'].includes(s.habitat.rating));
   assert(['high', 'medium', 'low', 'na'].includes(s.habitat.confidence));
   for (const k of ['evidence', 'caveat', 'recommendation']) assert.equal(typeof s.habitat[k], 'string');
-  assert.equal(s.habitat.rating === 'fictional', s.id === 'leafy');
   assert(Array.isArray(s.habitat.sources));
-  assert(s.id === 'leafy' || s.habitat.sources.length > 0, `Missing evidence source: ${s.id}`);
+  assert(s.habitat.sources.length > 0, `Missing evidence source: ${s.id}`);
   for (const source of s.habitat.sources) {
     assert.equal(typeof source.title, 'string');
     assert.equal(new URL(source.url).protocol, 'https:');
@@ -70,6 +69,7 @@ assert(!islands.get('giants').species.some(s => s.id === 'brachio'));
 assert(islands.get('fernlands').species.some(s => s.id === 'iguanodon'));
 assert.equal(species.filter(s => s.id === 'iguanodon').length, 1);
 assert.equal(byId.get('iguanodon').habitat.rating, 'strong');
+assert.equal(byId.get('leafy').scientificTaxon, 'Velociraptor');
 assert.deepEqual(islands.get('snow').species.map(s => s.id), snowIds);
 assert.equal(byId.get('pachyrhinosaurus').scientificTaxon, 'Pachyrhinosaurus perotorum');
 assert.equal(byId.get('edmontosaurus').scientificTaxon, 'Edmontosaurus sp. (Prince Creek population)');

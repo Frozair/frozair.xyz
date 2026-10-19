@@ -21,18 +21,24 @@
           "sourceHeight": 768,
           "viewBox": "107.177 145.761 523.636 569.569",
           "recommended": true,
-          "role": "Round starter",
+          "role": "Velociraptor · starter",
           "status": "Bank on main",
-          "rationale": "The familiar small starter anchors the collection.",
+          "rationale": "Leafy is the familiar Velociraptor starter and speedster who anchors the collection.",
           "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
           "habitat": {
-            "rating": "fictional",
-            "confidence": "na",
-            "evidence": "Leafy is an original fictional resident, so fossil locality and habitat evidence do not apply.",
-            "caveat": "Its Forest placement is a worldbuilding decision, not a paleontological conclusion.",
-            "recommendation": "Keep as the fictional Forest mascot and label its identity honestly.",
-            "sources": []
-          }
+            "rating": "conditional",
+            "confidence": "low",
+            "evidence": "Leafy is the game’s stylized Velociraptor. Velociraptor fossils are documented from Mongolia and China; the Fighting Dinosaurs specimen was buried in sand. These records do not establish a preference for dense forest.",
+            "caveat": "Forest remains Leafy’s approved game placement. Its suitability is a design inference, not a confirmed paleontological habitat match.",
+            "recommendation": "Keep Leafy in the locked Forest roster as a game design choice; label the species Velociraptor.",
+            "sources": [
+              {
+                "title": "Natural History Museum — Velociraptor species and fossil evidence",
+                "url": "https://www.nhm.ac.uk/discover/velociraptor-facts.html"
+              }
+            ]
+          },
+          "scientificTaxon": "Velociraptor"
         },
         {
           "id": "aquilops",
