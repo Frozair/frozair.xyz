@@ -84,10 +84,10 @@ for (const s of roster.benchedSpecies) {
   assert(existsSync(fileURLToPath(new URL(s.image.slice(1), base))), `Preserve benched art: ${s.image}`);
   checkHabitat(s);
 }
-assert.equal(species.filter(s => s.conceptLabel === 'New concept · review').length, 4);
+assert.equal(species.filter(s => s.conceptLabel === 'Approved still · production pending').length, 4);
 for (const id of newIds) {
-  assert.equal(byId.get(id).conceptLabel, 'New concept · review');
-  assert.equal(byId.get(id).status, 'New concept draft');
+  assert.equal(byId.get(id).conceptLabel, 'Approved still · production pending');
+  assert.equal(byId.get(id).status, 'Approved still · no bank');
 }
 assert.equal(typeof roster.proposal.title, 'string');
 assert.equal(typeof roster.proposal.note, 'string');

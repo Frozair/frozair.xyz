@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-18",
+  "asOf": "2026-10-19",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -24,7 +24,7 @@
           "role": "Velociraptor · starter",
           "status": "Bank on main",
           "rationale": "Leafy is the familiar Velociraptor starter and speedster who anchors the collection.",
-          "note": "Selected concept portrait; animation bank exists on main, not proof of final launch qualification.",
+          "note": "Preserve the current selected Leafy unchanged. He is the game’s stylized Velociraptor; any future Leafy-inspired character is a separate deferred task. Existing bank/native acceptance remain distinct.",
           "habitat": {
             "rating": "conditional",
             "confidence": "low",
@@ -111,7 +111,7 @@
           "role": "Tall light runner",
           "status": "Bank on main",
           "rationale": "Long legs and small head add height and lightness.",
-          "note": "Main movement/dig bank exists; happy/sleep and wider tester acceptance remain open.",
+          "note": "Committed movement/dig/happy and hatch reveal; local sleep/size edits remain active. Provisional shop/Book source routing exists. Match the selected still and qualify final native output.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -171,7 +171,7 @@
           "role": "Spiky collector",
           "status": "Bank on main",
           "rationale": "Shoulder and tail spikes supply a clear late-collection silhouette.",
-          "note": "Committed and routed ranch/reveal banks. Shop seeding and final launch qualification remain.",
+          "note": "Committed routed ranch/reveal banks and provisional shop/Book source routing exist. Match selected stills and qualify final native output.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -332,7 +332,7 @@
           "role": "Giant predator",
           "status": "Existing bank",
           "rationale": "The large land predator is a clear headline prize.",
-          "note": "Tentatively liked working concept remake. Existing Giga bank is a separate approval; no new appearance approval implied.",
+          "note": "Selected still approved in the Oct 19 visual baseline. Existing Giga bank is separate; motion identity/finish matching and final native acceptance remain.",
           "clipPolygon": "7.500,130.000 565.000,130.000 565.000,265.000 470.000,265.000 470.000,406.000 7.500,406.000",
           "habitat": {
             "rating": "strong",
@@ -884,10 +884,10 @@
           "viewBox": "4.900 164.134 1019.100 782.290",
           "recommended": true,
           "role": "Arctic tyrannosaur",
-          "status": "New concept draft",
-          "conceptLabel": "New concept · review",
+          "status": "Approved still · no bank",
+          "conceptLabel": "Approved still · production pending",
           "rationale": "A sturdy tyrannosaur head, short forelimbs and long balancing tail create an Arctic predator alongside Yutyrannus.",
-          "note": "New concept is unapproved. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed.",
+          "note": "Selected still approved. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed.",
           "moveNote": "Launch home confirmed",
           "scientificTaxon": "Nanuqsaurus hoglundi",
           "habitat": {
@@ -921,10 +921,10 @@
           "viewBox": "0.000 373.997 1024.000 464.638",
           "recommended": true,
           "role": "Arctic duck-billed herbivore",
-          "status": "New concept draft",
-          "conceptLabel": "New concept · review",
+          "status": "Approved still · no bank",
+          "conceptLabel": "Approved still · production pending",
           "rationale": "A broad duck bill and deep herbivore body make a readable polar grazer without adding another horned or plated silhouette.",
-          "note": "New concept is unapproved and refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed.",
+          "note": "Selected still approved; refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed.",
           "moveNote": "Launch home confirmed",
           "scientificTaxon": "Edmontosaurus sp. (Prince Creek population)",
           "habitat": {
@@ -954,10 +954,10 @@
           "viewBox": "9.799 236.810 1003.585 744.727",
           "recommended": true,
           "role": "Small polar-forest herbivore",
-          "status": "New concept draft",
-          "conceptLabel": "New concept · review",
+          "status": "Approved still · no bank",
+          "conceptLabel": "Approved still · production pending",
           "rationale": "A small biped with a long balancing tail and gentle herbivore head adds scale contrast to Snow’s large residents.",
-          "note": "New concept is unapproved. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed.",
+          "note": "Selected still approved. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed.",
           "moveNote": "Launch home confirmed",
           "scientificTaxon": "Leaellynasaura amicagraphica",
           "habitat": {
@@ -987,10 +987,10 @@
           "viewBox": "8.166 252.325 1015.834 632.038",
           "recommended": true,
           "role": "Woolly twin-horned grazer",
-          "status": "New concept draft",
-          "conceptLabel": "New concept · review",
+          "status": "Approved still · no bank",
+          "conceptLabel": "Approved still · production pending",
           "rationale": "A low, sturdy body with a two-horn profile and shaggy coat gives Snow an open-ground counterpart to the mammoth.",
-          "note": "New concept is unapproved. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed.",
+          "note": "Selected still approved. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed.",
           "moveNote": "Launch home confirmed",
           "scientificTaxon": "Coelodonta antiquitatis",
           "habitat": {
@@ -1278,7 +1278,7 @@
   },
   "proposal": {
     "title": "The cast is locked. Let’s build their homes.",
-    "note": "Frozair approved these 40 residents and their island homes on October 18. Production, motion and final phone acceptance are tracked separately.",
+    "note": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate.",
     "added": [
       "Nanuqsaurus",
       "Edmontosaurus",
@@ -1452,5 +1452,5 @@
   ],
   "rosterStatus": "locked",
   "lockedAt": "2026-10-18",
-  "lockNote": "Frozair approved these 40 residents and their island homes on October 18. Production, motion and final phone acceptance are tracked separately."
+  "lockNote": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate."
 }

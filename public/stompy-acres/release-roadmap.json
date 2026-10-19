@@ -3,23 +3,23 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-18",
-  "nextReview": "2026-10-19",
+  "asOf": "2026-10-19",
+  "nextReview": "2026-10-20",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Roster locked. December 1 stays at risk until Fernlands and the production pace are proved.",
+  "healthNote": "All 40 are integrated in source. Native five-island proof and production capacity still put December 1 at risk.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "21 ranch banks found · 19 still to build · integration, reveals, environments and phone acceptance remain.",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
-    "wiredIslands": 5,
-    "launchWiredIslands": 4,
+    "wiredIslands": 6,
+    "launchWiredIslands": 5,
     "signedOffIslands": 0,
-    "liveSpecies": 17,
-    "note": "Current source: 14 of the locked 40 are obtainable somewhere; only 10 are in their approved homes. Rex, Trike, Anky and Brachio still need the Forest → Fernlands transition. The 17-species alpha includes three excluded Lagoon residents. No final 1.0 island sign-offs yet.",
-    "launchSpecies": 14,
-    "launchHomeSpecies": 10
+    "liveSpecies": 40,
+    "note": "Source now seeds all 40 in their approved homes, eight per shop and Book, across five active islands. Recorded local database/desktop checks cover the five loops. Launch migrations are not hosted-deployed; 19 residents use placeholder Leafy art. Final native and 1.0 sign-offs remain open. Build 706 is the last distributed alpha baseline, not proof of this source.",
+    "launchSpecies": 40,
+    "launchHomeSpecies": 40
   },
   "northStar": "Build a sanctuary full of dinosaurs you can’t believe you got.",
   "updatePolicy": {
@@ -33,22 +33,22 @@
       "name": "Forest",
       "icon": "🌿",
       "color": "#407a4b",
-      "liveSpecies": 2,
-      "targetLabel": "8 launch residents locked · final qualification open",
-      "status": "Playable · seed the locked eight",
-      "summary": "All eight have committed ranch banks. Most still need shop/data integration.",
+      "liveSpecies": 8,
+      "targetLabel": "8 / 8 seeded in source · final art and native qualification open",
+      "status": "Source eight complete · qualify art",
+      "summary": "All eight source residents and the shop/Book set are connected. Final world, motion and native acceptance remain.",
       "ref": 49,
       "gateDate": "2026-11-01",
       "checks": [
         {
           "label": "Loop",
           "state": "implemented",
-          "detail": "Current shop, hatch, work, Treasure, land and Book loop exists."
+          "detail": "Source supports the island loop; recorded disposable-database and graphical desktop checks cover it. Hosted launch rollout and native acceptance remain open."
         },
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Only Leafy and Para of the approved eight are currently obtainable in Forest. Six need seeding; Para and Kentro are now committed and routed. Match selected looks, reveals and device evidence."
+          "detail": "All eight seeded in the correct source home/shop/Book; all eight have committed ranch banks. Selected still matching, reveal checks and native acceptance remain."
         },
         {
           "label": "World",
@@ -61,7 +61,7 @@
           "detail": "Prior device evidence exists; final launch cast and release builds still need acceptance."
         }
       ],
-      "next": "Approve the starter tiers; seed six missing residents and validate the Forest → Fernlands ownership transition.",
+      "next": "Match the selected stills to existing banks; verify starter pacing and fresh-player native flow.",
       "gateLabel": "Full integration"
     },
     {
@@ -69,22 +69,22 @@
       "name": "Giants",
       "icon": "⛰️",
       "color": "#aa7444",
-      "liveSpecies": 6,
-      "targetLabel": "8 launch residents locked · final qualification open",
-      "status": "Playable · two new residents",
-      "summary": "Six resident banks exist. Finish two newcomers and the modular valley.",
+      "liveSpecies": 8,
+      "targetLabel": "8 / 8 seeded in source · final art and native qualification open",
+      "status": "Source eight complete · two new banks",
+      "summary": "All eight source residents and the shop/Book set are connected. Final world, motion and native acceptance remain.",
       "ref": 23,
       "gateDate": "2026-11-08",
       "checks": [
         {
           "label": "Loop",
           "state": "implemented",
-          "detail": "Current island, shops, land and production exist."
+          "detail": "Source supports the island loop; recorded disposable-database and graphical desktop checks cover it. Hosted launch rollout and native acceptance remain open."
         },
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "The six retained residents are obtainable. Deinocheirus and Amargasaurus are locked additions; both need full production. Brachio moves to Fernlands; Paraceratherium is outside launch."
+          "detail": "All eight seeded in source. Six existing banks; Deinocheirus and Amargasaurus still use placeholder art and need complete production."
         },
         {
           "label": "World",
@@ -97,7 +97,7 @@
           "detail": "Giant clearance, 16 residents, duplicate mixes and loading need final release-device evidence."
         }
       ],
-      "next": "Build Deinocheirus and Amargasaurus; prove giant clearance and substantial water for Spino/Deino.",
+      "next": "Produce the two missing residents and qualify modular valley clearance, water and native performance.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -105,22 +105,22 @@
       "name": "Swamp",
       "icon": "🪷",
       "color": "#65784a",
-      "liveSpecies": 1,
-      "targetLabel": "8 launch residents locked · final qualification open",
-      "status": "Starter only · six banks missing",
-      "summary": "Suchomimus is obtainable; Dilophosaurus has existing banks to qualify.",
+      "liveSpecies": 8,
+      "targetLabel": "8 / 8 seeded in source · final art and native qualification open",
+      "status": "Source eight complete · six new banks",
+      "summary": "All eight source residents and the shop/Book set are connected. Final world, motion and native acceptance remain.",
       "ref": 24,
       "gateDate": "2026-11-08",
       "checks": [
         {
           "label": "Loop",
           "state": "implemented",
-          "detail": "Existing starter island has shop, production, land and storage."
+          "detail": "Source supports the island loop; recorded disposable-database and graphical desktop checks cover it. Hosted launch rollout and native acceptance remain open."
         },
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Eight residents locked. Two committed ranch banks exist; six are missing. Existing Suchomimus/Dilophosaurus banks still need selected-look and behavior checks."
+          "detail": "All eight seeded in source. Suchomimus and Dilophosaurus have banks; six still use placeholder art. Wet-bank presentation, selected looks and motion remain."
         },
         {
           "label": "World",
@@ -133,7 +133,7 @@
           "detail": "The locked eight and wetland navigation are not yet qualified on release phones."
         }
       ],
-      "next": "Prove connected dry banks, water access for aquatic residents, and Titanoboa’s continuous coil before repeating production.",
+      "next": "Define wet-bank presentation and prove continuous-coil motion before repeating creature production.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -141,22 +141,22 @@
       "name": "Snow",
       "icon": "❄️",
       "color": "#5e92a3",
-      "liveSpecies": 1,
-      "targetLabel": "8 launch residents locked · final qualification open",
-      "status": "Starter only · seven banks missing",
-      "summary": "The cold-weather cast is locked. Build seven new residents and their habitat.",
+      "liveSpecies": 8,
+      "targetLabel": "8 / 8 seeded in source · final art and native qualification open",
+      "status": "Source eight complete · seven new banks",
+      "summary": "All eight source residents and the shop/Book set are connected. Final world, motion and native acceptance remain.",
       "ref": 25,
       "gateDate": "2026-11-08",
       "checks": [
         {
           "label": "Loop",
           "state": "implemented",
-          "detail": "Existing starter island has shop, production, land and storage."
+          "detail": "Source supports the island loop; recorded disposable-database and graphical desktop checks cover it. Hosted launch rollout and native acceptance remain open."
         },
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Only Yutyrannus has a committed ranch bank and is obtainable. The other seven require full production; the four new portraits are concepts, not motion or phone evidence."
+          "detail": "All eight seeded in source. Only Yutyrannus has a bank; seven still use placeholder art. All selected stills are approved; motion, habitat and phone qualification remain."
         },
         {
           "label": "World",
@@ -169,7 +169,7 @@
           "detail": "Final snow scene, variants and full cast require release-device qualification."
         }
       ],
-      "next": "Prove Mammoth motion and Snow’s seasonal woodland/open forage; produce the remaining seven and qualify Yutyrannus’s selected look.",
+      "next": "Qualify seasonal woodland/open forage and the seven missing packages; Mammoth is an early body proof.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -177,22 +177,22 @@
       "name": "Fernlands",
       "icon": "🌾",
       "color": "#bd963f",
-      "liveSpecies": 0,
-      "targetLabel": "8 launch residents locked · final qualification open",
-      "status": "No runtime destination · first priority",
-      "summary": "Four reusable banks give the new island a head start.",
+      "liveSpecies": 8,
+      "targetLabel": "8 / 8 seeded in source · final art and native qualification open",
+      "status": "Source loop complete · native proof open",
+      "summary": "All eight source residents and the shop/Book set are connected. Final world, motion and native acceptance remain.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
         {
           "label": "Loop",
-          "state": "open",
-          "detail": "No runtime/server destination found. Needs data, navigation, shop, egg/reveal/Book routing, production/storehouse mapping and normal-access gates, with an owned-data transition rehearsal."
+          "state": "implemented",
+          "detail": "Source supports the island loop; recorded disposable-database and graphical desktop checks cover it. Hosted launch rollout and native acceptance remain open."
         },
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Rex, Trike, Anky and Brachio banks exist but their runtime home is still Forest. Stegosaurus, Iguanodon, Microraptor and Anzu need banks. All eight assignments are locked."
+          "detail": "All eight seeded in source and correct homes. Rex/Trike/Anky/Brachio banks exist; Stego/Iguano/Micro/Anzu use placeholders. Fresh-player source loops replace the old relocation plan."
         },
         {
           "label": "World",
@@ -205,7 +205,7 @@
           "detail": "First native vertical slice is the October 25 risk gate."
         }
       ],
-      "next": "Native slice with an existing resident first; then safe species transitions, all eight residents and every expansion stage.",
+      "next": "Next authorized native build: fresh unlock, full loop, travel and OS kill/relaunch; arrange iOS coverage.",
       "gateLabel": "Phone slice"
     }
   ],
@@ -217,7 +217,7 @@
       "end": "2026-10-25",
       "dateLabel": "OCT 18–25",
       "state": "active",
-      "outcome": "Roster locked Oct 18. By Oct 25: Fernlands phone slice, first production samples and a credible remaining-work forecast; revenue/device choices settled.",
+      "outcome": "Roster and selected stills locked; all 40 integrated in source. By Oct 25: native Fernlands proof, measured production forecast and initial operations/device decisions.",
       "owner": "Frozair + Codex",
       "refs": [
         55,
@@ -235,7 +235,7 @@
       "end": "2026-11-01",
       "dateLabel": "OCT 26–NOV 1",
       "state": "planned",
-      "outcome": "All five persistent loops and normal-access unlocks; final roster data seeded with safe ownership/egg transitions. Art completion continues to Nov 8.",
+      "outcome": "All five source loops and exact-eight data are connected early. Complete fresh-player native acceptance, final normal-access pacing and hosted rollout evidence by Nov 1.",
       "owner": "Codex integration · Frozair art",
       "refs": [
         56,
@@ -323,9 +323,9 @@
         56,
         29
       ],
-      "status": "Critical path",
-      "why": "The locked fifth island has no runtime destination. Four transferred species are still assigned to Forest.",
-      "doneWhen": "By Oct 25, existing-bank native slice persists through relaunch; test existing owners and ready eggs. By Nov 1, all five loops and normal-access routes work; final tuning requires approval."
+      "status": "Source complete · native pending",
+      "why": "All five launch destinations and all 40 residents are integrated in source. Recorded local database and desktop loops pass; no launch-data hosted rollout or native all-five acceptance is claimed.",
+      "doneWhen": "Next separately authorized build: Fernlands survives a fresh-player full loop and OS kill/relaunch on Android and iOS by Oct 25; all five qualify by Nov 1. Arrange iOS hardware. No legacy-owner relocation work is required under the fresh-start decision."
     },
     {
       "id": "production-pace",
@@ -340,13 +340,13 @@
         29
       ],
       "status": "Capacity gate",
-      "why": "21 committed ranch banks exist; 19 do not. Time one full Iguanodon package and bounded Titanoboa/Mammoth motion proofs; define Swamp’s launch water presentation early.",
-      "doneWhen": "Log time, rework and accepted full-package output. Recalculate packages remaining / days left to Nov 8, plus existing-bank/world/data work. Today’s floor is ~6.3/week; if only three finish by Oct 25, the remaining 16 need ~8/week. No sustainable pace is proven yet."
+      "why": "21 committed ranch banks exist and 19 are missing. All 40 selected still references are approved, including Brachio R8; changed looks still need motion identity checks. No further video spending is authorized.",
+      "doneWhen": "Prepare a costed method and obtain the next production authorization; time one full Iguanodon package and bounded Titanoboa/Mammoth proofs. Recalculate remaining full packages / days to Nov 8, including rework and worlds. Today’s 19 over 20 days is about 6.7/week, a requirement rather than measured output."
     },
     {
       "id": "seed-roster",
-      "lane": "now",
-      "title": "Turn the locked cast into game data",
+      "lane": "next",
+      "title": "Accept the provisional 40-species data",
       "owner": "Frozair tier decisions · Codex integration",
       "due": "2026-11-01",
       "refs": [
@@ -355,9 +355,9 @@
         56,
         9
       ],
-      "status": "Data contract first",
-      "why": "Only 10/40 are obtainable in their intended homes; 14/40 exist as obtainable species anywhere. Rarity/tier rules and normal unlock bills remain open.",
-      "doneWhen": "One 40-row roster maps IDs, island, tier, bank/reveal, voice and behavior. Seed shops/Book/eggs/fixtures after approval; rehearse transfers and rollback without loss of owned specimens, eggs or pity."
+      "status": "Source complete · final acceptance open",
+      "why": "Migrations d6618bbce and 59b51e2a4 seed all 40 in approved homes; exact eight-species shops/Books and five one-time collection goals are locally verified. New profiles borrow existing values under authorization.",
+      "doneWhen": "Review final tiers, pacing, voices and habitat behavior; qualify fresh-player native flow and separately approved hosted rollout. Fresh-start approval supersedes legacy-save migration work. Retain normal gameplay persistence and collection guarantees after the start."
     },
     {
       "id": "measure",
@@ -388,7 +388,7 @@
         22
       ],
       "status": "In production",
-      "why": "Para and Kentro are committed. #52 source sequencing fixes are committed; old Rex actions, bridge art and native acceptance remain.",
+      "why": "Para/Kentro and Rex’s accepted reveal are committed. #52 source sequencing fixes exist; old Rex actions, bridge art and native acceptance remain. Match banks to the approved Oct 19 still baseline before reuse.",
       "doneWhen": "Accept affected source motion and renderer joins; record exact native build evidence when build work is authorized. Do not reopen completed Para work or call build 706 proof of newer fixes."
     },
     {
@@ -418,8 +418,8 @@
         47
       ],
       "status": "Rules / values open",
-      "why": "Current two-island models do not validate the launch-five chain.",
-      "doneWhen": "Select bills/offline policy by Oct 25; then implement, simulate ordinary attendance/RNG tails and playtest normal-access routes by Nov 1. Recipes unlock after Giants."
+      "why": "A five-island ladder using existing values is integrated provisionally. Correct unlocks under fixture cash/time do not validate ordinary attendance, affordability or final found-Treasure progression.",
+      "doneWhen": "Review final bills/offline policy and Treasure direction by Oct 25; model ordinary attendance and unlucky tails, then native observations by Nov 1. Provisional Fernlands prices remain much cheaper than its late gate; this is not final pacing approval."
     },
     {
       "id": "cast-worlds",
@@ -435,7 +435,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "19 residents have no committed ranch bank. The existing 21 also need selected-look, action, reveal and integration checks. Five worlds must support the locked cast and all expansion stages.",
+      "why": "All 40 selected stills and source roster rows are accepted/connected. Nineteen residents still lack ranch banks; the existing 21 need identity, motion, reveal and native checks. Five final worlds and expansion stages remain.",
       "doneWhen": "All 40 pass movement/actions, hatch/reveal, variants, eggs, Book, voice coverage and their island expansion stages. Measure complete accepted output, including rework; escalate any capacity/date conflict without automatic roster cuts."
     },
     {
@@ -492,7 +492,7 @@
     {
       "title": "What does each island require?",
       "due": "2026-10-22",
-      "recommendation": "Keep coins + found Treasure direction. Choose exact normal-access gates, resource bills and offline policy together; rare mutations stay optional.",
+      "recommendation": "Existing-value unlocks and borrowed economic profiles are authorized provisionally and locally implemented. Final pacing, tiers, found-Treasure gates/resource bills and offline policy still need review; rare mutations remain optional.",
       "state": "Open"
     },
     {
@@ -504,7 +504,7 @@
     {
       "title": "Which phones do we promise?",
       "due": "2026-10-25",
-      "recommendation": "Choose the minimum iPhone and Android models and measurable memory/loading/heat limits before committing more art.",
+      "recommendation": "Agree minimum Android/iPhone devices and budgets. Android is available; #56 reports no iOS device. Arrange iOS coverage for the Oct 25 proof; a separate Mystery Egg Bag Moto debug pass does not qualify the launch five.",
       "state": "Open"
     },
     {
@@ -512,13 +512,19 @@
       "due": "2026-10-25",
       "recommendation": "Compare accepted full packages and world/data work with remaining capacity. If the forecast misses, remove optional features first, then ask Frozair to choose resources/date tradeoffs. Do not silently cut residents.",
       "state": "Evidence due"
+    },
+    {
+      "title": "Approve the next creature production step",
+      "due": "2026-10-22",
+      "state": "Open",
+      "recommendation": "All 40 selected stills are approved; no further video spending is authorized. Review a costed method and spending limit for one full Iguanodon package plus bounded body proofs before new production. Preserve current Rex and Leafy."
     }
   ],
   "risks": [
     {
       "title": "19 new banks plus qualification",
       "level": "High",
-      "action": "The Oct 18 source audit found 21 committed ranch banks and 19 missing. A full package also needs movement/actions, reveal, integration, variants and phone evidence. Across 21 days to Nov 8, the new-bank floor is about 6.3/week before rework and world/data work. Measure accepted output by Oct 25; escalate any shortfall.",
+      "action": "Oct 19 audit still finds 21 committed ranch banks and 19 missing; no additional production rate is established. With 20 days to Nov 8 the new-bank floor is about 6.7/week before rework, look matching, reveals, worlds/data and QA. Confirm the next production method/spending, then measure actual accepted output by Oct 25.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -530,16 +536,16 @@
       "due": "2026-10-25"
     },
     {
-      "title": "Fernlands is not integrated",
+      "title": "Native five-island proof is still missing",
       "level": "High",
-      "action": "Native slice by Oct 25; complete loop by Nov 1. Keep Water out of the release promise.",
+      "action": "Source integration and recorded desktop loops are complete. Next approved build needs Fernlands fresh-player native proof by Oct 25 and all-five proof by Nov 1, including iOS coverage. Hosted launch rollout is separate.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
     {
       "title": "Progression still unproved",
       "level": "High",
-      "action": "Model the selected five with ordinary attendance and unlucky tails; confirm with players.",
+      "action": "Provisional existing values keep source work moving; large gate/price mismatches are not approved final pacing. Model ordinary attendance and unlucky tails, then confirm with players.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -555,13 +561,6 @@
       "level": "High",
       "action": "Recheck dated backup/monitoring gaps now. Initial proof Oct 25, hosted isolated restore and staging load Nov 1; final regression Nov 15.",
       "owner": "Codex + Frozair",
-      "due": "2026-11-01"
-    },
-    {
-      "title": "Species moves affect existing saves",
-      "level": "High",
-      "action": "Rex, Trike, Anky and Brachio still have Forest as their data home. Rehearse species/egg/Book/production/storehouse transitions and rollback before any rollout. Roster approval does not authorize a reset.",
-      "owner": "Codex",
       "due": "2026-11-01"
     }
   ],
@@ -600,7 +599,7 @@
   "deferred": [
     {
       "title": "Water / Lagoon",
-      "reason": "Excluded by Frozair from the release five; existing destination needs an explicit visibility policy before 1.0. No deletion or reset is authorised."
+      "reason": "Water is inactive WIP in the new launch source configuration. Frozair approved a fresh-start pre-release reset policy, but this maintenance task executes no hosted reset or rollout."
     },
     {
       "title": "Sky, Riverbend and extra islands",
@@ -616,6 +615,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-10-19",
+      "text": "All 40 now seeded in approved source homes, eight per shop/Book, with five active islands and recorded local loop proof. Native/hosted launch rollout and final balance remain open; 19 still use placeholder art. Selected still baseline approved, Rex reveal committed. Fresh-start decision retires legacy relocation work."
+    },
     {
       "date": "2026-10-18",
       "text": "Frozair locked all 40 species and island homes. Casting review closed. Fresh source audit: 21 committed ranch banks, 19 missing; 14/40 obtainable anywhere, 10/40 in intended homes. Para/Kentro are committed; Dilophosaurus has banks. Fernlands phone slice and production benchmark lead the updated plan."
@@ -635,10 +638,6 @@
     {
       "date": "2026-10-18",
       "text": "Superseded: Frozair initially approved 28 species and reviewed 28 picks + 12 alternates. The later eight-per-island decision sets launch scope to 40."
-    },
-    {
-      "date": "2026-10-18",
-      "text": "Frozair confirmed Forest, Giants, Swamp, Snow and Fernlands; Water excluded, Sky preferred for the future. Daily sole focus confirmed."
     }
   ],
   "evidence": [
@@ -659,50 +658,61 @@
       "detail": "Latest #45 is Done: native Android build 706 → server → PostHog ingestion, retry dedup and four saved alpha insights verified. QA is excluded; empty non-QA charts are not retention results. #60 owns missing coverage."
     },
     {
-      "label": "Current source audit · Oct 18",
-      "detail": "HEAD 86ce6020 plus preserved unrelated local work. DinoBanks/Look and committed ranch assets: 21/40 banks. SQL/shop rows: 17 obtainable overall, 14 locked residents anywhere, 10 in approved homes; no Fernlands runtime/server destination. No new build was installed by this review."
-    },
-    {
-      "label": "Completed art updates",
-      "detail": "Para c0c582f9 and follow-up reproducibility fix committed; #50 Done. Kentro 840c9400 committed/routed. Dilophosaurus committed ranch/reveal banks exist; selected-look match still needs review. Local Gallimimus/Rex changes are not claimed shipped."
-    },
-    {
-      "label": "Capacity calculation",
-      "detail": "19 missing ranch banks / 21 calendar days (Oct 18 → Nov 8) × 7 ≈ 6.3 new packages/week minimum. Existing-bank and reveal checks, final selected looks, worlds, data and device evidence are additional. This is a planning requirement, not a measured production rate."
-    },
-    {
       "label": "Approved roster and habitat",
       "detail": "Explicit Frozair approval Oct 18 locks the revised 40 and all homes. Snow: seasonal woodland/stream edges/open forage; five stronger cold/polar fits and three conditional (Yuty/Sino/Lea). Original sources and uncertainty remain on the roster page."
+    },
+    {
+      "label": "Source integration · reviewed Oct 19",
+      "detail": "Current HEAD 4a565500e. d6618bbce + 59b51e2a4 seed the exact 40/eight per source home/shop/Book; active Forest → Giants → Snowy → Swampy → Fernlands, Water inactive. Nineteen missing banks resolve to the existing generic Leafy fallback. No launch migration rollout is claimed."
+    },
+    {
+      "label": "Recorded local proof and limits",
+      "detail": "#56 evidence includes disposable-database 634 checks and graphical five-island tour 129, plus cache/storage/events/Book coverage. Reports are tied to their recorded source snapshots; later Mystery Egg Bag/Backend edits mean they are not a fresh full current-HEAD pass. This maintenance review did not rerun game tests, build or certify phones."
+    },
+    {
+      "label": "Latest device/backend scope",
+      "detail": "#48 reports an authorized Moto debug pass at 27a11e4f1 and hosted Egg Bag migration 20261019100000 only. The pending launch migrations were explicitly excluded. Pixel install deferred; no iOS launch device evidence. This does not establish a new distributed alpha or public approval."
+    },
+    {
+      "label": "Selected stills and animation banks",
+      "detail": "Oct 19 approved still reference snapshot r8-brachio-smile matches the locked 40; Brachio R8 selected, current Rex/Leafy retained. Leafy is stylized Velociraptor. Still approval is not motion acceptance. Banks remain 21/19; 20 dedicated reveals, Stegouros fallback. Rex reveal 9b8cd0a95 is committed; Gallimimus edits remain local."
+    },
+    {
+      "label": "Capacity calculation · Oct 19",
+      "detail": "19 missing ranch banks / 20 days to Nov 8 × 7 = 6.65, displayed as about 6.7/week. Full-package rework, existing-bank selected-look/reveal checks, worlds and device qualification are additional. No new production spending or rate is established."
+    },
+    {
+      "label": "Fresh-start policy",
+      "detail": "Latest Director decision in CLAUDE.md/#56: treat launch as a new game; pre-release tester data will be reset. No legacy-home grandfathering, relocation or compensation work is required. This review executes no reset; normal fresh-player persistence and collection guarantees remain required."
     }
   ],
   "firstWork": {
-    "title": "Start with the fifth island.",
-    "note": "Engine and art can move together. Clear these proofs before scaling up production; store and recovery work starts in parallel.",
+    "title": "Next: the first phone proof.",
+    "note": "Source integration is ahead of the milestone. Keep native proof, production capacity and operations separate; final balance and all 40 creature/world acceptances remain open.",
     "items": [
       {
         "id": "fern-first",
         "step": 1,
         "kind": "engine",
-        "title": "Make Fernlands playable",
-        "when": "First slice · by Oct 25",
+        "title": "Prove Fernlands on phones",
+        "when": "Fernlands Oct 25 · five by Nov 1",
         "owner": "Codex integration · Frozair review",
         "refs": [
           56,
           29
         ],
-        "outcome": "Arrive → buy → hatch → work → sell → expand → relaunch. Start with an existing bank; rehearse the four species moves without losing owned dinos or ready eggs.",
+        "outcome": "Recorded source/desktop loops pass. Next approved build: fresh arrival → hatch → work → sell → expand → kill/relaunch. Fernlands by Oct 25; all five by Nov 1, on Android and iOS. Arrange iOS coverage.",
         "species": [
-          "Rex",
-          "Trike",
-          "Anky",
-          "Brachio"
+          "5 source loops",
+          "40 seeded",
+          "Native proof open"
         ]
       },
       {
         "id": "pace-first",
         "step": 2,
         "kind": "art",
-        "title": "Prove the creature pipeline",
+        "title": "Turn approved looks into a production plan",
         "when": "First samples · Oct 19–25",
         "owner": "Frozair art direction · Codex production",
         "refs": [
@@ -711,11 +721,11 @@
           25,
           29
         ],
-        "outcome": "Time one full Iguanodon package through motion, work, reveal and phone review. Use bounded Titanoboa/Mammoth samples to expose body risks; forecast from measured rework and days left.",
+        "outcome": "All 40 still references are selected. Check existing-bank identity matches; prepare Iguanodon and bounded Titanoboa/Mammoth proofs. Agree method and spending before new video work; measure full-package output.",
         "species": [
           "Iguanodon",
-          "Woolly Mammoth",
-          "Titanoboa"
+          "Titanoboa",
+          "Woolly Mammoth"
         ]
       },
       {
@@ -732,7 +742,7 @@
           58,
           7
         ],
-        "outcome": "Set the five-island unlock ladder and device floor; confirm backup/crash receipt and begin public-store setup. Review the capacity forecast on Oct 25.",
+        "outcome": "Review provisional five-island pacing and device limits; confirm backup/crash receipt and public-store setup. Capacity check stays Oct 25. Fresh-start launch is approved; no legacy relocation work is required.",
         "species": [
           "Unlocks by Oct 22",
           "Proof by Oct 25"
@@ -748,8 +758,8 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 21,
-    "minimumNewPerWeek": 6.3,
+    "daysToFreeze": 20,
+    "minimumNewPerWeek": 6.7,
     "islands": [
       {
         "id": "forest",
@@ -782,7 +792,7 @@
             "name": "Gallimimus",
             "image": "/stompy-acres/roster/gallimimus.webp",
             "bank": "available",
-            "detail": "Movement sizing and reveal accepted in README. HEAD includes happy/reveal. Local ranch/reveal/Look/recipe edits add sleep and recalibration; preserve active work and re-qualify final committed output. Do not repeat old happy/reveal missing claim. No species seed/shop/voice in source README."
+            "detail": "Committed banks and provisional source shop/Book routing exist. Match the selected Oct 19 still to motion and qualify final native output."
           },
           {
             "id": "stegouros",
@@ -796,7 +806,7 @@
             "name": "Kentrosaurus",
             "image": "/stompy-acres/roster/kentrosaurus.webp",
             "bank": "available",
-            "detail": "Ranch/reveal and routes committed in 840c9400. Movement checkpoints accepted 2026-10-18. Legacy roster text saying local/unrouted is stale. Species seed/shop/price/trait design remain open per source README; does not establish normal acquisition or launch-device signoff."
+            "detail": "Committed banks and provisional source shop/Book routing exist. Match the selected Oct 19 still to motion and qualify final native output."
           },
           {
             "id": "parasaurolophus",
@@ -810,7 +820,7 @@
             "name": "Shunosaurus",
             "image": "/stompy-acres/roster/shunosaurus.webp",
             "bank": "available",
-            "detail": "README documents accepted movement/size, sleep retake, hatch reveal accepted and Moto G Stylus visual/fps check. This does not establish every target-device or normal-acquisition acceptance. Source README says no seed/shop/egg colour/voice."
+            "detail": "Committed banks and provisional source shop/Book routing exist. Match the selected Oct 19 still to motion and qualify final native output."
           }
         ]
       },
@@ -838,7 +848,7 @@
             "name": "Giganotosaurus",
             "image": "/stompy-acres/roster/giganotosaurus.webp",
             "bank": "available",
-            "detail": "Tentatively liked working concept remake. Existing Giga bank is a separate approval; no new appearance approval implied."
+            "detail": "Selected still approved in the Oct 19 visual baseline. Existing Giga bank needs a separate identity/finish and native qualification check."
           },
           {
             "id": "therizinosaurus",
@@ -978,28 +988,28 @@
             "name": "Nanuqsaurus",
             "image": "/stompy-acres/roster/nanuqsaurus.webp",
             "bank": "missing",
-            "detail": "New concept is unapproved. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed."
+            "detail": "Selected still approved; production bank still missing. Feathering is an artistic inference; no direct Nanuqsaurus plumage fossil is known. Its adult size remains under reassessment. No production bank or qualification is claimed."
           },
           {
             "id": "edmontosaurus",
             "name": "Edmontosaurus",
             "image": "/stompy-acres/roster/edmontosaurus.webp",
             "bank": "missing",
-            "detail": "New concept is unapproved and refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed."
+            "detail": "Selected still approved; refers to Prince Creek Edmontosaurus sp.; species identity is unresolved. No production bank or qualification is claimed."
           },
           {
             "id": "leaellynasaura",
             "name": "Leaellynasaura",
             "image": "/stompy-acres/roster/leaellynasaura.webp",
             "bank": "missing",
-            "detail": "New concept is unapproved. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed."
+            "detail": "Selected still approved; production bank still missing. Its polar-forest context is better established than its complete anatomy or behaviour; some referred remains are uncertain. No production bank or qualification is claimed."
           },
           {
             "id": "woolly-rhinoceros",
             "name": "Woolly Rhinoceros",
             "image": "/stompy-acres/roster/woolly-rhinoceros.webp",
             "bank": "missing",
-            "detail": "New concept is unapproved. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed."
+            "detail": "Selected still approved; production bank still missing. This is a cold-adapted mammal, like the existing mammoth; it needs exposed forage. No production bank or qualification is claimed."
           }
         ]
       },
@@ -1013,7 +1023,7 @@
             "name": "Rex",
             "image": "/stompy-acres/roster/rex.webp",
             "bank": "available",
-            "detail": "Ranch routes RexDino through split recorded actions+gait with rex_motion enabled. Generic panels keep painted sheet. Dedicated reveal currently has local changes beyond HEAD; preserve active reveal work and qualify final output."
+            "detail": "Accepted revised rest/happy reveal is committed as 9b8cd0a95. Ranch character remains unchanged; final native release qualification is still open."
           },
           {
             "id": "trike",

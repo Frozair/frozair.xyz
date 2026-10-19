@@ -67,15 +67,15 @@ or mutate the shared approved cast. Preserve `selectionVersion` and older drafts
 40 approved IDs and homes to current committed bank availability. On October 18,
 21 ranch banks exist and 19 are missing; 20 dedicated reveals exist and Stegouros
 uses a one-frame fallback. These counts are starting points, not release readiness.
-Current server source has 14 locked residents obtainable anywhere, 10 at approved
-homes; the older17 includes three excluded Lagoon species. No live DB or new native
-build was verified by the roadmap review.
+October 19 source now seeds all40 in approved homes and shops/Books; five active
+islands have recorded local loop proof. Launch migrations are not hosted deployed.
+No new game build or native launch proof was produced by roadmap maintenance.
 
 First: Fernlands persistent native slice with an existing bank by October25;
-time one full Iguanodon package and bounded Titanoboa/Mammoth motion proofs in
-parallel. Start progression, recovery, device and public-store setup this week.
+prepare one full Iguanodon package and bounded Titanoboa/Mammoth motion proofs
+in parallel, with method/spending authorization before new video work. Start progression, recovery, device and public-store setup this week.
 Recalculate remaining complete packages / days left at every review; today's
-19/21×7 ≈6.3 new packages/week is a minimum arithmetic floor, not measured capacity.
+October19's19/20×7 ≈6.7 new packages/week is a minimum arithmetic floor, not measured capacity.
 Existing-bank/reveal repairs, worlds, data, QA and rework add effort. All five
 loops/data by November1, content freeze November8, signed beta November9–15,
 public submissions November16, release December1 only with gates green. Escalate
@@ -104,3 +104,8 @@ revised `viewBox` normalize display padding within the existing crop boundaries;
 animation changes are not approved, and artwork selection does not affect stored
 Keep/Bench casting choices. Validate the 40 matching IDs and all image metadata with
 `node scripts/check-stompy-art-review.mjs`, then run the roster check and build.
+
+The selected still baseline is approved as of October19 (BrachioR8; preserve Rex/Leafy).
+Leafy is the game’s stylized Velociraptor. Keep art sources, crops and local drafts intact.
+Fresh-start launch approval supersedes legacy relocation work; roadmap maintenance
+executes no hosted reset. Fernlands native proof stays Oct25 and all-five proof Nov1; iOS coverage is needed.

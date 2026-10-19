@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-18",
-  "scope": "All 40 launch-roster concepts; Brachio happy sculpted smile revision",
-  "note": "Left: the current website concept. Right: the latest revised concept, including Brachio’s happy sculpted smile and rounded chin, with its expressive eye and soft painted shading preserved. Rex and Trike retain their original looks. These are concept reviews, not proof of matching animations or runtime scale.",
+  "asOf": "2026-10-19",
+  "scope": "All 40 selected launch still references · Brachio R8",
+  "note": "Earlier artwork is shown on the left; the selected still reference is on the right. All 40 are the approved visual baseline, including Brachio R8’s happy sculpted smile. Preserve current Rex and Leafy. Still approval does not establish matching animation, runtime scale or phone acceptance.",
   "species": [
     {
       "id": "leafy",
@@ -444,5 +444,9 @@
       "sourceViewBox": "0 0 1024 1024"
     }
   ],
-  "revision": "2026-10-18-r8-brachio-smile"
+  "revision": "2026-10-18-r8-brachio-smile",
+  "status": "approved-still",
+  "approvedAt": "2026-10-19",
+  "selectionRevision": "2026-10-18-r8-brachio-smile",
+  "productionAcceptance": false
 }
