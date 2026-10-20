@@ -109,3 +109,11 @@ The selected still baseline is approved as of October19 (BrachioR8; preserve Rex
 Leafy is the game’s stylized Velociraptor. Keep art sources, crops and local drafts intact.
 Fresh-start launch approval supersedes legacy relocation work; roadmap maintenance
 executes no hosted reset. Fernlands native proof stays Oct25 and all-five proof Nov1; iOS coverage is needed.
+
+October20 review: the actual seed-last reset path has a Forest/Fernlands roster defect
+(#64); older seed-early harness proof is not reset parity. A repair is working-only.
+The 40 counts describe source definitions, not a verified fresh reset or live roster.
+Forest seven-look refresh is committed, Stegouros fallback retired, dedicated reveals21.
+Economy structure is approved under Numbers§16; numeric profiles/rates/gates/recipe
+bills remain candidates. Fair-admission/model work is verified locally but uncommitted.
+The current 19 missing banks over19days to Nov8 requires7/week before other work.
