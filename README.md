@@ -63,6 +63,11 @@ selected-look/motion approval, runtime integration and final acceptance distinct
 Local Keep/Bench/export choices are personal change proposals; they never unlock
 or mutate the shared approved cast. Preserve `selectionVersion` and older drafts.
 
+`weeklyPlan` powers `/apps/stompy-acres/roadmap#sa-this-week`: three outcomes,
+four dated workdays, recommended pauses and a Sunday evidence/resource checkpoint.
+Targets are recommendations, never inferred completions or build/spending permission.
+After the checkpoint, replace the plan using actual evidence; do not silently roll dates.
+
 `firstWork` powers the prominent priorities. `production.islands` maps all40 locked
 IDs/homes to `integrated`, `redo` or `missing`. October22:10 approved looks integrated,
 11 older-design redos and19 first packages remain. Committed ranch/reveal coverage

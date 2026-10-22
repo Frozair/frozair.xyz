@@ -619,6 +619,10 @@
   "changes": [
     {
       "date": "2026-10-22",
+      "text": "Recommended Oct22–25 recovery sprint: finish/time Iguanodon, prove Fernlands on phones and make a measured capacity/resource decision Sunday. Conditional Anky redo sample; optional polish/new features parked as recommendations. Fresh-start/fixture proof is separate from real unlock pacing."
+    },
+    {
+      "date": "2026-10-22",
       "text": "Reset parity and fail-closed runner fixed. Workload corrected:10approved looks integrated,11redos+19first packages remain. Approved economy/storage/Fernlands packages implemented;15source/model prices still differ. Oct25 phone and capacity gates remain open."
     },
     {
@@ -636,10 +640,6 @@
     {
       "date": "2026-10-18",
       "text": "Recommended habitat revision: Iguanodon → greener Fernlands; Nanuqsaurus, Prince Creek Edmontosaurus, Leaellynasaura and Woolly Rhinoceros proposed for Snow. Borealopelta, Cryolophosaurus, Citipati and Concavenator benched in this proposal. Eight per island/40 total and all milestone dates stay; no game data changes."
-    },
-    {
-      "date": "2026-10-18",
-      "text": "Frozair superseded 28 with 40 launch species: eight per island. Brachio → Fernlands; Paraceratherium out. Supporting moves remain proposals. Dates stay; capacity must be proved."
     }
   ],
   "evidence": [
@@ -696,7 +696,7 @@
           57,
           29
         ],
-        "outcome": "Use the next separately authorized candidate: arrive, buy, hatch, work, collect, sell, expand and travel. Kill and reopen the app. Arrange Android + iOS coverage; source tests alone cannot pass this gate.",
+        "outcome": "Use the next separately authorized candidate: verify fresh-start correctness, then a labeled Fernlands test fixture for buy/hatch/work/sell/expand/travel and OS kill/relaunch. Arrange Android + physical iOS. Normal unlock pacing and final art acceptance are separate.",
         "species": [
           "Fresh full loop",
           "Kill + relaunch",
@@ -1114,5 +1114,93 @@
     "redoPackages": 11,
     "remainingPackages": 30,
     "minimumTotalPerWeek": 12.4
+  },
+  "weeklyPlan": {
+    "start": "2026-10-22",
+    "end": "2026-10-25",
+    "title": "This week: finish, prove, decide.",
+    "note": "Recommended Oct 22–25 sprint. Three outcomes; the locked 40 and December 1 stay unchanged.",
+    "priorities": [
+      {
+        "id": "finish-iguanodon",
+        "title": "Finish + time Iguanodon",
+        "owner": "Frozair: review · art owner: production",
+        "doneWhen": "Approved ranch actions + dedicated reveal + game routes integrated. Record hours, retries, cost and unresolved defects. A ranch prototype alone does not count.",
+        "refs": [
+          42,
+          29,
+          55
+        ]
+      },
+      {
+        "id": "prove-fernlands",
+        "title": "Prove Fernlands on phones",
+        "owner": "Codex: evidence · Frozair: device review",
+        "doneWhen": "Fresh-start correctness, then a clearly labeled Fernlands test fixture: buy → hatch → work → collect/sell → expand → travel → kill/relaunch. Android + physical iOS; final art and real progression remain separate.",
+        "refs": [
+          56,
+          57
+        ]
+      },
+      {
+        "id": "decide-capacity",
+        "title": "Make Sunday’s capacity call",
+        "owner": "Codex: forecast · Frozair: resource decision",
+        "doneWhen": "Use first-package and redo timings separately to forecast through Nov 8, including polish/worlds/QA. Choose next batches; if capacity misses, decide added production help or date tradeoffs.",
+        "refs": [
+          55,
+          42
+        ]
+      }
+    ],
+    "days": [
+      {
+        "id": "thu-22",
+        "date": "2026-10-22",
+        "label": "THU 22",
+        "title": "Clear the runway",
+        "focus": "Frozair: agree Iguanodon finish criteria/method and confirm device access. Codex: prepare the walkthrough, visual profile choices and an inventory of backup/crash/store blockers.",
+        "proof": "One shared package checklist; Android/iOS coverage and build permission status explicit. Optional work parked as a recommendation."
+      },
+      {
+        "id": "fri-23",
+        "date": "2026-10-23",
+        "label": "FRI 23",
+        "title": "Finish Iguanodon",
+        "focus": "Art owner: close the ranch + reveal package within the agreed scope. Frozair reviews the complete result. Codex prepares integration and source/model comparisons in parallel.",
+        "proof": "Timed reviewed package with actual routes and remaining defects listed. Count progress only after the complete integration contract passes."
+      },
+      {
+        "id": "sat-24",
+        "date": "2026-10-24",
+        "label": "SAT 24",
+        "title": "Play, close, reopen",
+        "focus": "Run the separately authorized Fernlands phone walkthrough and recovery check. If Iguanodon is complete, time one bounded Ankylosaurus redo sample; otherwise finish Iguanodon first.",
+        "proof": "Exact candidate/device/backend evidence. A controlled fixture proves its loop; it does not prove the 5–6-week normal unlock journey."
+      },
+      {
+        "id": "sun-25",
+        "date": "2026-10-25",
+        "label": "SUN 25",
+        "title": "Make the release call",
+        "focus": "Review measured art output, native evidence and device/recovery blockers. Review the 24 later-island profile assignments; coherent full-profile acceptance remains due Nov 1.",
+        "proof": "A dated forecast for 19 first packages + 11 redos, adjusted for actual completions, with a resource decision for every capacity gap."
+      }
+    ],
+    "parking": [
+      "Optional Forest retakes and extra nap variants",
+      "New mechanics, broad monetisation and extra islands",
+      "Full Titanoboa/Mammoth production before bounded feasibility review"
+    ],
+    "checkpoint": {
+      "date": "2026-10-25",
+      "title": "Sunday: evidence, then a decision.",
+      "pass": "Iguanodon integrated. Fernlands phone/recovery proof on both OSes. Timed production forecast and initial device/recovery checks.",
+      "ifMiss": "Remove optional work first; decide added production capacity or a date tradeoff. If only Iguanodon finishes, 29 packages in 14 days need 14.5/week before worlds/QA."
+    },
+    "dependencies": [
+      "Phone checks need a separately authorized candidate and physical iOS coverage.",
+      "Art scope/spending agreed with its owner. Anky is conditional; Titanoboa/Mammoth get bounded proofs only."
+    ]
   }
 }

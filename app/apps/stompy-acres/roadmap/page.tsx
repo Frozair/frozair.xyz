@@ -42,6 +42,14 @@ export interface ReleaseRoadmap {
   releaseIslandCount: number;
   baseline: { version: string; wiredIslands: number; launchWiredIslands: number; signedOffIslands: number; liveSpecies: number; launchSpecies: number; launchHomeSpecies: number; note: string };
   northStar: string;
+  weeklyPlan: {
+    start: string; end: string; title: string; note: string;
+    priorities: { id: string; title: string; owner: string; doneWhen: string; refs: number[] }[];
+    days: { id: string; date: string; label: string; title: string; focus: string; proof: string }[];
+    parking: string[];
+    checkpoint: { date: string; title: string; pass: string; ifMiss: string };
+    dependencies: string[];
+  };
   firstWork: {
     title: string; note: string;
     items: { id: string; step: number; title: string; when: string; owner: string; refs: number[]; outcome: string; species: string[]; kind: "engine" | "art" | "operations" }[];
@@ -159,6 +167,21 @@ export default function ReleaseRoadmapPage() {
       </section>
 
       <div className="sa-freshness"><span className={stale ? "sa-freshness-state is-stale" : "sa-freshness-state"}><span />{stale ? "Review overdue" : "Evidence snapshot"}</span><span>Verified <time dateTime={roadmap.asOf}>{dateLabel(roadmap.asOf)}</time></span><span>Next review <time dateTime={roadmap.nextReview}>{dateLabel(roadmap.nextReview)}</time></span><a href="#sa-updates">How this stays current <Arrow /></a></div>
+
+      <section id="sa-this-week" className="sa-week" aria-labelledby="sa-week-title">
+        <div className="sa-section-heading"><div><p className="sa-eyebrow">THIS WEEK / {dateLabel(roadmap.weeklyPlan.start)}–{dateLabel(roadmap.weeklyPlan.end)}</p><h2 id="sa-week-title">{roadmap.weeklyPlan.title}</h2></div><span className="sa-week-proposal">Recommended focus</span></div>
+        <p className="sa-week-note">{roadmap.weeklyPlan.note}</p>
+        <div className="sa-week-outcomes" aria-label="Three outcomes to earn">{roadmap.weeklyPlan.priorities.map((priority, index) => <article key={priority.id}>
+          <span className="sa-week-priority" aria-label={`Priority ${index + 1}`}>0{index + 1}</span><div><h3>{priority.title}</h3><footer><span>{priority.owner}</span><BoardRefs refs={priority.refs} /></footer><details><summary>Done when <span aria-hidden="true">+</span></summary><p>{priority.doneWhen}</p></details></div>
+        </article>)}</div>
+        <ol className="sa-week-days" aria-label="Four-day focus plan">{roadmap.weeklyPlan.days.map((day, index) => <li key={day.id}>
+          <div className="sa-week-day-top"><span>{day.label}</span><time dateTime={day.date}>{dateLabel(day.date)}</time></div><span className="sa-week-day-number" aria-hidden="true">0{index + 1}</span><h3>{day.title}</h3>
+          <details><summary>Work + proof <span aria-hidden="true">+</span></summary><div><p><b>Focus</b>{day.focus}</p><p><b>Proof</b>{day.proof}</p></div></details>
+        </li>)}</ol>
+        <div className="sa-week-parking"><strong>Recommended pause</strong><ul>{roadmap.weeklyPlan.parking.map(item => <li key={item}>{item}</li>)}</ul></div>
+        <div className="sa-week-checkpoint"><div><p className="sa-eyebrow">DECISION CHECKPOINT / <time dateTime={roadmap.weeklyPlan.checkpoint.date}>{dateLabel(roadmap.weeklyPlan.checkpoint.date)}</time></p><h3>{roadmap.weeklyPlan.checkpoint.title}</h3></div><div><p><b>Pass</b>{roadmap.weeklyPlan.checkpoint.pass}</p><p><b>If we miss</b>{roadmap.weeklyPlan.checkpoint.ifMiss}</p></div></div>
+        <div className="sa-week-dependencies"><strong>Before we can prove it</strong><ul>{roadmap.weeklyPlan.dependencies.map(item => <li key={item}>{item}</li>)}</ul></div>
+      </section>
 
       <section id="sa-first-work" className="sa-first-work" aria-labelledby="sa-first-work-title">
         <div className="sa-section-heading"><div><p className="sa-eyebrow">THE CAST IS LOCKED / START HERE</p><h2 id="sa-first-work-title">{roadmap.firstWork.title}</h2></div><a href="#sa-production" className="sa-section-link">See all 40 production needs <Arrow /></a></div>

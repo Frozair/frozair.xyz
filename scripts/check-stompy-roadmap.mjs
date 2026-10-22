@@ -49,6 +49,35 @@ assert.equal(roster.rosterStatus, 'locked');
 assert(Number.isInteger(data.baseline.launchSpecies) && data.baseline.launchSpecies >= 0 && data.baseline.launchSpecies <= roster.totalTarget);
 assert(Number.isInteger(data.baseline.launchHomeSpecies) && data.baseline.launchHomeSpecies >= 0 && data.baseline.launchHomeSpecies <= data.baseline.launchSpecies);
 assert.equal(data.islands.reduce((sum, island) => sum + island.liveSpecies, 0), data.baseline.launchHomeSpecies);
+const weekly = data.weeklyPlan;
+const requiredText = (item, fields) => {
+  textFields(item, fields);
+  fields.forEach(key => assert(item[key].trim().length > 0, `Empty weekly plan field ${key}`));
+};
+requiredText(weekly, ['title', 'note']);
+assert(date(weekly.start) && date(weekly.end), 'Invalid weekly plan date range');
+assert(weekly.start <= weekly.end && weekly.end <= data.targetDate, 'Weekly plan must end before release');
+assert(weekly.priorities.length >= 1 && weekly.priorities.length <= 3, 'Weekly plan needs one to three outcomes');
+assert(weekly.days.length >= 1 && weekly.days.length <= 7, 'Weekly plan needs one to seven focus days');
+uniqueIds([...weekly.priorities, ...weekly.days], 'Weekly plan');
+for (const priority of weekly.priorities) {
+  requiredText(priority, ['id', 'title', 'owner', 'doneWhen']);
+  assert(Array.isArray(priority.refs) && priority.refs.length > 0 && priority.refs.every(ref => Number.isInteger(ref) && ref > 0), 'Weekly outcome needs valid board references');
+  assert.equal(new Set(priority.refs).size, priority.refs.length, 'Weekly outcome has duplicate references');
+}
+weekly.days.forEach((day, index) => {
+  requiredText(day, ['id', 'label', 'title', 'focus', 'proof']);
+  assert(date(day.date), `Invalid weekly focus date: ${day.id}`);
+  assert.equal(Date.parse(day.date), Date.parse(weekly.start) + index * 86400000, 'Weekly focus dates must be consecutive and ordered');
+});
+assert.equal(weekly.days[weekly.days.length - 1].date, weekly.end, 'Weekly focus dates must cover the plan range');
+requiredText(weekly.checkpoint, ['title', 'pass', 'ifMiss']);
+assert(date(weekly.checkpoint.date) && weekly.checkpoint.date === weekly.end, 'Weekly checkpoint must match the final focus day');
+for (const key of ['parking', 'dependencies']) {
+  assert(Array.isArray(weekly[key]) && weekly[key].length > 0, `Weekly plan needs ${key} items`);
+  assert(weekly[key].every(item => typeof item === 'string' && item.trim().length > 0), `Empty weekly ${key} text`);
+  assert.equal(new Set(weekly[key]).size, weekly[key].length, `Duplicate weekly ${key} text`);
+}
 textFields(data.firstWork, ['title', 'note']);
 assert.equal(data.firstWork.items.length, 3);
 uniqueIds(data.firstWork.items, 'First work');
