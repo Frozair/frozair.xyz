@@ -63,23 +63,26 @@ selected-look/motion approval, runtime integration and final acceptance distinct
 Local Keep/Bench/export choices are personal change proposals; they never unlock
 or mutate the shared approved cast. Preserve `selectionVersion` and older drafts.
 
-`firstWork` powers the prominent first-work cards. `production.islands` maps all
-40 approved IDs and homes to current committed bank availability. On October 18,
-21 ranch banks exist and 19 are missing; 20 dedicated reveals exist and Stegouros
-uses a one-frame fallback. These counts are starting points, not release readiness.
-October 19 source now seeds all40 in approved homes and shops/Books; five active
-islands have recorded local loop proof. Launch migrations are not hosted deployed.
-No new game build or native launch proof was produced by roadmap maintenance.
+`firstWork` powers the prominent priorities. `production.islands` maps all40 locked
+IDs/homes to `integrated`, `redo` or `missing`. October22:10 approved looks integrated,
+11 older-design redos and19 first packages remain. Committed ranch/reveal coverage
+is21/21; Stegouros has a dedicated reveal. Iguanodon has local ranch progress but no
+complete committed ranch/reveal package. Final motion/native acceptance is separate.
 
-First: Fernlands persistent native slice with an existing bank by October25;
-prepare one full Iguanodon package and bounded Titanoboa/Mammoth motion proofs
-in parallel, with method/spending authorization before new video work. Start progression, recovery, device and public-store setup this week.
-Recalculate remaining complete packages / days left at every review; today's
-October19's19/20×7 ≈6.7 new packages/week is a minimum arithmetic floor, not measured capacity.
-Existing-bank/reveal repairs, worlds, data, QA and rework add effort. All five
-loops/data by November1, content freeze November8, signed beta November9–15,
-public submissions November16, release December1 only with gates green. Escalate
-capacity/date tradeoffs; no silent roster cuts or date changes.
+Recorded seed-last proof verifies40 homes and exact-eight shop/Book/starter sets;
+the earlier reset defect and compile-failure runner are fixed. Retain exact snapshot
+limits: roadmap maintenance runs no game tests/builds or hosted changes. Source merge
+0.1.7/build771 is recorded; this review has not verified its distribution.
+
+First: Fernlands full fresh native loop and OS kill/relaunch by October25, alongside
+capacity and initial device/recovery proof. Coordinate the active Iguanodon art owner
+and bound Titanoboa/Mammoth proofs, with method/spending agreement. At October22,
+30remaining asset species/17days toNov8 requires12.4/week minimum;19first packages
+alone require7.8/week. Neither is measured capacity. Add worlds/voices/polish/data/QA.
+All-five native/data acceptance byNov1, content freezeNov8, signed betaNov9–15,
+public submissionsNov16, gated releaseDec1. Escalate resources/date tradeoffs without
+silent roster cuts. Selected economic packages are approved;24later assignments and
+coherent profiles plus15source/model price differences remain open under#56.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek
@@ -93,15 +96,15 @@ files through Git/Vercel; verify the exact deployed commit and public JSON. This
 maintenance workflow does not deploy/reset the game or execute roster migrations.
 
 The same roster page includes the art comparison review at
-`/apps/stompy-acres/roster#sr-art-review`. Every active resident has a Current/Revised
+`/apps/stompy-acres/roster#sr-art-review`. Every active resident has a Earlier/Selected
 pair driven by `public/stompy-acres/art-review.json`, with review images in
-`public/stompy-acres/art-review/`. Compare is the default; Current/Revised modes and
+`public/stompy-acres/art-review/`. Compare is the default; Earlier/Selected modes and
 an enlarged dialog support closer review on smaller screens. Original style anchors
-and the four new Snow concepts are labeled explicitly, including unchanged pairs.
+and the four new Snow portraits are labeled explicitly, including unchanged pairs.
 Art panels use white backgrounds without blend tinting. `currentViewBox` and the
 revised `viewBox` normalize display padding within the existing crop boundaries;
-`sourceViewBox` retains the original review crop. No painting pixels are changed. These are concept proposals;
-animation changes are not approved, and artwork selection does not affect stored
+`sourceViewBox` retains the original review crop. No painting pixels are changed. Selected stills are approved;
+production and native acceptance remain separate, and artwork selection does not affect stored
 Keep/Bench casting choices. Validate the 40 matching IDs and all image metadata with
 `node scripts/check-stompy-art-review.mjs`, then run the roster check and build.
 
@@ -109,11 +112,3 @@ The selected still baseline is approved as of October19 (BrachioR8; preserve Rex
 Leafy is the game’s stylized Velociraptor. Keep art sources, crops and local drafts intact.
 Fresh-start launch approval supersedes legacy relocation work; roadmap maintenance
 executes no hosted reset. Fernlands native proof stays Oct25 and all-five proof Nov1; iOS coverage is needed.
-
-October20 review: the actual seed-last reset path has a Forest/Fernlands roster defect
-(#64); older seed-early harness proof is not reset parity. A repair is working-only.
-The 40 counts describe source definitions, not a verified fresh reset or live roster.
-Forest seven-look refresh is committed, Stegouros fallback retired, dedicated reveals21.
-Economy structure is approved under Numbers§16; numeric profiles/rates/gates/recipe
-bills remain candidates. Fair-admission/model work is verified locally but uncommitted.
-The current 19 missing banks over19days to Nov8 requires7/week before other work.

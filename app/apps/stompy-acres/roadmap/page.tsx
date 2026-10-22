@@ -9,6 +9,7 @@ import "./roadmap.css";
 type CheckState = "implemented" | "partial" | "open";
 type WorkLane = "now" | "next" | "later";
 type Filter = WorkLane | "cut";
+type ProductionStatus = "integrated" | "redo" | "missing";
 
 interface Island {
   id: string;
@@ -47,8 +48,9 @@ export interface ReleaseRoadmap {
   };
   production: {
     title: string; note: string; total: number; existingBanks: number; missingBanks: number;
+    integratedLooks: number; redoPackages: number; remainingPackages: number; minimumTotalPerWeek: number;
     accepted: number | null; freezeDate: string; daysToFreeze: number; minimumNewPerWeek: number;
-    islands: { id: string; name: string; color: string; residents: { id: string; name: string; image?: string; bank: "available" | "missing"; detail: string }[] }[];
+    islands: { id: string; name: string; color: string; residents: { id: string; name: string; image?: string; bank: "available" | "missing"; productionStatus: ProductionStatus; detail: string }[] }[];
   };
   updatePolicy: { cadence: string; staleAfterDays: number; sourceLabel: string };
   islands: Island[];
@@ -69,6 +71,7 @@ export interface ReleaseRoadmap {
 }
 
 const roadmap = roadmapSource as ReleaseRoadmap;
+const productionLabels: Record<ProductionStatus, string> = { integrated: "approved look integrated in source", redo: "existing bank needs an asset redo", missing: "first animation package needed" };
 const stateLabels: Record<CheckState, string> = { implemented: "Built", partial: "In progress", open: "Needs proof" };
 const filters: { value: Filter; label: string }[] = [
   { value: "now", label: "Now" }, { value: "next", label: "Next" },
@@ -188,13 +191,20 @@ export default function ReleaseRoadmapPage() {
 
       <section id="sa-production" className="sa-production" aria-labelledby="sa-production-title">
         <div className="sa-section-heading"><div><p className="sa-eyebrow">40 SPECIES / THE PRODUCTION BOARD</p><h2 id="sa-production-title">{roadmap.production.title}</h2></div><Link href="/apps/stompy-acres/roster" className="sa-section-link">View locked roster <Arrow /></Link></div>
-        <div className="sa-production-totals"><div className="sa-production-existing"><strong>{roadmap.production.existingBanks}</strong><span>existing animation banks<small>Reuse, integrate &amp; qualify</small></span></div><div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>new packages needed<small>Concept → motion → phone</small></span></div><div className="sa-production-pace"><strong>{roadmap.production.minimumNewPerWeek.toFixed(1)}<small>/week</small></strong><span>minimum new-package pace<small>By {dateLabel(roadmap.production.freezeDate)} · {roadmap.production.daysToFreeze} days from snapshot</small></span></div></div>
-        <div className="sa-production-legend"><span><i className="sa-bank-mark is-available" />Existing bank</span><span><i className="sa-bank-mark is-missing" />New package</span><span>Bank availability ≠ release acceptance</span></div>
+        <div className="sa-production-totals">
+          <div className="sa-production-integrated"><strong>{roadmap.production.integratedLooks}</strong><span>looks integrated<small>Selected art in source</small></span></div>
+          <div className="sa-production-redo"><strong>{roadmap.production.redoPackages}</strong><span>asset redos<small>Existing banks; older looks</small></span></div>
+          <div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>first packages<small>New bodies need motion</small></span></div>
+        </div>
+        <div className="sa-production-pace"><strong>{roadmap.production.minimumTotalPerWeek.toFixed(1)}<small> species/week minimum</small></strong><span>{roadmap.production.remainingPackages} packages in {roadmap.production.daysToFreeze} days · by {dateLabel(roadmap.production.freezeDate)}<small>Before polish, worlds &amp; QA</small></span></div>
+        <div className="sa-production-legend"><span><i className="sa-bank-mark is-integrated" />Look integrated</span><span><i className="sa-bank-mark is-redo" />Asset redo</span><span><i className="sa-bank-mark is-missing" />First package</span><span>{roadmap.production.existingBanks} banks exist · {roadmap.production.missingBanks} missing. Source integration ≠ release acceptance.</span></div>
         <div className="sa-production-grid">{roadmap.production.islands.map(island => {
-          const available = island.residents.filter(resident => resident.bank === "available").length;
+          const integrated = island.residents.filter(resident => resident.productionStatus === "integrated").length;
+          const redo = island.residents.filter(resident => resident.productionStatus === "redo").length;
+          const missing = island.residents.filter(resident => resident.productionStatus === "missing").length;
           return <article className="sa-production-island" key={island.id} style={{ "--production-accent": island.color } as CSSProperties}>
-            <header><h3>{island.name}</h3><span><b>{available}</b> existing · <b>{island.residents.length - available}</b> new</span></header>
-            <ul>{island.residents.map(resident => <li key={resident.id} className={`is-${resident.bank}`}><i className={`sa-bank-mark is-${resident.bank}`} aria-hidden="true" /><span>{resident.name}<small className="sa-sr-only"> — {resident.bank === "available" ? "existing animation bank" : "new animation package needed"}</small></span><details><summary aria-label={`${resident.name} production details`}>i</summary><p>{resident.detail}</p></details></li>)}</ul>
+            <header><h3>{island.name}</h3><span className="sa-production-island-counts"><span><i className="sa-bank-mark is-integrated" /><b>{integrated}</b> integrated</span><span><i className="sa-bank-mark is-redo" /><b>{redo}</b> redo</span><span><i className="sa-bank-mark is-missing" /><b>{missing}</b> first</span></span></header>
+            <ul>{island.residents.map(resident => <li key={resident.id} className={`is-${resident.productionStatus}`}><i className={`sa-bank-mark is-${resident.productionStatus}`} aria-hidden="true" /><span>{resident.name}<small className="sa-sr-only"> — {productionLabels[resident.productionStatus]}</small></span><details><summary aria-label={`${resident.name} production details`}>i</summary><p>{resident.detail}</p></details></li>)}</ul>
           </article>;
         })}</div>
         <p className="sa-production-note">{roadmap.production.note}</p>
