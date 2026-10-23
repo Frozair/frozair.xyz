@@ -69,10 +69,11 @@ Targets are recommendations, never inferred completions or build/spending permis
 After the checkpoint, replace the plan using actual evidence; do not silently roll dates.
 
 `firstWork` powers the prominent priorities. `production.islands` maps all40 locked
-IDs/homes to `integrated`, `redo` or `missing`. October22:10 approved looks integrated,
-11 older-design redos and19 first packages remain. Committed ranch/reveal coverage
-is21/21; Stegouros has a dedicated reveal. Iguanodon has local ranch progress but no
-complete committed ranch/reveal package. Final motion/native acceptance is separate.
+IDs/homes to `integrated`, `redo` or `missing`. October 23: 10 approved looks integrated,
+11 redos and 19 first packages remain. Ranch/reveal source presence is 21/21 committed
+and 22/22 working, including Iguanodon’s newly integrated dedicated reveal. Its source
+checks/visual review passed; partly polished ranch work, complete-package/Frozair review,
+full hatch UI and native acceptance remain open. Accepted Stegouros polish adds no package count.
 
 Recorded seed-last proof verifies40 homes and exact-eight shop/Book/starter sets;
 the earlier reset defect and compile-failure runner are fixed. Retain exact snapshot
@@ -81,21 +82,27 @@ limits: roadmap maintenance runs no game tests/builds or hosted changes. Source 
 
 First: Fernlands full fresh native loop and OS kill/relaunch by October25, alongside
 capacity and initial device/recovery proof. Coordinate the active Iguanodon art owner
-and bound Titanoboa/Mammoth proofs, with method/spending agreement. At October22,
-30remaining asset species/17days toNov8 requires12.4/week minimum;19first packages
-alone require7.8/week. Neither is measured capacity. Add worlds/voices/polish/data/QA.
+and bound Titanoboa/Mammoth proofs, with method/spending agreement. At October 23,
+30 remaining asset species / 16 days to Nov 8 requires 13.1/week minimum; 19 first
+packages alone require 8.3/week. Neither is measured capacity. Add worlds/voices/polish/data/QA.
 All-five native/data acceptance byNov1, content freezeNov8, signed betaNov9–15,
 public submissionsNov16, gated releaseDec1. Escalate resources/date tradeoffs without
-silent roster cuts. Selected economic packages are approved;24later assignments and
-coherent profiles plus15source/model price differences remain open under#56.
+silent roster cuts. Latest #56 bounded study matches all 40 actual prices; 24 later
+assignments and coherent earning/Luck/XP/ability profiles remain open. Keep prices unchanged.
+The newer approved 15s/45s/90s/10m/1h shop-band hatch curve is source committed but outside
+that study; updated model/Brooder/Amber/gameplay proof remains. Existing eggs keep deadlines;
+no hosted rollout is implied. Personal starts are now source committed at 3 per island per
+New York calendar date; one active personal event per account remains. Older frozen
+commercial capsules retain their historical 15 substitutions; no study is a player forecast.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek
 Edmontosaurus remains genus-level; Nanuqsaurus feathers are inferred. Roster approval
 is not scientific survival proof, historical coexistence or production acceptance.
 
-Run `node scripts/check-stompy-roadmap.mjs` and
-`node scripts/check-stompy-roster.mjs`, then `npm run build`. Check desktop/mobile,
+Run `node scripts/check-stompy-roadmap.mjs`,
+`node scripts/check-stompy-roster.mjs` and `node scripts/check-stompy-art-review.mjs`,
+then `npm run build`. Check desktop/mobile,
 personal-draft preservation and production counts. Publish only intended website
 files through Git/Vercel; verify the exact deployed commit and public JSON. This
 maintenance workflow does not deploy/reset the game or execute roster migrations.
