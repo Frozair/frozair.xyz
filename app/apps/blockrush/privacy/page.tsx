@@ -17,7 +17,7 @@ export default function BlockRushPrivacyPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">Privacy Policy</h1>
 
               <div className="prose">
-                <p>Last updated: 05/13/2026</p>
+                <p>Last updated: 10/23/2026</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
                 <p>
@@ -33,6 +33,14 @@ export default function BlockRushPrivacyPage() {
                   <li>
                     Leaderboard/account data if you choose to use online features (such as nickname,
                     score, and related profile metadata).
+                  </li>
+                  <li>
+                    Gaming-platform sign-in, if you choose it. If you continue with Apple Game
+                    Center or Google Play Games, the platform and our backend partner (Talo)
+                    process a verified gaming-account identifier and gaming display name; Google
+                    may also provide a gaming avatar URL. Block Rush stores the platform&apos;s
+                    player identifier on your device so it can detect sign-out or an account
+                    switch. We never receive your platform password.
                   </li>
                 </ul>
 
@@ -78,8 +86,12 @@ export default function BlockRushPrivacyPage() {
                 <p>
                   You can delete your account and associated leaderboard data at any time from
                   inside the app: main menu → account icon (top right) →{" "}
-                  <strong>Delete Account</strong>, then confirm with your password. If you cannot
-                  sign in, email the address below and we will remove your data within 30 days.
+                  <strong>Delete Account</strong>, then confirm with your password. For a Game
+                  Center or Google Play Games account, or if you cannot sign in, email the address
+                  below (include your gaming display name) and we will remove the corresponding
+                  Block Rush data within 30 days. This does not delete your Apple or Google account
+                  or your Game Center / Play Games profile; use the platform&apos;s own controls for
+                  that.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">9. Changes to This Policy</h2>
