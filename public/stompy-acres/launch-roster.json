@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-25",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -1143,9 +1143,9 @@
           "viewBox": "475.200 43.238 292.800 206.581",
           "recommended": true,
           "role": "Sturdy thumb-spike herbivore",
-          "status": "First package · reveal source integrated",
+          "status": "First package · ranch/nap committed",
           "rationale": "Keeps your Iguanodon in fern-rich, wooded meadows with freshwater, replacing Concavenator’s draft slot.",
-          "note": "Dedicated reveal is integrated locally and passed source checks/visual review. Approved-design ranch actions and complete source-package integration remain pending. Final Frozair visual, full hatch UI and Android/iPhone acceptance are separate. Approved website still and Fernlands home stay unchanged.",
+          "note": "Ranch bank and seated nap are committed; dedicated reveal remains local. Recorded finish findings and size/stride/source-integration proof remain open. Count only a complete approved ranch/reveal source package; final Frozair, hatch UI and native acceptance are separate. Website still and Fernlands home stay unchanged.",
           "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "strong",

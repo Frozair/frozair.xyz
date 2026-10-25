@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-23",
-  "nextReview": "2026-10-24",
+  "asOf": "2026-10-25",
+  "nextReview": "2026-10-26",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "30 species still need approved-design asset packages. October 25 must prove production capacity and Fernlands on phones; December 1 remains at risk.",
+  "healthNote": "30 complete source packages remain. Today’s Fernlands phone and capacity gates are pending; December 1 remains at risk.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "10 looks integrated · 11 asset redos · 19 first packages · final native acceptance open",
   "releaseIslandCount": 5,
@@ -192,7 +192,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Rex and Trike retain approved looks; Anky/Brachio need redos and Stego/Iguanodon/Microraptor/Anzu need complete first packages. Iguanodon now has local ranch/reveal source routes; its full-package, Frozair and native acceptance remain open."
+          "detail": "Rex/Trike looks are integrated; Anky/Brachio need redos and four residents need first complete source packages. Iguanodon ranch/nap is committed and reveal remains local; recorded finish findings and size/stride/source-integration proof remain. No package-count gain."
         },
         {
           "label": "World",
@@ -202,10 +202,10 @@
         {
           "label": "Phone",
           "state": "open",
-          "detail": "Recorded source/desktop proofs are not full final-candidate native acceptance. Arrange both OSes for the Oct 25 slice, including OS kill/relaunch and persistence."
+          "detail": "Due today: full fresh Fernlands native loop and OS kill/relaunch on Android + physical iOS. No new complete proof located as of this review. Scoped Android eye checks and earlier source fixtures do not close this gate."
         }
       ],
-      "next": "Native fresh full loop and OS kill/relaunch by Oct 25; all-five acceptance by Nov 1. Finish Iguanodon full-package review after its source reveal proof.",
+      "next": "Fernlands native full loop and OS kill/relaunch are due today and remain pending; all-five acceptance stays Nov 1. Close Iguanodon’s whole approved source-package contract separately.",
       "gateLabel": "Phone slice"
     }
   ],
@@ -324,8 +324,8 @@
         57,
         29
       ],
-      "status": "Source parity fixed · native proof open",
-      "why": "The reset defect and compile-failure runner are fixed. Remaining acceptance requires an authorized native candidate and both platform coverage.",
+      "status": "Due today · native proof pending",
+      "why": "Reset parity remains fixed. No new full fresh Fernlands loop/kill-relaunch proof on Android + physical iOS was located. Preserve the no-new-build constraint; any new candidate requires separate authorization.",
       "doneWhen": "Fresh arrival → shop → hatch → work → collect/sell → expand → travel, then OS kill/relaunch with intact ownership, eggs, Bag, collection and events. Fernlands by Oct 25; all five by Nov 1. Record exact build/device/backend scope."
     },
     {
@@ -340,9 +340,9 @@
         25,
         29
       ],
-      "status": "Capacity gate",
-      "why": "10 approved looks integrated; 11 redos and 19 first packages remain. Iguanodon reveal source integration passed, but its partly polished ranch work and pending full-package/native acceptance do not reduce the 30 remaining.",
-      "doneWhen": "At Oct 25 compare measured complete-package rates separately for redos and new bodies. Oct 23 minimum: 30 packages / 16 days × 7 = 13.1/week, including 19 first packages at 8.3/week, before polish/worlds/QA. These are requirements, not observed capacity. Present resources/date tradeoffs if capacity misses."
+      "status": "Capacity decision due today",
+      "why": "Counts stay 10 integrated / 11 redos / 19 first packages: 30 remain. Iguanodon ranch/nap commits and local reveal progress do not close its recorded finish, size/stride or whole-source-package findings. No qualified complete-package rate is established.",
+      "doneWhen": "Today, compare measured first-package and redo rates. Minimum to Nov 8: 30 packages / 14 days × 7 = 15.0/week, including 19 first packages at 9.5/week, before worlds/polish/QA. Recommend pausing optional work. Keeping 40 and Dec 1 needs credible added capacity; otherwise Frozair decides resources/date tradeoffs."
     },
     {
       "id": "seed-roster",
@@ -404,7 +404,7 @@
         57
       ],
       "status": "Independent launch blocker",
-      "why": "Historical hosted backup/restore, crash receipt and staging capacity evidence is incomplete. Discover limits this week.",
+      "why": "No new minimum-device, backup or crash-alert receipt proof was located. The October 4 operations record is historical evidence, not a current live-failure diagnosis. Today’s initial device/recovery checkpoint remains pending.",
       "doneWhen": "Confirm backup configuration, crash alert receipt and minimum-device baseline Oct 25; isolated hosted restore and load rehearsal by Nov 1."
     },
     {
@@ -420,8 +420,8 @@
         47
       ],
       "status": "Selected packages approved · later profiles open",
-      "why": "Selected economy/storage/Fernlands packages and the approved all-island shop-band hatch curve are committed in source. The latest bounded study matches all 40 actual prices but excludes that newer hatch curve. Once-daily progression target remains five to six weeks; Brachio stays 2B.",
-      "doneWhen": "Review 24 Giants/Snow/Swamp assignments with coherent earning, Luck, XP, hatch and ability profiles. Keep prices unchanged; avoid price-only retuning. Update models and Brooder/Amber/gameplay proof for the approved hatch curve and current spending/events/variants. Bounded studies are diagnostics, not player forecasts."
+      "why": "Approved held-and-spent island gates and the shop-band hatch curve are source committed. The latest actual-price study predates both; its lifetime-found/coin-only model is stale. Five to six weeks remains a target, not a qualified outcome. Keep actual prices and Brachio 2B unchanged.",
+      "doneWhen": "Update the model to current held/spent gates, protected Sell All stacks, craft consumption and hatch timings; gate quantities remain provisional. Recheck Brooder/Amber and ordinary/unlucky play. Review 24 later-island assignments with coherent earning/Luck/XP/abilities; avoid price-only retuning and player forecasts before proof."
     },
     {
       "id": "cast-worlds",
@@ -467,7 +467,7 @@
         58
       ],
       "status": "Start this week",
-      "why": "Age/privacy decisions, listing assets and public review can block an otherwise finished game.",
+      "why": "Age/privacy decisions, listing assets and public review can block launch. The #10 ASTC/store-coverage audit awaits owner acceptance of new Play terms; maintenance does not accept terms or grant new consent.",
       "doneWhen": "Resolve project’s audience/sign-in requirement, align disclosures, finish assets and submit both public builds Nov 16."
     },
     {
@@ -494,7 +494,7 @@
     {
       "title": "Approve later-island profile choices",
       "due": "2026-10-25",
-      "recommendation": "Selected economy packages and the all-island hatch curve are source committed. Latest bounded study matches all 40 actual prices; its inputs exclude the newer hatch curve. Review 24 Giants/Snow/Swamp assignments with coherent earning/Luck/XP/abilities. Keep prices and Brachio 2B unchanged; retain the once-daily 5–6-week target.",
+      "recommendation": "Held/spent gates and shop-band hatch timings are approved in source; special gate quantities remain provisional. Update the stale pacing model before judging the 5–6-week target. Review 24 later assignments with coherent earning/Luck/XP/abilities. Keep actual prices and Brachio 2B unchanged.",
       "state": "Decision needed"
     },
     {
@@ -512,21 +512,21 @@
     {
       "title": "Does the measured pace fit Nov 8?",
       "due": "2026-10-25",
-      "recommendation": "Forecast11redos+19first packages separately, plus remaining Forest polish, worlds and native QA. If capacity misses Nov8, remove optional features first and present resources/date tradeoffs. Never silently cut the40.",
+      "recommendation": "Today’s 30 packages / 14 days require 15.0/week, including 9.5 first packages/week, before worlds/polish/QA. No qualified complete-package rate exists. Recommend pausing optional work; retaining 40 and Dec 1 needs credible added capacity. If unavailable, Frozair decides resources/date tradeoffs; no automatic scope/date cut.",
       "state": "Evidence due"
     },
     {
       "title": "Agree next creature production scope",
       "due": "2026-10-25",
       "state": "Open",
-      "recommendation": "Iguanodon dedicated reveal is integrated locally and passed source review. Coordinate with its art owner to finish partly polished ranch work, full-package/Frozair review and full hatch UI/native proof. Record complete-package timing; bound Titanoboa/Mammoth experiments within agreed method and spending."
+      "recommendation": "Iguanodon ranch bank/nap is committed; reveal remains local. Close recorded finish findings and size/stride/source-integration proof before counting its approved ranch/reveal package. Record complete-package time and rework. Final Frozair/UI/native acceptance is separate; next creature scope/spending still needs agreement."
     }
   ],
   "risks": [
     {
       "title": "30 asset packages before Nov 8",
       "level": "High",
-      "action": "10 approved looks integrated; 11 redos + 19 first packages remain. The 16 days to Nov 8 require 13.1 packages/week minimum, including 8.3 first packages/week, before polish/worlds/voices/QA. Source reveal progress is not a completed package. No sustained capacity demonstrated; decide resources/date tradeoffs Oct 25.",
+      "action": "10 integrated / 11 redos / 19 first packages; 30 remain. Fourteen days to Nov 8 require 15.0 packages/week, including 9.5 first packages/week, before worlds/voices/polish/QA. These are requirements, not demonstrated capacity. Today’s resource/date decision is pending; recommend pausing optional work.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -547,7 +547,7 @@
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "Latest bounded study matches all 40 actual prices; older frozen commercial capsules retain 15 substitutions. The study excludes the newer approved hatch curve. Review 24 later-island assignments with coherent earning/Luck/XP/abilities; qualify Brooder/Amber, spending/events/variants and ordinary/unlucky play before player forecasts.",
+      "action": "All 40 prices match the pinned source108 study, but it predates approved held/spent gates and hatch timings. Its cumulative-found/coin-only unlock assumptions are stale. Gate quantities are provisional. Update models and ordinary/unlucky gameplay proof; review 24 coherent profiles before forecasting player pace.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -618,6 +618,14 @@
   ],
   "changes": [
     {
+      "date": "2026-10-25",
+      "text": "Iguanodon ranch bank and seated nap are committed; reveal remains local. Recorded finish/size/stride/source-package findings keep counts at 10 integrated / 11 redos / 19 first packages. Today’s native/capacity gates remain pending. Fourteen days to freeze require 15.0 total and 9.5 first packages/week; capacity is unproven."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "Approved held-and-spent island gates are source committed; quantities remain provisional. The actual-price study predates these gates and the hatch curve, so pacing proof needs updating. Forest gait/spacing/river polish advanced; scoped Android eye checks do not close Fernlands or physical iOS acceptance."
+    },
+    {
       "date": "2026-10-23",
       "text": "Iguanodon dedicated reveal integrated locally and passed source checks/visual review; complete-package/Frozair/full UI/native acceptance remains open. Stegouros polish accepted in source. Counts stay 10 integrated / 11 redos / 19 first packages; 16 days to freeze require 13.1 total and 8.3 first packages per week, not observed capacity."
     },
@@ -668,43 +676,43 @@
       "detail": "30c4016af commits seed repair and fail-closed runner. Recorded true seed-last98-migration export:35checks/0, all40homes/eight-shop/Book/starters/prices/hatches plus1000SQL-profile comparisons. Later packages have their own pinned checks. This is not a fresh full current-HEAD/native/hosted acceptance pass."
     },
     {
-      "label": "Exact 40 art contract · Oct 23",
-      "detail": "#42: 10 approved looks integrated; 11 redos + 19 first packages remain. Ranch/reveal source presence: 21/21 committed, 22/22 working. Local Iguanodon reveal adds 17 files at 30.15/32 MiB, passes 1,438 copied sprite checks and independent source visual review; full-package/Frozair/UI/native acceptance remains open. Accepted Stegouros idle/hatch polish adds no package count. Website still baseline is unchanged."
+      "label": "Exact 40 source-package contract · Oct 25",
+      "detail": "#42 counts stay 10 integrated / 11 redos / 19 first packages. Actual ranch/reveal presence: 22/21 committed, 22/22 working. Iguanodon ranch c0d3623c7 and nap 7b1558845 are committed; recorded Oct 24 finish findings (12 takes, 7 gate fails, 269 flagged frames) match 8/8 installed content files. Reveal 9/9 bank/PNG bytes match Oct 23 r6 at 30.15/32 MiB. The 1,438 checks and critic PASS are pinned Oct 23 evidence; only 12/14 current consumer pins match after pace/stride changes. Current consumer/UI/native qualification remains open."
     },
     {
       "label": "Approved economy and remaining assignments",
-      "detail": "Latest #56 bounded 24-path study matches all 40 actual source prices, without substitutions; it is not a player forecast. Coherent 24 Giants/Snow/Swamp assignments remain open. Approved 15s/45s/90s/10m/1h shop-band hatch curve is source committed in 6b63b89ab, not hosted-deployed; existing egg deadlines remain. Updated model/Brooder/Amber/gameplay proof is pending."
+      "detail": "17e685fe3 commits approved held/spent gates: Giants uses land + coins; subsequent islands require holding then spending the previous island’s special. Sell All preserves the required locked-gate stack; crafting can consume it. Quantities remain provisional. Approved 15s/45s/90s/10m/1h hatch curve is source committed; owner notes report alpha rollout, exact receipt unverified here. Existing egg deadlines remain."
     },
     {
       "label": "Model limits",
-      "detail": "The latest actual-price study excludes the newer approved hatch curve. Older frozen commercial capsules still contain 15 price substitutions; that limit does not describe every current model. All studies support only their tested inputs/policies. Full spending/events/variants, native behavior and ordinary/unlucky player pacing remain unqualified; simulated times are not promises."
+      "detail": "Latest bounded 24-path source108 study matches all 40 actual prices but predates both held/spent gates and the hatch curve. Model/config still use lifetime-found specials, sell-all and coin-only unlock assumptions, including a retired Giants gate. Update these before ordinary/unlucky forecasts; 5–6 weeks is a target. Older frozen commercial capsules retain their historical 15 substitutions. The 24 later assignments and coherent earning/Luck/XP/abilities remain open."
     },
     {
-      "label": "Current review scope · Oct 23",
-      "detail": "Reviewed current board, committed source and preserved working evidence without game tests/builds/exports/installs or hosted operations. Iguanodon review is source-only. 16 days to Nov 8: 30 remaining / 16 × 7 = 13.1 packages/week; 19 first packages alone = 8.3/week. These are minimum requirements, not measured capacity."
+      "label": "Current review scope · Oct 25",
+      "detail": "Reviewed recorded source/board evidence without new game tests, builds, installs, hosted queries or spending. Today’s Fernlands/native, capacity and initial device/recovery gates remain pending, not yet missed. Fourteen days to Nov 8: 30 remaining / 14 × 7 = 15.0/week; 19 first packages = 9.5/week. Requirements are not observed capacity."
     },
     {
       "label": "Later source changes and release scope",
-      "detail": "Reviewed source 5d28678e5 includes accepted Stegouros polish (e60793fb1). 6738066ad commits 3 personal starts per island per New York calendar date and the intro-refund fix; one active personal event per account, saved/scheduled free events stay unchanged. Release 0.1.7/build 771 merge f3f9fbbb4 has no verified distribution here; 706 remains the last recorded alpha. Final Fernlands/all-five native gates stay open."
+      "detail": "Forest gait 941061f58, spacing cf2b73b0e and river 1271c7a53 are source polish. Reported Moto debug 5 eye checks do not prove full Fernlands/physical iOS acceptance. Build 771 distribution remains unverified; 706 is the last previously recorded distributed alpha. No new device-floor, backup or crash-receipt proof located. #10 ASTC/store audit awaits owner Play-terms acceptance; no new consent. Source personal starts remain 3 per island per New York date, one active personal event per account."
     }
   ],
   "firstWork": {
-    "title": "First: prove the phone loop and the pace.",
-    "note": "Reset parity is fixed. Two days to the Oct 25 checkpoint: prove Fernlands, measure complete-package capacity and review coherent economy profiles after the new source hatch curve.",
+    "title": "Today: prove, measure, decide.",
+    "note": "Today’s Oct 25 checkpoint is pending: Fernlands native proof, a credible complete-package capacity decision, and a model update for approved gates/hatch timings. No new game build is authorized.",
     "items": [
       {
         "id": "fern-first",
         "step": 1,
         "kind": "engine",
-        "title": "Prove Fernlands on phones",
-        "when": "By Sunday · Oct 25",
+        "title": "Fernlands native proof due today",
+        "when": "Today · Oct 25",
         "owner": "Codex integration · Frozair review",
         "refs": [
           56,
           57,
           29
         ],
-        "outcome": "Use the next separately authorized candidate: verify fresh-start correctness, then a labeled Fernlands test fixture for buy/hatch/work/sell/expand/travel and OS kill/relaunch. Arrange Android + physical iOS. Normal unlock pacing and final art acceptance are separate.",
+        "outcome": "No new complete proof located. Required: fresh Fernlands buy/hatch/work/collect-sell/expand/travel, then OS kill/relaunch with persistence on Android + physical iOS. Preserve the no-new-build constraint; any new candidate needs separate authorization. Real unlock pacing and final art acceptance are separate.",
         "species": [
           "Fresh full loop",
           "Kill + relaunch",
@@ -716,7 +724,7 @@
         "step": 2,
         "kind": "art",
         "title": "Measure all 30 asset packages",
-        "when": "Capacity decision · Oct 25",
+        "when": "Capacity decision · today",
         "owner": "Frozair art direction · Codex production",
         "refs": [
           42,
@@ -724,28 +732,28 @@
           25,
           29
         ],
-        "outcome": "10 approved looks are integrated; 11 redos and 19 first packages remain. Iguanodon reveal source proof passed; finish partly polished ranch work, full-package/Frozair/UI/native review and complete-package timing. Bound Titanoboa/Mammoth proofs within agreed method and spending.",
+        "outcome": "30 source packages remain: 11 redos + 19 first packages. Required capacity is 15.0/week through Nov 8, including 9.5 first packages/week, before worlds/QA. Iguanodon ranch/nap commits are progress; whole approved source-package proof is pending. Decide credible added capacity or resources/date tradeoffs today.",
         "species": [
           "11 redos",
           "19 first packages",
-          "16 days to freeze"
+          "14 days · 15.0/week"
         ]
       },
       {
         "id": "foundation-first",
         "step": 3,
         "kind": "operations",
-        "title": "Choose coherent island profiles",
-        "when": "Next design decision",
+        "title": "Update the current pacing model",
+        "when": "Next economy proof",
         "owner": "Frozair decisions · Codex evidence",
         "refs": [
           56,
           55
         ],
-        "outcome": "The latest bounded study matches all 40 actual prices. It excludes the newer source-committed shop-band hatch curve. Review the 24 Giants/Snow/Swamp assignments with coherent earning, Luck, XP and ability profiles; update model/Brooder/Amber/gameplay proof while keeping prices unchanged.",
+        "outcome": "The actual-price study predates approved held/spent gates and hatch timings. Update those policies, protected Sell All stacks, craft consumption and Brooder/Amber proof before ordinary/unlucky forecasts. Review 24 coherent earning/Luck/XP/ability profiles; quantities remain provisional and actual prices stay unchanged.",
         "species": [
-          "24 assignments",
-          "40 actual prices matched",
+          "Current gates + hatch",
+          "24 profiles",
           "Brachio stays 2B"
         ]
       }
@@ -753,14 +761,14 @@
   },
   "production": {
     "title": "10 looks integrated. 30 species still need assets.",
-    "note": "Green = approved look integrated; amber = older package to redo; diamond = first complete package pending. Ranch/reveal source presence is 21/21 committed and 22/22 in the working tree, including Iguanodon. Its dedicated reveal passed source checks; full-package, Frozair visual and native acceptance remain open. Counts stay 10 integrated, 11 redos and 19 first packages.",
+    "note": "Package cohorts: 10 approved looks integrated, 11 older packages to redo and 19 first complete source packages pending. Actual source presence is 22 committed ranch banks / 21 reveals; 22/22 working. Iguanodon ranch/nap is committed, reveal local; finish, size/stride and whole-source-package proof remain. Final Frozair/UI/native acceptance is separate.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 16,
-    "minimumNewPerWeek": 8.3,
+    "daysToFreeze": 14,
+    "minimumNewPerWeek": 9.5,
     "islands": [
       {
         "id": "forest",
@@ -1088,7 +1096,7 @@
             "name": "Iguanodon",
             "image": "/stompy-acres/roster/iguanodon.webp",
             "bank": "missing",
-            "detail": "Dedicated reveal integrated locally from existing happy source; source checks and visual review passed. Approved-design ranch actions and complete ranch/reveal source integration remain pending; retain in the 19 first packages. Final Frozair visual, full hatch UI and Android/iPhone acceptance are separate.",
+            "detail": "Ranch bank and seated nap are committed; dedicated reveal remains local at 30.15/32 MiB. Recorded finish findings and size/stride/source-integration proof remain open. Retain in the 19 first packages until the whole approved ranch/reveal source contract passes. Final Frozair, hatch UI and native acceptance are separate.",
             "productionStatus": "missing"
           },
           {
@@ -1121,19 +1129,19 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 13.1
+    "minimumTotalPerWeek": 15.0
   },
   "weeklyPlan": {
     "start": "2026-10-22",
     "end": "2026-10-25",
     "title": "This week: finish, prove, decide.",
-    "note": "Recommended Oct 22–25 sprint. Three outcomes; the locked 40 and December 1 stay unchanged.",
+    "note": "Oct 22–25 sprint: today’s evidence/capacity decision remains due. Source progress is recorded below; no complete package or full Fernlands native acceptance is inferred. The locked 40 and December 1 stay unchanged.",
     "priorities": [
       {
         "id": "finish-iguanodon",
         "title": "Finish + time Iguanodon",
         "owner": "Frozair: review · art owner: production",
-        "doneWhen": "Dedicated reveal source integration and checks passed. Finish approved-design ranch actions and complete ranch/reveal source integration before counting the first package. Record hours, retries, cost and defects. Final Frozair visual, full hatch UI and native acceptance are separate.",
+        "doneWhen": "Ranch bank/nap is committed and reveal remains local. Close recorded finish findings and size/stride/source-integration proof; count only the whole approved ranch + dedicated reveal source contract. Record time, retries, cost and rework. Final Frozair, full hatch UI and native acceptance are separate.",
         "refs": [
           42,
           29,
@@ -1154,7 +1162,7 @@
         "id": "decide-capacity",
         "title": "Make Sunday’s capacity call",
         "owner": "Codex: forecast · Frozair: resource decision",
-        "doneWhen": "Use first-package and redo timings separately to forecast through Nov 8, including polish/worlds/QA. Choose next batches; if capacity misses, decide added production help or date tradeoffs.",
+        "doneWhen": "Today, use qualified first-package/redo timings to test the required 15.0 packages/week plus worlds/polish/QA. No rate is established yet. Recommend pausing optional work; decide credible added production capacity or ask Frozair for a resource/date decision without automatic scope cuts.",
         "refs": [
           55,
           42
@@ -1175,24 +1183,24 @@
         "date": "2026-10-23",
         "label": "FRI 23",
         "title": "Finish Iguanodon",
-        "focus": "Iguanodon dedicated reveal is integrated locally and passed source checks/visual review. Art owner and Frozair still need full-package review; full hatch UI and native proof remain open. Codex records actual-price study and newer hatch-curve limits.",
-        "proof": "Source reveal proof only: local files and routes, copied sprite checks and independent source visual pass. Record complete-package timing and remaining ranch/UI/Frozair/native findings; no package-count gain yet."
+        "focus": "Friday’s reveal source fixture passed; ranch-bank progress is now committed. The dedicated reveal remains local, and the whole approved ranch/reveal source package is still pending. The actual-price study also needs current gate/hatch policies.",
+        "proof": "Oct 23 pinned reveal fixture: 1,438 checks + critic PASS. That is historical source proof, not a fresh current-consumer pass. Ranch finish/size/stride findings remain; no package-count gain."
       },
       {
         "id": "sat-24",
         "date": "2026-10-24",
         "label": "SAT 24",
         "title": "Play, close, reopen",
-        "focus": "Run the separately authorized Fernlands phone walkthrough and recovery check. If Iguanodon is complete, time one bounded Ankylosaurus redo sample; otherwise finish Iguanodon first.",
-        "proof": "Exact candidate/device/backend evidence. A controlled fixture proves its loop; it does not prove the 5–6-week normal unlock journey."
+        "focus": "Committed seated-nap and Forest gait/spacing/river work advanced source polish. Iguanodon finish/size/stride work remains active. No complete fresh Fernlands phone loop + kill/relaunch proof on Android and physical iOS was located.",
+        "proof": "Recorded Oct 24 ranch finish findings still match installed content. Scoped Moto eye checks do not close the full native gate. Current reveal consumer, full hatch UI and native qualification remain open."
       },
       {
         "id": "sun-25",
         "date": "2026-10-25",
         "label": "SUN 25",
         "title": "Make the release call",
-        "focus": "Review measured art output, native evidence and device/recovery blockers. Review the 24 later-island profile assignments; coherent full-profile acceptance remains due Nov 1.",
-        "proof": "A dated forecast for 19 first packages + 11 redos, adjusted for actual completions, with a resource decision for every capacity gap."
+        "focus": "Today: review the still-pending Fernlands native, device/recovery and complete-package capacity evidence. Make the resource decision; update the economy model for held/spent gates and hatch timings, then review 24 later profiles.",
+        "proof": "As of this review, 30 packages remain and no qualified complete-package rate exists. Required through Nov 8: 15.0/week, including 9.5 first packages/week, plus worlds/QA. Today’s gate is due; it is not yet marked missed."
       }
     ],
     "parking": [
@@ -1202,9 +1210,9 @@
     ],
     "checkpoint": {
       "date": "2026-10-25",
-      "title": "Sunday: evidence, then a decision.",
-      "pass": "Iguanodon integrated. Fernlands phone/recovery proof on both OSes. Timed production forecast and initial device/recovery checks.",
-      "ifMiss": "Remove optional work first; decide added production capacity or a date tradeoff. If only Iguanodon finishes, 29 packages in 14 days need 14.5/week before worlds/QA."
+      "title": "Today: evidence, then a decision.",
+      "pass": "Whole approved Iguanodon ranch/reveal source package. Fernlands fresh phone loop + kill/relaunch on Android and physical iOS. Qualified production forecast and initial device/recovery proof. These conditions remain pending as of today’s review.",
+      "ifMiss": "Recommend pausing optional work. Keeping 40 and Dec 1 needs credible added production capacity for 30 packages / 14 days = 15.0/week, plus worlds/QA. If that capacity is not credible, Frozair must decide resources/date tradeoffs; no automatic date or roster cut."
     },
     "dependencies": [
       "Phone checks need a separately authorized candidate and physical iOS coverage.",

@@ -68,32 +68,43 @@ four dated workdays, recommended pauses and a Sunday evidence/resource checkpoin
 Targets are recommendations, never inferred completions or build/spending permission.
 After the checkpoint, replace the plan using actual evidence; do not silently roll dates.
 
-`firstWork` powers the prominent priorities. `production.islands` maps all40 locked
-IDs/homes to `integrated`, `redo` or `missing`. October 23: 10 approved looks integrated,
-11 redos and 19 first packages remain. Ranch/reveal source presence is 21/21 committed
-and 22/22 working, including Iguanodon’s newly integrated dedicated reveal. Its source
-checks/visual review passed; partly polished ranch work, complete-package/Frozair review,
-full hatch UI and native acceptance remain open. Accepted Stegouros polish adds no package count.
+`firstWork` powers the prominent priorities. `production.islands` maps all 40 locked
+IDs/homes to `integrated`, `redo` or `missing`. October 25: 10 approved looks integrated,
+11 redos and 19 first complete source packages remain. Legacy `existingBanks` (21) and
+`missingBanks` (19) describe package cohorts, not actual file inventory. Actual source
+presence is 22 committed ranch banks / 21 reveals, and 22/22 working. Iguanodon ranch
+bank/nap is committed; reveal remains local at 30.15/32 MiB. Recorded finish findings
+and size/stride/source-integration proof remain open. Count only the whole approved
+ranch/reveal source package; final Frozair, full hatch UI and native acceptance are separate.
+The 1,438 reveal checks/critic PASS are pinned October 23 evidence; current consumer
+qualification remains open after pace/stride changes. Source polish adds no package count.
 
-Recorded seed-last proof verifies40 homes and exact-eight shop/Book/starter sets;
-the earlier reset defect and compile-failure runner are fixed. Retain exact snapshot
-limits: roadmap maintenance runs no game tests/builds or hosted changes. Source merge
-0.1.7/build771 is recorded; this review has not verified its distribution.
+Recorded seed-last proof verifies 40 homes and exact-eight shop/Book/starter sets;
+the earlier reset defect and compile-failure runner remain fixed (35 checks + 1,000
+pinned SQL comparisons). Roadmap maintenance runs no game tests/builds, installs or
+hosted changes. Build 771 distribution is unverified; 706 remains the last previously
+recorded distributed alpha. Scoped Moto debug eye checks do not replace a full phone loop.
 
-First: Fernlands full fresh native loop and OS kill/relaunch by October25, alongside
-capacity and initial device/recovery proof. Coordinate the active Iguanodon art owner
-and bound Titanoboa/Mammoth proofs, with method/spending agreement. At October 23,
-30 remaining asset species / 16 days to Nov 8 requires 13.1/week minimum; 19 first
-packages alone require 8.3/week. Neither is measured capacity. Add worlds/voices/polish/data/QA.
-All-five native/data acceptance byNov1, content freezeNov8, signed betaNov9–15,
-public submissionsNov16, gated releaseDec1. Escalate resources/date tradeoffs without
-silent roster cuts. Latest #56 bounded study matches all 40 actual prices; 24 later
-assignments and coherent earning/Luck/XP/ability profiles remain open. Keep prices unchanged.
-The newer approved 15s/45s/90s/10m/1h shop-band hatch curve is source committed but outside
-that study; updated model/Brooder/Amber/gameplay proof remains. Existing eggs keep deadlines;
-no hosted rollout is implied. Personal starts are now source committed at 3 per island per
-New York calendar date; one active personal event per account remains. Older frozen
-commercial capsules retain their historical 15 substitutions; no study is a player forecast.
+Today’s October 25 Fernlands fresh native loop/OS kill-relaunch and capacity/device/
+recovery checkpoints remain pending, not yet missed. Android + physical iOS proof is
+still needed; preserve the no-new-build constraint. Thirty packages / 14 days to Nov 8
+requires 15.0/week, including 9.5 first packages/week, before worlds/voices/polish/QA.
+These are requirements, not measured capacity. Recommend pausing optional work;
+retaining 40 and Dec 1 needs credible added production capacity, otherwise Frozair
+must decide resources/date tradeoffs. All-five acceptance stays Nov 1, content freeze
+Nov 8, beta Nov 9–15, public submissions Nov 16 and gated release Dec 1. No automatic cuts.
+
+Approved held/spent gates are source committed: Giants uses land + coins; subsequent
+islands require holding then spending the previous island’s special. Sell All protects
+the required locked-gate stack; crafting can consume it. Gate quantities remain provisional.
+The bounded 24-path source108 study matches all 40 actual prices but predates both
+these gates and the approved 15s/45s/90s/10m/1h hatch curve. Update the lifetime-found/
+coin-only model and Brooder/Amber/gameplay proof before ordinary/unlucky forecasts;
+five to six weeks remains a target. Keep actual prices/Brachio 2B unchanged and review
+24 coherent earning/Luck/XP/ability profiles. Owner notes report an alpha hatch rollout;
+its exact receipt is unverified here, and existing eggs keep their deadlines. Personal
+starts remain 3 per island per New York date, one active personal event per account.
+Older frozen commercial capsules retain historical 15 substitutions. No study promises player pace.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek

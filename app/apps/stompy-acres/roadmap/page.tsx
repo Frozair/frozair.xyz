@@ -79,7 +79,7 @@ export interface ReleaseRoadmap {
 }
 
 const roadmap = roadmapSource as ReleaseRoadmap;
-const productionLabels: Record<ProductionStatus, string> = { integrated: "approved look integrated in source", redo: "existing bank needs an asset redo", missing: "first animation package needed" };
+const productionLabels: Record<ProductionStatus, string> = { integrated: "approved look integrated in source", redo: "existing bank needs an asset redo", missing: "first complete source package pending" };
 const stateLabels: Record<CheckState, string> = { implemented: "Built", partial: "In progress", open: "Needs proof" };
 const filters: { value: Filter; label: string }[] = [
   { value: "now", label: "Now" }, { value: "next", label: "Next" },
@@ -217,10 +217,10 @@ export default function ReleaseRoadmapPage() {
         <div className="sa-production-totals">
           <div className="sa-production-integrated"><strong>{roadmap.production.integratedLooks}</strong><span>looks integrated<small>Selected art in source</small></span></div>
           <div className="sa-production-redo"><strong>{roadmap.production.redoPackages}</strong><span>asset redos<small>Existing banks; older looks</small></span></div>
-          <div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>first packages<small>New bodies need motion</small></span></div>
+          <div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>first packages<small>Complete source packages pending</small></span></div>
         </div>
         <div className="sa-production-pace"><strong>{roadmap.production.minimumTotalPerWeek.toFixed(1)}<small> species/week minimum</small></strong><span>{roadmap.production.remainingPackages} packages in {roadmap.production.daysToFreeze} days · by {dateLabel(roadmap.production.freezeDate)}<small>Before polish, worlds &amp; QA</small></span></div>
-        <div className="sa-production-legend"><span><i className="sa-bank-mark is-integrated" />Look integrated</span><span><i className="sa-bank-mark is-redo" />Asset redo</span><span><i className="sa-bank-mark is-missing" />First package</span><span>{roadmap.production.existingBanks} banks exist · {roadmap.production.missingBanks} missing. Source integration ≠ release acceptance.</span></div>
+        <div className="sa-production-legend"><span><i className="sa-bank-mark is-integrated" />Look integrated</span><span><i className="sa-bank-mark is-redo" />Asset redo</span><span><i className="sa-bank-mark is-missing" />First package</span><span>{roadmap.production.existingBanks} existing packages · {roadmap.production.missingBanks} first complete packages pending. Source integration ≠ release acceptance.</span></div>
         <div className="sa-production-grid">{roadmap.production.islands.map(island => {
           const integrated = island.residents.filter(resident => resident.productionStatus === "integrated").length;
           const redo = island.residents.filter(resident => resident.productionStatus === "redo").length;
