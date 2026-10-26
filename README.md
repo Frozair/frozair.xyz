@@ -63,48 +63,55 @@ selected-look/motion approval, runtime integration and final acceptance distinct
 Local Keep/Bench/export choices are personal change proposals; they never unlock
 or mutate the shared approved cast. Preserve `selectionVersion` and older drafts.
 
-`weeklyPlan` powers `/apps/stompy-acres/roadmap#sa-this-week`: three outcomes,
-four dated workdays, recommended pauses and a Sunday evidence/resource checkpoint.
-Targets are recommendations, never inferred completions or build/spending permission.
-After the checkpoint, replace the plan using actual evidence; do not silently roll dates.
+`weeklyPlan` powers `/apps/stompy-acres/roadmap#sa-this-week`. The October 26–November 1
+plan records the prior October 22–25 outcomes before the new targets. The October 25
+combined native/capacity/device/ops gate was unmet. A late October 26 controlled Moto
+fixture passed Fernlands starter/shop/Iguanodon hatch/work and OS kill/relaunch.
+Fernlands selling, expansion, travel away/back, complete Book/shop coverage and physical
+iOS remain unrecorded. Pixel was dropped by Frozair. Assisted coins/specials do not
+prove ordinary 5–6-week progression. Native receipts are board-recorded observations;
+maintenance did not independently review the raw captures or execute hosted operations.
 
-`firstWork` powers the prominent priorities. `production.islands` maps all 40 locked
-IDs/homes to `integrated`, `redo` or `missing`. October 25: 10 approved looks integrated,
-11 redos and 19 first complete source packages remain. Legacy `existingBanks` (21) and
-`missingBanks` (19) describe package cohorts, not actual file inventory. Actual source
-presence is 22 committed ranch banks / 21 reveals, and 22/22 working. Iguanodon ranch
-bank/nap is committed; reveal remains local at 30.15/32 MiB. Recorded finish findings
-and size/stride/source-integration proof remain open. Count only the whole approved
-ranch/reveal source package; final Frozair, full hatch UI and native acceptance are separate.
-The 1,438 reveal checks/critic PASS are pinned October 23 evidence; current consumer
-qualification remains open after pace/stride changes. Source polish adds no package count.
+Frozair reaffirmed all 40 and December 1 on October 25 (decision 23a20f3a), chose
+Fernlands first and parked Forest polish #65–76 behind island production. New daily
+cards are targets, not spending/build authorizations. Preserve milestone dates;
+record an unmet gate instead of silently rolling it. The first work is Iguanodon's
+whole source contract, owner-reviewed Fernlands packages, missing phone actions/iOS
+coverage and credible parallel capacity with current device/recovery/store evidence.
 
-Recorded seed-last proof verifies 40 homes and exact-eight shop/Book/starter sets;
-the earlier reset defect and compile-failure runner remain fixed (35 checks + 1,000
-pinned SQL comparisons). Roadmap maintenance runs no game tests/builds, installs or
-hosted changes. Build 771 distribution is unverified; 706 remains the last previously
-recorded distributed alpha. Scoped Moto debug eye checks do not replace a full phone loop.
+`production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
+October 26: 10 approved-look source packages integrated, 11 redos and 19 first complete
+packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
+encode package cohorts, not file inventory. Actual named source presence is now 22
+committed ranch banks / 22 root reveal banks; 18 species lack named banks. Iguanodon's
+reveal is committed in 58ab5665cf and strides in 204d997568, but its whole source
+package remains unaccepted. Finish/size/voice/current-consumer integration proof is
+separate from final Frozair/full hatch UI/native acceptance. Historical October 23
+1,438 reveal checks/critic PASS and the unchanged 30.15/32 MiB bank do not constitute
+a fresh current-candidate pass. Anky/Brachio/Stego local owner candidates add no counts.
 
-Today’s October 25 Fernlands fresh native loop/OS kill-relaunch and capacity/device/
-recovery checkpoints remain pending, not yet missed. Android + physical iOS proof is
-still needed; preserve the no-new-build constraint. Thirty packages / 14 days to Nov 8
-requires 15.0/week, including 9.5 first packages/week, before worlds/voices/polish/QA.
-These are requirements, not measured capacity. Recommend pausing optional work;
-retaining 40 and Dec 1 needs credible added production capacity, otherwise Frozair
-must decide resources/date tradeoffs. All-five acceptance stays Nov 1, content freeze
-Nov 8, beta Nov 9–15, public submissions Nov 16 and gated release Dec 1. No automatic cuts.
+Thirty packages / 13 days to November 8 require 16.2/week, including 10.2 first
+packages/week, before worlds/voices/rework/QA. One ranch bank in about three days is
+partial timing, not a qualified complete-package rate. Assign credible parallel
+capacity; do not invent budget, output, spending or a roster/date change. All-five
+native/data acceptance and isolated restore/load stay November 1, freeze November 8,
+beta November 9–15, public submissions November 16 and gated launch December 1.
 
-Approved held/spent gates are source committed: Giants uses land + coins; subsequent
-islands require holding then spending the previous island’s special. Sell All protects
-the required locked-gate stack; crafting can consume it. Gate quantities remain provisional.
-The bounded 24-path source108 study matches all 40 actual prices but predates both
-these gates and the approved 15s/45s/90s/10m/1h hatch curve. Update the lifetime-found/
-coin-only model and Brooder/Amber/gameplay proof before ordinary/unlucky forecasts;
-five to six weeks remains a target. Keep actual prices/Brachio 2B unchanged and review
-24 coherent earning/Luck/XP/ability profiles. Owner notes report an alpha hatch rollout;
-its exact receipt is unverified here, and existing eggs keep their deadlines. Personal
-starts remain 3 per island per New York date, one active personal event per account.
-Older frozen commercial capsules retain historical 15 substitutions. No study promises player pace.
+Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
+the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
+Build 771 distribution remains unverified, 706 the last previously recorded distributed
+alpha; the current debug fixture is distinct. Initial device-floor/backup/crash proof
+is still unproven. October 4 ops observations are historical, not a live-failure diagnosis.
+
+Approved held/spent gates: Giants land + coins; later islands hold then spend the prior
+island's special. Sell All protects the locked-gate stack; crafts may consume it.
+Quantities remain provisional. The native owner now reports the separately authorized
+alpha hatch/event/held-gate rollout and tester-only special fixture helper. Maintenance
+performed no hosted query/write. The current model/config and bounded actual-price
+study predate held/spent gates and hatch timings; qualify those, Brooder/Amber and
+ordinary/unlucky play before forecasts. Keep actual prices/Brachio 2B and review 24
+coherent profiles. Personal starts remain three per island per New York date; one
+active personal event per account. Older frozen capsules retain historical substitutions.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek
@@ -134,4 +141,4 @@ Keep/Bench casting choices. Validate the 40 matching IDs and all image metadata 
 The selected still baseline is approved as of October19 (BrachioR8; preserve Rex/Leafy).
 Leafy is the game’s stylized Velociraptor. Keep art sources, crops and local drafts intact.
 Fresh-start launch approval supersedes legacy relocation work; roadmap maintenance
-executes no hosted reset. Fernlands native proof stays Oct25 and all-five proof Nov1; iOS coverage is needed.
+executes no hosted reset. The unmet Oct25 checkpoint remains recorded; all-five proof stays Nov1 and physical iOS coverage is needed.
