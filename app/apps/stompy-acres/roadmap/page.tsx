@@ -174,7 +174,7 @@ export default function ReleaseRoadmapPage() {
         <div className="sa-week-outcomes" aria-label="Three outcomes to earn">{roadmap.weeklyPlan.priorities.map((priority, index) => <article key={priority.id}>
           <span className="sa-week-priority" aria-label={`Priority ${index + 1}`}>0{index + 1}</span><div><h3>{priority.title}</h3><footer><span>{priority.owner}</span><BoardRefs refs={priority.refs} /></footer><details><summary>Done when <span aria-hidden="true">+</span></summary><p>{priority.doneWhen}</p></details></div>
         </article>)}</div>
-        <ol className="sa-week-days" aria-label="Four-day focus plan">{roadmap.weeklyPlan.days.map((day, index) => <li key={day.id}>
+        <ol className="sa-week-days" aria-label="Daily focus plan">{roadmap.weeklyPlan.days.map((day, index) => <li key={day.id}>
           <div className="sa-week-day-top"><span>{day.label}</span><time dateTime={day.date}>{dateLabel(day.date)}</time></div><span className="sa-week-day-number" aria-hidden="true">0{index + 1}</span><h3>{day.title}</h3>
           <details><summary>Work + proof <span aria-hidden="true">+</span></summary><div><p><b>Focus</b>{day.focus}</p><p><b>Proof</b>{day.proof}</p></div></details>
         </li>)}</ol>
