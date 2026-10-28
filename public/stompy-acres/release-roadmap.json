@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-26",
-  "nextReview": "2026-10-27",
+  "asOf": "2026-10-28",
+  "nextReview": "2026-10-29",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Late Moto Fernlands hatch/relaunch proof is recorded. The October 25 combined gate was unmet; 30 source packages and iPhone qualification remain.",
+  "healthNote": "Anky and Giants source production advanced. Complete-package counts remain unqualified; 30 packages in 11 days and physical iOS are still open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "10 looks integrated · 11 asset redos · 19 first packages · final native acceptance open",
+  "resourcesNote": "10 looks integrated · 11 redos · 19 first packages · new source banks under qualification",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -61,7 +61,7 @@
           "detail": "Scoped Android observations exist. Source fixes address #64 runner/callout/card issues; combined-candidate regression, sustained performance and iOS coverage remain."
         }
       ],
-      "next": "Forest polish is parked behind island production by Frozair. Retain recorded findings for final combined device qualification.",
+      "next": "Optional Forest polish remains parked behind island production. The active #75 variant-look owner has separate scoped work; retain all findings for final combined device qualification.",
       "gateLabel": "Full integration"
     },
     {
@@ -71,8 +71,8 @@
       "color": "#aa7444",
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
-      "status": "6 asset redos · 2 first packages",
-      "summary": "Eight source residents verified. All eight still require their approved-design asset production: six redos and two first packages.",
+      "status": "New ranch banks · full packages open",
+      "summary": "Seven new video ranch banks and a Diplodocus repack are committed. Directional movement/actions and reveal work remain; six redos and two first complete packages are still pending.",
       "ref": 23,
       "gateDate": "2026-11-08",
       "checks": [
@@ -84,7 +84,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Six older banks need approved-design redos; Deinocheirus and Amargasaurus need first ranch and reveal packages. Final profile assignments also remain."
+          "detail": "7801906518 adds seven video ranch banks and repacks Diplo. These are partial packages: directional walks/actions remain, with later uncommitted action/reveal candidates. Old reveal presence does not prove approved-look matching. Full profiles/native acceptance remain."
         },
         {
           "label": "World",
@@ -97,7 +97,7 @@
           "detail": "Giant clearance, 16 residents, duplicate mixes and loading need final release-device evidence."
         }
       ],
-      "next": "Produce the two missing residents and qualify modular valley clearance, water and native performance.",
+      "next": "Complete and qualify the new banks’ directional movement, actions and selected-look reveals; retain valley/16-resident clearance and phone checks.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -180,7 +180,7 @@
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
       "status": "2 looks integrated · 6 packages remain",
-      "summary": "Rex/Trike source looks are integrated. Iguanodon reveal and strides are committed; the whole source package remains open. A controlled Moto destination fixture passed hatch/work/relaunch; full island and iPhone acceptance remain.",
+      "summary": "Anky now has ranch/reveal/shop assets in source; Iguanodon reveal/strides remain committed. Both still need complete source qualification. Brachio R8 and Stego remain in the owner’s queue; final world/phone acceptance is open.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
@@ -192,7 +192,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Two redos and four first complete packages remain. Iguanodon ranch, nap, reveal and stride source are committed; finish, size, voice and integration proof remain. Anky/Brachio/Stego owner candidates are in progress, not accepted packages."
+          "detail": "Rex/Trike integrated; Anky source bank/reveal/shop committed, with finish/join findings and Moto size/run review open. Iguanodon whole source qualification remains. Two redos/four first packages stay pending; no count gain from bank presence."
         },
         {
           "label": "World",
@@ -205,7 +205,7 @@
           "detail": "Late October 26 Moto fixture: assisted unlock, starter, shop, Iguanodon hatch/work and OS kill/relaunch recorded. Fernlands sell, expansion, return travel, complete Book/shop coverage and physical iOS are not recorded. Pixel was dropped by Frozair."
         }
       ],
-      "next": "Finish the omitted Android actions, arrange physical iOS and qualify all five by Nov 1. Close Iguanodon’s whole source package and the active Anky look checkpoint with their owners.",
+      "next": "Close Iguanodon/Anky source qualification with their owners, then Brachio R8/Stego. Still record omitted Moto actions and physical iOS/all-five proof by Nov 1; do not reopen Anky’s settled colour choice.",
       "gateLabel": "Oct 25 gate unmet"
     }
   ],
@@ -341,8 +341,8 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "Frozair reaffirmed 40 and Dec 1, parked Forest polish and chose Fernlands first. Iguanodon reveal/stride commits and owner-held Anky/Brachio/Stego candidates are progress, not complete-package throughput.",
-      "doneWhen": "Assign credible parallel production lanes and record complete first-package/redo time, retries and rework. 30 packages / 13 days × 7 = 16.2/week, including 10.2 first packages/week, before worlds/voices/QA. No invented budget, output rate, spending or roster/date change."
+      "why": "Anky’s ranch/reveal/shop and seven Giants ranch banks are now committed. Their complete source qualification is still open; newer owner-held candidates and shader work add no accepted-package count. One ranch in ~3 days remains partial timing.",
+      "doneWhen": "Measure accepted first-package and redo output, time, retries and rework. Thirty packages over 11 days require 19.1/week, first packages 12.1/week, before worlds/voices/QA. Assign credible parallel capacity without invented budget/rate, automatic spending or scope/date changes."
     },
     {
       "id": "seed-roster",
@@ -356,7 +356,7 @@
       ],
       "status": "Reset verified · final profiles open",
       "why": "Seed-last source proof covers all40 homes/eight-shop/Book/starters. Remaining exact economic and asset contracts must match the approved game.",
-      "doneWhen": "Record each exact ID/home, approved profile, body/size, ranch/reveal, voice/habitat and source/native evidence. Review the24 candidate later-island assignments and their full profiles before changing values."
+      "doneWhen": "Record exact IDs/homes, approved coherent profiles, ranch/reveal contracts, voice and source/native evidence. Close 24 later-island profile assignments with current gate/hatch/model proof. Do not count new banks or old reveals as a complete approved package."
     },
     {
       "id": "measure",
@@ -387,7 +387,7 @@
         69
       ],
       "status": "Parked by Frozair",
-      "why": "October 25 decision 23a20f3a parks Forest polish #65–76 behind island production. Preserve accepted work and findings.",
+      "why": "Frozair parked optional Forest polish behind island production. #75 is now an active scoped owner task: Gold/Shiny Gold source work is recorded complete; other variants and final native review remain. Do not generalize this exception to every parked task.",
       "doneWhen": "Resume optional polish only when Frozair reprioritizes it. Final launch-blocking combined native regressions still belong to #57."
     },
     {
@@ -434,7 +434,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "Locked40/approved stills and seeded homes are complete. Asset production still includes11redos+19first packages; worlds/expansions, voice coverage, habitat and native QA also remain.",
+      "why": "Locked 40 and selected stills stay. Anky and Giants source production advanced, but counts stay 11 redos + 19 first packages pending complete source qualification. Worlds, voices, variants, habitat and native QA remain separate work.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -509,21 +509,21 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair reaffirmed the date and full roster October 25 (23a20f3a), parked Forest polish and chose Fernlands first. 30 packages / 13 days require 16.2/week before worlds/QA. Assign credible parallel capacity; partial ranch timing is not a complete-package rate.",
+      "recommendation": "Frozair fixed the date/full roster October 25 (23a20f3a), parked optional Forest polish and chose Fernlands first. Thirty remaining complete packages over 11 days require 19.1/week before worlds/QA. Qualify new output and assign credible parallel capacity; partial ranch timing is not throughput.",
       "state": "Approved scope · capacity open"
     },
     {
       "title": "Fernlands first",
       "due": "2026-10-25",
-      "state": "Approved queue · checkpoints open",
-      "recommendation": "Iguanodon reveal/strides are committed. Close its whole source package; owner-held Anky, Brachio R8 and Stego follow. Anky’s lighter-look question stays at its active checkpoint. No maintenance production/spending authorization follows."
+      "state": "Approved queue · source qualification open",
+      "recommendation": "Anky ranch/reveal/shop are now committed and its earlier colour choice is kept. Close finish/join/source and Moto size/run review with the owner. Iguanodon whole source qualification remains; Brachio R8/Stego follow. No new production/spend approval from maintenance."
     }
   ],
   "risks": [
     {
       "title": "30 asset packages before Nov 8",
       "level": "High",
-      "action": "30 remain over 13 days: 16.2 complete packages/week, including 10.2 first packages/week, before worlds/voices/rework/QA. Scope and Dec 1 were reaffirmed; Forest polish is parked. Assign credible parallel capacity. No qualified complete-package rate exists.",
+      "action": "Anky/Giants bank progress is substantial but not qualified complete output. Thirty packages over 11 days require 19.1/week, including 12.1 first packages/week, before worlds/voices/rework/QA. Fixed40/Dec1; assign credible parallel capacity and measure accepted packages.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -537,7 +537,7 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "High",
-      "action": "Late Oct 26 Moto fixture proves assisted Fernlands hatch/work/kill-relaunch. Sell/expansion/return travel/full Book/shop and physical iOS remain unrecorded. The Oct 25 combined gate was unmet; all-five acceptance remains Nov 1.",
+      "action": "No newer receipt located after the controlled Oct26 Moto Fernlands hatch/work/relaunch. Selling, expansion, return travel, complete Book/shop and physical iOS remain unrecorded. All-five acceptance stays Nov1; new debug/source/shader commits are not device proof.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
@@ -615,6 +615,14 @@
   ],
   "changes": [
     {
+      "date": "2026-10-28",
+      "text": "Anky ranch/reveal/shop committed151fe3497b; seven Giants video ranch banks and Diplo repack committed7801906518. Anky finish/join qualification and Giants directional/action/reveal gaps remain. Counts stay10/11/19;30packages over11days require19.1/week beforeworlds/QA."
+    },
+    {
+      "date": "2026-10-28",
+      "text": "Gold/Shiny Gold source looks now match Rex; Gold/Glow lift fix is committed but awaits its visual verdict. Rainbow and remaining variants are still open under active#75. No new complete native receipt; debug fixture and Ranch Log/Bag guidance are source commits. No Oct27 director audit is inferred."
+    },
+    {
       "date": "2026-10-26",
       "text": "Oct 25 combined gate was unmet. Late Oct 26 controlled Moto proof records Fernlands starter/shop/Iguanodon hatch/work and OS kill/relaunch. Selling, expansion, return travel, full Book/shop and physical iOS remain unrecorded. The native owner reports current hatch/event/held-gate alpha rollout under separate authorization."
     },
@@ -689,43 +697,52 @@
       "detail": "Latest bounded 24-path source108 study matches all 40 actual prices but predates both held/spent gates and the hatch curve. Model/config still use lifetime-found specials, sell-all and coin-only unlock assumptions, including a retired Giants gate. Update these before ordinary/unlucky forecasts; 5–6 weeks is a target. Older frozen commercial capsules retain their historical 15 substitutions. The 24 later assignments and coherent earning/Luck/XP/abilities remain open."
     },
     {
-      "label": "Exact source-package contract · Oct 26",
-      "detail": "HEAD204d997568. Counts10/11/19 unchanged; 22 committed ranch/22 root reveal banks. Iguanodon reveal58ab5665cf matches9/9r6content hashes at30.15/32MiB; stride204d997568 records approved-by-eye measurements. Recorded Oct24 finish findings remain12takes/7fails/269flaggedframes. Whole source package and voice/size/integration proof stay open. Historical1438checks are not a fresh current-consumer pass."
-    },
-    {
       "label": "Late Moto destination proof · Oct 26",
       "detail": "#56 13:36Z board receipt: 941061f58 debug candidate plus owner-held menu changes, granted coins/specials, real unlock chain then Fernlands starter/shop/Iguanodon45s hatch/work and OS kill/relaunch. Exact cash/home/rooms/dinos retained. Raw captures not independently reviewed here. Fernlands sell/expansion/return travel/complete Book-shop and physical iOS remain unrecorded. Pixel dropped by Frozair; no new reboot requirement added."
     },
     {
-      "label": "Director scope and capacity",
-      "detail": "#55 decision23a20f3a Oct25 retains40/Dec1, parks Forest polish65–76, Fernlands first. One ranch bank in~3days is partial timing. Thirty complete source packages over13days require16.2/week, first packages10.2/week, before worlds/rework/voices/QA; no qualified capacity established. Initial device/ops proof still absent; old Oct4 observations are historical."
+      "label": "Anky and Giants source progress · Oct 28",
+      "detail": "HEAD9d4b00fc98. Anky151fe3497b commits full ranch/reveal/shop/routes;13/13 generated content files match. Recorded802ranch+197reveal frames carry finish flags mainly~5.0–5.3% off-colour vs5%cap, plus front-rest7.6x seam. Findings need disposition; colour choice is kept, Moto size/run open. Giants7801906518 commits seven partial video banks/Diplo repack; directional/actions unfinished. Working Deino/Amarga reveals remain untracked; four older Giants reveals are locally modified. No maintenance test or repack."
     },
     {
-      "label": "Current review scope · Oct 26",
-      "detail": "Reviewed repository, Pigeon and recorded owner evidence; no maintenance game tests/imports/builds/installs/hosted operations or art spending. New dated Oct26–Nov1 plan records the unmet Oct25 gate and late partial progress. Build771 distribution unverified,706previous distributed alpha; debug proof is distinct. #10 Play terms need owner action; no agreement accepted."
+      "label": "Package counts versus bank inventory",
+      "detail": "10 integrated/11 redo/19 first complete packages remain. Committed named ranch/reveal banks24/22, working24/24;16species lack named banks. Iguanodon whole source qualification stays open despite committed reveal/stride. Old1438reveal checks and owner2251/0checks are snapshot evidence, not current native acceptance. All40selected reference hashes/images/homes stay unchanged."
+    },
+    {
+      "label": "Variant source progress · scoped owner work",
+      "detail": "#75 records ShinyGold ddc932d065, Gold6b15478191 and method768cfc97c4; Gold/Glow9d4b00fc98 preserves black/amber, awaiting Frozair verdict per canonical skill. Rainbow/ShinyRainbow/Meteor/ShinyMeteor/Shiny and remaining Glow review stay open. #79 dark-sky Glow idea is unapproved in its description despite board status; no implemented night-response system is inferred. Odds and existing appearance combinations are unchanged."
+    },
+    {
+      "label": "Current native/ops/model limits · Oct 28",
+      "detail": "No new #56/#57/#58 receipt after Oct26. Debug helper fe36a864db is now committed; welcome-back/egg-alert5d1cc3e535 and RanchLog/Bag guidance d1b09f1451 are source progress only. PhysicaliOS/fullFernactions/devicefloor/currentbackup/crash/restore proof remain. Model/config still use superseded cumulative/coin-only assumptions; actual-price study predates current gates/hatch. Build771distribution unverified; Oct4 ops historical."
+    },
+    {
+      "label": "Current review and capacity · Oct 28",
+      "detail": "30remaining/11days toNov8×7=19.1complete packages/week;19first/11×7=12.1/week, beforeworlds/voices/rework/QA. Not observed capacity. Fixed40/Dec1 and original milestone/Oct26–Nov1 week dates preserved, with actuals annotated. No maintenance game tests/imports/builds/installs/hosted queries/art spending or game commits."
     }
   ],
   "firstWork": {
-    "title": "Fernlands first. Close one whole package.",
-    "note": "Oct 25’s combined gate was unmet. A late Moto fixture passed hatch/work/relaunch; this week closes the missing proof and advances the locked 40. Forest polish is parked.",
+    "title": "Finish the packages already underway.",
+    "note": "Anky and Giants gained committed source assets; complete-package counts stay unchanged. Qualify that output alongside the missing phone/ops evidence. All 40 and Dec 1 remain fixed.",
     "items": [
       {
         "id": "fern-art-first",
         "step": 1,
         "kind": "art",
-        "title": "Close Iguanodon. Advance Fernlands.",
-        "when": "Now · art owner’s queue",
+        "title": "Qualify Anky + Iguanodon",
+        "when": "Now · source acceptance",
         "owner": "Frozair review · art owner production",
         "refs": [
           29,
           42,
-          55
+          23,
+          75
         ],
-        "outcome": "Reveal and strides are committed. Close finish/size/source-integration proof before counting Iguanodon complete. Voice and final UI/native acceptance remain release gates. Resolve Anky’s active look checkpoint; Brachio R8 and Stego follow.",
+        "outcome": "Anky’s ranch/reveal/shop are committed; resolve recorded finish/join findings and size review with its owner. Close Iguanodon’s whole source contract. Complete the partial Giants movement/actions/reveals in parallel. Voice and final UI/native acceptance remain release gates.",
         "species": [
+          "Anky qualification",
           "Iguanodon finish",
-          "Anky checkpoint",
-          "Brachio + Stego"
+          "Giants: finish gaps"
         ]
       },
       {
@@ -752,7 +769,7 @@
         "step": 3,
         "kind": "operations",
         "title": "Assign credible parallel capacity",
-        "when": "Now · 13 days to freeze",
+        "when": "Now · 11 days to freeze",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -760,10 +777,10 @@
           57,
           58
         ],
-        "outcome": "30 packages require 16.2/week before worlds/voices/rework/QA. No complete-package rate is established. Keep all 40 and Dec 1 as decided; assign production lanes and owners. Close device/backup/crash/store blockers alongside production. No new spending follows from this plan.",
+        "outcome": "30 complete packages require 19.1/week before worlds/voices/rework/QA. New banks do not establish an accepted-package rate. Assign credible parallel capacity for the fixed 40/Dec 1, plus device/recovery/store evidence. No new spending or game build follows from this plan.",
         "species": [
           "11 redos + 19 first",
-          "16.2/week required",
+          "19.1/week required",
           "Capacity unproven"
         ]
       }
@@ -771,14 +788,14 @@
   },
   "production": {
     "title": "10 looks integrated. 30 species still need assets.",
-    "note": "10 integrated source packages, 11 redos and 19 first complete packages pending. Actual named file presence is 22 committed ranch banks / 22 reveals; 18 species lack named banks. Iguanodon’s complete source contract remains unaccepted. Final Frozair/UI/native acceptance is separate.",
+    "note": "10 integrated source packages / 11 redos / 19 first complete packages pending. Named bank inventory: 24 committed ranch / 22 committed reveals; working 24/24. Sixteen lack named banks. Anky and Giants source progress is real; complete-package qualification and final Frozair/UI/native acceptance remain separate.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 13,
-    "minimumNewPerWeek": 10.2,
+    "daysToFreeze": 11,
+    "minimumNewPerWeek": 12.1,
     "islands": [
       {
         "id": "forest",
@@ -861,7 +878,7 @@
             "name": "Shantungosaurus",
             "image": "/stompy-acres/roster/shantungosaurus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Existing runtime species; this selected concept look is not proof of matching production animation.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
             "productionStatus": "redo"
           },
           {
@@ -869,7 +886,7 @@
             "name": "Dreadnoughtus",
             "image": "/stompy-acres/roster/dreadnoughtus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Existing runtime species; this selected concept look is not proof of matching production animation.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
             "productionStatus": "redo"
           },
           {
@@ -877,7 +894,7 @@
             "name": "Giganotosaurus",
             "image": "/stompy-acres/roster/giganotosaurus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Selected still approved in the Oct 19 visual baseline. Existing Giga bank needs a separate identity/finish and native qualification check.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
             "productionStatus": "redo"
           },
           {
@@ -885,7 +902,7 @@
             "name": "Therizinosaurus",
             "image": "/stompy-acres/roster/therizinosaurus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Existing runtime species; this selected concept look is not proof of matching production animation.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
             "productionStatus": "redo"
           },
           {
@@ -893,7 +910,7 @@
             "name": "Spinosaurus",
             "image": "/stompy-acres/roster/spinosaurus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Existing runtime species; this selected concept look is not proof of matching production animation.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
             "productionStatus": "redo"
           },
           {
@@ -901,7 +918,7 @@
             "name": "Diplodocus",
             "image": "/stompy-acres/roster/diplodocus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Existing runtime species; this selected concept look is not proof of matching production animation.",
+            "detail": "Gameplay bank repacked in 7801906518. Its approved-look redo and complete ranch/reveal qualification remain open; a repack alone does not close the package.",
             "productionStatus": "redo"
           },
           {
@@ -909,7 +926,7 @@
             "name": "Deinocheirus",
             "image": "/stompy-acres/roster/deinocheirus.webp",
             "bank": "missing",
-            "detail": "Long arms and broad body need clearance; overlaps Sucho’s large upright role.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established. First ranch bank exists; the reveal candidate is untracked. Keep in first complete packages pending.",
             "productionStatus": "missing"
           },
           {
@@ -917,7 +934,7 @@
             "name": "Amargasaurus",
             "image": "/stompy-acres/roster/amargasaurus.webp",
             "bank": "missing",
-            "detail": "Adds another sauropod alongside Giants and Nigersaurus; spine continuity needs work.",
+            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established. First ranch bank exists; the reveal candidate is untracked. Keep in first complete packages pending.",
             "productionStatus": "missing"
           }
         ]
@@ -1090,7 +1107,7 @@
             "name": "Ankylosaurus",
             "image": "/stompy-acres/roster/ankylosaurus.webp",
             "bank": "available",
-            "detail": "Redo in progress with its art owner: six-take review bank is not installed. Lighter/yellower look decision and front-rest seam remain at the active checkpoint. Preserve the selected roster image until a scoped replacement is accepted.",
+            "detail": "151fe3497b commits ranch, reveal, shop and routes; 13/13 generated content files match installed. Recorded finish flags and a front-rest seam still need disposition; Moto size/run check pending. Earlier colour choice is kept. Remains a redo until complete source qualification.",
             "productionStatus": "redo"
           },
           {
@@ -1139,19 +1156,19 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 16.2
+    "minimumTotalPerWeek": 19.1
   },
   "weeklyPlan": {
     "start": "2026-10-26",
     "end": "2026-11-01",
     "title": "This week: Fernlands, phones, capacity.",
-    "note": "Oct 22–25 outcome: reveal/ranch source advanced, but no whole-package capacity or combined native/device/ops acceptance. Late Oct 26 Moto hatch/work/relaunch is partial progress. New targets below keep all 40 and Dec 1.",
+    "note": "Oct25 combined gate remains unmet. Since the Oct26 review: Anky and Giants gained source banks, without complete-package qualification; no newer native/ops receipt was found. Keep the Oct26–Nov1 targets and fixed40/Dec1; actuals below do not mark targets complete.",
     "priorities": [
       {
         "id": "fern-source",
         "title": "Finish whole Fernlands packages",
         "owner": "Art owner · Frozair checkpoints",
-        "doneWhen": "Close Iguanodon’s whole source contract and active Anky checkpoint. Advance Brachio R8/Stego under agreed owner scope. Record accepted source output, retries/time/cost; final UI/native acceptance stays separate.",
+        "doneWhen": "Qualify Anky’s complete source bank/reveal and close Iguanodon’s source contract; keep Brachio R8/Stego in the owner’s queue. Complete partial Giants directions/actions/reveals in parallel. Record accepted output/time/rework; voice and final native acceptance remain separate.",
         "refs": [
           29,
           42,
@@ -1172,7 +1189,7 @@
         "id": "capacity-ops",
         "title": "Assign capacity. Prove recovery.",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Assign credible parallel production lanes for 30 remaining packages; close initial device/backup/crash/store blockers and Nov 1 isolated restore/load proof. Required16.2/week is not observed throughput.",
+        "doneWhen": "Assign credible parallel production capacity for30remaining complete packages:19.1/week beforeworlds/QA, not observed throughput. Close initialdevice/backup/crash/store blockers and Nov1 isolatedrestore/load proof.",
         "refs": [
           55,
           57,
@@ -1187,24 +1204,24 @@
         "date": "2026-10-26",
         "label": "MON 26",
         "title": "Close the evidence gaps",
-        "focus": "Iguanodon finish checklist + Anky’s active look checkpoint. Record Moto progress and omitted actions; arrange iPhone access.",
-        "proof": "Whole source acceptance criteria and owners explicit. Oct25 gate remains unmet; no partial counted complete."
+        "focus": "Recorded Oct26 outcome: committed Iguanodon source and controlled Moto hatch/work/relaunch. Anky colour choice kept. No complete-package capacity, fullFern/iOS or initialops acceptance established.",
+        "proof": "Historical outcome recorded at Oct28 review; source progress did not close the original Oct25 combined gate."
       },
       {
         "id": "tue-27",
         "date": "2026-10-27",
         "label": "TUE 27",
         "title": "Finish one. Assign the lanes.",
-        "focus": "Target Iguanodon source closure and Anky motion/reveal work under the owner’s agreed scope. Assign parallel production capacity.",
-        "proof": "Accepted full-package receipt or exact defects; first-package and redo timings kept separate. No invented rate or spend."
+        "focus": "Recorded Oct27 source output: Anky ranch/reveal/shop/routes and seven Giants video banks/Diplo repack committed. Iguanodon closure and complete-package qualification remain unrecorded.",
+        "proof": "Anky finish/join findings and Moto size/run remain; Giants directions/actions/reveals incomplete. No accepted-package gain or native pass inferred."
       },
       {
         "id": "wed-28",
         "date": "2026-10-28",
         "label": "WED 28",
-        "title": "Advance Brachio + Stego",
-        "focus": "Owner-reviewed Brachio R8/Stego checkpoints; prepare Fernlands world/service clearance alongside package work.",
-        "proof": "Selected looks preserved, source gaps named, world stages measured. Local candidates are not completed packages."
+        "title": "Qualify output. Finish the gaps.",
+        "focus": "Resolve Anky/Iguanodon source findings with their owners; finish Giants movement/actions/reveals. Keep BrachioR8/Stego queue and Fernlands world clearance in view. Active#75 variant work has its own scope.",
+        "proof": "Complete source receipts or exact remaining defects. Gold/ShinyGold source progress is not full-roster native acceptance."
       },
       {
         "id": "thu-29",
@@ -1240,7 +1257,7 @@
       }
     ],
     "parking": [
-      "Forest polish #65–76: parked by Frozair behind island work",
+      "Optional Forest polish remains parked; active #75 variant work has its own scoped owner queue",
       "New mechanics, extra islands and optional retakes",
       "Broad monetisation remains a proposed deferral pending revenue decision"
     ],
@@ -1253,7 +1270,7 @@
     "dependencies": [
       "Daily cards are proposed targets, not new production/spending/build/hosted authorization.",
       "Native fixture permissions belong to that session; physical iOS access and current-candidate scope need an accountable owner.",
-      "Anky color choice stays in its active owner checkpoint; preserve concurrent art and approved roster images."
+      "Anky’s earlier colour choice is kept; resolve current finish/join findings with its owner. Preserve concurrent work and all selected roster images."
     ]
   }
 }

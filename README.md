@@ -75,32 +75,49 @@ maintenance did not independently review the raw captures or execute hosted oper
 Frozair reaffirmed all 40 and December 1 on October 25 (decision 23a20f3a), chose
 Fernlands first and parked Forest polish #65–76 behind island production. New daily
 cards are targets, not spending/build authorizations. Preserve milestone dates;
-record an unmet gate instead of silently rolling it. The first work is Iguanodon's
-whole source contract, owner-reviewed Fernlands packages, missing phone actions/iOS
+record an unmet gate instead of silently rolling it. The first work is Iguanodon/Anky's
+whole source qualification, partial Giants packages, missing phone actions/iOS
 coverage and credible parallel capacity with current device/recovery/store evidence.
 
 `production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
-October 26: 10 approved-look source packages integrated, 11 redos and 19 first complete
+October 28: 10 approved-look source packages integrated, 11 redos and 19 first complete
 packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
-encode package cohorts, not file inventory. Actual named source presence is now 22
-committed ranch banks / 22 root reveal banks; 18 species lack named banks. Iguanodon's
-reveal is committed in 58ab5665cf and strides in 204d997568, but its whole source
-package remains unaccepted. Finish/size/voice/current-consumer integration proof is
-separate from final Frozair/full hatch UI/native acceptance. Historical October 23
-1,438 reveal checks/critic PASS and the unchanged 30.15/32 MiB bank do not constitute
-a fresh current-candidate pass. Anky/Brachio/Stego local owner candidates add no counts.
+encode package cohorts, not file inventory. Named bank presence is now 24 committed
+ranch / 22 committed root reveals; working 24/24. Sixteen species lack named banks.
+Keep source production, complete source qualification and final native acceptance separate.
 
-Thirty packages / 13 days to November 8 require 16.2/week, including 10.2 first
-packages/week, before worlds/voices/rework/QA. One ranch bank in about three days is
-partial timing, not a qualified complete-package rate. Assign credible parallel
+Anky 151fe3497b commits ranch/reveal/shop/routes; generated content matches 13/13 files.
+Recorded finish flags and a front-rest seam need disposition; Moto size/run review is
+pending. Its earlier colour choice is kept; do not re-ask that question. Seven Giants
+video banks and a Diplodocus repack are committed in 7801906518, but directional
+movement/actions remain incomplete. Later action/reveal candidates are owner-held;
+Deinocheirus/Amargasaurus reveals are untracked. These partials add no complete packages.
+Iguanodon reveal/strides remain committed; whole source qualification is still open.
+Voice, final Frozair/full hatch UI and native acceptance are separate release gates.
+
+Thirty complete packages / 11 days to November 8 require 19.1/week, including 12.1
+first packages/week, before worlds/voices/rework/QA. One ranch bank in about three days
+is partial timing, not a qualified complete-package rate. Assign credible parallel
 capacity; do not invent budget, output, spending or a roster/date change. All-five
 native/data acceptance and isolated restore/load stay November 1, freeze November 8,
 beta November 9–15, public submissions November 16 and gated launch December 1.
+The October 26–November 1 plan keeps its dates and records actual October 26–27 source
+outcomes in the October 28 review. No October 27 director audit is inferred.
+
+Optional Forest polish remains parked behind island production. The active #75 owner
+has separately scoped variant work: Shiny Gold ddc932d065 and Gold 6b15478191 match
+Rex; method/tools768cfc97c4. Gold/Glow9d4b00fc98 is source committed and awaits Frozair's
+visual verdict per the canonical skill. Rainbow and remaining variant/Glow checks stay
+open. Source checks are not final full-roster native acceptance. Do not infer a new
+night-responsive Glow system from #79's board status; its description remains an
+unapproved idea. No new odds, appearance combinations or production/spending permission.
 
 Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
 the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
 Build 771 distribution remains unverified, 706 the last previously recorded distributed
-alpha; the current debug fixture is distinct. Initial device-floor/backup/crash proof
+alpha; the current debug fixture is distinct. The tester-only fixture is now committed in
+fe36a864db; welcome-back/Ranch Log/Bag guidance also advanced in source. No new native
+receipt was found. Initial device-floor/backup/crash proof
 is still unproven. October 4 ops observations are historical, not a live-failure diagnosis.
 
 Approved held/spent gates: Giants land + coins; later islands hold then spend the prior
