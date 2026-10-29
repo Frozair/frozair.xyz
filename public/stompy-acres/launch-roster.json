@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -272,7 +272,7 @@
           "role": "Broad giant herbivore",
           "status": "Asset redo · partial ranch committed",
           "rationale": "Wide muzzle and chunky body make the big herbivore readable.",
-          "note": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+          "note": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -302,7 +302,7 @@
           "role": "Towering long-neck",
           "status": "Asset redo · partial ranch committed",
           "rationale": "The towering vertical giant provides the island’s scale fantasy.",
-          "note": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+          "note": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -363,7 +363,7 @@
           "role": "Long-armed giant",
           "status": "Asset redo · partial ranch committed",
           "rationale": "Long arms and sculpted claws add an unusual upright shape.",
-          "note": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+          "note": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open. Latest generated ranch content differs from installed, so its new report cannot certify the installed bank.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",

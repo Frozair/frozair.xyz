@@ -80,7 +80,7 @@ whole source qualification, partial Giants packages, missing phone actions/iOS
 coverage and credible parallel capacity with current device/recovery/store evidence.
 
 `production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
-October 28: 10 approved-look source packages integrated, 11 redos and 19 first complete
+October 29: 10 approved-look source packages integrated, 11 redos and 19 first complete
 packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
 encode package cohorts, not file inventory. Named bank presence is now 24 committed
 ranch / 22 committed root reveals; working 24/24. Sixteen species lack named banks.
@@ -95,7 +95,7 @@ Deinocheirus/Amargasaurus reveals are untracked. These partials add no complete 
 Iguanodon reveal/strides remain committed; whole source qualification is still open.
 Voice, final Frozair/full hatch UI and native acceptance are separate release gates.
 
-Thirty complete packages / 11 days to November 8 require 19.1/week, including 12.1
+Thirty complete packages / 10 days to November 8 require 21.0/week, including 13.3
 first packages/week, before worlds/voices/rework/QA. One ranch bank in about three days
 is partial timing, not a qualified complete-package rate. Assign credible parallel
 capacity; do not invent budget, output, spending or a roster/date change. All-five
@@ -104,13 +104,20 @@ beta November 9–15, public submissions November 16 and gated launch December 1
 The October 26–November 1 plan keeps its dates and records actual October 26–27 source
 outcomes in the October 28 review. No October 27 director audit is inferred.
 
-Optional Forest polish remains parked behind island production. The active #75 owner
-has separately scoped variant work: Shiny Gold ddc932d065 and Gold 6b15478191 match
-Rex; method/tools768cfc97c4. Gold/Glow9d4b00fc98 is source committed and awaits Frozair's
-visual verdict per the canonical skill. Rainbow and remaining variant/Glow checks stay
-open. Source checks are not final full-roster native acceptance. Do not infer a new
-night-responsive Glow system from #79's board status; its description remains an
-unapproved idea. No new odds, appearance combinations or production/spending permission.
+Optional Forest polish remains parked behind island production. Active #75 source work
+has selected Rainbow 543ba962ba, Shiny Rainbow 7fbf96ef4a and Rainbow Glow b1b91b7848 looks.
+Shiny Rainbow was reviewed on a separate Moto test app; #75 records 2,256 checks and a
+matching repository render. Reveal, Book photo and lower-end real-game performance
+remain unchecked. Rainbow Glow's selection does not accept every Glow combination;
+the earlier Gold/Glow verdict and remaining variants stay open. Do not infer a new
+night-response system from #79's Done status; its description remains an unapproved idea.
+Existing odds and fifteen appearance combinations remain; no maintenance production/spend.
+
+Shant/Dread/Theri now have fuller owner-held 12-take local recipes, including directional
+walks and actions. Recorded finish flags remain. Shant/Dread generated content matches
+installed; Theri's latest generated ranch differs from installed, so the new report does
+not certify that bank. These are uncommitted source candidates, not package-count gains.
+The October 29 review records these changes without moving the original weekly dates.
 
 Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
 the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
