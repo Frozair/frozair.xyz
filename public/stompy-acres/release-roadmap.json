@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-29",
-  "nextReview": "2026-10-30",
+  "asOf": "2026-10-30",
+  "nextReview": "2026-10-31",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Rainbow looks are selected in source; complete-package and five-island phone gates remain open. Thirty packages in 10 days need qualified output, alongside iPhone and recovery proof.",
+  "healthNote": "Source variants and local clip sets advanced; no new complete-package, native or recovery gate closed. Thirty packages in nine days still need qualified output, alongside iPhone and Nov 1 proof.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "10 looks integrated · 11 redos · 19 first packages · new source banks under qualification",
   "releaseIslandCount": 5,
@@ -72,7 +72,7 @@
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
       "status": "New ranch banks · full packages open",
-      "summary": "Seven partial video ranch banks and a Diplo repack are committed. Shant/Dread/Theri have fuller local clip sets; finish, source matching, reveals and complete qualification remain. Counts stay six redos/two first packages.",
+      "summary": "Seven partial video banks and a Diplo repack are committed. Local Shant/Dread/Theri/Spino clip sets advanced; Theri’s old content mismatch is closed. Finish, reveals and complete qualification remain; counts stay six redos/two first packages.",
       "ref": 23,
       "gateDate": "2026-11-08",
       "checks": [
@@ -84,7 +84,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Committed7801906518 snapshot leaves directions/actions unfinished. New owner-held Shant/Dread/Theri recipes contain12takes, but finish flags remain; Theri generated ranch does not match installed. Other local action/reveal candidates are separate from complete approved package proof."
+          "detail": "Committed 7801906518 leaves directions/actions incomplete. Newer local candidates are owner-held: Spino now has 12 takes, and Theri generated/installed ranch matches 9/9. Recorded finish flags and complete source/reveal qualification remain. Content matching is not quality or native acceptance."
         },
         {
           "label": "World",
@@ -341,8 +341,8 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "Fuller owner-held Shant/Dread/Theri recipes and selected Rainbow looks advanced. Recorded finish/source matching and whole-package proof remain open. Counts stay10/11/19; source takes and variant selection do not establish accepted-package throughput.",
-      "doneWhen": "Measure accepted first-package and redo output, time, retries and rework. Thirty packages over 10 days require 21.0/week; first packages need 13.3/week, before worlds, voices and QA. Assign credible parallel capacity without invented budget/rate, automatic spending or scope/date changes."
+      "why": "Owner-held Spino clips advanced and Theri generated/installed content now matches. Selected Meteor source looks also advanced. Finish and whole-package qualification remain; counts stay 10/11/19. Partial clip sets, matching files and variant selections are not accepted-package throughput.",
+      "doneWhen": "Measure accepted first-package and redo output, time, retries and rework. Thirty packages over nine days require 23.3/week; first packages need 14.8/week, before worlds, voices and QA. Assign credible parallel capacity without invented budget/rate, automatic spending or scope/date changes."
     },
     {
       "id": "seed-roster",
@@ -387,7 +387,7 @@
         69
       ],
       "status": "Parked by Frozair",
-      "why": "Optional Forest polish is parked; active #75 has a separate owner workflow. Rainbow 543ba962ba and Shiny Rainbow 7fbf96ef4a are selected and committed; Rainbow Glow b1b91b7848 was Moto-selected. Reveal, Book, full-game performance and remaining variants stay open. This does not authorize all parked work.",
+      "why": "Optional Forest polish remains parked; active #75 has a separate owner workflow. Latest afbe2d7d3c selects lighter Meteor galaxy glass and aurora-colour Shiny Meteor, superseding the dark intermediate look. These are existing variants, not new events/forms. Full-game qualification and remaining Shiny/Glow work stay open.",
       "doneWhen": "Resume optional polish only when Frozair reprioritizes it. Final launch-blocking combined native regressions still belong to #57."
     },
     {
@@ -509,7 +509,7 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair fixed the date/full roster October 25 (23a20f3a), with Fernlands first. Thirty complete packages over 10 days require 21.0/week before worlds and QA. Qualify source output and assign credible parallel capacity; partial ranch timing and selected variants are not complete-package throughput.",
+      "recommendation": "Frozair fixed the date/full roster October 25 (23a20f3a), with Fernlands first. Thirty complete packages over nine days require 23.3/week before worlds and QA. Qualify output and assign credible parallel capacity; source clips, matching files and selected variants are not complete-package throughput.",
       "state": "Approved scope · capacity open"
     },
     {
@@ -523,7 +523,7 @@
     {
       "title": "30 asset packages before Nov 8",
       "level": "High",
-      "action": "Thirty complete packages over 10 days require 21.0/week, including 13.3 first packages/week, before worlds, voices, rework and QA. Fuller local clip sets are progress but still unqualified. Keep the fixed 40/Dec 1; assign credible parallel capacity and measure accepted output.",
+      "action": "Thirty complete packages over nine days require 23.3/week, including 14.8 first packages/week, before worlds, voices, rework and QA. Current source progress remains unqualified as complete packages. Keep the fixed 40/Dec 1; assign credible parallel capacity and measure accepted output.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -614,6 +614,14 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-10-30",
+      "text": "Meteor and Shiny Meteor source looks advanced to afbe2d7d3c: lighter galaxy glass and green-to-violet aurora-colour glass, selected after Moto/Pixel feedback. The deep-violet a16dcb9230 intermediate is superseded. No new form/event/odds or full-game acceptance is inferred."
+    },
+    {
+      "date": "2026-10-30",
+      "text": "Spino now has a 12-take local set; Theri generated/installed ranch matches 9/9, closing the earlier mismatch. Finish flags and complete source qualification remain. Counts stay 10/11/19. No new native/ops/model receipt; 30 packages over nine days require 23.3/week before worlds and QA."
+    },
     {
       "date": "2026-10-29",
       "text": "Rainbow 543ba962ba and Shiny Rainbow 7fbf96ef4a have selected looks committed in source. Shiny Rainbow was reviewed on a separate Moto test app; Rainbow Glow b1b91b7848 was also Moto-selected. Reveal, Book photo and lower-end real-game performance remain unchecked. This is not five-island acceptance."
@@ -718,24 +726,32 @@
     },
     {
       "label": "Selected Rainbow looks · scoped owner evidence",
-      "detail": "Rainbow 543ba962ba: Frozair-selected matte nose-to-tail gradient across measured clip bounds. Shiny Rainbow 7fbf96ef4a: selected jewel-tone 5s cycle with individual phase, reviewed on a separate Moto test app; #75 records 2,256 checks and matching repo render. Rainbow Glow b1b91b7848: Moto-selected white-gold halo/lit-pixel lift. Reveal, Book photo and lower-end real-game performance remain unchecked. Older Gold/Glow verdict, Meteor/Shiny Meteor/Shiny and other Glow combinations stay open. No night-response system inferred from #79."
+      "detail": "Rainbow 543ba962ba, Shiny Rainbow 7fbf96ef4a and Rainbow Glow b1b91b7848 remain selected source work. Shiny Rainbow has scoped Moto test-app review and recorded 2,256 checks. Reveal, Book photo and lower-end real-game performance remain unchecked; this is not all-five native acceptance. Meteor now has a later selected look, recorded separately. Plain Shiny and unresolved Glow combinations remain open; no night-response system is inferred from #79."
     },
     {
       "label": "Current native/ops/model limits · Oct 28",
       "detail": "No new #56/#57/#58 receipt after Oct26. Debug helper fe36a864db is now committed; welcome-back/egg-alert5d1cc3e535 and RanchLog/Bag guidance d1b09f1451 are source progress only. PhysicaliOS/fullFernactions/devicefloor/currentbackup/crash/restore proof remain. Model/config still use superseded cumulative/coin-only assumptions; actual-price study predates current gates/hatch. Build771distribution unverified; Oct4 ops historical."
     },
     {
-      "label": "Current review and capacity · Oct 29",
-      "detail": "HEAD b1b91b7848. Thirty remaining / 10 days to Nov 8 × 7 = 21.0 complete packages/week; 19 first / 10 × 7 = 13.3/week before worlds, voices, rework and QA. This is required, not observed capacity. Cast, milestone and week dates retained. No new #56/#57/#58 native/ops/store or pacing-model receipt. No maintenance game tests, imports, builds, installs, hosted queries, art spending or game commits."
+      "label": "Current review and capacity · Oct 30",
+      "detail": "HEAD afbe2d7d3c. Thirty remaining / nine days to Nov 8 × 7 = 23.3 complete packages/week; 19 first / nine × 7 = 14.8/week before worlds, voices, rework and QA. Required, not observed capacity. Cast, milestone and week dates retained. No new #56/#57/#58 native/ops/store/capacity or current model receipt. No maintenance game tests, imports, builds, installs, hosted queries, art spending or game commits."
     },
     {
-      "label": "Owner-held Giants candidates · Oct 29",
+      "label": "Historical Giants candidate snapshot · Oct 29",
       "detail": "Shant/Dread/Theri local recipes have 12 takes including directional walks, dig, happy and nap, with uncommitted ranch/reveal changes. Recorded ranch finish flags: 848/1,185/1,077 frames respectively. Shant/Dread generated content matches installed; Theri latest generated ranch does not, so its report cannot certify installed content. No promotion or owner-file changes by maintenance. Inventory 24/22 committed, 24/24 working; counts 10/11/19 unchanged."
+    },
+    {
+      "label": "Current local Giants content · Oct 30",
+      "detail": "Spino local recipe advances from six to 12 takes, with directional/action/nap clips. Generated ranch matches installed 8/8; recorded 12 takes/902 flagged frames still need finish disposition. Theri latest generated ranch now matches installed 9/9, superseding yesterday’s mismatch; recorded 11 takes/1,077 flagged frames remain. Both sets and reveal changes are uncommitted owner work. Matching hashes do not certify quality, full source qualification or native acceptance. Counts and inventory unchanged."
+    },
+    {
+      "label": "Selected Meteor looks · source scope",
+      "detail": "a16dcb9230 deep galaxy glass is superseded by afbe2d7d3c lighter blue-violet galaxy glass after Pixel feedback. Shiny Meteor uses green-to-violet aurora-colour glass. Outline/commit record scoped Moto and Pixel selections; reveal, Book, lower-end full-game performance and physical iOS remain unqualified. Aurora describes an existing variant’s look, not a new event/form or night-response feature. No odds or fifteen-form changes."
     }
   ],
   "firstWork": {
     "title": "Finish the packages already underway.",
-    "note": "Keep qualifying Anky/Iguanodon and the partial Giants output. Selected Rainbow looks are new source progress; reveal, Book and full-game checks remain. All 40, Dec 1 and the Nov 1 phone/recovery gates stay fixed.",
+    "note": "Keep qualifying the packages already underway. Meteor looks and local clips advanced, without new accepted-package or phone/recovery proof. All 40/Dec 1 and the original Nov 1/Nov 8 gates stay fixed.",
     "items": [
       {
         "id": "fern-art-first",
@@ -750,7 +766,7 @@
           23,
           75
         ],
-        "outcome": "Resolve Anky/Iguanodon source findings with their owners and qualify the fuller local Giants clip sets. Selected Rainbow looks still need reveal and Book-photo checks after shared shader changes. Voice, full-game performance and final native acceptance remain separate release gates.",
+        "outcome": "Resolve Anky/Iguanodon source findings and qualify owner-held Giants clips. Theri’s old content mismatch is closed; finish findings remain. Selected variants still need current reveal, Book and full-game checks. Voice and final native acceptance remain separate release gates.",
         "species": [
           "Anky qualification",
           "Iguanodon finish",
@@ -781,7 +797,7 @@
         "step": 3,
         "kind": "operations",
         "title": "Assign credible parallel capacity",
-        "when": "Now · 10 days to freeze",
+        "when": "Now · 9 days to freeze",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -789,10 +805,10 @@
           57,
           58
         ],
-        "outcome": "30 complete packages require 21.0/week before worlds, voices, rework and QA; first packages alone need 13.3/week. No accepted complete-package rate is established. Assign credible parallel capacity for the fixed 40/Dec 1 alongside device, recovery and store proof. This plan grants no new spending or game build.",
+        "outcome": "30 complete packages require 23.3/week before worlds, voices, rework and QA; first packages alone need 14.8/week. No accepted complete-package rate is established. Assign credible parallel capacity for the fixed 40/Dec 1 alongside current device, recovery and store proof. No new spending or game build follows.",
         "species": [
           "11 redos + 19 first",
-          "21.0/week required",
+          "23.3/week required",
           "Capacity unproven"
         ]
       }
@@ -800,14 +816,14 @@
   },
   "production": {
     "title": "10 looks integrated. 30 species still need assets.",
-    "note": "10 integrated source packages / 11 redos / 19 first complete packages pending. Bank inventory stays 24 committed ranch / 22 committed reveals, working 24/24. Shant/Dread/Theri have fuller local clip sets; finish and source-match findings remain. Selected variants and bank presence do not establish complete-package or native acceptance.",
+    "note": "10 integrated source packages / 11 redos / 19 first complete packages pending. Bank inventory stays 24 committed ranch / 22 committed reveals, working 24/24. Spino has a fuller local clip set and Theri’s prior generated/installed mismatch is closed; finish and complete-package qualification remain open.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 10,
-    "minimumNewPerWeek": 13.3,
+    "daysToFreeze": 9,
+    "minimumNewPerWeek": 14.8,
     "islands": [
       {
         "id": "forest",
@@ -914,7 +930,7 @@
             "name": "Therizinosaurus",
             "image": "/stompy-acres/roster/therizinosaurus.webp",
             "bank": "available",
-            "detail": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open. Latest generated ranch content differs from installed, so its new report cannot certify the installed bank.",
+            "detail": "Partial ranch/shop source is committed in 7801906518. Latest owner-held generated ranch now matches installed 9/9, superseding the earlier mismatch. The recorded 11-take report still carries finish flags; runtime/reveal work is uncommitted and complete source qualification remains open.",
             "productionStatus": "redo"
           },
           {
@@ -922,7 +938,7 @@
             "name": "Spinosaurus",
             "image": "/stompy-acres/roster/spinosaurus.webp",
             "bank": "available",
-            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+            "detail": "Partial ranch/shop source is committed in 7801906518. Owner-held local work now has 12 takes including directional movement/actions/nap; generated ranch matches installed 8/8. Recorded finish flags remain. Runtime/reveal changes are uncommitted, without complete source acceptance.",
             "productionStatus": "redo"
           },
           {
@@ -1168,13 +1184,13 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 21.0
+    "minimumTotalPerWeek": 23.3
   },
   "weeklyPlan": {
     "start": "2026-10-26",
     "end": "2026-11-01",
     "title": "This week: Fernlands, phones, capacity.",
-    "note": "Oct 29 review: selected Rainbow looks and fuller local Giants clips advanced, without complete-package gains or newer native/ops proof. Keep the original Oct 26–Nov 1 targets and unmet Oct 25 gate. All 40/Dec 1 stay fixed; source outcomes do not mark targets complete.",
+    "note": "Oct 30 review: local clips and selected Meteor looks advanced; no complete-package, phone or ops gate closed. Keep the original Oct 26–Nov 1 targets and unmet Oct 25 gate. All 40/Dec 1 stay fixed; source outcomes do not mark release targets complete.",
     "priorities": [
       {
         "id": "fern-source",
@@ -1201,7 +1217,7 @@
         "id": "capacity-ops",
         "title": "Assign capacity. Prove recovery.",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Assign credible parallel capacity for 30 complete packages: 21.0/week before worlds and QA, not observed throughput. Close current device, backup, crash and store blockers, plus Nov 1 isolated restore/load proof.",
+        "doneWhen": "Assign credible parallel capacity for 30 complete packages: 23.3/week before worlds and QA, not observed throughput. Close current device, backup, crash and store blockers, plus Nov 1 isolated restore/load proof.",
         "refs": [
           55,
           57,
@@ -1240,16 +1256,16 @@
         "date": "2026-10-29",
         "label": "THU 29",
         "title": "Resolve risky bodies + pacing",
-        "focus": "Today’s targets remain bounded Titanoboa/Mammoth feasibility, Swamp bank treatment, current gate/hatch model and initial ops/device evidence within agreed scope. The early Rainbow Glow commit is separate progress.",
-        "proof": "No new body/model/ops receipt at this review. Rainbow Glow was Moto-selected, but reveal, Book and full-game qualification remain. Today’s targets are not completed by shader work."
+        "focus": "Recorded Oct 29 source outcome: selected Meteor/Shiny Meteor looks, fuller local Spino clips and an updated Theri content match. No bounded body/model/initial ops receipt was located at the Oct 30 review.",
+        "proof": "Theri’s earlier generated/installed mismatch is closed, with finish flags still open. Scoped look selections and clip sets did not certify Thursday’s body/model/ops targets."
       },
       {
         "id": "fri-30",
         "date": "2026-10-30",
         "label": "FRI 30",
         "title": "Walk all five",
-        "focus": "Target the remaining Android actions and physical-iOS/all-five checks on separately authorized candidates.",
-        "proof": "Exact build/backend/device; hatch/work/sell/expand/travel/Book and kill-relaunch receipts. Missing access stays open."
+        "focus": "Today’s targets remain missing Fernlands Android actions and physical-iOS/all-five checks on separately authorized candidates. No new native receipt was found at this review; the latest controlled Moto evidence remains Oct 26.",
+        "proof": "Record exact build/backend/device, hatch/work/sell/expand/travel/Book and kill-relaunch scope. Source variant reviews on Moto/Pixel do not close this full-game gate; missing access/evidence remains open."
       },
       {
         "id": "sat-31",

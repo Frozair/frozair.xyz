@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -363,7 +363,7 @@
           "role": "Long-armed giant",
           "status": "Asset redo · partial ranch committed",
           "rationale": "Long arms and sculpted claws add an unusual upright shape.",
-          "note": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open. Latest generated ranch content differs from installed, so its new report cannot certify the installed bank.",
+          "note": "Partial ranch/shop source is committed in 7801906518. Latest owner-held generated ranch now matches installed 9/9, superseding the earlier mismatch. The recorded 11-take report still carries finish flags; runtime/reveal work is uncommitted and complete source qualification remains open.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -393,7 +393,7 @@
           "role": "Sail-backed predator",
           "status": "Asset redo · partial ranch committed",
           "rationale": "The sail and long snout separate it from Giga.",
-          "note": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+          "note": "Partial ranch/shop source is committed in 7801906518. Owner-held local work now has 12 takes including directional movement/actions/nap; generated ranch matches installed 8/8. Recorded finish flags remain. Runtime/reveal changes are uncommitted, without complete source acceptance.",
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",

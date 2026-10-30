@@ -80,7 +80,7 @@ whole source qualification, partial Giants packages, missing phone actions/iOS
 coverage and credible parallel capacity with current device/recovery/store evidence.
 
 `production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
-October 29: 10 approved-look source packages integrated, 11 redos and 19 first complete
+October 30: 10 approved-look source packages integrated, 11 redos and 19 first complete
 packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
 encode package cohorts, not file inventory. Named bank presence is now 24 committed
 ranch / 22 committed root reveals; working 24/24. Sixteen species lack named banks.
@@ -95,7 +95,7 @@ Deinocheirus/Amargasaurus reveals are untracked. These partials add no complete 
 Iguanodon reveal/strides remain committed; whole source qualification is still open.
 Voice, final Frozair/full hatch UI and native acceptance are separate release gates.
 
-Thirty complete packages / 10 days to November 8 require 21.0/week, including 13.3
+Thirty complete packages / nine days to November 8 require 23.3/week, including 14.8
 first packages/week, before worlds/voices/rework/QA. One ranch bank in about three days
 is partial timing, not a qualified complete-package rate. Assign credible parallel
 capacity; do not invent budget, output, spending or a roster/date change. All-five
@@ -113,11 +113,19 @@ the earlier Gold/Glow verdict and remaining variants stay open. Do not infer a n
 night-response system from #79's Done status; its description remains an unapproved idea.
 Existing odds and fifteen appearance combinations remain; no maintenance production/spend.
 
-Shant/Dread/Theri now have fuller owner-held 12-take local recipes, including directional
-walks and actions. Recorded finish flags remain. Shant/Dread generated content matches
-installed; Theri's latest generated ranch differs from installed, so the new report does
-not certify that bank. These are uncommitted source candidates, not package-count gains.
-The October 29 review records these changes without moving the original weekly dates.
+Owner-held local Giants clips advanced again: Spino now has 12 takes with directional
+movement/actions/nap and generated ranch matches installed 8/8. Theri latest generated
+ranch now matches installed 9/9, superseding the earlier mismatch. Recorded finish flags
+remain (Spino 12 takes/902 frames; Theri 11 takes/1,077 frames). These uncommitted
+candidates and matching files do not establish complete-package acceptance.
+
+Meteor's deep a16dcb9230 intermediate is superseded by afbe2d7d3c lighter galaxy glass
+after Pixel feedback; Shiny Meteor uses selected green-to-violet aurora-colour glass.
+Moto/Pixel look selections are scoped evidence, not full-game or physical-iOS acceptance.
+Aurora describes an existing variant's look, not a new event/form or night-response
+system. Reveal/Book/full-game qualification and unresolved Shiny/Glow work remain open.
+The October 30 review retains all original weekly and milestone dates and records no
+new native, ops, store, accepted-capacity or current model proof.
 
 Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
 the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
