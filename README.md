@@ -63,7 +63,12 @@ selected-look/motion approval, runtime integration and final acceptance distinct
 Local Keep/Bench/export choices are personal change proposals; they never unlock
 or mutate the shared approved cast. Preserve `selectionVersion` and older drafts.
 
-`weeklyPlan` powers `/apps/stompy-acres/roadmap#sa-this-week`. The October 26–November 1
+The default roadmap is a compact overview: one priority, three actions and key dates.
+Full weekly tasks, islands, the exact-40 matrix, decisions and evidence stay mounted
+inside collapsed disclosures. Keep this short default view during daily maintenance.
+Existing hash links open their containing disclosures automatically; `#sa-first-work`
+and `#sa-this-week` lead to the compact priority/actions. `weeklyPlan` is available
+at `#sa-weekly-detail`, with its original dates and history preserved. The October 26–November 1
 plan records the prior October 22–25 outcomes before the new targets. The October 25
 combined native/capacity/device/ops gate was unmet. A late October 26 controlled Moto
 fixture passed Fernlands starter/shop/Iguanodon hatch/work and OS kill/relaunch.
