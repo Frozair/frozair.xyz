@@ -85,22 +85,25 @@ whole source qualification, partial Giants packages, missing phone actions/iOS
 coverage and credible parallel capacity with current device/recovery/store evidence.
 
 `production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
-October 30: 10 approved-look source packages integrated, 11 redos and 19 first complete
+October 31: 10 approved-look source packages integrated, 11 redos and 19 first complete
 packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
 encode package cohorts, not file inventory. Named bank presence is now 24 committed
-ranch / 22 committed root reveals; working 24/24. Sixteen species lack named banks.
+ranch / 24 committed root reveals; working 24/24. Sixteen species lack named banks.
 Keep source production, complete source qualification and final native acceptance separate.
 
 Anky 151fe3497b commits ranch/reveal/shop/routes; generated content matches 13/13 files.
 Recorded finish flags and a front-rest seam need disposition; Moto size/run review is
 pending. Its earlier colour choice is kept; do not re-ask that question. Seven Giants
-video banks and a Diplodocus repack are committed in 7801906518, but directional
-movement/actions remain incomplete. Later action/reveal candidates are owner-held;
-Deinocheirus/Amargasaurus reveals are untracked. These partials add no complete packages.
+full 12-take ranch sets and dedicated 512px/24fps reveals are now committed, with
+121/121 generated bank/PNG content files matching installed. Earlier uncommitted,
+missing-action and missing-reveal wording is superseded. Recorded finish flags still
+need owner disposition; complete source qualification remains open. Amarga’s small
+happy head drop was accepted Oct 30, not a blanket finish waiver. The 10/11/19 cohorts
+therefore include built work awaiting qualification, not only absent assets.
 Iguanodon reveal/strides remain committed; whole source qualification is still open.
 Voice, final Frozair/full hatch UI and native acceptance are separate release gates.
 
-Thirty complete packages / nine days to November 8 require 23.3/week, including 14.8
+Thirty complete packages / eight days to November 8 require 26.3/week, including 16.6
 first packages/week, before worlds/voices/rework/QA. One ranch bank in about three days
 is partial timing, not a qualified complete-package rate. Assign credible parallel
 capacity; do not invent budget, output, spending or a roster/date change. All-five
@@ -118,19 +121,21 @@ the earlier Gold/Glow verdict and remaining variants stay open. Do not infer a n
 night-response system from #79's Done status; its description remains an unapproved idea.
 Existing odds and fifteen appearance combinations remain; no maintenance production/spend.
 
-Owner-held local Giants clips advanced again: Spino now has 12 takes with directional
-movement/actions/nap and generated ranch matches installed 8/8. Theri latest generated
-ranch now matches installed 9/9, superseding the earlier mismatch. Recorded finish flags
-remain (Spino 12 takes/902 frames; Theri 11 takes/1,077 frames). These uncommitted
-candidates and matching files do not establish complete-package acceptance.
+The Giants valley is committed in 59d016831b and accepted by Frozair Oct 31, per #23.
+The owner records a scoped full-land/16-resident Moto comparison at about 0.8 fps
+cost. Stream/tree follow-ups and wider expansion-stage/clearance/zoom/device proof
+remain; this is not all-five native acceptance. Preserve selected public roster stills.
 
-Meteor's deep a16dcb9230 intermediate is superseded by afbe2d7d3c lighter galaxy glass
-after Pixel feedback; Shiny Meteor uses selected green-to-violet aurora-colour glass.
-Moto/Pixel look selections are scoped evidence, not full-game or physical-iOS acceptance.
-Aurora describes an existing variant's look, not a new event/form or night-response
-system. Reveal/Book/full-game qualification and unresolved Shiny/Glow work remain open.
-The October 30 review retains all original weekly and milestone dates and records no
-new native, ops, store, accepted-capacity or current model proof.
+Latest Meteor/Shiny Meteor f6f1dd7549 use selected 76%-opacity jewel glass, body-only
+stars and a cosmetic shooting star; prior look/opacity iterations are superseded.
+90f6df15f1 adds selected near-white lavender/mint Glow and stride-sized footprints;
+9a572581a9 updates Book tiles. These are existing-form cosmetic changes, not new
+forms/events or a night-response system. Current reveal/Book-photo/full-game/iOS
+qualification remains open. Do not re-ask settled selections or overwrite owner work.
+
+The October 31 review retains original week/milestone dates. Friday's all-five
+walkthrough lacks a completion receipt; Saturday's targets are pending at the morning
+review. No new full native/ops/store/capacity/current-model acceptance is established.
 
 Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
 the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
@@ -149,6 +154,14 @@ study predate held/spent gates and hatch timings; qualify those, Brooder/Amber a
 ordinary/unlucky play before forecasts. Keep actual prices/Brachio 2B and review 24
 coherent profiles. Personal starts remain three per island per New York date; one
 active personal event per account. Older frozen capsules retain historical substitutions.
+
+New 014a2d787f implements the approved first Forest event as Gold Rush with one
+eligible plain-hatch Gold; the egg-six gift/shop countdown and Rainbow intro retire.
+Migration 20261031010000 is explicitly local, not hosted alpha. Added tests are not a
+fresh executed/native acceptance receipt. Older alpha rollout verification recorded
+in 23b59ab24d is separate. Current model still forces the retired Rainbow intro;
+include the new intro before pacing forecasts. 8ab4756db6 updates island-card pitches,
+with arrival eggs/gates unchanged.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek

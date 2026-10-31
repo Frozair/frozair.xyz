@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-30",
-  "nextReview": "2026-10-31",
+  "asOf": "2026-10-31",
+  "nextReview": "2026-11-01",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Source variants and local clip sets advanced; no new complete-package, native or recovery gate closed. Thirty packages in nine days still need qualified output, alongside iPhone and Nov 1 proof.",
+  "healthNote": "Seven Giants animation/reveal sets and the accepted valley look are committed. Complete art qualification, all-five phone proof and recovery remain open. Thirty packages over eight days require 26.3/week before worlds, voices and QA.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "10 looks integrated · 11 redos · 19 first packages · new source banks under qualification",
+  "resourcesNote": "10 looks integrated · 11 redos · 19 first packages pending · committed Giants source under qualification",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -71,8 +71,8 @@
       "color": "#aa7444",
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
-      "status": "New ranch banks · full packages open",
-      "summary": "Seven partial video banks and a Diplo repack are committed. Local Shant/Dread/Theri/Spino clip sets advanced; Theri’s old content mismatch is closed. Finish, reveals and complete qualification remain; counts stay six redos/two first packages.",
+      "status": "Valley look accepted · creature checks open",
+      "summary": "Seven 12-take ranch sets and dedicated reveals are committed; recorded finish findings still need disposition. The valley look is in source and Frozair accepted it Oct 31. Complete species/world/native qualification remains open; counts stay six redos/two first packages.",
       "ref": 23,
       "gateDate": "2026-11-08",
       "checks": [
@@ -84,12 +84,12 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Committed 7801906518 leaves directions/actions incomplete. Newer local candidates are owner-held: Spino now has 12 takes, and Theri generated/installed ranch matches 9/9. Recorded finish flags and complete source/reveal qualification remain. Content matching is not quality or native acceptance."
+          "detail": "Seven full ranch/reveal sets are now committed, with 121/121 generated bank/PNG files matching installed content. Recorded finish flags remain; content matching and commits do not establish complete source or native acceptance. Diplodocus approved-look qualification also remains open."
         },
         {
           "label": "World",
-          "state": "open",
-          "detail": "Selected valley mock is not a modular runtime environment. Build and qualify all expansion stages."
+          "state": "partial",
+          "detail": "Valley, low shore, mountain ring, shop and storehouse committed 59d016831b and accepted by Frozair Oct 31. Owner-recorded Moto 16-resident/full-land comparison reports about 0.8 fps cost. Stream/tree follow-ups and full expansion-stage, clearance, zoom and release-device qualification remain."
         },
         {
           "label": "Phone",
@@ -97,7 +97,7 @@
           "detail": "Giant clearance, 16 residents, duplicate mixes and loading need final release-device evidence."
         }
       ],
-      "next": "Complete and qualify the new banks’ directional movement, actions and selected-look reveals; retain valley/16-resident clearance and phone checks.",
+      "next": "Resolve finish findings on committed creature sets with the art owner. Complete valley follow-ups and qualify expansion stages, 16-resident clearance, zoom, services and final phone behavior.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -341,8 +341,8 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "Owner-held Spino clips advanced and Theri generated/installed content now matches. Selected Meteor source looks also advanced. Finish and whole-package qualification remain; counts stay 10/11/19. Partial clip sets, matching files and variant selections are not accepted-package throughput.",
-      "doneWhen": "Measure accepted first-package and redo output, time, retries and rework. Thirty packages over nine days require 23.3/week; first packages need 14.8/week, before worlds, voices and QA. Assign credible parallel capacity without invented budget/rate, automatic spending or scope/date changes."
+      "why": "Seven Giants full ranch/reveal sets are committed and all 121 generated content files match installed. Recorded finish flags and whole-contract qualification remain; counts stay 10/11/19. This source output is progress, while accepted-package throughput is still unproven.",
+      "doneWhen": "Measure accepted first-package and redo output, time and rework. Thirty packages over eight days require 26.3/week; first packages need 16.6/week before worlds, voices and QA. Assign credible parallel capacity without invented budget/rate, spending or scope/date changes."
     },
     {
       "id": "seed-roster",
@@ -387,7 +387,7 @@
         69
       ],
       "status": "Parked by Frozair",
-      "why": "Optional Forest polish remains parked; active #75 has a separate owner workflow. Latest afbe2d7d3c selects lighter Meteor galaxy glass and aurora-colour Shiny Meteor, superseding the dark intermediate look. These are existing variants, not new events/forms. Full-game qualification and remaining Shiny/Glow work stay open.",
+      "why": "Optional Forest polish remains parked; active #75 has a scoped owner workflow. Current Meteor/Shiny Meteor use selected 76%-opacity galaxy glass, body stars, cosmetic shooting star, selected Glow/footprints and Book tile updates. These affect existing forms, not event mechanics or a night-response system. Final variants/reveal/Book-photo/full-game/iOS proof remains open.",
       "doneWhen": "Resume optional polish only when Frozair reprioritizes it. Final launch-blocking combined native regressions still belong to #57."
     },
     {
@@ -417,8 +417,8 @@
         47
       ],
       "status": "Selected packages approved · later profiles open",
-      "why": "Approved held/spent gates, per-island daily limits and hatch curve are reported applied to alpha by the separately authorized native owner. The latest actual-price study still predates held/spent gates and hatch timings. Keep actual prices/Brachio 2B; 5–6 weeks remains a target.",
-      "doneWhen": "Update the model to current held/spent gates, protected Sell All stacks, craft consumption and hatch timings; gate quantities remain provisional. Recheck Brooder/Amber and ordinary/unlucky play. Review 24 later-island assignments with coherent earning/Luck/XP/abilities; avoid price-only retuning and player forecasts before proof."
+      "why": "Approved held/spent gates, per-island personal starts and hatch curve have owner-recorded older alpha rollout. New first-event Gold Rush/one-Gold intro is source implemented in 014a2d787f; its migration is local, not hosted alpha. Current model still uses the retired Rainbow intro and older gate/hatch assumptions. Keep actual prices and Brachio 2B.",
+      "doneWhen": "Qualify the source Gold Rush intro and update models for its single plain-hatch Gold, current held/spent gates, protected Sell All stacks, craft consumption and hatch timings. Gate quantities remain provisional. Recheck Brooder/Amber, 24 coherent later profiles and ordinary/unlucky gameplay before pace forecasts."
     },
     {
       "id": "cast-worlds",
@@ -434,7 +434,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "Locked 40 and selected stills stay. Anky and Giants source production advanced, but counts stay 11 redos + 19 first packages pending complete source qualification. Worlds, voices, variants, habitat and native QA remain separate work.",
+      "why": "All 40 and their selected stills stay. Seven Giants full source sets and the accepted valley are committed, with finish and wider world/device qualification open. Counts remain 11 redos + 19 first packages pending. Other worlds, voices, variants, habitat and native QA stay separate.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -523,7 +523,7 @@
     {
       "title": "30 asset packages before Nov 8",
       "level": "High",
-      "action": "Thirty complete packages over nine days require 23.3/week, including 14.8 first packages/week, before worlds, voices, rework and QA. Current source progress remains unqualified as complete packages. Keep the fixed 40/Dec 1; assign credible parallel capacity and measure accepted output.",
+      "action": "Thirty complete packages over eight days require 26.3/week, including 16.6 first packages/week, before worlds, voices, rework and QA. Seven committed Giants sets are real output, but their finish qualification is open. Keep fixed 40/Dec 1; assign credible capacity and measure accepted output.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -537,14 +537,14 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "High",
-      "action": "No newer receipt located after the controlled Oct26 Moto Fernlands hatch/work/relaunch. Selling, expansion, return travel, complete Book/shop and physical iOS remain unrecorded. All-five acceptance stays Nov1; new debug/source/shader commits are not device proof.",
+      "action": "No newer all-five receipt located after the controlled Oct 26 Moto Fernlands session. Selling, expansion, return travel, complete Book/shop and physical iOS remain unrecorded. Friday’s walkthrough target has no completion receipt; Nov 1 gate remains. Scoped valley/variant reviews are separate evidence.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "All 40 prices match the pinned source108 study, but it predates approved held/spent gates and hatch timings. Its cumulative-found/coin-only unlock assumptions are stale. Gate quantities are provisional. Update models and ordinary/unlucky gameplay proof; review 24 coherent profiles before forecasting player pace.",
+      "action": "The actual-price study predates current held/spent gates, hatch curve and new first-event Gold Rush. Model assumptions still include the retired Rainbow intro and lifetime-find gates. Update model/gameplay proof and review 24 coherent profiles; provisional quantities and diagnostics are not player forecasts.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -614,6 +614,14 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-10-31",
+      "text": "Seven Giants full animation/reveal sets and matching content are committed; finish qualification remains open. Valley look accepted in source with scoped Moto evidence; wider world/device checks remain. Inventory is 24/24 committed/working; complete-package cohorts remain 10/11/19."
+    },
+    {
+      "date": "2026-10-31",
+      "text": "Selected Meteor/Glow/footprints/Book tile source updates and new first-event Gold Rush are recorded with their limits. The new intro migration is local, not hosted alpha. No full native/ops/model gate closed; 30 packages over eight days require 26.3/week before worlds and QA. Compact default retained."
+    },
     {
       "date": "2026-10-30",
       "text": "Meteor and Shiny Meteor source looks advanced to afbe2d7d3c: lighter galaxy glass and green-to-violet aurora-colour glass, selected after Moto/Pixel feedback. The deep-violet a16dcb9230 intermediate is superseded. No new form/event/odds or full-game acceptance is inferred."
@@ -710,30 +718,30 @@
     },
     {
       "label": "Model limits",
-      "detail": "Latest bounded 24-path source108 study matches all 40 actual prices but predates both held/spent gates and the hatch curve. Model/config still use lifetime-found specials, sell-all and coin-only unlock assumptions, including a retired Giants gate. Update these before ordinary/unlucky forecasts; 5–6 weeks is a target. Older frozen commercial capsules retain their historical 15 substitutions. The 24 later assignments and coherent earning/Luck/XP/abilities remain open."
+      "detail": "Latest bounded source108 actual-price study matches all 40 prices but predates current held/spent gates, hatch curve and first-event Gold Rush. Model/config still use lifetime-found specials, sell-all/coin-only unlock assumptions and the retired Rainbow intro. Update these before ordinary/unlucky forecasts; 5–6 weeks is a target. Older frozen capsules retain historical substitutions; 24 coherent later profiles remain open."
     },
     {
       "label": "Late Moto destination proof · Oct 26",
       "detail": "#56 13:36Z board receipt: 941061f58 debug candidate plus owner-held menu changes, granted coins/specials, real unlock chain then Fernlands starter/shop/Iguanodon45s hatch/work and OS kill/relaunch. Exact cash/home/rooms/dinos retained. Raw captures not independently reviewed here. Fernlands sell/expansion/return travel/complete Book-shop and physical iOS remain unrecorded. Pixel dropped by Frozair; no new reboot requirement added."
     },
     {
-      "label": "Anky and Giants source progress · Oct 28",
+      "label": "Historical Anky and Giants source progress · Oct 28",
       "detail": "HEAD9d4b00fc98. Anky151fe3497b commits full ranch/reveal/shop/routes;13/13 generated content files match. Recorded802ranch+197reveal frames carry finish flags mainly~5.0–5.3% off-colour vs5%cap, plus front-rest7.6x seam. Findings need disposition; colour choice is kept, Moto size/run open. Giants7801906518 commits seven partial video banks/Diplo repack; directional/actions unfinished. Working Deino/Amarga reveals remain untracked; four older Giants reveals are locally modified. No maintenance test or repack."
     },
     {
       "label": "Package counts versus bank inventory",
-      "detail": "10 integrated/11 redo/19 first complete packages remain. Committed named ranch/reveal banks24/22, working24/24;16species lack named banks. Iguanodon whole source qualification stays open despite committed reveal/stride. Old1438reveal checks and owner2251/0checks are snapshot evidence, not current native acceptance. All40selected reference hashes/images/homes stay unchanged."
+      "detail": "10 integrated / 11 redo / 19 first complete packages pending qualification. Committed named ranch/reveal banks are 24/24, working 24/24; 16 species lack named banks. Seven Giants full sets are committed with recorded finish findings still open. Iguanodon/Anky whole-source checks remain separate. Historical test totals do not establish current native acceptance."
     },
     {
       "label": "Selected Rainbow looks · scoped owner evidence",
       "detail": "Rainbow 543ba962ba, Shiny Rainbow 7fbf96ef4a and Rainbow Glow b1b91b7848 remain selected source work. Shiny Rainbow has scoped Moto test-app review and recorded 2,256 checks. Reveal, Book photo and lower-end real-game performance remain unchecked; this is not all-five native acceptance. Meteor now has a later selected look, recorded separately. Plain Shiny and unresolved Glow combinations remain open; no night-response system is inferred from #79."
     },
     {
-      "label": "Current native/ops/model limits · Oct 28",
+      "label": "Historical native/ops/model limits · Oct 28",
       "detail": "No new #56/#57/#58 receipt after Oct26. Debug helper fe36a864db is now committed; welcome-back/egg-alert5d1cc3e535 and RanchLog/Bag guidance d1b09f1451 are source progress only. PhysicaliOS/fullFernactions/devicefloor/currentbackup/crash/restore proof remain. Model/config still use superseded cumulative/coin-only assumptions; actual-price study predates current gates/hatch. Build771distribution unverified; Oct4 ops historical."
     },
     {
-      "label": "Current review and capacity · Oct 30",
+      "label": "Historical review and capacity · Oct 30",
       "detail": "HEAD afbe2d7d3c. Thirty remaining / nine days to Nov 8 × 7 = 23.3 complete packages/week; 19 first / nine × 7 = 14.8/week before worlds, voices, rework and QA. Required, not observed capacity. Cast, milestone and week dates retained. No new #56/#57/#58 native/ops/store/capacity or current model receipt. No maintenance game tests, imports, builds, installs, hosted queries, art spending or game commits."
     },
     {
@@ -741,17 +749,33 @@
       "detail": "Shant/Dread/Theri local recipes have 12 takes including directional walks, dig, happy and nap, with uncommitted ranch/reveal changes. Recorded ranch finish flags: 848/1,185/1,077 frames respectively. Shant/Dread generated content matches installed; Theri latest generated ranch does not, so its report cannot certify installed content. No promotion or owner-file changes by maintenance. Inventory 24/22 committed, 24/24 working; counts 10/11/19 unchanged."
     },
     {
-      "label": "Current local Giants content · Oct 30",
+      "label": "Historical local Giants content · Oct 30",
       "detail": "Spino local recipe advances from six to 12 takes, with directional/action/nap clips. Generated ranch matches installed 8/8; recorded 12 takes/902 flagged frames still need finish disposition. Theri latest generated ranch now matches installed 9/9, superseding yesterday’s mismatch; recorded 11 takes/1,077 flagged frames remain. Both sets and reveal changes are uncommitted owner work. Matching hashes do not certify quality, full source qualification or native acceptance. Counts and inventory unchanged."
     },
     {
       "label": "Selected Meteor looks · source scope",
-      "detail": "a16dcb9230 deep galaxy glass is superseded by afbe2d7d3c lighter blue-violet galaxy glass after Pixel feedback. Shiny Meteor uses green-to-violet aurora-colour glass. Outline/commit record scoped Moto and Pixel selections; reveal, Book, lower-end full-game performance and physical iOS remain unqualified. Aurora describes an existing variant’s look, not a new event/form or night-response feature. No odds or fifteen-form changes."
+      "detail": "Current f6f1dd7549 uses selected 76%-opacity Meteor/Shiny Meteor jewel glass, body-only stars and a cosmetic shooting star, superseding prior opacity/look iterations. 90f6df15f1 adds selected near-white lavender/mint Glow and stride-sized footprints; 9a572581a9 updates Book tiles. Owner-recorded Moto choices are scoped appearance evidence. No new forms, event mechanic, odds or night-response approval; full reveal/Book-photo/full-game/performance/iOS proof remains open."
+    },
+    {
+      "label": "Committed Giants sets · Oct 31",
+      "detail": "Giga 54bdc4db7c, Deino 043656bf6c, Dread 6e438b39bb, Shant b9a418595e, Theri 07a468c8a6, Spino 8456df39d4, Amarga 193f9bc5ff. Each has 12 ranch takes and a dedicated 512px/24fps reveal; 121/121 generated bank/PNG files match installed content. Measurements c2fa9b77fa and reveal contracts dd1693127a are committed. Recorded finish flags still need disposition. Amarga happy head drop was explicitly accepted Oct 30, not a blanket waiver. Maintenance executed no game tests or repack."
+    },
+    {
+      "label": "Accepted Giants valley · scoped source/world review",
+      "detail": "59d016831b commits valley/shore/mountain ring/shop/storehouse; #23 Oct 31 05:21Z owner receipt records Frozair acceptance and scoped full-land/16-resident Moto comparison at about 0.8 fps cost. Remaining stream/tree follow-ups, all-stage clearance, close zoom and final release-device proof remain. This does not close all-five native acceptance or alter selected roster artwork."
+    },
+    {
+      "label": "New Gold Rush introduction · source/local only",
+      "detail": "014a2d787f implements Frozair-approved first Forest event as Gold Rush with one eligible plain-hatch Gold, replacing egg-six gift/shop countdown/Rainbow intro. New migration 20261031010000 is explicitly local, not hosted alpha; tests were added but no fresh executed/native proof is inferred. 23b59ab24d records Oct 30 verification of older alpha migrations, separately. 8ab4756db6 revises island-card pitches without changing arrival eggs/gates."
+    },
+    {
+      "label": "Current review and capacity · Oct 31",
+      "detail": "HEAD 014a2d787f. Thirty remaining / eight days to Nov 8 × 7 = 26.3 complete packages/week; 19 first / eight × 7 = 16.6/week before worlds, voices, rework and QA. Required rate, not measured accepted capacity. No newer #56/#57/#58 full native/ops/store/model receipt. Oct 25 gate stays unmet; Friday walkthrough lacks a completion receipt; original week/Nov 1/Nov 8/Dec 1 dates stay. No maintenance game tests/imports/builds/installs/hosted operations/art spending/game commits."
     }
   ],
   "firstWork": {
     "title": "Finish the packages already underway.",
-    "note": "Keep qualifying the packages already underway. Meteor looks and local clips advanced, without new accepted-package or phone/recovery proof. All 40/Dec 1 and the original Nov 1/Nov 8 gates stay fixed.",
+    "note": "Qualify the source already built. Seven Giants sets and the accepted valley are committed; Anky/Iguanodon still need complete checks. All 40/Dec 1 and the original Nov 1/Nov 8 gates stay fixed.",
     "items": [
       {
         "id": "fern-art-first",
@@ -766,11 +790,11 @@
           23,
           75
         ],
-        "outcome": "Resolve Anky/Iguanodon source findings and qualify owner-held Giants clips. Theri’s old content mismatch is closed; finish findings remain. Selected variants still need current reveal, Book and full-game checks. Voice and final native acceptance remain separate release gates.",
+        "outcome": "Close Anky/Iguanodon findings and qualify the seven committed Giants ranch/reveal sets. Source content matches installed, but recorded finish flags still need disposition. Final variants, voice, full UI and phone acceptance remain separate gates.",
         "species": [
           "Anky qualification",
           "Iguanodon finish",
-          "Giants: finish gaps"
+          "Giants: source checks"
         ]
       },
       {
@@ -797,7 +821,7 @@
         "step": 3,
         "kind": "operations",
         "title": "Assign credible parallel capacity",
-        "when": "Now · 9 days to freeze",
+        "when": "Now · 8 days to freeze",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -805,25 +829,25 @@
           57,
           58
         ],
-        "outcome": "30 complete packages require 23.3/week before worlds, voices, rework and QA; first packages alone need 14.8/week. No accepted complete-package rate is established. Assign credible parallel capacity for the fixed 40/Dec 1 alongside current device, recovery and store proof. No new spending or game build follows.",
+        "outcome": "30 complete packages require 26.3/week; first packages alone need 16.6/week, before worlds, voices, rework and QA. Seven committed Giants sets are production progress, not an accepted-package rate. Assign credible parallel capacity and current device/recovery/store proof.",
         "species": [
           "11 redos + 19 first",
-          "23.3/week required",
+          "26.3/week required",
           "Capacity unproven"
         ]
       }
     ]
   },
   "production": {
-    "title": "10 looks integrated. 30 species still need assets.",
-    "note": "10 integrated source packages / 11 redos / 19 first complete packages pending. Bank inventory stays 24 committed ranch / 22 committed reveals, working 24/24. Spino has a fuller local clip set and Theri’s prior generated/installed mismatch is closed; finish and complete-package qualification remain open.",
+    "title": "10 looks integrated. 30 packages to finish.",
+    "note": "10 integrated / 11 redo / 19 first complete packages pending qualification. Named bank inventory is now 24 ranch / 24 reveals committed and working. Seven Giants full clip sets and dedicated reveals are committed and match installed content; recorded finish findings keep their whole source qualification open. Pending packages include work already built, not only absent assets.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 9,
-    "minimumNewPerWeek": 14.8,
+    "daysToFreeze": 8,
+    "minimumNewPerWeek": 16.6,
     "islands": [
       {
         "id": "forest",
@@ -906,7 +930,7 @@
             "name": "Shantungosaurus",
             "image": "/stompy-acres/roster/shantungosaurus.webp",
             "bank": "available",
-            "detail": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in b9a418595e; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -914,7 +938,7 @@
             "name": "Dreadnoughtus",
             "image": "/stompy-acres/roster/dreadnoughtus.webp",
             "bank": "available",
-            "detail": "Partial ranch/shop source is committed in 7801906518. A newer 12-take owner-held recipe now includes directional walks/dig/happy/nap, with uncommitted runtime/reveal changes. Recorded finish flags remain; complete source qualification is still open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 6e438b39bb; 15/15 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -922,7 +946,7 @@
             "name": "Giganotosaurus",
             "image": "/stompy-acres/roster/giganotosaurus.webp",
             "bank": "available",
-            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 54bdc4db7c; 17/17 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -930,7 +954,7 @@
             "name": "Therizinosaurus",
             "image": "/stompy-acres/roster/therizinosaurus.webp",
             "bank": "available",
-            "detail": "Partial ranch/shop source is committed in 7801906518. Latest owner-held generated ranch now matches installed 9/9, superseding the earlier mismatch. The recorded 11-take report still carries finish flags; runtime/reveal work is uncommitted and complete source qualification remains open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 07a468c8a6; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open. The earlier content mismatch is closed.",
             "productionStatus": "redo"
           },
           {
@@ -938,7 +962,7 @@
             "name": "Spinosaurus",
             "image": "/stompy-acres/roster/spinosaurus.webp",
             "bank": "available",
-            "detail": "Partial ranch/shop source is committed in 7801906518. Owner-held local work now has 12 takes including directional movement/actions/nap; generated ranch matches installed 8/8. Recorded finish flags remain. Runtime/reveal changes are uncommitted, without complete source acceptance.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 8456df39d4; 16/16 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -954,7 +978,7 @@
             "name": "Deinocheirus",
             "image": "/stompy-acres/roster/deinocheirus.webp",
             "bank": "missing",
-            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established. First ranch bank exists; the reveal candidate is untracked. Keep in first complete packages pending.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 043656bf6c; 19/19 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
             "productionStatus": "missing"
           },
           {
@@ -962,7 +986,7 @@
             "name": "Amargasaurus",
             "image": "/stompy-acres/roster/amargasaurus.webp",
             "bank": "missing",
-            "detail": "New video ranch bank and shop routing are committed in 7801906518. Directional movement/actions remain incomplete; newer working action/reveal candidates belong to the art owner. No complete approved source package is established. First ranch bank exists; the reveal candidate is untracked. Keep in first complete packages pending.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 193f9bc5ff; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open. Frozair accepted the small happy head drop on Oct 30; this does not waive other finish findings.",
             "productionStatus": "missing"
           }
         ]
@@ -1184,19 +1208,19 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 23.3
+    "minimumTotalPerWeek": 26.3
   },
   "weeklyPlan": {
     "start": "2026-10-26",
     "end": "2026-11-01",
     "title": "This week: Fernlands, phones, capacity.",
-    "note": "Oct 30 review: local clips and selected Meteor looks advanced; no complete-package, phone or ops gate closed. Keep the original Oct 26–Nov 1 targets and unmet Oct 25 gate. All 40/Dec 1 stay fixed; source outcomes do not mark release targets complete.",
+    "note": "Oct 31 review: seven Giants source sets and the accepted valley are committed. Recorded finish findings and all-five phone/recovery gates remain open. Friday’s full walkthrough has no completion receipt. Keep the original Oct 26–Nov 1 plan and unmet Oct 25 gate; Saturday’s targets are pending at this morning review.",
     "priorities": [
       {
         "id": "fern-source",
         "title": "Finish whole Fernlands packages",
         "owner": "Art owner · Frozair checkpoints",
-        "doneWhen": "Qualify Anky’s complete source bank/reveal and close Iguanodon’s source contract; keep Brachio R8/Stego in the owner’s queue. Complete partial Giants directions/actions/reveals in parallel. Record accepted output/time/rework; voice and final native acceptance remain separate.",
+        "doneWhen": "Qualify Anky/Iguanodon and the seven committed Giants ranch/reveal sets; record finish disposition, accepted output, time and rework. Keep Brachio R8/Stego in the owner queue. Voice, full UI and final native acceptance stay separate.",
         "refs": [
           29,
           42,
@@ -1217,7 +1241,7 @@
         "id": "capacity-ops",
         "title": "Assign capacity. Prove recovery.",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Assign credible parallel capacity for 30 complete packages: 23.3/week before worlds and QA, not observed throughput. Close current device, backup, crash and store blockers, plus Nov 1 isolated restore/load proof.",
+        "doneWhen": "Assign credible parallel capacity for 30 packages: 26.3/week before worlds and QA, not observed accepted throughput. Close current device, backup, crash and store blockers, plus Nov 1 isolated restore/load proof.",
         "refs": [
           55,
           57,
@@ -1264,16 +1288,16 @@
         "date": "2026-10-30",
         "label": "FRI 30",
         "title": "Walk all five",
-        "focus": "Today’s targets remain missing Fernlands Android actions and physical-iOS/all-five checks on separately authorized candidates. No new native receipt was found at this review; the latest controlled Moto evidence remains Oct 26.",
-        "proof": "Record exact build/backend/device, hatch/work/sell/expand/travel/Book and kill-relaunch scope. Source variant reviews on Moto/Pixel do not close this full-game gate; missing access/evidence remains open."
+        "focus": "Recorded source output: seven Giants animation/reveal sets and the valley look are committed; Frozair accepted the valley look Oct 31. The Friday all-five phone walkthrough has no completion receipt at this review.",
+        "proof": "Scoped Moto valley/variant observations are separate from full Android/physical-iOS hatch/work/sell/expand/travel/Book and kill-relaunch proof. Original Nov 1 acceptance date remains."
       },
       {
         "id": "sat-31",
         "date": "2026-10-31",
         "label": "SAT 31",
         "title": "Fix. Restore. Recheck.",
-        "focus": "Close qualification defects and perform separately authorized isolated recovery/load rehearsal. Protect eggs, ownership, Bag, history and events.",
-        "proof": "Fail-closed results and backup/crash receipt; no maintenance hosted reset or new build."
+        "focus": "Today’s targets remain closing qualification defects and a separately authorized isolated recovery/load rehearsal. New Gold Rush intro is source-only/local migration; protect eggs, ownership, Bag, history and events.",
+        "proof": "No new native/ops receipt at the morning review. Record exact fail-closed candidate and backup/crash evidence when available; maintenance executes no hosted reset or game build."
       },
       {
         "id": "sun-01",
