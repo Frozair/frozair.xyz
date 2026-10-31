@@ -9,6 +9,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about",
     "/apps",
+    "/apps/exit",
+    "/apps/exit/privacy",
+    "/apps/exit/support",
     "/apps/beby",
     "/apps/beby/privacy",
     "/apps/blockrush",
@@ -23,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/apps/stompy-acres/roster",
   ].map((path) => ({
     url: `${baseUrl}${path}`,
-    lastModified: new Date(path.startsWith("/apps/stompy-acres") ? "2026-10-18" : "2026-05-30"),
+    lastModified: new Date(path.startsWith("/apps/exit") ? "2026-10-31" : path.startsWith("/apps/stompy-acres") ? "2026-10-18" : "2026-05-30"),
     changeFrequency: path === "/apps/stompy-acres/roadmap" ? "daily" : path === "/apps/hexablast" || path === "/apps/blockrush" ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/apps" || path === "/apps/hexablast" ? 0.9 : 0.7,
   }));
