@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -51,7 +51,7 @@
           "role": "Tiny beaked herbivore",
           "status": "Approved look integrated",
           "rationale": "Small beak and shield give a second friendly starter silhouette.",
-          "note": "Approved selected look is integrated through ranch and dedicated reveal assets. Final motion, voice, habitat and native acceptance remain separate.",
+          "note": "Approved selected look is integrated through ranch and dedicated reveal assets. Aquilops is the approved Forest Egg Finder; 271c0acafe implements the ability with recorded local proof. Alpha/native acceptance, final motion, voice and habitat checks remain separate.",
           "habitat": {
             "rating": "conditional",
             "confidence": "low",

@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-10-31",
-  "nextReview": "2026-11-01",
+  "asOf": "2026-11-01",
+  "nextReview": "2026-11-02",
   "timezone": "America/Chicago",
   "health": "At risk",
-  "healthNote": "Seven Giants animation/reveal sets and the accepted valley look are committed. Complete art qualification, all-five phone proof and recovery remain open. Thirty packages over eight days require 26.3/week before worlds, voices and QA.",
+  "healthNote": "Today’s all-five phone/data and isolated restore-load checkpoint is due, with complete receipts still missing at the morning review. Art counts remain 10/11/19. Thirty packages over seven days require 30/week before worlds, voices, rework and QA.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "10 looks integrated · 11 redos · 19 first packages pending · committed Giants source under qualification",
+  "resourcesNote": "Nov 1 proof due today · 10 source looks integrated · 30 packages pending complete qualification",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -48,7 +48,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Eight approved looks integrated with ranch/reveal routes. Forest ladder, visits, Zoomies and Tail Quake are implemented. Integration is not final motion or device acceptance."
+          "detail": "Eight approved looks are integrated with ranch/reveal routes. Forest ladder, visits, Zoomies and Tail Quake are source implemented; Aquilops Egg Finder now has approved source/local proof. Final motion, gameplay and device acceptance remain separate."
         },
         {
           "label": "World",
@@ -324,8 +324,8 @@
         57,
         29
       ],
-      "status": "Oct 25 unmet · late Moto partial pass",
-      "why": "Oct 26 board receipt proves an assisted Fernlands starter/shop/Iguanodon hatch/work and OS kill/relaunch on Moto. Physical iOS and omitted Fernlands actions remain. Pixel was explicitly dropped by Frozair.",
+      "status": "Nov 1 due today · Oct 25 unmet",
+      "why": "No newer full native receipt after the Oct 26 controlled Moto fixture. The original all-five phone/data gate is due today; missing Fernlands actions and physical iOS remain unrecorded at the morning review. Pixel remains dropped from this proof.",
       "doneWhen": "Record Fernlands collect/sell, expansion, travel away/back and full Book/shop coverage; preserve ownership, eggs, Bag, collection and events. Complete all-five current-candidate Android + physical iOS proof by Nov 1. New builds need task-specific authorization."
     },
     {
@@ -342,7 +342,7 @@
       ],
       "status": "Scope fixed · capacity unproven",
       "why": "Seven Giants full ranch/reveal sets are committed and all 121 generated content files match installed. Recorded finish flags and whole-contract qualification remain; counts stay 10/11/19. This source output is progress, while accepted-package throughput is still unproven.",
-      "doneWhen": "Measure accepted first-package and redo output, time and rework. Thirty packages over eight days require 26.3/week; first packages need 16.6/week before worlds, voices and QA. Assign credible parallel capacity without invented budget/rate, spending or scope/date changes."
+      "doneWhen": "Measure accepted first-package and redo output, time and rework. Thirty packages over seven days require 30/week; first packages need 19/week before worlds, voices and QA. Seven built Giants sets still need finish disposition. Assign credible capacity without invented budget/rate, spending or scope/date changes."
     },
     {
       "id": "seed-roster",
@@ -400,9 +400,9 @@
         7,
         57
       ],
-      "status": "Oct 25 initial proof unmet",
-      "why": "No current minimum-device, backup/crash receipt or initial ops baseline was located. October 4 observations are historical, not current live failures.",
-      "doneWhen": "Assign owners to the overdue initial baseline and prepare Nov 1 isolated hosted restore/load proof. Maintenance does not execute hosted operations."
+      "status": "Nov 1 restore/load due today",
+      "why": "The original isolated restore/load checkpoint is due today; no current completion receipt was located. Initial minimum-device/backup/crash and capacity proof also remain open. October 4 observations are historical, not a current live failure.",
+      "doneWhen": "Record separately authorized isolated recovery/load and current backup/crash/device evidence. Keep normal ownership, eggs, Bag, history and events safe. Maintenance performs no hosted query, migration, reset or game build."
     },
     {
       "id": "economy",
@@ -417,8 +417,8 @@
         47
       ],
       "status": "Selected packages approved · later profiles open",
-      "why": "Approved held/spent gates, per-island personal starts and hatch curve have owner-recorded older alpha rollout. New first-event Gold Rush/one-Gold intro is source implemented in 014a2d787f; its migration is local, not hosted alpha. Current model still uses the retired Rainbow intro and older gate/hatch assumptions. Keep actual prices and Brachio 2B.",
-      "doneWhen": "Qualify the source Gold Rush intro and update models for its single plain-hatch Gold, current held/spent gates, protected Sell All stacks, craft consumption and hatch timings. Gate quantities remain provisional. Recheck Brooder/Amber, 24 coherent later profiles and ordinary/unlucky gameplay before pace forecasts."
+      "why": "Gold Rush intro and Forest Aquilops Egg Finder are approved and source implemented, with local migrations. #20 records SQL/game/local end-to-end Egg Finder proof; this is not alpha or native acceptance. Current model lacks Egg Finder and retains retired Rainbow-intro/older gate assumptions. Older alpha rollout evidence remains separate.",
+      "doneWhen": "Qualify current Gold Rush, Aquilops Egg Finder, held/spent gates, protected Sell All/crafts and hatch timings together. Four later-island finder choices remain with Frozair; do not re-ask settled Aquilops or assign them silently. Update coherent profiles/Brooder/Amber and ordinary/unlucky proof before forecasts; no price-only retuning."
     },
     {
       "id": "cast-worlds",
@@ -491,7 +491,7 @@
     {
       "title": "Approve later-island profile choices",
       "due": "2026-10-25",
-      "recommendation": "Held/spent gates and shop-band hatch timings are approved in source; special gate quantities remain provisional. Update the stale pacing model before judging the 5–6-week target. Review 24 later assignments with coherent earning/Luck/XP/abilities. Keep actual prices and Brachio 2B unchanged.",
+      "recommendation": "Current held/spent gates, hatch timings, Gold Rush intro and Forest Aquilops Egg Finder are approved in source; gate quantities remain provisional. Four later-island finder choices remain with Frozair alongside coherent profile work. Do not reopen Aquilops or choose them silently. The model lacks these current systems; keep actual prices and Brachio 2B.",
       "state": "Decision needed"
     },
     {
@@ -509,7 +509,7 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair fixed the date/full roster October 25 (23a20f3a), with Fernlands first. Thirty complete packages over nine days require 23.3/week before worlds and QA. Qualify output and assign credible parallel capacity; source clips, matching files and selected variants are not complete-package throughput.",
+      "recommendation": "Frozair fixed all 40 and Dec 1 on Oct 25 (23a20f3a), Fernlands first. At Nov 1 review, 30 packages over seven days require 30/week before worlds/voices/rework/QA. Built source sets and local proofs do not establish accepted complete-package capacity. Qualify output and assign credible resources without changing scope/date.",
       "state": "Approved scope · capacity open"
     },
     {
@@ -523,7 +523,7 @@
     {
       "title": "30 asset packages before Nov 8",
       "level": "High",
-      "action": "Thirty complete packages over eight days require 26.3/week, including 16.6 first packages/week, before worlds, voices, rework and QA. Seven committed Giants sets are real output, but their finish qualification is open. Keep fixed 40/Dec 1; assign credible capacity and measure accepted output.",
+      "action": "Thirty complete packages over seven days require 30/week, including 19 first packages/week, before worlds, voices, rework and QA. Existing built source remains under qualification; no accepted-output rate is established. Keep fixed 40/Dec 1 and assign credible parallel capacity.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -537,14 +537,14 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "High",
-      "action": "No newer all-five receipt located after the controlled Oct 26 Moto Fernlands session. Selling, expansion, return travel, complete Book/shop and physical iOS remain unrecorded. Friday’s walkthrough target has no completion receipt; Nov 1 gate remains. Scoped valley/variant reviews are separate evidence.",
+      "action": "The Nov 1 all-five phone/data gate is due today, not expired at morning review. No newer complete receipt after Oct 26 Moto proof; Fernlands sell/expansion/return/full Book-shop and physical iOS remain unrecorded. Local ability tests and scoped look/world reviews do not close it.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "The actual-price study predates current held/spent gates, hatch curve and new first-event Gold Rush. Model assumptions still include the retired Rainbow intro and lifetime-find gates. Update model/gameplay proof and review 24 coherent profiles; provisional quantities and diagnostics are not player forecasts.",
+      "action": "The current model omits Egg Finder and still uses retired Rainbow-intro/lifetime-found gate assumptions. The actual-price study predates current gates, hatch curve, Gold Rush and finder behavior. Four finder/profile choices and coupled ordinary/unlucky proof remain; no player pace forecast follows from old diagnostics.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -558,7 +558,7 @@
     {
       "title": "Recovery is not yet proven",
       "level": "High",
-      "action": "Oct 25 initial device/backup/crash evidence remains unproven. October 4 findings are historical. Assign current evidence owners; isolated restore and staging load remain Nov 1, final regression Nov 15.",
+      "action": "Nov 1 isolated restore/load is due today with no completion receipt at morning review. Initial device/backup/crash proof remains open; October 4 records are historical. Preserve the original deadline and separate final Nov 15 regression; maintenance executes no hosted operations.",
       "owner": "Codex + Frozair",
       "due": "2026-11-01"
     }
@@ -614,6 +614,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-01",
+      "text": "Aquilops is the approved Forest Egg Finder, implemented with owner-recorded local SQL/game/end-to-end proof; its migration remains local, not alpha/native acceptance. No art-count or full release-gate gain. Nov 1 phone/data and isolated restore/load checkpoint is due today; complete receipts remain missing at morning review. Thirty packages over seven days require 30/week before worlds and QA. Compact priority now points to today’s phone proof."
+    },
     {
       "date": "2026-10-31",
       "text": "Seven Giants full animation/reveal sets and matching content are committed; finish qualification remains open. Valley look accepted in source with scoped Moto evidence; wider world/device checks remain. Inventory is 24/24 committed/working; complete-package cohorts remain 10/11/19."
@@ -718,7 +722,7 @@
     },
     {
       "label": "Model limits",
-      "detail": "Latest bounded source108 actual-price study matches all 40 prices but predates current held/spent gates, hatch curve and first-event Gold Rush. Model/config still use lifetime-found specials, sell-all/coin-only unlock assumptions and the retired Rainbow intro. Update these before ordinary/unlucky forecasts; 5–6 weeks is a target. Older frozen capsules retain historical substitutions; 24 coherent later profiles remain open."
+      "detail": "Latest bounded actual-price study matches all 40 prices but predates held/spent gates, hatch curve, Gold Rush introduction and Egg Finder. Current model omits the finder and retains retired Rainbow-intro/lifetime-found assumptions. Update coupled Bag/events/crafts/coin/hatch/finder behavior and ordinary/unlucky gameplay before forecasts. Four later-island finder choices and coherent profiles remain; preserve approved prices/quantities and distinguish historical capsules."
     },
     {
       "label": "Late Moto destination proof · Oct 26",
@@ -769,17 +773,44 @@
       "detail": "014a2d787f implements Frozair-approved first Forest event as Gold Rush with one eligible plain-hatch Gold, replacing egg-six gift/shop countdown/Rainbow intro. New migration 20261031010000 is explicitly local, not hosted alpha; tests were added but no fresh executed/native proof is inferred. 23b59ab24d records Oct 30 verification of older alpha migrations, separately. 8ab4756db6 revises island-card pitches without changing arrival eggs/gates."
     },
     {
-      "label": "Current review and capacity · Oct 31",
+      "label": "Historical review and capacity · Oct 31",
       "detail": "HEAD 014a2d787f. Thirty remaining / eight days to Nov 8 × 7 = 26.3 complete packages/week; 19 first / eight × 7 = 16.6/week before worlds, voices, rework and QA. Required rate, not measured accepted capacity. No newer #56/#57/#58 full native/ops/store/model receipt. Oct 25 gate stays unmet; Friday walkthrough lacks a completion receipt; original week/Nov 1/Nov 8/Dec 1 dates stay. No maintenance game tests/imports/builds/installs/hosted operations/art spending/game commits."
+    },
+    {
+      "label": "Aquilops Egg Finder · approved local proof",
+      "detail": "#20 Nov 1 05:45–06:22Z records proposal, approval, star rules, Aquilops selection and local implementation 271c0acafe/migration 20261101010000. Owner reports SQL 24/24, game suite 2,287 and shortened-interval local end-to-end capture. Speed determines 4–2h finds, Luck weights species, cap two waiting, 10min Nursery eggs, zero release value; plain finds Common/Uncommon, Gold/Rainbow/Meteor also Rare, never Legendary/Mythic. These are recorded local results, not maintenance tests, hosted rollout or native acceptance. Four later-island choices remain unassigned."
+    },
+    {
+      "label": "Nov 1 checkpoint · morning review",
+      "detail": "HEAD 271c0acafe. Original all-five persistent normal-access native/data and isolated restore/load gate is due today, not marked expired at morning review. No newer full #56/#57/#58 native/ops/store/capacity/model acceptance found after Oct 26 assisted Moto. Saturday target has no completion receipt. Prior Giants content matches and tests remain dated Oct 31/owner snapshot evidence; no new art acceptance. Cohorts 10/11/19, inventory 24/24 committed/working. Thirty remaining / seven days × seven = 30 complete packages/week; first packages alone 19/week before worlds/voices/rework/QA. Fixed 40, Dec 1 and all original dates remain. No maintenance game/hosted/art operations."
     }
   ],
   "firstWork": {
-    "title": "Finish the packages already underway.",
-    "note": "Qualify the source already built. Seven Giants sets and the accepted valley are committed; Anky/Iguanodon still need complete checks. All 40/Dec 1 and the original Nov 1/Nov 8 gates stay fixed.",
+    "title": "Today’s release proof comes first.",
+    "note": "Nov 1 is the original checkpoint, due today rather than expired at this morning review. Qualify the art already built in parallel. All 40/Dec 1 and the Nov 8 freeze stay fixed; no new build, hosted operation or spending follows from the plan.",
     "items": [
       {
-        "id": "fern-art-first",
+        "id": "native-first",
         "step": 1,
+        "kind": "engine",
+        "title": "Prove all five islands today",
+        "when": "Due today · Nov 1",
+        "owner": "Native owner · Frozair device review",
+        "refs": [
+          56,
+          57,
+          29
+        ],
+        "outcome": "The all-five phone/data gate is due today. Still record omitted Fernlands Android actions and physical iOS/all-five loops on separately authorized candidates. The Oct 26 assisted Moto fixture is partial proof; source changes and local tests do not close this gate.",
+        "species": [
+          "Moto: partial pass",
+          "iPhone: open",
+          "Nov 1: due today"
+        ]
+      },
+      {
+        "id": "fern-art-first",
+        "step": 2,
         "kind": "art",
         "title": "Qualify Anky + Iguanodon",
         "when": "Now · source acceptance",
@@ -798,30 +829,11 @@
         ]
       },
       {
-        "id": "native-first",
-        "step": 2,
-        "kind": "engine",
-        "title": "Finish the phone walkthrough",
-        "when": "All five · Nov 1",
-        "owner": "Native owner · Frozair device review",
-        "refs": [
-          56,
-          57,
-          29
-        ],
-        "outcome": "Moto hatch/work/kill-relaunch is recorded. Still record Fernlands sell, expansion, return travel and full Book/shop coverage. Arrange physical iOS and all-five qualification on explicitly authorized candidates. Assisted unlocks do not prove normal pacing.",
-        "species": [
-          "Moto: partial pass",
-          "iPhone: open",
-          "All five: Nov 1"
-        ]
-      },
-      {
         "id": "capacity-first",
         "step": 3,
         "kind": "operations",
         "title": "Assign credible parallel capacity",
-        "when": "Now · 8 days to freeze",
+        "when": "Due today · recovery + capacity",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -829,10 +841,10 @@
           57,
           58
         ],
-        "outcome": "30 complete packages require 26.3/week; first packages alone need 16.6/week, before worlds, voices, rework and QA. Seven committed Giants sets are production progress, not an accepted-package rate. Assign credible parallel capacity and current device/recovery/store proof.",
+        "outcome": "The isolated restore/load checkpoint is due today and has no new completion receipt. Thirty complete packages over seven days require 30/week; first packages alone need 19/week before worlds, voices, rework and QA. Establish credible accepted-output capacity and current device/recovery/store proof; maintenance does not execute game or hosted operations.",
         "species": [
-          "11 redos + 19 first",
-          "26.3/week required",
+          "Restore/load: open",
+          "30/week required",
           "Capacity unproven"
         ]
       }
@@ -846,8 +858,8 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 8,
-    "minimumNewPerWeek": 16.6,
+    "daysToFreeze": 7,
+    "minimumNewPerWeek": 19.0,
     "islands": [
       {
         "id": "forest",
@@ -867,7 +879,7 @@
             "name": "Aquilops",
             "image": "/stompy-acres/roster/aquilops.webp",
             "bank": "available",
-            "detail": "Approved look integrated through committed ranch/reveal routes. Final clip polish, voice, habitat and native acceptance are separate. Later Forest motion/view/color/nap refinements are committed; active local edits remain with their owners.",
+            "detail": "Approved selected look is integrated through ranch and dedicated reveal assets. Aquilops is the approved Forest Egg Finder; 271c0acafe implements the ability with recorded local proof. Alpha/native acceptance, final motion, voice and habitat checks remain separate.",
             "productionStatus": "integrated"
           },
           {
@@ -1208,13 +1220,13 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 26.3
+    "minimumTotalPerWeek": 30.0
   },
   "weeklyPlan": {
     "start": "2026-10-26",
     "end": "2026-11-01",
     "title": "This week: Fernlands, phones, capacity.",
-    "note": "Oct 31 review: seven Giants source sets and the accepted valley are committed. Recorded finish findings and all-five phone/recovery gates remain open. Friday’s full walkthrough has no completion receipt. Keep the original Oct 26–Nov 1 plan and unmet Oct 25 gate; Saturday’s targets are pending at this morning review.",
+    "note": "Nov 1 morning review: the original all-five/native/data and isolated restore/load checkpoint is due today, with no complete receipt yet. Saturday’s recovery target lacks a completion record. Aquilops Egg Finder has approved source/local proof only. Keep this final day of the Oct 26–Nov 1 plan and the unmet Oct 25 gate; do not roll dates or mark targets complete.",
     "priorities": [
       {
         "id": "fern-source",
@@ -1241,7 +1253,7 @@
         "id": "capacity-ops",
         "title": "Assign capacity. Prove recovery.",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Assign credible parallel capacity for 30 packages: 26.3/week before worlds and QA, not observed accepted throughput. Close current device, backup, crash and store blockers, plus Nov 1 isolated restore/load proof.",
+        "doneWhen": "Record today’s original isolated restore/load and current device/backup/crash/store evidence, plus credible accepted-output capacity. Thirty packages over seven days require 30/week before worlds/QA, not an observed rate. No new game/hosted/spending authorization follows.",
         "refs": [
           55,
           57,
@@ -1296,16 +1308,16 @@
         "date": "2026-10-31",
         "label": "SAT 31",
         "title": "Fix. Restore. Recheck.",
-        "focus": "Today’s targets remain closing qualification defects and a separately authorized isolated recovery/load rehearsal. New Gold Rush intro is source-only/local migration; protect eggs, ownership, Bag, history and events.",
-        "proof": "No new native/ops receipt at the morning review. Record exact fail-closed candidate and backup/crash evidence when available; maintenance executes no hosted reset or game build."
+        "focus": "Saturday’s qualification/recovery target has no completion receipt at the Nov 1 morning review. The later Nov 1 Aquilops Egg Finder approval/local proof is Sunday source progress, not proof that Saturday’s release target passed.",
+        "proof": "No new full #56/#57/#58 recovery/phone receipt was located. Preserve original dates and distinguish subsequent Sunday source/local work from Saturday’s target."
       },
       {
         "id": "sun-01",
         "date": "2026-11-01",
         "label": "SUN 1",
         "title": "Make the Nov 1 gate explicit",
-        "focus": "Review five-island/native/data and recovery evidence. Count accepted redos/first packages and forecast the final week to freeze.",
-        "proof": "Record pass or unmet gates honestly; no silent rollover, source-to-native upgrade or roster/date change."
+        "focus": "Today’s original checkpoint: review all-five native/data loops and isolated recovery/load, plus accepted complete-package output and final-week capacity. At morning review those complete receipts remain missing; the day’s gate is due, not yet expired.",
+        "proof": "Record exact-candidate pass or unmet proof honestly when reviewed. Do not silently extend, upgrade local tests to native acceptance, change the roster/date or start game/hosted operations from this plan."
       }
     ],
     "parking": [

@@ -85,7 +85,7 @@ whole source qualification, partial Giants packages, missing phone actions/iOS
 coverage and credible parallel capacity with current device/recovery/store evidence.
 
 `production.islands` maps all 40 locked IDs/homes to `integrated`, `redo` or `missing`.
-October 31: 10 approved-look source packages integrated, 11 redos and 19 first complete
+November 1: 10 approved-look source packages integrated, 11 redos and 19 first complete
 packages pending. Legacy `existingBanks` (21), `missingBanks` (19) and `resident.bank`
 encode package cohorts, not file inventory. Named bank presence is now 24 committed
 ranch / 24 committed root reveals; working 24/24. Sixteen species lack named banks.
@@ -103,7 +103,7 @@ therefore include built work awaiting qualification, not only absent assets.
 Iguanodon reveal/strides remain committed; whole source qualification is still open.
 Voice, final Frozair/full hatch UI and native acceptance are separate release gates.
 
-Thirty complete packages / eight days to November 8 require 26.3/week, including 16.6
+Thirty complete packages / seven days to November 8 require 30/week, including 19
 first packages/week, before worlds/voices/rework/QA. One ranch bank in about three days
 is partial timing, not a qualified complete-package rate. Assign credible parallel
 capacity; do not invent budget, output, spending or a roster/date change. All-five
@@ -133,9 +133,13 @@ stars and a cosmetic shooting star; prior look/opacity iterations are superseded
 forms/events or a night-response system. Current reveal/Book-photo/full-game/iOS
 qualification remains open. Do not re-ask settled selections or overwrite owner work.
 
-The October 31 review retains original week/milestone dates. Friday's all-five
-walkthrough lacks a completion receipt; Saturday's targets are pending at the morning
-review. No new full native/ops/store/capacity/current-model acceptance is established.
+The November 1 morning review retains original week/milestone dates. Today’s all-five
+phone/data and isolated restore/load gate is due, not expired early. Friday’s walkthrough
+and Saturday’s recovery target lack completion receipts. Keep the October 26–November 1
+plan through today; after the week ends, record actual outcomes before a newly dated
+plan. No new full native/ops/store/capacity/current-model acceptance is established.
+The compact default now puts today’s five-island phone proof first; art qualification
+continues in parallel. This priority change authorizes no builds or hosted operations.
 
 Recorded seed-last proof covers all 40 homes/exact-eight shop/Book/starter sets;
 the old reset defect/fail-open runner are fixed. Source proof is snapshot-specific.
@@ -162,6 +166,14 @@ fresh executed/native acceptance receipt. Older alpha rollout verification recor
 in 23b59ab24d is separate. Current model still forces the retired Rainbow intro;
 include the new intro before pacing forecasts. 8ab4756db6 updates island-card pitches,
 with arrival eggs/gates unchanged.
+
+November 1 approved Aquilops as Forest Egg Finder: 271c0acafe and local migration
+20261101010000. #20 records SQL 24/24, game suite 2,287 and a shortened-interval local
+end-to-end capture; maintenance did not execute them. This is not alpha/native proof.
+Other four island finders remain Frozair’s choices; do not re-ask Aquilops or assign the
+others silently. Current model lacks Egg Finder and keeps retired Rainbow-intro/gate
+assumptions; qualify the coupled systems before player forecasts. Existing art counts,
+selected images/homes/habitat notes and the December 1 target are unchanged.
 
 Every real taxon retains habitat sources and uncertainty. Snow requires seasonal
 snowy woodland, stream edges, shelter and exposed open forage. Prince Creek

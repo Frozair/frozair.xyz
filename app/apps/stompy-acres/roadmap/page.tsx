@@ -191,6 +191,7 @@ export default function ReleaseRoadmapPage() {
   const briefMilestones = roadmap.milestones.filter(milestone => milestone.id !== "scope");
   const actionNotes = { art: "Movement + hatch reveals", engine: "Android + physical iPhone", operations: "People + time + recovery" };
   const actionTitles = { art: "Finish creature art", engine: "Test all five islands", operations: "Confirm time + help" };
+  const focusNotes = { art: "Finish the creatures already underway.", engine: "Complete the phone walkthrough.", operations: "Prove recovery and confirm capacity." };
 
   return <article className="sa-roadmap">
     <a href="#sa-islands" className="sa-skip-link">Skip to island readiness</a>
@@ -207,7 +208,7 @@ export default function ReleaseRoadmapPage() {
       <div className="sa-brief-freshness"><span className={stale ? "is-stale" : ""}>{stale ? "Review overdue" : "Evidence checked"} <time dateTime={roadmap.asOf}>{dateLabel(roadmap.asOf)}</time></span><span>Next review <time dateTime={roadmap.nextReview}>{dateLabel(roadmap.nextReview)}</time></span></div>
 
       <section id="sa-first-work" className="sa-brief-focus" aria-labelledby="sa-focus-title">
-        <div><p className="sa-eyebrow">PRIORITY 01</p><h2 id="sa-focus-title">{roadmap.firstWork.items[0].title}</h2><p>Finish the creatures already underway.</p></div>
+        <div><p className="sa-eyebrow">PRIORITY 01</p><h2 id="sa-focus-title">{roadmap.firstWork.items[0].title}</h2><p>{focusNotes[roadmap.firstWork.items[0].kind]}</p></div>
         <div className="sa-brief-progress"><strong>{roadmap.production.integratedLooks}<span> / {roadmap.production.total}</span></strong><span>art packages integrated</span><div className="sa-brief-meter" role="img" aria-label={`${roadmap.production.integratedLooks} of ${roadmap.production.total} art packages integrated in source; release acceptance remains open`}><span style={{ width: `${roadmap.production.integratedLooks / roadmap.production.total * 100}%` }} /></div><small>Final game + phone checks still open</small></div>
       </section>
 
