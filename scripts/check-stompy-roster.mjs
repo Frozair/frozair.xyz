@@ -87,7 +87,7 @@ for (const s of roster.benchedSpecies) {
 assert.equal(species.filter(s => s.conceptLabel === 'Approved still · production pending').length, 4);
 for (const id of newIds) {
   assert.equal(byId.get(id).conceptLabel, 'Approved still · production pending');
-  assert.equal(byId.get(id).status, 'Approved still · no bank');
+  assert(['Approved still · no bank', 'First package · local source in review'].includes(byId.get(id).status), `Unreviewed Snow production state: ${id}`);
 }
 assert.equal(typeof roster.proposal.title, 'string');
 assert.equal(typeof roster.proposal.note, 'string');

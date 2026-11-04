@@ -27,6 +27,15 @@ interface Island {
   next: string;
 }
 
+interface WeeklyPlan {
+  start: string; end: string; title: string; note: string;
+  priorities: { id: string; title: string; owner: string; doneWhen: string; refs: number[] }[];
+  days: { id: string; date: string; label: string; title: string; focus: string; proof: string }[];
+  parking: string[];
+  checkpoint: { date: string; title: string; pass: string; ifMiss: string };
+  dependencies: string[];
+}
+
 export interface ReleaseRoadmap {
   schemaVersion: number;
   title: string;
@@ -42,14 +51,8 @@ export interface ReleaseRoadmap {
   releaseIslandCount: number;
   baseline: { version: string; wiredIslands: number; launchWiredIslands: number; signedOffIslands: number; liveSpecies: number; launchSpecies: number; launchHomeSpecies: number; note: string };
   northStar: string;
-  weeklyPlan: {
-    start: string; end: string; title: string; note: string;
-    priorities: { id: string; title: string; owner: string; doneWhen: string; refs: number[] }[];
-    days: { id: string; date: string; label: string; title: string; focus: string; proof: string }[];
-    parking: string[];
-    checkpoint: { date: string; title: string; pass: string; ifMiss: string };
-    dependencies: string[];
-  };
+  weeklyPlan: WeeklyPlan;
+  weeklyHistory?: WeeklyPlan[];
   firstWork: {
     title: string; note: string;
     items: { id: string; step: number; title: string; when: string; owner: string; refs: number[]; outcome: string; species: string[]; kind: "engine" | "art" | "operations" }[];
@@ -151,6 +154,24 @@ function ActionIcon({ kind }: { kind: "engine" | "art" | "operations" }) {
   </svg>;
 }
 
+function WeeklyPlanView({ plan, id = "sa-weekly-detail", historical = false }: { plan: WeeklyPlan; id?: string; historical?: boolean }) {
+  const titleId = historical ? `${id}-title` : "sa-week-title";
+  return <section id={id} className="sa-week" aria-labelledby={titleId}>
+        <div className="sa-section-heading"><div><p className="sa-eyebrow">{historical ? "PREVIOUS WEEK" : "THIS WEEK"} / {dateLabel(plan.start)}–{dateLabel(plan.end)}</p><h2 id={titleId}>{plan.title}</h2></div><span className="sa-week-proposal">{historical ? "Recorded plan" : "Recommended focus"}</span></div>
+        <p className="sa-week-note">{plan.note}</p>
+        <div className="sa-week-outcomes" aria-label="Three outcomes to earn">{plan.priorities.map((priority, index) => <article key={priority.id}>
+          <span className="sa-week-priority" aria-label={`Priority ${index + 1}`}>0{index + 1}</span><div><h3>{priority.title}</h3><footer><span>{priority.owner}</span><BoardRefs refs={priority.refs} /></footer><details><summary>Done when <span aria-hidden="true">+</span></summary><p>{priority.doneWhen}</p></details></div>
+        </article>)}</div>
+        <ol className="sa-week-days" aria-label="Daily focus plan">{plan.days.map((day, index) => <li key={day.id}>
+          <div className="sa-week-day-top"><span>{day.label}</span><time dateTime={day.date}>{dateLabel(day.date)}</time></div><span className="sa-week-day-number" aria-hidden="true">0{index + 1}</span><h3>{day.title}</h3>
+          <details><summary>Work + proof <span aria-hidden="true">+</span></summary><div><p><b>Focus</b>{day.focus}</p><p><b>Proof</b>{day.proof}</p></div></details>
+        </li>)}</ol>
+        <div className="sa-week-parking"><strong>Recommended pause</strong><ul>{plan.parking.map(item => <li key={item}>{item}</li>)}</ul></div>
+        <div className="sa-week-checkpoint"><div><p className="sa-eyebrow">DECISION CHECKPOINT / <time dateTime={plan.checkpoint.date}>{dateLabel(plan.checkpoint.date)}</time></p><h3>{plan.checkpoint.title}</h3></div><div><p><b>Pass</b>{plan.checkpoint.pass}</p><p><b>If we miss</b>{plan.checkpoint.ifMiss}</p></div></div>
+        <div className="sa-week-dependencies"><strong>Before we can prove it</strong><ul>{plan.dependencies.map(item => <li key={item}>{item}</li>)}</ul></div>
+      </section>;
+}
+
 export default function ReleaseRoadmapPage() {
   const [filter, setFilter] = useState<Filter>("now");
   const [today, setToday] = useState(roadmap.asOf);
@@ -189,6 +210,7 @@ export default function ReleaseRoadmapPage() {
   const tasks = roadmap.work.filter(task => task.lane === filter);
   const target = new Date(`${roadmap.targetDate}T12:00:00Z`);
   const briefMilestones = roadmap.milestones.filter(milestone => milestone.id !== "scope");
+  const blockedCheckpointDates = Array.from(new Set(roadmap.milestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.end))).sort();
   const actionNotes = { art: "Movement + hatch reveals", engine: "Android + physical iPhone", operations: "People + time + recovery" };
   const actionTitles = { art: "Finish creature art", engine: "Test all five islands", operations: "Confirm time + help" };
   const focusNotes = { art: "Finish the creatures already underway.", engine: "Complete the phone walkthrough.", operations: "Prove recovery and confirm capacity." };
@@ -224,7 +246,7 @@ export default function ReleaseRoadmapPage() {
       <section className="sa-brief-dates" aria-labelledby="sa-key-dates-title">
         <div className="sa-brief-section-heading"><h2 id="sa-key-dates-title">The dates to protect</h2><span>Target plan · gates still open</span></div>
         <ol>{briefMilestones.map(milestone => <li key={milestone.id} className={`is-${milestone.state}`}><time dateTime={milestone.id === "beta" ? milestone.start : milestone.id === "submit" ? milestone.start : milestone.end}>{milestone.id === "beta" ? `${dateLabel(milestone.start)}–${new Date(`${milestone.end}T12:00:00Z`).getUTCDate()}` : dateLabel(milestone.id === "submit" ? milestone.start : milestone.end)}</time><span aria-hidden="true" className="sa-brief-date-node" /><strong>{({ alpha: "Five islands playable", freeze: "All art + worlds finished", beta: "Seven-day beta", submit: "Submit to both stores", launch: "Launch if ready" } as Record<string, string>)[milestone.id] ?? milestone.title}</strong></li>)}</ol>
-        <p className="sa-brief-date-note">Oct 25 checkpoint unmet. Store fixes: Nov 17–30.</p>
+        <p className="sa-brief-date-note">{blockedCheckpointDates.length > 0 && <>{blockedCheckpointDates.map(date => dateLabel(date)).join(" + ")} {blockedCheckpointDates.length === 1 ? "checkpoint" : "checkpoints"} unmet. </>}Store fixes: Nov 17–30.</p>
       </section>
 
       <nav className="sa-brief-links" aria-label="More roadmap detail"><Link href="/apps/stompy-acres/roster">See the 40 creatures <Arrow /></Link><a href="#sa-production">Creature progress <Arrow /></a></nav>
@@ -233,22 +255,13 @@ export default function ReleaseRoadmapPage() {
         <summary><span>Full plan &amp; evidence<small>Weekly tasks, islands, creatures and review history</small></span><span className="sa-full-plan-plus" aria-hidden="true">+</span></summary>
         <div className="sa-full-plan-content">
         <PlanDetail title="Weekly plan + daily tasks">
-      <section id="sa-weekly-detail" className="sa-week" aria-labelledby="sa-week-title">
-        <div className="sa-section-heading"><div><p className="sa-eyebrow">THIS WEEK / {dateLabel(roadmap.weeklyPlan.start)}–{dateLabel(roadmap.weeklyPlan.end)}</p><h2 id="sa-week-title">{roadmap.weeklyPlan.title}</h2></div><span className="sa-week-proposal">Recommended focus</span></div>
-        <p className="sa-week-note">{roadmap.weeklyPlan.note}</p>
-        <div className="sa-week-outcomes" aria-label="Three outcomes to earn">{roadmap.weeklyPlan.priorities.map((priority, index) => <article key={priority.id}>
-          <span className="sa-week-priority" aria-label={`Priority ${index + 1}`}>0{index + 1}</span><div><h3>{priority.title}</h3><footer><span>{priority.owner}</span><BoardRefs refs={priority.refs} /></footer><details><summary>Done when <span aria-hidden="true">+</span></summary><p>{priority.doneWhen}</p></details></div>
-        </article>)}</div>
-        <ol className="sa-week-days" aria-label="Daily focus plan">{roadmap.weeklyPlan.days.map((day, index) => <li key={day.id}>
-          <div className="sa-week-day-top"><span>{day.label}</span><time dateTime={day.date}>{dateLabel(day.date)}</time></div><span className="sa-week-day-number" aria-hidden="true">0{index + 1}</span><h3>{day.title}</h3>
-          <details><summary>Work + proof <span aria-hidden="true">+</span></summary><div><p><b>Focus</b>{day.focus}</p><p><b>Proof</b>{day.proof}</p></div></details>
-        </li>)}</ol>
-        <div className="sa-week-parking"><strong>Recommended pause</strong><ul>{roadmap.weeklyPlan.parking.map(item => <li key={item}>{item}</li>)}</ul></div>
-        <div className="sa-week-checkpoint"><div><p className="sa-eyebrow">DECISION CHECKPOINT / <time dateTime={roadmap.weeklyPlan.checkpoint.date}>{dateLabel(roadmap.weeklyPlan.checkpoint.date)}</time></p><h3>{roadmap.weeklyPlan.checkpoint.title}</h3></div><div><p><b>Pass</b>{roadmap.weeklyPlan.checkpoint.pass}</p><p><b>If we miss</b>{roadmap.weeklyPlan.checkpoint.ifMiss}</p></div></div>
-        <div className="sa-week-dependencies"><strong>Before we can prove it</strong><ul>{roadmap.weeklyPlan.dependencies.map(item => <li key={item}>{item}</li>)}</ul></div>
-      </section>
-
+          <WeeklyPlanView plan={roadmap.weeklyPlan} />
         </PlanDetail>
+        {(roadmap.weeklyHistory?.length ?? 0) > 0 && <PlanDetail title="Previous weeks">
+          {roadmap.weeklyHistory?.map((plan, index) => <PlanDetail key={`${plan.start}-${plan.end}-${index}`} title={`${dateLabel(plan.start)}–${dateLabel(plan.end)}`}>
+            <WeeklyPlanView plan={plan} id={`sa-week-history-${plan.start}-${index}`} historical />
+          </PlanDetail>)}
+        </PlanDetail>}
         <PlanDetail title="Production priorities + current state">
       <section id="sa-first-work-detail" className="sa-first-work" aria-labelledby="sa-first-work-title">
         <div className="sa-section-heading"><div><p className="sa-eyebrow">THE CAST IS LOCKED / START HERE</p><h2 id="sa-first-work-title">{roadmap.firstWork.title}</h2></div><a href="#sa-production" className="sa-section-link">See all 40 production needs <Arrow /></a></div>
