@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-04",
-  "nextReview": "2026-11-05",
+  "asOf": "2026-11-05",
+  "nextReview": "2026-11-06",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The November 1 all-five phone/data and isolated recovery checkpoint is unmet at the November 4 review. Runtime worlds and local Snow art advanced, but full release proof and complete-package acceptance remain open. Four days to freeze require 52.5 packages/week before remaining worlds, voices, rework and QA.",
+  "healthNote": "Snow’s eight animation sets are committed. Giants gained sharper movement art. The November 1 phone and recovery checkpoint remains unmet, and 30 source packages still need qualification before the November 8 freeze.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "Nov 1 checkpoint unmet · 30 source contracts pending · four days to Nov 8 freeze",
+  "resourcesNote": "Nov 1 checkpoint unmet · 30 source contracts pending · three days to Nov 8 freeze",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -53,7 +53,7 @@
         {
           "label": "World",
           "state": "partial",
-          "detail": "c99a15bcfb commits deep-green woodland, midday lighting and creek/pool/shore updates. Scoped Moto observations are recorded; all expansion stages, clearance, habitat and final candidate/device acceptance remain."
+          "detail": "c99a15bcfb brought the woodland and creek update. b57b90a7b8 and ae9f2baac4 close the canopy and widen the beach and river. The scoped Moto beach comparison was 26.9 to 26.5 fps, within recorded run-to-run variation. Expansion stages, clearance, habitat and final device checks remain."
         },
         {
           "label": "Phone",
@@ -72,7 +72,7 @@
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
       "status": "Valley in runtime · qualification open",
-      "summary": "Seven 12-take ranch sets and dedicated reveals are committed; recorded finish findings still need disposition. The valley look is in source and Frozair accepted it Oct 31. Complete species/world/native qualification remains open; counts stay six redos/two first packages.",
+      "summary": "Seven full ranch and reveal sets are committed. The latest source sharpens side idle and walks, repairs feet and rebuilds Diplodocus’s ranch bank. The valley look was accepted Oct 31. Complete creature, world and device qualification remains open.",
       "ref": 23,
       "gateDate": "2026-11-08",
       "checks": [
@@ -84,12 +84,12 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Seven full ranch/reveal sets are now committed, with 121/121 generated bank/PNG files matching installed content. Recorded finish flags remain; content matching and commits do not establish complete source or native acceptance. Diplodocus approved-look qualification also remains open."
+          "detail": "All 90 checked Giants ranch bank and texture files match current generated output. The larger idle and walk cells put six estimated allocations above the default 32 MiB but within the approved 48 MiB Giants cap. The checker still uses 32 MiB. Finish and device checks remain open."
         },
         {
           "label": "World",
           "state": "partial",
-          "detail": "1ee79f5bbd places mountains on the rear rim, blocks rear cells and adds tall falls, plunge pool, broad river and deep-green trees. This supersedes old missing-stream/offshore-only claims. Latest scoped Moto comparison is 27.4→26.2fps; wider stages, clearance, zoom and final candidate/device acceptance remain."
+          "detail": "The runtime valley has its mountains on the rear rim and a connected river. fe57138b12 adds the purchase-five cliff and widens the falls. The recorded Moto comparison held 25.2 fps with 16 residents on full land. Later cliff shading and warm-taupe rock changes fall outside that comparison."
         },
         {
           "label": "Phone",
@@ -143,8 +143,8 @@
       "color": "#5e92a3",
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
-      "status": "Runtime glacier + local cast · checks open",
-      "summary": "All eight now have owner-held 12-take ranch/two-take reveal sets installed locally, with recorded finish findings and complete qualification open. Glacier-island runtime source is committed; no art-count or final native acceptance gain.",
+      "status": "Glacier and eight cast sets in source",
+      "summary": "All eight Snow residents now have committed ranch banks, hatch reveals and shop art. Finish findings and complete qualification remain open. Snow still has one redo and seven first packages to qualify.",
       "ref": 25,
       "gateDate": "2026-11-08",
       "checks": [
@@ -156,12 +156,12 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Current working routes use video banks for all eight. Eight runtime banks and seven new reveals are untracked; Yuty reveal is modified. All 128 generated content files match the working installation, with recorded finish flags and whole-source/native acceptance open. Counts stay one redo/seven first pending qualification."
+          "detail": "ceeacea17b commits the eight sets and their video routes. The same source adds front and back running clips and measures travel against planted feet. Recorded finish findings and whole-package acceptance remain open."
         },
         {
           "label": "World",
           "state": "partial",
-          "detail": "2f5aea6e76 through 25c020d06e commit boulder shore, thawed clearings, spruces, sea/islets and the glacier from land purchase 4 of 6. The latest geometry has no new recorded performance comparison. Seasonal woodland/shelter/open forage and all-stage clearance/native qualification remain."
+          "detail": "The glacier appears from land purchase 4 of 6. 6efc6194a2 raises the boulder shore and changes sea and spruces. Its recorded Moto comparison was 38.3 to 38.5 fps. Shared sea and coast changes followed. Seasonal habitat, all-stage clearance and native qualification remain."
         },
         {
           "label": "Phone",
@@ -169,7 +169,7 @@
           "detail": "Owner-recorded scoped Moto world/render observations now exist. Full loops, exact final cast/variants, expansion stages, sustained performance and physical iOS acceptance remain open."
         }
       ],
-      "next": "Qualify the owner-held Snow source sets and recorded finish findings. Prove seasonal habitat, glacier/land stages, services, 16-resident clearance, variants and final phone performance without overwriting concurrent work.",
+      "next": "Resolve recorded finish findings on the committed sets with their owner. Check seasonal habitat, glacier stages, services, 16-resident clearance, variants and final phone performance.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -341,8 +341,8 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "Seven Giants full ranch/reveal sets are committed and all 121 generated content files match installed. Recorded finish flags and whole-contract qualification remain; counts stay 10/11/19. This source output is progress, while accepted-package throughput is still unproven.",
-      "doneWhen": "Count accepted first-package/redo contracts and time/rework separately. Thirty pending over four days require 52.5/week; first packages alone 33.3/week before remaining worlds, voices and QA. Working Snow production is real output, not a qualified acceptance rate. Assign credible capacity without invented budget/rate or roster/date changes."
+      "why": "Snow’s eight sets and the sharper Giants ranch banks are committed. Current comparisons match 128/128 Snow files and 90/90 Giants ranch files. Whole-package qualification and an accepted output rate are still open.",
+      "doneWhen": "Track accepted first packages, redos and rework separately. Thirty pending packages over three days require 10 per day, or 70 per week. The 19 first packages alone require 44.3 per week. Establish measured capacity and named owners before the freeze decision."
     },
     {
       "id": "seed-roster",
@@ -434,7 +434,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "All five now have committed runtime scenery following locked targets. Local Snow source adds eight sets, while complete-package cohorts remain 10/11/19. Scene presence, matching files, scoped Moto comparisons and accepted concepts still need habitat, all-stage, motion, voice and final device qualification.",
+      "why": "All five have committed runtime scenery, and Snow’s eight cast sets are now committed. Finish, habitat, stage, voice and final device qualification remain. The accepted production cohorts are still 10 integrated, 11 redos and 19 first packages pending.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -509,7 +509,7 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair fixed all 40 and Dec 1 on Oct 25. The Nov 1 phone/recovery proof gate is now recorded unmet. At Nov 4, 30 source contracts over four days require 52.5 acceptances/week before remaining world/voice/rework/QA. Name credible parallel owners and measured capacity now; bring forecast-based consequences to Frozair without silent cuts or date changes.",
+      "recommendation": "Frozair fixed all 40 and Dec 1 on Oct 25. With three days to Nov 8 and 30 packages pending, the freeze requires 10 accepted packages per day before remaining world, voice and QA work. Name owners and measure accepted output for the Nov 8 decision.",
       "state": "Approved scope · capacity open"
     },
     {
@@ -523,9 +523,16 @@
     {
       "title": "30 asset packages before Nov 8",
       "level": "Critical",
-      "action": "Thirty complete source contracts over four days require 52.5/week, including 33.3 first packages/week before remaining worlds, voices, rework and QA. Working Snow source and committed Giants are progress, but no qualified acceptance rate is established. Keep fixed 40/Dec 1 and require a credible named capacity plan.",
+      "action": "Thirty source contracts over three days require 10 per day, or 70 per week, before remaining worlds, voices, rework and QA. Committed Snow and Giants assets give owners work to qualify. An accepted production rate is still unproven.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
+    },
+    {
+      "title": "Giants budget check uses the default cap",
+      "level": "High",
+      "action": "Align the plan and delivery checks with the approved 48 MiB Giants gameplay cap. Recheck the six banks estimated above 32 MiB and record current device performance. Keep the separate 32 MiB reveal cap.",
+      "owner": "Art owner",
+      "due": "2026-11-08"
     },
     {
       "title": "Unproven body types and wetland behavior",
@@ -614,6 +621,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-05",
+      "text": "Snow’s eight ranch, hatch reveal and shop sets are committed. Giants gained sharper idle and walks, foot fixes and a rebuilt Diplodocus ranch bank. Committed and working named inventory both reach 31 ranch banks and 31 reveals. Complete package counts remain 10/11/19."
+    },
     {
       "date": "2026-11-04",
       "text": "The original Nov 1 all-five/native/data and isolated recovery checkpoint is recorded UNMET. A new Nov 2–8 recovery/freeze plan follows the archived prior week; no Nov 2/3 director audit is inferred. Four days to freeze require 52.5 complete source packages/week before remaining worlds and QA, with cohorts still 10/11/19."
@@ -708,6 +719,22 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Source and freeze review · Nov 5",
+      "detail": "HEAD 3336a591ff. Three days to Nov 8 with 30 complete source contracts pending requires 70 packages per week, or 44.3 for first packages alone. Required output precedes remaining world, voice, rework and QA. No newer complete all-five phone or isolated restore/load evidence was located."
+    },
+    {
+      "label": "Snow and Giants source · Nov 4–5",
+      "detail": "ceeacea17b commits eight Snow ranch, reveal and shop sets plus directional stance and run work. baf383d1e6 raises Giants side idle and walk cell resolution and repairs feet. b0df3776a0 repairs Giganotosaurus nail edges. Current comparisons match 128/128 Snow files and 90/90 Giants ranch files. Recorded finish flags remain. October 31’s 121/121 comparison describes the earlier snapshot."
+    },
+    {
+      "label": "Giants budget validation · Nov 5",
+      "detail": "Six ranch banks estimate 36.7 to 45.8 MiB compressed from their recorded atlas sizes. All fit the approved 48 MiB Giants gameplay cap. Both automated plan and delivery checks still apply the default 32 MiB cap. Align the checks and verify current device performance with the art owner. Giants reveal files are unchanged since Nov 4 and retain their separate 32 MiB cap."
+    },
+    {
+      "label": "Scenery and scoped Moto comparisons · Nov 4–5",
+      "detail": "New shared sea, coast and surf changes followed Snow’s boulder shore update. The Forest beach widened. The Giants cliff and wider falls measured 25.2 fps before and after across six alternating runs with 16 residents on full land, recorded in 7680b20e63. The later warm-taupe pass 3336a591ff needs its own performance check. Full gameplay and physical iOS proof remain open."
+    },
     {
       "label": "Release limits",
       "detail": "docs/release-security.md; docs/posthog-rollout.md; fastlane/Fastfile. Historical check counts and internal distribution do not establish public-store approval or current operational readiness."
@@ -845,7 +872,7 @@
         "step": 2,
         "kind": "art",
         "title": "Qualify the art already built",
-        "when": "Four days to content freeze",
+        "when": "Three days to content freeze",
         "owner": "Frozair review · art owner production",
         "refs": [
           29,
@@ -853,10 +880,10 @@
           23,
           75
         ],
-        "outcome": "Resolve Anky/Iguanodon and committed Giants finish findings with their owners; qualify the eight owner-held Snow sets now installed locally. Prior matches and recorded reports are scoped evidence. No complete-package gain or permission to overwrite, retake, repack or spend is inferred.",
+        "outcome": "Qualify the committed Snow and Giants sets with their owners. Resolve finish findings and confirm the Giants texture budget check. Continue the Anky and Iguanodon source review.",
         "species": [
           "Giants: source checks",
-          "Snow: local review",
+          "Snow: eight sets committed",
           "Anky + Iguanodon"
         ]
       },
@@ -873,10 +900,10 @@
           57,
           58
         ],
-        "outcome": "The original Nov 1 isolated restore/load gate is unmet. Thirty remaining source contracts over four days require 52.5 complete packages/week, including 33.3 first packages/week before remaining worlds, voices and QA. Name credible owners/capacity and current device/recovery/store proof; do not invent resources or change the fixed 40/Dec 1.",
+        "outcome": "Record isolated restore and load proof and name the people who can qualify 30 pending source packages. The Nov 8 freeze requires 10 accepted packages per day before remaining world and QA work.",
         "species": [
           "Restore/load: unmet",
-          "52.5/week required",
+          "10 per day required",
           "Capacity unproven"
         ]
       }
@@ -884,14 +911,14 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated / 11 redo / 19 first packages pending complete source qualification. Committed inventory remains 24 ranch / 24 reveals; current working inventory is 31/31, including owner-held Snow production. Nine IDs lack named working banks. These acceptance cohorts include built work awaiting checks; file availability is not complete-package or native acceptance.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed and working inventory are each 31 ranch banks and 31 reveals. Nine species lack named banks. These counts include built work awaiting checks.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 4,
-    "minimumNewPerWeek": 33.3,
+    "daysToFreeze": 3,
+    "minimumNewPerWeek": 44.3,
     "islands": [
       {
         "id": "forest",
@@ -974,7 +1001,7 @@
             "name": "Shantungosaurus",
             "image": "/stompy-acres/roster/shantungosaurus.webp",
             "bank": "available",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in b9a418595e; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in b9a418595e; 18/18 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -982,7 +1009,7 @@
             "name": "Dreadnoughtus",
             "image": "/stompy-acres/roster/dreadnoughtus.webp",
             "bank": "available",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 6e438b39bb; 15/15 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 6e438b39bb; 15/15 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -990,7 +1017,7 @@
             "name": "Giganotosaurus",
             "image": "/stompy-acres/roster/giganotosaurus.webp",
             "bank": "available",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 54bdc4db7c; 17/17 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 54bdc4db7c; 17/17 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -998,7 +1025,7 @@
             "name": "Therizinosaurus",
             "image": "/stompy-acres/roster/therizinosaurus.webp",
             "bank": "available",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 07a468c8a6; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open. The earlier content mismatch is closed.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 07a468c8a6; 18/18 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open. The earlier content mismatch is closed.",
             "productionStatus": "redo"
           },
           {
@@ -1006,7 +1033,7 @@
             "name": "Spinosaurus",
             "image": "/stompy-acres/roster/spinosaurus.webp",
             "bank": "available",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 8456df39d4; 16/16 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 8456df39d4; 16/16 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open.",
             "productionStatus": "redo"
           },
           {
@@ -1014,7 +1041,7 @@
             "name": "Diplodocus",
             "image": "/stompy-acres/roster/diplodocus.webp",
             "bank": "available",
-            "detail": "Gameplay bank repacked in 7801906518. Its approved-look redo and complete ranch/reveal qualification remain open; a repack alone does not close the package.",
+            "detail": "The ranch bank was rebuilt from its video recipe in baf383d1e6. The approved-look redo, reveal and complete package qualification remain open.",
             "productionStatus": "redo"
           },
           {
@@ -1022,7 +1049,7 @@
             "name": "Deinocheirus",
             "image": "/stompy-acres/roster/deinocheirus.webp",
             "bank": "missing",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 043656bf6c; 19/19 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 043656bf6c; 19/19 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1030,7 +1057,7 @@
             "name": "Amargasaurus",
             "image": "/stompy-acres/roster/amargasaurus.webp",
             "bank": "missing",
-            "detail": "Full 12-take ranch set and dedicated reveal committed in 193f9bc5ff; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open. Frozair accepted the small happy head drop on Oct 30; this does not waive other finish findings.",
+            "detail": "Full 12-take ranch set and dedicated reveal committed in 193f9bc5ff; 18/18 generated bank and texture files matched the Oct 31 snapshot. Current Giants ranch files were compared again on Nov 5. Finish findings still need owner review, and complete source and native acceptance remain open. Frozair accepted the small happy head drop on Oct 30; this does not waive other finish findings.",
             "productionStatus": "missing"
           }
         ]
@@ -1116,7 +1143,7 @@
             "name": "Yutyrannus",
             "image": "/stompy-acres/roster/yutyrannus.webp",
             "bank": "available",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "redo"
           },
           {
@@ -1124,7 +1151,7 @@
             "name": "Pachyrhinosaurus",
             "image": "/stompy-acres/roster/pachyrhinosaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1132,7 +1159,7 @@
             "name": "Woolly Mammoth",
             "image": "/stompy-acres/roster/woolly-mammoth.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1140,7 +1167,7 @@
             "name": "Sinosauropteryx",
             "image": "/stompy-acres/roster/sinosauropteryx.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1148,7 +1175,7 @@
             "name": "Nanuqsaurus",
             "image": "/stompy-acres/roster/nanuqsaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1156,7 +1183,7 @@
             "name": "Edmontosaurus",
             "image": "/stompy-acres/roster/edmontosaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1164,7 +1191,7 @@
             "name": "Leaellynasaura",
             "image": "/stompy-acres/roster/leaellynasaura.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1172,7 +1199,7 @@
             "name": "Woolly Rhinoceros",
             "image": "/stompy-acres/roster/woolly-rhinoceros.webp",
             "bank": "missing",
-            "detail": "Owner-held 12-take ranch and two-take reveal source now exist in the working installation. Recorded finish findings still need disposition; source is uncommitted and whole-package/native acceptance remains open. Preserve the selected still and current owner work.",
+            "detail": "Ranch and hatch reveal sets are committed in ceeacea17b. Finish findings and complete source and device qualification remain open.",
             "productionStatus": "missing"
           }
         ]
@@ -1252,13 +1279,13 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 52.5
+    "minimumTotalPerWeek": 70
   },
   "weeklyPlan": {
     "start": "2026-11-02",
     "end": "2026-11-08",
     "title": "Recover proof. Qualify built work.",
-    "note": "New plan published at the Nov 4 review after recording the unmet Nov 1 outcome. Monday/Tuesday below are actual source outcomes, not retroactive proposed targets; Wednesday onward are proposed recovery targets. No Nov 2/3 director audit occurred. Original milestone dates, all 40 and Dec 1 stay fixed.",
+    "note": "Plan published Nov 4 after recording the unmet Nov 1 checkpoint. Nov 5 adds actual source progress against this week’s targets. The original dates remain the basis for the Nov 8 freeze decision.",
     "priorities": [
       {
         "id": "recover-native",
@@ -1275,7 +1302,7 @@
         "id": "accept-built-art",
         "title": "Accept whole creature source contracts",
         "owner": "Current art owners · Frozair checkpoints",
-        "doneWhen": "Resolve recorded finish findings on built Giants, Anky/Iguanodon and owner-held Snow without overwriting their work. Count accepted redos/first packages and rework separately; final voice/UI/native gates remain distinct.",
+        "doneWhen": "Resolve finish findings on the committed Giants, Snow, Anky and Iguanodon sets with their owners. Count accepted redos, first packages and rework separately. Record the final voice, UI and device checks separately.",
         "refs": [
           42,
           23,
@@ -1287,7 +1314,7 @@
         "id": "freeze-capacity",
         "title": "Prove a credible Nov 8 freeze plan",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Name credible parallel capacity for 30 pending source contracts: 52.5/week before remaining worlds/voices/rework/QA, not an observed rate. Qualify current world stages/economy/device/store foundations; make Nov 8 go/no-go from actual evidence.",
+        "doneWhen": "Name owners and measure accepted output for 30 pending source contracts. Three days to freeze requires 10 acceptances per day before remaining worlds, voices, rework and QA. Make the Nov 8 decision from recorded outcomes.",
         "refs": [
           55,
           42,
@@ -1319,14 +1346,14 @@
         "label": "WED 4",
         "title": "Recover the proof gate",
         "focus": "Record original Nov 1 checkpoint as unmet. Identify exact authorized candidates and accountable Android/physical-iOS/operations owners, then close the missing loop and recovery receipts.",
-        "proof": "Exact build/backend/device, hatch/work/sell/expand/travel/Book, kill-relaunch and isolated restore/load scope. No build or hosted operation is authorized by this plan."
+        "proof": "Exact build/backend/device, hatch/work/sell/expand/travel/Book, kill-relaunch and isolated restore/load scope. No build or hosted operation is authorized by this plan. Nov 5 review found the Nov 1 outcome recorded and the Snow sets committed. Complete phone and recovery receipts remain open."
       },
       {
         "id": "thu-05",
         "date": "2026-11-05",
         "label": "THU 5",
         "title": "Qualify the source already built",
-        "focus": "Resolve named finish findings with the art owners; review complete Giants, Anky/Iguanodon and local Snow source contracts. Measure accepted output and rework.",
+        "focus": "Review committed Snow sets and the latest Giants clarity and foot fixes, including the texture budget check. Resolve Anky and Iguanodon finish findings with their owners and measure accepted output.",
         "proof": "Accepted redos and first packages counted separately. Matching files, reports, task completion and local previews do not waive final art/native gates."
       },
       {

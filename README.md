@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 4**, not an invented November
+remain distinct. Latest director audit is **November 5**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The new November 2–8 recovery/freeze plan follows
@@ -77,22 +77,22 @@ Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
 silent cuts, new target date, budget, staff or production-rate promise. November 8
 freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. Four days to freeze with 30 whole-source
-contracts pending require **52.5/week** (19 first packages alone **33.3/week**) before
+fixes and December 1 gated launch remain. Three days to freeze with 30 whole-source
+contracts pending require **70/week** (19 first packages alone **44.3/week**) before
 remaining worlds/voices/rework/QA; this is required output, not measured accepted capacity.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
-are package cohorts, not file inventory. Committed HEAD named ranch/reveal inventory
-is **24/24**; current working inventory **31/31** includes owner-held Snow production.
-Nine IDs lack named working banks. Eight Snow sets now have 12 ranch/two reveal takes,
-128/128 generated content matches working install, with finish findings and whole
-source/native acceptance open. Eight runtime banks/seven new reveals are untracked;
-Yuty reveal is modified. Do not overwrite, repack, regenerate or commit owner work.
+are package cohorts, not file inventory. Committed and working named ranch/reveal
+inventory is **31/31**, with nine IDs lacking named banks. Snow’s eight ranch and
+reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
+complete source and device qualification remain open.
 
-Seven Giants sets/reveals are committed; their prior 121/121 content matches are
-October 31 audit evidence. Recorded finish findings still need disposition. Amarga's
+The current eight Giants ranch banks match 90/90 generated content files. Their
+side idle and walks use 512 px cells. The new 48 MiB Giants gameplay cap is in
+source, while the art-budget checker still uses its default cap. Prior 121/121
+Giants ranch and reveal content matches describe the October 31 snapshot. Amarga's
 small happy head drop was accepted, not a blanket waiver; Anky colour is kept and
 Theri's old mismatch is closed. Anky/Iguanodon complete-source checks remain open.
 File presence, matching content, task completion and local previews do not close a
@@ -104,7 +104,9 @@ Giants missing-stream/offshore-mountain and missing-Snow-bank claims. Snow targe
 locked Nov 2, Swamp/Fern Nov 3; Fern mock pairs are inexact and only scenery is the
 target. Current worlds still need habitat, stage/service clearance, duplicate/variant,
 zoom and exact-candidate phone checks. Scoped Moto full-land/16-resident observations
-are recorded, not all-five native acceptance; latest Snow geometry has no new comparison.
+cover individual scenery changes. The Giants purchase-five cliff and wider falls
+held 25.2 fps with 16 residents on full land. Later colour changes fall outside that
+comparison. All-five native acceptance remains open.
 
 Latest full-loop owner receipt remains October 26's assisted Moto fixture: unlock
 chain, Fernlands starter/shop/Iguanodon hatch/work and kill/relaunch. Sell/expansion/
