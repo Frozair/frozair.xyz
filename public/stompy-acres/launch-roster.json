@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -363,7 +363,7 @@
           "role": "Long-armed giant",
           "status": "Asset redo · source qualification open",
           "rationale": "Long arms and sculpted claws add an unusual upright shape.",
-          "note": "Full 12-take ranch set and dedicated reveal committed in 07a468c8a6; 18/18 generated bank/PNG files match installed content. Recorded finish flags still need owner disposition; complete source and native acceptance remain open. The earlier content mismatch is closed.",
+          "note": "The committed ranch and reveal sets preserve grey claws, toenails and beak. Recorded side idle and walk colour checks passed. Complete source and device qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
@@ -423,7 +423,7 @@
           "role": "Low sweeping long-neck",
           "status": "Approved look · asset redo needed",
           "rationale": "Long horizontal neck and tail contrast with Dread’s height.",
-          "note": "The ranch bank was rebuilt from the video recipe in baf383d1e6. The approved-look redo and complete ranch, reveal and device qualification remain open.",
+          "note": "The committed ranch bank adds front and back walks and run aliases. The approved-look redo and complete reveal and device qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -1113,9 +1113,9 @@
           "viewBox": "0.000 0.000 768.000 768.000",
           "recommended": true,
           "role": "Broad plated classic",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "The big coral plates complete a recognisable classics island.",
-          "note": "New animation package required; compare broad plates with Forest Kentrosaurus and Stegouros.",
+          "note": "The local ranch and reveal banks match all 18 checked generated files. Ranch finish findings and complete source qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",

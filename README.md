@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 5**, not an invented November
+remain distinct. Latest director audit is **November 6**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The new November 2–8 recovery/freeze plan follows
@@ -77,21 +77,23 @@ Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
 silent cuts, new target date, budget, staff or production-rate promise. November 8
 freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. Three days to freeze with 30 whole-source
-contracts pending require **70/week** (19 first packages alone **44.3/week**) before
+fixes and December 1 gated launch remain. Two days to freeze with 30 whole-source
+contracts pending require **15/day** (19 first packages alone **66.5/week**) before
 remaining worlds/voices/rework/QA; this is required output, not measured accepted capacity.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
-are package cohorts, not file inventory. Committed and working named ranch/reveal
-inventory is **31/31**, with nine IDs lacking named banks. Snow’s eight ranch and
+are package cohorts, not file inventory. Committed named ranch/reveal inventory is **31/31**. Working inventory is **32/32**
+with Stegosaurus’s local sets, leaving eight IDs without working named banks. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
 
-The current eight Giants ranch banks match 90/90 generated content files. Their
-side idle and walks use 512 px cells. The new 48 MiB Giants gameplay cap is in
-source, while the art-budget checker still uses its default cap. Prior 121/121
+The Nov 5 Giants ranch comparison matched 90/90 generated files. Nov 6 adds
+Therizinosaurus’s grey features, Diplodocus’s front and back walks and a mirror fix. Their
+side idle and walks use 512 px cells. The owner locally fixed both budget checks to use 48 MiB for Giants gameplay
+load sets declaring that island and recorded 37 passing tests. Integration and
+current device proof remain open. Reveals retain the separate 32 MiB limit. Prior 121/121
 Giants ranch and reveal content matches describe the October 31 snapshot. Amarga's
 small happy head drop was accepted, not a blanket waiver; Anky colour is kept and
 Theri's old mismatch is closed. Anky/Iguanodon complete-source checks remain open.
@@ -116,6 +118,11 @@ is valid within its scope. No new distributed-candidate receipt found beyond pri
 706 alpha; 771 distribution stays unverified. Initial device/backup/crash/store and
 isolated restore/load proof remain open. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
+
+Frozair chose a beta without in-app purchases. The age screen and in-app account
+deletion are local game work, with owner-recorded checks. The website privacy text
+was updated separately. Release build, hosted deletion migration, store forms and
+final review remain open. Public launch revenue remains a separate decision.
 
 The reset-order defect/fail-closed runner are fixed in 30c4016af with pinned seed-last
 proof. Do not resurrect the old 36/32 warning. Fresh-start policy retires legacy-owner
