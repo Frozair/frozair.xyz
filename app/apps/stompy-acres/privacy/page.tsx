@@ -18,7 +18,7 @@ export default function StompyAcresPrivacyPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">Privacy Policy</h1>
 
               <div className="prose">
-                <p>Last updated: October 1, 2026</p>
+                <p>Last updated: November 6, 2026</p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
                 <p>
@@ -116,7 +116,10 @@ export default function StompyAcresPrivacyPage() {
                   There is no chat or advertising. Playing without sign-in still creates a
                   pseudonymous player ID and a server game save. Optional gameplay metrics are
                   off by default, and a parent or guardian should manage this setting for a child. The
-                  optional Apple and Google sign-in is intended for players aged 13 and over; if you
+                  optional Apple and Google sign-in is intended for players aged 13 and over. Before
+                  offering it, the App asks the player&apos;s age; it keeps only whether the answer was
+                  under 13, on the device, and never offers sign-in on that device to a player who
+                  answered under 13. If you
                   believe a child under 13 has signed in or otherwise provided personal information
                   to us, contact us and we will delete it.
                 </p>
@@ -131,7 +134,14 @@ export default function StompyAcresPrivacyPage() {
                   to run your island. Deleting the App does not delete server records.
                 </p>
                 <p>
-                  To request account deletion, access to your data, or deletion of optional metrics, email <a href="mailto:stompyacres@frozair.xyz?subject=Stompy%20Acres%20data%20request">stompyacres@frozair.xyz</a> and say which request you want. Account deletion removes your sign-in association, saved island, dinos, currency and related gameplay records, along with optional metrics associated with your player ID. You can request deletion of optional metrics while keeping your island. Keep the
+                  To delete your account in the App, open Settings and choose &quot;Delete my island
+                  and account&quot;. This immediately deletes your player account, sign-in
+                  association, saved island, dinos, currency and related gameplay records from our
+                  server, and the App starts a new island. It does not remove optional metrics or
+                  crash reports already sent; email us to have those deleted too.
+                </p>
+                <p>
+                  To request account deletion without the App, access to your data, or deletion of optional metrics, email <a href="mailto:stompyacres@frozair.xyz?subject=Stompy%20Acres%20data%20request">stompyacres@frozair.xyz</a> and say which request you want. Account deletion removes your sign-in association, saved island, dinos, currency and related gameplay records, along with optional metrics associated with your player ID. You can request deletion of optional metrics while keeping your island. Keep the
                   App installed until we can help identify your player account, especially if
                   you have not linked Apple or Google. We will handle deletion requests within
                   30 days, subject to any records we must retain for legal or security reasons.
