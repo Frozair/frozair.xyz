@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -1172,7 +1172,7 @@
           "role": "Friendly tall-neck",
           "status": "Approved look · asset redo needed",
           "rationale": "Your requested Fernlands long-neck. Proposed to take Iguanodon’s place, keeping the classic Stegosaurus.",
-          "note": "Older committed ranch/reveal package exists; its approved selected design still needs an asset redo. Selected softer-smile concept. Existing Brachio bank remains a separate production asset.",
+          "note": "The selected R8 candidate currently has three takes. The legacy ranch and reveal assets remain installed; the approved-look redo and complete qualification remain open.",
           "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
@@ -1197,9 +1197,9 @@
           "viewBox": "0.000 0.000 768.000 768.000",
           "recommended": true,
           "role": "Four-winged ground scout",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "Four feather panels make a striking small collectible.",
-          "note": "Grounded scope only. Hindwing and fan-tail clearance need work; no flight mechanic selected.",
+          "note": "Local ranch and hatch reveal banks match 12/12 generated files. Dig and nap source clips are present. Recorded finish findings and complete qualification remain open.",
           "habitat": {
             "rating": "conditional",
             "confidence": "high",
@@ -1227,9 +1227,9 @@
           "viewBox": "0.000 0.000 768.000 768.000",
           "recommended": true,
           "role": "Crested feathered sentinel",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "Adds a tall crest and feather-fan silhouette.",
-          "note": "Use selected ivory/chestnut r2, not pink/teal r1. Long arms and fan clearance remain open.",
+          "note": "Local ranch and hatch reveal banks match 14/14 generated files. Nap, recorded finish findings and complete qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",

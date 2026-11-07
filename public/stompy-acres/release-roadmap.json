@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-06",
-  "nextReview": "2026-11-07",
+  "asOf": "2026-11-07",
+  "nextReview": "2026-11-08",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The beta will have no in-app purchases. The age screen, account deletion and Giants budget correction have local evidence. Full phone and recovery proof remains open, with 30 source packages to qualify in two days before the November 8 freeze.",
+  "healthNote": "The age screen, account-deletion flow and Giants budget correction are committed. The deletion migration has an owner-recorded alpha rollout. Phone acceptance, Apple-linked deletion and recovery proof remain open. Tomorrow’s freeze still has 30 source packages awaiting qualification.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "Nov 1 checkpoint unmet · 30 source contracts pending · two days to Nov 8 freeze",
+  "resourcesNote": "Nov 8 freeze tomorrow · 30 source packages pending · phone and recovery proof open",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -84,7 +84,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Therizinosaurus’s side idle and walk now pass the recorded colour check. Diplodocus has new front and back walks and run aliases. The 48 MiB Giants gameplay check has a local fix with passing owner tests. Committed tooling and current device proof remain open."
+          "detail": "Therizinosaurus’s side idle and walk pass the recorded colour check. Diplodocus has front and back walks and run aliases. 7c0fa012f7 commits the checker’s 48 MiB Giants gameplay cap. Whole-package and current device checks remain open."
         },
         {
           "label": "World",
@@ -125,7 +125,7 @@
         {
           "label": "World",
           "state": "partial",
-          "detail": "5787cfb9f5 commits cypress wetland, jade channels, mangroves and lily pads from the Nov 3 locked scenery target. Aquatic residents’ entry/wading motion and full habitat/navigation/native qualification remain; a full swimming system is still a separate scope decision."
+          "detail": "5be0085a65, 6dc07b2b25 and ba8c44a27e add taller cypress, a winding jade stream, footbridges, a lily pool and cascade, cattails, logs and mangroves. A scoped Moto comparison covers the earlier stream-render order change. Current stage, clearance and water-entry qualification remains."
         },
         {
           "label": "Phone",
@@ -180,7 +180,7 @@
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
       "status": "Fern valley in runtime · checks open",
-      "summary": "Anky and Iguanodon have committed creature sets. Stegosaurus now has a local ranch and reveal candidate awaiting qualification. Brachio R8 remains in the queue. World and phone checks remain open.",
+      "summary": "Anky and Iguanodon have committed sets. Stegosaurus, Microraptor and Anzu now have local ranch and reveal sets under review. Brachio R8 has a three-take candidate while its legacy package remains installed. Complete qualification remains open.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
@@ -192,12 +192,12 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Anky and Iguanodon still need full source qualification. Stegosaurus has an uncommitted local bank and reveal; 18/18 bank and texture files match the generated output. Its recorded ranch finish findings remain open."
+          "detail": "Local Stegosaurus, Microraptor and Anzu bank and texture files match 18/18, 12/12 and 14/14 generated files. Recorded finish findings remain. Microraptor has dig and nap source; Anzu’s nap is still missing. Full package acceptance is open."
         },
         {
           "label": "World",
           "state": "partial",
-          "detail": "5787cfb9f5 replaces Forest scenery with fern valley, volcano/hot spring and ochre ledges, matching the Nov 3 locked scenery target. The illustrative mock’s species pairs are inexact and do not change the locked cast. Scoped Moto cost is about 2.2fps; full stage/clearance/native acceptance remains."
+          "detail": "The fern valley now has an ochre sandstone cliff rim, golden-olive cap, dark-sand bay, dirt patches, fern clumps and a volcano behind the hot spring. 5be0085a65 and 6dc07b2b25 advance the locked scenery target. Final stages, clearance and device checks remain."
         },
         {
           "label": "Phone",
@@ -342,7 +342,7 @@
       ],
       "status": "Scope fixed · capacity unproven",
       "why": "Committed Snow and Giants art give owners sets to qualify. Therizinosaurus’s side colour checks and Diplodocus’s directional walks advanced. Whole-package acceptance and a measured output rate remain open.",
-      "doneWhen": "Track accepted first packages, redos and rework separately. Thirty packages over two days require 15 per day. The 19 first packages alone require 66.5 per week. Establish measured capacity and named owners for the freeze decision."
+      "doneWhen": "Count accepted first packages, redos and rework separately. Thirty pending packages must qualify by tomorrow’s freeze. Record completed output and remaining gaps for the Nov 8 decision."
     },
     {
       "id": "seed-roster",
@@ -463,9 +463,9 @@
       "refs": [
         58
       ],
-      "status": "Beta scope settled · privacy flows local",
-      "why": "Frozair chose a beta without in-app purchases. The neutral age screen and in-app account deletion have local owner evidence. The privacy page now describes both flows. Release build, hosted deletion migration, store forms and final review remain open.",
-      "doneWhen": "Review wording and verify both flows on an authorized candidate, including linked Apple account cleanup. Deploy deletion separately, align store disclosures and finish public submission preparation for Nov 16."
+      "status": "Privacy flows committed · candidate proof open",
+      "why": "Frozair chose a beta without in-app purchases. 68912f169f commits age screening and account deletion. Committed project docs record the deletion migration on hosted alpha Nov 6. The Apple-linked cleanup extension is working source. Release build, store forms and final review remain open.",
+      "doneWhen": "Review wording and verify both flows on an authorized candidate, including Apple-linked deletion. Confirm the separately scoped Apple cleanup rollout, align store disclosures and finish public submission preparation for Nov 16."
     },
     {
       "id": "sky",
@@ -515,7 +515,7 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair fixed all 40 and Dec 1 on Oct 25. Thirty packages over two days require 15 accepted packages per day before remaining world, voice and QA work. Make the Nov 8 decision from accepted output.",
+      "recommendation": "Frozair fixed all 40 and Dec 1 on Oct 25. The original Nov 8 freeze is tomorrow, with 30 source packages and full phone/recovery proof still open. Record actual completed gates and the consequences for beta readiness at the freeze decision.",
       "state": "Approved scope · capacity open"
     },
     {
@@ -529,14 +529,14 @@
     {
       "title": "30 asset packages before Nov 8",
       "level": "Critical",
-      "action": "Thirty source contracts over two days require 15 per day, or 105 per week, before remaining worlds, voices, rework and QA. An accepted production rate is still unproven.",
+      "action": "All 30 source contracts still need qualification by tomorrow, before the Nov 9 beta begins. Record actual output and the remaining world, voice, phone and recovery gaps for the freeze decision.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
     {
-      "title": "Giants budget fix awaits integration",
+      "title": "Giants device memory proof remains open",
       "level": "High",
-      "action": "The local plan and delivery checks now apply the approved 48 MiB cap to load sets declaring Giants. Owner tests passed. Land the scoped fix and record actual device performance; reveal remains 32 MiB.",
+      "action": "7c0fa012f7 commits the approved 48 MiB gameplay cap for Giants-tagged load sets. The checker mismatch is resolved in source. Record current candidate device performance and memory behavior; the reveal cap remains 32 MiB.",
       "owner": "Art owner",
       "due": "2026-11-08"
     },
@@ -627,6 +627,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-07",
+      "text": "Age screening, account deletion and the Giants budget check correction are committed. Project docs record the deletion migration on hosted alpha. Apple-linked cleanup is still working source. Fernlands, Swamp and storehouse guidance advanced; complete source and native acceptance counts remain open. Local Microraptor and Anzu sets join Stegosaurus in the Fernlands review queue."
+    },
     {
       "date": "2026-11-06",
       "text": "Frozair chose a beta without in-app purchases. The age screen, account deletion and Giants budget fix have local owner evidence. Committed movement and colour fixes advance Giants art. No complete package or release checkpoint closed. Stegosaurus now has a local ranch and reveal candidate."
@@ -729,6 +733,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Privacy and budget integration · Nov 7",
+      "detail": "68912f169f commits age screening and in-app deletion; committed mvp §2 records migration 20261106010000 on hosted alpha Nov 6. This is an owner-recorded rollout. 7c0fa012f7 commits both checkers using the approved 48 MiB Giants gameplay cap. Prior owner local test results retain their scope. Release-candidate and device acceptance remain open."
+    },
+    {
+      "label": "Apple-linked deletion follow-up · Nov 7",
+      "detail": "Working source adds an Apple confirmation and grant-revocation step before account deletion. The owner docs mark that extension undeployed. A deployment and end-to-end receipt for the linked-account path remain open."
+    },
+    {
+      "label": "World and guidance source · Nov 6–7",
+      "detail": "5be0085a65, 6dc07b2b25 and ba8c44a27e refine Fernlands and Swamp scenery. 67f835080d makes the storehouse signal deposits, full state and upgrade affordability. 6cd6c56f8c aligns HUD card widths. These source changes carry no full-loop or beta qualification receipt in this review. Swimming card #81 is an idea. Owner-recorded Moto scenery comparisons cover Fernlands about 34.3 to 32.8 fps and the optimized Swamp stream about 34.1 to 34.3 fps with 16 residents. The later S-curve pass is outside those measurements."
+    },
+    {
+      "label": "Fernlands working source · Nov 7",
+      "detail": "Local Stegosaurus, Microraptor and Anzu ranch/reveal sets match 18/18, 12/12 and 14/14 generated content files. Recorded ranch/reveal flagged frames are 420/0, 1049/185 and 637/263 respectively. Microraptor includes dig and nap; Anzu nap remains absent. Brachio R8 has three candidate takes while legacy assets remain installed. Working inventory is 34/34, committed 31/31, acceptance cohorts 10/11/19."
+    },
+    {
+      "label": "Freeze readiness review · Nov 7",
+      "detail": "HEAD ba8c44a27e. One day to Nov 8 with 30 source packages pending means 30 must qualify before freeze, alongside remaining world, voice and QA gates. Complete all-five phone and isolated recovery evidence remains open. The original milestone dates and accepted production cohorts remain the basis for tomorrow’s decision."
+    },
     {
       "label": "Beta scope and privacy flows · Nov 6",
       "detail": "The owner handoff records Frozair’s beta choice without in-app purchases. The neutral age screen and Settings account deletion are local game work. Owner checks report Godot 2,623/0 and deletion 7/7 in disposable PostgreSQL. The pgTAP suite was not run because Docker did not respond. Website privacy copy is in 188e9f5. Candidate, hosted rollout, store forms and privacy review remain open. Apple sign-in token revocation still needs review."
@@ -902,7 +926,7 @@
         "step": 2,
         "kind": "art",
         "title": "Qualify the art already built",
-        "when": "Two days to content freeze",
+        "when": "Content freeze tomorrow",
         "owner": "Frozair review · art owner production",
         "refs": [
           29,
@@ -910,7 +934,7 @@
           23,
           75
         ],
-        "outcome": "Qualify Snow and Giants sets with their owners. Record the Giants budget fix when it lands and verify current art on the release phones. Continue Anky and Iguanodon source review.",
+        "outcome": "Qualify Snow and Giants sets with their owners. The Giants budget correction is committed. Verify current art on the release phones and continue Anky and Iguanodon source review.",
         "species": [
           "Giants: source checks",
           "Snow: eight sets committed",
@@ -930,10 +954,10 @@
           57,
           58
         ],
-        "outcome": "Record isolated restore and load proof and name the people who can qualify 30 pending source packages. The Nov 8 freeze requires 15 accepted packages per day before remaining world and QA work.",
+        "outcome": "Record isolated restore and load proof and assess the 30 source packages still awaiting qualification. Tomorrow’s freeze requires all 30 to pass alongside remaining world and QA work.",
         "species": [
           "Restore/load: unmet",
-          "15 per day required",
+          "30 packages still pending",
           "Capacity unproven"
         ]
       }
@@ -941,14 +965,14 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed inventory is 31 ranch banks and 31 reveals. Working inventory is 32 of each with the local Stegosaurus sets, leaving eight species without named working banks.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed inventory is 31 ranch banks and 31 reveals. Working inventory is 34 of each, including local Stegosaurus, Microraptor and Anzu sets. Six species lack named working banks.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 2,
-    "minimumNewPerWeek": 66.5,
+    "daysToFreeze": 1,
+    "minimumNewPerWeek": 133,
     "islands": [
       {
         "id": "forest",
@@ -1284,7 +1308,7 @@
             "name": "Brachio",
             "image": "/stompy-acres/roster/brachio.webp",
             "bank": "available",
-            "detail": "Approved Brachio R8 remains the identity master. New owner-held views/takes are in progress; older ranch/reveal still need the R8 redo. Helpers and 2B price stay as approved.",
+            "detail": "The Brachio R8 candidate currently has three takes. Its legacy ranch and reveal package remains installed. The selected-look redo and complete source qualification remain open.",
             "productionStatus": "redo"
           },
           {
@@ -1292,7 +1316,7 @@
             "name": "Microraptor",
             "image": "/stompy-acres/roster/microraptor.webp",
             "bank": "missing",
-            "detail": "Grounded scope only. Hindwing and fan-tail clearance need work; no flight mechanic selected.",
+            "detail": "Owner-held local ranch and reveal banks match 12/12 checked generated files. Dig and nap clips are present. Recorded reports flag 1,049 ranch and 185 reveal frames; complete qualification remains open.",
             "productionStatus": "missing"
           },
           {
@@ -1300,7 +1324,7 @@
             "name": "Anzu",
             "image": "/stompy-acres/roster/anzu.webp",
             "bank": "missing",
-            "detail": "Use selected ivory/chestnut r2, not pink/teal r1. Long arms and fan clearance remain open.",
+            "detail": "Owner-held local ranch and reveal banks match 14/14 checked generated files. Recorded reports flag 637 ranch and 263 reveal frames. Nap and complete qualification remain open.",
             "productionStatus": "missing"
           }
         ]
@@ -1309,13 +1333,13 @@
     "integratedLooks": 10,
     "redoPackages": 11,
     "remainingPackages": 30,
-    "minimumTotalPerWeek": 105
+    "minimumTotalPerWeek": 210
   },
   "weeklyPlan": {
     "start": "2026-11-02",
     "end": "2026-11-08",
     "title": "Recover proof. Qualify built work.",
-    "note": "Plan published Nov 4 after recording the unmet Nov 1 checkpoint. Nov 5 and 6 add actual source progress, local privacy and budget checks, and the beta scope decision. The original dates guide the Nov 8 freeze decision.",
+    "note": "Plan published Nov 4 after recording the unmet Nov 1 checkpoint. Nov 7 records committed privacy and budget work plus the owner-reported database rollout. Keep the original Nov 8 freeze and Nov 9 beta dates for the outcome review.",
     "priorities": [
       {
         "id": "recover-native",
@@ -1344,7 +1368,7 @@
         "id": "freeze-capacity",
         "title": "Prove a credible Nov 8 freeze plan",
         "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Name owners and measure accepted output for 30 pending source contracts. Two days to freeze requires 15 acceptances per day before remaining world, voice, rework and QA. Make the Nov 8 decision from recorded outcomes.",
+        "doneWhen": "Measure accepted output and the exact remaining gates. Thirty packages still need qualification by tomorrow’s Nov 8 freeze, alongside world, voice and QA work. Record the go/no-go outcome from evidence.",
         "refs": [
           55,
           42,
@@ -1392,14 +1416,14 @@
         "label": "FRI 6",
         "title": "Qualify worlds + current pacing",
         "focus": "Review current world stages and progression. Record the beta decision to exclude in-app purchases and track age-screen and account-deletion proof for the public-store candidate.",
-        "proof": "Pinned exact-candidate evidence and ordinary/unlucky scope. Affordability-only simulations and scoped Moto scenery observations are not full player forecasts."
+        "proof": "Pinned exact-candidate evidence and ordinary/unlucky scope. Affordability-only simulations and scoped Moto scenery observations are not full player forecasts. Nov 7 review found age screening, deletion and the Giants budget correction committed. Project docs record the deletion database migration on alpha. A release build and complete phone/recovery evidence remain open."
       },
       {
         "id": "sat-07",
         "date": "2026-11-07",
         "label": "SAT 7",
         "title": "Recheck candidate + foundations",
-        "focus": "Close remaining qualified-candidate defects, current recovery/device/crash proof and public-store prerequisites under existing task-specific authorization.",
+        "focus": "Review today’s exact candidate and recovery, device, privacy and store foundations. Confirm scope of the new deletion rollout and Apple-linked cleanup while preparing tomorrow’s freeze outcome.",
         "proof": "Dated fail-closed results, both OSes and actual scope. Preserve saves/eggs/Bag/history/events; no automatic test build, reset, migration or purchase."
       },
       {

@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 6**, not an invented November
+remain distinct. Latest director audit is **November 7**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The new November 2–8 recovery/freeze plan follows
@@ -77,23 +77,23 @@ Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
 silent cuts, new target date, budget, staff or production-rate promise. November 8
 freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. Two days to freeze with 30 whole-source
-contracts pending require **15/day** (19 first packages alone **66.5/week**) before
-remaining worlds/voices/rework/QA; this is required output, not measured accepted capacity.
+fixes and December 1 gated launch remain. Tomorrow’s freeze has **30 whole-source packages still pending qualification**,
+alongside world, voice, phone and recovery gates. Record the actual Nov 8 outcome
+against the existing freeze and beta dates.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
-are package cohorts, not file inventory. Committed named ranch/reveal inventory is **31/31**. Working inventory is **32/32**
-with Stegosaurus’s local sets, leaving eight IDs without working named banks. Snow’s eight ranch and
+are package cohorts, not file inventory. Committed named ranch/reveal inventory is **31/31**. Working inventory is **34/34**
+with local Stegosaurus, Microraptor and Anzu sets, leaving six IDs without working named banks. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
 
 The Nov 5 Giants ranch comparison matched 90/90 generated files. Nov 6 adds
 Therizinosaurus’s grey features, Diplodocus’s front and back walks and a mirror fix. Their
-side idle and walks use 512 px cells. The owner locally fixed both budget checks to use 48 MiB for Giants gameplay
-load sets declaring that island and recorded 37 passing tests. Integration and
-current device proof remain open. Reveals retain the separate 32 MiB limit. Prior 121/121
+side idle and walks use 512 px cells. 7c0fa012f7 commits both budget checks using 48 MiB for Giants gameplay
+load sets declaring that island. The owner recorded 37 passing local tests;
+current device proof remains open. Reveals retain the separate 32 MiB limit. Prior 121/121
 Giants ranch and reveal content matches describe the October 31 snapshot. Amarga's
 small happy head drop was accepted, not a blanket waiver; Anky colour is kept and
 Theri's old mismatch is closed. Anky/Iguanodon complete-source checks remain open.
@@ -119,10 +119,11 @@ is valid within its scope. No new distributed-candidate receipt found beyond pri
 isolated restore/load proof remain open. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
 
-Frozair chose a beta without in-app purchases. The age screen and in-app account
-deletion are local game work, with owner-recorded checks. The website privacy text
-was updated separately. Release build, hosted deletion migration, store forms and
-final review remain open. Public launch revenue remains a separate decision.
+Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
+and in-app deletion. Committed docs record deletion migration 20261106010000 on
+hosted alpha Nov 6. Apple-linked grant cleanup remains working source and undeployed.
+The website privacy text was updated separately. Release build, linked-account
+proof, store forms and final review remain open. Public launch revenue is separate.
 
 The reset-order defect/fail-closed runner are fixed in 30c4016af with pinned seed-last
 proof. Do not resurrect the old 36/32 warning. Fresh-start policy retires legacy-owner
