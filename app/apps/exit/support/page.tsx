@@ -13,9 +13,13 @@ export default function ExitSupportPage() {
     <p>Contact Dat Da Dat LLC at <a href="mailto:apps@frozair.xyz?subject=EXIT%20support">apps@frozair.xyz</a>. Include your device model, system version, EXIT version if known, and what happened. A screenshot can help; hide any personal information first.</p>
     <h2>An arrow will not move</h2>
     <p>An arrow needs a clear path in the direction it points. Try another arrow, use Undo to reconsider a move, or use a hint. All puzzles remain playable without a purchase or a rewarded ad.</p>
+    <h2>Building a chain</h2>
+    <p>Drag between touching horizontal or vertical neighbors, then release on the last arrow. Diagonal links and jumps across gaps are not valid. Arrows clear in the order you selected, so an earlier arrow can open the way for the next. Tap the empty background to cancel a selection.</p>
+    <h2>Out of moves</h2>
+    <p>Choose Undo to reconsider your last move, or Try again to restart the board. Both are free. Your completed collection stays saved.</p>
     <h2>Restore a Remove Ads purchase</h2>
     <p>Connect to the internet, use the same Apple App Store or Google Play account that made the purchase, then open EXIT Settings and choose Restore purchases. Restoration applies to purchases from that store; it does not transfer your saved puzzles between devices or platforms.</p>
-    <p>Remove Ads removes banner ads. Rewarded hints are optional and remain separate. For a purchase problem, start by telling us the store, item and error message. Do not send passwords, payment-card details or authentication codes. We can ask for the minimum order information needed if a lookup is required.</p>
+    <p>Remove Ads removes all ads and unlocks unlimited hints. You do not need to watch a rewarded ad to use those hints. For a purchase problem, start by telling us the store, item and error message. Do not send passwords, payment-card details or authentication codes. We can ask for the minimum order information needed if a lookup is required.</p>
     <h2>Progress and reinstalling</h2>
     <p>EXIT saves puzzles, undo history, hints and preferences locally. Clearing app or browser storage can erase that progress. Purchase restoration does not restore puzzle progress. Avoid uninstalling or clearing storage as a first troubleshooting step.</p>
     <h2>Ads, hints and privacy choices</h2>
