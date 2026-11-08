@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 7**, not an invented November
+remain distinct. Latest director audit is **November 8**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The new November 2–8 recovery/freeze plan follows
@@ -77,9 +77,10 @@ Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
 silent cuts, new target date, budget, staff or production-rate promise. November 8
 freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. Tomorrow’s freeze has **30 whole-source packages still pending qualification**,
+fixes and December 1 gated launch remain. Today’s freeze has **30 whole-source packages still pending qualification**,
 alongside world, voice, phone and recovery gates. Record the actual Nov 8 outcome
-against the existing freeze and beta dates.
+against the existing freeze and beta dates. On or after the freeze date, rate fields
+are null and the page shows the checkpoint status instead of dividing by zero.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
@@ -116,12 +117,14 @@ return/full Book-shop and physical iOS remain unrecorded. Pixel was dropped from
 proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world evidence
 is valid within its scope. No new distributed-candidate receipt found beyond prior
 706 alpha; 771 distribution stays unverified. Initial device/backup/crash/store and
-isolated restore/load proof remain open. October 4 ops observations and October 20
+isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
+backup list, open staging/monitoring proof and a required measurement-file commit. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
 
 Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
 and in-app deletion. Committed docs record deletion migration 20261106010000 on
-hosted alpha Nov 6. Apple-linked grant cleanup remains working source and undeployed.
+hosted alpha Nov 6. 9a9aa185f0 commits Apple grant cleanup and records alpha deployment. Its actual
+Apple-linked iPhone exchange remains unverified.
 The website privacy text was updated separately. Release build, linked-account
 proof, store forms and final review remain open. Public launch revenue is separate.
 
@@ -137,7 +140,8 @@ doubles. 73560edfe6 records its Nov 3 hosted-alpha rollout on Frozair's go-ahead
 is an owner-recorded receipt, not a maintenance hosted query. Three parallel crafts
 per island (70025ec639) and rising storage fees (9ce14a9918: 12h/24h 2×/4× the 8h fee)
 supersede old one-slot/40–60% rules. Keep their separate rollout scopes distinct.
-Gold Rush intro and Aquilops Egg Finder still lack newer scoped deployment receipts;
+The Nov 7 owner checklist records source migrations since Sep 30 aligned on alpha,
+including the intro, Finder, crafts and storage fees. Current native pacing remains open;
 Aquilops local SQL/game/end-to-end proof and four unchosen later finders retain their
 limits. Do not reopen approved slower-package/Aquilops/hatch choices. Visit-card
 7b3f574a43 advertises an unlocked-island Legendary/Mythic and sails to its shop;

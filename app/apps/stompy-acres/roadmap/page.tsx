@@ -59,8 +59,8 @@ export interface ReleaseRoadmap {
   };
   production: {
     title: string; note: string; total: number; existingBanks: number; missingBanks: number;
-    integratedLooks: number; redoPackages: number; remainingPackages: number; minimumTotalPerWeek: number;
-    accepted: number | null; freezeDate: string; daysToFreeze: number; minimumNewPerWeek: number;
+    integratedLooks: number; redoPackages: number; remainingPackages: number; minimumTotalPerWeek: number | null;
+    accepted: number | null; freezeDate: string; daysToFreeze: number; minimumNewPerWeek: number | null;
     islands: { id: string; name: string; color: string; residents: { id: string; name: string; image?: string; bank: "available" | "missing"; productionStatus: ProductionStatus; detail: string }[] }[];
   };
   updatePolicy: { cadence: string; staleAfterDays: number; sourceLabel: string };
@@ -305,7 +305,15 @@ export default function ReleaseRoadmapPage() {
           <div className="sa-production-redo"><strong>{roadmap.production.redoPackages}</strong><span>asset redos<small>Existing banks; older looks</small></span></div>
           <div className="sa-production-missing"><strong>{roadmap.production.missingBanks}</strong><span>first packages<small>Complete source packages pending</small></span></div>
         </div>
-        <div className="sa-production-pace"><strong>{roadmap.production.minimumTotalPerWeek.toFixed(1)}<small> species/week minimum</small></strong><span>{roadmap.production.remainingPackages} packages in {roadmap.production.daysToFreeze} days · by {dateLabel(roadmap.production.freezeDate)}<small>Before polish, worlds &amp; QA</small></span></div>
+        <div className="sa-production-pace">
+          {roadmap.production.daysToFreeze > 0 && roadmap.production.minimumTotalPerWeek !== null ? <>
+            <strong>{roadmap.production.minimumTotalPerWeek.toFixed(1)}<small> species/week minimum</small></strong>
+            <span>{roadmap.production.remainingPackages} packages in {roadmap.production.daysToFreeze} days · by {dateLabel(roadmap.production.freezeDate)}<small>Before polish, worlds &amp; QA</small></span>
+          </> : <>
+            <strong>{roadmap.production.daysToFreeze === 0 ? "Freeze review today" : "Freeze date reached"}</strong>
+            <span>{roadmap.production.remainingPackages} packages awaiting qualification · {dateLabel(roadmap.production.freezeDate)}<small>Review actual gates and remaining work</small></span>
+          </>}
+        </div>
         <div className="sa-production-legend"><span><i className="sa-bank-mark is-integrated" />Look integrated</span><span><i className="sa-bank-mark is-redo" />Asset redo</span><span><i className="sa-bank-mark is-missing" />First package</span><span>{roadmap.production.existingBanks} existing packages · {roadmap.production.missingBanks} first complete packages pending. Source integration ≠ release acceptance.</span></div>
         <div className="sa-production-grid">{roadmap.production.islands.map(island => {
           const integrated = island.residents.filter(resident => resident.productionStatus === "integrated").length;

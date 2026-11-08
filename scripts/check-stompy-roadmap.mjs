@@ -110,8 +110,13 @@ assert.equal(production.integratedLooks + production.remainingPackages, producti
 assert(production.accepted === null || (Number.isInteger(production.accepted) && production.accepted >= 0 && production.accepted <= production.total));
 assert(date(production.freezeDate));
 assert.equal(production.daysToFreeze, Math.round((Date.parse(production.freezeDate) - Date.parse(data.asOf)) / 86400000));
-assert.equal(production.minimumNewPerWeek, Math.round(production.missingBanks / production.daysToFreeze * 70) / 10);
-assert.equal(production.minimumTotalPerWeek, Math.round(production.remainingPackages / production.daysToFreeze * 70) / 10, 'Total pace must include asset redos and first packages');
+if (production.daysToFreeze > 0) {
+  assert.equal(production.minimumNewPerWeek, Math.round(production.missingBanks / production.daysToFreeze * 70) / 10);
+  assert.equal(production.minimumTotalPerWeek, Math.round(production.remainingPackages / production.daysToFreeze * 70) / 10, 'Total pace must include asset redos and first packages');
+} else {
+  assert.equal(production.minimumNewPerWeek, null, 'First-package pace ends at the freeze date');
+  assert.equal(production.minimumTotalPerWeek, null, 'Total pace ends at the freeze date');
+}
 assert.deepEqual(production.islands.map(i => i.id), roster.islands.map(i => i.id));
 let available = 0;
 const statusCounts = { integrated: 0, redo: 0, missing: 0 };

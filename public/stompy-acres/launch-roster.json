@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -1229,7 +1229,7 @@
           "role": "Crested feathered sentinel",
           "status": "First package · local source in review",
           "rationale": "Adds a tall crest and feather-fan silhouette.",
-          "note": "Local ranch and hatch reveal banks match 14/14 generated files. Nap, recorded finish findings and complete qualification remain open.",
+          "note": "The local ranch and reveal banks include nap and match all 14 generated files. Recorded finish findings and complete qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "medium",
