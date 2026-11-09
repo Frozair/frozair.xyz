@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-08",
-  "nextReview": "2026-11-09",
+  "asOf": "2026-11-09",
+  "nextReview": "2026-11-10",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Content freeze is due today. Thirty source packages remain pending qualification, with full phone and recovery gates open. Apple revocation and backend migration alignment have owner-recorded alpha receipts. The planned November 9 beta still needs a qualified candidate.",
+  "healthNote": "The November 8 full-content freeze was unmet. The beta now opens three islands and 24 species, with qualified signed distribution still unrecorded. Apple-linked deletion passed a scoped iPhone test and both store listings were updated. Thirty full source packages remain pending.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "Content freeze due today · 30 packages pending · beta candidate gates open",
+  "resourcesNote": "Nov 8 freeze unmet · beta scope 3 islands / 24 species · full target 40",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All 40 source homes and exact-eight sets have recorded seed-last proof. October 26: a controlled Moto debug fixture reached Fernlands, hatched Iguanodon and preserved home/cash/dinos/rooms through OS kill/relaunch. Remaining actions, physical iOS and final acceptance stay open. Build 771 distribution is unverified; 706 is the last previously recorded distributed alpha. This debug proof is separate.",
+    "note": "All 40 source homes have pinned seed-last proof. The current beta client opens Forest, Giants and Snow for fresh progression, with Swamp and Fernlands coming soon. Existing owned islands remain sailable. The scoped iPhone 15 Apple deletion test is recorded; full beta candidate and all-five launch acceptance remain open. Build 771 distribution remains unverified; 706 is the last previously recorded distributed alpha.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -107,7 +107,7 @@
       "color": "#65784a",
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
-      "status": "Cypress wetland in runtime · checks open",
+      "status": "Coming soon in beta · launch checks open",
       "summary": "Eight source residents verified. Two older packages need approved-design redos, six first packages and a proven wet-bank presentation remain.",
       "ref": 24,
       "gateDate": "2026-11-08",
@@ -120,7 +120,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Suchomimus and Dilophosaurus need approved-design redos; six residents need first packages. Water access, motion and native acceptance remain."
+          "detail": "Carbonemys now has committed ranch, reveal and shop sets, including dig, happy and nap. Recorded finish findings remain. The other approved Swamp personality stills, views and prompts are source preparation. Complete source qualification stays two redos and six first packages pending."
         },
         {
           "label": "World",
@@ -133,7 +133,7 @@
           "detail": "Owner-recorded scoped Moto world/render observations now exist. Full loops, exact final cast/variants, expansion stages, sustained performance and physical iOS acceptance remain open."
         }
       ],
-      "next": "Qualify the runtime wetland, aquatic bank/entry presentation and full cast motion; preserve separate swimming scope and remaining creature source work.",
+      "next": "Preserve the full launch home and production scope. Finish the owner-held source contracts and final world/device qualification before lifting the beta coming-soon gate.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -179,8 +179,8 @@
       "color": "#bd963f",
       "liveSpecies": 8,
       "targetLabel": "8 / 8 source homes verified · final acceptance open",
-      "status": "Fern valley in runtime · checks open",
-      "summary": "Anky and Iguanodon have committed sets. Stegosaurus, Microraptor and Anzu now have local ranch and reveal sets under review. Brachio R8 has a three-take candidate while its legacy package remains installed. Complete qualification remains open.",
+      "status": "Coming soon in beta · launch checks open",
+      "summary": "Anky, Iguanodon, Stegosaurus, Microraptor and Anzu have committed creature sets. Brachio R8 has a three-take candidate while its legacy package remains installed. Complete qualification remains open, and Fernlands is coming soon in the beta.",
       "ref": 29,
       "gateDate": "2026-10-25",
       "checks": [
@@ -192,7 +192,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Local Stegosaurus, Microraptor and Anzu bank and texture files match 18/18, 12/12 and 14/14 generated files. All now have nap source, including Anzu’s latest take. Recorded finish findings and full package acceptance remain open."
+          "detail": "Stegosaurus, Microraptor and Anzu ranch/reveal/shop sets are committed in b802d30aa7. All 44 generated content files match installation. Their finish reports and whole-package acceptance remain open, alongside Anky/Iguanodon and the Brachio R8 redo."
         },
         {
           "label": "World",
@@ -205,7 +205,7 @@
           "detail": "Fernlands environment prefetch is now committed in 4afd314f21. The exact release-candidate loop, hatch/reveal, Book/Nursery, endurance and physical iOS checks remain open."
         }
       ],
-      "next": "Close Anky/Iguanodon source checks with their owners and continue the held Fernlands queue. Prove the new valley and omitted native actions, physical iOS and recovery; original checkpoint dates remain unmet.",
+      "next": "Preserve the full launch home and production scope. Finish the owner-held source contracts and final world/device qualification before lifting the beta coming-soon gate.",
       "gateLabel": "Oct 25 / Nov 1 gates unmet"
     }
   ],
@@ -253,7 +253,7 @@
       "start": "2026-11-02",
       "end": "2026-11-08",
       "dateLabel": "NOV 2–8",
-      "state": "active",
+      "state": "blocked",
       "outcome": "All 40 residents: required movement/actions/reveals, five habitats and expansion stages accepted. Freeze new features and content.",
       "owner": "Frozair approval · Codex qualification",
       "refs": [
@@ -265,7 +265,7 @@
         27,
         31
       ],
-      "gate": "Due today. Record passed and open gates against the original all-40 and five-world scope. At this morning review, 30 complete source packages and full phone/recovery proof remain open."
+      "gate": "Original Nov 8 freeze UNMET at Nov 9 review. Thirty complete source packages and full world/native/recovery acceptance remain open. Keep the date and assess consequences for beta and public submissions."
     },
     {
       "id": "beta",
@@ -273,7 +273,7 @@
       "start": "2026-11-09",
       "end": "2026-11-15",
       "dateLabel": "NOV 9–15",
-      "state": "planned",
+      "state": "active",
       "outcome": "Seven days of signed beta observations, device checks and recovery evidence.",
       "owner": "Frozair + testers · Codex QA",
       "refs": [
@@ -281,7 +281,7 @@
         7,
         10
       ],
-      "gate": "Fresh/returning players, both OSes, offline/retry/recovery and supported-device endurance pass."
+      "gate": "Original Nov 9 start is due today. The current beta opens Forest, Giants and Snow: 24 species. No qualified signed/public distribution receipt was located at morning review. Record the actual start and evidence span against the original Nov 9–15 plan."
     },
     {
       "id": "submit",
@@ -342,7 +342,7 @@
       ],
       "status": "Scope fixed · capacity unproven",
       "why": "Committed Snow and Giants art give owners sets to qualify. Therizinosaurus’s side colour checks and Diplodocus’s directional walks advanced. Whole-package acceptance and a measured output rate remain open.",
-      "doneWhen": "Record today’s accepted first packages, redos and rework against the original Nov 8 freeze. Thirty complete source packages remain pending. Record the remaining scope and consequences for the planned beta."
+      "doneWhen": "Record accepted first packages, redos and rework after the unmet Nov 8 freeze. Thirty source contracts remain. Assign credible capacity and assess public-submission readiness from completed output."
     },
     {
       "id": "seed-roster",
@@ -434,7 +434,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "All five have committed runtime scenery, and Snow’s eight cast sets are now committed. Finish, habitat, stage, voice and final device qualification remain. The accepted production cohorts are still 10 integrated, 11 redos and 19 first packages pending.",
+      "why": "Four more ranch/reveal/shop sets are committed, bringing named inventory to 35/35. Thirty full source contracts remain pending qualification. The beta client now gates Swamp and Fernlands as coming soon; the full release roster remains forty.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -463,9 +463,9 @@
       "refs": [
         58
       ],
-      "status": "Checklist and copy in source · public beta gates open",
-      "why": "The no-IAP beta checklist, current forty-species store copy and iOS privacy-manifest declarations are committed in 4afd314f21. Apple revocation is committed and deployed to alpha, with its real iPhone exchange still unverified. Store forms, screenshots, external groups and candidate delivery remain open.",
-      "doneWhen": "Verify Apple-linked deletion on iPhone and current privacy declarations. Complete the store questionnaire decisions, approved screenshots and candidate smoke, then obtain public-beta review and release approvals."
+      "status": "Listings pushed · public beta review open",
+      "why": "Corrected three-island/24-species beta text was pushed to App Store Connect and Play on Nov 9. App Privacy and Data safety readbacks are recorded, and the privacy preset now matches eight declared types. Public TestFlight/Open Play, candidate smoke, screenshots and remaining review remain open.",
+      "doneWhen": "Verify signed candidates and public beta access. Keep the actual beta test span, store form/review state and Nov 16 submission decision tied to evidence."
     },
     {
       "id": "sky",
@@ -507,6 +507,12 @@
       "state": "Approved for beta"
     },
     {
+      "title": "Three-island public beta",
+      "due": "2026-11-09",
+      "state": "Approved beta scope",
+      "recommendation": "The current beta opens Forest, Giants and Snow: 24 species. Swamp and Fernlands are coming soon while their source work is qualified. The full launch roster remains forty."
+    },
+    {
       "title": "Which phones do we promise?",
       "due": "2026-10-25",
       "recommendation": "Minimum supported Android/iPhone devices and limits remain open after Oct 25. Moto has scoped native progress; physical iOS is still missing. Pixel was dropped from the current proof by Frozair.",
@@ -515,7 +521,7 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "All 40 and Dec 1 remain Frozair’s fixed scope. Record today’s Nov 8 freeze decision from passed gates and the 30 source packages still awaiting qualification. Assess the original Nov 9 beta against the exact candidate evidence.",
+      "recommendation": "Frozair’s full release target remains forty species across five islands on Dec 1. The beta now opens Forest, Giants and Snow, with Swamp and Fernlands coming soon. The original Nov 8 full-content freeze was unmet; assess consequences from actual candidate and accepted output.",
       "state": "Approved scope · capacity open"
     },
     {
@@ -527,18 +533,18 @@
   ],
   "risks": [
     {
-      "title": "30 asset packages before Nov 8",
+      "title": "Original content freeze was unmet",
       "level": "Critical",
-      "action": "Today’s freeze has 30 source packages awaiting complete qualification. Record accepted output and exact remaining world, voice, phone and recovery gates before deciding beta readiness.",
+      "action": "Thirty complete source packages remain after Nov 8. Record capacity and accepted output, then assess consequences for the original beta and public submission dates.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
     {
-      "title": "Release candidate needs the current measurement file",
+      "title": "Beta sale quote disagrees with retained stock",
       "level": "High",
-      "action": "The owner checklist records the committed measurement cache as broken and the regenerated fix as working-tree-only. Land the owner’s scoped fix before releasing from main, then qualify the exact candidate.",
-      "owner": "Current art owner",
-      "due": "2026-11-08"
+      "action": "Source inspection found that coming-soon Swamp removes the client’s Frost Crystal reserve while the server still retains the locked-gate stack. The optimistic Bag quote and sale display can differ from the authoritative reply. Resolve and verify this path on the beta candidate.",
+      "owner": "Gameplay owner",
+      "due": "2026-11-09"
     },
     {
       "title": "Giants device memory proof remains open",
@@ -557,7 +563,7 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "Critical",
-      "action": "Original Nov 1 all-five/native/data and isolated recovery proof is unmet at Nov 4. New runtime worlds and scoped Moto render observations do not replace missing full loops, Fernlands actions or physical iOS. Recover exact-candidate evidence without silently extending the original date.",
+      "action": "The new three-island beta needs signed-candidate proof and public availability. Full all-five launch qualification and recovery remain open after the original Nov 1 and Nov 8 gates.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
@@ -634,6 +640,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-09",
+      "text": "The original Nov 8 freeze is recorded unmet. Beta normal access is now three islands and 24 species. Four more creature sets and measurements are committed. Apple-linked deletion passed on iPhone 15; corrected listing text reached both stores. Qualified public-beta distribution remains unrecorded."
+    },
     {
       "date": "2026-11-08",
       "text": "The original content-freeze checkpoint is due today with 30 source packages and complete phone/recovery gates still open. Apple revocation is committed and deployed to alpha. The new no-IAP beta checklist, store copy, privacy-manifest declarations and Fernlands prefetch are in source. Anzu now has nap source."
@@ -744,6 +754,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Freeze outcome and beta scope · Nov 9",
+      "detail": "HEAD 8d242cd07f. No late Nov 8 full-content acceptance receipt was found. The original freeze is unmet with cohorts 10/11/19. Game flags Swamp, Fernlands and Water as coming soon for fresh beta progression, leaving Forest/Giants/Snow and 24 species. Existing owned islands remain sailable. Full release homes and all forty remain in source."
+    },
+    {
+      "label": "Apple-linked deletion on iPhone · Nov 8 receipt",
+      "detail": "e588f0b3d4 records Frozair’s iPhone 15 test on a release-config device build. Apple confirmation and grant revocation succeeded before account removal, with hosted identity cleanup verified by the owner. This clears the earlier scoped Apple exchange gap; wider iOS gameplay and release-candidate acceptance remain open."
+    },
+    {
+      "label": "Store declarations and listing pushes · Nov 9",
+      "detail": "ef80c345e8 aligns the iOS privacy preset with eight declared types and records readbacks of existing published App Privacy and saved Play Data safety. 69051d85b2 and 8d242cd07f record corrected 24-species listing pushes to App Store Connect and Play. Release notes, public TestFlight/Open Play, screenshots and candidate review remain open."
+    },
+    {
+      "label": "New committed creature sets and measurements · Nov 9",
+      "detail": "b802d30aa7 commits Stegosaurus, Microraptor, Anzu and Carbonemys ranch/reveal/shop sets, routes and regenerated sprite measurements. The four content comparisons match 62/62 files. Recorded finish flags and complete package acceptance remain open. Inventory is 35/35 committed and working. The prior missing measurement-file commit is superseded."
+    },
+    {
+      "label": "Beta Frost Crystal sale mismatch · Nov 9",
+      "detail": "Two independent source reviews traced Bag Sell all through the client coming-soon gate filter and the unchanged SQL recipe_keep. Client pricing can include the stack that the server reserves for locked Swamp. The server reply reconciles cash and inventory. This is source-inspection evidence, without maintenance game tests or hosted execution."
+    },
     {
       "label": "Apple revocation alpha receipt · Nov 7–8",
       "detail": "9a9aa185f0 commits the Apple confirmation and grant-revocation flow. The owner checklist records alpha function deployment, 7/7 Deno tests, unsigned-call rejection and an anonymous test account cleanup. The actual Apple exchange and grant revocation on an iPhone remain unverified. No maintenance hosted or device operations were performed."
@@ -930,26 +960,26 @@
     }
   ],
   "firstWork": {
-    "title": "Recover the missed proof. Qualify built work.",
-    "note": "Nov 1 is recorded as unmet, with its original date retained. A new Nov 2–8 plan follows the actual prior-week outcome. All 40, the Nov 8 freeze and Dec 1 target stay fixed; no new build, hosted operation or spending is authorized by this plan.",
+    "title": "Qualify the beta. Recover the missed gates.",
+    "note": "The original Nov 8 full-content checkpoint is unmet. The beta scope is now three islands and 24 species. Full launch remains 40 across five islands, with original dates retained.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Review today’s freeze readiness",
-        "when": "Nov 8 checkpoint due today",
+        "title": "Qualify the three-island beta",
+        "when": "Original beta start due today",
         "owner": "Native owner · Frozair device review",
         "refs": [
           56,
           57,
           29
         ],
-        "outcome": "Record which source, world, phone and recovery gates have passed. Confirm readiness for the planned Nov 9 beta from an authorized candidate and exact evidence.",
+        "outcome": "Prove Forest, Giants and Snow on the signed Android and physical iPhone candidates, including hatch/reveal, Book/Nursery, restart and endurance. Record actual public beta availability and testing dates.",
         "species": [
-          "All five: open",
-          "iPhone: open",
-          "Nov 1: unmet"
+          "Beta: 3 islands / 24",
+          "Signed candidate: open",
+          "Public access: open"
         ]
       },
       {
@@ -957,7 +987,7 @@
         "step": 2,
         "kind": "art",
         "title": "Qualify the art already built",
-        "when": "Content freeze due today",
+        "when": "Nov 8 freeze unmet",
         "owner": "Frozair review · art owner production",
         "refs": [
           29,
@@ -965,19 +995,19 @@
           23,
           75
         ],
-        "outcome": "Qualify the built sets with their owners and land the regenerated measurement file. Anzu now has a nap. Finish findings and full package acceptance remain open.",
+        "outcome": "Qualify the committed Fernlands and Carbonemys sets with their owners. Thirty complete source packages remain pending. Keep the remaining Swamp work, Brachio R8 and final world checks visible.",
         "species": [
-          "Giants: source checks",
-          "Snow: eight sets committed",
-          "Anky + Iguanodon"
+          "35 banks in source",
+          "30 packages pending",
+          "Full launch: 40"
         ]
       },
       {
         "id": "capacity-first",
         "step": 3,
         "kind": "operations",
-        "title": "Record the freeze go/no-go",
-        "when": "Due today · Nov 9 beta planned",
+        "title": "Close recovery and submission gates",
+        "when": "Nov 16 public submissions",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -985,24 +1015,24 @@
           57,
           58
         ],
-        "outcome": "Record today’s outcome against the original content-freeze scope. Thirty packages, current device endurance and recovery gates remain open. Identify the consequences for beta readiness with Frozair.",
+        "outcome": "Record backup/restore, staging load, monitoring and store review readiness. The iPhone deletion test and listing pushes are complete within their scope. Signed distribution and public beta access remain open.",
         "species": [
-          "Freeze: due today",
-          "30 packages pending",
-          "Beta gates open"
+          "Recovery: open",
+          "Store copy: pushed",
+          "Candidate: open"
         ]
       }
     ]
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed inventory is 31 ranch banks and 31 reveals. Working inventory is 34 of each. Today’s freeze review must record actual acceptance and remaining gaps.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed and working inventory are 35 ranch banks and 35 reveals. Five species lack named banks. The original Nov 8 acceptance freeze was unmet.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": 0,
+    "daysToFreeze": -1,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1165,7 +1195,7 @@
             "name": "Carbonemys",
             "image": "/stompy-acres/roster/carbonemys.webp",
             "bank": "missing",
-            "detail": "Rigid shell and foot planting need a proof; scope it to the connected banks.",
+            "detail": "Committed ranch, reveal and shop sets in b802d30aa7 include twelve ranch takes with dig, happy and nap. All 18 content files match generated output. Recorded reports flag 405 ranch and 14 reveal frames. Complete qualification remains open. Its recipe records Frozair’s approval of raw clips, built-bank size and motion on Nov 8. Whole reveal and source-consumer qualification remains open.",
             "productionStatus": "missing"
           },
           {
@@ -1323,7 +1353,7 @@
             "name": "Stegosaurus",
             "image": "/stompy-acres/roster/stegosaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch and reveal banks match all 18 checked content files. The ranch report flags 420 frames across four takes. The reveal report has zero finish flags. Complete source qualification and integration remain open.",
+            "detail": "Committed ranch and reveal banks match all 18 checked content files. The ranch report flags 420 frames across four takes. The reveal report has zero finish flags. Complete source qualification and integration remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1347,7 +1377,7 @@
             "name": "Microraptor",
             "image": "/stompy-acres/roster/microraptor.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch and reveal banks match 12/12 checked generated files. Dig and nap clips are present. Recorded reports flag 1,049 ranch and 185 reveal frames; complete qualification remains open.",
+            "detail": "Committed ranch and reveal banks match 12/12 checked generated files. Dig and nap clips are present. Recorded reports flag 1,049 ranch and 185 reveal frames; complete qualification remains open.",
             "productionStatus": "missing"
           },
           {
@@ -1355,7 +1385,7 @@
             "name": "Anzu",
             "image": "/stompy-acres/roster/anzu.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch and reveal banks match 14/14 generated files and now include nap. Current reports flag 877 ranch and 263 reveal frames. Complete package qualification remains open.",
+            "detail": "Committed ranch and reveal banks match 14/14 generated files and now include nap. Current reports flag 877 ranch and 263 reveal frames. Complete package qualification remains open.",
             "productionStatus": "missing"
           }
         ]
@@ -1367,103 +1397,104 @@
     "minimumTotalPerWeek": null
   },
   "weeklyPlan": {
-    "start": "2026-11-02",
-    "end": "2026-11-08",
-    "title": "Recover proof. Qualify built work.",
-    "note": "The original Nov 8 freeze is due today. This morning review found source and alpha progress, but 30 complete source packages and full phone/recovery evidence remain open. Keep this dated plan through today and record the actual freeze outcome before creating another plan.",
+    "start": "2026-11-09",
+    "end": "2026-11-15",
+    "title": "Qualify the beta. Close release gates.",
+    "note": "New plan follows the recorded unmet Nov 8 freeze. The original Nov 9–15 beta window remains. Today’s source scope opens three islands and 24 species; signed/public distribution is still unrecorded at morning review. Daily targets are proposed work under task-specific authorization.",
     "priorities": [
       {
-        "id": "recover-native",
-        "title": "Recover the missed phone + recovery proof",
-        "owner": "Native/operations owners · Frozair device access",
-        "doneWhen": "Complete separately authorized all-five persistent normal-access loops on Android and physical iOS, plus isolated restore/load and current backup/crash/device evidence. Keep original Nov 1 marked unmet until a dated later recovery receipt exists.",
+        "id": "beta-candidate",
+        "title": "Prove the actual beta candidate",
+        "owner": "Native delivery owner · Frozair review",
+        "doneWhen": "Verify Android and physical iPhone, exact candidate/backend, three beta islands, restart, Book/Nursery, hatches and endurance. Record public access and actual testing dates.",
         "refs": [
           56,
           57,
-          7
+          58
         ]
       },
       {
-        "id": "accept-built-art",
-        "title": "Accept whole creature source contracts",
+        "id": "source-qualification",
+        "title": "Qualify remaining launch content",
         "owner": "Current art owners · Frozair checkpoints",
-        "doneWhen": "Resolve finish findings on the committed Giants, Snow, Anky and Iguanodon sets with their owners. Count accepted redos, first packages and rework separately. Record the final voice, UI and device checks separately.",
+        "doneWhen": "Record completed full source contracts and rework. Keep thirty pending packages, five-world requirements and the original full launch scope visible.",
         "refs": [
           42,
           23,
+          24,
           25,
           29
         ]
       },
       {
-        "id": "freeze-capacity",
-        "title": "Prove a credible Nov 8 freeze plan",
-        "owner": "Frozair resources · Codex evidence",
-        "doneWhen": "Record today’s passed and open freeze gates and exact consequences for the original Nov 9 beta. Use accepted output and candidate proof. Preserve the original milestone dates.",
+        "id": "submission-gates",
+        "title": "Close recovery and public review prerequisites",
+        "owner": "Operations/store owners · Frozair access decisions",
+        "doneWhen": "Verify recovery/load/monitoring, current declarations, screenshots and external review setup. Make Nov 16 submission readiness explicit from passed gates.",
         "refs": [
           55,
-          42,
           57,
-          58
+          58,
+          7
         ]
       }
     ],
     "days": [
       {
-        "id": "mon-02",
-        "date": "2026-11-02",
-        "label": "MON 2",
-        "title": "Recorded: Snow target + source",
-        "focus": "Snow’s scenery target was locked and glacier/boulder-shore runtime source began in 2f5aea6e76. This is a source outcome recorded at Nov 4 review, not a claimed Nov 2 director audit.",
-        "proof": "Accepted scenery direction and committed source do not establish whole-cast habitat, expansion-stage or final-device acceptance."
+        "id": "mon-09",
+        "date": "2026-11-09",
+        "label": "MON 9",
+        "title": "Record scope and candidate status",
+        "focus": "Record the unmet freeze, new three-island beta scope, committed source sets, iPhone deletion proof and corrected listing pushes.",
+        "proof": "Keep store metadata distinct from a qualified build or public beta availability. Confirm the actual candidate and test start."
       },
       {
-        "id": "tue-03",
-        "date": "2026-11-03",
-        "label": "TUE 3",
-        "title": "Recorded: worlds + slower islands",
-        "focus": "Swamp/Fernlands scenery targets and runtime worlds advanced; Forest/Giants environment updates followed. 73560edfe6 records the slower-islands migration deployed to alpha on Frozair’s go-ahead.",
-        "proof": "This is dated source/owner rollout evidence, not a Nov 3 director audit, independent hosted query or full all-five/native/recovery pass."
+        "id": "tue-10",
+        "date": "2026-11-10",
+        "label": "TUE 10",
+        "title": "Qualify the beta loops",
+        "focus": "Close exact-candidate fresh/returning, hatch/work/collect/sell/travel and Book/Nursery cases on the three beta islands.",
+        "proof": "Both OSes, restart/offline/retry and current scope. Record omissions and real test dates."
       },
       {
-        "id": "wed-04",
-        "date": "2026-11-04",
-        "label": "WED 4",
-        "title": "Recover the proof gate",
-        "focus": "Record original Nov 1 checkpoint as unmet. Identify exact authorized candidates and accountable Android/physical-iOS/operations owners, then close the missing loop and recovery receipts.",
-        "proof": "Exact build/backend/device, hatch/work/sell/expand/travel/Book, kill-relaunch and isolated restore/load scope. No build or hosted operation is authorized by this plan. Nov 5 review found the Nov 1 outcome recorded and the Snow sets committed. Complete phone and recovery receipts remain open."
+        "id": "wed-11",
+        "date": "2026-11-11",
+        "label": "WED 11",
+        "title": "Resolve source and pacing findings",
+        "focus": "Qualify current art and client/server progression behavior with their owners. Record accepted packages and rework.",
+        "proof": "Scoped current source and ordinary/unlucky gameplay evidence, with original forty-species release requirements."
       },
       {
-        "id": "thu-05",
-        "date": "2026-11-05",
-        "label": "THU 5",
-        "title": "Qualify the source already built",
-        "focus": "Review committed Snow sets and the latest Giants clarity and foot fixes, including the texture budget check. Resolve Anky and Iguanodon finish findings with their owners and measure accepted output.",
-        "proof": "Accepted redos and first packages counted separately. Matching files, reports, task completion and local previews do not waive final art/native gates. Nov 6 review found a local Giants budget correction with 37 passing owner tests. Integration and final device checks are open."
+        "id": "thu-12",
+        "date": "2026-11-12",
+        "label": "THU 12",
+        "title": "Prove recovery and operations",
+        "focus": "Complete separately authorized backup, isolated restore, staging/load and monitoring receipts.",
+        "proof": "Named owners and dated save/recovery results, preserving ordinary player data and the fresh-start policy."
       },
       {
-        "id": "fri-06",
-        "date": "2026-11-06",
-        "label": "FRI 6",
-        "title": "Qualify worlds + current pacing",
-        "focus": "Review current world stages and progression. Record the beta decision to exclude in-app purchases and track age-screen and account-deletion proof for the public-store candidate.",
-        "proof": "Pinned exact-candidate evidence and ordinary/unlucky scope. Affordability-only simulations and scoped Moto scenery observations are not full player forecasts. Nov 7 review found age screening, deletion and the Giants budget correction committed. Project docs record the deletion database migration on alpha. A release build and complete phone/recovery evidence remain open."
+        "id": "fri-13",
+        "date": "2026-11-13",
+        "label": "FRI 13",
+        "title": "Check public review readiness",
+        "focus": "Review public beta access, screenshots when approved, store declarations and remaining legal/privacy requirements.",
+        "proof": "Exact review status and uploaded assets. Listing text alone does not establish app approval."
       },
       {
-        "id": "sat-07",
-        "date": "2026-11-07",
-        "label": "SAT 7",
-        "title": "Recheck candidate + foundations",
-        "focus": "Review today’s exact candidate and recovery, device, privacy and store foundations. Confirm scope of the new deletion rollout and Apple-linked cleanup while preparing tomorrow’s freeze outcome.",
-        "proof": "Dated fail-closed results, both OSes and actual scope. Preserve saves/eggs/Bag/history/events; no automatic test build, reset, migration or purchase. Nov 8 review found Apple revocation committed and deployed to alpha, with the actual Apple-linked iPhone exchange still unverified. The new beta checklist records additional store, measurement, device and recovery gates."
+        "id": "sat-14",
+        "date": "2026-11-14",
+        "label": "SAT 14",
+        "title": "Close candidate regressions",
+        "focus": "Review endurance, retry/recovery and source fixes against the signed candidate.",
+        "proof": "Measure actual test span and both OSes. Keep unproven launch content and operations gates explicit."
       },
       {
-        "id": "sun-08",
-        "date": "2026-11-08",
-        "label": "SUN 8",
-        "title": "Make the freeze go/no-go explicit",
-        "focus": "Make the original freeze go/no-go from accepted all-40 source contracts, five worlds and candidate evidence. At morning review, 30 packages and complete phone/recovery proof remain open.",
-        "proof": "Today’s checkpoint is due and unpassed at this morning review. Record final outcomes honestly. Keep the original freeze, beta and launch dates, and bring the consequences of missing gates to Frozair."
+        "id": "sun-15",
+        "date": "2026-11-15",
+        "label": "SUN 15",
+        "title": "Make the submission decision",
+        "focus": "Record whether the original seven-day beta and all public-submission gates were achieved.",
+        "proof": "Actual distribution and evidence dates, remaining defects and Nov 16 go/no-go. Do not silently extend the beta or move Dec 1."
       }
     ],
     "parking": [
@@ -1472,10 +1503,10 @@
       "In-app purchases are out of beta. Public launch revenue remains open."
     ],
     "checkpoint": {
-      "date": "2026-11-08",
-      "title": "Nov 8: content freeze go/no-go.",
-      "pass": "All 40 required source contracts and five worlds accepted, exact-candidate native/UI and release foundations recorded, with seven-day signed beta ready. Earlier missed checkpoint history remains explicit.",
-      "ifMiss": "Record exact unmet gates and measured output/capacity. Present resource/date consequences for Frozair’s decision without declaring freeze achieved or inventing a new launch target."
+      "date": "2026-11-15",
+      "title": "Nov 15: signed-beta and submission readiness.",
+      "pass": "Qualified signed candidates, actual beta coverage and public-submission prerequisites are recorded, with full launch requirements satisfied.",
+      "ifMiss": "Record missing gates and actual testing span. Present consequences for the original Nov 16 submissions and Dec 1 target for Frozair’s decision."
     },
     "dependencies": [
       "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
@@ -1597,6 +1628,123 @@
         "Daily cards are proposed targets, not new production/spending/build/hosted authorization.",
         "Native fixture permissions belong to that session; physical iOS access and current-candidate scope need an accountable owner.",
         "Anky’s earlier colour choice is kept; resolve current finish/join findings with its owner. Preserve concurrent work and all selected roster images."
+      ]
+    },
+    {
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "title": "Recover proof. Qualify built work.",
+      "note": "The original Nov 8 freeze is due today. This morning review found source and alpha progress, but 30 complete source packages and full phone/recovery evidence remain open. Keep this dated plan through today and record the actual freeze outcome before creating another plan. Actual outcome recorded Nov 9: the original Nov 8 full-content freeze was unmet in the inspected evidence. Thirty source packages and full native/recovery gates remained open. Later source integration, iPhone deletion proof and store metadata pushes do not establish freeze acceptance.",
+      "priorities": [
+        {
+          "id": "recover-native",
+          "title": "Recover the missed phone + recovery proof",
+          "owner": "Native/operations owners · Frozair device access",
+          "doneWhen": "Complete separately authorized all-five persistent normal-access loops on Android and physical iOS, plus isolated restore/load and current backup/crash/device evidence. Keep original Nov 1 marked unmet until a dated later recovery receipt exists.",
+          "refs": [
+            56,
+            57,
+            7
+          ]
+        },
+        {
+          "id": "accept-built-art",
+          "title": "Accept whole creature source contracts",
+          "owner": "Current art owners · Frozair checkpoints",
+          "doneWhen": "Resolve finish findings on the committed Giants, Snow, Anky and Iguanodon sets with their owners. Count accepted redos, first packages and rework separately. Record the final voice, UI and device checks separately.",
+          "refs": [
+            42,
+            23,
+            25,
+            29
+          ]
+        },
+        {
+          "id": "freeze-capacity",
+          "title": "Prove a credible Nov 8 freeze plan",
+          "owner": "Frozair resources · Codex evidence",
+          "doneWhen": "Record today’s passed and open freeze gates and exact consequences for the original Nov 9 beta. Use accepted output and candidate proof. Preserve the original milestone dates.",
+          "refs": [
+            55,
+            42,
+            57,
+            58
+          ]
+        }
+      ],
+      "days": [
+        {
+          "id": "mon-02",
+          "date": "2026-11-02",
+          "label": "MON 2",
+          "title": "Recorded: Snow target + source",
+          "focus": "Snow’s scenery target was locked and glacier/boulder-shore runtime source began in 2f5aea6e76. This is a source outcome recorded at Nov 4 review, not a claimed Nov 2 director audit.",
+          "proof": "Accepted scenery direction and committed source do not establish whole-cast habitat, expansion-stage or final-device acceptance."
+        },
+        {
+          "id": "tue-03",
+          "date": "2026-11-03",
+          "label": "TUE 3",
+          "title": "Recorded: worlds + slower islands",
+          "focus": "Swamp/Fernlands scenery targets and runtime worlds advanced; Forest/Giants environment updates followed. 73560edfe6 records the slower-islands migration deployed to alpha on Frozair’s go-ahead.",
+          "proof": "This is dated source/owner rollout evidence, not a Nov 3 director audit, independent hosted query or full all-five/native/recovery pass."
+        },
+        {
+          "id": "wed-04",
+          "date": "2026-11-04",
+          "label": "WED 4",
+          "title": "Recover the proof gate",
+          "focus": "Record original Nov 1 checkpoint as unmet. Identify exact authorized candidates and accountable Android/physical-iOS/operations owners, then close the missing loop and recovery receipts.",
+          "proof": "Exact build/backend/device, hatch/work/sell/expand/travel/Book, kill-relaunch and isolated restore/load scope. No build or hosted operation is authorized by this plan. Nov 5 review found the Nov 1 outcome recorded and the Snow sets committed. Complete phone and recovery receipts remain open."
+        },
+        {
+          "id": "thu-05",
+          "date": "2026-11-05",
+          "label": "THU 5",
+          "title": "Qualify the source already built",
+          "focus": "Review committed Snow sets and the latest Giants clarity and foot fixes, including the texture budget check. Resolve Anky and Iguanodon finish findings with their owners and measure accepted output.",
+          "proof": "Accepted redos and first packages counted separately. Matching files, reports, task completion and local previews do not waive final art/native gates. Nov 6 review found a local Giants budget correction with 37 passing owner tests. Integration and final device checks are open."
+        },
+        {
+          "id": "fri-06",
+          "date": "2026-11-06",
+          "label": "FRI 6",
+          "title": "Qualify worlds + current pacing",
+          "focus": "Review current world stages and progression. Record the beta decision to exclude in-app purchases and track age-screen and account-deletion proof for the public-store candidate.",
+          "proof": "Pinned exact-candidate evidence and ordinary/unlucky scope. Affordability-only simulations and scoped Moto scenery observations are not full player forecasts. Nov 7 review found age screening, deletion and the Giants budget correction committed. Project docs record the deletion database migration on alpha. A release build and complete phone/recovery evidence remain open."
+        },
+        {
+          "id": "sat-07",
+          "date": "2026-11-07",
+          "label": "SAT 7",
+          "title": "Recheck candidate + foundations",
+          "focus": "Review today’s exact candidate and recovery, device, privacy and store foundations. Confirm scope of the new deletion rollout and Apple-linked cleanup while preparing tomorrow’s freeze outcome.",
+          "proof": "Dated fail-closed results, both OSes and actual scope. Preserve saves/eggs/Bag/history/events; no automatic test build, reset, migration or purchase. Nov 8 review found Apple revocation committed and deployed to alpha, with the actual Apple-linked iPhone exchange still unverified. The new beta checklist records additional store, measurement, device and recovery gates."
+        },
+        {
+          "id": "sun-08",
+          "date": "2026-11-08",
+          "label": "SUN 8",
+          "title": "Make the freeze go/no-go explicit",
+          "focus": "Make the original freeze go/no-go from accepted all-40 source contracts, five worlds and candidate evidence. At morning review, 30 packages and complete phone/recovery proof remain open.",
+          "proof": "Today’s checkpoint is due and unpassed at this morning review. Record final outcomes honestly. Keep the original freeze, beta and launch dates, and bring the consequences of missing gates to Frozair."
+        }
+      ],
+      "parking": [
+        "Optional Forest polish remains parked; approved owner-specific work is a scoped exception",
+        "New mechanics, extra islands and optional retakes; Dino Park #80 remains an idea",
+        "In-app purchases are out of beta. Public launch revenue remains open."
+      ],
+      "checkpoint": {
+        "date": "2026-11-08",
+        "title": "Nov 8: content freeze go/no-go.",
+        "pass": "All 40 required source contracts and five worlds accepted, exact-candidate native/UI and release foundations recorded, with seven-day signed beta ready. Earlier missed checkpoint history remains explicit.",
+        "ifMiss": "Record exact unmet gates and measured output/capacity. Present resource/date consequences for Frozair’s decision without declaring freeze achieved or inventing a new launch target."
+      },
+      "dependencies": [
+        "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
+        "Android/physical-iOS access, current candidate scope and operations execution need accountable authorized owners",
+        "Preserve all selected stills, exact 40 homes, accepted look choices and current art-owner files; separate source/local/hosted/native evidence"
       ]
     }
   ]

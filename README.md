@@ -65,28 +65,28 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 8**, not an invented November
+remain distinct. Latest director audit is **November 9**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
-unmet. Keep both original dates. The new November 2–8 recovery/freeze plan follows
+unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
-retroactive proposed targets. Earlier October 26–November 1 plan is archived intact,
-with the November 4 outcome appended. Current priority is recovering phone proof.
+retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
+with their dated outcomes appended. The current November 9–15 plan follows the missed freeze. Current priority is recovering phone proof.
 
 Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
 silent cuts, new target date, budget, staff or production-rate promise. November 8
 freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. Today’s freeze has **30 whole-source packages still pending qualification**,
-alongside world, voice, phone and recovery gates. Record the actual Nov 8 outcome
-against the existing freeze and beta dates. On or after the freeze date, rate fields
+fixes and December 1 gated launch remain. The original November 8 freeze was **unmet**, with **30 whole-source packages pending qualification**,
+alongside world, voice, phone and recovery gates. The complete November 2–8 plan
+and its outcome are archived against the original dates. On or after the freeze date, rate fields
 are null and the page shows the checkpoint status instead of dividing by zero.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
-are package cohorts, not file inventory. Committed named ranch/reveal inventory is **31/31**. Working inventory is **34/34**
-with local Stegosaurus, Microraptor and Anzu sets, leaving six IDs without working named banks. Snow’s eight ranch and
+are package cohorts, not file inventory. Committed and working named ranch/reveal inventory are **35/35** after the four
+sets in b802d30aa7, leaving five IDs without named banks. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
 
@@ -113,20 +113,26 @@ comparison. All-five native acceptance remains open.
 
 Latest full-loop owner receipt remains October 26's assisted Moto fixture: unlock
 chain, Fernlands starter/shop/Iguanodon hatch/work and kill/relaunch. Sell/expansion/
-return/full Book-shop and physical iOS remain unrecorded. Pixel was dropped from this
+return/full Book-shop and a complete physical-iOS island loop remain unrecorded. Pixel was dropped from this
 proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world evidence
 is valid within its scope. No new distributed-candidate receipt found beyond prior
 706 alpha; 771 distribution stays unverified. Initial device/backup/crash/store and
 isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
-backup list, open staging/monitoring proof and a required measurement-file commit. October 4 ops observations and October 20
+backup list and open staging/monitoring and candidate qualification. The regenerated
+measurement file is now committed. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
 
 Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
 and in-app deletion. Committed docs record deletion migration 20261106010000 on
-hosted alpha Nov 6. 9a9aa185f0 commits Apple grant cleanup and records alpha deployment. Its actual
-Apple-linked iPhone exchange remains unverified.
-The website privacy text was updated separately. Release build, linked-account
-proof, store forms and final review remain open. Public launch revenue is separate.
+hosted alpha Nov 6. 9a9aa185f0 commits Apple grant cleanup and records alpha deployment. e588f0b3d4
+records the successful iPhone 15 linked-account deletion test on a release-config
+device build. Wider candidate and physical-iOS gameplay qualification remain open.
+The beta opens Forest, Giants and Snow for 24 species; Swamp and Fernlands are
+coming soon. The full launch roster remains forty. Corrected listings were pushed
+to both stores, while public beta distribution remains unrecorded. Store declaration
+readbacks and the eight-type iOS privacy preset are recorded in source.
+The website privacy text was updated separately. Public candidate distribution,
+remaining store review and full gameplay qualification remain open. Public launch revenue is separate.
 
 The reset-order defect/fail-closed runner are fixed in 30c4016af with pinned seed-last
 proof. Do not resurrect the old 36/32 warning. Fresh-start policy retires legacy-owner
@@ -139,7 +145,10 @@ Giants 3M/Snowy 90M, doubled Giants land and Shiny quantities ×10/×15/×25; Gl
 doubles. 73560edfe6 records its Nov 3 hosted-alpha rollout on Frozair's go-ahead; this
 is an owner-recorded receipt, not a maintenance hosted query. Three parallel crafts
 per island (70025ec639) and rising storage fees (9ce14a9918: 12h/24h 2×/4× the 8h fee)
-supersede old one-slot/40–60% rules. Keep their separate rollout scopes distinct.
+supersede old one-slot/40–60% rules. A Nov 9 source review found that the beta
+coming-soon filter drops the client Frost Crystal reserve while SQL still retains it,
+so the optimistic Bag quote can differ before the authoritative reply. Resolve
+that scoped path with the gameplay owner. Keep their separate rollout scopes distinct.
 The Nov 7 owner checklist records source migrations since Sep 30 aligned on alpha,
 including the intro, Finder, crafts and storage fees. Current native pacing remains open;
 Aquilops local SQL/game/end-to-end proof and four unchosen later finders retain their
