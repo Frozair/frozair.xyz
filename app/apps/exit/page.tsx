@@ -14,11 +14,13 @@ export default function ExitPage() {
     <p className="text-xl">Find the flow. Clear a shape in one satisfying chain.</p>
     <p>Drag through neighboring arrows to build your own chain. Each arrow must have a clear exit when its turn comes. One successful chain uses one move, however many arrows it clears. Take your time, undo a move, or ask for a hint.</p>
     <ul>
-      <li>36 puzzles across six chapters, with completed shapes saved in your collection.</li>
-      <li>No timers, lives or forced full-screen ads.</li>
+      <li>42 puzzles across seven chapters, with completed shapes saved in your collection.</li>
+      <li>No timers or lives. Undo is free while moves remain; Try again is free after an attempt ends.</li>
+      <li>Complete chapters to unlock seven optional tile color themes, or keep the original colors.</li>
       <li>Replay collected shapes, improve your moves remaining, and choose sound or reduced-motion settings.</li>
     </ul>
     <p>EXIT is being tested for iPhone, Android and the web. Public downloads are not available yet. Mobile versions include optional rewarded hints and a one-time purchase that removes all ads and unlocks unlimited hints when available; the web game has no mobile ads or purchases.</p>
+    <p>When advertising is available, mobile versions can show banners and occasional full-screen ads between completed boards. Undo, Restart and Try again do not trigger ads.</p>
     <p>Already testing? <Link href="/apps/exit/support">Get help with EXIT</Link> or read the <Link href="/apps/exit/privacy">privacy policy</Link>.</p>
   </>;
 }

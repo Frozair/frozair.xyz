@@ -16,7 +16,7 @@ export default function ExitSupportPage() {
     <h2>Building a chain</h2>
     <p>Drag between touching horizontal or vertical neighbors, then release on the last arrow. Diagonal links and jumps across gaps are not valid. Arrows clear in the order you selected, so an earlier arrow can open the way for the next. Tap the empty background to cancel a selection.</p>
     <h2>Out of moves</h2>
-    <p>Choose Undo to reconsider your last move, or Try again to restart the board. Both are free. Your completed collection stays saved.</p>
+    <p>While moves remain, choose Undo to reconsider your last move. Running out of moves ends the attempt; choose Try again to restart the board. Both actions are free and do not trigger ads. Restart is also available in the menu during play. Your completed collection stays saved.</p>
     <h2>Restore a Remove Ads purchase</h2>
     <p>Connect to the internet, use the same Apple App Store or Google Play account that made the purchase, then open EXIT Settings and choose Restore purchases. Restoration applies to purchases from that store; it does not transfer your saved puzzles between devices or platforms.</p>
     <p>Remove Ads removes all ads and unlocks unlimited hints. You do not need to watch a rewarded ad to use those hints. For a purchase problem, start by telling us the store, item and error message. Do not send passwords, payment-card details or authentication codes. We can ask for the minimum order information needed if a lookup is required.</p>
