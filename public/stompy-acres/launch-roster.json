@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -580,9 +580,9 @@
           "viewBox": "4.900 150.660 760.038 491.789",
           "recommended": true,
           "role": "Sail-backed quadruped",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "Tall sail plus low body gives Swamp a different shape from Sucho.",
-          "note": "Use ordinary grounded routes; sail and limb continuity still need animation work.",
+          "note": "Owner-held local ranch and reveal sets match all 15 generated content files. Reports record 12 ranch and three reveal takes, flagging 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source qualification and integration remain open.",
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",
@@ -606,9 +606,9 @@
           "viewBox": "5.512 263.962 762.488 401.761",
           "recommended": true,
           "role": "Broad-muzzled long-neck",
-          "status": "Concept only",
+          "status": "First package · source takes in progress",
           "rationale": "The broad muzzle and low long neck add a gentle herbivore.",
-          "note": "Grounded bank routes; neck and muzzle identity need to survive the motion pass.",
+          "note": "Owner-held motion takes are being prepared. No recipe, report or named installed bank was found at the Nov 10 review; whole-source qualification remains open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -632,9 +632,9 @@
           "viewBox": "11.636 309.282 752.077 340.517",
           "recommended": true,
           "role": "Boomerang head",
-          "status": "Concept only",
+          "status": "First package · source takes in progress",
           "rationale": "A wide boomerang head adds a strange, immediately recognisable shape.",
-          "note": "Low splayed contact and wetland access need a separate proof.",
+          "note": "Owner-held motion takes are in progress; back walk, recipe/report/bank and wetland contact qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",

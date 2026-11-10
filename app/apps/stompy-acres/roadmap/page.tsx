@@ -213,7 +213,7 @@ export default function ReleaseRoadmapPage() {
   const blockedCheckpointDates = Array.from(new Set(roadmap.milestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.end))).sort();
   const actionNotes = { art: "Movement + hatch reveals", engine: "Android + physical iPhone", operations: "People + time + recovery" };
   const actionTitles = { art: "Finish creature art", engine: "Test the beta islands", operations: "Confirm time + help" };
-  const focusNotes = { art: "Finish the creatures already underway.", engine: "Complete the phone walkthrough.", operations: "Prove recovery and confirm capacity." };
+  const focusNotes = { art: "Finish the creatures already underway.", engine: "Prove the current beta candidate.", operations: "Prove recovery and confirm capacity." };
 
   return <article className="sa-roadmap">
     <a href="#sa-islands" className="sa-skip-link">Skip to island readiness</a>

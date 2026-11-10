@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-09",
-  "nextReview": "2026-11-10",
+  "asOf": "2026-11-10",
+  "nextReview": "2026-11-11",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The November 8 full-content freeze was unmet. The beta now opens three islands and 24 species, with qualified signed distribution still unrecorded. Apple-linked deletion passed a scoped iPhone test and both store listings were updated. Thirty full source packages remain pending.",
+  "healthNote": "Frozair paused the public beta while the event reward loop is revised. The original Nov 9 signed-beta start is unestablished, after the unmet Nov 8 freeze. Store screenshots are uploaded. Thirty complete source packages and final candidate/recovery gates remain open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze unmet · beta scope 3 islands / 24 species · full target 40",
   "releaseIslandCount": 5,
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All 40 source homes have pinned seed-last proof. The current beta client opens Forest, Giants and Snow for fresh progression, with Swamp and Fernlands coming soon. Existing owned islands remain sailable. The scoped iPhone 15 Apple deletion test is recorded; full beta candidate and all-five launch acceptance remain open. Build 771 distribution remains unverified; 706 is the last previously recorded distributed alpha.",
+    "note": "All 40 source homes have pinned seed-last proof. The current beta client opens Forest, Giants and Snow for fresh progression, with Swamp and Fernlands coming soon. Existing owned islands remain sailable. The scoped iPhone 15 Apple deletion test is recorded; full beta candidate and all-five launch acceptance remain open. Build 771 distribution remains unverified; 706 is the last previously recorded distributed alpha. Frozair has paused public beta release for the event-reward revision; no qualified signed-public start was recorded at the Nov 10 review.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -120,7 +120,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Carbonemys now has committed ranch, reveal and shop sets, including dig, happy and nap. Recorded finish findings remain. The other approved Swamp personality stills, views and prompts are source preparation. Complete source qualification stays two redos and six first packages pending."
+          "detail": "Carbonemys is committed. Edaphosaurus now has an owner-held local ranch/reveal candidate with scoped built-bank/size/motion approval. Nigersaurus and Diplocaulus source takes are progressing. Whole-source counts remain two redos and six first packages pending qualification."
         },
         {
           "label": "World",
@@ -281,7 +281,7 @@
         7,
         10
       ],
-      "gate": "Original Nov 9 start is due today. The current beta opens Forest, Giants and Snow: 24 species. No qualified signed/public distribution receipt was located at morning review. Record the actual start and evidence span against the original Nov 9–15 plan."
+      "gate": "Original Nov 9 start is unestablished at the Nov 10 review. Frozair paused public beta while the event reward loop is revised. The three-island/24-species beta scope remains; no qualified signed/public start or seven-day testing span is recorded. Preserve Nov 9–15 and record actual testing dates before the Nov 16 submission decision."
     },
     {
       "id": "submit",
@@ -313,6 +313,21 @@
     }
   ],
   "work": [
+    {
+      "id": "beta-reward",
+      "lane": "now",
+      "title": "Resolve the reward loop before beta",
+      "owner": "Event owner · Frozair direction",
+      "due": "2026-11-09",
+      "refs": [
+        84,
+        57,
+        58
+      ],
+      "status": "Public beta paused by Frozair",
+      "why": "The original Nov 9 signed-beta start is unestablished. The approved Sky Portal now uses temporary dig spots on existing islands. Its latest live-spots revision has local owner proof; hosted and device qualification remain open. The older deployed grid receipt does not certify this revision.",
+      "doneWhen": "Record the owner’s current reward-loop proof and Frozair’s release direction. Then qualify and distribute the exact signed candidates under separate task authorization, preserving actual test dates and the original Nov 9–15 / Nov 16 history."
+    },
     {
       "id": "fern-slice",
       "lane": "now",
@@ -434,7 +449,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "Four more ranch/reveal/shop sets are committed, bringing named inventory to 35/35. Thirty full source contracts remain pending qualification. The beta client now gates Swamp and Fernlands as coming soon; the full release roster remains forty.",
+      "why": "Named creature inventory is 35/35 committed and 36/36 working with local Edaphosaurus. Thirty full source contracts remain pending qualification. The narrower beta scope does not change the full forty-species launch roster.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -463,8 +478,8 @@
       "refs": [
         58
       ],
-      "status": "Listings pushed · public beta review open",
-      "why": "Corrected three-island/24-species beta text was pushed to App Store Connect and Play on Nov 9. App Privacy and Data safety readbacks are recorded, and the privacy preset now matches eight declared types. Public TestFlight/Open Play, candidate smoke, screenshots and remaining review remain open.",
+      "status": "Listings + screenshots uploaded · beta paused",
+      "why": "3857b91da5 records the approved six Rex-narrated screenshot tiles uploaded to the Apple device sets and Play phone set. Listing text and privacy readbacks are recorded too. Preview video, remaining review forms and qualified signed distribution stay open; public beta is paused for the event-reward revision.",
       "doneWhen": "Verify signed candidates and public beta access. Keep the actual beta test span, store form/review state and Nov 16 submission decision tied to evidence."
     },
     {
@@ -513,9 +528,15 @@
       "recommendation": "The current beta opens Forest, Giants and Snow: 24 species. Swamp and Fernlands are coming soon while their source work is qualified. The full launch roster remains forty."
     },
     {
+      "title": "Pause beta for event rewards",
+      "due": "2026-11-09",
+      "state": "Frozair direction · owner work active",
+      "recommendation": "Frozair paused the public beta until the event reward loop is fixed. Sky Portal is an approved feature-flagged experiment on existing islands, separate from a future Sky island. The latest live-spots design supersedes saved grid digs. New alpha build remains on hold pending the scoped owner checks."
+    },
+    {
       "title": "Which phones do we promise?",
       "due": "2026-10-25",
-      "recommendation": "Minimum supported Android/iPhone devices and limits remain open after Oct 25. Moto has scoped native progress; physical iOS is still missing. Pixel was dropped from the current proof by Frozair.",
+      "recommendation": "Minimum supported Android/iPhone devices and limits remain open. Scoped Android observations and the iPhone 15 Apple-deletion test exist; full physical-iOS gameplay and endurance remain unqualified. Pixel was dropped from the Fernlands proof; later scoped Pixel portal feedback does not create a new device requirement.",
       "state": "Open"
     },
     {
@@ -538,6 +559,13 @@
       "action": "Thirty complete source packages remain after Nov 8. Record capacity and accepted output, then assess consequences for the original beta and public submission dates.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
+    },
+    {
+      "title": "Original beta start is unestablished",
+      "level": "Critical",
+      "action": "Frozair paused public beta for event rewards. No qualified signed/public Nov 9 start is recorded. The latest live-spots portal still needs scoped hosted/device proof. Do not count the original seven-day test window as completed or shift the Nov 16 submission date silently. Verify intended tester gating before any public candidate; the new migration preserves the old alpha flags.",
+      "owner": "Frozair + release owners",
+      "due": "2026-11-09"
     },
     {
       "title": "Beta sale quote disagrees with retained stock",
@@ -563,7 +591,7 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "Critical",
-      "action": "The new three-island beta needs signed-candidate proof and public availability. Full all-five launch qualification and recovery remain open after the original Nov 1 and Nov 8 gates.",
+      "action": "The three-island beta is paused for the reward loop and its original Nov 9 signed/public start is unestablished. Full all-five launch qualification and recovery remain open. Record actual beta testing days before assessing Nov 16 submission readiness.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
@@ -640,6 +668,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-10",
+      "text": "Frozair paused public beta for the event reward loop; no qualified signed/public Nov 9 start is recorded. Approved screenshots reached both stores. The latest Sky Portal uses live island dig spots and has local owner proof, distinct from the earlier deployed grid. Edaphosaurus adds a local source set; complete package counts stay 10/11/19."
+    },
     {
       "date": "2026-11-09",
       "text": "The original Nov 8 freeze is recorded unmet. Beta normal access is now three islands and 24 species. Four more creature sets and measurements are committed. Apple-linked deletion passed on iPhone 15; corrected listing text reached both stores. Qualified public-beta distribution remains unrecorded."
@@ -754,6 +786,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Beta pause and original start · Nov 10 review",
+      "detail": "Pigeon #84 records Frozair’s Nov 9 pause until event rewards are fixed. Its Nov 9 21:48Z owner comment holds the new alpha build. No newer #56/#57/#58 qualified signed/public delivery receipt establishes the original Nov 9 start. Store uploads and scoped debug portal observations are separate evidence; actual test span remains unestablished."
+    },
+    {
+      "label": "Approved store screenshots uploaded · Nov 9",
+      "detail": "3857b91da5 records the approved six Rex-narrated screenshot tiles uploaded to the iPhone 6.9/6.5-inch and iPad 13-inch sets, with COMPLETE readbacks, plus Play phone screenshots. This supersedes the paused/awaiting-upload screenshot item only; preview video and app distribution/review remain open."
+    },
+    {
+      "label": "Sky Portal revision · Nov 10 review",
+      "detail": "a30f182662 and 5028b8e549 record the older flagged grid’s owner alpha/Pixel proof. c2ebdd5ce6 supersedes it with live-window spots on existing islands, three picks per window without saved digs, and approved rare Rainbow dirt eggs. #84’s Nov 10 05:44Z receipt records local tests for migration 20261109020000, with hosted/device checks awaiting go-ahead. Do not reuse earlier hosted/Pixel proof as acceptance of the new revision. The earlier alpha receipt records enabled=true/testers_only=false for weather-API-4 clients. The new migration preserves existing flags; intended tester gating must be checked before public exposure."
+    },
+    {
+      "label": "Owner-held Swamp production · Nov 10",
+      "detail": "At HEAD c2ebdd5ce6, committed named inventory remains 35 ranch/35 reveal; working is 36/36. Local Edaphosaurus matches 15/15 generated content files, with recorded 711 ranch and 90 reveal flagged frames and scoped Nov 9 built-bank/size/motion approval. Nigersaurus and Diplocaulus have source takes without installed banks. No whole-package acceptance gain was found."
+    },
+    {
+      "label": "Current sale and model scope · Nov 10",
+      "detail": "The client coming-soon filter still skips Swamp in the inspected source, so the Nov 9 Frost Crystal quote finding remains open. Current owner working changes add cross-island goal/storehouse guidance and simulator experiments. They are uncommitted and do not establish a sale fix, pacing approval or native delivery."
+    },
     {
       "label": "Freeze outcome and beta scope · Nov 9",
       "detail": "HEAD 8d242cd07f. No late Nov 8 full-content acceptance receipt was found. The original freeze is unmet with cohorts 10/11/19. Game flags Swamp, Fernlands and Water as coming soon for fresh beta progression, leaving Forest/Giants/Snow and 24 species. Existing owned islands remain sailable. Full release homes and all forty remain in source."
@@ -961,25 +1013,25 @@
   ],
   "firstWork": {
     "title": "Qualify the beta. Recover the missed gates.",
-    "note": "The original Nov 8 full-content checkpoint is unmet. The beta scope is now three islands and 24 species. Full launch remains 40 across five islands, with original dates retained.",
+    "note": "Public beta is paused by Frozair for the event reward loop. Keep its original Nov 9–15 window and actual testing span visible. The unmet Nov 8 freeze and full 40-species/five-island Dec 1 target remain unchanged.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Qualify the three-island beta",
-        "when": "Original beta start due today",
-        "owner": "Native owner · Frozair device review",
+        "title": "Recover the paused beta",
+        "when": "Original Nov 9 start unestablished",
+        "owner": "Event/native owners · Frozair release decision",
         "refs": [
+          84,
           56,
-          57,
-          29
+          57
         ],
-        "outcome": "Prove Forest, Giants and Snow on the signed Android and physical iPhone candidates, including hatch/reveal, Book/Nursery, restart and endurance. Record actual public beta availability and testing dates.",
+        "outcome": "Finish the approved event-reward revision with its owner. Resume delivery only under Frozair’s direction, then prove the exact signed Android and physical-iPhone candidate across the three beta islands. Record actual public access and test dates.",
         "species": [
-          "Beta: 3 islands / 24",
-          "Signed candidate: open",
-          "Public access: open"
+          "Beta release: paused",
+          "Latest portal: local proof",
+          "Signed candidate: open"
         ]
       },
       {
@@ -995,9 +1047,9 @@
           23,
           75
         ],
-        "outcome": "Qualify the committed Fernlands and Carbonemys sets with their owners. Thirty complete source packages remain pending. Keep the remaining Swamp work, Brachio R8 and final world checks visible.",
+        "outcome": "Qualify committed sets with their owners and the new local Edaphosaurus ranch/reveal. Thirty complete source packages remain pending. Keep remaining Swamp work, Brachio R8 and final world checks visible.",
         "species": [
-          "35 banks in source",
+          "35 committed / 36 working",
           "30 packages pending",
           "Full launch: 40"
         ]
@@ -1015,10 +1067,10 @@
           57,
           58
         ],
-        "outcome": "Record backup/restore, staging load, monitoring and store review readiness. The iPhone deletion test and listing pushes are complete within their scope. Signed distribution and public beta access remain open.",
+        "outcome": "Record backup/restore, staging load, monitoring and store readiness. Approved listing text and screenshots reached both stores. Qualified signed distribution and current release acceptance remain open.",
         "species": [
           "Recovery: open",
-          "Store copy: pushed",
+          "Store media: uploaded",
           "Candidate: open"
         ]
       }
@@ -1026,13 +1078,13 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Committed and working inventory are 35 ranch banks and 35 reveals. Five species lack named banks. The original Nov 8 acceptance freeze was unmet.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Named inventory is 35 ranch/reveal sets committed and 36 working, with local Edaphosaurus. Four IDs lack working banks; five lack committed banks. The original Nov 8 freeze was unmet.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -1,
+    "daysToFreeze": -2,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1203,7 +1255,7 @@
             "name": "Edaphosaurus",
             "image": "/stompy-acres/roster/edaphosaurus.webp",
             "bank": "missing",
-            "detail": "Use ordinary grounded routes; sail and limb continuity still need animation work.",
+            "detail": "Owner-held local ranch and reveal sets match all 15 generated content files. Reports record 12 ranch and three reveal takes, flagging 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source qualification and integration remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1211,7 +1263,7 @@
             "name": "Nigersaurus",
             "image": "/stompy-acres/roster/nigersaurus.webp",
             "bank": "missing",
-            "detail": "Grounded bank routes; neck and muzzle identity need to survive the motion pass.",
+            "detail": "Source motion takes are being prepared by its owner; no recipe, report or named bank was found. Whole-package qualification remains open.",
             "productionStatus": "missing"
           },
           {
@@ -1219,7 +1271,7 @@
             "name": "Diplocaulus",
             "image": "/stompy-acres/roster/diplocaulus.webp",
             "bank": "missing",
-            "detail": "Low splayed contact and wetland access need a separate proof.",
+            "detail": "Owner-held source motion takes are in progress, with back-walk source still absent. No recipe, report or named bank was found. Low contact and wetland access need separate proof.",
             "productionStatus": "missing"
           },
           {
@@ -1400,14 +1452,15 @@
     "start": "2026-11-09",
     "end": "2026-11-15",
     "title": "Qualify the beta. Close release gates.",
-    "note": "New plan follows the recorded unmet Nov 8 freeze. The original Nov 9–15 beta window remains. Today’s source scope opens three islands and 24 species; signed/public distribution is still unrecorded at morning review. Daily targets are proposed work under task-specific authorization.",
+    "note": "Nov 10 review: Frozair paused public beta for the event reward loop. No qualified signed/public Nov 9 start is recorded. Preserve the original Nov 9–15 window and record actual testing days. Store screenshots reached both stores; the latest Sky Portal live-spots revision remains local proof. Daily targets grant no new execution authority.",
     "priorities": [
       {
         "id": "beta-candidate",
         "title": "Prove the actual beta candidate",
         "owner": "Native delivery owner · Frozair review",
-        "doneWhen": "Verify Android and physical iPhone, exact candidate/backend, three beta islands, restart, Book/Nursery, hatches and endurance. Record public access and actual testing dates.",
+        "doneWhen": "Complete the approved reward-loop revision and record Frozair’s beta release direction. Verify the exact signed Android and physical-iPhone candidates, three beta islands, restart, Book/Nursery, hatches and endurance; record actual public access and testing dates.",
         "refs": [
+          84,
           56,
           57,
           58
@@ -1445,16 +1498,16 @@
         "date": "2026-11-09",
         "label": "MON 9",
         "title": "Record scope and candidate status",
-        "focus": "Record the unmet freeze, new three-island beta scope, committed source sets, iPhone deletion proof and corrected listing pushes.",
-        "proof": "Keep store metadata distinct from a qualified build or public beta availability. Confirm the actual candidate and test start."
+        "focus": "Record the unmet freeze, new three-island beta scope, committed source sets, iPhone deletion proof and corrected listing pushes. Late Nov 9 owner receipts add approved screenshots uploaded to both stores and a paused beta while Sky Portal is revised.",
+        "proof": "Nov 10 review found no qualified signed/public Nov 9 start. Store uploads and the older flagged portal debug test do not establish that start."
       },
       {
         "id": "tue-10",
         "date": "2026-11-10",
         "label": "TUE 10",
         "title": "Qualify the beta loops",
-        "focus": "Close exact-candidate fresh/returning, hatch/work/collect/sell/travel and Book/Nursery cases on the three beta islands.",
-        "proof": "Both OSes, restart/offline/retry and current scope. Record omissions and real test dates."
+        "focus": "Reconcile the paused release and current event-reward revision with its owner. Preserve pending exact-candidate fresh/returning, hatch/work/collect/sell/travel and Book/Nursery targets.",
+        "proof": "Today’s owner checks remain scoped and separately authorized; no new alpha build from this plan. Record the actual beta start and omissions, without counting unobserved test days."
       },
       {
         "id": "wed-11",
@@ -1499,7 +1552,7 @@
     ],
     "parking": [
       "Optional Forest polish remains parked; approved owner-specific work is a scoped exception",
-      "New mechanics, extra islands and optional retakes; Dino Park #80 remains an idea",
+      "Unapproved mechanics and extra islands remain parked; #84 Sky Portal is a separately approved owner workflow on existing islands, and Dino Park #80 remains an idea",
       "In-app purchases are out of beta. Public launch revenue remains open."
     ],
     "checkpoint": {
