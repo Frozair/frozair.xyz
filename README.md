@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 10**, not an invented November
+remain distinct. Latest director audit is **November 11**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -86,8 +86,8 @@ are null and the page shows the checkpoint status instead of dividing by zero.
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
 are package cohorts, not file inventory. Committed named ranch/reveal inventory is **35/35** after the four
-sets in b802d30aa7. Working inventory is **36/36** with owner-held Edaphosaurus;
-five IDs lack committed banks and four lack working banks. Edaphosaurus has scoped
+sets in b802d30aa7. Working inventory is **38/38** with owner-held Edaphosaurus, Nigersaurus and Diplocaulus;
+five IDs lack committed banks and Sarcosuchus/Titanoboa lack working banks. Edaphosaurus has scoped
 built-bank/size/motion approval, with full source/reveal qualification still open. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
@@ -173,16 +173,21 @@ are not approved tuning or player forecasts. Earlier 5–6-week target/Brachio 2
 not newly verified outcomes; coherent profiles/current gameplay proof remain open.
 
 
-Sky Portal #84 is an approved owner-specific feature experiment on existing islands,
-separate from a future Sky island or the cosmetic shooting star. c2ebdd5ce6 replaces
-the saved-grid approach with temporary live-window spots and three picks without
-saving digs. The latest migration 20261109020000 has local owner proof and awaits
-scoped hosted/device authorization. Earlier a30f182662/5028b8e549 alpha/Pixel receipts
-apply to the superseded grid only. The older alpha receipt has enabled=true and
-testers_only=false for weather-API-4 clients; the new migration preserves flags.
-Verify intended tester gating before public exposure. A new alpha build remains on hold. Do not repeat
-old saved-nine-dig rules, promote the new revision from old proof, or generalize the
-owner's permissions to maintenance. The Frost Crystal sale quote finding remains open.
+Sky Portal #84 is an approved owner-specific experiment on existing islands,
+separate from a future Sky island or cosmetic shooting star. c2ebdd5ce6 replaces
+saved-grid digs with live-window spots and three picks without saving. Newer owner
+receipts record that migration 20261109020000 and initial nests 20261110010000,
+starter 20261110020000 and opening waits 20261110030000 reached hosted alpha on
+task-specific go-ahead. This closes the previous current-Portal local-only blocker.
+The initial nests trial is enabled/tester-gated; keep the Portal's flags separate.
+
+Scoped working-tree debug Moto/Pixel observations and owner-recorded 2,934 game
+checks cover the initial nest/starter/waiting flows. They do not qualify a signed
+store candidate, full islands/endurance/recovery or public beta resumption. The
+latest yard queue/default migrations 20261111010000/20261111020000 remain untracked
+owner source without a separate rollout receipt. The latter attributes Frozair's
+yard-version choice. Reconcile exact source/hosted/flag/device inputs with the owner;
+never generalize their permission to maintenance. The Frost Crystal quote remains open.
 
 Publication coordination: shared website main retains the unpublished EXIT owner
 commit 176a3b7 and local roadmap commit d50f71e. Publish only intended Stompy files

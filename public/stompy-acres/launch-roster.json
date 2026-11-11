@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -606,9 +606,9 @@
           "viewBox": "5.512 263.962 762.488 401.761",
           "recommended": true,
           "role": "Broad-muzzled long-neck",
-          "status": "First package · source takes in progress",
+          "status": "First package · local source in review",
           "rationale": "The broad muzzle and low long neck add a gentle herbivore.",
-          "note": "Owner-held motion takes are being prepared. No recipe, report or named installed bank was found at the Nov 10 review; whole-source qualification remains open.",
+          "note": "Owner-held local ranch/reveal banks match 14/14 generated content files. Recorded reports flag 965 ranch and 199 reveal frames. Frozair asked to build and judge afterward; current scale/stride values remain provisional. Complete source and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -632,9 +632,9 @@
           "viewBox": "11.636 309.282 752.077 340.517",
           "recommended": true,
           "role": "Boomerang head",
-          "status": "First package · source takes in progress",
+          "status": "First package · local source in review",
           "rationale": "A wide boomerang head adds a strange, immediately recognisable shape.",
-          "note": "Owner-held motion takes are in progress; back walk, recipe/report/bank and wetland contact qualification remain open.",
+          "note": "Owner-held local ranch/reveal banks match 15/15 generated content files. Recorded reports flag 726 ranch and 175 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source, wetland contact and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
