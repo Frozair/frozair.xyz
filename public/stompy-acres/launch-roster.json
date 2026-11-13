@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -693,9 +693,9 @@
           "viewBox": "6.124 331.943 761.876 270.699",
           "recommended": true,
           "role": "Long low crocodilian",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "Adds a recognisable crocodilian body.",
-          "note": "Long torso/tail turns and bank/water staging expand production scope.",
+          "note": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 620 ranch and 88 reveal frames. Nov 11 authorization was to build and judge afterward; current scale/stride and whole-source, wetland and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -723,9 +723,9 @@
           "viewBox": "25.722 189.856 742.278 444.632",
           "recommended": true,
           "role": "Coiled serpent",
-          "status": "Concept only",
+          "status": "First package · local source in review",
           "rationale": "The most unusual body plan in the Swamp set.",
-          "note": "Continuous coils, crossings and believable whole-body motion carry the highest new risk.",
+          "note": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment on Nov 12: it uncoils without returning to the coiled rest, happy begins stretched and locomotion strides are provisional. Joins, continuous-body motion and complete qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",

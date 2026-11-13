@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 11**, not an invented November
+remain distinct. Latest director audit is **November 13**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -86,8 +86,9 @@ are null and the page shows the checkpoint status instead of dividing by zero.
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
 are package cohorts, not file inventory. Committed named ranch/reveal inventory is **35/35** after the four
-sets in b802d30aa7. Working inventory is **38/38** with owner-held Edaphosaurus, Nigersaurus and Diplocaulus;
-five IDs lack committed banks and Sarcosuchus/Titanoboa lack working banks. Edaphosaurus has scoped
+sets in b802d30aa7. Working inventory is **40/40** with five owner-held Swamp sets;
+five IDs lack committed banks. New local Sarcosuchus/Titanoboa content matches
+11/11 files each, built for later judgment with finish/join findings still open. Edaphosaurus has scoped
 built-bank/size/motion approval, with full source/reveal qualification still open. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
@@ -168,26 +169,30 @@ The retained five-island persona model keeps retired intro/lifetime-find assumpt
 The new 32-seed/ten-day local-export results are diagnostic; Snowy numbers are coin/
 space affordability without Titan Scales, Bag/crafting or Snowy gameplay. Never present
 them as unlock times/player forecasts. Historical source108 proof cannot accept the
-current combined game. Current uncommitted simulator scales/egg-luck experiments
+current combined game. Current sim-only scales/egg-luck experiments
 are not approved tuning or player forecasts. Earlier 5–6-week target/Brachio 2B remain selected direction,
 not newly verified outcomes; coherent profiles/current gameplay proof remain open.
 
 
-Sky Portal #84 is an approved owner-specific experiment on existing islands,
-separate from a future Sky island or cosmetic shooting star. c2ebdd5ce6 replaces
-saved-grid digs with live-window spots and three picks without saving. Newer owner
-receipts record that migration 20261109020000 and initial nests 20261110010000,
-starter 20261110020000 and opening waits 20261110030000 reached hosted alpha on
-task-specific go-ahead. This closes the previous current-Portal local-only blocker.
-The initial nests trial is enabled/tester-gated; keep the Portal's flags separate.
+Sky Portal #84 and the hatchery now have committed source and owner-recorded
+alpha receipts. 11e0b3b263 records migrations 20261110010000 through
+20261111040000 applied; fdaec4f55f records the three Nov 12 intro/opening migrations
+applied too. Retire local-only queue/everyone/rolling claims. Nests are inside the
+hatchery, finished eggs roll into a ready basket and the Egg line advances while
+away. Only the very first opening egg stays seated for its lesson. Current dig odds
+are Gold 3%, Rainbow 4% then 1.5% after first dirt Rainbow, Meteor 1.5%; intro windows
+grant three spots once, concurrent daily windows win, and ticket/crafted events
+grant none. Old scheduled-only/only-Rainbow/5%/2.4% prose is superseded.
 
-Scoped working-tree debug Moto/Pixel observations and owner-recorded 2,934 game
-checks cover the initial nest/starter/waiting flows. They do not qualify a signed
-store candidate, full islands/endurance/recovery or public beta resumption. The
-latest yard queue/default migrations 20261111010000/20261111020000 remain untracked
-owner source without a separate rollout receipt. The latter attributes Frozair's
-yard-version choice. Reconcile exact source/hosted/flag/device inputs with the owner;
-never generalize their permission to maintenance. The Frost Crystal quote remains open.
+Source tag v0.1.8-alpha points to 68ebb74edb. The hatchery opening-guide fix
+ed0bf56ac4 follows it; no upload receipt proves that fix in a delivered candidate.
+Configured signing or a version bump is not distribution. The latest native ledger
+still covers the Nov 10 debug snapshot, with no new signed/public-beta or full
+candidate/recovery acceptance. Public beta remains paused. Subsequent skylight,
+loft/paged Nursery and dig presentation are owner working source; eight illustrated
+nest places do not establish eight active nests or an approved purchase cap. Current
+numeric trials/model diagnostics remain separate from complete pacing acceptance.
+The Frost Crystal quote remains open. No Nov 12 director audit is inferred.
 
 Publication coordination: shared website main retains the unpublished EXIT owner
 commit 176a3b7 and local roadmap commit d50f71e. Publish only intended Stompy files

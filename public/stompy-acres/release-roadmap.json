@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-11",
-  "nextReview": "2026-11-12",
+  "asOf": "2026-11-13",
+  "nextReview": "2026-11-14",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The live Sky Portal and nest loop now have owner-recorded alpha rollout and scoped Android checks. Public beta remains paused, with no qualified signed/public start recorded. Thirty complete source packages and final candidate/recovery gates remain open.",
+  "healthNote": "The hatchery loop is committed with owner-recorded alpha migrations. All 40 species have named working banks, but 30 full source packages still await qualification. The 0.1.8 tag does not establish delivery or inclusion of its later opening-guide fix. Public beta remains paused; signed-candidate and recovery gates stay open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze unmet · beta scope 3 islands / 24 species · full target 40",
   "releaseIslandCount": 5,
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All 40 source homes have pinned seed-last proof. The current beta client opens Forest, Giants and Snow for fresh progression, with Swamp and Fernlands coming soon. Existing owned islands remain sailable. The scoped iPhone 15 Apple deletion test is recorded; full beta candidate and all-five launch acceptance remain open. Build 771 distribution remains unverified; 706 is the last previously recorded distributed alpha. Frozair has paused public beta release for the event-reward revision; no qualified signed-public start was recorded at the Nov 10 review.",
+    "note": "All 40 source homes have pinned seed-last proof. Beta progression opens Forest, Giants and Snow (24 species), with Swamp/Fernlands coming soon and owned islands still sailable. Source tag v0.1.8-alpha is recorded, but no new upload/distribution receipt was found; the later ed0bf56ac4 guide fix needs exact-candidate inclusion proof. 706 remains the historical documented distributed alpha and 771 distribution unverified. Public beta remains paused; scoped iPhone deletion and older debug observations do not establish full release acceptance.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -120,7 +120,7 @@
         {
           "label": "Roster",
           "state": "partial",
-          "detail": "Carbonemys is committed. Edaphosaurus, Nigersaurus and Diplocaulus now have owner-held local ranch/reveal banks. The latter two were built for later judgment, with provisional scale/stride and finish findings open. Complete source counts remain two redos and six first packages pending qualification."
+          "detail": "Carbonemys is committed; Edaphosaurus, Nigersaurus, Diplocaulus, Sarcosuchus and Titanoboa now have local ranch/reveal banks. New Sarco/Titan sets were built for later judgment, with finish/join and provisional stride findings open. Complete source counts remain two redos and six first packages pending qualification."
         },
         {
           "label": "World",
@@ -325,8 +325,8 @@
         58
       ],
       "status": "Public beta paused by Frozair",
-      "why": "The owner ledger records the live-spots Portal and initial nest/starter/opening-waits migrations on alpha, with scoped debug Moto/Pixel observations. This supersedes the local-only Portal blocker. Newer yard queue/default source remains uncommitted and needs its own rollout and exact-candidate proof. Public beta remains paused.",
-      "doneWhen": "Reconcile the latest approved yard version, source/alpha inputs and current device proof with its owner. Record Frozair’s release direction, then qualify and distribute exact signed candidates under task-specific authorization, preserving actual test dates and original milestones."
+      "why": "The committed hatchery replaces the yard presentation, with rolling nests, a ready basket and Egg line. Owner commit receipts record queue/everyone/rolling and Nov 12 opening/intro-spot migrations on alpha. Source tag 0.1.8 precedes the ed0bf56ac4 guide fix; no upload receipt proves that fix in a delivered candidate. Public beta remains paused.",
+      "doneWhen": "Pin source/backend inputs, include the opening-guide fix, and qualify the exact signed candidate. Reconcile newer working hatchery/loft/event presentation separately from the tagged source. Record Frozair’s release direction and actual signed/public test span against the original dates."
     },
     {
       "id": "fern-slice",
@@ -432,7 +432,7 @@
         47
       ],
       "status": "Slower package approved · coupled pacing open",
-      "why": "The Nov 7 owner checklist records all source migrations since Sep 30 aligned with alpha after rising storage fees were applied. Current model limits, coherent profiles and ordinary/unlucky native pacing remain open.",
+      "why": "Owner receipts now cover committed hatchery/rolling, revised dig odds and Nov 12 opening/intro changes on alpha. Combined economy and normal/unlucky native pacing remain unqualified. Older scheduled-only/only-Rainbow prose is superseded; model results are bounded diagnostics.",
       "doneWhen": "Qualify current held/spent gates, hatch/Bag/finder/crafts/fees and approved quantities together, with coherent later profiles and ordinary/unlucky native play. Keep separate migration receipts; do not call all models retired-intro or all new migrations deployed. Four later finder choices remain with Frozair."
     },
     {
@@ -449,7 +449,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "Named creature inventory is 35/35 committed and 38/38 working, with local Edaphosaurus, Nigersaurus and Diplocaulus. Thirty full source contracts remain pending qualification. The narrower beta scope does not change the full forty-species launch roster.",
+      "why": "All forty species have named working ranch/reveal banks, 35 committed and five owner-held Swamp sets. Whole-source counts remain 10 integrated/11 redos/19 first pending. The narrower beta scope does not cut the full forty-species launch roster.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -531,13 +531,13 @@
       "title": "Pause beta for event rewards",
       "due": "2026-11-09",
       "state": "Frozair direction · owner work active",
-      "recommendation": "Frozair paused public beta until event rewards are fixed. The live Portal and initial nest loop now have separately authorized alpha and scoped Android receipts. The newer yard version remains owner working source. These checks do not establish a signed/store build or a public-beta resume decision."
+      "recommendation": "Public beta remains paused. The hatchery and revised introductory dig loop are committed with alpha rollout receipts. Source tag 0.1.8 and the later guide fix do not establish signed/public delivery or a resume decision."
     },
     {
-      "title": "Use the yard and nest version",
+      "title": "Use the hatchery and rolling nests",
       "due": "2026-11-11",
-      "state": "Owner-attributed direction · integration open",
-      "recommendation": "The current nest source attributes the yard-version choice to Frozair. Keep its latest queue/default changes distinct from the earlier tester-gated alpha trial. Preserve normal ownership, eggs and persistence; current source, hosted flags and signed-device acceptance must be reconciled by the owner."
+      "state": "Source committed · alpha receipt recorded",
+      "recommendation": "Frozair’s later source direction puts nests in the hatchery, finished eggs in a ready basket and waiting eggs in the Egg line. Queue/everyone/rolling migrations are recorded on alpha. This supersedes the earlier yard-only presentation; final numbers and exact-candidate acceptance remain scoped."
     },
     {
       "title": "Which phones do we promise?",
@@ -569,7 +569,7 @@
     {
       "title": "Original beta start is unestablished",
       "level": "Critical",
-      "action": "Public beta remains paused and no qualified signed/public start is recorded. Live Portal and initial nests have scoped alpha/Android proof; the latest queue/default source and full candidate are separate. Verify each feature’s intended gate, actual test span and Nov 16 readiness without silently moving dates.",
+      "action": "Public beta remains paused and no qualified signed/public start is recorded. The 0.1.8 tag alone proves no upload or later-guide-fix inclusion. Pin the candidate, current backend/flags and actual test span before assessing Nov 16 submissions; do not silently move dates.",
       "owner": "Frozair + release owners",
       "due": "2026-11-09"
     },
@@ -590,7 +590,7 @@
     {
       "title": "Unproven body types and wetland behavior",
       "level": "High",
-      "action": "Prove Mammoth weight, Titanoboa continuous motion and aquatic residents’ water access early. Validate 16 residents, duplicate mixes and service clearance; still concepts are insufficient.",
+      "action": "Sarcosuchus and Titanoboa now have local banks, built for later judgment. Titan’s stretched/coiled handoff and provisional stride remain open; qualify continuous-body motion, Mammoth weight, wetland access, duplicates and service clearance on current consumers and devices.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -674,6 +674,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-13",
+      "text": "Hatchery/rolling nests and revised opening/event rules are committed with owner-recorded alpha migrations. Source tag 0.1.8 precedes the opening-guide fix; delivery is unverified. Sarcosuchus/Titanoboa add local banks, completing working file coverage of forty without a full-package acceptance gain. No Nov 12 director audit is inferred."
+    },
     {
       "date": "2026-11-11",
       "text": "Owner receipts now record the live Sky Portal and initial nest loop on hosted alpha, with scoped Moto/Pixel debug checks. Newer yard queue/default changes remain owner working source. Public beta is still paused; no qualified signed/public start or full release gate closed. Nigersaurus and Diplocaulus add local banks, bringing working inventory to 38/38 without whole-package acceptance gains."
@@ -796,6 +800,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Committed hatchery and alpha migration receipts · Nov 13",
+      "detail": "HEAD ed0bf56ac4. 11e0b3b263 records migrations 20261110010000 through 20261111040000 applied to alpha; fdaec4f55f records 20261112010000/020000/030000 applied. Queue/everyone/rolling rules are no longer local-only. Nests are enabled without tester-only gating in the recorded source/rollout scope. These are owner commit receipts, without a maintenance hosted query."
+    },
+    {
+      "label": "0.1.8 source tag and later guide fix · Nov 12",
+      "detail": "68ebb74edb bumps project/export version names and is tagged v0.1.8-alpha. Preset signing and build numbers do not prove upload or delivery. ed0bf56ac4 later fixes hatchery eggs missing from opening-guide herd counts and hatchery prompts, without price/timer/reward/server changes. No recorded upload establishes inclusion of that later fix. Do not call the source-fixed issue a proven current live defect."
+    },
+    {
+      "label": "Current hatchery and dig rules · Nov 13 source review",
+      "detail": "Finished eggs roll into the ready basket and free nests for the Egg line, including while away. Only the very first opening egg stays seated for its lesson; opening eggs keep their path timer and have no nest sky turn. Current attributed dig odds are Gold 3%, Rainbow 4% until first dirt Rainbow then 1.5%, Meteor 1.5%. Intro events grant three spots once; concurrent daily windows win and ticket/crafted windows grant none. Earlier 5%/2.4%/only-Rainbow and scheduled-only prose is superseded. Numeric trials and model studies remain separate from complete pacing/native acceptance."
+    },
+    {
+      "label": "Working creature file coverage · Nov 13",
+      "detail": "Committed ranch/reveal inventory remains 35/35; working reaches 40/40 with local Sarcosuchus and Titanoboa. Each matches 11/11 generated bank/PNG files. Recorded ranch/reveal finish flags are Sarco 620/88 and Titan 966/181. Both were built for later judgment, with provisional scale/stride and Titan’s stretched/coiled handoff unresolved. No whole-source disposition or checklist gain was found; cohorts stay 10/11/19."
+    },
+    {
+      "label": "Candidate and ongoing work boundaries · Nov 13",
+      "detail": "The newest native ledger still ends Nov 10 with scoped debug Moto/Pixel checks. No later signed/public-beta start, full physical-iOS loop, endurance or recovery/load receipt was found. Current skylight, loft/paged Nursery, digging presentation and other UI work remain owner-held changes beyond HEAD. Eight illustrated nest places are not eight active nests or an approved purchase cap. Simulator experiments are not product tuning; Frost Crystal quote finding remains open."
+    },
     {
       "label": "Live Portal and nests alpha receipts · Nov 11 review",
       "detail": "The Nov 10 owner ledger records Frozair’s task-specific go-ahead and application of 20261109020000 (live Portal), 20261110010000 (initial nests), 20261110020000 (starter) and 20261110030000 (opening waits) to hosted alpha. This supersedes the earlier current-Portal local-only statement. The nest trial is recorded enabled and tester-gated; keep Portal flag scope separate. Maintenance made no hosted query or change."
@@ -1045,19 +1069,19 @@
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Recover the paused beta",
-        "when": "Beta paused · current candidate proof open",
+        "title": "Qualify the hatchery build",
+        "when": "Source tagged · delivery unverified",
         "owner": "Event/native owners · Frozair release decision",
         "refs": [
           84,
           56,
           57
         ],
-        "outcome": "Reconcile the latest approved yard version with the event/native owners. Live Portal and initial nests have alpha and scoped Android receipts; newer queue/default changes remain separate. Resume delivery only under Frozair’s direction, then qualify the exact signed Android and physical-iPhone candidate and record actual beta dates.",
+        "outcome": "Pin the exact candidate and verify the post-tag opening-guide fix is included. Prove the hatchery opening, queue/basket, hatches and island loops on signed Android and physical iPhone. Keep public beta paused until Frozair resumes delivery, and record actual testing dates.",
         "species": [
-          "Beta release: paused",
-          "Portal + nests: alpha proof",
-          "Signed candidate: open"
+          "0.1.8: source tag only",
+          "Guide fix: candidate check",
+          "Public beta: paused"
         ]
       },
       {
@@ -1073,9 +1097,9 @@
           23,
           75
         ],
-        "outcome": "Qualify committed sets and the owner-held Edaphosaurus, Nigersaurus and Diplocaulus banks. Thirty complete source packages remain pending. Keep Sarcosuchus/Titanoboa, Brachio R8 and final world checks visible.",
+        "outcome": "All forty species now have named working banks. Qualify committed sets and the five owner-held Swamp sets, including the new Sarcosuchus/Titanoboa candidates. Thirty complete source packages, Brachio R8 matching and final world checks remain open.",
         "species": [
-          "35 committed / 38 working",
+          "35 committed / 40 working",
           "30 packages pending",
           "Full launch: 40"
         ]
@@ -1104,13 +1128,13 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. Named inventory is 35 ranch/reveal sets committed and 38 working, including owner-held Edaphosaurus, Nigersaurus and Diplocaulus. Sarcosuchus and Titanoboa lack working banks; five IDs lack committed banks. The original Nov 8 freeze was unmet.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. All forty have named working ranch/reveal banks; 35 are committed. Edaphosaurus, Nigersaurus, Diplocaulus, Sarcosuchus and Titanoboa are owner-held working sets. File coverage does not close source or final acceptance. The original Nov 8 freeze was unmet.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -3,
+    "daysToFreeze": -5,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1313,7 +1337,7 @@
             "name": "Sarcosuchus",
             "image": "/stompy-acres/roster/sarcosuchus.webp",
             "bank": "missing",
-            "detail": "Long torso/tail turns and bank/water staging expand production scope.",
+            "detail": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 620 ranch and 88 reveal frames. Nov 11 authorization was to build and judge afterward; current scale/stride and whole-source, wetland and native qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1321,7 +1345,7 @@
             "name": "Titanoboa",
             "image": "/stompy-acres/roster/titanoboa.webp",
             "bank": "missing",
-            "detail": "Continuous coils, crossings and believable whole-body motion carry the highest new risk.",
+            "detail": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment on Nov 12: it uncoils without returning to the coiled rest, happy begins stretched and locomotion strides are provisional. Joins, continuous-body motion and complete qualification remain open.",
             "productionStatus": "missing"
           }
         ]
@@ -1478,7 +1502,7 @@
     "start": "2026-11-09",
     "end": "2026-11-15",
     "title": "Qualify the beta. Close release gates.",
-    "note": "Nov 11 review: public beta remains paused and its original Nov 9 start is unestablished. The live Portal and initial nest loop now have owner-recorded alpha and scoped Android proof. Newer yard queue/default changes remain separate. Preserve the original Nov 9–15 window and actual testing days; this plan grants no execution authority.",
+    "note": "Nov 13 review: hatchery/rolling nests and revised introductory dig rules are committed with owner alpha receipts. The 0.1.8 tag precedes the opening-guide fix; no upload or public-beta start is established. All forty have working banks, with thirty whole contracts pending. Keep the original Nov 9–15 plan and actual test span; no Nov 12 director audit is inferred.",
     "priorities": [
       {
         "id": "beta-candidate",
@@ -1548,7 +1572,7 @@
         "date": "2026-11-12",
         "label": "THU 12",
         "title": "Prove recovery and operations",
-        "focus": "Complete separately authorized backup, isolated restore, staging/load and monitoring receipts.",
+        "focus": "Complete separately authorized backup, isolated restore, staging/load and monitoring receipts. Actual Nov 12 source outcomes, reviewed Nov 13: hatchery/opening/intro-spot commits and the 0.1.8 source tag. No restore/load completion receipt was found.",
         "proof": "Named owners and dated save/recovery results, preserving ordinary player data and the fresh-start policy."
       },
       {
@@ -1556,8 +1580,8 @@
         "date": "2026-11-13",
         "label": "FRI 13",
         "title": "Check public review readiness",
-        "focus": "Review public beta access, screenshots when approved, store declarations and remaining legal/privacy requirements.",
-        "proof": "Exact review status and uploaded assets. Listing text alone does not establish app approval."
+        "focus": "Pin exact candidate inclusion of the opening-guide fix and review current signed/public delivery status, store declarations and legal/privacy requirements. Today’s readiness target remains pending at this review.",
+        "proof": "Record actual upload/review/test dates; a source tag, configured signing or uploaded screenshots do not establish candidate delivery. Preserve the original Nov 15/16 gates."
       },
       {
         "id": "sat-14",
