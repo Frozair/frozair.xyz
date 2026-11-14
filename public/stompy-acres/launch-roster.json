@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -231,7 +231,7 @@
           "role": "Compact long-neck",
           "status": "Approved look integrated",
           "rationale": "A low long neck and tail club finish Forest with a different body plan.",
-          "note": "Approved selected look is integrated through ranch and dedicated reveal assets. Final motion, voice, habitat and native acceptance remain separate.",
+          "note": "The committed selected baseline remains integrated. A separate owner-held idle/happy/dig and reveal/shop refresh has recorded idle/happy finish passes and zero reveal finish failures, with full ranch findings still open. No fresh generated-output match or final hatch/phone acceptance is claimed; public stills and package counts remain unchanged.",
           "habitat": {
             "rating": "conditional",
             "confidence": "low",

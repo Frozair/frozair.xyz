@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 13**, not an invented November
+remain distinct. Latest director audit is **November 14**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -157,21 +157,27 @@ coming-soon filter drops the client Frost Crystal reserve while SQL still retain
 so the optimistic Bag quote can differ before the authoritative reply. Resolve
 that scoped path with the gameplay owner. Keep their separate rollout scopes distinct.
 The Nov 7 owner checklist records source migrations since Sep 30 aligned on alpha,
-including the intro, Finder, crafts and storage fees. Current native pacing remains open;
+including the intro, Finder, crafts and storage fees. The new selected later-island ladder has a Nov 14 owner alpha receipt in
+untracked 20261114010000: Snowy 270M, Giants late plots 200M/500M and later
+plots 3–6 ×20 supersede the earlier current values. Client work is uncommitted and in
+no released build. Assisted Moto Giants/Snow hatch/place checks do not accept normal
+pacing or full loops. Keep alpha access to Forest/Giants/Snow; Swamp/Fern stay held.
+Current native pacing remains open;
 Aquilops local SQL/game/end-to-end proof and four unchosen later finders retain their
 limits. Do not reopen approved slower-package/Aquilops/hatch choices. Visit-card
 7b3f574a43 advertises an unlocked-island Legendary/Mythic and sails to its shop;
 source tests/capture code are not native acceptance, and server push remains unbuilt.
 
-Model scopes differ: current Forest/Giants sanctuary simulator includes daily windows,
-weather marks, Gold Rush intro, pity and visits but omits finder/crafting/later islands.
-The retained five-island persona model keeps retired intro/lifetime-find assumptions.
-The new 32-seed/ten-day local-export results are diagnostic; Snowy numbers are coin/
-space affordability without Titan Scales, Bag/crafting or Snowy gameplay. Never present
-them as unlock times/player forecasts. Historical source108 proof cannot accept the
-current combined game. Current sim-only scales/egg-luck experiments
-are not approved tuning or player forecasts. Earlier 5–6-week target/Brachio 2B remain selected direction,
-not newly verified outcomes; coherent profiles/current gameplay proof remain open.
+Model scopes differ: the default sanctuary mode covers Forest/Giants. Current
+opt-in all-island and recorded-visit modes also play later progression and held
+gates, but omit crafting, Egg Bag and dino levels. They remain diagnostics, not
+player forecasts. The retained five-island persona model and older 32-seed/ten-day
+capsule are historical; the latter's Snowy result was coin/space affordability
+without its full gate/gameplay. Do not apply those times to the new ladder.
+Historical source108 cannot accept the current combined game. Sim-only egg-luck
+and spawning experiments are not approved product tuning. The 5–6-week direction
+and Brachio 2B choice are not newly verified pacing outcomes; coherent profiles and
+ordinary/unlucky current play remain open.
 
 
 Sky Portal #84 and the hatchery now have committed source and owner-recorded
@@ -193,6 +199,23 @@ loft/paged Nursery and dig presentation are owner working source; eight illustra
 nest places do not establish eight active nests or an approved purchase cap. Current
 numeric trials/model diagnostics remain separate from complete pacing acceptance.
 The Frost Crystal quote remains open. No Nov 12 director audit is inferred.
+
+
+Nov 14 reconciliation adds newer owner evidence: 72510bf7 records alpha sync
+optimizations and database samples 320→58 ms / 125→18 ms, without changed payloads.
+This does not establish FPS/network improvement or release load acceptance. The
+assisted Moto receipt also leaves Boat trips' Unlock & sail below the chart; the
+horizon-name route works. Fix/recheck the current candidate, without blaming the
+new ladder. f3200e27 commits fresh-Moto guide fixes and c12441cf moves the gift
+Gold Rush ticket to first expanded Forest full 4/4, with its migration on alpha.
+Older second-expansion ticket timing is superseded; one intro Gold remains.
+
+The timed-spots/common-sky trial is owner-recorded on alpha for two debug accounts;
+ordinary testers keep picks. Pixel feedback prompted new presentation/haptic work,
+not full public-beta or iPhone acceptance. The Shunosaurus refresh is a separate
+owner-held Forest exception, not broad unparked polish; no public still replacement
+or source-package gain follows. Stance-pinned regression changes require current
+qualification and are not new foot-contact/native acceptance.
 
 Publication coordination: shared website main retains the unpublished EXIT owner
 commit 176a3b7 and local roadmap commit d50f71e. Publish only intended Stompy files

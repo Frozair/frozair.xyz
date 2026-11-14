@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-13",
-  "nextReview": "2026-11-14",
+  "asOf": "2026-11-14",
+  "nextReview": "2026-11-15",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The hatchery loop is committed with owner-recorded alpha migrations. All 40 species have named working banks, but 30 full source packages still await qualification. The 0.1.8 tag does not establish delivery or inclusion of its later opening-guide fix. Public beta remains paused; signed-candidate and recovery gates stay open.",
+  "healthNote": "Assisted Moto Giants/Snow hatch-and-place checks and bounded alpha sync measurements advanced. The Boat trips unlock action remains offscreen in the recorded Moto flow. The approved later-island ladder is recorded on alpha but uncommitted and in no released client build. Public beta and full candidate/recovery acceptance remain open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze unmet · beta scope 3 islands / 24 species · full target 40",
   "releaseIslandCount": 5,
@@ -330,7 +330,7 @@
     },
     {
       "id": "fern-slice",
-      "lane": "now",
+      "lane": "next",
       "title": "Prove Fernlands on phones",
       "owner": "Codex integration · Frozair art",
       "due": "2026-10-25",
@@ -339,9 +339,9 @@
         57,
         29
       ],
-      "status": "Oct 25 + Nov 1 checkpoints unmet",
-      "why": "The Nov 1 deadline passed without complete all-five/native/data receipts. Scoped Moto environment observations are newer progress, but the Oct 26 assisted Fernlands loop remains incomplete and physical iOS/full loops are unproven.",
-      "doneWhen": "Recover exact-candidate five-island hatch/work/collect/sell/expand/travel/Book and kill-relaunch proof, including omitted Fernlands actions and physical iOS. Preserve original missed dates; new builds require task-specific authorization."
+      "status": "Full-launch proof open · alpha access held",
+      "why": "Original Oct 25/Nov 1 full-launch proof remains unmet. Frozair currently holds alpha access to Forest, Giants and Snow; do not open Swamp/Fernlands from maintenance. New assisted Moto Giants/Snow hatch/place observations do not close full persistent loops or physical iOS.",
+      "doneWhen": "Recover full-five evidence for the retained launch scope under later task-specific direction. Immediate qualification stays within the three accessible alpha islands; preserve the original missed dates and held-island access rule."
     },
     {
       "id": "production-pace",
@@ -422,7 +422,7 @@
     {
       "id": "economy",
       "lane": "now",
-      "title": "Resolve later-island profile choices",
+      "title": "Qualify the approved island ladder",
       "owner": "Frozair decisions · Codex models",
       "due": "2026-11-01",
       "refs": [
@@ -431,9 +431,9 @@
         20,
         47
       ],
-      "status": "Slower package approved · coupled pacing open",
-      "why": "Owner receipts now cover committed hatchery/rolling, revised dig odds and Nov 12 opening/intro changes on alpha. Combined economy and normal/unlucky native pacing remain unqualified. Older scheduled-only/only-Rainbow prose is superseded; model results are bounded diagnostics.",
-      "doneWhen": "Qualify current held/spent gates, hatch/Bag/finder/crafts/fees and approved quantities together, with coherent later profiles and ordinary/unlucky native play. Keep separate migration receipts; do not call all models retired-intro or all new migrations deployed. Four later finder choices remain with Frozair."
+      "status": "New ladder selected · alpha receipt recorded",
+      "why": "The owner selected Forest-shaped later earnings and later plots 3–6 ×20, delegated band choices and authorized alpha deployment. The untracked 20261114010000 receipt records Snowy unlock 270M and Giants plots 5/6 at 200M/500M. Client changes are uncommitted and in no released build; ordinary/unlucky combined pacing remains open.",
+      "doneWhen": "Qualify the selected bands with held/spent gates, hatchery, Bag, fees and ordinary/unlucky play on the current candidate. Preserve current three-island alpha access and separate later data/model work. Do not re-ask settled package choices or promote model diagnostics to player forecasts."
     },
     {
       "id": "cast-worlds",
@@ -466,7 +466,7 @@
         31
       ],
       "status": "Evidence needed",
-      "why": "Older debug captures cannot certify the final release build.",
+      "why": "New assisted Android observations and alpha database improvements are scoped progress. Exact signed-candidate source, full loops, endurance, physical iOS, isolated restore and load proof remain open.",
       "doneWhen": "Close overdue initial device/ops evidence; isolated hosted restore and staging load remain Nov 1. Final candidate recovery/endurance regression stays Nov 15."
     },
     {
@@ -504,10 +504,10 @@
       "state": "Approved"
     },
     {
-      "title": "Approve later-island profile choices",
+      "title": "Qualify the selected later-island ladder",
       "due": "2026-10-25",
-      "recommendation": "The slower-islands, Shiny quantities, crafts and storage fee choices remain approved. The Nov 7 owner checklist records source migration alignment on alpha. Current combined pacing and coherent later profiles remain open, including four unchosen Finder species.",
-      "state": "Decision needed"
+      "recommendation": "Frozair selected the Forest earnings shape and later plot changes, then authorized the recorded alpha deployment. New Snowy/late-Giants prices supersede the earlier 90M/40M/100M values. Exact candidate/coherent profile and pacing acceptance remain open; four later Finder choices are still separate.",
+      "state": "Package selected · qualification open"
     },
     {
       "title": "Paid launch or free launch?",
@@ -574,6 +574,13 @@
       "due": "2026-11-09"
     },
     {
+      "title": "Boat unlock action is offscreen on Moto",
+      "level": "High",
+      "action": "The owner’s assisted debug receipt finds Boat trips’ Unlock & sail button below the chart when all three requirements are Done. The horizon-name unlock card works, but the Boat route stays open. Fix and recheck the exact candidate; do not attribute this older layout issue to the new ladder.",
+      "owner": "Gameplay/native owner",
+      "due": "2026-11-15"
+    },
+    {
       "title": "Beta sale quote disagrees with retained stock",
       "level": "High",
       "action": "Source inspection found that coming-soon Swamp removes the client’s Frost Crystal reserve while the server still retains the locked-gate stack. The optimistic Bag quote and sale display can differ from the authoritative reply. Resolve and verify this path on the beta candidate.",
@@ -604,7 +611,7 @@
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "Approved slower-island/Shiny/fee/craft packages changed the combined economy. The current Forest/Giants sanctuary model has current intro/pity/visits but omits finder/crafting/later islands; the retained five-island persona model is stale. Snowy numbers are coin/space affordability only. Qualify combined gameplay and profiles before forecasts.",
+      "action": "The approved new ladder and hatchery/event trials change the combined economy. The current model has opt-in all-island/recorded-visit modes but omits crafting, Egg Bag and dino levels; old price-based capsules remain historical. Qualify ordinary/unlucky current play before forecasts.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -674,6 +681,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-14",
+      "text": "Owner receipts record the selected later-island ladder on alpha, assisted Moto Giants/Snow buying/hatching/placement, and debug-only timer spots/common skies on Pixel. Alpha database sync samples improved after committed optimizations. A Boat unlock action remains offscreen. Public beta, full candidate and package counts remain unaccepted."
+    },
     {
       "date": "2026-11-13",
       "text": "Hatchery/rolling nests and revised opening/event rules are committed with owner-recorded alpha migrations. Source tag 0.1.8 precedes the opening-guide fix; delivery is unverified. Sarcosuchus/Titanoboa add local banks, completing working file coverage of forty without a full-package acceptance gain. No Nov 12 director audit is inferred."
@@ -800,6 +811,34 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Selected ladder and controlled Moto proof · Nov 14 review",
+      "detail": "The #56 receipt at Nov 14 01:52Z records Frozair’s source/deployment go-ahead and 20261114010000 applied to alpha. Snowy unlock is 270M; Giants plots 5/6 are 200M/500M; later plots 3–6 are ×20. Source/client work remains uncommitted and in no released build. Assisted debug funding/items supported Giants/Snow shops, buying, hatch and placement checks; Swamp/Fernlands stayed Coming soon. This is not normal progression or full persistence qualification."
+    },
+    {
+      "label": "Boat trips layout finding · owner Moto receipt",
+      "detail": "The same controlled receipt marks Unlock & sail below the Boat chart when requirements are Done; the horizon-name unlock card works. The layout issue predates the new ladder. Large-balance HUD was seen, but shop price-label changes were not rechecked. Exact-candidate correction/acceptance remains open; raw captures were not independently reviewed here."
+    },
+    {
+      "label": "Alpha database sync measurements · Nov 13",
+      "detail": "72510bf7 records both sync-cap/helper migrations applied to alpha. Two samples changed whole database sync from 320 to 58 ms and 125 to 18 ms, with payload comparisons in rollback transactions. This is owner-recorded database work reduction, not sixfold FPS/network improvement or release staging/load acceptance. Maintenance ran no query or test."
+    },
+    {
+      "label": "Fresh opening fixes and earlier gift ticket · Nov 13",
+      "detail": "f3200e27 records five problems found during fresh Moto play and source fixes for Nursery placement, guide targets, reveal-choice order and Welcome back timing. c12441cf records 20261114020000 deployed: the introductory Gold Rush ticket is earned when the first expanded Forest island first fills 4/4, replacing the second-expansion reward. The one intro Gold remains. Fresh Moto play is recorded; first-Gold swap/Keep presentation still awaits owner acceptance. No signed-upload receipt proves delivery of these fixes."
+    },
+    {
+      "label": "Timer spots/common skies trial · Nov 14",
+      "detail": "#84 records visit analytics deployed at 06:06Z, then timer-spots/common-sky migrations around 06:28Z on explicit debug-only approval. Ordinary testers keep picks mode; the timed/common-sky trial reaches two debug accounts. Pixel checks observed eggs and Treasure, then prompted spread, visibility, number and haptic fixes. Later presentation remains owner work; iPhone haptics and full trial acceptance remain open. These are not global odds changes or public-beta delivery."
+    },
+    {
+      "label": "Owner-held Shunosaurus and stance work · Nov 14",
+      "detail": "Inventory remains 35/35 committed and 40/40 working; cohorts stay 10/11/19. Shuno’s local revision references 17 changed content files. New idle/happy finish passes and zero reveal finish failures are recorded, but the full ranch report flags 470 frames. Generated folders were cleaned, so no fresh output comparison is claimed. Happy is one-shot; its loop-seam warning does not prove the real idle handoff failed. Working stance checks pin 22 directional views and use stance drift for those clips, a changed regression criterion rather than new native contact acceptance."
+    },
+    {
+      "label": "Access and delivery boundaries · Nov 14",
+      "detail": "Latest owner steering keeps alpha within Forest/Giants/Snow, with no further island opened now. No explicit full-launch roster/date change was found; keep the locked forty and Dec 1. No new 0.1.8 upload/public beta resume, full physical-iOS loop, endurance, restore/load or monitoring closure was found. Frost Crystal optimistic quote mismatch remains open in HEAD and working source; it was already notified."
+    },
     {
       "label": "Committed hatchery and alpha migration receipts · Nov 13",
       "detail": "HEAD ed0bf56ac4. 11e0b3b263 records migrations 20261110010000 through 20261111040000 applied to alpha; fdaec4f55f records 20261112010000/020000/030000 applied. Queue/everyone/rolling rules are no longer local-only. Nests are enabled without tester-only gating in the recorded source/rollout scope. These are owner commit receipts, without a maintenance hosted query."
@@ -1070,18 +1109,18 @@
         "step": 1,
         "kind": "engine",
         "title": "Qualify the hatchery build",
-        "when": "Source tagged · delivery unverified",
+        "when": "Assisted Moto proof · boat action open",
         "owner": "Event/native owners · Frozair release decision",
         "refs": [
           84,
           56,
           57
         ],
-        "outcome": "Pin the exact candidate and verify the post-tag opening-guide fix is included. Prove the hatchery opening, queue/basket, hatches and island loops on signed Android and physical iPhone. Keep public beta paused until Frozair resumes delivery, and record actual testing dates.",
+        "outcome": "Pin the exact candidate and include the later guide fixes. Recheck the Boat trips unlock action, then prove current Forest/Giants/Snow hatchery, travel and persistence loops on signed Android and physical iPhone. Assisted debug checks are partial proof; public-beta resumption and actual testing dates remain open.",
         "species": [
-          "0.1.8: source tag only",
-          "Guide fix: candidate check",
-          "Public beta: paused"
+          "Giants/Snow: assisted proof",
+          "Boat unlock: open",
+          "Signed candidate: open"
         ]
       },
       {
@@ -1117,7 +1156,7 @@
           57,
           58
         ],
-        "outcome": "Record backup/restore, staging load, monitoring and store readiness. Approved listing text and screenshots reached both stores. Qualified signed distribution and current release acceptance remain open.",
+        "outcome": "Record backup/restore, staging load, monitoring and public store readiness. The new alpha sync measurements are bounded database evidence and do not close load, recovery or signed-distribution gates.",
         "species": [
           "Recovery: open",
           "Store media: uploaded",
@@ -1134,7 +1173,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -5,
+    "daysToFreeze": -6,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1203,7 +1242,7 @@
             "name": "Shunosaurus",
             "image": "/stompy-acres/roster/shunosaurus.webp",
             "bank": "available",
-            "detail": "Approved look integrated through committed ranch/reveal routes. Final clip polish, voice, habitat and native acceptance are separate. Later Forest motion/view/color/nap refinements are committed; active local edits remain with their owners.",
+            "detail": "The committed selected baseline remains integrated. A separate owner-held idle/happy/dig and reveal/shop refresh has recorded idle/happy finish passes and zero reveal finish failures, with full ranch findings still open. No fresh generated-output match or final hatch/phone acceptance is claimed; public stills and package counts remain unchanged.",
             "productionStatus": "integrated"
           }
         ]
@@ -1502,7 +1541,7 @@
     "start": "2026-11-09",
     "end": "2026-11-15",
     "title": "Qualify the beta. Close release gates.",
-    "note": "Nov 13 review: hatchery/rolling nests and revised introductory dig rules are committed with owner alpha receipts. The 0.1.8 tag precedes the opening-guide fix; no upload or public-beta start is established. All forty have working banks, with thirty whole contracts pending. Keep the original Nov 9–15 plan and actual test span; no Nov 12 director audit is inferred.",
+    "note": "Nov 14 review: assisted Giants/Snow Moto hatch/place checks, new ladder alpha receipts and bounded sync improvements advanced. Boat trips’ unlock action remains offscreen in the recorded flow. Public beta has no qualified start or seven-day span established. Preserve this original Nov 9–15 plan through tomorrow; current Saturday candidate targets remain pending.",
     "priorities": [
       {
         "id": "beta-candidate",
@@ -1580,7 +1619,7 @@
         "date": "2026-11-13",
         "label": "FRI 13",
         "title": "Check public review readiness",
-        "focus": "Pin exact candidate inclusion of the opening-guide fix and review current signed/public delivery status, store declarations and legal/privacy requirements. Today’s readiness target remains pending at this review.",
+        "focus": "Pin exact candidate inclusion of the opening-guide fix and review current signed/public delivery status, store declarations and legal/privacy requirements. Today’s readiness target remains pending at this review. Actual Nov 13 owner receipts add assisted Moto Giants/Snow checks, guide fixes and selected ladder deployment. The public-readiness target has no full completion receipt.",
         "proof": "Record actual upload/review/test dates; a source tag, configured signing or uploaded screenshots do not establish candidate delivery. Preserve the original Nov 15/16 gates."
       },
       {
@@ -1588,8 +1627,8 @@
         "date": "2026-11-14",
         "label": "SAT 14",
         "title": "Close candidate regressions",
-        "focus": "Review endurance, retry/recovery and source fixes against the signed candidate.",
-        "proof": "Measure actual test span and both OSes. Keep unproven launch content and operations gates explicit."
+        "focus": "Recheck the offscreen Boat unlock action and current opening/guide/candidate regressions. Qualify actual endurance and retry/recovery under separate task authorization; today’s target is not inferred complete from assisted hatch checks.",
+        "proof": "Exact candidate and both OSes, with actual distribution/testing dates. Debug funding, database timing samples and source test totals do not establish full beta or restore/load acceptance."
       },
       {
         "id": "sun-15",
