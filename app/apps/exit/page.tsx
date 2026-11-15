@@ -20,7 +20,7 @@ export default function ExitPage() {
       <li>Replay collected shapes, improve your moves remaining, and choose sound or reduced-motion settings.</li>
     </ul>
     <p>EXIT is being tested for iPhone, Android and the web. Public downloads are not available yet. Mobile versions include optional rewarded hints and a one-time purchase that removes all ads and unlocks unlimited hints when available; the web game has no mobile ads or purchases.</p>
-    <p>When advertising is available, mobile versions can show banners and occasional full-screen ads between completed boards. Undo, Restart and Try again do not trigger ads.</p>
+    <p>Advertising is disabled in the initial release candidate. When advertising is available, mobile versions can show banners and occasional full-screen ads between completed boards. Undo, Restart and Try again do not trigger ads.</p>
     <p>Already testing? <Link href="/apps/exit/support">Get help with EXIT</Link> or read the <Link href="/apps/exit/privacy">privacy policy</Link>.</p>
   </>;
 }
