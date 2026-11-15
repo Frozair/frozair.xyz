@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-14",
-  "nextReview": "2026-11-15",
+  "asOf": "2026-11-15",
+  "nextReview": "2026-11-16",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Assisted Moto Giants/Snow hatch-and-place checks and bounded alpha sync measurements advanced. The Boat trips unlock action remains offscreen in the recorded Moto flow. The approved later-island ladder is recorded on alpha but uncommitted and in no released client build. Public beta and full candidate/recovery acceptance remain open.",
+  "healthNote": "Opening-guide and wood hatchery/reveal/Nursery source advanced, with an owner-recorded alpha hatch-skip rollout. A newer iPhone debug install is recorded but was not launched. The original beta week ends today without a qualified public start or seven-day span established; candidate, Boat unlock and recovery gates remain open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze unmet · beta scope 3 islands / 24 species · full target 40",
   "releaseIslandCount": 5,
@@ -325,8 +325,8 @@
         58
       ],
       "status": "Public beta paused by Frozair",
-      "why": "The committed hatchery replaces the yard presentation, with rolling nests, a ready basket and Egg line. Owner commit receipts record queue/everyone/rolling and Nov 12 opening/intro-spot migrations on alpha. Source tag 0.1.8 precedes the ed0bf56ac4 guide fix; no upload receipt proves that fix in a delivered candidate. Public beta remains paused.",
-      "doneWhen": "Pin source/backend inputs, include the opening-guide fix, and qualify the exact signed candidate. Reconcile newer working hatchery/loft/event presentation separately from the tagged source. Record Frozair’s release direction and actual signed/public test span against the original dates."
+      "why": "1003c063 commits the opening guide and hatch skipping; its migration is recorded on alpha. e52d69b192 commits wood hatchery, reveal/haul, Egg line, Nursery and egg presentation. The latest iPhone debug build was installed but not launched. No qualified signed/public candidate or beta-resume direction is recorded; the prospective alpha release still needs its owner go-ahead.",
+      "doneWhen": "Pin source/backend inputs including the latest guide and UI changes, then qualify the exact signed candidate. Keep working common-sky effects and debug-only trials separate. Record Frozair’s release direction and actual public test span against the original dates. Qualify the reported intro-retry/daily-start interaction and its player guidance without automatically retuning the allowance."
     },
     {
       "id": "fern-slice",
@@ -432,7 +432,7 @@
         47
       ],
       "status": "New ladder selected · alpha receipt recorded",
-      "why": "The owner selected Forest-shaped later earnings and later plots 3–6 ×20, delegated band choices and authorized alpha deployment. The untracked 20261114010000 receipt records Snowy unlock 270M and Giants plots 5/6 at 200M/500M. Client changes are uncommitted and in no released build; ordinary/unlucky combined pacing remains open.",
+      "why": "The owner selected Forest-shaped later earnings and later plots 3–6 ×20, delegated band choices and authorized alpha deployment. The untracked 20261114010000 receipt records Snowy unlock 270M and Giants plots 5/6 at 200M/500M. Client changes are uncommitted and in no released build; ordinary/unlucky combined pacing remains open. The committed opening now starts new players with 15 free Amber and offers hatch skips, with a Nov 14 alpha migration receipt. Existing profiles retain zero starting Amber; no in-app purchase delivery is inferred.",
       "doneWhen": "Qualify the selected bands with held/spent gates, hatchery, Bag, fees and ordinary/unlucky play on the current candidate. Preserve current three-island alpha access and separate later data/model work. Do not re-ask settled package choices or promote model diagnostics to player forecasts."
     },
     {
@@ -466,7 +466,7 @@
         31
       ],
       "status": "Evidence needed",
-      "why": "New assisted Android observations and alpha database improvements are scoped progress. Exact signed-candidate source, full loops, endurance, physical iOS, isolated restore and load proof remain open.",
+      "why": "Assisted Android observations, a new iPhone debug install and scoped common-sky timing are partial progress. The latest iPhone build was not launched; release-candidate full loops, endurance, physical-iOS gameplay, isolated restore and load proof remain open.",
       "doneWhen": "Close overdue initial device/ops evidence; isolated hosted restore and staging load remain Nov 1. Final candidate recovery/endurance regression stays Nov 15."
     },
     {
@@ -531,18 +531,18 @@
       "title": "Pause beta for event rewards",
       "due": "2026-11-09",
       "state": "Frozair direction · owner work active",
-      "recommendation": "Public beta remains paused. The hatchery and revised introductory dig loop are committed with alpha rollout receipts. Source tag 0.1.8 and the later guide fix do not establish signed/public delivery or a resume decision."
+      "recommendation": "Public beta remains paused. New opening-guide and wood hatchery/reveal/Nursery source is committed, with scoped alpha/debug evidence. A prospective new alpha release was explicitly not a go-ahead yet. No qualified signed/public beta start, resume or seven-day testing span is recorded."
     },
     {
       "title": "Use the hatchery and rolling nests",
       "due": "2026-11-11",
       "state": "Source committed · alpha receipt recorded",
-      "recommendation": "Frozair’s later source direction puts nests in the hatchery, finished eggs in a ready basket and waiting eggs in the Egg line. Queue/everyone/rolling migrations are recorded on alpha. This supersedes the earlier yard-only presentation; final numbers and exact-candidate acceptance remain scoped."
+      "recommendation": "Frozair’s later source direction puts nests in the hatchery, finished eggs in a ready basket and waiting eggs in the Egg line. Queue/everyone/rolling migrations are recorded on alpha. This supersedes the earlier yard-only presentation; final numbers and exact-candidate acceptance remain scoped. The wood hatchery, Nursery loft, reveal/haul and egg-look presentation are now committed in e52d69b192; exact-candidate native acceptance remains open."
     },
     {
       "title": "Which phones do we promise?",
       "due": "2026-10-25",
-      "recommendation": "Minimum supported Android/iPhone devices and limits remain open. Scoped Android observations and the iPhone 15 Apple-deletion test exist; full physical-iOS gameplay and endurance remain unqualified. Pixel was dropped from the Fernlands proof; later scoped Pixel portal feedback does not create a new device requirement.",
+      "recommendation": "Minimum supported Android/iPhone devices and limits remain open. Scoped Android checks and the iPhone 15 Apple-deletion pass exist. A newer iPhone debug build was installed but not launched; this does not complete gameplay/endurance. Pixel remains scoped feedback, not a restored Fernlands requirement.",
       "state": "Open"
     },
     {
@@ -569,7 +569,7 @@
     {
       "title": "Original beta start is unestablished",
       "level": "Critical",
-      "action": "Public beta remains paused and no qualified signed/public start is recorded. The 0.1.8 tag alone proves no upload or later-guide-fix inclusion. Pin the candidate, current backend/flags and actual test span before assessing Nov 16 submissions; do not silently move dates.",
+      "action": "The original Nov 9–15 week ends today, with public beta still paused and no qualified start or seven-day span established at this review. Debug builds do not establish public distribution. Pin the candidate and actual test dates for the original Nov 16 submission decision; record the full outcome after today elapses.",
       "owner": "Frozair + release owners",
       "due": "2026-11-09"
     },
@@ -578,6 +578,13 @@
       "level": "High",
       "action": "The owner’s assisted debug receipt finds Boat trips’ Unlock & sail button below the chart when all three requirements are Done. The horizon-name unlock card works, but the Boat route stays open. Fix and recheck the exact candidate; do not attribute this older layout issue to the new ladder.",
       "owner": "Gameplay/native owner",
+      "due": "2026-11-15"
+    },
+    {
+      "title": "Intro retries can exhaust daily starts",
+      "level": "High",
+      "action": "The owner reports that an unclaimed introductory Gold event refunds its ticket but retains its daily-start record. Three same-day lapses can exhaust that island’s allowance until reset. Source supports this consequence; an isolated three-lapse reproduction was not recorded. Qualify the recovery guidance with the event owner; no automatic allowance or reward retune.",
+      "owner": "Event/gameplay owner",
       "due": "2026-11-15"
     },
     {
@@ -590,7 +597,7 @@
     {
       "title": "Giants device memory proof remains open",
       "level": "High",
-      "action": "7c0fa012f7 commits the approved 48 MiB gameplay cap for Giants-tagged load sets. The checker mismatch is resolved in source. Record current candidate device performance and memory behavior; the reveal cap remains 32 MiB.",
+      "action": "7c0fa012f7 commits the approved 48 MiB gameplay cap for Giants-tagged load sets. The checker mismatch is resolved in source. Record current candidate device performance and memory behavior; the reveal cap remains 32 MiB. New common-sky look measurements are scoped to one debug whole-island view and do not close release/full-island/device acceptance.",
       "owner": "Art owner",
       "due": "2026-11-08"
     },
@@ -681,6 +688,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-15",
+      "text": "Opening-guide/hatch-skip and wood hatchery/reveal/Nursery source landed. Free starting Amber and skips have an owner alpha receipt; newer iPhone debug installation and common-sky timing remain scoped. The original beta week ends today without a qualified public start/span established. Source package counts, Boat and recovery gates remain open."
+    },
     {
       "date": "2026-11-14",
       "text": "Owner receipts record the selected later-island ladder on alpha, assisted Moto Giants/Snow buying/hatching/placement, and debug-only timer spots/common skies on Pixel. Alpha database sync samples improved after committed optimizations. A Boat unlock action remains offscreen. Public beta, full candidate and package counts remain unaccepted."
@@ -811,6 +822,30 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Opening guide and free Amber skips · Nov 15 review",
+      "detail": "1003c0632c commits new-player 15 Amber, hatch skipping, My Dinos placement guidance and nearer land goals. Its commit records 20261114060000 deployed to alpha Nov 14; existing profiles retain zero starting Amber. Cost is one Amber per two minutes left, minimum five; skipping drops any unreached nest sky turn. This is owner-recorded source/alpha evidence, not in-app purchase delivery or complete pacing/native acceptance."
+    },
+    {
+      "label": "Wood hatchery, reveal and Nursery · committed Nov 15",
+      "detail": "e52d69b192 commits the wood hatchery room, reveal and haul boards, Egg line, Nursery loft/cards, sky-tinted eggs and plain surprise-species egg shell. Other common-sky effect work remains owner-held. The commit advances presentation source, not final UI/device, full-species or signed/public-beta acceptance."
+    },
+    {
+      "label": "Common-sky trial and measured look cost · Nov 14 owner ledger",
+      "detail": "The debug-spots visible time was changed from 10 to 20 seconds on scoped owner approval; ordinary picks mode remains separate. The final undisturbed Moto debug whole-island preview measured no-sky mean 33.0fps, Titan 30.3, Speed 30.5 and Small 30.9. Earlier free-cost/disturbed readings are superseded. Release build, full island, other islands and Pixel were not measured in this comparison; maintenance ran no device check."
+    },
+    {
+      "label": "iPhone debug delivery scope · Nov 15 reconciliation",
+      "detail": "The owner ledger records iPhone debug 0.1.8 (939), no upload, then a newer debug install around Nov 14 19:20 local that was not launched. A later authorized debug-cohort addition retains an installed-account matching caveat. These supersede blanket no-new-iPhone-build wording without establishing store/TestFlight delivery, gameplay, recovery or beta resume. The latest explicit prospective alpha release statement was not a go-ahead."
+    },
+    {
+      "label": "Intro retry and daily-start interaction · owner report Nov 14",
+      "detail": "#84 at Nov 14 17:42Z reports unclaimed-Gold introductory lapses regrant the ticket while retaining activation rows. Source reclassifies those rows as ticket activations, and the per-island New York-date budget counts them. Three same-day lapses can block another start until reset. No isolated three-lapse reproduction or universal no-event outage is claimed; this is an existing-rule interaction, not a new regression. No limit change is authorized."
+    },
+    {
+      "label": "Original beta checkpoint and art cohorts · Nov 15",
+      "detail": "Review pin e52d69b192245d3fec6448a3054fa877b3e9ae89. Original Nov 9–15 beta checkpoint is due today and unpassed; keep the complete plan until the day elapses. No full native/ops/public-distribution or source-package acceptance gain found. Cohorts remain 10/11/19, inventory 35/35 committed and 40/40 working; all 66 generated content files across five local Swamp sets match installed assets. Shunosaurus bytes match Nov 14. Boat and Frost quote findings remain open, already notified. No maintenance game/hosted/device/art operations."
+    },
     {
       "label": "Selected ladder and controlled Moto proof · Nov 14 review",
       "detail": "The #56 receipt at Nov 14 01:52Z records Frozair’s source/deployment go-ahead and 20261114010000 applied to alpha. Snowy unlock is 270M; Giants plots 5/6 are 200M/500M; later plots 3–6 are ×20. Source/client work remains uncommitted and in no released build. Assisted debug funding/items supported Giants/Snow shops, buying, hatch and placement checks; Swamp/Fernlands stayed Coming soon. This is not normal progression or full persistence qualification."
@@ -1109,18 +1144,18 @@
         "step": 1,
         "kind": "engine",
         "title": "Qualify the hatchery build",
-        "when": "Assisted Moto proof · boat action open",
+        "when": "Beta checkpoint today · candidate open",
         "owner": "Event/native owners · Frozair release decision",
         "refs": [
           84,
           56,
           57
         ],
-        "outcome": "Pin the exact candidate and include the later guide fixes. Recheck the Boat trips unlock action, then prove current Forest/Giants/Snow hatchery, travel and persistence loops on signed Android and physical iPhone. Assisted debug checks are partial proof; public-beta resumption and actual testing dates remain open.",
+        "outcome": "Pin the candidate including the new opening guide and hatchery/reveal/Nursery source. Recheck Boat unlock and current Forest/Giants/Snow hatchery, travel and persistence on signed Android and physical iPhone. Debug installs and assisted checks are partial evidence. Record actual beta delivery/testing dates for tomorrow’s submission decision.",
         "species": [
-          "Giants/Snow: assisted proof",
+          "Guide + UI: source",
           "Boat unlock: open",
-          "Signed candidate: open"
+          "Signed beta: open"
         ]
       },
       {
@@ -1173,7 +1208,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -6,
+    "daysToFreeze": -7,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1541,7 +1576,7 @@
     "start": "2026-11-09",
     "end": "2026-11-15",
     "title": "Qualify the beta. Close release gates.",
-    "note": "Nov 14 review: assisted Giants/Snow Moto hatch/place checks, new ladder alpha receipts and bounded sync improvements advanced. Boat trips’ unlock action remains offscreen in the recorded flow. Public beta has no qualified start or seven-day span established. Preserve this original Nov 9–15 plan through tomorrow; current Saturday candidate targets remain pending.",
+    "note": "Nov 15 review: opening-guide and wood hatchery/reveal/Nursery source is committed; free starting Amber and hatch skipping have an owner alpha receipt. New iPhone debug installation and scoped sky timing are partial evidence. This original Nov 9–15 week ends today, with no qualified public beta start or seven-day span established. Keep the plan through tonight; record the actual outcome before archiving it at the next review.",
     "priorities": [
       {
         "id": "beta-candidate",
@@ -1627,7 +1662,7 @@
         "date": "2026-11-14",
         "label": "SAT 14",
         "title": "Close candidate regressions",
-        "focus": "Recheck the offscreen Boat unlock action and current opening/guide/candidate regressions. Qualify actual endurance and retry/recovery under separate task authorization; today’s target is not inferred complete from assisted hatch checks.",
+        "focus": "Recheck the offscreen Boat unlock action and current opening/guide/candidate regressions. Qualify actual endurance and retry/recovery under separate task authorization; today’s target is not inferred complete from assisted hatch checks. Nov 15 review records newer opening-guide/UI source and scoped debug receipts, with no full candidate-regression completion receipt.",
         "proof": "Exact candidate and both OSes, with actual distribution/testing dates. Debug funding, database timing samples and source test totals do not establish full beta or restore/load acceptance."
       },
       {
@@ -1635,8 +1670,8 @@
         "date": "2026-11-15",
         "label": "SUN 15",
         "title": "Make the submission decision",
-        "focus": "Record whether the original seven-day beta and all public-submission gates were achieved.",
-        "proof": "Actual distribution and evidence dates, remaining defects and Nov 16 go/no-go. Do not silently extend the beta or move Dec 1."
+        "focus": "Today’s original signed-beta/submission-readiness checkpoint is due and unpassed in inspected evidence. Reconcile late receipts and record the actual testing span and Nov 16 go/no-go; do not declare the full day missed before it ends.",
+        "proof": "Qualified candidate/public-access dates and passed gates, with remaining defects explicit. After Nov 15 elapses, record its actual outcome and archive this complete plan before a new dated week. Preserve Nov 16 and Dec 1."
       }
     ],
     "parking": [

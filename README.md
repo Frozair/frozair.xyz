@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 14**, not an invented November
+remain distinct. Latest director audit is **November 15**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -190,14 +190,32 @@ are Gold 3%, Rainbow 4% then 1.5% after first dirt Rainbow, Meteor 1.5%; intro w
 grant three spots once, concurrent daily windows win, and ticket/crafted events
 grant none. Old scheduled-only/only-Rainbow/5%/2.4% prose is superseded.
 
-Source tag v0.1.8-alpha points to 68ebb74edb. The hatchery opening-guide fix
-ed0bf56ac4 follows it; no upload receipt proves that fix in a delivered candidate.
-Configured signing or a version bump is not distribution. The latest native ledger
-still covers the Nov 10 debug snapshot, with no new signed/public-beta or full
-candidate/recovery acceptance. Public beta remains paused. Subsequent skylight,
-loft/paged Nursery and dig presentation are owner working source; eight illustrated
-nest places do not establish eight active nests or an approved purchase cap. Current
-numeric trials/model diagnostics remain separate from complete pacing acceptance.
+Source tag v0.1.8-alpha points to 68ebb74edb. Later guide fixes and the new
+wood hatchery/reveal/Nursery source need exact candidate inclusion. The owner ledger
+now records iPhone debug 0.1.8 (939), no upload, and a newer debug install that was
+not launched. This is device-build progress, not store/TestFlight delivery or full
+iOS gameplay. Public beta remains paused; a prospective new alpha release was
+explicitly not a go-ahead yet. The original Nov 9–15 checkpoint is due today and
+unpassed in inspected evidence. Keep the full plan through tonight, then record its
+actual outcome before archiving. Nov 16/Dec 1 and full forty remain unchanged.
+
+1003c063 commits the opening guide with 15 free starting Amber and hatch skipping;
+20261114060000 is recorded applied to alpha Nov 14. Existing profiles retain zero
+starting Amber. A skip costs one Amber per two minutes left, minimum five, and
+drops an unreached nest sky turn. No IAP delivery or final pacing acceptance follows.
+e52d69b192 commits wood hatchery/reveal/haul, Egg line, Nursery and egg presentation;
+creature package counts and final UI/native acceptance are unchanged. Eight drawn
+nest places still do not establish eight active nests or an approved purchase cap.
+
+The later owner sky ledger records a final undisturbed Moto debug preview: no sky
+33.0fps, Titan 30.3, Speed 30.5, Small 30.9. These replace earlier free/disturbed
+readings and cover one whole-island view, not full-land/release/other-island/Pixel
+qualification. Debug spots now remain visible for 20 seconds by owner approval;
+ordinary picks mode stays separate. Common-sky effects remain owner working source.
+The owner also reports unclaimed introductory Gold retries refund the ticket but
+retain daily-start records. Three same-day lapses can exhaust the island allowance;
+source supports this consequence without an isolated three-lapse reproduction.
+Qualify recovery guidance, without an automatic allowance/reward retune.
 The Frost Crystal quote remains open. No Nov 12 director audit is inferred.
 
 
