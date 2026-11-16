@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 15**, not an invented November
+remain distinct. Latest director audit is **November 16**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -121,8 +121,10 @@ proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world e
 is valid within its scope. No new distributed-candidate receipt found beyond prior
 706 alpha; 771 distribution stays unverified. Initial device/backup/crash/store and
 isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
-backup list and open staging/monitoring and candidate qualification. The regenerated
-measurement file is now committed. October 4 ops observations and October 20
+backup list and open staging/monitoring and candidate qualification. The measurement baseline is committed; owner-held creature additions remain separate.
+0b3c2a98 records a corrected private row snapshot and executed alpha reset Nov 16,
+including dig/visit rows while retaining sign-ins. This does not close isolated
+restore/PITR/staging load or monitoring; older empty-backup observations stay dated. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
 
 Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
@@ -158,9 +160,8 @@ so the optimistic Bag quote can differ before the authoritative reply. Resolve
 that scoped path with the gameplay owner. Keep their separate rollout scopes distinct.
 The Nov 7 owner checklist records source migrations since Sep 30 aligned on alpha,
 including the intro, Finder, crafts and storage fees. The new selected later-island ladder has a Nov 14 owner alpha receipt in
-untracked 20261114010000: Snowy 270M, Giants late plots 200M/500M and later
-plots 3–6 ×20 supersede the earlier current values. Client work is uncommitted and in
-no released build. Assisted Moto Giants/Snow hatch/place checks do not accept normal
+20261114010000, now committed in 9c683b02: Snowy 270M, Giants late plots 200M/500M and later
+plots 3–6 ×20 supersede the earlier current values. 9c683b02 now commits this client work; exact delivered-binary inclusion remains unverified. Assisted Moto Giants/Snow hatch/place checks do not accept normal
 pacing or full loops. Keep alpha access to Forest/Giants/Snow; Swamp/Fern stay held.
 Current native pacing remains open;
 Aquilops local SQL/game/end-to-end proof and four unchosen later finders retain their
@@ -175,7 +176,7 @@ player forecasts. The retained five-island persona model and older 32-seed/ten-d
 capsule are historical; the latter's Snowy result was coin/space affordability
 without its full gate/gameplay. Do not apply those times to the new ladder.
 Historical source108 cannot accept the current combined game. Sim-only egg-luck
-and spawning experiments are not approved product tuning. The 5–6-week direction
+and unselected spawning alternatives are not approved product tuning. The 5–6-week direction
 and Brachio 2B choice are not newly verified pacing outcomes; coherent profiles and
 ordinary/unlucky current play remain open.
 
@@ -185,38 +186,42 @@ alpha receipts. 11e0b3b263 records migrations 20261110010000 through
 20261111040000 applied; fdaec4f55f records the three Nov 12 intro/opening migrations
 applied too. Retire local-only queue/everyone/rolling claims. Nests are inside the
 hatchery, finished eggs roll into a ready basket and the Egg line advances while
-away. Only the very first opening egg stays seated for its lesson. Current dig odds
-are Gold 3%, Rainbow 4% then 1.5% after first dirt Rainbow, Meteor 1.5%; intro windows
-grant three spots once, concurrent daily windows win, and ticket/crafted events
-grant none. Old scheduled-only/only-Rainbow/5%/2.4% prose is superseded.
+away. Only the very first opening egg stays seated for its lesson. Historical
+Nov 11–12 picks-mode policy used Gold 3%, Rainbow 4% then 1.5%, Meteor 1.5%,
+three intro spots and no ticket/crafted spots. The newer global timer-mode
+receipt below supersedes that policy; do not treat this history as current tuning.
 
-Source tag v0.1.8-alpha points to 68ebb74edb. Later guide fixes and the new
-wood hatchery/reveal/Nursery source need exact candidate inclusion. The owner ledger
-now records iPhone debug 0.1.8 (939), no upload, and a newer debug install that was
-not launched. This is device-build progress, not store/TestFlight delivery or full
-iOS gameplay. Public beta remains paused; a prospective new alpha release was
-explicitly not a go-ahead yet. The original Nov 9–15 checkpoint is due today and
-unpassed in inspected evidence. Keep the full plan through tonight, then record its
-actual outcome before archiving. Nov 16/Dec 1 and full forty remain unchanged.
+The original Nov 9–15 qualified signed/public seven-day beta objective is UNMET
+at Nov 16 review. Its complete plan is archived with the actual outcome before the
+new Nov 16–22 gate-recovery/fixes plan. Public submissions remain due today;
+readiness is unestablished, not silently extended or prematurely a full-day miss.
+Full forty/five/Dec 1 remain until Frozair decides otherwise.
 
-1003c063 commits the opening guide with 15 free starting Amber and hatch skipping;
-20261114060000 is recorded applied to alpha Nov 14. Existing profiles retain zero
-starting Amber. A skip costs one Amber per two minutes left, minimum five, and
-drops an unreached nest sky turn. No IAP delivery or final pacing acceptance follows.
-e52d69b192 commits wood hatchery/reveal/haul, Egg line, Nursery and egg presentation;
-creature package counts and final UI/native acceptance are unchanged. Eight drawn
-nest places still do not establish eight active nests or an approved purchase cap.
+Source tag v0.1.9-alpha is the version cut at 532112d0, including earlier guide/UI
+source. No exact binary/upload/public-distribution receipt was found. Retain older
+0.1.8 debug iPhone install evidence without promoting it to full iOS gameplay.
+Current alpha preparation/reset means the older prospective-alpha no-go is not a
+blanket current prohibition; public-beta resumption still has no explicit receipt.
 
-The later owner sky ledger records a final undisturbed Moto debug preview: no sky
-33.0fps, Titan 30.3, Speed 30.5, Small 30.9. These replace earlier free/disturbed
-readings and cover one whole-island view, not full-land/release/other-island/Pixel
-qualification. Debug spots now remain visible for 20 seconds by owner approval;
-ordinary picks mode stays separate. Common-sky effects remain owner working source.
-The owner also reports unclaimed introductory Gold retries refund the ticket but
-retain daily-start records. Three same-day lapses can exhaust the island allowance;
-source supports this consequence without an isolated three-lapse reproduction.
-Qualify recovery guidance, without an automatic allowance/reward retune.
-The Frost Crystal quote remains open. No Nov 12 director audit is inferred.
+9c683b02 commits ladder, visits, common-sky/timer effects and Amber flow. b2abb184
+records global timed digs, visibility20 and three starting Forest nests applied to
+alpha Nov 15, with a scoped Moto check. This supersedes debug-only/picks/two-nest
+Forest wording. Clients below weather API5 cannot dig; verify delivered binaries
+without inferring an outage. 83f0af78 records five-minute common skies (three-minute
+duration) and consent-scoped guide analytics deployed Nov 16.
+
+1003c063 keeps the free fifteen-Amber opening and skips; later 5b3cf679/3b4ef518
+make the first long-egg skip a required spotlighted lesson. Quick Hatch #85 is a
+separate liked design, not approved implementation. No IAP delivery follows.
+b7cb52f4 protects five-star Luck or Speed dinos from bulk/automatic release;
+manual release remains a player choice. Current snapshot receipts report 3,089
+passing checks plus sixteen failures attributed to working art/Sentry binaries,
+and an older freed-nest failure remains. No clean full-candidate result is inferred.
+
+49999450 records fresh Pixel/Moto transport play around35minutes without connection
+errors; this is not full-candidate thermal/all-five/iOS proof. Historical sky-cost
+figures remain bounded debug observations. Boat, Frost quote and introductory
+retry/daily-start findings remain open, already notified. No Nov 12 audit is inferred.
 
 
 Nov 14 reconciliation adds newer owner evidence: 72510bf7 records alpha sync
@@ -228,8 +233,8 @@ new ladder. f3200e27 commits fresh-Moto guide fixes and c12441cf moves the gift
 Gold Rush ticket to first expanded Forest full 4/4, with its migration on alpha.
 Older second-expansion ticket timing is superseded; one intro Gold remains.
 
-The timed-spots/common-sky trial is owner-recorded on alpha for two debug accounts;
-ordinary testers keep picks. Pixel feedback prompted new presentation/haptic work,
+Historically the timed-spots/common-sky trial reached two debug accounts;
+the newer global-alpha receipt above supersedes that split. Pixel feedback prompted new presentation/haptic work,
 not full public-beta or iPhone acceptance. The Shunosaurus refresh is a separate
 owner-held Forest exception, not broad unparked polish; no public still replacement
 or source-package gain follows. Stance-pinned regression changes require current
