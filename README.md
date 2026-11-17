@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 16**, not an invented November
+remain distinct. Latest director audit is **November 17**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -118,8 +118,9 @@ Latest full-loop owner receipt remains October 26's assisted Moto fixture: unloc
 chain, Fernlands starter/shop/Iguanodon hatch/work and kill/relaunch. Sell/expansion/
 return/full Book-shop and a complete physical-iOS island loop remain unrecorded. Pixel was dropped from this
 proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world evidence
-is valid within its scope. No new distributed-candidate receipt found beyond prior
-706 alpha; 771 distribution stays unverified. Initial device/backup/crash/store and
+is valid within its scope. The 706 alpha record and unverified 771 are historical.
+A newer owner record identifies TestFlight 0.1.9 build 953 and displayed size, with
+public-group/API/manifest/Android-track and full-candidate limits still open. Initial device/backup/crash/store and
 isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
 backup list and open staging/monitoring and candidate qualification. The measurement baseline is committed; owner-held creature additions remain separate.
 0b3c2a98 records a corrected private row snapshot and executed alpha reset Nov 16,
@@ -193,12 +194,15 @@ receipt below supersedes that policy; do not treat this history as current tunin
 
 The original Nov 9–15 qualified signed/public seven-day beta objective is UNMET
 at Nov 16 review. Its complete plan is archived with the actual outcome before the
-new Nov 16–22 gate-recovery/fixes plan. Public submissions remain due today;
-readiness is unestablished, not silently extended or prematurely a full-day miss.
+new Nov 16–22 gate-recovery/fixes plan. The original Nov 16 PUBLIC submission checkpoint is now UNMET at Nov 17 review:
+no qualifying public submission receipt was found. Original dates and the fixes
+window remain, with the Nov 16–22 recovery plan retained.
 Full forty/five/Dec 1 remain until Frozair decides otherwise.
 
-Source tag v0.1.9-alpha is the version cut at 532112d0, including earlier guide/UI
-source. No exact binary/upload/public-distribution receipt was found. Retain older
+Source tag v0.1.9-alpha is the version cut at 532112d0. A newer owner record
+identifies TestFlight 0.1.9 build 953 showing 2.19 GB installed size. This is scoped
+alpha evidence, not a physical-phone/full-gameplay/public-group/source-manifest
+readback. Exact Android track/API and public-submission proof remain open. Retain older
 0.1.8 debug iPhone install evidence without promoting it to full iOS gameplay.
 Current alpha preparation/reset means the older prospective-alpha no-go is not a
 blanket current prohibition; public-beta resumption still has no explicit receipt.
@@ -239,6 +243,24 @@ not full public-beta or iPhone acceptance. The Shunosaurus refresh is a separate
 owner-held Forest exception, not broad unparked polish; no public still replacement
 or source-package gain follows. Stance-pinned regression changes require current
 qualification and are not new foot-contact/native acceptance.
+
+
+Nov 17 source review adds island packs stages 1–3 (cf7d2547/e2c4affc/ebf6310d):
+species-specific fallback cards, art-only four-island packs/loader, resumable hashed
+downloads and boat/egg waits. Normal release presets retain full art. A LOCAL-server
+Moto check covers download/mount/relaunch/resume/offline retry/boat progress; cellular
+ask, egg wait and iOS remain unobserved on phone. Production pack URL/CDN/release-lane
+rollout remains open. Fallback cards do not replace immutable public roster portraits.
+
+227e6954 adds vibration permission omitted from 0.1.9, so do not claim it already
+shipped in that build. 533b2a0b reports desktop-fixture Shop Buy 10–15→1.8ms,
+reply 10–14→0.8ms and 610→176 draw calls, not phone or pacing acceptance. Existing
+current-candidate failures and Boat/Frost/intro-retry findings remain open.
+
+The submission milestone spans Nov16–30 but its actual submission checkpoint is
+Nov16. Optional milestone.checkpointDate drives the compact missed-date list before
+falling back to end, and validation requires it inside the original milestone range.
+This prevents Nov30 being labeled missed while preserving all original dates.
 
 Publication coordination: shared website main retains the unpublished EXIT owner
 commit 176a3b7 and local roadmap commit d50f71e. Publish only intended Stompy files

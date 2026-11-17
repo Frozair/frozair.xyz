@@ -33,6 +33,9 @@ uniqueIds(data.milestones, 'Milestones');
 for (const milestone of data.milestones) {
   textFields(milestone, ['title', 'outcome', 'owner', 'gate', 'dateLabel']);
   assert(date(milestone.start) && date(milestone.end) && milestone.end >= milestone.start, `Invalid milestone range: ${milestone.id}`);
+  if (milestone.checkpointDate !== undefined) {
+    assert(date(milestone.checkpointDate) && milestone.checkpointDate >= milestone.start && milestone.checkpointDate <= milestone.end, `Invalid milestone checkpoint: ${milestone.id}`);
+  }
   assert(['active', 'planned', 'complete', 'blocked'].includes(milestone.state));
 }
 uniqueIds(data.work, 'Work');

@@ -3,13 +3,13 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-16",
-  "nextReview": "2026-11-17",
+  "asOf": "2026-11-17",
+  "nextReview": "2026-11-18",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The original Nov 9–15 signed-beta gate was unmet. Public submissions are due today, with qualified distribution, full native/content and recovery acceptance still open. Owner receipts record global timed digs, three Forest nests, five-minute common skies and a private backup/alpha reset. The 0.1.9 source cut does not establish delivered binaries.",
+  "healthNote": "The original Nov 16 public-submission checkpoint is unmet in recorded evidence. An owner receipt identifies TestFlight 0.1.9 build 953 and its displayed size, without public-review or full-candidate acceptance. Island-pack source and local-server Moto checks advanced; production pack delivery and remaining launch gates stay open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "Nov 8 freeze + Nov 15 beta unmet · Nov 16 submissions due · full target 40",
+  "resourcesNote": "Nov 8 freeze + Nov 15 beta + Nov 16 submissions unmet · full target 40",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All 40 source homes have pinned seed-last proof. Beta progression opens Forest, Giants and Snow (24 species), with Swamp/Fernlands coming soon and owned islands still sailable. Source tag v0.1.8-alpha is recorded, but no new upload/distribution receipt was found; the later ed0bf56ac4 guide fix needs exact-candidate inclusion proof. 706 remains the historical documented distributed alpha and 771 distribution unverified. Public beta remains paused; scoped iPhone deletion and older debug observations do not establish full release acceptance.",
+    "note": "All forty source homes retain pinned seed-last proof. Current alpha access is Forest/Giants/Snow, with later islands held. Historical baseline: October 18 internal 706 and its recorded source counts; 771 distribution remains unverified history. A newer owner record identifies TestFlight 0.1.9 build 953 and its displayed installed size. Public/external group, exact source/API manifest, Android track and current full-candidate acceptance remain unestablished. Neither the older 0.1.8 tag nor this bounded TestFlight receipt closes public release gates.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -289,13 +289,14 @@
       "start": "2026-11-16",
       "end": "2026-11-30",
       "dateLabel": "NOV 16–30",
-      "state": "planned",
-      "outcome": "Public submissions Nov 16. Resolve store feedback and release defects.",
+      "state": "blocked",
+      "outcome": "Original Nov 16 PUBLIC Apple/Google submission checkpoint UNMET at Nov 17 review: no qualifying public submission receipt was found. The Nov 17–30 fixes window remains unchanged.",
       "owner": "Codex delivery · Frozair store owner",
       "refs": [
         58
       ],
-      "gate": "Public Apple + Google review, not just TestFlight/Play Internal. Approval timing is external."
+      "gate": "TestFlight 0.1.9 build 953 is owner-recorded alpha evidence, not public/external review or Google Play public submission. Recover exact candidate/store/recovery proof and record actual submission dates; retain the original Nov 16 checkpoint and Nov 30 fixes-period end.",
+      "checkpointDate": "2026-11-16"
     },
     {
       "id": "launch",
@@ -325,7 +326,7 @@
         58
       ],
       "status": "Alpha advances · public beta unestablished",
-      "why": "9c683b02 commits previously owner-held skies, visit log, island ladders and Amber flow. b2abb184 records global timed digs and three Forest nests on alpha, with a scoped Moto check. 83f0af78 records five-minute common skies and guide analytics on alpha. The 0.1.9 source cut and executed alpha reset are new progress; signed/public delivery and beta resumption remain unrecorded.",
+      "why": "9c683b02 commits previously owner-held skies, visit log, island ladders and Amber flow. b2abb184 records global timed digs and three Forest nests on alpha, with a scoped Moto check. 83f0af78 records five-minute common skies and guide analytics on alpha. The 0.1.9 source cut and executed alpha reset are new progress; signed/public delivery and beta resumption remain unrecorded. A newer owner record identifies TestFlight 0.1.9 build 953 and a displayed installed size. Its group, exact source manifest and public availability are unestablished; later pack/vibration/shop source is separate.",
       "doneWhen": "Pin exact binary/backend/API inputs and qualify current three-island loops, intro retry guidance and current source failures. Record actual public access/testing and Frozair’s release direction. Keep original missed dates; do not infer a new beta week or automatic retuning."
     },
     {
@@ -466,21 +467,21 @@
         31
       ],
       "status": "Original Nov 15 beta gate unmet",
-      "why": "49999450 records roughly 35-minute fresh Pixel/Moto transport observations without connection errors. These are bounded owner checks, not full candidate/thermal/all-five/iOS acceptance. Current source receipts report snapshot failures and no clean exact-candidate pass; delivered 0.1.9 binary/API matching remains open.",
+      "why": "Owner-recorded TestFlight 0.1.9 build 953 is new alpha evidence. Exact manifest/API, Android track and full candidate scope remain unestablished. Local-server Moto pack download/mount/resume/relaunch proof is scoped; cellular ask, egg wait and iOS packs remain unobserved on phone. Current full native/recovery acceptance remains open.",
       "doneWhen": "Close overdue initial device/ops evidence; isolated hosted restore and staging load remain Nov 1. Final candidate recovery/endurance regression stays Nov 15."
     },
     {
       "id": "stores",
       "lane": "now",
-      "title": "Record today’s public submission decision",
+      "title": "Recover the public-submission checkpoint",
       "owner": "Frozair store owner · Codex delivery",
       "due": "2026-11-16",
       "refs": [
         58
       ],
-      "status": "Nov 16 due · readiness unestablished",
-      "why": "Listings, screenshots and earlier privacy readbacks remain recorded. No public submission, qualified signed/public beta start or seven-day span was found. The original beta gate is unmet. A new alpha source cut/reset does not establish Apple/Google public-submission readiness.",
-      "doneWhen": "Record actual Apple/Google public submission state or the explicit hold decision, exact binaries, passed gates and remaining review prerequisites. Preserve today’s due date; do not mark the full day missed early or silently move Dec 1."
+      "status": "Original Nov 16 checkpoint unmet",
+      "why": "After Nov 16 elapsed, no qualifying Apple/Google PUBLIC submission receipt was found. TestFlight build 953 and uploaded listings/screenshots do not establish public review or a seven-day beta. Keep the original date and record actual store states and candidate readiness.",
+      "doneWhen": "Record actual public Apple/Google submission/review receipts or the explicit hold, exact binaries and passed/missing gates. Preserve original Nov 16 and Dec 1; do not silently roll dates or label alpha delivery as public submission."
     },
     {
       "id": "sky",
@@ -569,14 +570,14 @@
     {
       "title": "Original signed-beta gate was unmet",
       "level": "Critical",
-      "action": "After Nov 15 elapsed, no qualified signed/public seven-day span was established. Record today’s actual public-submission decision and missing gates. A new alpha source cut/reset does not replace that evidence or silently move Nov 16/Dec 1.",
+      "action": "Original Nov 9–15 signed/public beta and Nov 16 public-submission checkpoints are unmet in recorded evidence. TestFlight build 953 does not establish public access or a seven-day span. Recover current candidate/store gates and record actual dates without moving the original milestones.",
       "owner": "Frozair + release owners",
       "due": "2026-11-09"
     },
     {
       "title": "Global digs require a matching client",
       "level": "High",
-      "action": "b2abb184 enables timer spots for everyone on alpha and records that clients below weather API 5 cannot dig in that mode. Verify the actual delivered binary/API before candidate acceptance. Source 0.1.9 alone is not distribution proof; no current-tester outage is inferred.",
+      "action": "Global alpha spots require weather API 5. The owner identifies TestFlight 0.1.9 build 953, but no exact binary/API manifest or Android-track receipt is established. Verify those inputs; neither the source tag nor displayed size alone proves compatibility, and no tester outage is inferred.",
       "owner": "Release/gameplay owner",
       "due": "2026-11-16"
     },
@@ -586,6 +587,13 @@
       "action": "Owner commit receipts record 3,089 passing checks plus 16 failures attributed to working creature art and Sentry binaries; a nest receipt retains an older freed-nest failure. Resolve or explicitly disposition exact-candidate failures with owners. Historical scoped green results do not establish a new full pass.",
       "owner": "Integration/art/release owners",
       "due": "2026-11-16"
+    },
+    {
+      "title": "Island-pack delivery needs separate qualification",
+      "level": "High",
+      "action": "Committed stages 1–3 have local-server Moto download/mount/resume/relaunch proof. Normal release presets still retain all art; the production pack URL/rollout is not established. Cellular ask, egg wait, iOS, offline/cache recovery and exact pack/base manifests need scoped acceptance before switching production delivery.",
+      "owner": "Pack/release owners · Frozair direction",
+      "due": "2026-11-22"
     },
     {
       "title": "Boat unlock action is offscreen on Moto",
@@ -639,7 +647,7 @@
     {
       "title": "Public review is external",
       "level": "High",
-      "action": "Start setup now; submit Nov 16 and protect the final fortnight for fixes.",
+      "action": "Original Nov 16 public-submission checkpoint was unmet in inspected receipts. Recover actual public review setup/submissions; approval timing remains external. Keep the original fixes window and Dec 1 target visible rather than silently shifting them.",
       "owner": "Frozair + Codex",
       "due": "2026-11-16"
     },
@@ -706,6 +714,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-17",
+      "text": "Original Nov 16 public-submission checkpoint recorded unmet after the day elapsed. An owner TestFlight 0.1.9 build 953 record supersedes blanket source-only wording. Island-pack stages 1–3 add local-server Moto proof; production rollout/iOS remain open. Shop performance gains are desktop-fixture measurements. Source-package cohorts and original dates remain unchanged."
+    },
     {
       "date": "2026-11-16",
       "text": "Original Nov 9–15 qualified signed-beta gate recorded unmet after the period ended; complete week archived before the new fixes/evidence plan. Public submissions remain due today. New committed/global-alpha timed digs, three Forest nests, five-minute common skies, source cut and private backup/reset are scoped progress; delivery/current-candidate and recovery acceptance remain open."
@@ -844,6 +856,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Original public-submission outcome · Nov 17",
+      "detail": "After Nov 16 elapsed, no qualifying PUBLIC Apple/Google submission/review receipt was found. Original Nov 16 checkpoint is UNMET; Nov 17–30 fixes window and Dec 1 target remain. The complete prior beta-week history and active Nov 16–22 recovery plan are retained, with actual outcomes appended rather than rolled dates."
+    },
+    {
+      "label": "TestFlight 0.1.9 build 953 · owner-recorded scope",
+      "detail": "The Nov 16 island-pack design records TestFlight 0.1.9 build 953 showing 2.19 GB installed size. A separate Android size is also discussed, without an exact distribution track/build receipt. This supersedes a blanket source-only 0.1.9 claim, but establishes neither physical-phone installation/play, public/external group, exact source/API manifest nor accepted full-candidate/public submission. Later 227e6954/pack/shop source postdates the tag."
+    },
+    {
+      "label": "Island packs stages 1–3 · committed and locally observed",
+      "detail": "cf7d2547 adds species-specific missing-art fallback cards; e2c4affc adds four art-only island packs/loader and ebf6310d adds downloads, hashing, resume and boat/egg waits. Forest/cards remain bundled; normal release presets retain full art. Owner Moto proof against a LOCAL server covers four downloads, mid-game mounts, relaunch without download, interrupted 206 resume, offline retry and boat progress. Cellular ask, egg wait and iOS packs were not seen on phone. Production CDN/pack URL/release-lane rollout remains unestablished; no maintenance build/export/install occurred."
+    },
+    {
+      "label": "Post-tag vibration and desktop Shop optimization",
+      "detail": "227e6954 adds Android vibration permission that its receipt says was omitted from 0.1.9-alpha. 533b2a0b avoids redundant shop counter rebuilds and covered-world drawing. Desktop real-ranch/shop fixture measurements report Buy 10–15→1.8 ms, reply 10–14→0.8 ms and draw calls 610→176. No phone or pacing acceptance is inferred; source changes do not prove delivered-binary inclusion."
+    },
+    {
+      "label": "Current source and art qualification · Nov 17",
+      "detail": "Review pin 533b2a0b935cfdf5687eea854451cb1de383750f. No whole-source acceptance/checklist gain found; cohorts stay 10/11/19, named inventory 35/35 committed and 40/40 working. Fallback cards use current resting-frame sources and do not replace selected public portraits or accept forty source packages. Existing source failures, Boat, Frost and intro-retry findings have no newer closure. No new full physical-iOS/native/recovery/ops acceptance found; maintenance ran no game, hosted, device or art operations."
+    },
     {
       "label": "Original beta outcome · reviewed Nov 16",
       "detail": "After Nov 15 elapsed, no qualified signed/public beta start, exact accepted candidate or seven-day span was established. Original Nov 9–15 objective is UNMET. Complete plan preserved with outcome before the new Nov 16–22 gate-recovery plan. Nov 16 public submissions are due today, not prematurely missed or passed; full forty/five/Dec 1 remain unchanged."
@@ -1183,25 +1215,25 @@
   ],
   "firstWork": {
     "title": "Qualify the beta. Recover the missed gates.",
-    "note": "The original Nov 9–15 signed-beta gate is now recorded unmet. Public submissions are due today, with readiness unestablished. Qualify actual candidate and recovery evidence; retain full forty/five islands and Dec 1 until Frozair decides otherwise.",
+    "note": "Original Nov 9–15 beta and Nov 16 public-submission checkpoints are now recorded unmet. Qualify the current delivered candidate and actual review state; full forty/five islands and Dec 1 remain until Frozair decides otherwise.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Qualify the alpha candidate",
-        "when": "Nov 16 submissions due · beta unmet",
+        "title": "Qualify the delivered candidate",
+        "when": "Nov 16 public submissions unmet",
         "owner": "Event/native owners · Frozair release decision",
         "refs": [
           84,
           56,
           57
         ],
-        "outcome": "Pin the delivered 0.1.9 binary and weather API, then prove current three-island hatchery, travel and persistence on signed Android and physical iPhone. Resolve snapshot test failures and recheck Boat unlock. Record today’s public-submission go/no-go and actual test dates; a source cut and alpha reset are partial evidence.",
+        "outcome": "Reconcile TestFlight build 953 and the actual Android distribution/API, then prove signed current three-island hatchery, travel, persistence and recovery. Later pack, vibration and shop changes postdate the 0.1.9 source cut. Record actual public-review dates and remaining gates; alpha and local-pack evidence do not close them.",
         "species": [
-          "0.1.9: source cut",
-          "Client/API match: open",
-          "Public readiness: open"
+          "TestFlight 953: recorded",
+          "Current inputs: open",
+          "Public review: open"
         ]
       },
       {
@@ -1229,7 +1261,7 @@
         "step": 3,
         "kind": "operations",
         "title": "Close recovery and submission gates",
-        "when": "Nov 16 public submissions",
+        "when": "Recover missed submission + operations gates",
         "owner": "Frozair resources · Codex evidence",
         "refs": [
           55,
@@ -1254,7 +1286,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -8,
+    "daysToFreeze": -9,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1622,13 +1654,13 @@
     "start": "2026-11-16",
     "end": "2026-11-22",
     "title": "Submission decision. Candidate and recovery proof.",
-    "note": "The complete Nov 9–15 plan was archived with its unmet original signed-beta outcome before this plan was created. Nov 16 public submissions remain due today. This is a gate-recovery and fixes plan, not a replacement beta week or an extension of the original dates. Keep Dec 1/full forty until Frozair decides otherwise.",
+    "note": "Nov 17 outcome review: the original Nov 16 PUBLIC submission checkpoint was unmet in inspected receipts. TestFlight 0.1.9 build 953 is acknowledged separately. Keep this Nov 16–22 recovery/fixes plan and every original date; it is not a replacement beta. Local island-pack proof and desktop shop gains do not complete current native, recovery or store gates.",
     "priorities": [
       {
         "id": "submission-decision",
-        "title": "Record the public-submission decision",
+        "title": "Recover the public-submission checkpoint",
         "owner": "Frozair store/release decision · delivery owner evidence",
-        "doneWhen": "Record actual Nov 16 public Apple/Google submission or hold, exact binaries and passed/missing gates. No approval or seven-day beta span is inferred from source/alpha progress.",
+        "doneWhen": "Record actual public Apple/Google submission/review or explicit hold, exact binaries and passed/missing gates. The original Nov 16 checkpoint is unmet; TestFlight and pack source progress do not establish public submission or seven beta days.",
         "refs": [
           55,
           58,
@@ -1665,16 +1697,16 @@
         "date": "2026-11-16",
         "label": "MON 16",
         "title": "Record submissions and exact inputs",
-        "focus": "Public submissions are due today. Actual morning source/owner receipts add five-minute common skies, guide analytics, 0.1.9 source cut and executed private-backup/alpha reset. No qualified public submission receipt is established.",
-        "proof": "Actual store states, binary/API identity and go/no-go; do not declare the full day missed early."
+        "focus": "Public submissions are due today. Actual morning source/owner receipts add five-minute common skies, guide analytics, 0.1.9 source cut and executed private-backup/alpha reset. No qualified public submission receipt is established. Actual outcome appended Nov 17 after the day elapsed: no qualifying public Apple/Google submission receipt was found; the original Nov 16 checkpoint is unmet. A TestFlight 0.1.9 build 953 record is scoped alpha evidence.",
+        "proof": "Actual store states, binary/API identity and go/no-go; do not declare the full day missed early. The original due date remains; this records its outcome rather than proposing a new date."
       },
       {
         "id": "tue-17",
         "date": "2026-11-17",
         "label": "TUE 17",
         "title": "Reconcile the submission outcome",
-        "focus": "Record Nov 16’s actual outcome after it elapses, then close candidate/source and client/server compatibility findings with owners.",
-        "proof": "Dated actual results, clean or explicitly dispositioned candidate failures; preserve original milestone history."
+        "focus": "Record the original Nov 16 public-submission checkpoint unmet after reconciling later owner receipts. Reconcile TestFlight build 953 and actual Android/API inputs; qualify newer pack/loader/wait and post-tag haptic/shop changes with their owners.",
+        "proof": "Actual public-review and binary/API/manifests, explicit current failures and scoped pack acceptance. Today’s remaining recovery targets are not presumed complete or expired early."
       },
       {
         "id": "wed-18",

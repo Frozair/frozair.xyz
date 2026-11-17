@@ -66,7 +66,7 @@ export interface ReleaseRoadmap {
   updatePolicy: { cadence: string; staleAfterDays: number; sourceLabel: string };
   islands: Island[];
   milestones: {
-    id: string; title: string; start: string; end: string; dateLabel: string;
+    id: string; title: string; start: string; end: string; dateLabel: string; checkpointDate?: string;
     state: "active" | "planned" | "complete" | "blocked"; outcome: string; owner: string; refs: number[]; gate: string;
   }[];
   work: {
@@ -210,7 +210,7 @@ export default function ReleaseRoadmapPage() {
   const tasks = roadmap.work.filter(task => task.lane === filter);
   const target = new Date(`${roadmap.targetDate}T12:00:00Z`);
   const briefMilestones = roadmap.milestones.filter(milestone => milestone.id !== "scope");
-  const blockedCheckpointDates = Array.from(new Set(roadmap.milestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.end))).sort();
+  const blockedCheckpointDates = Array.from(new Set(roadmap.milestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.checkpointDate ?? milestone.end))).sort();
   const actionNotes = { art: "Movement + hatch reveals", engine: "Android + physical iPhone", operations: "People + time + recovery" };
   const actionTitles = { art: "Finish creature art", engine: "Test the current build", operations: "Confirm time + help" };
   const focusNotes = { art: "Finish the creatures already underway.", engine: "Prove the opening and island loops.", operations: "Prove recovery and confirm capacity." };
