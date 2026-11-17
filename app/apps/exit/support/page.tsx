@@ -17,13 +17,15 @@ export default function ExitSupportPage() {
     <p>Drag between touching horizontal or vertical neighbors, then release on the last arrow. Diagonal links and jumps across gaps are not valid. Arrows clear in the order you selected, so an earlier arrow can open the way for the next. Tap the empty background to cancel a selection.</p>
     <h2>Out of moves</h2>
     <p>While moves remain, choose Undo to reconsider your last move. Running out of moves ends the attempt; choose Try again to restart the board. Both actions are free and do not trigger ads. Restart is also available in the menu during play. Your completed collection stays saved.</p>
+    <h2>Are hints shared between boards?</h2>
+    <p>No. Each board has three free hints of its own. Using a hint on one board does not reduce the hints available on another board. Restarting or replaying the same board does not refill its used hints. The Remove Ads purchase unlocks unlimited hints on every board.</p>
     <h2>Restore a Remove Ads purchase</h2>
     <p>Connect to the internet, use the same Apple App Store or Google Play account that made the purchase, then open EXIT Settings and choose Restore purchases. Restoration applies to purchases from that store; it does not transfer your saved puzzles between devices or platforms.</p>
     <p>Remove Ads removes all ads and unlocks unlimited hints. You do not need to watch a rewarded ad to use those hints. For a purchase problem, start by telling us the store, item and error message. Do not send passwords, payment-card details or authentication codes. We can ask for the minimum order information needed if a lookup is required.</p>
     <h2>Progress and reinstalling</h2>
     <p>EXIT saves puzzles, undo history, hints and preferences locally. Clearing app or browser storage can erase that progress. Purchase restoration does not restore puzzle progress. Avoid uninstalling or clearing storage as a first troubleshooting step.</p>
     <h2>Ads, hints and privacy choices</h2>
-    <p>Optional ads may be unavailable because of your connection, region, privacy choices or ad availability. Ordinary gameplay and the free hints do not require a rewarded ad. When available, Settings → Privacy choices opens the advertising privacy form.</p>
+    <p>Advertising is disabled during the initial release. When advertising is enabled and available, you can choose to watch a video for one extra hint. Optional ads may be unavailable because of your connection, region, privacy choices or ad availability. Ordinary gameplay, free hints, Undo while moves remain, and Try again do not require an ad. When available, Settings → Privacy choices opens the advertising privacy form.</p>
     <h2>Privacy requests</h2>
     <p>Email <a href="mailto:apps@frozair.xyz?subject=EXIT%20privacy%20request">apps@frozair.xyz</a> to ask about access, correction or deletion of information associated with you. Tell us the platform and type of request first; do not attach sensitive purchase details unless requested.</p>
     <p>See the <Link href="/apps/exit/privacy">EXIT privacy policy</Link> for local storage, purchases and third-party services.</p>
