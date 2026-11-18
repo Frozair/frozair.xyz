@@ -3,8 +3,8 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-17",
-  "nextReview": "2026-11-18",
+  "asOf": "2026-11-18",
+  "nextReview": "2026-11-19",
   "timezone": "America/Chicago",
   "health": "Critical risk",
   "healthNote": "The original Nov 16 public-submission checkpoint is unmet in recorded evidence. An owner receipt identifies TestFlight 0.1.9 build 953 and its displayed size, without public-review or full-candidate acceptance. Island-pack source and local-server Moto checks advanced; production pack delivery and remaining launch gates stay open.",
@@ -1286,7 +1286,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -9,
+    "daysToFreeze": -10,
     "minimumNewPerWeek": null,
     "islands": [
       {
