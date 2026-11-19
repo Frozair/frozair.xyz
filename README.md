@@ -65,13 +65,13 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 18**, not an invented November
+remain distinct. Latest director audit is **November 19**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
 retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
-with their dated outcomes appended. The current November 9–15 plan follows the missed freeze. Current priority is recovering phone proof.
+with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The active plan remains November 16–22 recovery/fixes; current priority is qualifying the delivered candidate.
 
 Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
@@ -85,11 +85,7 @@ are null and the page shows the checkpoint status instead of dividing by zero.
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
 complete qualification. Legacy `existingBanks21`, `missingBanks19` and resident.bank
-are package cohorts, not file inventory. Committed named ranch/reveal inventory is **35/35** after the four
-sets in b802d30aa7. Working inventory is **40/40** with five owner-held Swamp sets;
-five IDs lack committed banks. New local Sarcosuchus/Titanoboa content matches
-11/11 files each, built for later judgment with finish/join findings still open. Edaphosaurus has scoped
-built-bank/size/motion approval, with full source/reveal qualification still open. Snow’s eight ranch and
+are package cohorts, not file inventory. Named ranch/reveal inventory is now **40/40 committed and working**. ee2e7cae commits the five remaining Swamp sets; their 66 generated content files match installation. Sizes/strides remain provisional for in-game judgment, with complete source/reveal/native qualification open. Snow’s eight ranch and
 reveal sets and shop sheets are committed in ceeacea17b. Finish disposition and
 complete source and device qualification remain open.
 
@@ -122,7 +118,7 @@ is valid within its scope. The 706 alpha record and unverified 771 are historica
 A newer owner record identifies TestFlight 0.1.9 build 953 and displayed size, with
 public-group/API/manifest/Android-track and full-candidate limits still open. Initial device/backup/crash/store and
 isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
-backup list and open staging/monitoring and candidate qualification. The measurement baseline is committed; owner-held creature additions remain separate.
+backup list and open staging/monitoring and candidate qualification. The regenerated measurement baseline and all forty named sets are now committed; complete package qualification remains separate.
 0b3c2a98 records a corrected private row snapshot and executed alpha reset Nov 16,
 including dig/visit rows while retaining sign-ins. This does not close isolated
 restore/PITR/staging load or monitoring; older empty-backup observations stay dated. October 4 ops observations and October 20
@@ -218,9 +214,7 @@ duration) and consent-scoped guide analytics deployed Nov 16.
 make the first long-egg skip a required spotlighted lesson. Quick Hatch #85 is a
 separate liked design, not approved implementation. No IAP delivery follows.
 b7cb52f4 protects five-star Luck or Speed dinos from bulk/automatic release;
-manual release remains a player choice. Current snapshot receipts report 3,089
-passing checks plus sixteen failures attributed to working art/Sentry binaries,
-and an older freed-nest failure remains. No clean full-candidate result is inferred.
+manual release remains a player choice. The older 3,089/16 client snapshot is superseded by owner-recorded main 3187/0, Shop 6935/0 and island-goals 86/0 in 3199257e after committed stance/cache/test fixes. No newer disposition of the separate older freed-nest SQL finding was located; do not infer a runtime failure or a full SQL/native pass.
 
 49999450 records fresh Pixel/Moto transport play around35minutes without connection
 errors; this is not full-candidate thermal/all-five/iOS proof. Historical sky-cost
@@ -239,23 +233,18 @@ Older second-expansion ticket timing is superseded; one intro Gold remains.
 
 Historically the timed-spots/common-sky trial reached two debug accounts;
 the newer global-alpha receipt above supersedes that split. Pixel feedback prompted new presentation/haptic work,
-not full public-beta or iPhone acceptance. The Shunosaurus refresh is a separate
-owner-held Forest exception, not broad unparked polish; no public still replacement
-or source-package gain follows. Stance-pinned regression changes require current
-qualification and are not new foot-contact/native acceptance.
+not full public-beta or iPhone acceptance. 29aa7eac commits the Shunosaurus refresh, accepted by Frozair including the named 88/92 dig grain flags and 4.5× dig seam. Review used stills, a sheet and Shop render; in-game motion/current-consumer/phone qualification remains separate. Public stills and source cohorts stay unchanged. This is a scoped Forest exception. 26e7a2ed commits stance-pinned regression changes; it is not new foot-contact/native acceptance.
 
 
 Nov 17 source review adds island packs stages 1–3 (cf7d2547/e2c4affc/ebf6310d):
 species-specific fallback cards, art-only four-island packs/loader, resumable hashed
-downloads and boat/egg waits. Normal release presets retain full art. A LOCAL-server
+downloads and boat/egg waits. At that earlier stage, release presets retained full art. A LOCAL-server
 Moto check covers download/mount/relaunch/resume/offline retry/boat progress; cellular
-ask, egg wait and iOS remain unobserved on phone. Production pack URL/CDN/release-lane
-rollout remains open. Fallback cards do not replace immutable public roster portraits.
+ask, egg wait and iOS remain unobserved on phone. New Nov 18 commits b0560b20/85b89998 add production R2 delivery and default packs-base beta lanes, uploading packs before manifest; PACKS=off retains full art. An owner Forest-only Moto build downloaded all four production packs over Wi-Fi. New signed TestFlight/Play distribution and full iOS/cellular/egg-wait/recovery acceptance remain open. Fallback cards do not replace immutable public roster portraits.
 
 227e6954 adds vibration permission omitted from 0.1.9, so do not claim it already
 shipped in that build. 533b2a0b reports desktop-fixture Shop Buy 10–15→1.8ms,
-reply 10–14→0.8ms and 610→176 draw calls, not phone or pacing acceptance. Existing
-current-candidate failures and Boat/Frost/intro-retry findings remain open.
+reply 10–14→0.8ms and 610→176 draw calls, not phone or pacing acceptance. The older client failures are superseded by the green snapshot above. Remaining current-candidate qualification and Boat/Frost/intro-retry findings stay open.
 
 The submission milestone spans Nov16–30 but its actual submission checkpoint is
 Nov16. Optional milestone.checkpointDate drives the compact missed-date list before

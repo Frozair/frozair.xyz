@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "targetDate": "2026-12-01",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -231,7 +231,7 @@
           "role": "Compact long-neck",
           "status": "Approved look integrated",
           "rationale": "A low long neck and tail club finish Forest with a different body plan.",
-          "note": "The committed selected baseline remains integrated. A separate owner-held idle/happy/dig and reveal/shop refresh has recorded idle/happy finish passes and zero reveal finish failures, with full ranch findings still open. No fresh generated-output match or final hatch/phone acceptance is claimed; public stills and package counts remain unchanged.",
+          "note": "29aa7eac commits the idle/happy/dig, reveal and shop refresh. Frozair accepted it, specifically disposing 88/92 dig grain flags and the 4.5× dig seam. Current bank/PNG/shop content matches HEAD in 17/17 files. This approval was based on stills, a sheet and Shop render; in-game motion, current-consumer and phone qualification remain separate. Public stills and source-package counts are unchanged.",
           "habitat": {
             "rating": "conditional",
             "confidence": "low",
@@ -582,7 +582,7 @@
           "role": "Sail-backed quadruped",
           "status": "First package · local source in review",
           "rationale": "Tall sail plus low body gives Swamp a different shape from Sucho.",
-          "note": "Owner-held local ranch and reveal sets match all 15 generated content files. Reports record 12 ranch and three reveal takes, flagging 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source qualification and integration remain open.",
+          "note": "ee2e7cae commits the ranch/reveal/shop set; all 15 generated content files match. Recorded reports flag 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source and native qualification remain open; current Swamp size/stride values remain provisional for in-game judgment.",
           "habitat": {
             "rating": "conditional",
             "confidence": "medium",
@@ -608,7 +608,7 @@
           "role": "Broad-muzzled long-neck",
           "status": "First package · local source in review",
           "rationale": "The broad muzzle and low long neck add a gentle herbivore.",
-          "note": "Owner-held local ranch/reveal banks match 14/14 generated content files. Recorded reports flag 965 ranch and 199 reveal frames. Frozair asked to build and judge afterward; current scale/stride values remain provisional. Complete source and native qualification remain open.",
+          "note": "ee2e7cae commits the ranch/reveal/shop set; all 14 generated content files match. Recorded reports flag 965 ranch and 199 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -634,7 +634,7 @@
           "role": "Boomerang head",
           "status": "First package · local source in review",
           "rationale": "A wide boomerang head adds a strange, immediately recognisable shape.",
-          "note": "Owner-held local ranch/reveal banks match 15/15 generated content files. Recorded reports flag 726 ranch and 175 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source, wetland contact and native qualification remain open.",
+          "note": "ee2e7cae commits the ranch/reveal/shop set; all 15 generated content files match. Recorded reports flag 726 ranch and 175 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source, wetland contact and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -695,7 +695,7 @@
           "role": "Long low crocodilian",
           "status": "First package · local source in review",
           "rationale": "Adds a recognisable crocodilian body.",
-          "note": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 620 ranch and 88 reveal frames. Nov 11 authorization was to build and judge afterward; current scale/stride and whole-source, wetland and native qualification remain open.",
+          "note": "ee2e7cae commits the ranch/reveal/shop set; all 11 generated content files match. Recorded reports flag 620 ranch and 88 reveal frames. Built for later judgment; current scale/stride and whole-source, wetland and native qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -725,7 +725,7 @@
           "role": "Coiled serpent",
           "status": "First package · local source in review",
           "rationale": "The most unusual body plan in the Swamp set.",
-          "note": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment on Nov 12: it uncoils without returning to the coiled rest, happy begins stretched and locomotion strides are provisional. Joins, continuous-body motion and complete qualification remain open.",
+          "note": "ee2e7cae commits the ranch/reveal/shop set; all 11 generated content files match. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment: the stretched/coiled handoff and locomotion strides remain provisional. Joins, continuous-body motion and complete qualification remain open.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",

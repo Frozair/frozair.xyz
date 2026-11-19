@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-18",
-  "nextReview": "2026-11-19",
+  "asOf": "2026-11-19",
+  "nextReview": "2026-11-20",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The original Nov 16 public-submission checkpoint is unmet in recorded evidence. An owner receipt identifies TestFlight 0.1.9 build 953 and its displayed size, without public-review or full-candidate acceptance. Island-pack source and local-server Moto checks advanced; production pack delivery and remaining launch gates stay open.",
+  "healthNote": "The original Nov 16 public-submission checkpoint remains unmet in recorded evidence. All forty named ranch/reveal banks are now committed. New owner receipts record green client checks and all four packs downloading from production R2 on Moto Wi-Fi; current signed delivery, whole-package and remaining launch acceptance stay open.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze + Nov 15 beta + Nov 16 submissions unmet · full target 40",
   "releaseIslandCount": 5,
@@ -133,7 +133,7 @@
           "detail": "Owner-recorded scoped Moto world/render observations now exist. Full loops, exact final cast/variants, expansion stages, sustained performance and physical iOS acceptance remain open."
         }
       ],
-      "next": "Preserve the full launch home and production scope. Finish the owner-held source contracts and final world/device qualification before lifting the beta coming-soon gate.",
+      "next": "Preserve the full launch home and production scope. Finish the remaining complete source contracts and final world/device qualification before lifting the beta coming-soon gate.",
       "gateLabel": "Content acceptance"
     },
     {
@@ -205,7 +205,7 @@
           "detail": "Fernlands environment prefetch is now committed in 4afd314f21. The exact release-candidate loop, hatch/reveal, Book/Nursery, endurance and physical iOS checks remain open."
         }
       ],
-      "next": "Preserve the full launch home and production scope. Finish the owner-held source contracts and final world/device qualification before lifting the beta coming-soon gate.",
+      "next": "Preserve the full launch home and production scope. Finish the remaining complete source contracts and final world/device qualification before lifting the beta coming-soon gate.",
       "gateLabel": "Oct 25 / Nov 1 gates unmet"
     }
   ],
@@ -327,7 +327,7 @@
       ],
       "status": "Alpha advances · public beta unestablished",
       "why": "9c683b02 commits previously owner-held skies, visit log, island ladders and Amber flow. b2abb184 records global timed digs and three Forest nests on alpha, with a scoped Moto check. 83f0af78 records five-minute common skies and guide analytics on alpha. The 0.1.9 source cut and executed alpha reset are new progress; signed/public delivery and beta resumption remain unrecorded. A newer owner record identifies TestFlight 0.1.9 build 953 and a displayed installed size. Its group, exact source manifest and public availability are unestablished; later pack/vibration/shop source is separate.",
-      "doneWhen": "Pin exact binary/backend/API inputs and qualify current three-island loops, intro retry guidance and current source failures. Record actual public access/testing and Frozair’s release direction. Keep original missed dates; do not infer a new beta week or automatic retuning."
+      "doneWhen": "Pin exact binary/backend/API inputs and qualify current three-island loops, intro retry guidance and remaining current-candidate gaps. Record actual public access/testing and Frozair’s release direction. Keep original missed dates; do not infer a new beta week or automatic retuning."
     },
     {
       "id": "fern-slice",
@@ -450,7 +450,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "All forty species have named working ranch/reveal banks, 35 committed and five owner-held Swamp sets. Whole-source counts remain 10 integrated/11 redos/19 first pending. The narrower beta scope does not cut the full forty-species launch roster.",
+      "why": "All forty species now have committed named ranch/reveal banks. The five Swamp sets landed in ee2e7cae with provisional sizes/strides. Shunosaurus’s refreshed set is committed and its named grain/seam findings accepted. Whole-source counts remain 10 integrated/11 redos/19 first pending; the narrower beta scope does not cut the full launch roster.",
       "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
     },
     {
@@ -467,7 +467,7 @@
         31
       ],
       "status": "Original Nov 15 beta gate unmet",
-      "why": "Owner-recorded TestFlight 0.1.9 build 953 is new alpha evidence. Exact manifest/API, Android track and full candidate scope remain unestablished. Local-server Moto pack download/mount/resume/relaunch proof is scoped; cellular ask, egg wait and iOS packs remain unobserved on phone. Current full native/recovery acceptance remains open.",
+      "why": "TestFlight 0.1.9 build 953 remains the last named app receipt; exact manifest/API, Android track and full candidate scope remain unestablished. New owner proof records a Forest-only Moto build downloading all four packs from production R2 over Wi-Fi. Beta lanes now default to packs-base, with PACKS=off retaining full art. New signed/store delivery, cellular ask, egg wait, iOS and full recovery/endurance qualification remain open.",
       "doneWhen": "Close overdue initial device/ops evidence; isolated hosted restore and staging load remain Nov 1. Final candidate recovery/endurance regression stays Nov 15."
     },
     {
@@ -582,16 +582,16 @@
       "due": "2026-11-16"
     },
     {
-      "title": "Current source snapshot is not a clean pass",
+      "title": "Current candidate qualification remains incomplete",
       "level": "High",
-      "action": "Owner commit receipts record 3,089 passing checks plus 16 failures attributed to working creature art and Sentry binaries; a nest receipt retains an older freed-nest failure. Resolve or explicitly disposition exact-candidate failures with owners. Historical scoped green results do not establish a new full pass.",
+      "action": "3199257e records owner main 3187/0, Shop 6935/0 and island-goals 86/0 after committed stance/cache/test fixes, superseding the older sixteen-failure client snapshot. No newer SQL freed-nest disposition was located; that older test gap is separate, not a diagnosed runtime failure. Exact inputs, SQL scope and signed-device acceptance remain open.",
       "owner": "Integration/art/release owners",
       "due": "2026-11-16"
     },
     {
       "title": "Island-pack delivery needs separate qualification",
       "level": "High",
-      "action": "Committed stages 1–3 have local-server Moto download/mount/resume/relaunch proof. Normal release presets still retain all art; the production pack URL/rollout is not established. Cellular ask, egg wait, iOS, offline/cache recovery and exact pack/base manifests need scoped acceptance before switching production delivery.",
+      "action": "85b89998 records a Forest-only Moto build downloading all four packs from production R2 over Wi-Fi. Beta lanes now upload packs before manifest and export packs-base by default; PACKS=off uses full art. New signed TestFlight/Play delivery, cellular ask, egg wait, iOS and full cache/recovery qualification still require exact-candidate evidence.",
       "owner": "Pack/release owners · Frozair direction",
       "due": "2026-11-22"
     },
@@ -626,7 +626,7 @@
     {
       "title": "Unproven body types and wetland behavior",
       "level": "High",
-      "action": "Sarcosuchus and Titanoboa now have local banks, built for later judgment. Titan’s stretched/coiled handoff and provisional stride remain open; qualify continuous-body motion, Mammoth weight, wetland access, duplicates and service clearance on current consumers and devices.",
+      "action": "Sarcosuchus and Titanoboa now have committed banks, built for later judgment. Titan’s stretched/coiled handoff and provisional stride remain open; qualify continuous-body motion, Mammoth weight, wetland access, duplicates and service clearance on current consumers and devices.",
       "owner": "Frozair + Codex",
       "due": "2026-10-25"
     },
@@ -714,6 +714,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-19",
+      "text": "All forty ranch/reveal banks are committed; whole-source cohorts remain 10/11/19. Shunosaurus’s named grain/seam findings are accepted. Owner receipts supersede the older failing client snapshot with main 3187/0, Shop 6935/0 and island-goals 86/0, and add all four production R2 pack downloads on Moto Wi-Fi. Release lanes now default to packs-base; new signed/store, full native and recovery acceptance remain open. Original dates are unchanged."
+    },
     {
       "date": "2026-11-17",
       "text": "Original Nov 16 public-submission checkpoint recorded unmet after the day elapsed. An owner TestFlight 0.1.9 build 953 record supersedes blanket source-only wording. Island-pack stages 1–3 add local-server Moto proof; production rollout/iOS remain open. Shop performance gains are desktop-fixture measurements. Source-package cohorts and original dates remain unchanged."
@@ -856,6 +860,18 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Committed forty and scoped art decisions · Nov 19 review",
+      "detail": "At game HEAD 3199257ec5ff1e638f64d088c47562d167c9035a, ee2e7cae commits five Swamp sets; 66/66 generated content files match installation. Named ranch/reveal inventory is 40/40 committed and working. 29aa7eac commits the Shunosaurus refresh with Frozair’s explicit acceptance of 88/92 dig grain flags and the 4.5× dig seam; current content matches HEAD in 17/17 files. Stills/sheet/Shop review does not establish in-game motion or phone acceptance. Swamp size/stride values remain provisional; 10/11/19 cohorts are unchanged."
+    },
+    {
+      "label": "Green client snapshot · owner Nov 18, reviewed Nov 19",
+      "detail": "26e7a2ed commits source-PNG stance pinning for 22 approved front/back views; 01742568 aligns Coming soon expectations and Shop test setup. 3199257e commits regenerated measurements and records main 3187/0, Shop 6935/0 and island-goals 86/0. These supersede the older sixteen-failure client/cache snapshot, not SQL, native or full-candidate acceptance. No newer disposition of the separate older freed-nest SQL finding was located. Maintenance ran no game checks."
+    },
+    {
+      "label": "Production R2 packs and release lanes · owner Nov 18",
+      "detail": "b0560b20 sets the production pack URL; 85b89998 makes beta lanes build/upload packs before manifest and export Forest-only packs-base, with PACKS=off retaining full art. The owner records all four packs downloaded from production R2 over Wi-Fi by a Forest-only Moto build. This supersedes local-server-only/no-CDN and wholly-future stage-four claims. No newer qualified TestFlight/Play distribution, iOS/cellular/egg-wait or full recovery acceptance was located; maintenance performed no game, device or hosted operation."
+    },
     {
       "label": "Original public-submission outcome · Nov 17",
       "detail": "After Nov 16 elapsed, no qualifying PUBLIC Apple/Google submission/review receipt was found. Original Nov 16 checkpoint is UNMET; Nov 17–30 fixes window and Dec 1 target remain. The complete prior beta-week history and active Nov 16–22 recovery plan are retained, with actual outcomes appended rather than rolled dates."
@@ -1229,7 +1245,7 @@
           56,
           57
         ],
-        "outcome": "Reconcile TestFlight build 953 and the actual Android distribution/API, then prove signed current three-island hatchery, travel, persistence and recovery. Later pack, vibration and shop changes postdate the 0.1.9 source cut. Record actual public-review dates and remaining gates; alpha and local-pack evidence do not close them.",
+        "outcome": "Reconcile TestFlight build 953 and actual Android distribution/API, then prove signed current three-island hatchery, travel, persistence and recovery. Release lanes now default to Forest-only base plus production packs; the owner recorded all four R2 downloads on Moto Wi-Fi. Record exact delivered inputs and actual public-review dates; this scoped check does not close them.",
         "species": [
           "TestFlight 953: recorded",
           "Current inputs: open",
@@ -1249,9 +1265,9 @@
           23,
           75
         ],
-        "outcome": "All forty species now have named working banks. Qualify committed sets and the five owner-held Swamp sets, including the new Sarcosuchus/Titanoboa candidates. Thirty complete source packages, Brachio R8 matching and final world checks remain open.",
+        "outcome": "All forty species now have committed ranch/reveal banks. Qualify complete packages with their owners; the five Swamp sets retain provisional size/stride judgment. Shunosaurus’s named grain/seam findings are accepted. Thirty source contracts, Brachio R8 matching and final world/native checks remain open.",
         "species": [
-          "35 committed / 40 working",
+          "40 committed / 40 working",
           "30 packages pending",
           "Full launch: 40"
         ]
@@ -1280,13 +1296,13 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. All forty have named working ranch/reveal banks; 35 are committed. Edaphosaurus, Nigersaurus, Diplocaulus, Sarcosuchus and Titanoboa are owner-held working sets. File coverage does not close source or final acceptance. The original Nov 8 freeze was unmet.",
+    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. All forty have committed named ranch/reveal banks; working inventory is also 40/40. Five Swamp sets landed in ee2e7cae with provisional sizes/strides for in-game judgment. File coverage does not close source or final acceptance. The original Nov 8 freeze was unmet.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -10,
+    "daysToFreeze": -11,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1355,7 +1371,7 @@
             "name": "Shunosaurus",
             "image": "/stompy-acres/roster/shunosaurus.webp",
             "bank": "available",
-            "detail": "The committed selected baseline remains integrated. A separate owner-held idle/happy/dig and reveal/shop refresh has recorded idle/happy finish passes and zero reveal finish failures, with full ranch findings still open. No fresh generated-output match or final hatch/phone acceptance is claimed; public stills and package counts remain unchanged.",
+            "detail": "29aa7eac commits the idle/happy/dig, reveal and shop refresh. Frozair accepted it, specifically disposing 88/92 dig grain flags and the 4.5× dig seam. Current bank/PNG/shop content matches HEAD in 17/17 files. This approval was based on stills, a sheet and Shop render; in-game motion, current-consumer and phone qualification remain separate. Public stills and source-package counts are unchanged.",
             "productionStatus": "integrated"
           }
         ]
@@ -1457,7 +1473,7 @@
             "name": "Edaphosaurus",
             "image": "/stompy-acres/roster/edaphosaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch and reveal sets match all 15 generated content files. Reports record 12 ranch and three reveal takes, flagging 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source qualification and integration remain open.",
+            "detail": "ee2e7cae commits the ranch/reveal/shop set; all 15 generated content files match. Recorded reports flag 711 ranch and 90 reveal frames. The recipe records Nov 9 built-bank, size and motion approval. Whole reveal/source and native qualification remain open; current Swamp size/stride values remain provisional for in-game judgment.",
             "productionStatus": "missing"
           },
           {
@@ -1465,7 +1481,7 @@
             "name": "Nigersaurus",
             "image": "/stompy-acres/roster/nigersaurus.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch/reveal banks match 14/14 generated content files. Recorded reports flag 965 ranch and 199 reveal frames. Frozair asked to build and judge afterward; current scale/stride values remain provisional. Complete source and native qualification remain open.",
+            "detail": "ee2e7cae commits the ranch/reveal/shop set; all 14 generated content files match. Recorded reports flag 965 ranch and 199 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source and native qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1473,7 +1489,7 @@
             "name": "Diplocaulus",
             "image": "/stompy-acres/roster/diplocaulus.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch/reveal banks match 15/15 generated content files. Recorded reports flag 726 ranch and 175 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source, wetland contact and native qualification remain open.",
+            "detail": "ee2e7cae commits the ranch/reveal/shop set; all 15 generated content files match. Recorded reports flag 726 ranch and 175 reveal frames. Frozair asked to build and judge afterward; scale/stride values remain provisional. Complete source, wetland contact and native qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1489,7 +1505,7 @@
             "name": "Sarcosuchus",
             "image": "/stompy-acres/roster/sarcosuchus.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 620 ranch and 88 reveal frames. Nov 11 authorization was to build and judge afterward; current scale/stride and whole-source, wetland and native qualification remain open.",
+            "detail": "ee2e7cae commits the ranch/reveal/shop set; all 11 generated content files match. Recorded reports flag 620 ranch and 88 reveal frames. Built for later judgment; current scale/stride and whole-source, wetland and native qualification remain open.",
             "productionStatus": "missing"
           },
           {
@@ -1497,7 +1513,7 @@
             "name": "Titanoboa",
             "image": "/stompy-acres/roster/titanoboa.webp",
             "bank": "missing",
-            "detail": "Owner-held local ranch/reveal banks match 11/11 generated content files. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment on Nov 12: it uncoils without returning to the coiled rest, happy begins stretched and locomotion strides are provisional. Joins, continuous-body motion and complete qualification remain open.",
+            "detail": "ee2e7cae commits the ranch/reveal/shop set; all 11 generated content files match. Recorded reports flag 966 ranch and 181 reveal frames. Built for later judgment: the stretched/coiled handoff and locomotion strides remain provisional. Joins, continuous-body motion and complete qualification remain open.",
             "productionStatus": "missing"
           }
         ]
@@ -1654,7 +1670,7 @@
     "start": "2026-11-16",
     "end": "2026-11-22",
     "title": "Submission decision. Candidate and recovery proof.",
-    "note": "Nov 17 outcome review: the original Nov 16 PUBLIC submission checkpoint was unmet in inspected receipts. TestFlight 0.1.9 build 953 is acknowledged separately. Keep this Nov 16–22 recovery/fixes plan and every original date; it is not a replacement beta. Local island-pack proof and desktop shop gains do not complete current native, recovery or store gates.",
+    "note": "Nov 19 review retains the original unmet Nov 16 PUBLIC submission checkpoint and the Nov 16–22 recovery/fixes plan. Owner receipts add all forty committed banks, green client checks and production R2/Moto Wi-Fi pack proof. These do not complete current signed delivery, native, recovery or store gates; this is not a replacement beta.",
     "priorities": [
       {
         "id": "submission-decision",
@@ -1671,7 +1687,7 @@
         "id": "candidate-recovery",
         "title": "Qualify the exact current candidate",
         "owner": "Integration/native owners · Frozair device acceptance",
-        "doneWhen": "Close current snapshot failures and client/API matching; qualify hatchery, travel, persistence, Boat/intro guidance and endurance on signed Android/physical iPhone under separate task authorization.",
+        "doneWhen": "Pin the green client snapshot and remaining SQL/client/API scope; qualify hatchery, travel, persistence, Boat/intro guidance and endurance on signed Android/physical iPhone under separate task authorization.",
         "refs": [
           84,
           56,
@@ -1713,7 +1729,7 @@
         "date": "2026-11-18",
         "label": "WED 18",
         "title": "Prove current phone loops",
-        "focus": "Qualify current accessible-island hatchery, Nursery/Book, shop, travel and persistence on signed Android and physical iPhone under owner authorization.",
+        "focus": "Qualify current accessible-island hatchery, Nursery/Book, shop, travel and persistence on signed Android and physical iPhone under owner authorization. Actual Nov 18 receipts, reviewed Nov 19: all forty banks committed, source checks main 3187/0, Shop 6935/0 and island-goals 86/0; Forest-only Moto downloaded all four packs from production R2 over Wi-Fi. Full signed-phone loops remain unestablished.",
         "proof": "Exact candidate, devices, cases and limits; assisted/debug/old-consumer evidence remains scoped."
       },
       {
@@ -1721,7 +1737,7 @@
         "date": "2026-11-19",
         "label": "THU 19",
         "title": "Prove restore and load",
-        "focus": "Recover isolated restore, staging load and monitoring receipts with authorized operations owners. Retain the private row snapshot/reset evidence without promoting it to a restore drill.",
+        "focus": "Recover isolated restore, staging load and monitoring receipts with authorized operations owners. Retain the private row snapshot/reset evidence without promoting it to a restore drill. Nov 19 review found no newer isolated restore/load, monitoring or qualified public delivery receipt; the day’s remaining targets are not presumed complete or expired early.",
         "proof": "Actual restore/load/crash/monitoring receipts and named remaining access decisions; no maintenance hosted operations."
       },
       {
@@ -1729,7 +1745,7 @@
         "date": "2026-11-20",
         "label": "FRI 20",
         "title": "Record complete content output",
-        "focus": "Qualify committed creature packages and owner-held sets against current consumers; record accepted output and rework. Keep later alpha islands held until owner direction changes.",
+        "focus": "Qualify the forty committed creature sets against current consumers; record accepted output and rework. Keep later alpha islands held until owner direction changes.",
         "proof": "Whole source contracts and remaining capacity, without turning forty named working banks into forty accepted species."
       },
       {
