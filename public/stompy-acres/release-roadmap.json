@@ -3,8 +3,8 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-20",
-  "nextReview": "2026-11-21",
+  "asOf": "2026-11-21",
+  "nextReview": "2026-11-22",
   "timezone": "America/Chicago",
   "health": "Critical risk",
   "healthNote": "The original Nov 16 public-submission checkpoint remains unmet in recorded evidence. All forty named ranch/reveal banks are now committed. New owner receipts record green client checks and all four packs downloading from production R2 on Moto Wi-Fi; current signed delivery, whole-package and remaining launch acceptance stay open.",
@@ -1302,7 +1302,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -12,
+    "daysToFreeze": -13,
     "minimumNewPerWeek": null,
     "islands": [
       {
