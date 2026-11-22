@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-21",
-  "nextReview": "2026-11-22",
+  "asOf": "2026-11-22",
+  "nextReview": "2026-11-23",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "The original Nov 16 public-submission checkpoint remains unmet in recorded evidence. All forty named ranch/reveal banks are now committed. New owner receipts record green client checks and all four packs downloading from production R2 on Moto Wi-Fi; current signed delivery, whole-package and remaining launch acceptance stay open.",
+  "healthNote": "Owner receipts now record completed Apple age-rating and Play App content forms, plus Sentry event ingestion, release-symbol uploads and alert configuration/fire. Public submission, current signed-candidate, whole-package and recovery acceptance remain open. The original missed checkpoints and Dec 1 target are unchanged; today’s recovery review is due, not a completed gate.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze + Nov 15 beta + Nov 16 submissions unmet · full target 40",
   "releaseIslandCount": 5,
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All forty source homes retain pinned seed-last proof. Current alpha access is Forest/Giants/Snow, with later islands held. Historical baseline: October 18 internal 706 and its recorded source counts; 771 distribution remains unverified history. A newer owner record identifies TestFlight 0.1.9 build 953 and its displayed installed size. Public/external group, exact source/API manifest, Android track and current full-candidate acceptance remain unestablished. Neither the older 0.1.8 tag nor this bounded TestFlight receipt closes public release gates.",
+    "note": "All forty source homes retain pinned seed-last proof. Current alpha access is Forest/Giants/Snow, with later islands held. Historical baseline: October 18 internal 706 and its recorded source counts; A newer owner receipt records Sentry events labeled 0.1.7+771; that is crash-transport evidence, not verified store distribution. A newer owner record identifies TestFlight 0.1.9 build 953 and its displayed installed size. Public/external group, exact source/API manifest, Android track and current full-candidate acceptance remain unestablished. Neither the older 0.1.8 tag nor this bounded TestFlight receipt closes public release gates.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -416,9 +416,9 @@
         7,
         57
       ],
-      "status": "Private row backup/reset recorded · restore/load open",
-      "why": "0b3c2a98 records the owner’s corrected snapshot/reset actually running Nov 16, including dig and visit rows while retaining sign-ins. This is new scoped backup/operation evidence. It does not prove isolated restore, provider backup/PITR, staging load or monitoring; the original Nov 1 recovery gate remains unmet.",
-      "doneWhen": "Recover separately authorized isolated restore/load and current backup/crash/device/store proof. Keep normal ownership, eggs, Bag, history and events safe. Maintenance performs no hosted query, reset, migration or game build."
+      "status": "Monitoring recorded · restore/load open",
+      "why": "0b3c2a98 records the private row backup and executed Nov 16 alpha reset. c1732906 records owner verification of Sentry release/dev events, uploaded release symbols and a configured high-priority alert last fired Nov 17. This closes the scoped monitoring checklist item; isolated restore, provider backup/PITR, staging load and full current-candidate recovery remain open.",
+      "doneWhen": "Recover separately authorized isolated restore/load and current candidate/device/store proof. Retain the scoped monitoring receipt without inferring symbolicated-crash or recipient-mailbox verification. Maintenance performs no hosted query, reset, migration or game build."
     },
     {
       "id": "economy",
@@ -480,7 +480,7 @@
         58
       ],
       "status": "Original Nov 16 checkpoint unmet",
-      "why": "After Nov 16 elapsed, no qualifying Apple/Google PUBLIC submission receipt was found. TestFlight build 953 and uploaded listings/screenshots do not establish public review or a seven-day beta. Keep the original date and record actual store states and candidate readiness.",
+      "why": "c1732906 records Apple 4+ questionnaire API readback and completed Play App content/IARC declarations for the current no-IAP build. Play answers go for review with the next submission. Listings/screenshots and TestFlight 953 remain scoped prior receipts; no qualifying PUBLIC Apple/Google submission or approval was located. The original Nov 16 checkpoint remains unmet.",
       "doneWhen": "Record actual public Apple/Google submission/review receipts or the explicit hold, exact binaries and passed/missing gates. Preserve original Nov 16 and Dec 1; do not silently roll dates or label alpha delivery as public submission."
     },
     {
@@ -647,14 +647,14 @@
     {
       "title": "Public review is external",
       "level": "High",
-      "action": "Original Nov 16 public-submission checkpoint was unmet in inspected receipts. Recover actual public review setup/submissions; approval timing remains external. Keep the original fixes window and Dec 1 target visible rather than silently shifting them.",
+      "action": "Apple age-rating and Play App content forms are completed per the owner Nov 21 receipt. Play review accompanies the next submission; no public approval follows from saved forms. The original Nov 16 public-submission checkpoint remains unmet. Legal/privacy review and qualified candidates stay open against the unchanged Dec 1 target.",
       "owner": "Frozair + Codex",
       "due": "2026-11-16"
     },
     {
       "title": "Recovery is not yet proven",
       "level": "Critical",
-      "action": "The owner now records a private row backup and executed alpha reset including the added dig/visit tables. Isolated restore, provider backup/PITR, staging load and monitoring remain unproved. Treat the earlier Nov 7 empty-backup list as historical, not a current blanket no-backup claim.",
+      "action": "Private row backup/reset and the scoped Sentry monitoring checklist now have owner receipts. Isolated restore, provider backup/PITR, staging load and full candidate recovery remain unproved. Monitoring covers event ingestion, release symbols and alert configuration/fire; separate symbolication and recipient-mailbox verification are not established.",
       "owner": "Codex + Frozair",
       "due": "2026-11-01"
     }
@@ -678,12 +678,12 @@
     {
       "label": "Saves + operations",
       "state": "partial",
-      "proof": "Update/reinstall/account-link recovery, hosted backup and isolated restore, crash receipt, load/rollback evidence. No known critical data or duplication faults."
+      "proof": "Owner event ingestion, release-symbol uploads and alert configuration/fire are recorded. Update/reinstall/account-link recovery, hosted backup/isolated restore, current candidate crash handling and load/rollback evidence still require acceptance. No known critical data or duplication faults."
     },
     {
       "label": "Both stores approved",
       "state": "open",
-      "proof": "Public approvals for exact candidates, with listings, audience, privacy disclosures and account deletion verified. Beta scope excludes in-app purchases; paid release requirements depend on the launch decision."
+      "proof": "Public approvals for exact candidates, with listings, privacy and deletion verified. Apple age-rating and Play App content forms now have completion receipts; public review/approval and legal/privacy acceptance remain separate. Beta excludes in-app purchases; launch revenue remains a decision."
     },
     {
       "label": "Director acceptance",
@@ -714,6 +714,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-22",
+      "text": "Owner Nov 21 receipts complete Apple age-rating and Play App content forms and the scoped Sentry monitoring checklist. Play review awaits the next submission; public delivery/approval, legal/privacy, full candidate and recovery gates remain separate. Forty-bank inventory and 10/11/19 source cohorts are unchanged. The existing Nov 22 recovery checkpoint is due today; original milestone dates and complete weekly history remain."
+    },
     {
       "date": "2026-11-19",
       "text": "All forty ranch/reveal banks are committed; whole-source cohorts remain 10/11/19. Shunosaurus’s named grain/seam findings are accepted. Owner receipts supersede the older failing client snapshot with main 3187/0, Shop 6935/0 and island-goals 86/0, and add all four production R2 pack downloads on Moto Wi-Fi. Release lanes now default to packs-base; new signed/store, full native and recovery acceptance remain open. Original dates are unchanged."
@@ -860,6 +864,14 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Store-form completion · owner Nov 21, reviewed Nov 22",
+      "detail": "c17329063179549f3f2f98ab9a4c65fa9539a99c records the Apple 2025 questionnaire set through the API and read back as 4+, plus completed Play IARC/App content declarations. Frozair chose Loot Boxes: No for the current earned-cash egg build; this is not paid-random-reward or future monetization approval. Answers must be revisited if real money/Amber can buy eggs or bags. Play review accompanies the next submission; public submission/approval and kids’-privacy legal review remain open. Maintenance neither accessed stores nor changed forms."
+    },
+    {
+      "label": "Scoped Sentry monitoring · owner Nov 21, reviewed Nov 22",
+      "detail": "c1732906 marks the monitoring checklist done: release 0.1.7+771 and dev events reached Sentry; release symbols were uploaded for 0.1.9 on Nov 16 and 0.1.8 on Nov 12; the high-priority alert routes to issue owners/fallback active members and last fired Nov 17. Retire the new-token/read-scope blocker. This is owner-recorded ingestion, artifact-upload and rule configuration/fire evidence, not separate symbolication, recipient-mailbox, current signed-candidate, recovery or capacity acceptance. No credentials or hosted queries were used by maintenance."
+    },
     {
       "label": "Committed forty and scoped art decisions · Nov 19 review",
       "detail": "At game HEAD 3199257ec5ff1e638f64d088c47562d167c9035a, ee2e7cae commits five Swamp sets; 66/66 generated content files match installation. Named ranch/reveal inventory is 40/40 committed and working. 29aa7eac commits the Shunosaurus refresh with Frozair’s explicit acceptance of 88/92 dig grain flags and the 4.5× dig seam; current content matches HEAD in 17/17 files. Stills/sheet/Shop review does not establish in-game motion or phone acceptance. Swamp size/stride values remain provisional; 10/11/19 cohorts are unchanged."
@@ -1285,9 +1297,9 @@
           57,
           58
         ],
-        "outcome": "An owner-recorded private row backup and alpha reset advanced. Isolated restore, staging load, monitoring and qualified public-store delivery remain open. Record actual submission status today and credible capacity for the remaining launch work.",
+        "outcome": "The owner records private row backup/reset and now Sentry event ingestion, release symbols and alert configuration/fire. Apple age-rating and Play App content forms are completed. Isolated restore, staging load, legal/privacy review and qualified public-store delivery remain open. Record exact candidate and remaining capacity against the original dates.",
         "species": [
-          "Row backup: recorded",
+          "Monitoring: recorded",
           "Restore/load: open",
           "Public candidate: open"
         ]
@@ -1302,7 +1314,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -13,
+    "daysToFreeze": -14,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1670,7 +1682,7 @@
     "start": "2026-11-16",
     "end": "2026-11-22",
     "title": "Submission decision. Candidate and recovery proof.",
-    "note": "Nov 19 review retains the original unmet Nov 16 PUBLIC submission checkpoint and the Nov 16–22 recovery/fixes plan. Owner receipts add all forty committed banks, green client checks and production R2/Moto Wi-Fi pack proof. These do not complete current signed delivery, native, recovery or store gates; this is not a replacement beta.",
+    "note": "Nov 19 review retains the original unmet Nov 16 PUBLIC submission checkpoint and the Nov 16–22 recovery/fixes plan. Owner receipts add all forty committed banks, green client checks and production R2/Moto Wi-Fi pack proof. These do not complete current signed delivery, native, recovery or store gates; this is not a replacement beta. Nov 22 morning review adds completed store forms and scoped Sentry monitoring. Today’s existing recovery checkpoint is due and full gate recovery remains unpassed in inspected evidence; keep this complete week through today without declaring the full day missed.",
     "priorities": [
       {
         "id": "submission-decision",
@@ -1761,7 +1773,7 @@
         "date": "2026-11-22",
         "label": "SUN 22",
         "title": "Review remaining launch gates",
-        "focus": "Record actual candidate, content, operations and store outcomes and their consequences for the retained Dec 1 target.",
+        "focus": "Record actual candidate, content, operations and store outcomes and their consequences for the retained Dec 1 target. Actual Nov 22 morning review: Apple age-rating and Play App content forms completed; Sentry ingestion, release symbols and alert configuration/fire recorded. Thirty source packages plus current native, restore/load and public-store gates remain open. The checkpoint is due today, not a new launch or beta date.",
         "proof": "Passed gates and unfinished scope/capacity made explicit for Frozair; no silent roster cut or date change."
       }
     ],

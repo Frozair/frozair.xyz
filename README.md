@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 21**, not an invented November
+remain distinct. Latest director audit is **November 22**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -114,15 +114,30 @@ Latest full-loop owner receipt remains October 26's assisted Moto fixture: unloc
 chain, Fernlands starter/shop/Iguanodon hatch/work and kill/relaunch. Sell/expansion/
 return/full Book-shop and a complete physical-iOS island loop remain unrecorded. Pixel was dropped from this
 proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world evidence
-is valid within its scope. The 706 alpha record and unverified 771 are historical.
+is valid within its scope. The 706 alpha record is historical. New owner Sentry evidence records release0.1.7+771 events; this is crash transport, not a verified distribution track.
 A newer owner record identifies TestFlight 0.1.9 build 953 and displayed size, with
-public-group/API/manifest/Android-track and full-candidate limits still open. Initial device/backup/crash/store and
-isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
+public-group/API/manifest/Android-track and full-candidate limits still open. Current candidate/device, public-store and isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
 backup list and open staging/monitoring and candidate qualification. The regenerated measurement baseline and all forty named sets are now committed; complete package qualification remains separate.
 0b3c2a98 records a corrected private row snapshot and executed alpha reset Nov 16,
 including dig/visit rows while retaining sign-ins. This does not close isolated
-restore/PITR/staging load or monitoring; older empty-backup observations stay dated. October 4 ops observations and October 20
+restore/PITR/staging load; older empty-backup observations stay dated. October 4 ops observations and October 20
 Play-terms coverage block are historical, not current live-service diagnoses.
+
+Nov 22 review reconciles c1732906: the owner completed the Apple age-rating questionnaire
+through the API with 4+ readback and Play App content/IARC declarations on Nov 21.
+Play review accompanies the next submission; these are form receipts, not public
+submission/approval. Frozair’s Loot Boxes: No choice applies to the current earned-cash
+build; revisit answers if real money/Amber buys eggs or bags. Kids’-privacy legal
+review remains open. No new monetization or IAP scope follows.
+
+The same commit marks scoped monitoring done: Sentry received release0.1.7+771/dev
+events, release symbols were uploaded for0.1.9/0.1.8, and the high-priority alert has
+owner/fallback-active-member routing with a Nov17 fire. No new token/read-scope
+blocker remains. Separate symbolication/recipient-mailbox verification, current
+signed-candidate handling, isolated restore/load and capacity acceptance remain
+unestablished. Maintenance read only the owner receipt, never credentials or hosted data.
+Today’s Nov22 recovery checkpoint is due and unpassed in morning evidence; preserve
+the complete Nov16–22 plan through today before recording its final outcome.
 
 Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
 and in-app deletion. Committed docs record deletion migration 20261106010000 on
@@ -251,11 +266,13 @@ Nov16. Optional milestone.checkpointDate drives the compact missed-date list bef
 falling back to end, and validation requires it inside the original milestone range.
 This prevents Nov30 being labeled missed while preserving all original dates.
 
-Publication coordination: shared website main retains the unpublished EXIT owner
-commit 176a3b7 and local roadmap commit d50f71e. Publish only intended Stompy files
-from the isolated production checkout at
-`/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz`, reconciling remote
-ancestry first. Do not reset, rebase or publish that owner's pending EXIT work.
+Publication coordination: shared website main remains at17bb88a7 with owner Beby
+privacy edits and untracked build info; do not push, reset or rebase that checkout.
+Verified productionfae774ca includes the owner-published Beby privacy correction.
+The isolated production checkout at
+`/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` was fast-forwarded
+onto that verified base before the Nov22 Stompy update. Preserve all unrelated
+EXIT/policy work and reconcile ancestry before each publication.
 
 Run `node scripts/check-stompy-roadmap.mjs`, `node scripts/check-stompy-roster.mjs`
 and `node scripts/check-stompy-art-review.mjs`, then `npm run build`. Inspect intended
