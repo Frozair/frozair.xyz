@@ -137,7 +137,7 @@ export default function WobblingsPrivacyPage() {
                 <h2 className="mb-4 mt-8 text-2xl font-semibold">10. Contact</h2>
                 <p>
                   If you have questions about this policy, contact:{" "}
-                  <a href="mailto:apps@frozair.xyz">apps@frozair.xyz</a>.
+                  <a href="mailto:wobblings@frozair.xyz">wobblings@frozair.xyz</a>.
                 </p>
               </div>
             </div>
