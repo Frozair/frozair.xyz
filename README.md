@@ -65,13 +65,13 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 22**, not an invented November
+remain distinct. Latest director audit is **November 23**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
 retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
-with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The active plan remains November 16–22 recovery/fixes; current priority is qualifying the delivered candidate.
+with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 verification/fixes plan keeps the original release dates; current priority is finishing build972 qualification.
 
 Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
 optional Forest polish parked. Approved owner-specific work remains scoped. No
@@ -115,8 +115,7 @@ chain, Fernlands starter/shop/Iguanodon hatch/work and kill/relaunch. Sell/expan
 return/full Book-shop and a complete physical-iOS island loop remain unrecorded. Pixel was dropped from this
 proof; do not add it or a reboot requirement. Later scoped Pixel/variant/world evidence
 is valid within its scope. The 706 alpha record is historical. New owner Sentry evidence records release0.1.7+771 events; this is crash transport, not a verified distribution track.
-A newer owner record identifies TestFlight 0.1.9 build 953 and displayed size, with
-public-group/API/manifest/Android-track and full-candidate limits still open. Current candidate/device, public-store and isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
+Historical TestFlight953/displayed-size proof is superseded by owner-recorded internalTestFlight/Play972 delivery and signed smoke Nov22. Public review, exactartifact/backendparity and full-candidate limits remain. Current candidate/device, public-store and isolated restore/load proof remain open. The Nov 7 owner checklist records an empty
 backup list and open staging/monitoring and candidate qualification. The regenerated measurement baseline and all forty named sets are now committed; complete package qualification remains separate.
 0b3c2a98 records a corrected private row snapshot and executed alpha reset Nov 16,
 including dig/visit rows while retaining sign-ins. This does not close isolated
@@ -136,8 +135,7 @@ owner/fallback-active-member routing with a Nov17 fire. No new token/read-scope
 blocker remains. Separate symbolication/recipient-mailbox verification, current
 signed-candidate handling, isolated restore/load and capacity acceptance remain
 unestablished. Maintenance read only the owner receipt, never credentials or hosted data.
-Today’s Nov22 recovery checkpoint is due and unpassed in morning evidence; preserve
-the complete Nov16–22 plan through today before recording its final outcome.
+The Nov22 morning due/unpassed state is historical. Late owner receipts add internal972 delivery and signed smoke; the broader recovery/qualification outcome is partial and unmet, recorded Nov23 before archiving the complete week.
 
 Frozair chose a beta without in-app purchases. 68912f169f commits the age screen
 and in-app deletion. Committed docs record deletion migration 20261106010000 on
@@ -205,18 +203,26 @@ receipt below supersedes that policy; do not treat this history as current tunin
 
 The original Nov 9–15 qualified signed/public seven-day beta objective is UNMET
 at Nov 16 review. Its complete plan is archived with the actual outcome before the
-new Nov 16–22 gate-recovery/fixes plan. The original Nov 16 PUBLIC submission checkpoint is now UNMET at Nov 17 review:
-no qualifying public submission receipt was found. Original dates and the fixes
-window remain, with the Nov 16–22 recovery plan retained.
+then-new Nov16–22 gate-recovery/fixes plan, now archived atNov23 with its actual outcome. The original Nov 16 PUBLIC submission checkpoint is now UNMET at Nov 17 review:
+no qualifying public submission receipt was found. Original dates and the fixes window remain. The complete Nov16–22 recovery plan is archived with actual gains and the unmet broader objective; the active plan is Nov23–29.
 Full forty/five/Dec 1 remain until Frozair decides otherwise.
 
-Source tag v0.1.9-alpha is the version cut at 532112d0. A newer owner record
-identifies TestFlight 0.1.9 build 953 showing 2.19 GB installed size. This is scoped
-alpha evidence, not a physical-phone/full-gameplay/public-group/source-manifest
-readback. Exact Android track/API and public-submission proof remain open. Retain older
-0.1.8 debug iPhone install evidence without promoting it to full iOS gameplay.
-Current alpha preparation/reset means the older prospective-alpha no-go is not a
-blanket current prohibition; public-beta resumption still has no explicit receipt.
+Source tag v0.1.9-alpha/build953 is historical. New owner docs record v0.2.0-beta
+build972 LIVE on internal TestFlight and Play Internal Nov22. Signed Moto and
+TestFlight iPhone15 smoke passed scoped purchase/hatch kill and account cases;
+Google sign-in worked after the approved OAuth-client repair. Fresh Google
+identity linking remains unexercised. Apple linked/deleted a new identity, with a
+safe first confirmation error followed by a successful retry. Android deletion
+leaves stale dino/Nursery display until restart while server data is correct;
+#57 has the owner qualification task. Public review/approval, exact artifact hashes,
+source manifest/backend parity and full candidate/endurance/recovery remain open.
+Actual internal delivery/smoke is Nov22, not a retroactive Nov9 start or seven days.
+
+Owner Play972 Moto proof downloads all four packs on Wi-Fi in35s. Ranch30–44fps,
+Shop46fps,reveal40fps/worst62ms,memory608to735MB then flat,temperature27.7to28.8C,
+thermalstatus0 and no script errors describe the observed8of20minutes before USB
+loss. Remaining12minutes and16-resident/full-five load are unproved. Physical-iOS
+smoke is now recorded; broader iOS gameplay/endurance/pack qualification is separate.
 
 9c683b02 commits ladder, visits, common-sky/timer effects and Amber flow. b2abb184
 records global timed digs, visibility20 and three starting Forest nests applied to
@@ -255,7 +261,7 @@ Nov 17 source review adds island packs stages 1–3 (cf7d2547/e2c4affc/ebf6310d)
 species-specific fallback cards, art-only four-island packs/loader, resumable hashed
 downloads and boat/egg waits. At that earlier stage, release presets retained full art. A LOCAL-server
 Moto check covers download/mount/relaunch/resume/offline retry/boat progress; cellular
-ask, egg wait and iOS remain unobserved on phone. New Nov 18 commits b0560b20/85b89998 add production R2 delivery and default packs-base beta lanes, uploading packs before manifest; PACKS=off retains full art. An owner Forest-only Moto build downloaded all four production packs over Wi-Fi. New signed TestFlight/Play distribution and full iOS/cellular/egg-wait/recovery acceptance remain open. Fallback cards do not replace immutable public roster portraits.
+ask, egg wait and iOS remain unobserved on phone. New Nov 18 commits b0560b20/85b89998 add production R2 delivery and default packs-base beta lanes, uploading packs before manifest; PACKS=off retains full art. An owner Forest-only Moto build downloaded all four production packs over Wi-Fi. Internal signed TestFlight/Play972 distribution is now recorded; full iOS/cellular/egg-wait/recovery acceptance remains open. Fallback cards do not replace immutable public roster portraits.
 
 227e6954 adds vibration permission omitted from 0.1.9, so do not claim it already
 shipped in that build. 533b2a0b reports desktop-fixture Shop Buy 10–15→1.8ms,

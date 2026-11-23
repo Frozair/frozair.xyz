@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2026-12-01",
-  "asOf": "2026-11-22",
-  "nextReview": "2026-11-23",
+  "asOf": "2026-11-23",
+  "nextReview": "2026-11-24",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Owner receipts now record completed Apple age-rating and Play App content forms, plus Sentry event ingestion, release-symbol uploads and alert configuration/fire. Public submission, current signed-candidate, whole-package and recovery acceptance remain open. The original missed checkpoints and Dec 1 target are unchanged; today’s recovery review is due, not a completed gate.",
+  "healthNote": "Build 972 is owner-recorded live for internal TestFlight and Play, with Android/iPhone signed smoke completed Nov 22. The recovery week made partial progress; full content, endurance, restore/load and public-review gates remain unmet. Original beta/submission dates and the full forty/five-island Dec 1 target stay unchanged.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Nov 8 freeze + Nov 15 beta + Nov 16 submissions unmet · full target 40",
   "releaseIslandCount": 5,
@@ -17,7 +17,7 @@
     "launchWiredIslands": 5,
     "signedOffIslands": 0,
     "liveSpecies": 40,
-    "note": "All forty source homes retain pinned seed-last proof. Current alpha access is Forest/Giants/Snow, with later islands held. Historical baseline: October 18 internal 706 and its recorded source counts; A newer owner receipt records Sentry events labeled 0.1.7+771; that is crash-transport evidence, not verified store distribution. A newer owner record identifies TestFlight 0.1.9 build 953 and its displayed installed size. Public/external group, exact source/API manifest, Android track and current full-candidate acceptance remain unestablished. Neither the older 0.1.8 tag nor this bounded TestFlight receipt closes public release gates.",
+    "note": "All forty source homes retain pinned seed-last proof. Current access is Forest/Giants/Snow, with later islands held. Historical internal706, Sentry release771 events and TestFlight953 remain dated evidence. New owner receipts record v0.2.0-beta build972 live on internal TestFlight and Play Internal Nov22, plus scoped signed smoke on Moto and iPhone15. Public/external review, exact binary hashes/source manifest, current backend parity and full-candidate acceptance remain separate; tested store actions and packs are established within their recorded scope.",
     "launchSpecies": 40,
     "launchHomeSpecies": 40
   },
@@ -58,7 +58,7 @@
         {
           "label": "Phone",
           "state": "partial",
-          "detail": "Scoped Android observations exist. Source fixes address #64 runner/callout/card issues; combined-candidate regression, sustained performance and iOS coverage remain."
+          "detail": "Owner Nov22 signed Play972 and TestFlight972 smoke covers purchase/hatch kill recovery, deletion and scoped sign-in/link cases on Moto/iPhone15. Sustained performance, full combined regression and omitted account cases remain open; this is not all-five acceptance."
         }
       ],
       "next": "Optional Forest polish remains parked behind island production. The active #75 variant-look owner has separate scoped work; retain all findings for final combined device qualification.",
@@ -295,7 +295,7 @@
       "refs": [
         58
       ],
-      "gate": "TestFlight 0.1.9 build 953 is owner-recorded alpha evidence, not public/external review or Google Play public submission. Recover exact candidate/store/recovery proof and record actual submission dates; retain the original Nov 16 checkpoint and Nov 30 fixes-period end.",
+      "gate": "Internal TestFlight and Play build972 delivery and scoped signed smoke are owner-recorded Nov22, not public/external review or public-store submission. Recover remaining candidate/store/recovery proof and record actual submission dates; retain the original Nov16 checkpoint and Nov30 fixes-period end.",
       "checkpointDate": "2026-11-16"
     },
     {
@@ -325,8 +325,8 @@
         57,
         58
       ],
-      "status": "Alpha advances · public beta unestablished",
-      "why": "9c683b02 commits previously owner-held skies, visit log, island ladders and Amber flow. b2abb184 records global timed digs and three Forest nests on alpha, with a scoped Moto check. 83f0af78 records five-minute common skies and guide analytics on alpha. The 0.1.9 source cut and executed alpha reset are new progress; signed/public delivery and beta resumption remain unrecorded. A newer owner record identifies TestFlight 0.1.9 build 953 and a displayed installed size. Its group, exact source manifest and public availability are unestablished; later pack/vibration/shop source is separate.",
+      "status": "Internal972 live · public review open",
+      "why": "Late Nov22 owner receipts record v0.2.0-beta972 on internal TestFlight and Play Internal. Signed Moto/iPhone15 smoke covers purchase/hatch kill recovery, deletion and scoped sign-in/link cases; the Google OAuth configuration was fixed and retested on the same Play build. This is actual internal delivery, not a retroactive Nov9 public start or seven-day span. Full reward-loop, exact inputs and public review remain open.",
       "doneWhen": "Pin exact binary/backend/API inputs and qualify current three-island loops, intro retry guidance and remaining current-candidate gaps. Record actual public access/testing and Frozair’s release direction. Keep original missed dates; do not infer a new beta week or automatic retuning."
     },
     {
@@ -467,8 +467,8 @@
         31
       ],
       "status": "Original Nov 15 beta gate unmet",
-      "why": "TestFlight 0.1.9 build 953 remains the last named app receipt; exact manifest/API, Android track and full candidate scope remain unestablished. New owner proof records a Forest-only Moto build downloading all four packs from production R2 over Wi-Fi. Beta lanes now default to packs-base, with PACKS=off retaining full art. New signed/store delivery, cellular ask, egg wait, iOS and full recovery/endurance qualification remain open.",
-      "doneWhen": "Close overdue initial device/ops evidence; isolated hosted restore and staging load remain Nov 1. Final candidate recovery/endurance regression stays Nov 15."
+      "why": "Build972 is recorded live on internal TestFlight and Play Internal. Owner Moto proof downloads all four production packs over Wi-Fi in35s and records ranch30–44fps, Shop46fps and reveal40fps. The run stopped at8of20minutes after USB disconnect; remaining duration and16-dino/full-five load are open. Signed Moto and iPhone15 smoke passed scoped purchase/hatch kill and account cases. Exact artifact identity, backend parity, broader iOS/endurance/recovery and public approval remain separate.",
+      "doneWhen": "Finish omitted cases and remaining endurance/load/recovery on accountable authorized candidates, reusing valid Nov22 cases. Original Nov1 recovery and Nov15 beta milestones remain unmet; do not manufacture a replacement beta week."
     },
     {
       "id": "stores",
@@ -480,7 +480,7 @@
         58
       ],
       "status": "Original Nov 16 checkpoint unmet",
-      "why": "c1732906 records Apple 4+ questionnaire API readback and completed Play App content/IARC declarations for the current no-IAP build. Play answers go for review with the next submission. Listings/screenshots and TestFlight 953 remain scoped prior receipts; no qualifying PUBLIC Apple/Google submission or approval was located. The original Nov 16 checkpoint remains unmet.",
+      "why": "Apple age-rating and Play App content forms remain completed. New owner Nov22 receipts record TestFlight972 internal access and Play Internal972, not public/external review. Beta App Review/Play Open and public approvals remain open; original Nov16 public-submission checkpoint remains unmet.",
       "doneWhen": "Record actual public Apple/Google submission/review receipts or the explicit hold, exact binaries and passed/missing gates. Preserve original Nov 16 and Dec 1; do not silently roll dates or label alpha delivery as public submission."
     },
     {
@@ -531,8 +531,8 @@
     {
       "title": "Pause beta for event rewards",
       "due": "2026-11-09",
-      "state": "Public beta unestablished · alpha preparation advances",
-      "recommendation": "Owner source/alpha work advanced through global timed digs, three Forest nests, a 0.1.9 source cut and executed alpha reset. No explicit qualified public-beta start/resume or seven-day span was found. The original Nov 9–15 gate is unmet; do not carry the older prospective-alpha no-go as a blanket current prohibition."
+      "state": "Internal beta delivered · public review open",
+      "recommendation": "The earlier reward-loop hold is historical. Owner receipts now establish internal TestFlight/Play972 delivery and scoped signed smoke onNov22. No qualified public/external start or seven-day span is established. Keep the original missed Nov9–15 gate and actual internal-test date; do not treat either source preparation or internal distribution as public approval."
     },
     {
       "title": "Use the hatchery and rolling nests",
@@ -543,7 +543,7 @@
     {
       "title": "Which phones do we promise?",
       "due": "2026-10-25",
-      "recommendation": "Minimum supported Android/iPhone devices and limits remain open. Scoped Android checks and the iPhone 15 Apple-deletion pass exist. A newer iPhone debug build was installed but not launched; this does not complete gameplay/endurance. Pixel remains scoped feedback, not a restored Fernlands requirement.",
+      "recommendation": "Minimum supported Android/iPhone devices and limits remain open. Nov22 owner signed smoke exists on Play-installed Moto and TestFlight iPhone15, including purchase/hatch kill and account cases. Moto duration was8of20minutes before USB disconnect; full load and broader iOS endurance remain open. Pixel stays scoped feedback, not a restored Fernlands requirement.",
       "state": "Open"
     },
     {
@@ -570,14 +570,14 @@
     {
       "title": "Original signed-beta gate was unmet",
       "level": "Critical",
-      "action": "Original Nov 9–15 signed/public beta and Nov 16 public-submission checkpoints are unmet in recorded evidence. TestFlight build 953 does not establish public access or a seven-day span. Recover current candidate/store gates and record actual dates without moving the original milestones.",
+      "action": "Original Nov9–15 signed/public beta and Nov16 public-submission checkpoints remain unmet. Internal TestFlight/Play972 delivery and actual Nov22 smoke are now recorded, without public/external access or a seven-day span. Preserve actual dates and remaining gates.",
       "owner": "Frozair + release owners",
       "due": "2026-11-09"
     },
     {
-      "title": "Global digs require a matching client",
+      "title": "Current build and backend inputs need pinning",
       "level": "High",
-      "action": "Global alpha spots require weather API 5. The owner identifies TestFlight 0.1.9 build 953, but no exact binary/API manifest or Android-track receipt is established. Verify those inputs; neither the source tag nor displayed size alone proves compatibility, and no tester outage is inferred.",
+      "action": "Signed Play/TestFlight972 actions and production pack loading now have owner device receipts, so delivery and tested paths are no longer purely unknown. Pin exact binary/source manifests and backend/API migration parity for broader qualification. The release tag precedes the export-guard fix; do not infer an outage or exact packaged inputs from the tag alone.",
       "owner": "Release/gameplay owner",
       "due": "2026-11-16"
     },
@@ -591,7 +591,7 @@
     {
       "title": "Island-pack delivery needs separate qualification",
       "level": "High",
-      "action": "85b89998 records a Forest-only Moto build downloading all four packs from production R2 over Wi-Fi. Beta lanes now upload packs before manifest and export packs-base by default; PACKS=off uses full art. New signed TestFlight/Play delivery, cellular ask, egg wait, iOS and full cache/recovery qualification still require exact-candidate evidence.",
+      "action": "Owner Play-installed972 downloads all four production packs on Wi-Fi in35s. Internal TestFlight/Play delivery is now recorded; retire the generic no-signed-delivery gap. Cellular ask, egg-wait, broader iOS pack cases and full cache/recovery acceptance still require scoped proof.",
       "owner": "Pack/release owners · Frozair direction",
       "due": "2026-11-22"
     },
@@ -633,7 +633,7 @@
     {
       "title": "Native five-island proof is still missing",
       "level": "Critical",
-      "action": "The original Nov 9–15 signed-beta gate is unmet, with full all-five launch qualification still open. New scoped Android transport/onboarding checks do not complete physical-iOS, full-loop or thermal/recovery acceptance. Public submission readiness must follow actual passed gates.",
+      "action": "Nov22 signed Moto/iPhone15 smoke closes specific purchase/hatch kill and account cases. Full16-dino/five-island loops, remaining Moto duration and broader physical-iOS endurance/recovery remain open. Do not label physical-iOS proof wholly absent or promote the smoke to full release acceptance.",
       "owner": "Codex",
       "due": "2026-10-25"
     },
@@ -657,6 +657,13 @@
       "action": "Private row backup/reset and the scoped Sentry monitoring checklist now have owner receipts. Isolated restore, provider backup/PITR, staging load and full candidate recovery remain unproved. Monitoring covers event ingestion, release symbols and alert configuration/fire; separate symbolication and recipient-mailbox verification are not established.",
       "owner": "Codex + Frozair",
       "due": "2026-11-01"
+    },
+    {
+      "title": "Android deletion leaves a stale display",
+      "level": "High",
+      "action": "Owner signed Play972 smoke records the deleted dino and Nursery count still visible until restart while server data is correct. Qualify and fix this UI cleanup with the gameplay/native owner. No maintenance reproduction or server-data-loss finding is implied. Brand-new Google identity linking is also unexercised.",
+      "owner": "Gameplay/native owner",
+      "due": "2026-11-29"
     }
   ],
   "launchGates": [
@@ -673,12 +680,12 @@
     {
       "label": "Stable release phones",
       "state": "partial",
-      "proof": "Both OSes, minimum supported devices, repeated travel/hatch/shop, 16 residents/duplicate variants, endurance and retry cases pass agreed limits."
+      "proof": "Owner signed Play/TestFlight972 smoke passed scoped purchase/hatch kill and account cases on Moto/iPhone15. Full supported-device limits,16-resident/variant loads, repeated travel/hatch/shop and endurance/retry cases still need acceptance."
     },
     {
       "label": "Saves + operations",
       "state": "partial",
-      "proof": "Owner event ingestion, release-symbol uploads and alert configuration/fire are recorded. Update/reinstall/account-link recovery, hosted backup/isolated restore, current candidate crash handling and load/rollback evidence still require acceptance. No known critical data or duplication faults."
+      "proof": "Monitoring and scoped signed972 purchase/hatch kill and deletion cases are recorded. Full update/reinstall/account-link recovery, isolated restore/load and rollback remain open. Android deletion has stale client display until restart with correct server data; no server-loss finding."
     },
     {
       "label": "Both stores approved",
@@ -714,6 +721,10 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-23",
+      "text": "LateNov22 owner receipts establish internal TestFlight/Play972 delivery and scoped signed Android/iPhone smoke. Google sign-in was repaired/retested; fresh Google linking remains open, and Android deletion leaves stale display until restart with correct server data. Moto covered8of20minutes, not full-load/endurance acceptance. Nov16–22 archived complete with partial gains and broader recovery unmet; newNov23–29verification plan preserves original milestones andDec1 scope."
+    },
     {
       "date": "2026-11-22",
       "text": "Owner Nov 21 receipts complete Apple age-rating and Play App content forms and the scoped Sentry monitoring checklist. Play review awaits the next submission; public delivery/approval, legal/privacy, full candidate and recovery gates remain separate. Forty-bank inventory and 10/11/19 source cohorts are unchanged. The existing Nov 22 recovery checkpoint is due today; original milestone dates and complete weekly history remain."
@@ -864,6 +875,22 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Internal beta972 delivery · ownerNov22, reviewedNov23",
+      "detail": "5cbbd50e and docs/mvp record v0.2.0-beta972 live for internal TestFlight and Play Internal, with production packs. eb547485 repairs the intentional-art export guard after the version tag. This supersedes the generic no-delivery/current-Android-track gap. Public/external review remains open; exact artifact hashes/source manifest and current backend migration parity are not separately recorded. No maintenance export, upload or hosted query."
+    },
+    {
+      "label": "Signed Android and iPhone smoke · ownerNov22",
+      "detail": "5cbbd50e/b6ac0685/4098c7db record signed Play972 Moto and TestFlight972 iPhone15 cases: mid-hatch and post-purchase kill recovery, deletion, Google sign-in after an OAuth-client fix, and new Apple linking plus Apple-linked deletion. First Apple confirmation failure left data intact; retry succeeded. Brand-new Google identity linking was not exercised. Android deletion leaves the old dino/Nursery count on screen until restart while server data is correct; #57 has the scoped follow-up. These actualNov22 cases do not backfill a public start or seven test days; raw captures were not independently reviewed by maintenance."
+    },
+    {
+      "label": "Play972 packs and interrupted endurance · ownerNov22",
+      "detail": "Moto fresh-player run downloaded all four production packs on Wi-Fi in35s. Owner recorded ranch30–44fps,Shop46fps,reveal40fps/worst62ms, memory608to735MB then flat, temperature27.7to28.8C and thermal status0, no script errors. USB disconnect ended observation at8of20minutes. Remaining12minutes and16-resident/full-five load are open; these conditions do not establish the device floor, sustained thermal acceptance or all-iOS pack cases."
+    },
+    {
+      "label": "Nov16–22 recovery outcome · reviewedNov23",
+      "detail": "After reconciling lateNov22 receipts, outcome is partial progress with the broader recovery/qualification objective unmet. Internal972 delivery, scoped signed smoke, forms and monitoring advanced. Thirty source contracts plus full-load/endurance, isolated restore/load, legal/privacy and public-review gates remain. Complete prior week archived before newNov23–29verification/fixes plan; original dates, full forty/five-island scope andDec1 target remain unchanged."
+    },
     {
       "label": "Store-form completion · owner Nov 21, reviewed Nov 22",
       "detail": "c17329063179549f3f2f98ab9a4c65fa9539a99c records the Apple 2025 questionnaire set through the API and read back as 4+, plus completed Play IARC/App content declarations. Frozair chose Loot Boxes: No for the current earned-cash egg build; this is not paid-random-reward or future monetization approval. Answers must be revisited if real money/Amber can buy eggs or bags. Play review accompanies the next submission; public submission/approval and kids’-privacy legal review remain open. Maintenance neither accessed stores nor changed forms."
@@ -1243,13 +1270,13 @@
   ],
   "firstWork": {
     "title": "Qualify the beta. Recover the missed gates.",
-    "note": "Original Nov 9–15 beta and Nov 16 public-submission checkpoints are now recorded unmet. Qualify the current delivered candidate and actual review state; full forty/five islands and Dec 1 remain until Frozair decides otherwise.",
+    "note": "Nov16–22 recovery made partial progress: internal972 delivery and signed smoke landed, while full recovery/content/public gates remained unmet. The original Nov9–15 beta and Nov16 submission misses stay visible. This week records actual remaining proof for the unchanged forty/five-island Dec1 target.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Qualify the delivered candidate",
+        "title": "Finish build 972 qualification",
         "when": "Nov 16 public submissions unmet",
         "owner": "Event/native owners · Frozair release decision",
         "refs": [
@@ -1257,10 +1284,10 @@
           56,
           57
         ],
-        "outcome": "Reconcile TestFlight build 953 and actual Android distribution/API, then prove signed current three-island hatchery, travel, persistence and recovery. Release lanes now default to Forest-only base plus production packs; the owner recorded all four R2 downloads on Moto Wi-Fi. Record exact delivered inputs and actual public-review dates; this scoped check does not close them.",
+        "outcome": "Internal TestFlight/Play972 and signed Moto/iPhone15 smoke are recorded. Reuse passed Nov22 cases; close Android deletion display cleanup, fresh Google linking, remaining endurance/full load and exact-input/backend proof with authorized owners. Public review and full-release acceptance stay open.",
         "species": [
-          "TestFlight 953: recorded",
-          "Current inputs: open",
+          "Internal972: live",
+          "Signed smoke: recorded",
           "Public review: open"
         ]
       },
@@ -1314,7 +1341,7 @@
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -14,
+    "daysToFreeze": -15,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1679,102 +1706,102 @@
     "minimumTotalPerWeek": null
   },
   "weeklyPlan": {
-    "start": "2026-11-16",
-    "end": "2026-11-22",
-    "title": "Submission decision. Candidate and recovery proof.",
-    "note": "Nov 19 review retains the original unmet Nov 16 PUBLIC submission checkpoint and the Nov 16–22 recovery/fixes plan. Owner receipts add all forty committed banks, green client checks and production R2/Moto Wi-Fi pack proof. These do not complete current signed delivery, native, recovery or store gates; this is not a replacement beta. Nov 22 morning review adds completed store forms and scoped Sentry monitoring. Today’s existing recovery checkpoint is due and full gate recovery remains unpassed in inspected evidence; keep this complete week through today without declaring the full day missed.",
+    "start": "2026-11-23",
+    "end": "2026-11-29",
+    "title": "Finish remaining proof. Record the Dec 1 decision.",
+    "note": "This is a verification/fixes plan within the original fixes window, not a shifted beta or launch target. The complete Nov16–22 plan is archived with partial gains and the unmet broader recovery objective. Actual internal delivery/signed smoke occurred Nov22; full launch remains forty/five islands/Dec1 only with all required gates green.",
     "priorities": [
       {
-        "id": "submission-decision",
-        "title": "Recover the public-submission checkpoint",
-        "owner": "Frozair store/release decision · delivery owner evidence",
-        "doneWhen": "Record actual public Apple/Google submission/review or explicit hold, exact binaries and passed/missing gates. The original Nov 16 checkpoint is unmet; TestFlight and pack source progress do not establish public submission or seven beta days.",
+        "id": "pin-972",
+        "title": "Pin the delivered candidate and actual test dates",
+        "owner": "Release/native owners · Frozair acceptance",
+        "doneWhen": "Record972 binary/source/backend inputs and completed versus omitted signed cases. Reuse valid Nov22 proof, qualify current defects and endurance/load under separate authority, and keep public/external status distinct.",
         "refs": [
-          55,
-          58,
-          57
-        ]
-      },
-      {
-        "id": "candidate-recovery",
-        "title": "Qualify the exact current candidate",
-        "owner": "Integration/native owners · Frozair device acceptance",
-        "doneWhen": "Pin the green client snapshot and remaining SQL/client/API scope; qualify hatchery, travel, persistence, Boat/intro guidance and endurance on signed Android/physical iPhone under separate task authorization.",
-        "refs": [
-          84,
           56,
-          57
+          57,
+          84
         ]
       },
       {
-        "id": "content-ops",
-        "title": "Recover content and operations gates",
-        "owner": "Current art/operations owners · Frozair resources",
-        "doneWhen": "Record whole-source acceptances, credible remaining capacity, isolated restore/load and monitoring. Private backup/reset proof stays scoped; full forty/five-world acceptance remains open.",
+        "id": "content-current",
+        "title": "Qualify complete content against current consumers",
+        "owner": "Art/integration owners · Frozair look judgment",
+        "doneWhen": "Record whole-source acceptances and remaining work for the unchanged forty. Banks remain40/40 but cohorts10/11/19 and thirty pending until actual acceptance receipts change them. No invented staff, budget or output rate.",
         "refs": [
           42,
-          7,
+          29,
+          75
+        ]
+      },
+      {
+        "id": "release-decision",
+        "title": "Recover operations and public-review gates",
+        "owner": "Frozair release/store/resources · operations owners",
+        "doneWhen": "Record isolated restore/load, legal/privacy and actual public review/approval evidence or explicit holds. Explain remaining consequences forDec1 without shifting original milestones or treating internal smoke as seven beta days.",
+        "refs": [
+          55,
           57,
-          58
+          58,
+          7
         ]
       }
     ],
     "days": [
       {
-        "id": "mon-16",
-        "date": "2026-11-16",
-        "label": "MON 16",
-        "title": "Record submissions and exact inputs",
-        "focus": "Public submissions are due today. Actual morning source/owner receipts add five-minute common skies, guide analytics, 0.1.9 source cut and executed private-backup/alpha reset. No qualified public submission receipt is established. Actual outcome appended Nov 17 after the day elapsed: no qualifying public Apple/Google submission receipt was found; the original Nov 16 checkpoint is unmet. A TestFlight 0.1.9 build 953 record is scoped alpha evidence.",
-        "proof": "Actual store states, binary/API identity and go/no-go; do not declare the full day missed early. The original due date remains; this records its outcome rather than proposing a new date."
+        "id": "mon-23",
+        "date": "2026-11-23",
+        "label": "MON 23",
+        "title": "Record the actual recovery outcome",
+        "focus": "Actual review: reconcile lateNov22 internal972 and signed smoke, archive the complete prior week and identify remaining cases. Broad recovery/content/public gates remain unmet.",
+        "proof": "Dated owner cases, scoped completions and open gates; today’s remaining targets are not presumed complete."
       },
       {
-        "id": "tue-17",
-        "date": "2026-11-17",
-        "label": "TUE 17",
-        "title": "Reconcile the submission outcome",
-        "focus": "Record the original Nov 16 public-submission checkpoint unmet after reconciling later owner receipts. Reconcile TestFlight build 953 and actual Android/API inputs; qualify newer pack/loader/wait and post-tag haptic/shop changes with their owners.",
-        "proof": "Actual public-review and binary/API/manifests, explicit current failures and scoped pack acceptance. Today’s remaining recovery targets are not presumed complete or expired early."
+        "id": "tue-24",
+        "date": "2026-11-24",
+        "label": "TUE 24",
+        "title": "Close current candidate gaps",
+        "focus": "With authorized owners, qualify Android deletion display cleanup, fresh Google linking and existing Boat/Frost/intro findings. Keep already-passed sign-in and Apple deletion cases scoped.",
+        "proof": "Owner fixes and exact case receipts; no automatic retune, game edit, build or device execution."
       },
       {
-        "id": "wed-18",
-        "date": "2026-11-18",
-        "label": "WED 18",
-        "title": "Prove current phone loops",
-        "focus": "Qualify current accessible-island hatchery, Nursery/Book, shop, travel and persistence on signed Android and physical iPhone under owner authorization. Actual Nov 18 receipts, reviewed Nov 19: all forty banks committed, source checks main 3187/0, Shop 6935/0 and island-goals 86/0; Forest-only Moto downloaded all four packs from production R2 over Wi-Fi. Full signed-phone loops remain unestablished.",
-        "proof": "Exact candidate, devices, cases and limits; assisted/debug/old-consumer evidence remains scoped."
+        "id": "wed-25",
+        "date": "2026-11-25",
+        "label": "WED 25",
+        "title": "Finish endurance and full-load proof",
+        "focus": "Reconcile remaining12minutes of the interrupted Moto observation,16-resident/full-five load and broader physical-iOS/pack cases on accountable candidates. Held islands remain held until owner direction.",
+        "proof": "Comparable inputs/device conditions and remaining scope; no blanket invalidation of the valid8minutes or invented full pass."
       },
       {
-        "id": "thu-19",
-        "date": "2026-11-19",
-        "label": "THU 19",
-        "title": "Prove restore and load",
-        "focus": "Recover isolated restore, staging load and monitoring receipts with authorized operations owners. Retain the private row snapshot/reset evidence without promoting it to a restore drill. Nov 19 review found no newer isolated restore/load, monitoring or qualified public delivery receipt; the day’s remaining targets are not presumed complete or expired early.",
-        "proof": "Actual restore/load/crash/monitoring receipts and named remaining access decisions; no maintenance hosted operations."
+        "id": "thu-26",
+        "date": "2026-11-26",
+        "label": "THU 26",
+        "title": "Prove isolated recovery and load",
+        "focus": "Recover isolated restore/load and candidate recovery receipts with operations owners. Monitoring, private row backup/reset and signed smoke remain separate accepted scopes.",
+        "proof": "Actual authorized restore/load/rollback results and precise remaining access decisions; no maintenance hosted operation."
       },
       {
-        "id": "fri-20",
-        "date": "2026-11-20",
-        "label": "FRI 20",
-        "title": "Record complete content output",
-        "focus": "Qualify the forty committed creature sets against current consumers; record accepted output and rework. Keep later alpha islands held until owner direction changes.",
-        "proof": "Whole source contracts and remaining capacity, without turning forty named working banks into forty accepted species."
+        "id": "fri-27",
+        "date": "2026-11-27",
+        "label": "FRI 27",
+        "title": "Record complete content acceptances",
+        "focus": "Qualify remaining source contracts, BrachioR8 matching, current consumers and world/voice/native scope with owners. Preserve all selected stills, exact homes and owner art.",
+        "proof": "Accepted output and rework, with thirty pending until evidence changes; no file-inventory promotion or unapproved art spend."
       },
       {
-        "id": "sat-21",
-        "date": "2026-11-21",
-        "label": "SAT 21",
-        "title": "Close candidate regressions",
-        "focus": "Resolve identified release defects and prove endurance/retry/recovery on the exact candidate; reconcile actual store feedback if any.",
-        "proof": "Comparable device conditions, actual distribution/review dates and explicit remaining cases; no invented beta days."
+        "id": "sat-28",
+        "date": "2026-11-28",
+        "label": "SAT 28",
+        "title": "Reconcile actual public-review status",
+        "focus": "Record real Apple/Google public-review/approval and legal/privacy state on exact candidates. Internal972 access, store forms and screenshots do not imply public approval.",
+        "proof": "Actual review dates and decisions, keeping originalNov16 submission andNov9–15 beta history intact."
       },
       {
-        "id": "sun-22",
-        "date": "2026-11-22",
-        "label": "SUN 22",
-        "title": "Review remaining launch gates",
-        "focus": "Record actual candidate, content, operations and store outcomes and their consequences for the retained Dec 1 target. Actual Nov 22 morning review: Apple age-rating and Play App content forms completed; Sentry ingestion, release symbols and alert configuration/fire recorded. Thirty source packages plus current native, restore/load and public-store gates remain open. The checkpoint is due today, not a new launch or beta date.",
-        "proof": "Passed gates and unfinished scope/capacity made explicit for Frozair; no silent roster cut or date change."
+        "id": "sun-29",
+        "date": "2026-11-29",
+        "label": "SUN 29",
+        "title": "Record remaining gates for Dec 1",
+        "focus": "Review actual accepted content, candidate, recovery and public-store evidence with Frozair. State unfinished gates and forecast consequences without inventing another launch target.",
+        "proof": "A dated acceptance/go-no-go record and accountable remaining work; this review grants no automatic release or scope cut."
       }
     ],
     "parking": [
@@ -1784,10 +1811,10 @@
       "Quick Hatch #85 remains design only, not approved to build"
     ],
     "checkpoint": {
-      "date": "2026-11-22",
-      "title": "Nov 22: review actual gate recovery.",
-      "pass": "Actual candidate, content, operations and store evidence is recorded with accepted scope and remaining gates explicit. This checkpoint does not replace any original milestone.",
-      "ifMiss": "Record unfinished gates and forecast consequences for Frozair without inventing capacity, budget, test days or a new launch date."
+      "date": "2026-11-29",
+      "title": "Nov29: record actual launch-gate readiness.",
+      "pass": "Actual passed and remaining gates, candidate inputs, review states and Frozair direction are explicit against the unchangedDec1 target. This weekly review does not replace any original milestone.",
+      "ifMiss": "Record unfinished scope and consequences honestly; do not silently cut the roster, shift dates, fabricate test days/capacity or claim Dec1 acceptance."
     },
     "dependencies": [
       "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
@@ -2140,6 +2167,123 @@
         "title": "Nov 15: signed-beta and submission readiness.",
         "pass": "Qualified signed candidates, actual beta coverage and public-submission prerequisites are recorded, with full launch requirements satisfied.",
         "ifMiss": "Record missing gates and actual testing span. Present consequences for the original Nov 16 submissions and Dec 1 target for Frozair’s decision."
+      },
+      "dependencies": [
+        "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
+        "Android/physical-iOS access, current candidate scope and operations execution need accountable authorized owners",
+        "Preserve all selected stills, exact 40 homes, accepted look choices and current art-owner files; separate source/local/hosted/native evidence"
+      ]
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "title": "Submission decision. Candidate and recovery proof.",
+      "note": "Nov 19 review retains the original unmet Nov 16 PUBLIC submission checkpoint and the Nov 16–22 recovery/fixes plan. Owner receipts add all forty committed banks, green client checks and production R2/Moto Wi-Fi pack proof. These do not complete current signed delivery, native, recovery or store gates; this is not a replacement beta. Nov 22 morning review adds completed store forms and scoped Sentry monitoring. Today’s existing recovery checkpoint is due and full gate recovery remains unpassed in inspected evidence; keep this complete week through today without declaring the full day missed. Actual outcome appended at Nov23 after late Nov22 receipts: PARTIAL recovery; the broader qualification objective remains UNMET. Owner internal972 delivery and signed Android/iPhone smoke succeeded Nov22, following completed forms/monitoring. Thirty source contracts, full-load/endurance, isolated restore/load, legal/privacy and public-review gates remain open. No public Nov9 start or seven-day span is backfilled; original dates and all daily targets are retained.",
+      "priorities": [
+        {
+          "id": "submission-decision",
+          "title": "Recover the public-submission checkpoint",
+          "owner": "Frozair store/release decision · delivery owner evidence",
+          "doneWhen": "Record actual public Apple/Google submission/review or explicit hold, exact binaries and passed/missing gates. The original Nov 16 checkpoint is unmet; TestFlight and pack source progress do not establish public submission or seven beta days.",
+          "refs": [
+            55,
+            58,
+            57
+          ]
+        },
+        {
+          "id": "candidate-recovery",
+          "title": "Qualify the exact current candidate",
+          "owner": "Integration/native owners · Frozair device acceptance",
+          "doneWhen": "Pin the green client snapshot and remaining SQL/client/API scope; qualify hatchery, travel, persistence, Boat/intro guidance and endurance on signed Android/physical iPhone under separate task authorization.",
+          "refs": [
+            84,
+            56,
+            57
+          ]
+        },
+        {
+          "id": "content-ops",
+          "title": "Recover content and operations gates",
+          "owner": "Current art/operations owners · Frozair resources",
+          "doneWhen": "Record whole-source acceptances, credible remaining capacity, isolated restore/load and monitoring. Private backup/reset proof stays scoped; full forty/five-world acceptance remains open.",
+          "refs": [
+            42,
+            7,
+            57,
+            58
+          ]
+        }
+      ],
+      "days": [
+        {
+          "id": "mon-16",
+          "date": "2026-11-16",
+          "label": "MON 16",
+          "title": "Record submissions and exact inputs",
+          "focus": "Public submissions are due today. Actual morning source/owner receipts add five-minute common skies, guide analytics, 0.1.9 source cut and executed private-backup/alpha reset. No qualified public submission receipt is established. Actual outcome appended Nov 17 after the day elapsed: no qualifying public Apple/Google submission receipt was found; the original Nov 16 checkpoint is unmet. A TestFlight 0.1.9 build 953 record is scoped alpha evidence.",
+          "proof": "Actual store states, binary/API identity and go/no-go; do not declare the full day missed early. The original due date remains; this records its outcome rather than proposing a new date."
+        },
+        {
+          "id": "tue-17",
+          "date": "2026-11-17",
+          "label": "TUE 17",
+          "title": "Reconcile the submission outcome",
+          "focus": "Record the original Nov 16 public-submission checkpoint unmet after reconciling later owner receipts. Reconcile TestFlight build 953 and actual Android/API inputs; qualify newer pack/loader/wait and post-tag haptic/shop changes with their owners.",
+          "proof": "Actual public-review and binary/API/manifests, explicit current failures and scoped pack acceptance. Today’s remaining recovery targets are not presumed complete or expired early."
+        },
+        {
+          "id": "wed-18",
+          "date": "2026-11-18",
+          "label": "WED 18",
+          "title": "Prove current phone loops",
+          "focus": "Qualify current accessible-island hatchery, Nursery/Book, shop, travel and persistence on signed Android and physical iPhone under owner authorization. Actual Nov 18 receipts, reviewed Nov 19: all forty banks committed, source checks main 3187/0, Shop 6935/0 and island-goals 86/0; Forest-only Moto downloaded all four packs from production R2 over Wi-Fi. Full signed-phone loops remain unestablished.",
+          "proof": "Exact candidate, devices, cases and limits; assisted/debug/old-consumer evidence remains scoped."
+        },
+        {
+          "id": "thu-19",
+          "date": "2026-11-19",
+          "label": "THU 19",
+          "title": "Prove restore and load",
+          "focus": "Recover isolated restore, staging load and monitoring receipts with authorized operations owners. Retain the private row snapshot/reset evidence without promoting it to a restore drill. Nov 19 review found no newer isolated restore/load, monitoring or qualified public delivery receipt; the day’s remaining targets are not presumed complete or expired early.",
+          "proof": "Actual restore/load/crash/monitoring receipts and named remaining access decisions; no maintenance hosted operations."
+        },
+        {
+          "id": "fri-20",
+          "date": "2026-11-20",
+          "label": "FRI 20",
+          "title": "Record complete content output",
+          "focus": "Qualify the forty committed creature sets against current consumers; record accepted output and rework. Keep later alpha islands held until owner direction changes.",
+          "proof": "Whole source contracts and remaining capacity, without turning forty named working banks into forty accepted species."
+        },
+        {
+          "id": "sat-21",
+          "date": "2026-11-21",
+          "label": "SAT 21",
+          "title": "Close candidate regressions",
+          "focus": "Resolve identified release defects and prove endurance/retry/recovery on the exact candidate; reconcile actual store feedback if any.",
+          "proof": "Comparable device conditions, actual distribution/review dates and explicit remaining cases; no invented beta days."
+        },
+        {
+          "id": "sun-22",
+          "date": "2026-11-22",
+          "label": "SUN 22",
+          "title": "Review remaining launch gates",
+          "focus": "Record actual candidate, content, operations and store outcomes and their consequences for the retained Dec 1 target. Actual Nov 22 morning review: Apple age-rating and Play App content forms completed; Sentry ingestion, release symbols and alert configuration/fire recorded. Thirty source packages plus current native, restore/load and public-store gates remain open. The checkpoint is due today, not a new launch or beta date.",
+          "proof": "Passed gates and unfinished scope/capacity made explicit for Frozair; no silent roster cut or date change."
+        }
+      ],
+      "parking": [
+        "Optional Forest polish remains parked; approved owner-specific work is a scoped exception",
+        "Unapproved mechanics and extra islands remain parked; #84 Sky Portal is a separately approved owner workflow on existing islands, and Dino Park #80 remains an idea",
+        "In-app purchases are out of beta. Public launch revenue remains open.",
+        "Quick Hatch #85 remains design only, not approved to build"
+      ],
+      "checkpoint": {
+        "date": "2026-11-22",
+        "title": "Nov 22: review actual gate recovery.",
+        "pass": "Actual candidate, content, operations and store evidence is recorded with accepted scope and remaining gates explicit. This checkpoint does not replace any original milestone.",
+        "ifMiss": "Record unfinished gates and forecast consequences for Frozair without inventing capacity, budget, test days or a new launch date."
       },
       "dependencies": [
         "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
