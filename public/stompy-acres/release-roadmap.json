@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
-  "targetDate": "2026-12-01",
-  "asOf": "2026-11-23",
-  "nextReview": "2026-11-24",
+  "targetDate": "2027-01-14",
+  "asOf": "2026-11-24",
+  "nextReview": "2026-11-25",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Build 972 is owner-recorded live for internal TestFlight and Play, with Android/iPhone signed smoke completed Nov 22. The recovery week made partial progress; full content, endurance, restore/load and public-review gates remain unmet. Original beta/submission dates and the full forty/five-island Dec 1 target stay unchanged.",
+  "healthNote": "Frozair moved launch to Jan 14, 2027; all forty/five islands stay. Store opening, December public beta and final 1.0 are planned. Pre-registration/ticket work is local WIP; thirty source contracts and full native/recovery/legal/store gates remain open. Internal972 evidence keeps its Nov22 scope.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
-  "resourcesNote": "Nov 8 freeze + Nov 15 beta + Nov 16 submissions unmet · full target 40",
+  "resourcesNote": "Jan 14 target · 40 residents retained · original missed gates preserved",
   "releaseIslandCount": 5,
   "baseline": {
     "version": "0.1.6 (706)",
@@ -301,33 +301,33 @@
     {
       "id": "launch",
       "title": "Open the sanctuary",
-      "start": "2026-12-01",
-      "end": "2026-12-01",
-      "dateLabel": "DEC 1",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "dateLabel": "JAN 14",
       "state": "planned",
-      "outcome": "Five accepted islands. Approved public builds. Recovery and monitoring ready.",
+      "outcome": "Frozair’s Nov23 decision replaces Dec1 with Jan14,2027 for the same forty species/five islands. Five accepted islands, approved public builds and recovery/monitoring remain required; the date change accepts no unfinished gate.",
       "owner": "Frozair go/no-go · Codex evidence",
       "refs": [
         59
       ],
-      "gate": "Launch only when gates are green. Never trade save safety or a complete island for the date."
+      "gate": "Active decision f349fcac changes the date only. Open both stores together after both approvals, target early December; complete at least seven public-beta days plus fixes in December; final 1.0 to Apple about Jan5. These are plans, not delivery. Alpha wipe requires Frozair’s release go-ahead."
     }
   ],
   "work": [
     {
       "id": "beta-reward",
       "lane": "now",
-      "title": "Qualify the current reward-loop candidate",
+      "title": "Prove the pre-registration gift on phones",
       "owner": "Event owner · Frozair direction",
-      "due": "2026-11-09",
+      "due": "Before coordinated store opening",
       "refs": [
-        84,
+        55,
         57,
         58
       ],
-      "status": "Internal972 live · public review open",
-      "why": "Late Nov22 owner receipts record v0.2.0-beta972 on internal TestFlight and Play Internal. Signed Moto/iPhone15 smoke covers purchase/hatch kill recovery, deletion and scoped sign-in/link cases; the Google OAuth configuration was fixed and retested on the same Play build. This is actual internal delivery, not a retroactive Nov9 public start or seven-day span. Full reward-loop, exact inputs and public review remain open.",
-      "doneWhen": "Pin exact binary/backend/API inputs and qualify current three-island loops, intro retry guidance and remaining current-candidate gaps. Record actual public access/testing and Frozair’s release direction. Keep original missed dates; do not infer a new beta week or automatic retuning."
+      "status": "Local WIP · phone/store proof open",
+      "why": "Local owner WIP includes the gift migration, claim function and native store-proof plugin: one Forest Meteor and one Forest Rainbow ticket after the Gold Rush intro, once per account. It is built locally, not deployed; nothing ran on phones or against real stores. It is separate from delivered972.",
+      "doneWhen": "Under separate owner authority, qualify Play product/track/configuration and Apple pre-order proof on real store/sandbox paths, then the authorized deployment and in-game gift flow. The current bridge needs iOS16+ and leaves iOS15 gift coverage open; this is not a new minimum-support decision or paid-checkout receipt. Preserve972’s passed and missing scopes."
     },
     {
       "id": "fern-slice",
@@ -357,8 +357,8 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "Committed Snow and Giants art give owners sets to qualify. Therizinosaurus’s side colour checks and Diplodocus’s directional walks advanced. Whole-package acceptance and a measured output rate remain open.",
-      "doneWhen": "Record accepted first packages, redos and rework after the unmet Nov 8 freeze. Thirty source contracts remain. Assign credible capacity and assess public-submission readiness from completed output."
+      "why": "All forty have committed ranch/reveal banks; complete-source cohorts remain10/11/19. New method calibration, Microraptor candidates and desktop variant choices do not establish accepted output or throughput.",
+      "doneWhen": "Record accepted first packages, redos and rework after the unmet Nov8 freeze. Thirty source contracts remain under the Jan14 target. Assign credible capacity from accepted output; no replacement freeze, staff, budget or production rate is inferred."
     },
     {
       "id": "seed-roster",
@@ -403,7 +403,7 @@
         69
       ],
       "status": "Parked by Frozair",
-      "why": "Optional Forest polish remains parked; active #75 has a scoped owner workflow. Current Meteor/Shiny Meteor use selected 76%-opacity galaxy glass, body stars, cosmetic shooting star, selected Glow/footprints and Book tile updates. These affect existing forms, not event mechanics or a night-response system. Final variants/reveal/Book-photo/full-game/iOS proof remains open.",
+      "why": "Optional Forest polish stays parked except approved owner workflows. Nov24 selects RainbowB/MeteorB on desktop sheets/idle animations; Meteor/Shiny Meteor at88% supersedes76% direction. Shader/Look changes remain uncommitted owner WIP; desktop inspection is not phone or delivered972 acceptance.",
       "doneWhen": "Resume optional polish only when Frozair reprioritizes it. Final launch-blocking combined native regressions still belong to #57."
     },
     {
@@ -423,7 +423,7 @@
     {
       "id": "economy",
       "lane": "now",
-      "title": "Qualify the approved island ladder",
+      "title": "Qualify the current ticket bundle and economy",
       "owner": "Frozair decisions · Codex models",
       "due": "2026-11-01",
       "refs": [
@@ -432,9 +432,9 @@
         20,
         47
       ],
-      "status": "Ladder committed · alpha receipt recorded",
-      "why": "9c683b02 commits the selected ladder, visit log and Amber flow, superseding the uncommitted-ladder blocker. Snowy 270M, late Giants plots 200M/500M and later plots 3–6 ×20 retain their alpha receipts. New profiles receive 15 free Amber; current Forest starts with three nests and global common skies recur every five minutes. Coherent ordinary/unlucky pacing and final profiles remain unqualified.",
-      "doneWhen": "Qualify the selected bands with held/spent gates, hatchery, Bag, fees and ordinary/unlucky play on the current candidate. Preserve current three-island alpha access and separate later data/model work. Do not re-ask settled package choices or promote model diagnostics to player forecasts."
+      "status": "Ticket direction approved · local server WIP",
+      "why": "The selected island ladder remains. Nov24 ticket approval replaces the generic wallet and older ingredient recipes with event-and-island tickets crafted from fixed coins + five matching items. Local server/migration WIP exists; client/art, hosted rollout and full feedback-model proof remain open. None is assigned to972.",
+      "doneWhen": "Qualify the final coin/item bills, four/eight/eight-hour crafts, fifteen-minute ticket windows and unchanged three daily starts per island. Add actual finds/craft-spend feedback to current progression proof; the opt-in expected-item diagnostic is not that model. Amber prices and pre-sales legal clearance remain open; preserve approved ladder choices and scope all rollout receipts."
     },
     {
       "id": "cast-worlds",
@@ -450,8 +450,8 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "All forty species now have committed named ranch/reveal banks. The five Swamp sets landed in ee2e7cae with provisional sizes/strides. Shunosaurus’s refreshed set is committed and its named grain/seam findings accepted. Whole-source counts remain 10 integrated/11 redos/19 first pending; the narrower beta scope does not cut the full launch roster.",
-      "doneWhen": "All 40 pass movement/actions, reveal, variants, Book, voice and world stages. Finish Fernlands first while assigning credible parallel capacity for Giants/Swamp/Snow; measure complete output and rework. No scope/date change is authorized."
+      "why": "All forty species have committed named ranch/reveal banks; cohorts remain10 integrated/11 redos/19 first pending. Shunosaurus’s named grain/seam findings stay accepted. New Microraptor retakes and RainbowB/MeteorB desktop choices are owner WIP, with no whole-package or native gain.",
+      "doneWhen": "All40 pass required source actions/reveal, variants, Book, voice and world stages, followed by final native acceptance. Keep exact homes/stills and accepted look exceptions; measure complete output and rework. The Nov23 decision changes launch to Jan14 only, without a roster cut or implied production permission."
     },
     {
       "id": "release",
@@ -473,15 +473,46 @@
     {
       "id": "stores",
       "lane": "now",
-      "title": "Recover the public-submission checkpoint",
+      "title": "Both-store opening",
       "owner": "Frozair store owner · Codex delivery",
-      "due": "2026-11-16",
+      "due": "Early Dec · after approvals",
       "refs": [
         58
       ],
-      "status": "Original Nov 16 checkpoint unmet",
-      "why": "Apple age-rating and Play App content forms remain completed. New owner Nov22 receipts record TestFlight972 internal access and Play Internal972, not public/external review. Beta App Review/Play Open and public approvals remain open; original Nov16 public-submission checkpoint remains unmet.",
-      "doneWhen": "Record actual public Apple/Google submission/review receipts or the explicit hold, exact binaries and passed/missing gates. Preserve original Nov 16 and Dec 1; do not silently roll dates or label alpha delivery as public submission."
+      "status": "Planned · both approvals required",
+      "why": "Frozair plans Google Play pre-registration and App Store pre-order to open together after both stores approve, targeting early December without an exact opening date. Existing972 internal delivery and completed forms are historical scoped receipts, not public approval or an opened campaign.",
+      "doneWhen": "Record both actual public/pre-order approvals, exact candidates and the coordinated opening decision. Qualify the local gift, native store proof, configuration and legal/privacy work separately. Keep the original Nov16 submission miss in history; do not report the new opening as delivered."
+    },
+    {
+      "id": "public-beta",
+      "lane": "next",
+      "title": "Public beta",
+      "owner": "Frozair + release/test owners",
+      "due": "December · 7+ days",
+      "refs": [
+        55,
+        57,
+        58
+      ],
+      "status": "Planned · public start/span unrecorded",
+      "why": "The new plan calls for at least seven public-beta days in December, then fixes before1.0. Nov22 internal972 smoke and the original unmet Nov9–15 week do not create that public span. No exact December dates or completed days are established.",
+      "doneWhen": "Record actual public access, exact candidate, seven or more dated testing days, observations and fixes. Preserve the no-IAP scope of delivered972; future paid-ticket direction does not retroactively change that build or prove legal/price/checkout readiness."
+    },
+    {
+      "id": "final-build",
+      "lane": "next",
+      "title": "Final 1.0 to Apple",
+      "owner": "Frozair release decision · delivery owner",
+      "due": "About Jan 5",
+      "refs": [
+        55,
+        57,
+        58,
+        59
+      ],
+      "status": "Planned · final candidate not delivered",
+      "why": "Frozair’s backward plan targets final1.0 delivery to Apple aboutJan5 for Jan14 launch. This is approximate planning, not a new content-freeze date, upload receipt or acceptance of pending content/native/recovery/legal gates.",
+      "doneWhen": "Record the accepted final candidate and actual Apple delivery/review receipt after public-beta fixes and required approvals. Coordinate any alpha wipe only on Frozair’s explicit release go-ahead; no reset or release action follows from this board."
     },
     {
       "id": "sky",
@@ -513,8 +544,8 @@
     {
       "title": "Paid launch or free launch?",
       "due": "2026-10-25",
-      "recommendation": "Frozair settled the beta scope without in-app purchases. Public launch revenue remains a separate decision.",
-      "state": "Beta scope settled · launch open"
+      "recommendation": "The no-IAP beta choice still describes delivered972. Frozair’s Nov23 future-launch decision selects Amber tickets, subject to pre-sales legal review, regional handling and open prices. This supersedes the earlier undecided launch direction; it does not establish paid checkout or rollout.",
+      "state": "Historical beta scope · launch direction superseded"
     },
     {
       "title": "Beta without in-app purchases",
@@ -549,14 +580,32 @@
     {
       "title": "All 40 and Dec 1 reaffirmed",
       "due": "2026-10-25",
-      "recommendation": "Frozair’s full release target remains forty species across five islands on Dec 1. The beta now opens Forest, Giants and Snow, with Swamp and Fernlands coming soon. The original Nov 8 full-content freeze was unmet; assess consequences from actual candidate and accepted output.",
-      "state": "Approved scope · capacity open"
+      "recommendation": "The October25 decision retained all forty/five homes. Active Nov23 decision f349fcac replaces its Dec1 date with Jan14,2027 only; casting/art cohorts remain unchanged. Original missed checkpoints keep their actual dates and outcomes.",
+      "state": "Scope retained · date superseded Nov23"
     },
     {
       "title": "Fernlands first",
       "due": "2026-10-25",
       "state": "Approved queue · source qualification open",
       "recommendation": "Anky ranch/reveal/shop are now committed and its earlier colour choice is kept. Close finish/join/source and Moto size/run review with the owner. Iguanodon whole source qualification remains; Brachio R8/Stego follow. No new production/spend approval from maintenance."
+    },
+    {
+      "title": "Jan14 launch and coordinated pre-registration",
+      "due": "2026-11-23",
+      "state": "Approved date change · scope retained",
+      "recommendation": "Active Pigeon#55 decision f349fcac replaces Dec1 with Jan14,2027 for the same40/five islands. Both stores open together after approvals, target earlyDecember; public beta runs at least7days in December plus fixes; final1.0 goes to Apple aboutJan5. Opening/upload/reset remain separately gated actions."
+    },
+    {
+      "title": "Event-and-island ticket bundle",
+      "due": "2026-11-24",
+      "state": "Approved direction/tuning · owner WIP",
+      "recommendation": "Latest bundle uses fixed per-island coins plus five Sun Coins/Rainbow Shells/Meteorites, replacing earlier ordinary-Treasure/special recipes and the generic wallet. Ticket windows15min; crafts4h/8h/8h; three daily personal starts per island unchanged. Local server source is not hosted/client/art delivery."
+    },
+    {
+      "title": "Amber tickets at launch",
+      "due": "2026-11-23",
+      "state": "Owner direction · legal/prices open",
+      "recommendation": "Frozair selects Amber ticket sales at launch, exact numeric odds on the paid purchase card only, and paid tickets disabled in Belgium. Pre-launch legal review before sales and Amber prices remain open. These are owner planning choices, not verified legal clearance, paid-checkout implementation or a change to delivered972. Season pass remains later."
     }
   ],
   "risks": [
@@ -640,14 +689,14 @@
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "The approved new ladder and hatchery/event trials change the combined economy. The current model has opt-in all-island/recorded-visit modes but omits crafting, Egg Bag and dino levels; old price-based capsules remain historical. Qualify ordinary/unlucky current play before forecasts.",
+      "action": "The current opt-in model omits crafting, Egg Bag and dino levels. New local --ticket-items tracks expected dig-weight but does not roll actual finds or feed craft/coin spending into progression. New tuning diagnostics are not native/player pace forecasts; coherent ordinary/unlucky proof stays open.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
     {
       "title": "Public review is external",
       "level": "High",
-      "action": "Apple age-rating and Play App content forms are completed per the owner Nov 21 receipt. Play review accompanies the next submission; no public approval follows from saved forms. The original Nov 16 public-submission checkpoint remains unmet. Legal/privacy review and qualified candidates stay open against the unchanged Dec 1 target.",
+      "action": "The original Nov16 public-submission checkpoint stays unmet. Jan14 replaces Dec1 by explicit owner decision; the earlyDecember coordinated opening remains conditional on both approvals. Existing forms/internal972 are scoped evidence, not public approval. Gift store-proof, legal/privacy and exact candidates remain open.",
       "owner": "Frozair + Codex",
       "due": "2026-11-16"
     },
@@ -664,6 +713,13 @@
       "action": "Owner signed Play972 smoke records the deleted dino and Nursery count still visible until restart while server data is correct. Qualify and fix this UI cleanup with the gameplay/native owner. No maintenance reproduction or server-data-loss finding is implied. Brand-new Google identity linking is also unexercised.",
       "owner": "Gameplay/native owner",
       "due": "2026-11-29"
+    },
+    {
+      "title": "Pre-registration and paid-ticket gates remain open",
+      "level": "High",
+      "action": "Gift source is local/undeployed and untested on phones or real stores. The iOS16+ proof path leaves an iOS15 gift gap, not a changed device floor. Paid tickets require legal review, approved Amber prices and qualified checkout/regional rollout; none is established by owner WIP or internal972.",
+      "owner": "Frozair + native/store/legal owners",
+      "due": "2027-01-14"
     }
   ],
   "launchGates": [
@@ -690,7 +746,7 @@
     {
       "label": "Both stores approved",
       "state": "open",
-      "proof": "Public approvals for exact candidates, with listings, privacy and deletion verified. Apple age-rating and Play App content forms now have completion receipts; public review/approval and legal/privacy acceptance remain separate. Beta excludes in-app purchases; launch revenue remains a decision."
+      "proof": "Both actual public/pre-order approvals and coordinated opening, exact accepted candidates, privacy/deletion and required legal review. Delivered972 remains a no-IAP internal beta. Future Amber tickets are selected direction with prices/legal/checkout/rollout open; local gift source proves no store grant."
     },
     {
       "label": "Director acceptance",
@@ -709,7 +765,7 @@
     },
     {
       "title": "Full season pass + broad premium catalog",
-      "reason": "Frozair excluded in-app purchases from the beta. Broader paid scope awaits the public launch revenue decision."
+      "reason": "Season pass remains after launch. Future Amber ticket sales are selected with legal/prices/checkout/rollout gates open; this does not change delivered972’s no-IAP scope or approve a broader catalog."
     },
     {
       "title": "New hybrids, decor and art rewrites",
@@ -721,6 +777,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-24",
+      "text": "Active Nov23 owner decision f349fcac replaces Dec1 with Jan14,2027 for the same forty/five islands. Exact previous milestones and Nov23–29 plan are archived before this midweek replan. Both-store opening targets earlyDecember after both approvals; December public beta7+days and aboutJan5 Apple delivery are planned, not delivered."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Pre-registration gift/native store-proof source is local WIP, undeployed and untested on phones/real stores; iOS16+ leaves an iOS15 gift gap. Latest ticket approval uses coins+five matching items and15min windows; local server source is separate from client/art/hosted rollout. Paid Amber tickets are selected with legal/prices open, outside delivered972."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "RainbowB/MeteorB88% desktop/idle choices supersede76% direction in owner WIP. Microraptor colour/retake candidates and method recalibration add no complete-package gain. Inventory40/40, cohorts10/11/19, selected public stills/homes and the original missed checkpoints are unchanged."
+    },
     {
       "date": "2026-11-23",
       "text": "LateNov22 owner receipts establish internal TestFlight/Play972 delivery and scoped signed Android/iPhone smoke. Google sign-in was repaired/retested; fresh Google linking remains open, and Android deletion leaves stale display until restart with correct server data. Moto covered8of20minutes, not full-load/endurance acceptance. Nov16–22 archived complete with partial gains and broader recovery unmet; newNov23–29verification plan preserves original milestones andDec1 scope."
@@ -875,6 +943,30 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Jan14 date-only authority · ownerNov23, reviewedNov24",
+      "detail": "Active Pigeon#55 decision f349fcac-3e9e-4b1b-b901-2f3b0b679b90 replaces Dec1 with Jan14,2027 and explicitly keeps the forty/five-island scope. Open pre-registration/pre-order together after both approvals, target earlyDecember; public beta at least7days plus fixes in December; final1.0 to Apple aboutJan5. These are plans; wipe requires Frozair’s release go-ahead. Exact former milestones/current-week version and all four earlier weekly histories are retained."
+    },
+    {
+      "label": "Pre-registration gift · local owner WIP, Nov24",
+      "detail": "Local migration20261124010000, claim function and native store-proof plugin implement one Forest Meteor+Rainbow gift after the Gold Rush intro, once/account. Owner docs say built, not deployed; no phone or real-store run. Apple proof needs iOS16+, leaving iOS15 gift coverage open without changing the support floor. Track/product/configuration, authorized deployment and store/sandbox tests remain open. This is neither972 delivery nor qualified paid checkout."
+    },
+    {
+      "label": "Final ticket bundle · ownerNov24 approval, local source",
+      "detail": "Event+island tickets replace the generic wallet. Each craft costs five matching Sun Coins/Rainbow Shells/Meteorites plus fixed coins (Gold/Rainbow/Meteor): Forest2.5/5/10M;Giants25/50/100M;Snow80/160/320M;Swamp175/350/700M;Fern350/700/1400M. No ordinary Treasure or island specials in recipes. Crafts4h/8h/8h, three parallel/island; ticket windows15min and three personal starts/island/NewYork day unchanged. Local migration20261124020000/server WIP is not hosted/client/art delivery."
+    },
+    {
+      "label": "Paid-ticket launch direction · ownerNov23, gates open",
+      "detail": "Frozair selects Amber ticket sales at launch, numeric odds on the paid purchase card only and paid tickets disabled in Belgium; pre-sales legal review and Amber prices remain open. These are owner planning choices, not verified legal clearance or a regional-law finding. Season pass stays later. The earlier undecided launch/generic-wallet/ingredient directions are superseded; delivered972 remains no-IAP, with no new checkout/store-form/rollout acceptance."
+    },
+    {
+      "label": "Art direction and candidates · ownerWIP reviewedNov24",
+      "detail": "Inventory remains40/40 committed/working; cohorts10/11/19 and Shunosaurus’s named acceptance stay. RainbowB/MeteorB88% are selected exact-scale desktop sheets/idle-animation scopes, superseding76% direction; shader/Look integration is owner WIP, not phone proof. Microraptor colour/green-key and directional retakes remain active candidates, without a whole-package/reveal/final-size/stride or native gain. Selected public stills/crops stay unchanged."
+    },
+    {
+      "label": "Model and current qualification boundary · Nov24",
+      "detail": "The new opt-in ticket-items diagnostic tracks expected dig-weight, not actual item finds or craft/coin-spend progression feedback; tuning cells are not player forecasts. No new receipt closes Android stale-delete display, fresh Google linking, remaining12Moto minutes/full16-dino five-island load, full iOS play or isolated restore/load. Monitoring and signed972 smoke retain completed scopes. Maintenance read recorded source only: no game/art/device/store/hosted execution or spending."
+    },
     {
       "label": "Internal beta972 delivery · ownerNov22, reviewedNov23",
       "detail": "5cbbd50e and docs/mvp record v0.2.0-beta972 live for internal TestFlight and Play Internal, with production packs. eb547485 repairs the intentional-art export guard after the version tag. This supersedes the generic no-delivery/current-Android-track gap. Public/external review remains open; exact artifact hashes/source manifest and current backend migration parity are not separately recorded. No maintenance export, upload or hosted query."
@@ -1269,26 +1361,26 @@
     }
   ],
   "firstWork": {
-    "title": "Qualify the beta. Recover the missed gates.",
-    "note": "Nov16–22 recovery made partial progress: internal972 delivery and signed smoke landed, while full recovery/content/public gates remained unmet. The original Nov9–15 beta and Nov16 submission misses stay visible. This week records actual remaining proof for the unchanged forty/five-island Dec1 target.",
+    "title": "Prove pre-registration. Qualify what ships.",
+    "note": "Jan14 replaces Dec1 by Frozair’s late-Nov23 date-only decision; forty/five homes stay. This Nov23–29 week is replanned after that decision. The exact prior milestone/week version is retained in release-plan history; original missed checkpoints remain visible.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Finish build 972 qualification",
-        "when": "Nov 16 public submissions unmet",
-        "owner": "Event/native owners · Frozair release decision",
+        "title": "Prove the gift on phones and stores",
+        "when": "Before coordinated store opening",
+        "owner": "Native/store owners · Frozair opening decision",
         "refs": [
-          84,
-          56,
-          57
+          55,
+          57,
+          58
         ],
-        "outcome": "Internal TestFlight/Play972 and signed Moto/iPhone15 smoke are recorded. Reuse passed Nov22 cases; close Android deletion display cleanup, fresh Google linking, remaining endurance/full load and exact-input/backend proof with authorized owners. Public review and full-release acceptance stay open.",
+        "outcome": "Pre-registration gift, claim function and native proof plugin are local WIP, not deployed or tested on phones/real stores. Qualify the post-intro Forest Meteor + Rainbow gift, store/configuration paths and iOS16+ bridge; resolve the iOS15 gift gap without inventing a new support floor. Delivered972’s scopes stay separate.",
         "species": [
-          "Internal972: live",
-          "Signed smoke: recorded",
-          "Public review: open"
+          "Local WIP: built",
+          "Phone/store proof: open",
+          "iOS15 gift gap: open"
         ]
       },
       {
@@ -1296,7 +1388,7 @@
         "step": 2,
         "kind": "art",
         "title": "Qualify the art already built",
-        "when": "Nov 8 freeze unmet",
+        "when": "30 complete source contracts pending",
         "owner": "Frozair review · art owner production",
         "refs": [
           29,
@@ -1304,7 +1396,7 @@
           23,
           75
         ],
-        "outcome": "All forty species now have committed ranch/reveal banks. Qualify complete packages with their owners; the five Swamp sets retain provisional size/stride judgment. Shunosaurus’s named grain/seam findings are accepted. Thirty source contracts, Brachio R8 matching and final world/native checks remain open.",
+        "outcome": "Inventory stays40/40 committed/working; cohorts10/11/19 stay. RainbowB/MeteorB88% are selected desktop/idle scopes in owner WIP. Microraptor retakes are candidates, not installed whole-package gains. Qualify complete source contracts and native scope; preserve selected public stills and Shunosaurus’s named acceptance.",
         "species": [
           "40 committed / 40 working",
           "30 packages pending",
@@ -1315,33 +1407,33 @@
         "id": "capacity-first",
         "step": 3,
         "kind": "operations",
-        "title": "Close recovery and submission gates",
-        "when": "Recover missed submission + operations gates",
-        "owner": "Frozair resources · Codex evidence",
+        "title": "Close ticket, legal and recovery gates",
+        "when": "Before paid launch / coordinated opening",
+        "owner": "Frozair + ticket/store/legal/operations owners",
         "refs": [
           55,
           42,
           57,
           58
         ],
-        "outcome": "The owner records private row backup/reset and now Sentry event ingestion, release symbols and alert configuration/fire. Apple age-rating and Play App content forms are completed. Isolated restore, staging load, legal/privacy review and qualified public-store delivery remain open. Record exact candidate and remaining capacity against the original dates.",
+        "outcome": "Latest ticket direction is coins + five matching items and15min windows; local server work is not hosted/client/art delivery. Amber ticket sales are selected, with legal review and prices open. Keep delivered972 no-IAP, scoped monitoring/signed smoke and still-open restore/load/full-candidate gates distinct.",
         "species": [
-          "Monitoring: recorded",
-          "Restore/load: open",
-          "Public candidate: open"
+          "Ticket client/rollout: open",
+          "Legal/prices: open",
+          "Restore/load: open"
         ]
       }
     ]
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages pending complete source qualification. All forty have committed named ranch/reveal banks; working inventory is also 40/40. Five Swamp sets landed in ee2e7cae with provisional sizes/strides for in-game judgment. File coverage does not close source or final acceptance. The original Nov 8 freeze was unmet.",
+    "note": "10 integrated, 11 redos and 19 first packages remain pending complete source qualification; committed/working named ranch/reveal inventory stays 40/40. New Microraptor retakes and variant/pipeline changes are owner WIP, not package gains. Shunosaurus’s named acceptance remains. Original Nov 8 freeze stays unmet; no replacement freeze or output rate is invented.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -15,
+    "daysToFreeze": -16,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1686,7 +1778,7 @@
             "name": "Microraptor",
             "image": "/stompy-acres/roster/microraptor.webp",
             "bank": "missing",
-            "detail": "Committed ranch and reveal banks match 12/12 checked generated files. Dig and nap clips are present. Recorded reports flag 1,049 ranch and 185 reveal frames; complete qualification remains open.",
+            "detail": "Owner colour, green-key and directional retakes remain candidates, with active selections still changing. No whole-source integration, candidate dedicated reveal, final size/stride or phone acceptance is established by that work. Public portrait stays unchanged.",
             "productionStatus": "missing"
           },
           {
@@ -1708,25 +1800,25 @@
   "weeklyPlan": {
     "start": "2026-11-23",
     "end": "2026-11-29",
-    "title": "Finish remaining proof. Record the Dec 1 decision.",
-    "note": "This is a verification/fixes plan within the original fixes window, not a shifted beta or launch target. The complete Nov16–22 plan is archived with partial gains and the unmet broader recovery objective. Actual internal delivery/signed smoke occurred Nov22; full launch remains forty/five islands/Dec1 only with all required gates green.",
+    "title": "Prepare the January launch. Prove the next gates.",
+    "note": "Nov23–29 remains the current week. Replanned Nov24 after Frozair’s late-Nov23 Jan14 decision; exact prior milestones and this week’s previous version are preserved in release-plan history. The four earlier complete weeks stay unchanged. No opening, beta span, upload or acceptance is inferred.",
     "priorities": [
       {
         "id": "pin-972",
-        "title": "Pin the delivered candidate and actual test dates",
+        "title": "Qualify pre-registration store proof and gift",
         "owner": "Release/native owners · Frozair acceptance",
-        "doneWhen": "Record972 binary/source/backend inputs and completed versus omitted signed cases. Reuse valid Nov22 proof, qualify current defects and endurance/load under separate authority, and keep public/external status distinct.",
+        "doneWhen": "Record accountable native/store/configuration and authorized rollout proof for the local post-intro gift. No phone/real-store run exists yet; the iOS16+ path leaves an iOS15 gift gap, not a new support decision. Reuse scoped972 cases while keeping the new WIP outside that delivered build.",
         "refs": [
-          56,
+          55,
           57,
-          84
+          58
         ]
       },
       {
         "id": "content-current",
         "title": "Qualify complete content against current consumers",
         "owner": "Art/integration owners · Frozair look judgment",
-        "doneWhen": "Record whole-source acceptances and remaining work for the unchanged forty. Banks remain40/40 but cohorts10/11/19 and thirty pending until actual acceptance receipts change them. No invented staff, budget or output rate.",
+        "doneWhen": "Qualify whole-source contracts and current consumers for the unchanged forty. Inventory40/40 and cohorts10/11/19 remain; new pipeline calibration, Microraptor retakes and selected RainbowB/MeteorB desktop looks are not complete-package output or phone acceptance. Preserve public stills and accepted exceptions.",
         "refs": [
           42,
           29,
@@ -1735,9 +1827,9 @@
       },
       {
         "id": "release-decision",
-        "title": "Recover operations and public-review gates",
+        "title": "Gate tickets, legal work and coordinated opening",
         "owner": "Frozair release/store/resources · operations owners",
-        "doneWhen": "Record isolated restore/load, legal/privacy and actual public review/approval evidence or explicit holds. Explain remaining consequences forDec1 without shifting original milestones or treating internal smoke as seven beta days.",
+        "doneWhen": "Record current ticket client/art/rollout, legal/prices and recovery/public-review evidence or explicit holds. Plan both-store opening after both approvals, at least7public-beta days plus fixes in December, and final1.0 to Apple aboutJan5. No exact earlyDecember dates or completed beta days are invented.",
         "refs": [
           55,
           57,
@@ -1752,69 +1844,69 @@
         "date": "2026-11-23",
         "label": "MON 23",
         "title": "Record the actual recovery outcome",
-        "focus": "Actual review: reconcile lateNov22 internal972 and signed smoke, archive the complete prior week and identify remaining cases. Broad recovery/content/public gates remain unmet.",
-        "proof": "Dated owner cases, scoped completions and open gates; today’s remaining targets are not presumed complete."
+        "focus": "Historical Monday review reconciled Nov22 internal972/signed smoke and archived Nov16–22. Later Nov23, Frozair explicitly moved launch to Jan14 for the same40/five islands; that later authority triggers this midweek replan.",
+        "proof": "Keep the original dated972 cases and missed outcomes. Active f349fcac changes the date only; the exact pre-change milestone/week snapshot is preserved, not rewritten."
       },
       {
         "id": "tue-24",
         "date": "2026-11-24",
         "label": "TUE 24",
-        "title": "Close current candidate gaps",
-        "focus": "With authorized owners, qualify Android deletion display cleanup, fresh Google linking and existing Boat/Frost/intro findings. Keep already-passed sign-in and Apple deletion cases scoped.",
-        "proof": "Owner fixes and exact case receipts; no automatic retune, game edit, build or device execution."
+        "title": "Record the new direction and local limits",
+        "focus": "Today’s review records local pre-registration source, the final coins-plus-five ticket bundle, Amber ticket/legal direction and owner desktop variant/candidate work. No phone/store/hosted or acceptance gain is inferred.",
+        "proof": "Source/local WIP and owner approvals are distinct from deployed972. Gift is undeployed, iOS15 coverage is open, ticket client/art/rollout and legal/prices remain open; counts/stills/homes stay unchanged."
       },
       {
         "id": "wed-25",
         "date": "2026-11-25",
         "label": "WED 25",
-        "title": "Finish endurance and full-load proof",
-        "focus": "Reconcile remaining12minutes of the interrupted Moto observation,16-resident/full-five load and broader physical-iOS/pack cases on accountable candidates. Held islands remain held until owner direction.",
-        "proof": "Comparable inputs/device conditions and remaining scope; no blanket invalidation of the valid8minutes or invented full pass."
+        "title": "Qualify store-proof and candidate gaps",
+        "focus": "With authorized owners, qualify the gift’s Play product/track/configuration and Apple proof paths, the iOS15 gap and existing Android deletion/Google-link cases. Preserve the valid Nov22 signed smoke scope.",
+        "proof": "Actual exact-candidate/store/sandbox case receipts and unresolved coverage, including remaining Moto endurance/full load and broader iOS play. Daily targets grant no build, device or rollout authority."
       },
       {
         "id": "thu-26",
         "date": "2026-11-26",
         "label": "THU 26",
         "title": "Prove isolated recovery and load",
-        "focus": "Recover isolated restore/load and candidate recovery receipts with operations owners. Monitoring, private row backup/reset and signed smoke remain separate accepted scopes.",
-        "proof": "Actual authorized restore/load/rollback results and precise remaining access decisions; no maintenance hosted operation."
+        "focus": "Recover isolated restore/load and candidate recovery with operations owners; review legal/privacy and paid-ticket regional/purchase-card requirements with accountable owners. Monitoring/private backup/signed smoke stay scoped.",
+        "proof": "Actual authorized recovery/legal findings and explicit holds. Planning choices are not legal clearance, production checkout or a maintenance hosted operation."
       },
       {
         "id": "fri-27",
         "date": "2026-11-27",
         "label": "FRI 27",
         "title": "Record complete content acceptances",
-        "focus": "Qualify remaining source contracts, BrachioR8 matching, current consumers and world/voice/native scope with owners. Preserve all selected stills, exact homes and owner art.",
-        "proof": "Accepted output and rework, with thirty pending until evidence changes; no file-inventory promotion or unapproved art spend."
+        "focus": "Qualify current complete source contracts with art owners. Review new variant WIP and Microraptor candidate scope without replacing immutable public stills or treating method changes/raw takes as accepted output.",
+        "proof": "Accepted output/rework and current consumer/size/stride/reveal/native scope. Thirty remain until explicit complete-package evidence changes them; no duplicated production or spending."
       },
       {
         "id": "sat-28",
         "date": "2026-11-28",
         "label": "SAT 28",
-        "title": "Reconcile actual public-review status",
-        "focus": "Record real Apple/Google public-review/approval and legal/privacy state on exact candidates. Internal972 access, store forms and screenshots do not imply public approval.",
-        "proof": "Actual review dates and decisions, keeping originalNov16 submission andNov9–15 beta history intact."
+        "title": "Prepare coordinated store opening",
+        "focus": "Reconcile actual Apple/Google approvals and pre-registration/pre-order readiness, targeting earlyDecember only after both approvals. Pin gift configuration/rollout and ticket/legal holds; delivered972 remains internal/no-IAP.",
+        "proof": "Real approvals/configuration/candidate receipts or explicit pending state. OriginalNov16 and Nov9–15 historical misses stay; no exact opening date or public-beta span is claimed."
       },
       {
         "id": "sun-29",
         "date": "2026-11-29",
         "label": "SUN 29",
-        "title": "Record remaining gates for Dec 1",
-        "focus": "Review actual accepted content, candidate, recovery and public-store evidence with Frozair. State unfinished gates and forecast consequences without inventing another launch target.",
-        "proof": "A dated acceptance/go-no-go record and accountable remaining work; this review grants no automatic release or scope cut."
+        "title": "Review the January plan and remaining gates",
+        "focus": "Review actual accepted content, pre-registration proof, legal/ticket work, recovery and both-store states. Assign accountable next work for the Jan14 target and conditional December/January planning points.",
+        "proof": "A dated owner decision and actual remaining work; no fabricated capacity, automatic release/reset or change to the forty/five roster. December public beta and about-Jan5 Apple delivery remain planned until receipts exist."
       }
     ],
     "parking": [
       "Optional Forest polish remains parked; approved owner-specific work is a scoped exception",
       "Unapproved mechanics and extra islands remain parked; #84 Sky Portal is a separately approved owner workflow on existing islands, and Dino Park #80 remains an idea",
-      "In-app purchases are out of beta. Public launch revenue remains open.",
+      "Delivered972 remains a beta without IAP. Future Amber tickets are selected, but legal/prices/checkout/rollout stay gated; season pass remains later.",
       "Quick Hatch #85 remains design only, not approved to build"
     ],
     "checkpoint": {
       "date": "2026-11-29",
-      "title": "Nov29: record actual launch-gate readiness.",
-      "pass": "Actual passed and remaining gates, candidate inputs, review states and Frozair direction are explicit against the unchangedDec1 target. This weekly review does not replace any original milestone.",
-      "ifMiss": "Record unfinished scope and consequences honestly; do not silently cut the roster, shift dates, fabricate test days/capacity or claim Dec1 acceptance."
+      "title": "Nov29: review the January launch prerequisites.",
+      "pass": "Actual pre-registration/native/store, content, ticket/legal, recovery and public-review states are explicit under Jan14 direction. Conditional earlyDecember opening, December7+days public beta and aboutJan5 Apple delivery have accountable next work. This review replaces no historical missed checkpoint.",
+      "ifMiss": "Record unfinished gates and owner resource/date consequences honestly. Jan14 is the explicit current target; do not invent an earlier replacement freeze, exact opening/beta dates, capacity, test days, approvals or release authority."
     },
     "dependencies": [
       "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
@@ -2290,6 +2382,235 @@
         "Android/physical-iOS access, current candidate scope and operations execution need accountable authorized owners",
         "Preserve all selected stills, exact 40 homes, accepted look choices and current art-owner files; separate source/local/hosted/native evidence"
       ]
+    }
+  ],
+  "releasePlanHistory": [
+    {
+      "decisionDate": "2026-11-23",
+      "decisionId": "f349fcac-3e9e-4b1b-b901-2f3b0b679b90",
+      "previousTargetDate": "2026-12-01",
+      "snapshotAsOf": "2026-11-23",
+      "milestones": [
+        {
+          "id": "scope",
+          "title": "Prove the foundations",
+          "start": "2026-10-18",
+          "end": "2026-10-25",
+          "dateLabel": "OCT 18–25",
+          "state": "blocked",
+          "outcome": "Oct 25 combined gate unmet: complete-package capacity, initial device/ops and both-platform proof were not established. Late Oct 26 Moto Fernlands hatch/work/relaunch is partial progress.",
+          "owner": "Frozair + Codex",
+          "refs": [
+            55,
+            42,
+            9,
+            45,
+            52
+          ],
+          "gate": "Original Oct 25 date retained. Frozair reaffirmed all 40 and Dec 1; Forest polish is parked. Close the remaining evidence and assign credible parallel capacity."
+        },
+        {
+          "id": "alpha",
+          "title": "Connect all five",
+          "start": "2026-10-26",
+          "end": "2026-11-01",
+          "dateLabel": "OCT 26–NOV 1",
+          "state": "blocked",
+          "outcome": "Original Nov 1 checkpoint UNMET at Nov 4 review: no complete all-five persistent native/data and isolated restore/load receipt was found. Runtime worlds, scoped Moto observations and local source tests advanced, with missing full-loop/physical-iOS/operations proof.",
+          "owner": "Codex integration · Frozair art",
+          "refs": [
+            56,
+            49,
+            50,
+            6,
+            20,
+            47
+          ],
+          "gate": "Keep the original Nov 1 date. Recover the missing proof on separately authorized candidates; source/world/local simulation progress does not silently complete or extend this gate."
+        },
+        {
+          "id": "freeze",
+          "title": "Finish the world",
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "dateLabel": "NOV 2–8",
+          "state": "blocked",
+          "outcome": "All 40 residents: required movement/actions/reveals, five habitats and expansion stages accepted. Freeze new features and content.",
+          "owner": "Frozair approval · Codex qualification",
+          "refs": [
+            23,
+            24,
+            25,
+            29,
+            2,
+            27,
+            31
+          ],
+          "gate": "Original Nov 8 freeze UNMET at Nov 9 review. Thirty complete source packages and full world/native/recovery acceptance remain open. Keep the date and assess consequences for beta and public submissions."
+        },
+        {
+          "id": "beta",
+          "title": "Play it for a week",
+          "start": "2026-11-09",
+          "end": "2026-11-15",
+          "dateLabel": "NOV 9–15",
+          "state": "blocked",
+          "outcome": "Original Nov 9–15 qualified signed/public seven-day beta UNMET at Nov 16 review: no accepted public start, exact candidate or seven-day span was established.",
+          "owner": "Frozair + testers · Codex QA",
+          "refs": [
+            57,
+            7,
+            10
+          ],
+          "gate": "Keep the original Nov 9–15 dates and actual observations. Alpha activity, source tags and scoped debug checks do not complete this gate. The complete plan is archived with its actual outcome; Nov 16 public submissions remain the original due date."
+        },
+        {
+          "id": "submit",
+          "title": "Submit, then stabilise",
+          "start": "2026-11-16",
+          "end": "2026-11-30",
+          "dateLabel": "NOV 16–30",
+          "state": "blocked",
+          "outcome": "Original Nov 16 PUBLIC Apple/Google submission checkpoint UNMET at Nov 17 review: no qualifying public submission receipt was found. The Nov 17–30 fixes window remains unchanged.",
+          "owner": "Codex delivery · Frozair store owner",
+          "refs": [
+            58
+          ],
+          "gate": "Internal TestFlight and Play build972 delivery and scoped signed smoke are owner-recorded Nov22, not public/external review or public-store submission. Recover remaining candidate/store/recovery proof and record actual submission dates; retain the original Nov16 checkpoint and Nov30 fixes-period end.",
+          "checkpointDate": "2026-11-16"
+        },
+        {
+          "id": "launch",
+          "title": "Open the sanctuary",
+          "start": "2026-12-01",
+          "end": "2026-12-01",
+          "dateLabel": "DEC 1",
+          "state": "planned",
+          "outcome": "Five accepted islands. Approved public builds. Recovery and monitoring ready.",
+          "owner": "Frozair go/no-go · Codex evidence",
+          "refs": [
+            59
+          ],
+          "gate": "Launch only when gates are green. Never trade save safety or a complete island for the date."
+        }
+      ],
+      "weeklyPlan": {
+        "start": "2026-11-23",
+        "end": "2026-11-29",
+        "title": "Finish remaining proof. Record the Dec 1 decision.",
+        "note": "This is a verification/fixes plan within the original fixes window, not a shifted beta or launch target. The complete Nov16–22 plan is archived with partial gains and the unmet broader recovery objective. Actual internal delivery/signed smoke occurred Nov22; full launch remains forty/five islands/Dec1 only with all required gates green.",
+        "priorities": [
+          {
+            "id": "pin-972",
+            "title": "Pin the delivered candidate and actual test dates",
+            "owner": "Release/native owners · Frozair acceptance",
+            "doneWhen": "Record972 binary/source/backend inputs and completed versus omitted signed cases. Reuse valid Nov22 proof, qualify current defects and endurance/load under separate authority, and keep public/external status distinct.",
+            "refs": [
+              56,
+              57,
+              84
+            ]
+          },
+          {
+            "id": "content-current",
+            "title": "Qualify complete content against current consumers",
+            "owner": "Art/integration owners · Frozair look judgment",
+            "doneWhen": "Record whole-source acceptances and remaining work for the unchanged forty. Banks remain40/40 but cohorts10/11/19 and thirty pending until actual acceptance receipts change them. No invented staff, budget or output rate.",
+            "refs": [
+              42,
+              29,
+              75
+            ]
+          },
+          {
+            "id": "release-decision",
+            "title": "Recover operations and public-review gates",
+            "owner": "Frozair release/store/resources · operations owners",
+            "doneWhen": "Record isolated restore/load, legal/privacy and actual public review/approval evidence or explicit holds. Explain remaining consequences forDec1 without shifting original milestones or treating internal smoke as seven beta days.",
+            "refs": [
+              55,
+              57,
+              58,
+              7
+            ]
+          }
+        ],
+        "days": [
+          {
+            "id": "mon-23",
+            "date": "2026-11-23",
+            "label": "MON 23",
+            "title": "Record the actual recovery outcome",
+            "focus": "Actual review: reconcile lateNov22 internal972 and signed smoke, archive the complete prior week and identify remaining cases. Broad recovery/content/public gates remain unmet.",
+            "proof": "Dated owner cases, scoped completions and open gates; today’s remaining targets are not presumed complete."
+          },
+          {
+            "id": "tue-24",
+            "date": "2026-11-24",
+            "label": "TUE 24",
+            "title": "Close current candidate gaps",
+            "focus": "With authorized owners, qualify Android deletion display cleanup, fresh Google linking and existing Boat/Frost/intro findings. Keep already-passed sign-in and Apple deletion cases scoped.",
+            "proof": "Owner fixes and exact case receipts; no automatic retune, game edit, build or device execution."
+          },
+          {
+            "id": "wed-25",
+            "date": "2026-11-25",
+            "label": "WED 25",
+            "title": "Finish endurance and full-load proof",
+            "focus": "Reconcile remaining12minutes of the interrupted Moto observation,16-resident/full-five load and broader physical-iOS/pack cases on accountable candidates. Held islands remain held until owner direction.",
+            "proof": "Comparable inputs/device conditions and remaining scope; no blanket invalidation of the valid8minutes or invented full pass."
+          },
+          {
+            "id": "thu-26",
+            "date": "2026-11-26",
+            "label": "THU 26",
+            "title": "Prove isolated recovery and load",
+            "focus": "Recover isolated restore/load and candidate recovery receipts with operations owners. Monitoring, private row backup/reset and signed smoke remain separate accepted scopes.",
+            "proof": "Actual authorized restore/load/rollback results and precise remaining access decisions; no maintenance hosted operation."
+          },
+          {
+            "id": "fri-27",
+            "date": "2026-11-27",
+            "label": "FRI 27",
+            "title": "Record complete content acceptances",
+            "focus": "Qualify remaining source contracts, BrachioR8 matching, current consumers and world/voice/native scope with owners. Preserve all selected stills, exact homes and owner art.",
+            "proof": "Accepted output and rework, with thirty pending until evidence changes; no file-inventory promotion or unapproved art spend."
+          },
+          {
+            "id": "sat-28",
+            "date": "2026-11-28",
+            "label": "SAT 28",
+            "title": "Reconcile actual public-review status",
+            "focus": "Record real Apple/Google public-review/approval and legal/privacy state on exact candidates. Internal972 access, store forms and screenshots do not imply public approval.",
+            "proof": "Actual review dates and decisions, keeping originalNov16 submission andNov9–15 beta history intact."
+          },
+          {
+            "id": "sun-29",
+            "date": "2026-11-29",
+            "label": "SUN 29",
+            "title": "Record remaining gates for Dec 1",
+            "focus": "Review actual accepted content, candidate, recovery and public-store evidence with Frozair. State unfinished gates and forecast consequences without inventing another launch target.",
+            "proof": "A dated acceptance/go-no-go record and accountable remaining work; this review grants no automatic release or scope cut."
+          }
+        ],
+        "parking": [
+          "Optional Forest polish remains parked; approved owner-specific work is a scoped exception",
+          "Unapproved mechanics and extra islands remain parked; #84 Sky Portal is a separately approved owner workflow on existing islands, and Dino Park #80 remains an idea",
+          "In-app purchases are out of beta. Public launch revenue remains open.",
+          "Quick Hatch #85 remains design only, not approved to build"
+        ],
+        "checkpoint": {
+          "date": "2026-11-29",
+          "title": "Nov29: record actual launch-gate readiness.",
+          "pass": "Actual passed and remaining gates, candidate inputs, review states and Frozair direction are explicit against the unchangedDec1 target. This weekly review does not replace any original milestone.",
+          "ifMiss": "Record unfinished scope and consequences honestly; do not silently cut the roster, shift dates, fabricate test days/capacity or claim Dec1 acceptance."
+        },
+        "dependencies": [
+          "Daily targets grant no new production, spend, game build, hosted operation or messaging permission",
+          "Android/physical-iOS access, current candidate scope and operations execution need accountable authorized owners",
+          "Preserve all selected stills, exact 40 homes, accepted look choices and current art-owner files; separate source/local/hosted/native evidence"
+        ]
+      }
     }
   ]
 }

@@ -13,6 +13,7 @@ textFields(data, ['title', 'subtitle', 'timezone', 'health', 'healthNote', 'scop
 new Intl.DateTimeFormat('en-US', { timeZone: data.timezone }).format();
 for (const key of ['targetDate', 'asOf', 'nextReview']) assert(date(data[key]), `Invalid ${key}`);
 assert(data.nextReview >= data.asOf, 'Next review precedes evidence review');
+assert.equal(data.targetDate, roster.targetDate, 'Roadmap and roster targets differ');
 assert.equal(data.releaseIslandCount, data.islands.length);
 assert(data.releaseIslandCount >= 5, 'Release requires at least five islands');
 for (const key of ['wiredIslands', 'launchWiredIslands', 'signedOffIslands', 'liveSpecies']) assert(Number.isInteger(data.baseline[key]) && data.baseline[key] >= 0, `Invalid baseline ${key}`);
@@ -29,14 +30,28 @@ for (const island of data.islands) {
     assert(['implemented', 'partial', 'open'].includes(check.state), `Invalid island state: ${check.state}`);
   }
 }
-uniqueIds(data.milestones, 'Milestones');
-for (const milestone of data.milestones) {
-  textFields(milestone, ['title', 'outcome', 'owner', 'gate', 'dateLabel']);
-  assert(date(milestone.start) && date(milestone.end) && milestone.end >= milestone.start, `Invalid milestone range: ${milestone.id}`);
-  if (milestone.checkpointDate !== undefined) {
-    assert(date(milestone.checkpointDate) && milestone.checkpointDate >= milestone.start && milestone.checkpointDate <= milestone.end, `Invalid milestone checkpoint: ${milestone.id}`);
+function validateMilestones(milestones) {
+  uniqueIds(milestones, 'Milestones');
+  for (const milestone of milestones) {
+    textFields(milestone, ['title', 'outcome', 'owner', 'gate', 'dateLabel']);
+    assert(date(milestone.start) && date(milestone.end) && milestone.end >= milestone.start, `Invalid milestone range: ${milestone.id}`);
+    if (milestone.checkpointDate !== undefined) {
+      assert(date(milestone.checkpointDate) && milestone.checkpointDate >= milestone.start && milestone.checkpointDate <= milestone.end, `Invalid milestone checkpoint: ${milestone.id}`);
+    }
+    assert(['active', 'planned', 'complete', 'blocked'].includes(milestone.state));
   }
-  assert(['active', 'planned', 'complete', 'blocked'].includes(milestone.state));
+}
+validateMilestones(data.milestones);
+const releaseHistory = data.releasePlanHistory ?? [];
+assert(Array.isArray(releaseHistory), 'Invalid release-plan history');
+assert.equal(new Set(releaseHistory.map(plan => plan.decisionId)).size, releaseHistory.length, 'Duplicate release decision');
+for (const plan of releaseHistory) {
+  textFields(plan, ['decisionId']);
+  assert(plan.decisionId.trim().length > 0, 'Empty release decision');
+  for (const key of ['decisionDate', 'previousTargetDate', 'snapshotAsOf']) assert(date(plan[key]), `Invalid release-history ${key}`);
+  assert(plan.snapshotAsOf <= plan.decisionDate && plan.decisionDate <= data.asOf, 'Invalid release-history sequence');
+  validateMilestones(plan.milestones);
+  assert(plan.milestones.find(milestone => milestone.id === 'launch')?.end === plan.previousTargetDate, 'Historical launch differs from recorded target');
 }
 uniqueIds(data.work, 'Work');
 for (const work of data.work) {
@@ -84,6 +99,7 @@ function validateWeeklyPlan(weekly) {
 }
 
 validateWeeklyPlan(data.weeklyPlan);
+for (const plan of releaseHistory) if (plan.weeklyPlan) validateWeeklyPlan(plan.weeklyPlan);
 const history = data.weeklyHistory ?? [];
 assert(Array.isArray(history), 'Weekly history must be an array');
 assert.equal(new Set(history.map(week => week.start)).size, history.length, 'Duplicate historical week');

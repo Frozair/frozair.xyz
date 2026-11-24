@@ -65,22 +65,65 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 23**, not an invented November
+remain distinct. Latest director audit is **November 24**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
 retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
-with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 verification/fixes plan keeps the original release dates; current priority is finishing build972 qualification.
+with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 plan is replanned November24 after the explicit late-November23 January14 decision. Its exact previous version and six milestones are preserved in `releasePlanHistory`, alongside the four unchanged complete `weeklyHistory` entries. Current priority is local pre-registration gift/store proof; delivered972 keeps its prior scope.
 
-Frozair reaffirmed all 40 and December 1 October 25 (23a20f3a), Fernlands first,
-optional Forest polish parked. Approved owner-specific work remains scoped. No
-silent cuts, new target date, budget, staff or production-rate promise. November 8
-freeze, November 9–15 signed beta, November 16 public submissions, November 17–30
-fixes and December 1 gated launch remain. The original November 8 freeze was **unmet**, with **30 whole-source packages pending qualification**,
-alongside world, voice, phone and recovery gates. The complete November 2–8 plan
-and its outcome are archived against the original dates. On or after the freeze date, rate fields
-are null and the page shows the checkpoint status instead of dividing by zero.
+Frozair’s active November23 Pigeon#55 decision
+`f349fcac-3e9e-4b1b-b901-2f3b0b679b90` replaces **December1 with January14,2027**,
+changing the date only. Forty species/five homes remain. Both stores’ pre-registration/
+pre-order open together after both approvals, targeting earlyDecember without an exact
+opening date. December public beta requires at least seven actual days plus fixes;
+final1.0 goes to Apple aboutJanuary5. These are plans, not approvals, delivery or test days.
+An alpha wipe still requires Frozair’s release go-ahead.
+
+October25, November1, November8, November9–15 and November16 missed checkpoints keep
+their original dates/outcomes. The original November8 freeze remains **unmet**, with
+**30 whole-source packages pending qualification**; `daysToFreeze` is−16 as of Nov24
+and both rate fields remain null. No replacement content-freeze date or exact earlyDecember
+beta week is invented. December1 is superseded by owner decision, not marked missed early.
+The exact old target, six milestones and prior November23–29 version are retained in
+`releasePlanHistory`; all four earlier weekly-history records remain untouched.
+
+Pre-registration gift source is owner local WIP: migration20261124010000, claim function
+and native store-proof plugin. One Forest Meteor and one Forest Rainbow ticket follow
+the Gold Rush intro once/account. Docs say **built, not deployed**, with nothing run
+on phones or against real stores. The Apple proof path needs iOS16+ and leaves an
+iOS15 gift-coverage gap; it does not decide a new device floor. Product/track/configuration,
+authorized rollout and real-store/sandbox qualification remain open. No new source is
+assigned to delivered972 or described as accepted production paid checkout.
+
+The latest November24 approved ticket bundle supersedes the generic any-event wallet
+and older ordinary-Treasure/special ingredient recipes. Tickets name both event and island.
+Crafts cost **fixed island coins + five matching Sun Coins/Rainbow Shells/Meteorites**;
+island specials retain their sell/held-unlock role. Gold/Rainbow/Meteor coin bills are:
+
+| Island | Gold Rush | Rainbow Skies | Meteor Shower |
+|---|---:|---:|---:|
+| Forest | 2.5M | 5M | 10M |
+| Giants | 25M | 50M | 100M |
+| Snow | 80M | 160M | 320M |
+| Swamp | 175M | 350M | 700M |
+| Fernlands | 350M | 700M | 1.4B |
+
+Craft times remain4h/8h/8h with three concurrent crafts/island after Giants. Ticket-started
+windows are15min; scheduled free big events remain10min and common skies remain their
+separate3min/every5min cadence. Three personal starts/island/NewYork day and one active
+personal event/account stay. Items go to Tickets, not Bag/Sell All. Local server/migration
+20261124020000 matches this bundle; client/art/hosted rollout remain open. The opt-in
+expected-item diagnostic does not simulate actual finds or craft/coin-spend progression
+feedback, and its tuning cells are not player pace/retention forecasts.
+
+Frozair selects **Amber ticket sales at launch**, numeric odds on the paid purchase
+card only and paid tickets disabled in Belgium, with **legal review before sales and
+Amber prices still open**. These are owner planning choices, not verified legal clearance,
+approved checkout or hosted delivery. Delivered972 remains a beta without IAP; its existing
+store forms describe that build. Season pass stays after launch. Earlier dated decisions
+and evidence below retain their historical scopes; they do not override this new direction.
 
 `production.islands` preserves exact locked IDs/homes and three acceptance cohorts:
 10 approved-look source packages integrated / 11 redos / 19 first packages pending
@@ -99,6 +142,11 @@ small happy head drop was accepted, not a blanket waiver; Anky colour is kept an
 Theri's old mismatch is closed. Anky/Iguanodon complete-source checks remain open.
 File presence, matching content, task completion and local previews do not close a
 whole-source contract or final voice/UI/native acceptance. Selected stills stay exact.
+Nov24 owner WIP selects RainbowB/MeteorB on exact-scale desktop sheets/idle animations;
+Meteor/Shiny Meteor88% supersedes76% direction, not phone approval. Shader/Look changes
+remain uncommitted. Microraptor colour/green-key and directional retakes remain active
+owner candidates without whole-package, final scale/stride, reveal or phone acceptance. Method recalibration is not accepted throughput. Shunosaurus’s
+named grain/seam acceptance remains; the immutable October19 public still pack stays unchanged.
 
 All five now have runtime scenery: Forest c99a15bcfb; Giants 1ee79f5bbd; Swamp/Fernlands
 5787cfb9f5; Snow 2f5aea6e76 through 25c020d06e. Retire old concept-only/absent-runtime,
@@ -127,7 +175,9 @@ through the API with 4+ readback and Play App content/IARC declarations on Nov 2
 Play review accompanies the next submission; these are form receipts, not public
 submission/approval. Frozair’s Loot Boxes: No choice applies to the current earned-cash
 build; revisit answers if real money/Amber buys eggs or bags. Kids’-privacy legal
-review remains open. No new monetization or IAP scope follows.
+review remains open. These forms describe the submitted earned-cash972 scope; the later
+Amber-ticket launch direction adds legal/price/checkout/review dependencies and does not
+retroactively change that build or establish approval for sales.
 
 The same commit marks scoped monitoring done: Sentry received release0.1.7+771/dev
 events, release symbols were uploaded for0.1.9/0.1.8, and the high-priority alert has
@@ -151,7 +201,8 @@ Nov 9 start is established at the Nov 10 review. Preserve the original Nov 9–1
 window and actual test span rather than silently shifting dates. Store declaration
 readbacks and the eight-type iOS privacy preset are recorded in source.
 The website privacy text was updated separately. Public candidate distribution,
-remaining store review and full gameplay qualification remain open. Public launch revenue is separate.
+remaining store review and full gameplay qualification remain open. Future Amber-ticket
+launch sales now have selected direction with legal/prices/checkout/rollout open;972 remains no-IAP.
 
 The reset-order defect/fail-closed runner are fixed in 30c4016af with pinned seed-last
 proof. Do not resurrect the old 36/32 warning. Fresh-start policy retires legacy-owner
@@ -205,7 +256,8 @@ The original Nov 9–15 qualified signed/public seven-day beta objective is UNME
 at Nov 16 review. Its complete plan is archived with the actual outcome before the
 then-new Nov16–22 gate-recovery/fixes plan, now archived atNov23 with its actual outcome. The original Nov 16 PUBLIC submission checkpoint is now UNMET at Nov 17 review:
 no qualifying public submission receipt was found. Original dates and the fixes window remain. The complete Nov16–22 recovery plan is archived with actual gains and the unmet broader objective; the active plan is Nov23–29.
-Full forty/five/Dec 1 remain until Frozair decides otherwise.
+That dated plan used December1. Frozair’s active November23 decision now sets January14
+for the same forty/five islands; the old missed dates and outcomes remain historical.
 
 Source tag v0.1.9-alpha/build953 is historical. New owner docs record v0.2.0-beta
 build972 LIVE on internal TestFlight and Play Internal Nov22. Signed Moto and
@@ -272,13 +324,13 @@ Nov16. Optional milestone.checkpointDate drives the compact missed-date list bef
 falling back to end, and validation requires it inside the original milestone range.
 This prevents Nov30 being labeled missed while preserving all original dates.
 
-Publication coordination: shared website main remains at17bb88a7 with owner Beby
-privacy edits and untracked build info; do not push, reset or rebase that checkout.
-Verified productionfae774ca includes the owner-published Beby privacy correction.
-The isolated production checkout at
+Publication coordination: the November24 owner snapshot records shared website main
+`850361a5f327bfa90fc3c04627a04d29b4d20c86`, owner Beby privacy edits and untracked build info.
+Do not push, reset or rebase that checkout. The isolated production checkout at
 `/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` was fast-forwarded
-onto that verified base before the Nov22 Stompy update. Preserve all unrelated
-EXIT/policy work and reconcile ancestry before each publication.
+onto verified production`e73dcc28bc03a389585bc397d2d1e137fb2ea0e9` before this update.
+That production base includes Wobblings privacy work. Preserve both unrelated owner
+files and reconcile ancestry/owner-before evidence before publication.
 
 Run `node scripts/check-stompy-roadmap.mjs`, `node scripts/check-stompy-roster.mjs`
 and `node scripts/check-stompy-art-review.mjs`, then `npm run build`. Inspect intended
@@ -303,4 +355,5 @@ Keep/Bench casting choices. Validate the 40 matching IDs and all image metadata 
 The selected still baseline is approved as of October19 (BrachioR8; preserve Rex/Leafy).
 Leafy is the game’s stylized Velociraptor. Keep art sources, crops and local drafts intact.
 Fresh-start launch approval supersedes legacy relocation work; roadmap maintenance
-executes no hosted reset. The unmet Oct25 checkpoint remains recorded; all-five proof stays Nov1 and physical iOS coverage is needed.
+executes no hosted reset. Unmet original Oct25/Nov1 checkpoints stay historical; full
+all-five/physical-iOS acceptance remains open under the Jan14 date-only change.

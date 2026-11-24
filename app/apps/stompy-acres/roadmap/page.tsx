@@ -36,6 +36,11 @@ interface WeeklyPlan {
   dependencies: string[];
 }
 
+interface Milestone {
+  id: string; title: string; start: string; end: string; dateLabel: string; checkpointDate?: string;
+  state: "active" | "planned" | "complete" | "blocked"; outcome: string; owner: string; refs: number[]; gate: string;
+}
+
 export interface ReleaseRoadmap {
   schemaVersion: number;
   title: string;
@@ -65,9 +70,10 @@ export interface ReleaseRoadmap {
   };
   updatePolicy: { cadence: string; staleAfterDays: number; sourceLabel: string };
   islands: Island[];
-  milestones: {
-    id: string; title: string; start: string; end: string; dateLabel: string; checkpointDate?: string;
-    state: "active" | "planned" | "complete" | "blocked"; outcome: string; owner: string; refs: number[]; gate: string;
+  milestones: Milestone[];
+  releasePlanHistory?: {
+    decisionDate: string; decisionId: string; previousTargetDate: string; snapshotAsOf: string;
+    milestones: Milestone[]; weeklyPlan?: WeeklyPlan;
   }[];
   work: {
     id: string; lane: WorkLane; title: string; owner: string; due: string;
@@ -92,7 +98,7 @@ const filters: { value: Filter; label: string }[] = [
 function dateLabel(value: string, full = false) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return value;
   return new Intl.DateTimeFormat("en-US", {
-    month: full ? "long" : "short", day: "numeric", timeZone: "UTC",
+    month: full ? "long" : "short", day: "numeric", year: full ? "numeric" : undefined, timeZone: "UTC",
   }).format(new Date(`${value}T12:00:00Z`));
 }
 
@@ -172,6 +178,10 @@ function WeeklyPlanView({ plan, id = "sa-weekly-detail", historical = false }: {
       </section>;
 }
 
+function MilestoneTimeline({ milestones }: { milestones: Milestone[] }) {
+  return <div className="sa-timeline" style={{ "--milestone-count": milestones.length } as CSSProperties}>{milestones.map((milestone, index) => <details key={milestone.id} className={`sa-milestone ${milestone.state === "active" ? "is-active" : ""}`}><summary><span className="sa-milestone-node">{index + 1}</span><span className="sa-milestone-date">{milestone.dateLabel}</span><strong>{milestone.title}</strong><span className="sa-milestone-state">{({ active: "IN FOCUS", planned: "PLANNED", complete: "COMPLETE", blocked: "BLOCKED" })[milestone.state]}</span><span className="sa-milestone-more">View gate <span>+</span></span></summary><div className="sa-milestone-detail"><p>{milestone.outcome}</p><p><b>Exit gate</b><br />{milestone.gate}</p><span>{milestone.owner}</span><BoardRefs refs={milestone.refs} /></div></details>)}</div>;
+}
+
 export default function ReleaseRoadmapPage() {
   const [filter, setFilter] = useState<Filter>("now");
   const [today, setToday] = useState(roadmap.asOf);
@@ -209,8 +219,10 @@ export default function ReleaseRoadmapPage() {
   const daysLeft = Math.max(0, dayDifference(roadmap.targetDate, today));
   const tasks = roadmap.work.filter(task => task.lane === filter);
   const target = new Date(`${roadmap.targetDate}T12:00:00Z`);
-  const briefMilestones = roadmap.milestones.filter(milestone => milestone.id !== "scope");
-  const blockedCheckpointDates = Array.from(new Set(roadmap.milestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.checkpointDate ?? milestone.end))).sort();
+  const briefMilestones = roadmap.milestones.filter(milestone => milestone.id !== "scope" && milestone.state !== "blocked" && milestone.end >= roadmap.asOf);
+  const releasePhaseWork = ["stores", "public-beta", "final-build"].flatMap(id => roadmap.work.filter(work => work.id === id));
+  const recordedMilestones = [...roadmap.milestones, ...(roadmap.releasePlanHistory ?? []).flatMap(plan => plan.milestones)];
+  const blockedCheckpointDates = Array.from(new Set(recordedMilestones.filter(milestone => milestone.state === "blocked").map(milestone => milestone.checkpointDate ?? milestone.end))).sort();
   const actionNotes = { art: "Movement + hatch reveals", engine: "Android + physical iPhone", operations: "People + time + recovery" };
   const actionTitles = { art: "Finish creature art", engine: "Test the current build", operations: "Confirm time + help" };
   const focusNotes = { art: "Finish the creatures already underway.", engine: "Prove the opening and island loops.", operations: "Prove recovery and confirm capacity." };
@@ -245,8 +257,8 @@ export default function ReleaseRoadmapPage() {
 
       <section className="sa-brief-dates" aria-labelledby="sa-key-dates-title">
         <div className="sa-brief-section-heading"><h2 id="sa-key-dates-title">The dates to protect</h2><span>Target plan · gates still open</span></div>
-        <ol>{briefMilestones.map(milestone => <li key={milestone.id} className={`is-${milestone.state}`}><time dateTime={milestone.id === "beta" ? milestone.start : milestone.id === "submit" ? milestone.start : milestone.end}>{milestone.id === "beta" ? `${dateLabel(milestone.start)}–${new Date(`${milestone.end}T12:00:00Z`).getUTCDate()}` : dateLabel(milestone.id === "submit" ? milestone.start : milestone.end)}</time><span aria-hidden="true" className="sa-brief-date-node" /><strong>{({ alpha: "Five islands playable", freeze: "All art + worlds finished", beta: "Seven-day beta", submit: "Submit to both stores", launch: "Launch if ready" } as Record<string, string>)[milestone.id] ?? milestone.title}</strong></li>)}</ol>
-        <p className="sa-brief-date-note">{blockedCheckpointDates.length > 0 && <>{blockedCheckpointDates.map(date => dateLabel(date)).join(" + ")} {blockedCheckpointDates.length === 1 ? "checkpoint" : "checkpoints"} unmet. </>}Store fixes: Nov 17–30.</p>
+        <ol style={{ "--key-date-count": releasePhaseWork.length + briefMilestones.length } as CSSProperties}>{releasePhaseWork.map(work => <li key={work.id} className="is-planned"><span className="sa-brief-date-value"><DueDate value={work.due} /></span><span aria-hidden="true" className="sa-brief-date-node" /><strong>{work.title}</strong></li>)}{briefMilestones.map(milestone => <li key={milestone.id} className={`is-${milestone.state}`}><time dateTime={milestone.id === "beta" ? milestone.start : milestone.id === "submit" ? milestone.start : milestone.end}>{milestone.id === "beta" ? `${dateLabel(milestone.start)}–${new Date(`${milestone.end}T12:00:00Z`).getUTCDate()}` : dateLabel(milestone.id === "submit" ? milestone.start : milestone.end)}</time><span aria-hidden="true" className="sa-brief-date-node" /><strong>{({ alpha: "Five islands playable", freeze: "All art + worlds finished", beta: "Seven-day beta", submit: "Submit to both stores", launch: "Launch if ready" } as Record<string, string>)[milestone.id] ?? milestone.title}</strong></li>)}</ol>
+        <p className="sa-brief-date-note">{blockedCheckpointDates.length > 0 && <>{blockedCheckpointDates.map(date => dateLabel(date)).join(" + ")} {blockedCheckpointDates.length === 1 ? "checkpoint" : "checkpoints"} unmet. </>}Current phases remain conditional on the required proofs and store approvals.</p>
       </section>
 
       <nav className="sa-brief-links" aria-label="More roadmap detail"><Link href="/apps/stompy-acres/roster">See the 40 creatures <Arrow /></Link><a href="#sa-production">Creature progress <Arrow /></a></nav>
@@ -292,7 +304,16 @@ export default function ReleaseRoadmapPage() {
 
         </PlanDetail>
         <PlanDetail title="Milestones + full work list">
-      <section className="sa-section sa-plan-section" aria-labelledby="sa-plan-title"><div className="sa-section-heading"><div><p className="sa-eyebrow">02 / THE PATH TO DECEMBER</p><h2 id="sa-plan-title">Build. Prove. Ship.</h2></div><span className="sa-small-note">{roadmap.resourcesNote}</span></div><div className="sa-timeline" style={{ "--milestone-count": roadmap.milestones.length } as CSSProperties}>{roadmap.milestones.map((milestone, index) => <details key={milestone.id} className={`sa-milestone ${milestone.state === "active" ? "is-active" : ""}`}><summary><span className="sa-milestone-node">{index + 1}</span><span className="sa-milestone-date">{milestone.dateLabel}</span><strong>{milestone.title}</strong><span className="sa-milestone-state">{({ active: "IN FOCUS", planned: "PLANNED", complete: "COMPLETE", blocked: "BLOCKED" })[milestone.state]}</span><span className="sa-milestone-more">View gate <span>+</span></span></summary><div className="sa-milestone-detail"><p>{milestone.outcome}</p><p><b>Exit gate</b><br />{milestone.gate}</p><span>{milestone.owner}</span><BoardRefs refs={milestone.refs} /></div></details>)}</div><div className="sa-north-star"><span aria-hidden="true">✳</span><p>{roadmap.northStar}</p><span className="sa-north-star-label">THE NORTH STAR</span></div></section>
+      <section className="sa-section sa-plan-section" aria-labelledby="sa-plan-title"><div className="sa-section-heading"><div><p className="sa-eyebrow">02 / THE RELEASE PLAN</p><h2 id="sa-plan-title">Build. Prove. Ship.</h2></div><span className="sa-small-note">{roadmap.resourcesNote}</span></div><MilestoneTimeline milestones={roadmap.milestones} />
+        {(roadmap.releasePlanHistory ?? []).map((plan, historyIndex) => <details className="sa-evidence" id={`sa-release-plan-history-${historyIndex}`} key={plan.decisionId}>
+          <summary>Previous release plan · {dateLabel(plan.previousTargetDate, true)} target <span>+</span></summary>
+          <p>Replaced by Frozair’s decision on {dateLabel(plan.decisionDate, true)}. Statuses below were recorded as of {dateLabel(plan.snapshotAsOf, true)}.</p>
+          <MilestoneTimeline milestones={plan.milestones} />
+          {plan.weeklyPlan && <details className="sa-evidence"><summary>Previous version of the week of {dateLabel(plan.weeklyPlan.start)} <span>+</span></summary>
+            <WeeklyPlanView plan={plan.weeklyPlan} id={`sa-release-plan-week-${historyIndex}`} historical />
+          </details>}
+        </details>)}
+        <div className="sa-north-star"><span aria-hidden="true">✳</span><p>{roadmap.northStar}</p><span className="sa-north-star-label">THE NORTH STAR</span></div></section>
 
       <section className="sa-section" aria-labelledby="sa-work-title"><div className="sa-section-heading"><div><p className="sa-eyebrow">03 / THE DIRECTOR’S DESK</p><h2 id="sa-work-title">Keep the next move clear.</h2></div><span className="sa-small-note">{roadmap.healthNote}</span></div><div className="sa-work-filters" role="group" aria-label="Filter work by release horizon">{filters.map(item => <button key={item.value} type="button" aria-pressed={filter === item.value} onClick={() => setFilter(item.value)}>{item.label}<span>{item.value === "cut" ? roadmap.deferred.length : roadmap.work.filter(task => task.lane === item.value).length}</span></button>)}</div><div className="sa-task-grid" aria-live="polite" aria-atomic="false">{filter === "cut" ? roadmap.deferred.map((item, index) => <article className="sa-task-card is-cut" key={item.title}><div className="sa-task-top"><span className="sa-task-track">SCOPE NOTE</span><span>0{index + 1}</span></div><h3>{item.title}</h3><p>{item.reason}</p><span className="sa-cut-label">Confirmed / proposed — see note</span></article>) : tasks.length ? tasks.map(task => <article className="sa-task-card" key={task.id}><div className="sa-task-top"><span className="sa-task-track">{task.status}</span><DueDate value={task.due} /></div><h3>{task.title}</h3><div className="sa-task-owner"><span>{task.owner}</span><BoardRefs refs={task.refs} /></div><details><summary>What gets us there <span>+</span></summary><div><p>{task.why}</p><p><b>Done when</b><br />{task.doneWhen}</p></div></details></article>) : <p className="sa-empty-state">No work assigned to this horizon.</p>}</div></section>
 

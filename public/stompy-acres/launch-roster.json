@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-23",
-  "targetDate": "2026-12-01",
+  "asOf": "2026-11-24",
+  "targetDate": "2027-01-14",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
   "islands": [
@@ -1452,5 +1452,6 @@
   ],
   "rosterStatus": "locked",
   "lockedAt": "2026-10-18",
-  "lockNote": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate."
+  "lockNote": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate.",
+  "nextReview": "2026-11-25"
 }
