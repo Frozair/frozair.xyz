@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2027-01-14",
-  "asOf": "2026-11-24",
-  "nextReview": "2026-11-25",
+  "asOf": "2026-11-25",
+  "nextReview": "2026-11-26",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Frozair moved launch to Jan 14, 2027; all forty/five islands stay. Store opening, December public beta and final 1.0 are planned. Pre-registration/ticket work is local WIP; thirty source contracts and full native/recovery/legal/store gates remain open. Internal972 evidence keeps its Nov22 scope.",
+  "healthNote": "Jan14 and all forty/five islands stay. The gift backend is deployed; ticket client/icons are committed, with ticket rollout intentionally held for a compatible build. Phone/store grants, thirty source contracts and full native/recovery/legal/store gates remain open. Internal972 keeps its Nov22 scope.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Jan 14 target · 40 residents retained · original missed gates preserved",
   "releaseIslandCount": 5,
@@ -318,16 +318,16 @@
       "id": "beta-reward",
       "lane": "now",
       "title": "Prove the pre-registration gift on phones",
-      "owner": "Event owner · Frozair direction",
+      "owner": "Native/store owners · Frozair opening decision",
       "due": "Before coordinated store opening",
       "refs": [
         55,
         57,
         58
       ],
-      "status": "Local WIP · phone/store proof open",
-      "why": "Local owner WIP includes the gift migration, claim function and native store-proof plugin: one Forest Meteor and one Forest Rainbow ticket after the Gold Rush intro, once per account. It is built locally, not deployed; nothing ran on phones or against real stores. It is separate from delivered972.",
-      "doneWhen": "Under separate owner authority, qualify Play product/track/configuration and Apple pre-order proof on real store/sandbox paths, then the authorized deployment and in-game gift flow. The current bridge needs iOS16+ and leaves iOS15 gift coverage open; this is not a new minimum-support decision or paid-checkout receipt. Preserve972’s passed and missing scopes."
+      "status": "Backend deployed · phone/store proof open",
+      "why": "Owner Nov24 receipts record gift migration24010000 applied and the claim function deployed. Store-proof plugin source is committed and compiled in a debug Android export with BILLING. This is not a compatible signed release, phone/store grant or paid checkout; delivered972 has no BILLING. The once-account Forest Meteor+Rainbow gift after intro is unchanged.",
+      "doneWhen": "Qualify the owner’s remaining Google configuration, Billing-enabled track/product setup and Play promo/Apple sandbox proof with a compatible candidate. No phone or real-store grant is recorded. The iOS16+ bridge still leaves an iOS15 gift gap without changing the support floor. Keep deployed backend, native source and actual delivery receipts separate."
     },
     {
       "id": "fern-slice",
@@ -357,7 +357,7 @@
         29
       ],
       "status": "Scope fixed · capacity unproven",
-      "why": "All forty have committed ranch/reveal banks; complete-source cohorts remain10/11/19. New method calibration, Microraptor candidates and desktop variant choices do not establish accepted output or throughput.",
+      "why": "Inventory remains40/40 and complete-source cohorts10/11/19. Microraptor/Suchomimus/Dilophosaurus have newer committed motion/install progress; scoped three-species Moto look approval is also recorded. None establishes a new whole-contract acceptance or output rate.",
       "doneWhen": "Record accepted first packages, redos and rework after the unmet Nov8 freeze. Thirty source contracts remain under the Jan14 target. Assign credible capacity from accepted output; no replacement freeze, staff, budget or production rate is inferred."
     },
     {
@@ -370,9 +370,9 @@
         42,
         56
       ],
-      "status": "Reset verified · final profiles open",
-      "why": "Seed-last source proof covers all40 homes/eight-shop/Book/starters. Remaining exact economic and asset contracts must match the approved game.",
-      "doneWhen": "Record exact IDs/homes, approved coherent profiles, ranch/reveal contracts, voice and source/native evidence. Close 24 later-island profile assignments with current gate/hatch/model proof. Do not count new banks or old reveals as a complete approved package."
+      "status": "Band calls alpha-applied · qualification open",
+      "why": "All40 IDs/homes remain fixed. New Giants/Snowy species-to-band calls are approved and alpha-applied in24030000; species inherit existing band numbers. Tier constants, land/unlock gates and stock/visit rules are unchanged. Source/native and ordinary/unlucky combined qualification remain open.",
+      "doneWhen": "Record current exact IDs/homes, approved band mappings/profiles and ranch/reveal/voice contracts, then qualify the combined current candidate. Do not re-ask settled mappings, infer phone acceptance from alpha SQL, or count source banks as complete approved packages."
     },
     {
       "id": "measure",
@@ -403,7 +403,7 @@
         69
       ],
       "status": "Parked by Frozair",
-      "why": "Optional Forest polish stays parked except approved owner workflows. Nov24 selects RainbowB/MeteorB on desktop sheets/idle animations; Meteor/Shiny Meteor at88% supersedes76% direction. Shader/Look changes remain uncommitted owner WIP; desktop inspection is not phone or delivered972 acceptance.",
+      "why": "Optional Forest polish stays parked except approved owner workflows. Frozair records scoped Moto approval for selected RainbowB/MeteorB looks on Rex/Nigersaurus/Stegosaurus. Shader/Look integration remains owner WIP; remaining species/forms and current-release qualification stay open. The bounded review scene is not972 or full performance acceptance.",
       "doneWhen": "Resume optional polish only when Frozair reprioritizes it. Final launch-blocking combined native regressions still belong to #57."
     },
     {
@@ -432,9 +432,9 @@
         20,
         47
       ],
-      "status": "Ticket direction approved · local server WIP",
-      "why": "The selected island ladder remains. Nov24 ticket approval replaces the generic wallet and older ingredient recipes with event-and-island tickets crafted from fixed coins + five matching items. Local server/migration WIP exists; client/art, hosted rollout and full feedback-model proof remain open. None is assigned to972.",
-      "doneWhen": "Qualify the final coin/item bills, four/eight/eight-hour crafts, fifteen-minute ticket windows and unchanged three daily starts per island. Add actual finds/craft-spend feedback to current progression proof; the opt-in expected-item diagnostic is not that model. Amber prices and pre-sales legal clearance remain open; preserve approved ladder choices and scope all rollout receipts."
+      "status": "Client/icons committed · ticket rollout held",
+      "why": "107553e4 commits ticket client/server source and e8bc049e the selected paintedB item icons. Final coin+five-item bills/timers stay unchanged. Migration24020000 is intentionally held for a matching client: 972 cannot collect the items, and its generic tickets would stop working after the intro if24020000 were applied. A rolled-back dry run is not application; later band migration24030000 is separately alpha-applied.",
+      "doneWhen": "Record a compatible client and authorized ticket migration rollout, then phone item/Workshop/reward proof. Keep three personal starts/island and approved bills/timers unchanged. Qualify actual-find/craft-spend progression feedback; expected-item tracking and the bounded band-remap comparison are not player forecasts. Amber prices/legal/checkout remain open."
     },
     {
       "id": "cast-worlds",
@@ -450,7 +450,7 @@
         29
       ],
       "status": "40 residents locked · production open",
-      "why": "All forty species have committed named ranch/reveal banks; cohorts remain10 integrated/11 redos/19 first pending. Shunosaurus’s named grain/seam findings stay accepted. New Microraptor retakes and RainbowB/MeteorB desktop choices are owner WIP, with no whole-package or native gain.",
+      "why": "All forty have committed ranch/reveal banks; cohorts10/11/19 remain. New Microraptor and Swamp replacement sets have committed installation/motion progress; Suchomimus/Dilophosaurus size is approved beside the Swamp eight, with phone checks open. Scoped three-species Moto RainbowB/MeteorB approval and import compression do not close whole-source/native contracts. Shunosaurus’s named acceptance stays.",
       "doneWhen": "All40 pass required source actions/reveal, variants, Book, voice and world stages, followed by final native acceptance. Keep exact homes/stills and accepted look exceptions; measure complete output and rework. The Nov23 decision changes launch to Jan14 only, without a roster cut or implied production permission."
     },
     {
@@ -467,7 +467,7 @@
         31
       ],
       "status": "Original Nov 15 beta gate unmet",
-      "why": "Build972 is recorded live on internal TestFlight and Play Internal. Owner Moto proof downloads all four production packs over Wi-Fi in35s and records ranch30–44fps, Shop46fps and reveal40fps. The run stopped at8of20minutes after USB disconnect; remaining duration and16-dino/full-five load are open. Signed Moto and iPhone15 smoke passed scoped purchase/hatch kill and account cases. Exact artifact identity, backend parity, broader iOS/endurance/recovery and public approval remain separate.",
+      "why": "Build972 is recorded live on internal TestFlight and Play Internal. Owner Moto proof downloads all four production packs over Wi-Fi in35s and records ranch30–44fps, Shop46fps and reveal40fps. The run stopped at8of20minutes after USB disconnect; remaining duration and16-dino/full-five load are open. Signed Moto and iPhone15 smoke passed scoped purchase/hatch kill and account cases. Exact artifact identity, backend parity, broader iOS/endurance/recovery and public approval remain separate. The Android deleted-resident issue is now source-fixed in95bd454b, explicitly not in a build; the phone Nursery-count recheck remains open.",
       "doneWhen": "Finish omitted cases and remaining endurance/load/recovery on accountable authorized candidates, reusing valid Nov22 cases. Original Nov1 recovery and Nov15 beta milestones remain unmet; do not manufacture a replacement beta week."
     },
     {
@@ -481,7 +481,7 @@
       ],
       "status": "Planned · both approvals required",
       "why": "Frozair plans Google Play pre-registration and App Store pre-order to open together after both stores approve, targeting early December without an exact opening date. Existing972 internal delivery and completed forms are historical scoped receipts, not public approval or an opened campaign.",
-      "doneWhen": "Record both actual public/pre-order approvals, exact candidates and the coordinated opening decision. Qualify the local gift, native store proof, configuration and legal/privacy work separately. Keep the original Nov16 submission miss in history; do not report the new opening as delivered."
+      "doneWhen": "Record both actual public/pre-order approvals, exact candidates and the coordinated opening decision. Qualify phone/store gift grants on the deployed backend with a compatible Billing-enabled client and remaining configuration; legal/privacy gates stay separate. Keep originalNov16 history and do not report opening as delivered."
     },
     {
       "id": "public-beta",
@@ -538,8 +538,8 @@
     {
       "title": "Qualify the selected later-island ladder",
       "due": "2026-10-25",
-      "recommendation": "The approved later-island ladder is now committed in 9c683b02 with earlier alpha receipts. Snowy 270M/late Giants 200M/500M supersede historical values. Exact binary, coherent profiles and ordinary/unlucky pacing remain open; four later Finder choices are separate.",
-      "state": "Package selected · qualification open"
+      "recommendation": "95bd454b records24030000 alpha-applied: Giants free Diplodocus/Common Giganotosaurus and Dreadnoughtus Mythic growth; Snow free Nanuqsaurus/Common Leaellynasaura, Rhino Uncommon, Yuty Rare and Pachyrhino Legendary. Species inherit existing band numbers; tier/gate rules are not retuned. Current binary/combined pacing qualification remains open.",
+      "state": "Band calls approved/alpha-applied · qualification open"
     },
     {
       "title": "Paid launch or free launch?",
@@ -598,8 +598,8 @@
     {
       "title": "Event-and-island ticket bundle",
       "due": "2026-11-24",
-      "state": "Approved direction/tuning · owner WIP",
-      "recommendation": "Latest bundle uses fixed per-island coins plus five Sun Coins/Rainbow Shells/Meteorites, replacing earlier ordinary-Treasure/special recipes and the generic wallet. Ticket windows15min; crafts4h/8h/8h; three daily personal starts per island unchanged. Local server source is not hosted/client/art delivery."
+      "state": "Source/icons committed · rollout intentionally held",
+      "recommendation": "Final coin+five-item bills,4h/8h/8h crafts,15min ticket windows and three daily starts/island stay.107553e4 commits client/server; e8bc049e commits selected paintedB icons. Migration24020000 is held for a compatible client, not applied by its rolled-back dry run. No ticket rollout to972 or paid checkout follows."
     },
     {
       "title": "Amber tickets at launch",
@@ -626,7 +626,7 @@
     {
       "title": "Current build and backend inputs need pinning",
       "level": "High",
-      "action": "Signed Play/TestFlight972 actions and production pack loading now have owner device receipts, so delivery and tested paths are no longer purely unknown. Pin exact binary/source manifests and backend/API migration parity for broader qualification. The release tag precedes the export-guard fix; do not infer an outage or exact packaged inputs from the tag alone.",
+      "action": "Pin exact binary/source/API inputs for broader qualification. Gift backend24010000 is deployed, ticket24020000 intentionally held for a compatible client, and later band24030000 alpha-applied. This split is deliberate; do not infer blanket migration parity, an unexplained rollout failure or972 inclusion from commit/order numbers.",
       "owner": "Release/gameplay owner",
       "due": "2026-11-16"
     },
@@ -689,7 +689,7 @@
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "The current opt-in model omits crafting, Egg Bag and dino levels. New local --ticket-items tracks expected dig-weight but does not roll actual finds or feed craft/coin spending into progression. New tuning diagnostics are not native/player pace forecasts; coherent ordinary/unlucky proof stays open.",
+      "action": "Committed opt-in ticket-item tracking still omits actual-find/craft-coin progression feedback. A recorded90-day/8-seed all-island no-sky comparison supports the selected band remap only; it is not native/unlucky/player pace acceptance. Qualify the current combined economy before forecasts.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -708,16 +708,16 @@
       "due": "2026-11-01"
     },
     {
-      "title": "Android deletion leaves a stale display",
+      "title": "Android deletion source fix needs phone proof",
       "level": "High",
-      "action": "Owner signed Play972 smoke records the deleted dino and Nursery count still visible until restart while server data is correct. Qualify and fix this UI cleanup with the gameplay/native owner. No maintenance reproduction or server-data-loss finding is implied. Brand-new Google identity linking is also unexercised.",
+      "action": "95bd454b source-fixes orphaned residents/effects after deletion, explicitly not in a build. Nov22 signed972 stale-display evidence remains historical; Nursery count still needs phone recheck. Brand-new Google identity linking also remains unexercised. No new signed-device closure or server-data-loss finding is implied.",
       "owner": "Gameplay/native owner",
       "due": "2026-11-29"
     },
     {
       "title": "Pre-registration and paid-ticket gates remain open",
       "level": "High",
-      "action": "Gift source is local/undeployed and untested on phones or real stores. The iOS16+ proof path leaves an iOS15 gift gap, not a changed device floor. Paid tickets require legal review, approved Amber prices and qualified checkout/regional rollout; none is established by owner WIP or internal972.",
+      "action": "Gift backend is deployed and plugin source/debug BILLING compilation recorded, but no compatible signed candidate or phone/real-store grant is proved. Google configuration/product/track and iOS15 gift coverage remain open without a new device floor. Paid legal/prices/checkout/regional rollout remain separate;972 stays no-IAP.",
       "owner": "Frozair + native/store/legal owners",
       "due": "2027-01-14"
     }
@@ -741,12 +741,12 @@
     {
       "label": "Saves + operations",
       "state": "partial",
-      "proof": "Monitoring and scoped signed972 purchase/hatch kill and deletion cases are recorded. Full update/reinstall/account-link recovery, isolated restore/load and rollback remain open. Android deletion has stale client display until restart with correct server data; no server-loss finding."
+      "proof": "Scoped monitoring and signed972 recovery/account cases stay recorded. The Android deleted-resident fix is source-only, not in a build; Nursery phone count and fresh Google linking remain open. Full update/reinstall, isolated restore/load and rollback still need acceptance."
     },
     {
       "label": "Both stores approved",
       "state": "open",
-      "proof": "Both actual public/pre-order approvals and coordinated opening, exact accepted candidates, privacy/deletion and required legal review. Delivered972 remains a no-IAP internal beta. Future Amber tickets are selected direction with prices/legal/checkout/rollout open; local gift source proves no store grant."
+      "proof": "Both actual public/pre-order approvals and coordinated opening, exact accepted candidates, privacy/deletion and legal review. Gift backend deployment proves no real-store grant. Ticket migration stays held for a compatible client;972 remains internal/no-IAP and future paid prices/checkout/rollout remain open."
     },
     {
       "label": "Director acceptance",
@@ -777,6 +777,18 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-25",
+      "text": "Owner Nov24 receipts supersede blanket local-only gift wording: gift SQL/function are deployed and native plugin source/debug BILLING compilation is recorded. Ticket client/server and paintedB icons are committed; ticket migration is intentionally held for a compatible build, outside972. Phone/store gift grants and paid checkout remain open."
+    },
+    {
+      "date": "2026-11-25",
+      "text": "Approved Giants/Snowy band calls are alpha-applied; species inherit existing band numbers without tier/land/gate retuning. A bounded90-day/8-seed comparison supports the remap, not player pace. Deleted-resident rendering is source-fixed but unshipped; Nursery phone recheck and broader native gates stay open."
+    },
+    {
+      "date": "2026-11-25",
+      "text": "Micro/Sucho/Dilo installation/motion advances are committed, with scoped Swamp-size and three-species Moto RainbowB/MeteorB approvals. Whole-source cohorts stay10/11/19,30pending. Jan14, conditional phases, all milestone/history objects and selected public stills/homes remain unchanged."
+    },
     {
       "date": "2026-11-24",
       "text": "Active Nov23 owner decision f349fcac replaces Dec1 with Jan14,2027 for the same forty/five islands. Exact previous milestones and Nov23–29 plan are archived before this midweek replan. Both-store opening targets earlyDecember after both approvals; December public beta7+days and aboutJan5 Apple delivery are planned, not delivered."
@@ -943,6 +955,26 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Gift backend deployed; native grant open · reviewedNov25",
+      "detail": "95bd454b/ownerNov24 receipt records24010000 applied and preregistration-claim deployed after dry run; unsigned probe401 is auth-guard evidence, not a gift grant. bdbf560e commits store-proof plugin/export wiring; debug Android compilation includes BILLING, not a signed/store release.972 has no BILLING. Google configuration/product/track and promo/Apple sandbox proof remain open; no phone/real-store execution. iOS16+ proof/iOS15 gift gap remain, without a new support floor."
+    },
+    {
+      "label": "Ticket client/icons committed; rollout held · Nov25",
+      "detail": "107553e4 commits ticket items, wallet/Workshop/reward and gift client/server; e8bc049e records selected paintedB item icons. Final coin+five-item bills,4h/8h/8h crafts,15min windows and three personal starts/island stay.24020000 passed a rolled-back hosted dry run but is deliberately unapplied for a matching client; 972 cannot collect the required items, and its generic tickets would stop working after the intro if24020000 were applied. This is an intentional compatibility hold, not failed deployment or paid checkout."
+    },
+    {
+      "label": "Giants/Snowy band remap · source/alpha receipt reviewedNov25",
+      "detail": "95bd454b records24030000 alpha-applied Nov24. Giants: free Diplodocus/Common Giganotosaurus, Dreadnoughtus Mythic with Old Giant growth. Snow: free Nanuqsaurus/Common Leaellynasaura, Rhino Uncommon, Yuty Rare, Pachyrhino Legendary. All inherit band numbers; tier constants, land/gates and stock/visits stay. Recorded90-day/8-seed all-island no-sky comparison supports mapping scope only, not native/unlucky/player pace. Ticket-item expected tracking still omits actual-find/craft-spend progression feedback."
+    },
+    {
+      "label": "Committed art and bounded Moto looks · reviewedNov25",
+      "detail": "3488a384 installs approved Micro motion/retakes; size remains provisional.9e455a7f/f1e0f361 commit Sucho/Dilo replacements with Nov24 motion/install and Swamp-eight size approval; no phone checks. Frozair records scoped three-species Moto approval for selected RainbowB/MeteorB looks on Rex/Niger/Stego; remaining species/forms/current-release qualification stays open. The about14.5fps review scene showed no added look cost, not release performance acceptance. Shader/Look stays owner WIP; cohorts10/11/19 and public stills remain."
+    },
+    {
+      "label": "Source fixes/compression do not close native gates · Nov25",
+      "detail": "95bd454b fixes orphaned deleted-account residents/effects in source, explicitly not in a build; Nursery phone recheck remains.4a97b1bc/69b213cb correct six Swamp sets’ gameplay/reveal compression imports without changing PNG footage; phone quality/performance checks stay open. No newer fresh-Google-link, remainingMoto-duration/full-load, broad-iOS or isolated restore/load acceptance is recorded. Monitoring/signed972 scopes remain; maintenance read receipts only."
+    },
     {
       "label": "Jan14 date-only authority · ownerNov23, reviewedNov24",
       "detail": "Active Pigeon#55 decision f349fcac-3e9e-4b1b-b901-2f3b0b679b90 replaces Dec1 with Jan14,2027 and explicitly keeps the forty/five-island scope. Open pre-registration/pre-order together after both approvals, target earlyDecember; public beta at least7days plus fixes in December; final1.0 to Apple aboutJan5. These are plans; wipe requires Frozair’s release go-ahead. Exact former milestones/current-week version and all four earlier weekly histories are retained."
@@ -1376,10 +1408,10 @@
           57,
           58
         ],
-        "outcome": "Pre-registration gift, claim function and native proof plugin are local WIP, not deployed or tested on phones/real stores. Qualify the post-intro Forest Meteor + Rainbow gift, store/configuration paths and iOS16+ bridge; resolve the iOS15 gift gap without inventing a new support floor. Delivered972’s scopes stay separate.",
+        "outcome": "Gift SQL/function are deployed and the store-proof plugin is committed/debug-compiled with BILLING. No compatible signed release or phone/real-store grant is recorded;972 has no BILLING. Qualify Google product/track/configuration, Apple proof and the unchanged iOS15 gift gap. Backend delivery is not paid checkout.",
         "species": [
-          "Local WIP: built",
-          "Phone/store proof: open",
+          "Gift backend: deployed",
+          "Phone/store grant: open",
           "iOS15 gift gap: open"
         ]
       },
@@ -1396,7 +1428,7 @@
           23,
           75
         ],
-        "outcome": "Inventory stays40/40 committed/working; cohorts10/11/19 stay. RainbowB/MeteorB88% are selected desktop/idle scopes in owner WIP. Microraptor retakes are candidates, not installed whole-package gains. Qualify complete source contracts and native scope; preserve selected public stills and Shunosaurus’s named acceptance.",
+        "outcome": "Inventory40/40 and cohorts10/11/19 stay. Microraptor, Suchomimus and Dilophosaurus now have committed installation/motion progress; Sucho/Dilo size is approved in the Swamp-eight view. Selected RainbowB/MeteorB has scoped three-species Moto approval. Whole-source and remaining species/forms/native qualification stay open; public stills remain exact.",
         "species": [
           "40 committed / 40 working",
           "30 packages pending",
@@ -1416,24 +1448,24 @@
           57,
           58
         ],
-        "outcome": "Latest ticket direction is coins + five matching items and15min windows; local server work is not hosted/client/art delivery. Amber ticket sales are selected, with legal review and prices open. Keep delivered972 no-IAP, scoped monitoring/signed smoke and still-open restore/load/full-candidate gates distinct.",
+        "outcome": "Ticket client/server and paintedB icons are committed; ticket migration is deliberately held for a compatible next build. Gift backend deployment is separate. Approved bills/timers stay, while paid legal/prices/checkout and full recovery remain open. Delivered972 keeps its no-IAP scope; band-call alpha proof is not final pacing acceptance.",
         "species": [
-          "Ticket client/rollout: open",
-          "Legal/prices: open",
-          "Restore/load: open"
+          "Client/icons: committed",
+          "Ticket rollout: held",
+          "Legal/recovery: open"
         ]
       }
     ]
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "10 integrated, 11 redos and 19 first packages remain pending complete source qualification; committed/working named ranch/reveal inventory stays 40/40. New Microraptor retakes and variant/pipeline changes are owner WIP, not package gains. Shunosaurus’s named acceptance remains. Original Nov 8 freeze stays unmet; no replacement freeze or output rate is invented.",
+    "note": "Cohorts stay10 integrated/11 redos/19 first packages pending complete source qualification; committed/working ranch/reveal inventory stays40/40. Microraptor, Suchomimus and Dilophosaurus add committed installation/motion progress, with bounded size approvals and remaining findings. No whole-contract gain follows. OriginalNov8 freeze remains unmet; rates staynull.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -16,
+    "daysToFreeze": -17,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1588,7 +1620,7 @@
             "name": "Suchomimus",
             "image": "/stompy-acres/roster/suchomimus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal package needs a redo to the approved brighter moss-green design. Retain selected identity; prove Swamp water access and firm-bank staging separately.",
+            "detail": "9e455a7f commits the replacement ranch/reveal/shop set with Nov24 owner install/motion approval and chosen size approved beside the Swamp eight. Recorded findings remain scoped; complete source qualification and phone checks remain open. Keep in the redo cohort; selected public portrait stays unchanged.",
             "productionStatus": "redo"
           },
           {
@@ -1628,7 +1660,7 @@
             "name": "Dilophosaurus",
             "image": "/stompy-acres/roster/dilophosaurus.webp",
             "bank": "available",
-            "detail": "Older committed ranch/reveal assets exist; rebuild the package to the approved selected still. Committed 57-cell ranch bank and dedicated reveal exist. Old roster Concept only is false as a file-presence claim. Legacy ranch bank lacks explicit directional walks/runs and dig. Selected Riverbend portrait matching and launch quality are unestablished; budget substantial replacement/repair after comparison, not automatic reuse.",
+            "detail": "f1e0f361 commits the replacement ranch/reveal/shop set with Nov24 owner install/motion approval and chosen size approved beside the Swamp eight. Thin run teeth/dig-lean questions and scoped report findings remain. Complete source and phone qualification stay open; retain the redo cohort and public portrait.",
             "productionStatus": "redo"
           },
           {
@@ -1778,7 +1810,7 @@
             "name": "Microraptor",
             "image": "/stompy-acres/roster/microraptor.webp",
             "bank": "missing",
-            "detail": "Owner colour, green-key and directional retakes remain candidates, with active selections still changing. No whole-source integration, candidate dedicated reveal, final size/stride or phone acceptance is established by that work. Public portrait stays unchanged.",
+            "detail": "3488a384 commits the installed ranch/reveal/shop retakes with owner motion approval. Current recorded reports cover twelve ranch takes; size/front-back normalization remains provisional and report findings remain. No new public portrait, whole-source contract or phone acceptance is established.",
             "productionStatus": "missing"
           },
           {
@@ -1807,7 +1839,7 @@
         "id": "pin-972",
         "title": "Qualify pre-registration store proof and gift",
         "owner": "Release/native owners · Frozair acceptance",
-        "doneWhen": "Record accountable native/store/configuration and authorized rollout proof for the local post-intro gift. No phone/real-store run exists yet; the iOS16+ path leaves an iOS15 gift gap, not a new support decision. Reuse scoped972 cases while keeping the new WIP outside that delivered build.",
+        "doneWhen": "Qualify phone/real-store grants, the compatible Billing-enabled release and remaining Google product/track/configuration. Gift backend is deployed and plugin source/debug compilation recorded; those receipts do not close eligibility or the iOS15 gift gap. Keep972 separate and reuse its valid scoped smoke.",
         "refs": [
           55,
           57,
@@ -1818,7 +1850,7 @@
         "id": "content-current",
         "title": "Qualify complete content against current consumers",
         "owner": "Art/integration owners · Frozair look judgment",
-        "doneWhen": "Qualify whole-source contracts and current consumers for the unchanged forty. Inventory40/40 and cohorts10/11/19 remain; new pipeline calibration, Microraptor retakes and selected RainbowB/MeteorB desktop looks are not complete-package output or phone acceptance. Preserve public stills and accepted exceptions.",
+        "doneWhen": "Qualify whole-source contracts/current consumers for the unchanged forty. Committed Micro/Sucho/Dilo installation/motion progress and scoped three-species Moto look approval do not change40/40 inventory or10/11/19 cohorts. Retain provisional Micro size, scoped Sucho/Dilo size approvals, public stills and accepted exceptions.",
         "refs": [
           42,
           29,
@@ -1829,7 +1861,7 @@
         "id": "release-decision",
         "title": "Gate tickets, legal work and coordinated opening",
         "owner": "Frozair release/store/resources · operations owners",
-        "doneWhen": "Record current ticket client/art/rollout, legal/prices and recovery/public-review evidence or explicit holds. Plan both-store opening after both approvals, at least7public-beta days plus fixes in December, and final1.0 to Apple aboutJan5. No exact earlyDecember dates or completed beta days are invented.",
+        "doneWhen": "Record compatible ticket-client/held-migration, phone/store gift, legal/prices and recovery/public-review proof or explicit holds. Preserve conditional earlyDecember opening, December7+days public beta and aboutJan5 final Apple plan. No new opening, beta span or paid checkout is established.",
         "refs": [
           55,
           57,
@@ -1859,9 +1891,9 @@
         "id": "wed-25",
         "date": "2026-11-25",
         "label": "WED 25",
-        "title": "Qualify store-proof and candidate gaps",
-        "focus": "With authorized owners, qualify the gift’s Play product/track/configuration and Apple proof paths, the iOS15 gap and existing Android deletion/Google-link cases. Preserve the valid Nov22 signed smoke scope.",
-        "proof": "Actual exact-candidate/store/sandbox case receipts and unresolved coverage, including remaining Moto endurance/full load and broader iOS play. Daily targets grant no build, device or rollout authority."
+        "title": "Record split rollout and scoped source gains",
+        "focus": "Today’s review reconciles Nov24 gift-backend deployment, committed native/ticket/icon source, the intentional ticket-migration hold and alpha-applied band calls. New art installation/motion and three-species Moto look receipts add scoped progress; the deletion fix is source-only.",
+        "proof": "No new phone/store gift grant, compatible signed ticket client, complete package, public approval or broad native/recovery closure. Existing972 smoke remains scoped; no maintenance game/device/hosted/art execution occurred."
       },
       {
         "id": "thu-26",

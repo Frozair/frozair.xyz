@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "targetDate": "2027-01-14",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -520,9 +520,9 @@
           "viewBox": "9.187 233.340 758.813 493.627",
           "recommended": true,
           "role": "Long-snouted biped",
-          "status": "Approved look · asset redo needed",
+          "status": "Approved look · redo qualification open",
           "rationale": "Keeps the current resident and a tall predator silhouette.",
-          "note": "Older committed ranch/reveal package exists; its approved selected design still needs an asset redo. Runtime species exists; selected brighter moss-green concept still needs matching production work.",
+          "note": "Replacement ranch/reveal/shop source is committed with Nov24 motion/install approval and size approved beside the Swamp eight. Recorded findings, complete source-contract qualification and phone checks remain open. The selected public still and home stay unchanged.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -662,9 +662,9 @@
           "viewBox": "24 21.5 717 457.5",
           "recommended": true,
           "role": "Twin-crest wetland hunter",
-          "status": "Approved look · asset redo needed",
+          "status": "Approved look · redo qualification open",
           "rationale": "Proposed Swamp replacement: twin lengthwise crests bring a clear head shape, distinct from Suchomimus and Snow’s Cryolophosaurus.",
-          "note": "Older committed ranch/reveal package exists; its approved selected design still needs an asset redo. Committed ranch and reveal banks exist. Match them against the selected portrait and qualify motion, variants and phones before acceptance.",
+          "note": "Replacement ranch/reveal/shop source is committed with Nov24 motion/install approval and size approved beside the Swamp eight. Scoped report and teeth/dig-lean questions remain; complete source-contract and phone qualification stay open. The selected public still and home stay unchanged.",
           "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
@@ -1197,9 +1197,9 @@
           "viewBox": "0.000 0.000 768.000 768.000",
           "recommended": true,
           "role": "Four-winged ground scout",
-          "status": "First package · committed source in review",
+          "status": "First package · committed retake in review",
           "rationale": "Four feather panels make a striking small collectible.",
-          "note": "Ranch, hatch reveal and shop sets are committed. Recorded finish findings and complete source and device qualification remain open.",
+          "note": "Retake ranch/reveal/shop source is committed and installed with owner motion approval. Size/front-back normalization remains provisional; current twelve-take reports retain scoped findings. Complete source-contract and phone qualification remain open. The selected public portrait and home stay unchanged.",
           "habitat": {
             "rating": "conditional",
             "confidence": "high",
@@ -1453,5 +1453,5 @@
   "rosterStatus": "locked",
   "lockedAt": "2026-10-18",
   "lockNote": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate.",
-  "nextReview": "2026-11-25"
+  "nextReview": "2026-11-26"
 }

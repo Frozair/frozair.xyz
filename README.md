@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 24**, not an invented November
+remain distinct. Latest director audit is **November 25**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -83,19 +83,20 @@ An alpha wipe still requires Frozair’s release go-ahead.
 
 October25, November1, November8, November9–15 and November16 missed checkpoints keep
 their original dates/outcomes. The original November8 freeze remains **unmet**, with
-**30 whole-source packages pending qualification**; `daysToFreeze` is−16 as of Nov24
+**30 whole-source packages pending qualification**; `daysToFreeze` is−17 as of Nov25
 and both rate fields remain null. No replacement content-freeze date or exact earlyDecember
 beta week is invented. December1 is superseded by owner decision, not marked missed early.
 The exact old target, six milestones and prior November23–29 version are retained in
 `releasePlanHistory`; all four earlier weekly-history records remain untouched.
 
-Pre-registration gift source is owner local WIP: migration20261124010000, claim function
-and native store-proof plugin. One Forest Meteor and one Forest Rainbow ticket follow
-the Gold Rush intro once/account. Docs say **built, not deployed**, with nothing run
-on phones or against real stores. The Apple proof path needs iOS16+ and leaves an
-iOS15 gift-coverage gap; it does not decide a new device floor. Product/track/configuration,
-authorized rollout and real-store/sandbox qualification remain open. No new source is
-assigned to delivered972 or described as accepted production paid checkout.
+Owner Nov24 receipts now record **pre-registration gift backend deployment**:
+migration20261124010000 applied and the claim function deployed. The unsigned401 probe
+proves its auth guard, not a real-store grant. One Forest Meteor+Rainbow gift after intro
+once/account stays. bdbf560e commits the store-proof plugin and debug Android compilation
+with BILLING; **no compatible signed release or phone/real-store grant is established**.
+Delivered972 has no BILLING. Google configuration, product/track upload and promo/Apple
+sandbox proof remain open. The iOS16+ path still leaves an iOS15 gift gap, without a new
+device-floor decision. This plugin reads proof and sells nothing; paid checkout is separate.
 
 The latest November24 approved ticket bundle supersedes the generic any-event wallet
 and older ordinary-Treasure/special ingredient recipes. Tickets name both event and island.
@@ -113,10 +114,13 @@ island specials retain their sell/held-unlock role. Gold/Rainbow/Meteor coin bil
 Craft times remain4h/8h/8h with three concurrent crafts/island after Giants. Ticket-started
 windows are15min; scheduled free big events remain10min and common skies remain their
 separate3min/every5min cadence. Three personal starts/island/NewYork day and one active
-personal event/account stay. Items go to Tickets, not Bag/Sell All. Local server/migration
-20261124020000 matches this bundle; client/art/hosted rollout remain open. The opt-in
-expected-item diagnostic does not simulate actual finds or craft/coin-spend progression
-feedback, and its tuning cells are not player pace/retention forecasts.
+personal event/account stay. Items go to Tickets, not Bag/Sell All.107553e4 commits the
+client/server paths and e8bc049e the selected paintedB item icons. Migration20261124020000
+is **intentionally held for a compatible client**:972 cannot collect its items, and its
+generic tickets would stop working after the intro if24020000 were applied. A rolled-back hosted dry run is not application; this hold
+is separate from deployed gift24010000 and alpha-applied band24030000. No ticket rollout
+or paid checkout follows. The committed opt-in expected-item diagnostic still omits
+actual-find/craft-coin progression feedback; its tuning cells are not player forecasts.
 
 Frozair selects **Amber ticket sales at launch**, numeric odds on the paid purchase
 card only and paid tickets disabled in Belgium, with **legal review before sales and
@@ -142,11 +146,17 @@ small happy head drop was accepted, not a blanket waiver; Anky colour is kept an
 Theri's old mismatch is closed. Anky/Iguanodon complete-source checks remain open.
 File presence, matching content, task completion and local previews do not close a
 whole-source contract or final voice/UI/native acceptance. Selected stills stay exact.
-Nov24 owner WIP selects RainbowB/MeteorB on exact-scale desktop sheets/idle animations;
-Meteor/Shiny Meteor88% supersedes76% direction, not phone approval. Shader/Look changes
-remain uncommitted. Microraptor colour/green-key and directional retakes remain active
-owner candidates without whole-package, final scale/stride, reveal or phone acceptance. Method recalibration is not accepted throughput. Shunosaurus’s
-named grain/seam acceptance remains; the immutable October19 public still pack stays unchanged.
+The Nov25 review records scoped three-species Moto approval for selected RainbowB/
+MeteorB looks on Rex/Nigersaurus/Stegosaurus. Remaining species/forms/current-release
+qualification stay open; the bounded review scene’s no-added-look-cost observation does
+not establish release smoothness. Shader/Look integration remains owner WIP.3488a384
+commits installed Microraptor retakes with motion approval; size stays provisional.
+9e455a7f/f1e0f361 commit Suchomimus/Dilophosaurus replacement sets, motion/install and size
+approved beside the Swamp eight, explicitly not phone-checked. Report findings and whole
+source/native qualification remain; these are no longer merely uninstalled candidates or
+untouched old sets. Six other Swamp sets’ compression-import corrections change no PNG
+footage and add no phone acceptance. Cohorts remain10/11/19; Shunosaurus’s named acceptance
+and the immutable October19 public still pack stay unchanged.
 
 All five now have runtime scenery: Forest c99a15bcfb; Giants 1ee79f5bbd; Swamp/Fernlands
 5787cfb9f5; Snow 2f5aea6e76 through 25c020d06e. Retire old concept-only/absent-runtime,
@@ -230,6 +240,14 @@ limits. Do not reopen approved slower-package/Aquilops/hatch choices. Visit-card
 7b3f574a43 advertises an unlocked-island Legendary/Mythic and sails to its shop;
 source tests/capture code are not native acceptance, and server push remains unbuilt.
 
+Nov24 source/alpha receipts in95bd454b apply20261124030000 band calls. Giants now starts
+with free Diplodocus/Common Giganotosaurus; Dreadnoughtus has Mythic output with Old Giant
+growth. Snow starts with free Nanuqsaurus/Common Leaellynasaura; Rhino is Uncommon, Yuty
+Rare and Pachyrhino Legendary. Species inherit existing band numbers: tier constants,
+land/unlock gates and stock/visit rules are unchanged. This is not new phone acceptance.
+The recorded90-day/8-seed all-island no-sky comparison supports this remap’s bounded scope,
+not native/unlucky/player pacing or a new35–42-day promise. Compare like model rows.
+
 Model scopes differ: the default sanctuary mode covers Forest/Giants. Current
 opt-in all-island and recorded-visit modes also play later progression and held
 gates, but omit crafting, Egg Bag and dino levels. They remain diagnostics, not
@@ -264,9 +282,9 @@ build972 LIVE on internal TestFlight and Play Internal Nov22. Signed Moto and
 TestFlight iPhone15 smoke passed scoped purchase/hatch kill and account cases;
 Google sign-in worked after the approved OAuth-client repair. Fresh Google
 identity linking remains unexercised. Apple linked/deleted a new identity, with a
-safe first confirmation error followed by a successful retry. Android deletion
-leaves stale dino/Nursery display until restart while server data is correct;
-#57 has the owner qualification task. Public review/approval, exact artifact hashes,
+safe first confirmation error followed by a successful retry. The Nov22 Android972 case left stale dino/Nursery display until restart while server
+data was correct.95bd454b now source-fixes orphaned residents/effects, explicitly not in
+a build; the Nursery count still needs phone recheck under#57. Public review/approval, exact artifact hashes,
 source manifest/backend parity and full candidate/endurance/recovery remain open.
 Actual internal delivery/smoke is Nov22, not a retroactive Nov9 start or seven days.
 
