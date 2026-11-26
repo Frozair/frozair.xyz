@@ -65,13 +65,13 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 25**, not an invented November
+remain distinct. Latest director audit is **November 26**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
 retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
-with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 plan is replanned November24 after the explicit late-November23 January14 decision. Its exact previous version and six milestones are preserved in `releasePlanHistory`, alongside the four unchanged complete `weeklyHistory` entries. Current priority is local pre-registration gift/store proof; delivered972 keeps its prior scope.
+with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 plan is replanned November24 after the explicit late-November23 January14 decision. Its exact previous version and six milestones are preserved in `releasePlanHistory`, alongside the four unchanged complete `weeklyHistory` entries. Current priority is the next compatible gift/ticket candidate and reconciled rollout receipt; delivered972 keeps its prior scope.
 
 Frozair’s active November23 Pigeon#55 decision
 `f349fcac-3e9e-4b1b-b901-2f3b0b679b90` replaces **December1 with January14,2027**,
@@ -83,7 +83,7 @@ An alpha wipe still requires Frozair’s release go-ahead.
 
 October25, November1, November8, November9–15 and November16 missed checkpoints keep
 their original dates/outcomes. The original November8 freeze remains **unmet**, with
-**30 whole-source packages pending qualification**; `daysToFreeze` is−17 as of Nov25
+**30 whole-source packages pending qualification**; `daysToFreeze` is−18 as of Nov26
 and both rate fields remain null. No replacement content-freeze date or exact earlyDecember
 beta week is invented. December1 is superseded by owner decision, not marked missed early.
 The exact old target, six milestones and prior November23–29 version are retained in
@@ -116,14 +116,25 @@ windows are15min; scheduled free big events remain10min and common skies remain 
 separate3min/every5min cadence. Three personal starts/island/NewYork day and one active
 personal event/account stay. Items go to Tickets, not Bag/Sell All.107553e4 commits the
 client/server paths and e8bc049e the selected paintedB item icons. Migration20261124020000
-is **intentionally held for a compatible client**:972 cannot collect its items, and its
-generic tickets would stop working after the intro if24020000 were applied. A rolled-back hosted dry run is not application; this hold
-is separate from deployed gift24010000 and alpha-applied band24030000. No ticket rollout
-or paid checkout follows. The committed opt-in expected-item diagnostic still omits
-actual-find/craft-coin progression feedback; its tuning cells are not player forecasts.
+has **conflicting current rollout prose**. The last explicit owner receipt in MVP holds it
+for a compatible client after a rolled-back dry run; a newer working Numbers line calls it
+on alphaNov24 without a newer apply/build receipt. Current rollout needs owner reconciliation;
+this is no new hosted acceptance or live-failure diagnosis. Gift24010000 and band24030000
+retain separate deployment receipts.972 cannot collect the new items, and generic tickets
+would stop working after intro if24020000 were applied. No compatible signed client or paid
+checkout is established.
 
-Frozair selects **Amber ticket sales at launch**, numeric odds on the paid purchase
-card only and paid tickets disabled in Belgium, with **legal review before sales and
+Frozair’s owner-recorded November25 “Yes, build it” selects **stronger ticket-only odds**:
+15% Gold,10% Rainbow and10% Meteor per eligible egg opened in the same15-minute windows.
+Local untracked25010000 applies Gold×3/Rainbow×25/Meteor×50 and lets ticket Rainbow/Meteor
+nest eggs roll at opening; hatch-time turns stay and already-turned eggs keep their look.
+Intro/scheduled skies, the25-reveal cap, item finds, bills and craft timers are unchanged.
+Named Tickets, Workshop-recipe and Gold Rush cards receive event chance lines in local source;
+creature/stat rolls remain stars. These new event displays are a scoped update to the older
+paid-card-only event-odds wording, not phone/render, hosted or paid-store acceptance.
+
+Frozair’s November23 plan selects **Amber ticket sales at launch**, with numeric odds on
+the paid purchase card and paid tickets disabled in Belgium, with **legal review before sales and
 Amber prices still open**. These are owner planning choices, not verified legal clearance,
 approved checkout or hosted delivery. Delivered972 remains a beta without IAP; its existing
 store forms describe that build. Season pass stays after launch. Earlier dated decisions
@@ -248,16 +259,26 @@ land/unlock gates and stock/visit rules are unchanged. This is not new phone acc
 The recorded90-day/8-seed all-island no-sky comparison supports this remap’s bounded scope,
 not native/unlucky/player pacing or a new35–42-day promise. Compare like model rows.
 
-Model scopes differ: the default sanctuary mode covers Forest/Giants. Current
-opt-in all-island and recorded-visit modes also play later progression and held
-gates, but omit crafting, Egg Bag and dino levels. They remain diagnostics, not
-player forecasts. The retained five-island persona model and older 32-seed/ten-day
+Model scopes differ: the default sanctuary mode covers Forest/Giants; opt-in all-island
+and recorded-visit modes cover later progression. The new uncommitted ticket model now
+accumulates expected fractional finds, spends them into crafts/events and feeds variant output
+back into later finds. It omits sampled drop/collection outcomes, recipe coin bills, craft slots
+and island-bound ticket identity; Egg Bag/dino-level scope also remains incomplete. The recorded
+60-day/16-seed trial used Meteor×25 rather than selected×50 and differs in hatch-turn handling,
+so it is not verification of the final combined rules. Reward totals and weekly projections
+are diagnostics, not player forecasts. The retained five-island persona model and older 32-seed/ten-day
 capsule are historical; the latter's Snowy result was coin/space affordability
 without its full gate/gameplay. Do not apply those times to the new ladder.
 Historical source108 cannot accept the current combined game. Sim-only egg-luck
 and unselected spawning alternatives are not approved product tuning. The 5–6-week direction
 and Brachio 2B choice are not newly verified pacing outcomes; coherent profiles and
 ordinary/unlucky current play remain open.
+
+Working Reveal result columns and minor-skies calendar rows have intended fixtures but no new
+phone/release acceptance. November25 bought-nest shape is recorded: successive buys rise on
+each island and the first bought nest starts at the same price across islands. Currency and
+numbers remain unset; padlocks show no price and this remains design-only.
+
 
 
 Sky Portal #84 and the hatchery now have committed source and owner-recorded
@@ -342,11 +363,11 @@ Nov16. Optional milestone.checkpointDate drives the compact missed-date list bef
 falling back to end, and validation requires it inside the original milestone range.
 This prevents Nov30 being labeled missed while preserving all original dates.
 
-Publication coordination: the November24 owner snapshot records shared website main
+Publication coordination: the November26 owner snapshot records shared website main
 `850361a5f327bfa90fc3c04627a04d29b4d20c86`, owner Beby privacy edits and untracked build info.
 Do not push, reset or rebase that checkout. The isolated production checkout at
-`/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` was fast-forwarded
-onto verified production`e73dcc28bc03a389585bc397d2d1e137fb2ea0e9` before this update.
+`/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` starts from
+verified production`4da810d705ab565ad6cdb861bce4687f376583f6` for this update.
 That production base includes Wobblings privacy work. Preserve both unrelated owner
 files and reconcile ancestry/owner-before evidence before publication.
 

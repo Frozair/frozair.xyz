@@ -3,11 +3,11 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2027-01-14",
-  "asOf": "2026-11-25",
-  "nextReview": "2026-11-26",
+  "asOf": "2026-11-26",
+  "nextReview": "2026-11-27",
   "timezone": "America/Chicago",
   "health": "Critical risk",
-  "healthNote": "Jan14 and all forty/five islands stay. The gift backend is deployed; ticket client/icons are committed, with ticket rollout intentionally held for a compatible build. Phone/store grants, thirty source contracts and full native/recovery/legal/store gates remain open. Internal972 keeps its Nov22 scope.",
+  "healthNote": "Stronger ticket odds are selected in local source; ticket rollout notes conflict and need an owner receipt. Gift backend deployment remains recorded. Phone/store grants, thirty source contracts and full native/recovery/legal/store gates remain open. Jan14 and all forty/five islands stay.",
   "scopeLabel": "Roster locked · 8 per island · 40 total",
   "resourcesNote": "Jan 14 target · 40 residents retained · original missed gates preserved",
   "releaseIslandCount": 5,
@@ -317,7 +317,7 @@
     {
       "id": "beta-reward",
       "lane": "now",
-      "title": "Prove the pre-registration gift on phones",
+      "title": "Prove the next gift + ticket build",
       "owner": "Native/store owners · Frozair opening decision",
       "due": "Before coordinated store opening",
       "refs": [
@@ -326,8 +326,8 @@
         58
       ],
       "status": "Backend deployed · phone/store proof open",
-      "why": "Owner Nov24 receipts record gift migration24010000 applied and the claim function deployed. Store-proof plugin source is committed and compiled in a debug Android export with BILLING. This is not a compatible signed release, phone/store grant or paid checkout; delivered972 has no BILLING. The once-account Forest Meteor+Rainbow gift after intro is unchanged.",
-      "doneWhen": "Qualify the owner’s remaining Google configuration, Billing-enabled track/product setup and Play promo/Apple sandbox proof with a compatible candidate. No phone or real-store grant is recorded. The iOS16+ bridge still leaves an iOS15 gift gap without changing the support floor. Keep deployed backend, native source and actual delivery receipts separate."
+      "why": "Gift SQL/function are deployed and the native plugin is committed/debug-compiled with BILLING. No compatible signed release or phone/real-store grant is recorded;972 remains separate. New stronger ticket odds and ticket UI changes are uncommitted owner source, with conflicting rollout prose to reconcile first.",
+      "doneWhen": "Pin a compatible candidate and reconciled backend apply receipt, then qualify gift eligibility and ticket behavior on authorized phone/store paths. Google product/track/configuration and the iOS15 gift gap remain open. Reuse valid972 smoke without treating local source or test fixtures as a new native pass."
     },
     {
       "id": "fern-slice",
@@ -432,9 +432,9 @@
         20,
         47
       ],
-      "status": "Client/icons committed · ticket rollout held",
-      "why": "107553e4 commits ticket client/server source and e8bc049e the selected paintedB item icons. Final coin+five-item bills/timers stay unchanged. Migration24020000 is intentionally held for a matching client: 972 cannot collect the items, and its generic tickets would stop working after the intro if24020000 were applied. A rolled-back dry run is not application; later band migration24030000 is separately alpha-applied.",
-      "doneWhen": "Record a compatible client and authorized ticket migration rollout, then phone item/Workshop/reward proof. Keep three personal starts/island and approved bills/timers unchanged. Qualify actual-find/craft-spend progression feedback; expected-item tracking and the bounded band-remap comparison are not player forecasts. Amber prices/legal/checkout remain open."
+      "status": "Stronger odds local · rollout unresolved",
+      "why": "Frozair’s Nov25 owner-recorded choice selects ticket-only15% Gold,10% Rainbow and10% Meteor per eligible opened egg, implemented in local untracked25010000. The15min windows, item-find odds, coin+five bills and craft timers stay. The last explicit owner receipt holds ticket migration24020000 for a compatible client. New working Numbers prose calls it on alpha without a newer apply/build receipt; current rollout needs reconciliation.",
+      "doneWhen": "Reconcile24020000 status and qualify a compatible client with the selected25010000 rules before rollout acceptance. Ticket Rainbow/Meteor nest eggs gain an opening roll; hatch-time turns stay and already-turned eggs keep their look. Keep intro/scheduled skies/reveal cap unchanged. The working model adds partial expected-item craft/spend feedback but omits coin bills, slots and island-bound ticket identity; it is not final-rule or player-pacing proof. Paid legal/prices/checkout stay separate."
     },
     {
       "id": "cast-worlds",
@@ -598,14 +598,26 @@
     {
       "title": "Event-and-island ticket bundle",
       "due": "2026-11-24",
-      "state": "Source/icons committed · rollout intentionally held",
-      "recommendation": "Final coin+five-item bills,4h/8h/8h crafts,15min ticket windows and three daily starts/island stay.107553e4 commits client/server; e8bc049e commits selected paintedB icons. Migration24020000 is held for a compatible client, not applied by its rolled-back dry run. No ticket rollout to972 or paid checkout follows."
+      "state": "Source/icons committed · rollout receipt unresolved",
+      "recommendation": "The selected coin+five-item bills,4h/8h/8h crafts,15min windows and three daily starts/island remain.107553e4/e8bc049e commit client/server/icons. The last explicit owner receipt holds ticket migration24020000 for a compatible client. New working Numbers prose calls it on alpha without a newer apply/build receipt; current rollout needs reconciliation. No new compatible signed client or ticket rollout acceptance is recorded."
     },
     {
       "title": "Amber tickets at launch",
       "due": "2026-11-23",
       "state": "Owner direction · legal/prices open",
-      "recommendation": "Frozair selects Amber ticket sales at launch, exact numeric odds on the paid purchase card only, and paid tickets disabled in Belgium. Pre-launch legal review before sales and Amber prices remain open. These are owner planning choices, not verified legal clearance, paid-checkout implementation or a change to delivered972. Season pass remains later."
+      "recommendation": "Frozair selects Amber ticket sales at launch, numeric odds on paid purchase cards and paid tickets disabled in Belgium. The newer Nov25 ticket direction also adds event chance lines to named Tickets, Workshop-recipe and Gold Rush cards in local source; creature/stat rolls remain stars. Pre-launch legal review before sales and Amber prices remain open. These are owner choices, not verified legal clearance, paid checkout, store approval or a change to delivered972. Season pass remains later."
+    },
+    {
+      "title": "Stronger ticket windows",
+      "due": "2026-11-25",
+      "state": "Owner-recorded approval · local uncommitted source",
+      "recommendation": "Working Numbers/outline attribute “Yes, build it” to Frozair: ticket-only15% Gold,10% Rainbow and10% Meteor per eligible opened egg. Local25010000 adds ticket Rainbow/Meteor opening rolls for nest eggs while preserving hatch turns and already-turned looks; intro, scheduled skies,25-reveal cap and item-find odds stay. Named Tickets/Workshop-recipe/Gold Rush cards gain server-reported event chance lines in local source; creature/stat rolls remain stars. This scoped Nov25 direction supersedes blanket paid-card-only event-chance wording, not paid legal/prices/store approval. No new hosted/device acceptance is established."
+    },
+    {
+      "title": "Bought-nest price shape only",
+      "due": "2026-11-25",
+      "state": "Design shape recorded · currency/prices unset",
+      "recommendation": "Each island’s next bought nest costs more than its previous one, while every island’s first bought nest starts at the same price. Currency and numbers remain unset; padlocked places show no price. This is design only, not a built feature, new numeric tuning or inferred launch requirement."
     }
   ],
   "risks": [
@@ -626,7 +638,7 @@
     {
       "title": "Current build and backend inputs need pinning",
       "level": "High",
-      "action": "Pin exact binary/source/API inputs for broader qualification. Gift backend24010000 is deployed, ticket24020000 intentionally held for a compatible client, and later band24030000 alpha-applied. This split is deliberate; do not infer blanket migration parity, an unexplained rollout failure or972 inclusion from commit/order numbers.",
+      "action": "Gift24010000 deployment and band24030000 alpha receipts remain. The last explicit owner receipt holds ticket migration24020000 for a compatible client. New working Numbers prose calls it on alpha without a newer apply/build receipt; current rollout needs reconciliation. Treat25010000 as local uncommitted odds source; do not infer current parity, new hosted rollout or a live failure from conflicting prose. Pin the compatible binary/API inputs before qualification.",
       "owner": "Release/gameplay owner",
       "due": "2026-11-16"
     },
@@ -689,7 +701,7 @@
     {
       "title": "Final profiles and pace remain unqualified",
       "level": "High",
-      "action": "Committed opt-in ticket-item tracking still omits actual-find/craft-coin progression feedback. A recorded90-day/8-seed all-island no-sky comparison supports the selected band remap only; it is not native/unlucky/player pace acceptance. Qualify the current combined economy before forecasts.",
+      "action": "The uncommitted model now spends expected fractional ticket items into crafts/events and feeds variants back into finds. It still omits sampled finds, recipe coin costs, craft slots and island-bound ticket identity. The recorded60-day/16-seed trial used Meteor×25, not selected×50, and is not verification of the final rules or a player forecast. Reuse the dated band-remap comparison only within its own scope.",
       "owner": "Frozair + Codex",
       "due": "2026-11-01"
     },
@@ -746,7 +758,7 @@
     {
       "label": "Both stores approved",
       "state": "open",
-      "proof": "Both actual public/pre-order approvals and coordinated opening, exact accepted candidates, privacy/deletion and legal review. Gift backend deployment proves no real-store grant. Ticket migration stays held for a compatible client;972 remains internal/no-IAP and future paid prices/checkout/rollout remain open."
+      "proof": "Both actual public/pre-order approvals and coordinated opening, exact candidates, privacy/deletion and legal review. Gift backend deployment proves no real-store grant. Ticket rollout notes require a reconciled owner receipt and compatible client; local stronger odds establish no rollout.972 remains internal/no-IAP; future paid gates stay open."
     },
     {
       "label": "Director acceptance",
@@ -777,6 +789,14 @@
     }
   ],
   "changes": [
+    {
+      "date": "2026-11-26",
+      "text": "Owner-recorded Nov25 approval selects stronger15min ticket windows:15% Gold,10% Rainbow and10% Meteor per eligible opened egg, with ticket nest-egg opening rolls.25010000 and current UI/model work are local and uncommitted; intro, scheduled skies, reveal cap and item-find odds stay."
+    },
+    {
+      "date": "2026-11-26",
+      "text": "Ticket rollout prose now conflicts: the last explicit owner receipt holds24020000 for a compatible client, while new working Numbers labels it on alpha without a newer apply/build receipt. Current rollout needs reconciliation; no new hosted acceptance or live failure is inferred. Partial craft/spend model feedback adds no final-rule/player forecast acceptance."
+    },
     {
       "date": "2026-11-25",
       "text": "Owner Nov24 receipts supersede blanket local-only gift wording: gift SQL/function are deployed and native plugin source/debug BILLING compilation is recorded. Ticket client/server and paintedB icons are committed; ticket migration is intentionally held for a compatible build, outside972. Phone/store gift grants and paid checkout remain open."
@@ -955,6 +975,22 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Stronger ticket direction · ownerNov25, reviewedNov26",
+      "detail": "Working Numbers§16.7/outline attribute “Yes, build it” to Frozair. Local untracked25010000 selects ticket multipliers Gold×3/Rainbow×25/Meteor×50: nominal15%/10%/10% per eligible opened egg. Ticket Rainbow/Meteor nest eggs gain a reveal-time roll; hatch turns stay and a turned egg keeps its look. Fifteen minutes, intro/scheduled skies,25-reveal cap,item-find odds,bills and craft timers remain. Named ticket/recipe/Gold Rush chance lines are local UI source, not a deployed or phone-qualified change; stat rolls stay stars."
+    },
+    {
+      "label": "Ticket rollout claim conflicts with explicit hold · reviewedNov26",
+      "detail": "Working Numbers newly says24020000 is on hosted alphaNov24; current/committed MVP§2.5–2.6 explicitly retains the Nov24 owner hold after a rolled-back dry run for a compatible client. No newer apply/go-ahead/build receipt was found in available owner ledgers or board activity. The last specific receipt remains held; current rollout is unresolved pending owner reconciliation. Gift24010000 and band24030000 keep their separate deployment receipts; no blanket parity or live failure is established."
+    },
+    {
+      "label": "Partial ticket craft/spend model · local source reviewedNov26",
+      "detail": "The working simulator now accumulates expected fractional finds, spends five into crafts/events and feeds variant output into later finds. It omits sampled drop/collection outcomes, recipe coin costs, three-slot constraints and island-bound ticket identity. The recorded60-day/16-seed trial used Meteor×25 versus selected×50 and differs in hatch-turn handling; it does not verify the final combined rules or predict player rewards. Older band-remap/model receipts retain their dated scopes."
+    },
+    {
+      "label": "Local UI and nest-price shape · reviewedNov26",
+      "detail": "Working Reveal adds stable result columns/type and intended layout fixtures; EventsPane adds the next three minor skies. No executed current phone/release acceptance is established by test source. OwnerNov25 nest-buying direction sets rising successive costs and an equal first bought price per island; currency/numbers remain unset and it is design-only. No new art or native/store/recovery acceptance was found; unchanged art reports and scopes are reused fromNov25."
+    },
     {
       "label": "Gift backend deployed; native grant open · reviewedNov25",
       "detail": "95bd454b/ownerNov24 receipt records24010000 applied and preregistration-claim deployed after dry run; unsigned probe401 is auth-guard evidence, not a gift grant. bdbf560e commits store-proof plugin/export wiring; debug Android compilation includes BILLING, not a signed/store release.972 has no BILLING. Google configuration/product/track and promo/Apple sandbox proof remain open; no phone/real-store execution. iOS16+ proof/iOS15 gift gap remain, without a new support floor."
@@ -1393,14 +1429,14 @@
     }
   ],
   "firstWork": {
-    "title": "Prove pre-registration. Qualify what ships.",
+    "title": "Prove the next gift + ticket build.",
     "note": "Jan14 replaces Dec1 by Frozair’s late-Nov23 date-only decision; forty/five homes stay. This Nov23–29 week is replanned after that decision. The exact prior milestone/week version is retained in release-plan history; original missed checkpoints remain visible.",
     "items": [
       {
         "id": "native-first",
         "step": 1,
         "kind": "engine",
-        "title": "Prove the gift on phones and stores",
+        "title": "Prove the next build on phones",
         "when": "Before coordinated store opening",
         "owner": "Native/store owners · Frozair opening decision",
         "refs": [
@@ -1408,11 +1444,11 @@
           57,
           58
         ],
-        "outcome": "Gift SQL/function are deployed and the store-proof plugin is committed/debug-compiled with BILLING. No compatible signed release or phone/real-store grant is recorded;972 has no BILLING. Qualify Google product/track/configuration, Apple proof and the unchanged iOS15 gift gap. Backend delivery is not paid checkout.",
+        "outcome": "Pin a compatible gift/ticket candidate and reconcile its backend receipt first. Gift backend/plugin scopes are recorded, but no new signed client, phone/store gift grant or iOS15 coverage is established. New stronger odds and UI changes are local owner source; reuse972’s valid smoke only within its scope.",
         "species": [
           "Gift backend: deployed",
-          "Phone/store grant: open",
-          "iOS15 gift gap: open"
+          "Next client: unqualified",
+          "Phone/store grant: open"
         ]
       },
       {
@@ -1439,7 +1475,7 @@
         "id": "capacity-first",
         "step": 3,
         "kind": "operations",
-        "title": "Close ticket, legal and recovery gates",
+        "title": "Resolve rollout, legal + recovery",
         "when": "Before paid launch / coordinated opening",
         "owner": "Frozair + ticket/store/legal/operations owners",
         "refs": [
@@ -1448,10 +1484,10 @@
           57,
           58
         ],
-        "outcome": "Ticket client/server and paintedB icons are committed; ticket migration is deliberately held for a compatible next build. Gift backend deployment is separate. Approved bills/timers stay, while paid legal/prices/checkout and full recovery remain open. Delivered972 keeps its no-IAP scope; band-call alpha proof is not final pacing acceptance.",
+        "outcome": "Ticket source/icons are committed; stronger odds and model extensions remain uncommitted. Last explicit migration receipt says held, while new Numbers prose says applied without a newer receipt. Reconcile current rollout before acceptance; legal/prices/checkout and full recovery remain open.",
         "species": [
-          "Client/icons: committed",
-          "Ticket rollout: held",
+          "Rollout receipt: unresolved",
+          "Odds: local source",
           "Legal/recovery: open"
         ]
       }
@@ -1459,13 +1495,13 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "Cohorts stay10 integrated/11 redos/19 first packages pending complete source qualification; committed/working ranch/reveal inventory stays40/40. Microraptor, Suchomimus and Dilophosaurus add committed installation/motion progress, with bounded size approvals and remaining findings. No whole-contract gain follows. OriginalNov8 freeze remains unmet; rates staynull.",
+    "note": "Cohorts stay10 integrated/11 redos/19 first packages pending complete source qualification; inventory stays40/40. Nov26 art review reuses unchanged Nov25 report/approval inputs, not fresh quality or device passes. OriginalNov8 freeze remains unmet, days−18 with null rates; no new complete-contract gain or output rate is inferred.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -17,
+    "daysToFreeze": -18,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1837,9 +1873,9 @@
     "priorities": [
       {
         "id": "pin-972",
-        "title": "Qualify pre-registration store proof and gift",
+        "title": "Qualify the next gift/ticket candidate",
         "owner": "Release/native owners · Frozair acceptance",
-        "doneWhen": "Qualify phone/real-store grants, the compatible Billing-enabled release and remaining Google product/track/configuration. Gift backend is deployed and plugin source/debug compilation recorded; those receipts do not close eligibility or the iOS15 gift gap. Keep972 separate and reuse its valid scoped smoke.",
+        "doneWhen": "Reconcile the ticket backend apply receipt and pin a compatible candidate before phone/store proof. Gift deployment/plugin compilation stay scoped; the new odds/UI source is uncommitted, and iOS15 gift coverage remains open. Keep actual delivery dates and valid972 cases distinct.",
         "refs": [
           55,
           57,
@@ -1861,7 +1897,7 @@
         "id": "release-decision",
         "title": "Gate tickets, legal work and coordinated opening",
         "owner": "Frozair release/store/resources · operations owners",
-        "doneWhen": "Record compatible ticket-client/held-migration, phone/store gift, legal/prices and recovery/public-review proof or explicit holds. Preserve conditional earlyDecember opening, December7+days public beta and aboutJan5 final Apple plan. No new opening, beta span or paid checkout is established.",
+        "doneWhen": "Record reconciled ticket rollout and exact-rule/model limits, phone/store gift, legal/prices and recovery/public-review proof or explicit holds. Keep conditional earlyDecember opening, December7+days public beta and aboutJan5 Apple plan. No new opening, beta span, paid checkout or full native acceptance is recorded.",
         "refs": [
           55,
           57,
@@ -1899,9 +1935,9 @@
         "id": "thu-26",
         "date": "2026-11-26",
         "label": "THU 26",
-        "title": "Prove isolated recovery and load",
-        "focus": "Recover isolated restore/load and candidate recovery with operations owners; review legal/privacy and paid-ticket regional/purchase-card requirements with accountable owners. Monitoring/private backup/signed smoke stay scoped.",
-        "proof": "Actual authorized recovery/legal findings and explicit holds. Planning choices are not legal clearance, production checkout or a maintenance hosted operation."
+        "title": "Reconcile stronger tickets and rollout proof",
+        "focus": "Today’s review records the owner-selected stronger ticket windows in local uncommitted source, partial craft/spend model feedback and contradictory ticket rollout prose. Fixed reveal columns and minor-skies calendar rows are local UI work; art evidence is unchanged continuity.",
+        "proof": "Last explicit24020000 receipt is the compatible-client hold; newer Numbers wording claims alpha application without a newer apply/build receipt. Resolve that evidence gap before acceptance. No new phone/store grant, compatible signed candidate, public approval, complete package or recovery closure was found; maintenance read source/receipts only."
       },
       {
         "id": "fri-27",
