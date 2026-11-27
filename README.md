@@ -65,7 +65,7 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 26**, not an invented November
+remain distinct. Latest director audit is **November 27**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
@@ -83,7 +83,7 @@ An alpha wipe still requires Frozair’s release go-ahead.
 
 October25, November1, November8, November9–15 and November16 missed checkpoints keep
 their original dates/outcomes. The original November8 freeze remains **unmet**, with
-**30 whole-source packages pending qualification**; `daysToFreeze` is−18 as of Nov26
+**30 whole-source packages pending qualification**; `daysToFreeze` is−19 as of Nov27
 and both rate fields remain null. No replacement content-freeze date or exact earlyDecember
 beta week is invented. December1 is superseded by owner decision, not marked missed early.
 The exact old target, six milestones and prior November23–29 version are retained in
@@ -117,21 +117,29 @@ separate3min/every5min cadence. Three personal starts/island/NewYork day and one
 personal event/account stay. Items go to Tickets, not Bag/Sell All.107553e4 commits the
 client/server paths and e8bc049e the selected paintedB item icons. Migration20261124020000
 has **conflicting current rollout prose**. The last explicit owner receipt in MVP holds it
-for a compatible client after a rolled-back dry run; a newer working Numbers line calls it
-on alphaNov24 without a newer apply/build receipt. Current rollout needs owner reconciliation;
-this is no new hosted acceptance or live-failure diagnosis. Gift24010000 and band24030000
+for a compatible client after a rolled-back dry run; committed Numbers calls it
+on alphaNov24 while committed MVP keeps that hold. No reconciled apply/build manifest was found. Current rollout needs owner reconciliation;
+the known gap is no new hosted acceptance or live-failure diagnosis. Scoped owner alpha finds and
+a phone active-event display observation are valid within their limits. Gift24010000 and band24030000
 retain separate deployment receipts.972 cannot collect the new items, and generic tickets
 would stop working after intro if24020000 were applied. No compatible signed client or paid
 checkout is established.
 
 Frozair’s owner-recorded November25 “Yes, build it” selects **stronger ticket-only odds**:
 15% Gold,10% Rainbow and10% Meteor per eligible egg opened in the same15-minute windows.
-Local untracked25010000 applies Gold×3/Rainbow×25/Meteor×50 and lets ticket Rainbow/Meteor
-nest eggs roll at opening; hatch-time turns stay and already-turned eggs keep their look.
-Intro/scheduled skies, the25-reveal cap, item finds, bills and craft timers are unchanged.
-Named Tickets, Workshop-recipe and Gold Rush cards receive event chance lines in local source;
-creature/stat rolls remain stars. These new event displays are a scoped update to the older
-paid-card-only event-odds wording, not phone/render, hosted or paid-store acceptance.
+9352ddaa now commits25010000’s Gold×3/Rainbow×25/Meteor×50 package and ticket Rainbow/Meteor
+nest-egg opening rolls; hatch-time turns stay and already-turned eggs keep their look.
+Intro/scheduled skies, the25-reveal cap, bills and craft timers retain their scopes. Named
+Tickets/Workshop/Gold Rush event chance lines are source-built; creature/stat rolls stay stars.
+26020000 separately fixes an owner-phone free-Gold card showing ticket1-in-7 rather than its
+own1-in-20: reporting only, with no rule/odds change or established fix retest. Source integration
+and that bounded phone observation do not establish a matching signed candidate or full rollout.
+
+The later ownerNov26 selection triples ticket-item finds, committed in9352ddaa/26010000.
+Per reference dig-minute chances are Sun Coin8.4e-5, Rainbow Shell4.2e-5 and Meteorite3.3e-5;
+matching boosts10×/25×/80× and five items per craft stay. A guaranteed first find was rejected.
+The recorded one-item/two-day alpha observation is not a population result or reward forecast.
+This supersedes the older current-find rates; it changes neither coin bills nor craft timers.
 
 Frozair’s November23 plan selects **Amber ticket sales at launch**, with numeric odds on
 the paid purchase card and paid tickets disabled in Belgium, with **legal review before sales and
@@ -168,6 +176,12 @@ source/native qualification remain; these are no longer merely uninstalled candi
 untouched old sets. Six other Swamp sets’ compression-import corrections change no PNG
 footage and add no phone acceptance. Cohorts remain10/11/19; Shunosaurus’s named acceptance
 and the immutable October19 public still pack stay unchanged.
+New owner-local Diplodocus dig/happy/nap has Nov26 install and Nov27 desktop approval beside
+Rex. The12-take working recipe/report is uncommitted; sizing/findings, dedicated reveal,
+whole-source and phone scope remain open. Brachio’s new video-r2 front attempt stopped after
+rejected alternatives, with nothing filmed/installed/committed; R8/legacy banks/public still
+remain. Local heading-entry work is cosmetic, not a gameplay-odds change. These scopes add
+no complete-package count or measured accepted-output rate.
 
 All five now have runtime scenery: Forest c99a15bcfb; Giants 1ee79f5bbd; Swamp/Fernlands
 5787cfb9f5; Snow 2f5aea6e76 through 25c020d06e. Retire old concept-only/absent-runtime,
@@ -260,9 +274,9 @@ The recorded90-day/8-seed all-island no-sky comparison supports this remap’s b
 not native/unlucky/player pacing or a new35–42-day promise. Compare like model rows.
 
 Model scopes differ: the default sanctuary mode covers Forest/Giants; opt-in all-island
-and recorded-visit modes cover later progression. The new uncommitted ticket model now
+and recorded-visit modes cover later progression. The ticket model committed in9352ddaa now
 accumulates expected fractional finds, spends them into crafts/events and feeds variant output
-back into later finds. It omits sampled drop/collection outcomes, recipe coin bills, craft slots
+back into later finds. It omits sampled drop/collection outcomes, ticket recipe coin bills, craft slots
 and island-bound ticket identity; Egg Bag/dino-level scope also remains incomplete. The recorded
 60-day/16-seed trial used Meteor×25 rather than selected×50 and differs in hatch-turn handling,
 so it is not verification of the final combined rules. Reward totals and weekly projections
@@ -274,10 +288,17 @@ and unselected spawning alternatives are not approved product tuning. The 5–6-
 and Brachio 2B choice are not newly verified pacing outcomes; coherent profiles and
 ordinary/unlucky current play remain open.
 
-Working Reveal result columns and minor-skies calendar rows have intended fixtures but no new
-phone/release acceptance. November25 bought-nest shape is recorded: successive buys rise on
-each island and the first bought nest starts at the same price across islands. Currency and
-numbers remain unset; padlocks show no price and this remains design-only.
+9352ddaa commits Reveal result columns, minor-skies calendar, Tickets HUD and Workshop guidance;
+029efc0c commits barn reveal framing. Source/test fixtures are not a new phone/release pass.
+
+Bought-nest currency/prices are now selected and source-built in3abdf826/26030000: **coins1M×4
+per nest bought on that island, cap8 total nests**. Forest starts3 and permits5 buys; others
+start2 and permit6. The sixth permitted buy is exactly1.024B, despite rounded1B prose. Price
+confirmation and waiting-egg seating are source behavior, with hosted/native/persistence proof
+open. Whether Amber can also buy nests remains undecided; this does not authorize paid checkout.
+Its separate opt-in nest-price model deducts actual nest coins/caps without ticket-item/craft
+options. Collector egg-budget behavior is a model assumption, not a player forecast or combined
+ticket+nest acceptance.
 
 
 
@@ -363,11 +384,11 @@ Nov16. Optional milestone.checkpointDate drives the compact missed-date list bef
 falling back to end, and validation requires it inside the original milestone range.
 This prevents Nov30 being labeled missed while preserving all original dates.
 
-Publication coordination: the November26 owner snapshot records shared website main
+Publication coordination: the November27 owner snapshot records shared website main
 `850361a5f327bfa90fc3c04627a04d29b4d20c86`, owner Beby privacy edits and untracked build info.
 Do not push, reset or rebase that checkout. The isolated production checkout at
 `/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` starts from
-verified production`4da810d705ab565ad6cdb861bce4687f376583f6` for this update.
+verified production`d3298aac8181aa363b39e3ede036a82edb6adb1e` for this update.
 That production base includes Wobblings privacy work. Preserve both unrelated owner
 files and reconcile ancestry/owner-before evidence before publication.
 

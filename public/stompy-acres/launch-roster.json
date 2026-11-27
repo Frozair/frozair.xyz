@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "targetDate": "2027-01-14",
   "totalTarget": 40,
   "selectionVersion": "2026-10-18-r3-cold-roster",
@@ -423,7 +423,7 @@
           "role": "Low sweeping long-neck",
           "status": "Approved look · asset redo needed",
           "rationale": "Long horizontal neck and tail contrast with Dread’s height.",
-          "note": "The committed ranch bank adds front and back walks and run aliases. The approved-look redo and complete reveal and device qualification remain open.",
+          "note": "Local owner ranch installation now includes dig/happy/nap, with Nov26 install and Nov27 desktop acceptance beside Rex. This source is uncommitted; sizing and recorded findings remain scoped. Dedicated reveal, whole-source and phone qualification stay open. Selected public still/home and the committed baseline remain unchanged.",
           "habitat": {
             "rating": "strong",
             "confidence": "high",
@@ -1172,7 +1172,7 @@
           "role": "Friendly tall-neck",
           "status": "Approved look · asset redo needed",
           "rationale": "Your requested Fernlands long-neck. Proposed to take Iguanodon’s place, keeping the classic Stegosaurus.",
-          "note": "The selected R8 candidate currently has three takes. The legacy ranch and reveal assets remain installed; the approved-look redo and complete qualification remain open.",
+          "note": "The Nov26 video-r2 front-view attempt stopped at checkpoint1 after rejected front alternatives; nothing was filmed, installed or committed from it. Selected R8 and legacy ranch/reveal banks stay unchanged. The approved-look redo and complete qualification remain open; no automatic production restart.",
           "moveNote": "Launch home confirmed",
           "habitat": {
             "rating": "conditional",
@@ -1453,5 +1453,5 @@
   "rosterStatus": "locked",
   "lockedAt": "2026-10-18",
   "lockNote": "Species and homes locked October 18; selected still references approved October 19. Motion, runtime and native acceptance remain separate.",
-  "nextReview": "2026-11-27"
+  "nextReview": "2026-11-28"
 }
