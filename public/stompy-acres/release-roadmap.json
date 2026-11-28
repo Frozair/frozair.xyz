@@ -3,8 +3,8 @@
   "title": "The road to five islands.",
   "subtitle": "Stompy Acres · Release director’s board",
   "targetDate": "2027-01-14",
-  "asOf": "2026-11-27",
-  "nextReview": "2026-11-28",
+  "asOf": "2026-11-28",
+  "nextReview": "2026-11-29",
   "timezone": "America/Chicago",
   "health": "Critical risk",
   "healthNote": "Ticket/nest/UI source is committed, including selected×3 item finds and coin nest purchases. Scoped alpha/phone observations exist, but exact rollout/candidate alignment remains unreconciled. Gift/store grants, thirty source contracts and broad native/recovery/legal/store gates remain open. Jan14 and all forty/five islands stay.",
@@ -796,6 +796,10 @@
   ],
   "changes": [
     {
+      "date": "2026-11-28",
+      "text": "Read-only continuity review records routine0dd11805 Treasure/left-card presentation source and intended test source. Prior tuning, art and delivery receipts retain their scopes; no new acceptance, rollout resolution or release gate is established. Jan14, cohorts, exact roster and complete history remain unchanged."
+    },
+    {
       "date": "2026-11-27",
       "text": "9352ddaa commits stronger ticket/UI/model work and the selected×3 item-find rates;3abdf826 commits coin nest buying from1M×4 per island purchase, capped at8 total. No new matching signed/store or full-bundle rollout acceptance follows. Prior item odds and unset nest prices are now historical."
     },
@@ -993,6 +997,10 @@
     }
   ],
   "evidence": [
+    {
+      "label": "Routine source continuity · reviewedNov28",
+      "detail": "0dd11805 changes Treasure/current-find presentation, size/height treatment and left-card overlap behavior, with source for intended tests. Reviewed economy/native/art receipt inputs are unchanged fromNov27; dated art approvals/report pins are reused, not fresh checks. No newer apply/build manifest, gift grant, public approval or broad native/recovery acceptance was found. The known ticket rollout conflict remains unchanged, not a new failure or decision alert."
+    },
     {
       "label": "Committed stronger tickets and ×3 finds · reviewedNov27",
       "detail": "9352ddaa commits25010000’s15% Gold/10% Rainbow/10% Meteor ticket package and26010000’s newer owner-selected×3 item finds. Per reference dig-minute: Sun8.4e-5/Rainbow4.2e-5/Meteor3.3e-5; matching boosts10×/25×/80×, five-item bills and craft timers stay. Frozair rejected a guaranteed first find. The one-item/two-day hosted-alpha report is a bounded owner observation, not measured population acceptance or a reward forecast."
@@ -1533,13 +1541,13 @@
   },
   "production": {
     "title": "10 looks integrated. 30 packages to finish.",
-    "note": "Cohorts stay10 integrated/11 redos/19 first packages pending complete source qualification; named inventory stays40/40. Local Diplodocus actions add scoped desktop/install approval, while Brachio’s new front attempt stopped. Neither creates a whole-contract gain or phone/reveal acceptance. OriginalNov8 freeze remains unmet, days−19 with null rates.",
+    "note": "Cohorts stay10 integrated/11 redos/19 first packages pending complete source qualification; named inventory stays40/40. Local Diplodocus actions add scoped desktop/install approval, while Brachio’s new front attempt stopped. Neither creates a whole-contract gain or phone/reveal acceptance. OriginalNov8 freeze remains unmet, days−20 with null rates.",
     "total": 40,
     "existingBanks": 21,
     "missingBanks": 19,
     "accepted": null,
     "freezeDate": "2026-11-08",
-    "daysToFreeze": -19,
+    "daysToFreeze": -20,
     "minimumNewPerWeek": null,
     "islands": [
       {
@@ -1990,8 +1998,8 @@
         "date": "2026-11-28",
         "label": "SAT 28",
         "title": "Prepare coordinated store opening",
-        "focus": "Reconcile actual Apple/Google approvals and pre-registration/pre-order readiness, targeting earlyDecember only after both approvals. Pin gift configuration/rollout and ticket/legal holds; delivered972 remains internal/no-IAP.",
-        "proof": "Real approvals/configuration/candidate receipts or explicit pending state. OriginalNov16 and Nov9–15 historical misses stay; no exact opening date or public-beta span is claimed."
+        "focus": "Morning review finds routine Treasure/left-card presentation source and unchanged owner receipt scopes. The intended owner action remains to reconcile Apple/Google approvals, pre-registration/pre-order readiness, gift configuration and ticket/legal rollout inputs before any coordinated opening. Delivered972 remains internal/no-IAP.",
+        "proof": "Reviewed source adds no newer tuning, scoped apply/build manifest, compatible signed candidate, actual gift claim or broad native/store/recovery acceptance. Gates remain pending this morning; the day/week is not declared missed and no exact opening or public-beta span is claimed."
       },
       {
         "id": "sun-29",

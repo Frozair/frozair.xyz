@@ -65,13 +65,18 @@ missed-checkpoint dates derive from blocked milestones. Do not restore a long de
 
 Update from Pigeon/source/recorded native/operations/store evidence. Review dates
 advance only after actual review; source/local/hosted/native/director acceptance
-remain distinct. Latest director audit is **November 27**, not an invented November
+remain distinct. Latest director audit is **November 28**, not an invented November
 2/3 audit. The original **November 1 all-five persistent native/data and isolated
 restore/load gate is unmet** in the inspected receipt scope; October 25 also remains
 unmet. Keep both original dates. The archived November 2–8 recovery/freeze plan followed
 actual outcomes; its Monday/Tuesday cards describe dated source work and are not
 retroactive proposed targets. Earlier October 26–November 1 and November 2–8 plans are archived intact,
 with their dated outcomes appended. The complete November 9–15 beta plan is also archived with its unmet outcome. The complete November16–22 plan is now archived with partial gains and its unmet broader qualification outcome. The active November23–29 plan is replanned November24 after the explicit late-November23 January14 decision. Its exact previous version and six milestones are preserved in `releasePlanHistory`, alongside the four unchanged complete `weeklyHistory` entries. Current priority is the next compatible gift/ticket candidate and reconciled rollout receipt; delivered972 keeps its prior scope.
+
+The November28 morning continuity review finds routine0dd11805 Treasure/left-card presentation
+source and intended test source. Reviewed tuning, art and delivery receipts retain their prior
+scopes; no newer apply/candidate/native/store/recovery acceptance is recorded. This is no new
+release milestone or repeated rollout alert, and the current day/week remains in progress.
 
 Frozair’s active November23 Pigeon#55 decision
 `f349fcac-3e9e-4b1b-b901-2f3b0b679b90` replaces **December1 with January14,2027**,
@@ -83,7 +88,7 @@ An alpha wipe still requires Frozair’s release go-ahead.
 
 October25, November1, November8, November9–15 and November16 missed checkpoints keep
 their original dates/outcomes. The original November8 freeze remains **unmet**, with
-**30 whole-source packages pending qualification**; `daysToFreeze` is−19 as of Nov27
+**30 whole-source packages pending qualification**; `daysToFreeze` is−20 as of Nov28
 and both rate fields remain null. No replacement content-freeze date or exact earlyDecember
 beta week is invented. December1 is superseded by owner decision, not marked missed early.
 The exact old target, six milestones and prior November23–29 version are retained in
@@ -384,11 +389,11 @@ Nov16. Optional milestone.checkpointDate drives the compact missed-date list bef
 falling back to end, and validation requires it inside the original milestone range.
 This prevents Nov30 being labeled missed while preserving all original dates.
 
-Publication coordination: the November27 owner snapshot records shared website main
+Publication coordination: the November28 owner snapshot records shared website main
 `850361a5f327bfa90fc3c04627a04d29b4d20c86`, owner Beby privacy edits and untracked build info.
 Do not push, reset or rebase that checkout. The isolated production checkout at
 `/Users/frozair/.codex/worktrees/roadmap-publish-nov9/frozair.xyz` starts from
-verified production`d3298aac8181aa363b39e3ede036a82edb6adb1e` for this update.
+verified production`91b0082b8abee4795d02f7867ff14d9f0539be36` for this update.
 That production base includes Wobblings privacy work. Preserve both unrelated owner
 files and reconcile ancestry/owner-before evidence before publication.
 
